@@ -2,7 +2,7 @@
  * サイト全体の設定。公開URLなどは環境変数で上書きできる。
  *
  *   NEXT_PUBLIC_SITE_URL       公開URL（末尾スラッシュなし。basePath を含む）
- *   NEXT_PUBLIC_BASE_PATH      basePath（next.config.js で設定。ルート直下なら "/"）
+ *   NEXT_PUBLIC_BASE_PATH      basePath（サブパスで公開する場合のみ）
  *   NEXT_PUBLIC_GA_ID          GA4 測定ID（G-XXXX）。未設定なら計測タグを出力しない
  *   NEXT_PUBLIC_ADSENSE_CLIENT AdSense クライアントID（ca-pub-XXXX）。未設定なら広告を出力しない
  *   NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE / NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR 広告ユニットID
@@ -15,8 +15,7 @@ export const site = {
   description:
     "アニメ・漫画を入口に、キャラクターや設定の背景にある神話・伝承を、原典と研究にもとづいて解説する知識メディア。",
   url: (
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://reload-co-jp.github.io/tanemoto"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://tanetomo.reload.co.jp"
   ).replace(/\/$/, ""),
   basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
   locale: "ja_JP",

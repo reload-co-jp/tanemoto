@@ -1,14 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-// GitHub Pages のプロジェクトページで公開する場合は basePath が必要。
-// 独自ドメイン（ルート直下）で公開する場合は NEXT_PUBLIC_BASE_PATH="/" を指定する。
-// （GitHub Actions の未設定の変数は空文字になるため、空文字は「未指定」として扱う）
-const envBasePath = process.env.NEXT_PUBLIC_BASE_PATH
-const basePath = envBasePath
-  ? envBasePath.replace(/\/$/, "")
-  : process.env.NODE_ENV === "production"
-    ? "/tanemoto"
-    : ""
+// 独自ドメイン（tanetomo.reload.co.jp）のルート直下で公開するため basePath は空。
+// サブパスで公開する場合のみ NEXT_PUBLIC_BASE_PATH="/path" を指定する。
+const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? "").replace(/\/$/, "")
 
 const nextConfig = {
   output: "export",
