@@ -1,21 +1,282 @@
 {
   "id": "poseidon",
   "slug": "poseidon",
-  "title": "ポセイドンとは？海を支配する神",
-  "description": "海の神ポセイドンの出自、世界の三分割、馬や地震との結びつきを原典から解説します。",
-  "category": "gods-heroes",
-  "tags": ["ポセイドン"],
+  "title": "『聖闘士星矢』ポセイドンの元ネタは？海の神ポセイドンを原典から解説",
+  "shortTitle": "聖闘士星矢ポセイドンの元ネタ",
+  "eyecatchText": "ポセイドン",
+  "description": "『聖闘士星矢』でアテナと対立する海皇ポセイドン。その元ネタであるギリシャ神話の海の神ポセイドンの出自、アテナとの争い、オデュッセウスへの怒りなどを原典から解説します。",
+  "lead": "『聖闘士星矢』で、海を支配する神としてアテナと対立するポセイドン。元ネタとなったギリシャ神話のポセイドンも、ゼウスの命令に反発し、アテナと土地を争い、英雄オデュッセウスを苦しめる——誇り高く激しい神として語られています。",
+  "category": "character-origins",
+  "tags": ["ポセイドン", "聖闘士星矢", "アテナ", "海", "オデュッセウス"],
   "publishedAt": "2026-11-17",
   "updatedAt": "2026-11-17",
-  "status": "draft",
+  "status": "published",
   "featured": false,
-  "figureIds": ["poseidon"],
+  "figureIds": ["poseidon", "athena", "zeus", "hades", "medusa", "pegasus"],
   "mythologyIds": ["greek"],
-  "storyIds": [],
-  "workIds": [],
+  "storyIds": ["division-of-the-world", "children-of-cronos"],
+  "workIds": ["saint-seiya"],
+  "characterIds": ["saint-seiya-poseidon"],
   "topicIds": [],
-  "sourceIds": [],
-  "relatedArticleIds": [],
-  "body": [],
-  "claims": []
+  "sourceIds": [
+    "work-saint-seiya",
+    "hesiod-theogony",
+    "homer-iliad",
+    "apollodorus-library",
+    "homer-odyssey"
+  ],
+  "relatedArticleIds": ["athena", "hades", "saint-seiya-greek-gods"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『聖闘士星矢』のポセイドンと元ネタ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『聖闘士星矢』のポセイドンは、海を支配する神として登場し、アテナと対立します。名前は、ギリシャ神話の海の神ポセイドンをそのまま用いたものです。",
+      "claimIds": ["poseidon-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "この記事では、元ネタとなったギリシャ神話のポセイドンが原典でどのように語られているかを紹介します。作品の設定と神話の内容は、情報区分ラベルで区別しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "クロノスの子、ゼウスとハデスの兄弟",
+      "anchor": "origin"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、ポセイドンはクロノスとレアの子で、兄弟姉妹にはヘスティア、デメテル、ヘラ、ハデス、ゼウスがいます。『神統記』はポセイドンを「轟く大地を揺るがす者」と呼んでいます。",
+      "claimIds": ["poseidon-parents"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』では、ポセイドン自身が「われらはクロノスとレアから生まれた三兄弟——ゼウスとわたし、そして死者を治めるハデスだ」と語り、くじ引きによって自分は灰色の海を、ハデスは闇を、ゼウスは天空を得たと説明しています。",
+      "claimIds": ["poseidon-lot"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "海を駆け、大地を揺るがす神",
+      "anchor": "sea"
+    },
+    {
+      "type": "paragraph",
+      "text": "『イリアス』第13歌には、海の神らしいポセイドンの姿が描かれています。ポセイドンは海の深みにある、黄金に輝く朽ちることのない館に向かい、黄金のたてがみをもつ青銅の蹄の馬を戦車につなぎ、自らも黄金をまとって、波の上を駆けていきました。海の獣たちは主を知って、四方から深みを出て戯れたといいます。",
+      "claimIds": ["poseidon-chariot"]
+    },
+    {
+      "type": "paragraph",
+      "text": "また第20歌では、神々が戦いに加わったとき、ポセイドンが下から広大な大地と山々の頂を揺り動かしたと語られます。その揺れの大きさに、冥界のハデスが「大地が裂けて自分の住処が露わになる」と恐れて玉座から跳び上がるほどでした。",
+      "claimIds": ["poseidon-quake"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゼウスにも屈しない誇り",
+      "anchor": "pride"
+    },
+    {
+      "type": "paragraph",
+      "text": "ポセイドンの性格をよく表すのが、『イリアス』第15歌の場面です。ゼウスに戦場から退くよう命じられたポセイドンは、「自分は彼と同等の名誉をもつ者だ」と怒り、ゼウスは三分の一の領分でおとなしくしていればよい、と言い返しています。",
+      "claimIds": ["poseidon-pride"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アテナとの争い——アテナイの名の由来",
+      "anchor": "athena"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品でのアテナとの対立に対応する神話が、原典にもあります。アポロドロス『ビブリオテーケー』によれば、神々が崇拝される町を定めようとしたとき、ポセイドンがまずアッティカに来て、三叉の矛でアクロポリスを打ち、海を湧き出させました。",
+      "claimIds": ["poseidon-attica-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "しかしあとから来たアテナがオリーブの木を植え、十二神の裁定で土地はアテナのものとされます。怒ったポセイドンは、トリアシオンの平野を水浸しにし、アッティカを海の下に沈めたといいます。",
+      "claimIds": ["poseidon-attica-2"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "作品の対立構図との共通点",
+      "text": "アテナと土地を争い、敗れると怒って洪水を起こすポセイドンの姿は、作品でアテナと対立する海の神という構図と重なります。ただし、作者がこの神話を直接参照したかどうかは確認できないため、ここでは共通点として紹介します。",
+      "claimIds": ["poseidon-attica-2", "poseidon-editorial-attica"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "オデュッセウスへの怒り",
+      "anchor": "odysseus"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『オデュッセイア』では、ポセイドンは英雄オデュッセウスの帰国を阻む神として登場します。神々がみなオデュッセウスを憐れむなか、ポセイドンだけは彼が故郷に帰り着くまで、絶えず怒りを燃やし続けました。",
+      "claimIds": ["poseidon-odyssey-anger"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その理由は、オデュッセウスがキュクロプス（一つ目の巨人）のポリュペモスの目をつぶしたことでした。ポリュペモスは、ポセイドンとニンフのトオサの間に生まれた息子だったのです。",
+      "claimIds": ["poseidon-odyssey-polyphemus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "メデューサとペガサスの父",
+      "anchor": "medusa"
+    },
+    {
+      "type": "paragraph",
+      "text": "ポセイドンは怪物や幻獣とも縁があります。『神統記』では、メデューサが「黒髪の神」と交わったと語られ、ペルセウスが彼女の首を切ると天馬ペガソスとクリュサオルが生まれました。アポロドロスは、この二者をポセイドンの子としています。",
+      "claimIds": ["poseidon-medusa"]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは[ペガサスとは？翼を持つ馬の誕生](/articles/pegasus/)をご覧ください。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品と原典の違い・共通点",
+      "anchor": "comparison"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**共通点**：海を支配する神であり、アテナと対立する（原典ではアッティカをめぐる争い）",
+        "**共通点**：最高神ゼウスにも屈しない誇り高い性格",
+        "**原典ならではの側面**：大地を揺るがす神であり、オデュッセウスを苦しめ、ペガソスの父ともされる"
+      ],
+      "claimIds": ["poseidon-editorial-compare"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『聖闘士星矢』のポセイドンは、ギリシャ神話の海の神ポセイドンの名をそのまま用いている",
+        "原典のポセイドンはクロノスとレアの子で、くじ引きで海を得た（『イリアス』）",
+        "ゼウスと「同等の名誉」をもつと主張する誇り高い神",
+        "アッティカをめぐってアテナと争い、敗れて平野を水浸しにした（アポロドロス）",
+        "息子ポリュペモスの目をつぶしたオデュッセウスに怒り続けた（『オデュッセイア』）"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "poseidon-work",
+      "text": "作中のポセイドンは海を支配する神として登場し、アテナと対立する。名はギリシャ神話の海の神ポセイドンと同じである。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "poseidon-parents",
+      "text": "ポセイドンはクロノスとレアの子で、兄弟姉妹はヘスティア、デメテル、ヘラ、ハデス、ゼウスである。『神統記』は「轟く大地を揺るがす者」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–457行"
+    },
+    {
+      "id": "poseidon-lot",
+      "text": "ゼウス・ポセイドン・ハデスはくじで世界を分け、ポセイドンは海を得た。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "poseidon-chariot",
+      "text": "ポセイドンは海の深みにある黄金の館で、黄金のたてがみの青銅の蹄の馬を戦車につなぎ、波の上を駆けた。海の獣たちは深みから出て戯れた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』13.21–29"
+    },
+    {
+      "id": "poseidon-quake",
+      "text": "ポセイドンは大地と山々を揺り動かし、ハデスは住処が露わになることを恐れて玉座から跳び上がった。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』20.57–65"
+    },
+    {
+      "id": "poseidon-pride",
+      "text": "ポセイドンは、ゼウスと同等の名誉をもつと主張して、その命令に反発した。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.185–195"
+    },
+    {
+      "id": "poseidon-attica-1",
+      "text": "ポセイドンはまずアッティカに来て、三叉の矛でアクロポリスを打ち海を湧き出させた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.14.1"
+    },
+    {
+      "id": "poseidon-attica-2",
+      "text": "アテナがオリーブを植え、十二神の裁定で土地はアテナのものとされた。怒ったポセイドンはトリアシオンの平野を水浸しにし、アッティカを海の下に沈めた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.14.1"
+    },
+    {
+      "id": "poseidon-editorial-attica",
+      "text": "アテナと争うポセイドンの神話は、作品の対立構図と共通するが、作者が参照したかは確認できない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "poseidon-odyssey-anger",
+      "text": "神々のなかでポセイドンだけは、オデュッセウスが故郷に着くまで怒り続けた。",
+      "classification": "fact",
+      "sourceIds": ["homer-odyssey"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オデュッセイア』1.19–21"
+    },
+    {
+      "id": "poseidon-odyssey-polyphemus",
+      "text": "ポセイドンの怒りの理由は、オデュッセウスが息子であるキュクロプスのポリュペモスの目をつぶしたことだった。ポリュペモスはポセイドンとニンフのトオサの子である。",
+      "classification": "fact",
+      "sourceIds": ["homer-odyssey"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オデュッセイア』1.68–73"
+    },
+    {
+      "id": "poseidon-medusa",
+      "text": "メデューサは「黒髪の神」と交わり、首を切られるとペガソスとクリュサオルが生まれた。アポロドロスはこれらをポセイドンの子とする。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony", "apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』278–281行／『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "poseidon-editorial-compare",
+      "text": "作品と原典では、海の神としてアテナと対立する点や誇り高い性格が共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
 }

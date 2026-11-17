@@ -54,6 +54,7 @@ const sitemap = (): MetadataRoute.Sitemap => {
       .filter((t) => getArticlesForTopic(t).length > 0)
       .map((t) => entry(paths.topic(t.slug), latest, 0.5)),
     entry(paths.characters(), latest, 0.8),
+    entry(paths.origins(), latest, 0.7),
     ...getCharacters().map((c) => entry(paths.character(c.slug), latest, 0.8)),
     entry(paths.works(), latest, 0.6),
     ...getWorks()

@@ -1,5 +1,13 @@
 [
   {
+    "id": "character-origins",
+    "slug": "character-origins",
+    "name": "キャラクターの元ネタ",
+    "nameEn": "Character Origins",
+    "description": "アニメ・漫画のキャラクターを入口に、名前やモチーフの元ネタとなった神話・伝承を解説します。",
+    "order": 0
+  },
+  {
     "id": "gods-heroes",
     "slug": "gods-heroes",
     "name": "神々・英雄",

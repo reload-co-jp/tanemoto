@@ -121,7 +121,8 @@ const Page = () => {
         {works.length > 0 && (
           <div style={{ marginTop: 20 }}>
             <p className="t-meta" style={{ marginBottom: 8 }}>
-              作品から探す
+              作品から探す ／{" "}
+              <Link href={paths.origins()}>神話から逆引きする →</Link>
             </p>
             <ChipList
               items={works.map((w) => ({

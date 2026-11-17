@@ -68,6 +68,7 @@ const styles = css`
   }
   .t-eyecatch--hero {
     font-size: 1.1rem;
+    aspect-ratio: 16 / 7;
   }
   @media (min-width: 800px) {
     .t-eyecatch--hero {

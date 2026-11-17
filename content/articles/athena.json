@@ -1,21 +1,280 @@
 {
   "id": "athena",
   "slug": "athena",
-  "title": "アテナとは？知恵と戦争の女神",
-  "description": "知恵と戦いの女神アテナの誕生、英雄たちへの助力、アイギスなどの持ち物を原典から解説します。",
-  "category": "gods-heroes",
-  "tags": ["アテナ"],
+  "title": "城戸沙織の元ネタ・アテナとは？『聖闘士星矢』の女神を原典から解説",
+  "shortTitle": "城戸沙織の元ネタ・アテナとは？",
+  "eyecatchText": "アテナ",
+  "description": "『聖闘士星矢』の城戸沙織の元ネタ、女神アテナ。ゼウスの頭から生まれた誕生譚、ゴルゴンの首のアイギス、英雄を助ける女神としての姿、ポセイドンとの争いを原典から解説します。",
+  "lead": "『聖闘士星矢』で、聖闘士たちが命をかけて守る女神アテナ——城戸沙織。その元ネタであるギリシャ神話のアテナは、原典ではどのような女神として語られているのでしょうか。作品の設定と神話の内容を区別しながら、元ネタのアテナをたどります。",
+  "category": "character-origins",
+  "tags": ["城戸沙織", "アテナ", "聖闘士星矢", "ゼウス", "ポセイドン"],
   "publishedAt": "2026-11-17",
   "updatedAt": "2026-11-17",
-  "status": "draft",
-  "featured": false,
-  "figureIds": ["athena"],
+  "status": "published",
+  "featured": true,
+  "figureIds": ["athena", "zeus", "poseidon", "perseus", "bellerophon"],
   "mythologyIds": ["greek"],
-  "storyIds": [],
-  "workIds": [],
-  "topicIds": [],
-  "sourceIds": [],
-  "relatedArticleIds": [],
-  "body": [],
-  "claims": []
+  "storyIds": ["perseus-medusa", "bellerophon-chimera"],
+  "workIds": ["saint-seiya"],
+  "characterIds": ["saint-seiya-saori"],
+  "topicIds": ["divine-items", "heroic-quest"],
+  "sourceIds": [
+    "work-saint-seiya",
+    "hesiod-theogony",
+    "homer-iliad",
+    "apollodorus-library",
+    "pindar-odes"
+  ],
+  "relatedArticleIds": ["poseidon", "saint-seiya-greek-gods"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "城戸沙織と元ネタのアテナ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『聖闘士星矢』の城戸沙織は、作中で女神アテナとされる少女です。聖闘士（セイント）たちは、このアテナを守るために戦います。",
+      "claimIds": ["athena-work-saori"]
+    },
+    {
+      "type": "paragraph",
+      "text": "この記事では、城戸沙織の元ネタであるギリシャ神話の女神アテナが、古代の原典でどのように語られているのかを紹介します。作品の設定と神話の内容は別のものとして、情報区分ラベルで区別しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゼウスの頭から生まれた女神",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、ゼウスが最初に妻としたのは、神々と人間のなかで最も賢い女神メティスでした。メティスがアテナを産もうとしたとき、ゼウスは大地（ガイア）と天（ウラノス）の助言に従い、言葉巧みにメティスを欺いて自分の腹の中に呑み込みます。",
+      "claimIds": ["athena-birth-metis"]
+    },
+    {
+      "type": "paragraph",
+      "text": "メティスからは、まず父に匹敵する力と賢い分別をもつ娘が、続いてゼウスに代わって神々と人間の王となる息子が生まれる定めだったからです。",
+      "claimIds": ["athena-birth-prophecy"]
+    },
+    {
+      "type": "paragraph",
+      "text": "やがてゼウスは、自らの頭から輝く目のトリトゲネイア（アテナ）を産みました。『神統記』はこの女神を「恐ろしく、争いをかきたて、軍勢を率い、疲れを知らぬ女王で、騒乱と戦争と戦いを喜ぶ」と形容しています。",
+      "claimIds": ["athena-birth-head"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「知恵」と「戦い」の二つの顔",
+      "text": "『神統記』の記述には、アテナの二つの側面がよく表れています。母メティスは神々のなかで最も賢い女神であり、アテナは父に匹敵する「賢い分別」をもつとされます。一方で、生まれたアテナは軍勢を率いて戦いを喜ぶ女神として描かれています。",
+      "claimIds": [
+        "athena-birth-prophecy",
+        "athena-birth-head",
+        "athena-editorial-two-sides"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゴルゴンの首を据えたアイギス",
+      "anchor": "aegis"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』では、アテナが戦場に向かう場面が描かれます。アテナは父ゼウスの衣をまとって武装し、肩には恐怖を呼ぶ房飾りのついたアイギスをかけました。そこには恐ろしい怪物ゴルゴンの首がありました。",
+      "claimIds": ["athena-aegis-iliad"]
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロス『ビブリオテーケー』は、このゴルゴンの首の由来を伝えています。英雄ペルセウスはメデューサの首を取ったあと、その首をアテナに捧げ、アテナはそれを自分の盾の中央にはめ込んだとされます。",
+      "claimIds": ["athena-aegis-perseus"]
+    },
+    {
+      "type": "paragraph",
+      "text": "メデューサとゴルゴンについては[メデューサとは？ゴルゴンの伝承](/articles/medusa/)で詳しく解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "英雄を助ける女神",
+      "anchor": "heroes"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のアテナは、英雄たちを導き、助ける女神として繰り返し登場します。ペルセウスはヘルメスとアテナの導きでメデューサ退治に向かい、アテナに手を導かれながら、盾に映った姿を見てメデューサの首を切りました。",
+      "claimIds": ["athena-perseus"]
+    },
+    {
+      "type": "paragraph",
+      "text": "またピンダロスによれば、天馬ペガソスを手なずけられずにいた英雄ベレロポンの夢にアテナが現れ、黄金の手綱を授けました。ベレロポンはこの手綱でペガソスを捕らえ、キマイラを退治しています。",
+      "claimIds": ["athena-bellerophon"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "『聖闘士星矢』の星矢とのつながり",
+      "text": "作品では、ペガサスの聖衣をまとう星矢がアテナを守ります。原典でも、アテナは天馬ペガソスを手なずける手綱を授けた女神です。作者がこの挿話を意識したかどうかは確認できませんが、アテナとペガソスの結びつきは原典と作品に共通して見られます。",
+      "claimIds": ["athena-bellerophon", "athena-editorial-pegasus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アテナとポセイドンの争い",
+      "anchor": "poseidon"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品ではアテナと海の神ポセイドンが対立しますが、原典にもアテナとポセイドンが争う神話があります。アポロドロスによれば、神々がそれぞれ自分の崇拝される町を定めようとしたとき、まずポセイドンがアッティカに来て、三叉の矛でアクロポリスを打ち、のちに「エレクテイス」と呼ばれる海を湧き出させました。",
+      "claimIds": ["athena-attica-poseidon"]
+    },
+    {
+      "type": "paragraph",
+      "text": "続いてアテナが来て、ケクロプス王を証人としてオリーブの木を植えます。二柱が土地をめぐって争ったため、ゼウスは十二神を裁定者に任じました。ケクロプスがアテナが先にオリーブを植えたと証言したことから、土地はアテナのものとされ、アテナは町を自分の名にちなんでアテナイと名づけました。怒ったポセイドンは、トリアシオンの平野を水浸しにしたといいます。",
+      "claimIds": ["athena-attica-athena"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『聖闘士星矢』のポセイドンについては[『聖闘士星矢』ポセイドンの元ネタ](/articles/poseidon/)で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品と原典の違い・共通点",
+      "anchor": "comparison"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**共通点**：アテナは戦いの女神であり、英雄たちと深く結びついている",
+        "**共通点**：ポセイドンとの対立は、原典のアッティカをめぐる争いにも見られる",
+        "**違い**：原典のアテナは自ら武装して戦場に向かい、英雄を「助ける」側として描かれる。作品では聖闘士たちに「守られる」女神として位置づけられている"
+      ],
+      "claimIds": ["athena-editorial-compare"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "城戸沙織は『聖闘士星矢』で女神アテナとされるキャラクター",
+        "元ネタのアテナは、ゼウスが呑み込んだメティスの子で、ゼウスの頭から生まれた（『神統記』）",
+        "アイギスにはペルセウスが捧げたゴルゴンの首が据えられている",
+        "ペルセウスやベレロポンなど、英雄を助ける女神として登場する",
+        "アッティカをめぐってポセイドンと争い、勝ってアテナイの名の由来となった"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "athena-work-saori",
+      "text": "城戸沙織は作中で女神アテナとされ、聖闘士たちはアテナを守るために戦う。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "athena-birth-metis",
+      "text": "ゼウスは最も賢い女神メティスを最初の妻とし、アテナが生まれようとするとき、大地と天の助言に従ってメティスを欺き腹に呑み込んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』886–890行"
+    },
+    {
+      "id": "athena-birth-prophecy",
+      "text": "メティスからは、父に匹敵する力と賢い分別をもつ娘と、神々と人間の王となる息子が生まれる定めだった。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』891–898行"
+    },
+    {
+      "id": "athena-birth-head",
+      "text": "ゼウスは自らの頭から輝く目のトリトゲネイア（アテナ）を産んだ。彼女は軍勢を率い、騒乱と戦争と戦いを喜ぶ女神と形容される。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』924–926行"
+    },
+    {
+      "id": "athena-editorial-two-sides",
+      "text": "『神統記』の記述には、アテナの知恵（賢い分別）と戦いの二つの側面が表れている。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "athena-aegis-iliad",
+      "text": "アテナは武装して戦場に向かう際、ゴルゴンの首のあるアイギスを肩にかけた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』5.733–742"
+    },
+    {
+      "id": "athena-aegis-perseus",
+      "text": "ペルセウスはゴルゴンの首をアテナに与え、アテナはそれを盾の中央にはめ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "athena-perseus",
+      "text": "ペルセウスはヘルメスとアテナの導きでメデューサ退治に向かい、アテナに手を導かれて首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "athena-bellerophon",
+      "text": "アテナは夢の中でベレロポンに黄金の手綱を授け、ベレロポンはそれでペガソスを捕らえてキマイラを退治した。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 63–90行"
+    },
+    {
+      "id": "athena-editorial-pegasus",
+      "text": "アテナとペガソスの結びつきは原典と作品に共通して見られるが、作者が意識したかは確認できない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "athena-attica-poseidon",
+      "text": "神々が崇拝される町を定めようとしたとき、ポセイドンがまずアッティカに来て、三叉の矛でアクロポリスを打ち海を湧き出させた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.14.1"
+    },
+    {
+      "id": "athena-attica-athena",
+      "text": "アテナはオリーブを植え、十二神の裁定で土地はアテナのものとされた。アテナは町をアテナイと名づけ、怒ったポセイドンはトリアシオンの平野を水浸しにした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.14.1"
+    },
+    {
+      "id": "athena-editorial-compare",
+      "text": "作品と原典では、アテナが戦いの女神である点やポセイドンとの対立が共通する一方、原典のアテナは英雄を助ける側、作品では守られる側として描かれる。",
+      "classification": "editorial",
+      "sourceIds": ["homer-iliad", "apollodorus-library"],
+      "verificationStatus": "verified"
+    }
+  ]
 }

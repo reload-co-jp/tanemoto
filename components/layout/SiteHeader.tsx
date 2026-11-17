@@ -7,7 +7,7 @@ import { Logo } from "./Logo"
 const nav = [
   { href: paths.characters(), label: "キャラクター", en: "Characters" },
   { href: paths.works(), label: "作品", en: "Works" },
-  { href: paths.figures(), label: "元ネタ", en: "Origins" },
+  { href: paths.origins(), label: "元ネタ逆引き", en: "Origins" },
   { href: paths.mythologies(), label: "神話", en: "Myths" },
   { href: paths.topics(), label: "テーマ", en: "Topics" },
   { href: paths.articles(), label: "記事", en: "Articles" },

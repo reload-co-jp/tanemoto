@@ -296,7 +296,9 @@ const Page = async ({ params }: Props) => {
               aria-labelledby="origins-title"
             >
               <h2 className="t-article__origins-title" id="origins-title">
-                この元ネタが登場するキャラクター
+                {article.characterIds.length > 0
+                  ? "この記事のキャラクターと元ネタ"
+                  : "この元ネタが登場するキャラクター"}
               </h2>
               <div className="t-article__origins-grid">
                 {characters.map((c) => (

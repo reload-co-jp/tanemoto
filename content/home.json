@@ -1,4 +1,10 @@
 {
-  "featuredArticleIds": ["medusa", "hades", "cerberus"],
-  "popularArticleIds": ["medusa", "hades", "persephone", "pegasus", "cerberus"]
+  "featuredArticleIds": ["saint-seiya-greek-gods", "athena", "poseidon"],
+  "popularArticleIds": [
+    "saint-seiya-greek-gods",
+    "medusa",
+    "hades",
+    "athena",
+    "pegasus"
+  ]
 }

@@ -53,6 +53,7 @@ export const paths = {
   category: (slug: string) => `/articles/category/${slug}/`,
   tag: (tag: string) => `/articles/tag/${encodeURIComponent(tag)}/`,
   characters: () => "/characters/",
+  origins: () => "/origins/",
   character: (slug: string) => `/characters/${slug}/`,
   works: () => "/works/",
   work: (slug: string) => `/works/${slug}/`,

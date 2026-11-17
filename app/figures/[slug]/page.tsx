@@ -74,6 +74,16 @@ const Page = async ({ params }: Props) => {
       />
       <div className="t-two-col">
         <div>
+          {characters.length > 0 && (
+            <Section
+              title={`${figure.name}が元ネタのキャラクター`}
+              en="Characters"
+              id="characters"
+            >
+              <TileList items={characters.map(characterTile)} />
+            </Section>
+          )}
+
           <Section title="基本情報" en="Profile" id="profile">
             <InfoTable
               rows={[
@@ -118,16 +128,6 @@ const Page = async ({ params }: Props) => {
                 sources={[]}
                 images={[]}
               />
-            </Section>
-          )}
-
-          {characters.length > 0 && (
-            <Section
-              title={`${figure.name}が元ネタのキャラクター`}
-              en="Characters"
-              id="characters"
-            >
-              <TileList items={characters.map(characterTile)} />
             </Section>
           )}
 

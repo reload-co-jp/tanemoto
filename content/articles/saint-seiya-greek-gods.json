@@ -1,0 +1,285 @@
+{
+  "id": "saint-seiya-greek-gods",
+  "slug": "saint-seiya-greek-gods",
+  "title": "『聖闘士星矢』キャラクターの元ネタ一覧｜ギリシャ神話の神々と天馬ペガサス",
+  "shortTitle": "『聖闘士星矢』キャラクターの元ネタ一覧",
+  "eyecatchText": "聖闘士星矢",
+  "description": "『聖闘士星矢』の星矢・城戸沙織（アテナ）・ポセイドン・ハーデスの元ネタを一覧で紹介。ギリシャ神話でそれぞれがどのような存在で、互いにどんな関係にあるのかを原典から解説します。",
+  "lead": "ギリシャ神話の神々や星座をモチーフにしたキャラクターが数多く登場する『聖闘士星矢』。主人公の星矢、女神アテナとされる城戸沙織、そして敵として立ちはだかるポセイドンとハーデス——それぞれの元ネタを、原典の神話とあわせて一覧で紹介します。",
+  "category": "character-origins",
+  "tags": ["聖闘士星矢", "アテナ", "ポセイドン", "ハデス", "ペガサス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": true,
+  "figureIds": ["athena", "pegasus", "poseidon", "hades", "zeus"],
+  "mythologyIds": ["greek"],
+  "storyIds": ["division-of-the-world"],
+  "workIds": ["saint-seiya"],
+  "characterIds": [
+    "saint-seiya-seiya",
+    "saint-seiya-saori",
+    "saint-seiya-poseidon",
+    "saint-seiya-hades"
+  ],
+  "topicIds": [],
+  "sourceIds": [
+    "work-saint-seiya",
+    "hesiod-theogony",
+    "homer-iliad",
+    "apollodorus-library"
+  ],
+  "relatedArticleIds": ["athena", "poseidon", "hades", "pegasus"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "元ネタ早見表",
+      "anchor": "list"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**星矢** → [ペガサス（天馬）](/characters/saint-seiya-seiya/)：メデューサの首から生まれた翼ある馬",
+        "**城戸沙織** → [アテナ](/characters/saint-seiya-saori/)：ゼウスの頭から生まれた戦いの女神",
+        "**ポセイドン** → [ポセイドン](/characters/saint-seiya-poseidon/)：海を支配する神、ゼウスの兄弟",
+        "**ハーデス** → [ハデス](/characters/saint-seiya-hades/)：冥界の王、ゼウスの兄弟"
+      ],
+      "claimIds": ["saint-seiya-greek-gods-work-overview"]
+    },
+    {
+      "type": "paragraph",
+      "text": "以下、キャラクターごとに、作品での位置づけと元ネタの神話を順に見ていきます。作品の設定（CREATIVE）と原典の内容（FACT）は区別して表示しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "星矢——元ネタはペガサス（天馬）",
+      "anchor": "seiya"
+    },
+    {
+      "type": "paragraph",
+      "text": "主人公の星矢は、ペガサス（天馬星座）の聖衣（クロス）をまとう聖闘士として描かれます。",
+      "claimIds": ["saint-seiya-greek-gods-work-seiya"]
+    },
+    {
+      "type": "paragraph",
+      "text": "元ネタの天馬ペガソスは、ヘシオドス『神統記』によれば、英雄ペルセウスがメデューサの首を切り落としたときに生まれました。のちにゼウスの館に住み、ゼウスに雷鳴と稲妻を運ぶ存在となります。",
+      "claimIds": ["saint-seiya-greek-gods-pegasus"]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは[ペガサスとは？翼を持つ馬の誕生](/articles/pegasus/)で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "城戸沙織——元ネタは女神アテナ",
+      "anchor": "saori"
+    },
+    {
+      "type": "paragraph",
+      "text": "城戸沙織は作中で女神アテナとされ、聖闘士たちはこのアテナを守るために戦います。",
+      "claimIds": ["saint-seiya-greek-gods-work-saori"]
+    },
+    {
+      "type": "paragraph",
+      "text": "元ネタのアテナは、『神統記』によればゼウスの頭から生まれた女神で、軍勢を率い、戦いを喜ぶ女神と形容されています。『イリアス』では、ゴルゴンの首を据えたアイギスを身につけて戦場に臨みます。",
+      "claimIds": ["saint-seiya-greek-gods-athena"]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは[城戸沙織の元ネタ・アテナとは？](/articles/athena/)で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ポセイドン——元ネタは海の神ポセイドン",
+      "anchor": "poseidon"
+    },
+    {
+      "type": "paragraph",
+      "text": "作中のポセイドンは、海を支配する神としてアテナと対立します。",
+      "claimIds": ["saint-seiya-greek-gods-work-poseidon"]
+    },
+    {
+      "type": "paragraph",
+      "text": "元ネタのポセイドンはクロノスとレアの子で、ゼウス・ハデスと兄弟です。『イリアス』では、三兄弟がくじで世界を分けた際に海を得たと語られます。またアポロドロスによれば、アッティカの地をめぐってアテナと争い、敗れています。",
+      "claimIds": [
+        "saint-seiya-greek-gods-poseidon",
+        "saint-seiya-greek-gods-attica"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは[『聖闘士星矢』ポセイドンの元ネタ](/articles/poseidon/)で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ハーデス——元ネタは冥界の王ハデス",
+      "anchor": "hades"
+    },
+    {
+      "type": "paragraph",
+      "text": "作中のハーデスは冥界の王として、物語終盤でアテナと聖闘士たちに敵対します。",
+      "claimIds": ["saint-seiya-greek-gods-work-hades"]
+    },
+    {
+      "type": "paragraph",
+      "text": "元ネタのハデスもクロノスとレアの子で、くじ引きによって「霧深い闇」の世界を得たとされます。妻はペルセポネで、地下の館は番犬ケルベロスが守っています。",
+      "claimIds": [
+        "saint-seiya-greek-gods-hades",
+        "saint-seiya-greek-gods-hades-house"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは[ハデスとは何者か？冥界の王の正体](/articles/hades/)で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神話の系譜で見ると",
+      "anchor": "family"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典の系譜をたどると、作品で敵対する神々の関係が見えてきます。ポセイドンとハデスはゼウスの兄弟であり、アテナはゼウスの娘です。つまり神話上は、ポセイドンとハデスはアテナにとって父方のおじにあたります。",
+      "claimIds": [
+        "saint-seiya-greek-gods-poseidon",
+        "saint-seiya-greek-gods-athena",
+        "saint-seiya-greek-gods-editorial-family"
+      ]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "作品と神話の関係について",
+      "text": "『聖闘士星矢』のキャラクターは、ギリシャ神話の神々の名前や役割をモチーフにしていますが、物語や設定の多くは作品独自のものです。神話との共通点は、作者の意図が確認できない限り「共通点」として紹介しています。",
+      "claimIds": ["saint-seiya-greek-gods-editorial-note"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "星矢の元ネタは、メデューサの首から生まれた天馬ペガソス",
+        "城戸沙織の元ネタは、ゼウスの頭から生まれた戦いの女神アテナ",
+        "ポセイドンとハーデスは、原典ではゼウスの兄弟で、アテナのおじにあたる",
+        "アテナとポセイドンの対立は、原典のアッティカをめぐる争いにも見られる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "saint-seiya-greek-gods-work-overview",
+      "text": "『聖闘士星矢』には、星矢・城戸沙織（アテナ）・ポセイドン・ハーデスなど、ギリシャ神話をモチーフにしたキャラクターが登場する。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "saint-seiya-greek-gods-work-seiya",
+      "text": "星矢はペガサス（天馬星座）の聖衣をまとう聖闘士として描かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "saint-seiya-greek-gods-pegasus",
+      "text": "ペルセウスがメデューサの首を切るとペガソスが生まれ、のちにゼウスの館でゼウスに雷鳴と稲妻を運んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』280–286行"
+    },
+    {
+      "id": "saint-seiya-greek-gods-work-saori",
+      "text": "城戸沙織は作中で女神アテナとされ、聖闘士たちはアテナを守るために戦う。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "saint-seiya-greek-gods-athena",
+      "text": "アテナはゼウスの頭から生まれ、軍勢を率い戦いを喜ぶ女神と形容される。『イリアス』ではゴルゴンの首のあるアイギスを身につける。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony", "homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』924–926行／『イリアス』5.733–742"
+    },
+    {
+      "id": "saint-seiya-greek-gods-work-poseidon",
+      "text": "作中のポセイドンは海を支配する神としてアテナと対立する。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "saint-seiya-greek-gods-poseidon",
+      "text": "ポセイドンとハデスはクロノスとレアの子でゼウスの兄弟。くじで世界を分け、ポセイドンは海、ハデスは闇を得た。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad", "hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193／『神統記』453–457行"
+    },
+    {
+      "id": "saint-seiya-greek-gods-attica",
+      "text": "ポセイドンはアッティカをめぐってアテナと争い、土地はアテナのものとされた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.14.1"
+    },
+    {
+      "id": "saint-seiya-greek-gods-work-hades",
+      "text": "作中のハーデスは冥界の王として、物語終盤でアテナと聖闘士たちに敵対する。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "saint-seiya-greek-gods-hades",
+      "text": "ハデスはくじによって霧深い闇の世界を得た。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "saint-seiya-greek-gods-hades-house",
+      "text": "地下にはハデスとペルセポネの館があり、番犬が守っている。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』767–774行"
+    },
+    {
+      "id": "saint-seiya-greek-gods-editorial-family",
+      "text": "原典の系譜では、ポセイドンとハデスはアテナにとって父方のおじにあたる。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony", "homer-iliad"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "saint-seiya-greek-gods-editorial-note",
+      "text": "『聖闘士星矢』の物語や設定の多くは作品独自のものであり、神話との共通点は作者の意図が確認できない限り共通点として扱う。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}
