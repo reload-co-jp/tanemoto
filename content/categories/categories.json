@@ -1,0 +1,42 @@
+[
+  {
+    "id": "gods-heroes",
+    "slug": "gods-heroes",
+    "name": "神々・英雄",
+    "nameEn": "Gods & Heroes",
+    "description": "神話に登場する神々や英雄が、原典の中でどのように語られているかを解説します。",
+    "order": 1
+  },
+  {
+    "id": "monsters",
+    "slug": "monsters",
+    "name": "怪物・幻獣",
+    "nameEn": "Monsters & Creatures",
+    "description": "メデューサやケルベロスなど、神話の怪物・幻獣の系譜と伝承の変遷をたどります。",
+    "order": 2
+  },
+  {
+    "id": "myths",
+    "slug": "myths",
+    "name": "神話・物語",
+    "nameEn": "Myths & Stories",
+    "description": "神々の戦争や英雄の冒険など、神話のエピソードを原典に沿って解説します。",
+    "order": 3
+  },
+  {
+    "id": "comparison",
+    "slug": "comparison",
+    "name": "作品横断・比較",
+    "nameEn": "Comparison",
+    "description": "複数の神話や作品を横断して、共通するモチーフや違いを比較します。",
+    "order": 4
+  },
+  {
+    "id": "basics",
+    "slug": "basics",
+    "name": "基礎知識",
+    "nameEn": "Basics",
+    "description": "神話を読むための基礎知識。原典の種類や神話の成り立ちを解説します。",
+    "order": 5
+  }
+]

@@ -1,0 +1,309 @@
+{
+  "id": "greek-mythology-sources",
+  "slug": "greek-mythology-sources",
+  "title": "ギリシャ神話の原典には何がある？主要な古典文献を解説",
+  "shortTitle": "ギリシャ神話の原典には何がある？",
+  "eyecatchText": "原典",
+  "description": "ギリシャ神話には一冊の「聖典」がない。ホメロス『イリアス』、ヘシオドス『神統記』、ホメロス風讃歌、ピンダロス、アポロドロス、オウィディウスなど、神話を伝える主要な古典文献を紹介します。",
+  "lead": "「ギリシャ神話の原典」と聞くと、一冊の本を思い浮かべるかもしれません。しかし実際には、ギリシャ神話は時代も作者も異なる多くの作品に断片的に伝えられています。トモタネの記事で参照している主要な古典文献を、それぞれの特徴とともに紹介します。",
+  "category": "basics",
+  "tags": ["原典", "ホメロス", "ヘシオドス", "アポロドロス", "オウィディウス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [
+    "perseus-digital-library",
+    "hesiod-theogony",
+    "homer-iliad",
+    "apollodorus-library",
+    "ovid-metamorphoses",
+    "homer-odyssey",
+    "homeric-hymn-demeter",
+    "pindar-odes",
+    "frazer-apollodorus",
+    "pausanias-description"
+  ],
+  "relatedArticleIds": ["medusa", "hades"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ギリシャ神話に「聖典」はない",
+      "anchor": "no-canon"
+    },
+    {
+      "type": "paragraph",
+      "text": "ギリシャ神話には、キリスト教の聖書のような、一つにまとまった正典は存在しません。神々の系譜、英雄の冒険、トロイア戦争の物語などは、叙事詩・讃歌・抒情詩・悲劇・後代の神話集など、さまざまな作品のなかに語られています。",
+      "claimIds": ["greek-mythology-sources-editorial-no-canon"]
+    },
+    {
+      "type": "paragraph",
+      "text": "そのため、同じ神話でも資料によって内容が異なることがよくあります。たとえばメデューサの髪が蛇になった理由や、ケルベロスの頭の数は、資料ごとに違っています。トモタネでは、どの資料がどう語っているのかを区別して紹介しています。",
+      "claimIds": ["greek-mythology-sources-editorial-variants"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ホメロス『イリアス』『オデュッセイア』",
+      "anchor": "homer"
+    },
+    {
+      "type": "paragraph",
+      "text": "現存するギリシャ文学の最古級の作品とされるのが、ホメロスの名で伝わる二つの叙事詩です。『イリアス』は「怒りを歌え、女神よ、ペレウスの子アキレウスの」という句で始まり、トロイア戦争の一時期を描きます。『オデュッセイア』は、戦争後に故郷を目指すオデュッセウスの漂流と帰還の物語です。",
+      "claimIds": ["greek-mythology-sources-iliad-opening"]
+    },
+    {
+      "type": "paragraph",
+      "text": "どちらも神話を体系的に説明する書物ではありませんが、登場人物の会話や回想のなかに、神々の世界の分割、ヘラクレスの功業、冥界の様子など、多くの神話が織り込まれています。",
+      "claimIds": ["greek-mythology-sources-homer-embedded"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ヘシオドス『神統記』",
+      "anchor": "hesiod"
+    },
+    {
+      "type": "paragraph",
+      "text": "世界と神々の起源を語る叙事詩が、ヘシオドス『神統記』です。詩人はムーサ（詩の女神）たちに、神々がどのように生まれたかを語るよう呼びかけ、「まず初めにカオスが生じ、次いで広い胸をもつ大地（ガイア）が」と、世界の始まりから語り起こします。",
+      "claimIds": ["greek-mythology-sources-theogony-chaos"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その後、ウラノス、クロノス、ゼウスへと続く神々の世代交代や、ゴルゴン、エキドナ、ケルベロスといった怪物たちの系譜が語られます。神々や怪物の「家系図」を知るうえで欠かせない資料です。",
+      "claimIds": ["greek-mythology-sources-theogony-content"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ホメロス風讃歌",
+      "anchor": "hymns"
+    },
+    {
+      "type": "paragraph",
+      "text": "個々の神々を讃える詩を集めたのが『ホメロス風讃歌』です。古くはホメロスの作とされましたが、実際の作者はわかっていません。なかでも『デメテル讃歌』は、ハデスによるペルセポネの誘拐とデメテルの嘆きを詳しく語り、[ペルセポネ](/articles/persephone/)の物語の中心的な資料となっています。",
+      "claimIds": ["greek-mythology-sources-hymn-content"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ピンダロス『祝勝歌』",
+      "anchor": "pindar"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元前5世紀の詩人ピンダロスは、オリュンピアやピュティアなどの競技祭の勝者を讃える歌を作りました。勝者や一族の栄誉を神話の英雄と重ねて歌うため、作品の中にさまざまな神話が登場します。たとえば『オリュンピア祝勝歌』第13歌は、ベレロポンがアテナの黄金の手綱でペガソスを手なずけた物語を伝えています。",
+      "claimIds": ["greek-mythology-sources-pindar-content"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アポロドロス『ビブリオテーケー』",
+      "anchor": "apollodorus"
+    },
+    {
+      "type": "paragraph",
+      "text": "ギリシャ神話を体系的に知りたいときに便利なのが、アポロドロスの名で伝わる神話集『ビブリオテーケー』（邦題『ギリシア神話』）です。神々の誕生から英雄たちの物語まで、多くの神話を系譜に沿って簡潔にまとめています。",
+      "claimIds": ["greek-mythology-sources-apollodorus-content"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ほかの資料を参照した旨を記している箇所もあり、たとえばキマイラについては「ホメロスの言うとおり」「ヘシオドスが語るとおり」と典拠に触れています。後代の編纂物であることに注意しつつ、さまざまな伝承を一覧できる貴重な資料です。",
+      "claimIds": ["greek-mythology-sources-apollodorus-cites"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "オウィディウス『変身物語』",
+      "anchor": "ovid"
+    },
+    {
+      "type": "paragraph",
+      "text": "ローマの詩人オウィディウスの『変身物語』は、ラテン語で書かれた長編叙事詩です。冒頭で詩人は、新たな姿へと変えられた身体について語ることを宣言し、世界の始まりから自らの時代までの神話を「変身」をテーマに語り継いでいきます。",
+      "claimIds": ["greek-mythology-sources-ovid-opening"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ギリシャの神々はラテン名（アテナ＝ミネルウァ、ポセイドン＝ネプトゥヌスなど）で登場します。メデューサの髪が蛇に変えられた物語のように、現代のイメージに大きな影響を与えた話も少なくありません。",
+      "claimIds": ["greek-mythology-sources-ovid-medusa"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "パウサニアス『ギリシア案内記』",
+      "anchor": "pausanias"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元後2世紀の旅行家パウサニアスは、ギリシャ各地の神殿や祭祀、土地に伝わる伝承を記録しました。神話が実際にどのように信仰され、祀られていたかを知る手がかりになります。たとえば、ハデスを祀る神殿がエリスにあったことも、この書物に記されています。",
+      "claimIds": ["greek-mythology-sources-pausanias-content"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "原典を読むには",
+      "anchor": "reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "これらの古典の多くには日本語訳があります（各記事の出典欄に代表的な邦訳を記載しています）。また、タフツ大学の[Perseus Digital Library](http://www.perseus.tufts.edu/hopper/)では、ギリシャ語・ラテン語の原文と英訳をオンラインで読むことができ、トモタネでも原典の該当箇所の確認に利用しています。",
+      "claimIds": ["greek-mythology-sources-perseus"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "成立年代について",
+      "text": "古典文献の成立年代には諸説あるものが多く、トモタネでは年代を「頃」「諸説あり」と幅をもたせて表記しています。正確な年代が議論の対象になっている点も、古典を読む際の大切な前提です。",
+      "claimIds": ["greek-mythology-sources-editorial-dating"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ギリシャ神話には一冊の聖典はなく、多くの作品に分かれて伝わっている",
+        "ホメロスの叙事詩には、物語の中に多くの神話が織り込まれている",
+        "神々と怪物の系譜を知るにはヘシオドス『神統記』が基本資料",
+        "神話を体系的に一覧するならアポロドロス『ビブリオテーケー』",
+        "オウィディウス『変身物語』は、後世のイメージに大きな影響を与えたローマの作品"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "greek-mythology-sources-editorial-no-canon",
+      "text": "ギリシャ神話には一つにまとまった正典がなく、神話は多様な作品の中に語られている。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony", "homer-iliad", "apollodorus-library"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "greek-mythology-sources-editorial-variants",
+      "text": "同じ神話でも資料によって内容が異なる（例：メデューサの蛇の髪の理由、ケルベロスの頭の数）。",
+      "classification": "editorial",
+      "sourceIds": [
+        "ovid-metamorphoses",
+        "apollodorus-library",
+        "hesiod-theogony"
+      ],
+      "verificationStatus": "verified",
+      "note": "詳細は「メデューサとは？」「ケルベロスとは？」の各記事を参照。"
+    },
+    {
+      "id": "greek-mythology-sources-iliad-opening",
+      "text": "『イリアス』はペレウスの子アキレウスの怒りを歌うよう女神に呼びかける句で始まる。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』1.1"
+    },
+    {
+      "id": "greek-mythology-sources-homer-embedded",
+      "text": "ホメロスの叙事詩には、会話や回想の形で、世界の三分割やヘラクレスの冥界下りなどの神話が織り込まれている。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad", "homer-odyssey"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193／『オデュッセイア』11.623–626 など"
+    },
+    {
+      "id": "greek-mythology-sources-theogony-chaos",
+      "text": "『神統記』の詩人はムーサたちに神々の誕生を語るよう求め、まず初めにカオスが生じ、次いで大地が生じたと語る。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』114–117行"
+    },
+    {
+      "id": "greek-mythology-sources-theogony-content",
+      "text": "『神統記』はクロノス、ゼウスへと続く神々の世代と、ゴルゴン・エキドナ・ケルベロスなど怪物の系譜を語る。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』270–336, 453–506行 など"
+    },
+    {
+      "id": "greek-mythology-sources-hymn-content",
+      "text": "『デメテル讃歌』は、ハデスによるペルセポネの誘拐とデメテルの嘆きを語る。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』1–495行"
+    },
+    {
+      "id": "greek-mythology-sources-pindar-content",
+      "text": "『オリュンピア祝勝歌』第13歌は、ベレロポンがアテナの黄金の手綱でペガソスを手なずけた物語を伝える。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 63–92行"
+    },
+    {
+      "id": "greek-mythology-sources-apollodorus-content",
+      "text": "『ビブリオテーケー』は神々の誕生から英雄の物語まで、多くの神話を系譜に沿って簡潔にまとめている。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library", "frazer-apollodorus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』全3巻（第3巻後半は摘要のみ伝存）",
+      "note": "伝存状況はフレイザーの英訳・注釈による。"
+    },
+    {
+      "id": "greek-mythology-sources-apollodorus-cites",
+      "text": "アポロドロスはキマイラについて「ホメロスの言うとおり」「ヘシオドスが語るとおり」と典拠に言及している。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.1"
+    },
+    {
+      "id": "greek-mythology-sources-ovid-opening",
+      "text": "『変身物語』の冒頭で詩人は、新たな姿に変えられた身体を歌い、世界の始まりから自らの時代までを語ると宣言する。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』1.1–4"
+    },
+    {
+      "id": "greek-mythology-sources-ovid-medusa",
+      "text": "『変身物語』では、ミネルウァがメデューサの髪を蛇に変えた物語が語られる。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』4.799–801"
+    },
+    {
+      "id": "greek-mythology-sources-pausanias-content",
+      "text": "パウサニアスは、エリスにハデスの聖域と神殿があったことを記している。",
+      "classification": "fact",
+      "sourceIds": ["pausanias-description"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギリシア案内記』6.25.2"
+    },
+    {
+      "id": "greek-mythology-sources-perseus",
+      "text": "Perseus Digital Library では、ギリシャ語・ラテン語の古典の原文と英訳をオンラインで閲覧できる。",
+      "classification": "fact",
+      "sourceIds": ["perseus-digital-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "トップページ"
+    },
+    {
+      "id": "greek-mythology-sources-editorial-dating",
+      "text": "古典文献の成立年代には諸説あるものが多い。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

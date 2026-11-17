@@ -1,0 +1,267 @@
+{
+  "id": "cerberus",
+  "slug": "cerberus",
+  "title": "ケルベロスとは？三つの頭を持つ冥界の番犬——頭の数は本当に三つ？",
+  "shortTitle": "ケルベロスとは？冥界の番犬",
+  "description": "冥界の番犬ケルベロス。その親や役割、ヘラクレスによる捕獲の物語に加え、「頭は三つ」とは限らない古典資料の記述の違いを、ヘシオドスやアポロドロスの原典から解説します。",
+  "lead": "三つの頭をもつ地獄の番犬——ケルベロスは、ゲームや漫画でもおなじみの存在です。しかし古代の文献を開くと、最古級の資料では頭の数が「五十」とされているなど、私たちの知るイメージとは異なる姿が見えてきます。",
+  "category": "monsters",
+  "tags": ["ケルベロス", "冥界", "ハデス", "ヘラクレス", "エキドナ"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["cerberus", "hades", "heracles", "echidna", "typhon"],
+  "mythologyIds": ["greek"],
+  "storyIds": ["heracles-cerberus"],
+  "workIds": [],
+  "topicIds": ["underworld", "monsters", "heroic-quest"],
+  "sourceIds": [
+    "hesiod-theogony",
+    "apollodorus-library",
+    "frazer-apollodorus",
+    "homer-iliad",
+    "homer-odyssey"
+  ],
+  "relatedArticleIds": ["hades"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ケルベロスの基本情報",
+      "anchor": "basics"
+    },
+    {
+      "type": "paragraph",
+      "text": "ケルベロス（ギリシャ語 Κέρβερος／Kerberos）は、冥界の王ハデスの館を守る番犬です。ヘシオドス『神統記』によれば、上半身がニンフ、下半身が大蛇の怪物エキドナと、恐ろしい怪物テュポンとの間に生まれました。",
+      "claimIds": ["cerberus-parents"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』は、エキドナとテュポンの子として、まずゲリュオンの番犬オルトス、次にケルベロス、さらにレルネのヒュドラを挙げています。ケルベロスは、ギリシャ神話の怪物の大きな系譜の一員なのです。",
+      "claimIds": ["cerberus-siblings"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**分類**：怪物（犬）",
+        "**親**：テュポンとエキドナ（『神統記』）",
+        "**兄弟**：オルトス、ヒュドラ",
+        "**役割**：ハデスの館の番犬"
+      ],
+      "claimIds": ["cerberus-parents", "cerberus-siblings"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「入れるが、出さない」番犬",
+      "anchor": "guard"
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』は冥界の様子を描く箇所で、ハデスとペルセポネの館の前を恐ろしい犬が守っていると語ります。この犬は無慈悲で、悪い企みをもっています。入ってくる者には尾と両耳を振ってすり寄りますが、外へ出ようとする者は決して通さず、見張っていて捕らえ、食らってしまうのです。",
+      "claimIds": ["cerberus-guard-trick"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "死者を閉じ込める番犬",
+      "text": "ここで描かれるケルベロスの役割は、侵入者を追い払う番犬ではなく、**死者が冥界から逃げ出さないようにする**番犬です。生者と死者の境界を守る存在として描かれている点が特徴的です。",
+      "claimIds": ["cerberus-editorial-role"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "頭の数は三つ？五十？",
+      "anchor": "heads"
+    },
+    {
+      "type": "paragraph",
+      "text": "現代のケルベロスといえば「三つの頭」が定番ですが、『神統記』ではケルベロスを「生肉を食らう、青銅の声をもつハデスの犬、五十の頭をもつ、容赦なく強い」怪物と形容しています。",
+      "claimIds": ["cerberus-fifty-heads"]
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、アポロドロス『ビブリオテーケー』では、ケルベロスは「三つの犬の頭、竜の尾をもち、背中にはあらゆる種類の蛇の頭がついていた」と描かれています。",
+      "claimIds": ["cerberus-apollodorus-three"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "資料によって異なる頭の数",
+      "text": "アポロドロスの英訳者J. G. フレイザーは注釈で、古代の著述家の間でケルベロスの頭の数には違いがあり、ヘシオドスは五十、ピンダロスは（古注によれば）百としたことを指摘しています。「三つ頭」は唯一の伝承ではなく、資料によって姿が異なっていたのです。",
+      "claimIds": ["cerberus-heads-variant"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ヘラクレスの十二番目の功業",
+      "anchor": "heracles"
+    },
+    {
+      "type": "paragraph",
+      "text": "ケルベロスが登場する最も有名な物語は、英雄ヘラクレスによる捕獲です。アポロドロスによれば、ヘラクレスに課された十二の功業の最後が、ケルベロスを冥界から連れてくることでした。",
+      "claimIds": ["cerberus-twelfth-labor"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘラクレスはラコニアのタイナロンにある冥界の入口から下っていきます。冥界でプルトン（ハデス）にケルベロスを求めると、ハデスは「持っている武器を使わずに取り押さえるなら連れていってよい」と条件を出しました。",
+      "claimIds": ["cerberus-pluto-condition"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘラクレスはアケロンの門でケルベロスを見つけると、胸当てをつけ獅子の皮をまとった姿で、その頭を両腕で抱え込みました。尾の竜にかまれても締めつけをゆるめず、ついにケルベロスを屈服させます。そしてエウリュステウスに見せたあと、ケルベロスを冥界へ戻しました。",
+      "claimIds": ["cerberus-heracles-capture"]
+    },
+    {
+      "type": "paragraph",
+      "text": "この物語はホメロスの時代にはすでに知られていました。『イリアス』でアテナは、エウリュステウスがヘラクレスを「エレボスから忌まわしきハデスの犬を連れてくるために」送り出したときに助けたことを語っています。『オデュッセイア』でも、冥界でオデュッセウスに出会ったヘラクレスの亡霊が、ヘルメスとアテナに導かれてハデスの犬を連れ出したと語ります。",
+      "claimIds": ["cerberus-homer-heracles"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "冥界の住人たちとケルベロス",
+      "anchor": "underworld"
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロスはヘラクレスの冥界下りの場面で、ほかにも印象的な挿話を伝えています。ヘラクレスの姿を見た魂たちは逃げ去りましたが、英雄メレアグロスとゴルゴンのメデューサだけは残りました。ヘラクレスはメデューサが生きているかのように剣を抜きましたが、ヘルメスから「それは中身のない幻にすぎない」と教えられたといいます。",
+      "claimIds": ["cerberus-medusa-ghost"]
+    },
+    {
+      "type": "paragraph",
+      "text": "メデューサについては[メデューサとは？ゴルゴンの伝承](/articles/medusa/)で詳しく解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ケルベロスはテュポンとエキドナの子で、ハデスの館を守る番犬（『神統記』）",
+        "入る者にはすり寄り、出ようとする者を食らう——死者を逃がさない番犬",
+        "頭の数は資料によって異なり、『神統記』では五十、アポロドロスでは三つ",
+        "ヘラクレスの十二番目の功業で、素手で取り押さえられて地上へ連れ出された"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "作品に登場するケルベロスの多くは「三つ頭」の姿ですが、それはアポロドロスなどの後代の資料に近いイメージです。頭の数や役割の違いに注目すると、神話の多様さがより立体的に見えてくるでしょう。",
+      "claimIds": ["cerberus-editorial-works"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "cerberus-parents",
+      "text": "ケルベロスはテュポンとエキドナの子である。エキドナは半ばニンフ、半ば大蛇の姿をもつ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』295–311行"
+    },
+    {
+      "id": "cerberus-siblings",
+      "text": "エキドナとテュポンの子として、オルトス、ケルベロス、ヒュドラが順に挙げられる。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』306–315行"
+    },
+    {
+      "id": "cerberus-guard-trick",
+      "text": "ハデスとペルセポネの館を守る犬は、入る者には尾と耳を振ってすり寄り、出ようとする者を捕らえて食らう。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』767–774行"
+    },
+    {
+      "id": "cerberus-editorial-role",
+      "text": "『神統記』のケルベロスは、死者を冥界から出さない番犬として描かれている。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』769–774行"
+    },
+    {
+      "id": "cerberus-fifty-heads",
+      "text": "『神統記』はケルベロスを、生肉を食らう青銅の声のハデスの犬で、五十の頭をもつと形容する。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』310–312行"
+    },
+    {
+      "id": "cerberus-apollodorus-three",
+      "text": "アポロドロスによれば、ケルベロスは三つの犬の頭と竜の尾をもち、背中にはあらゆる蛇の頭があった。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.12"
+    },
+    {
+      "id": "cerberus-heads-variant",
+      "text": "古代の著述家の間でケルベロスの頭の数は異なり、ヘシオドスは五十、ピンダロスは（『イリアス』古注によれば）百とした。",
+      "classification": "variant",
+      "sourceIds": ["frazer-apollodorus", "hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "フレイザー注（『ビブリオテーケー』2.5.12）",
+      "note": "ピンダロスの記述は作品そのものではなく、『イリアス』8.368 への古注を通じて伝わる。"
+    },
+    {
+      "id": "cerberus-twelfth-labor",
+      "text": "ヘラクレスに課された十二番目の功業は、ケルベロスを冥界から連れてくることだった。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.12"
+    },
+    {
+      "id": "cerberus-pluto-condition",
+      "text": "ヘラクレスはタイナロンから冥界へ下った。プルトンは、持っている武器を使わずに取り押さえることを条件にケルベロスを連れていくことを許した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.12"
+    },
+    {
+      "id": "cerberus-heracles-capture",
+      "text": "ヘラクレスは胸当てと獅子の皮をまとい、ケルベロスの頭を抱え込んで、尾の竜にかまれながらも屈服させた。エウリュステウスに見せたあと冥界へ戻した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.12"
+    },
+    {
+      "id": "cerberus-homer-heracles",
+      "text": "『イリアス』でアテナは、エウリュステウスがヘラクレスをハデスの犬を連れてくるために送り出したことに触れ、『オデュッセイア』ではヘラクレスがヘルメスとアテナの導きでハデスの犬を連れ出したと語る。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad", "homer-odyssey"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』8.366–369／『オデュッセイア』11.623–626"
+    },
+    {
+      "id": "cerberus-medusa-ghost",
+      "text": "冥界で魂たちが逃げる中、メレアグロスとメデューサだけが残り、剣を抜いたヘラクレスにヘルメスはメデューサが空虚な幻だと教えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.12"
+    },
+    {
+      "id": "cerberus-editorial-works",
+      "text": "作品に多い「三つ頭」のケルベロスは、アポロドロスなど後代の資料に近いイメージである。",
+      "classification": "editorial",
+      "sourceIds": ["apollodorus-library", "hesiod-theogony"],
+      "verificationStatus": "verified"
+    }
+  ]
+}

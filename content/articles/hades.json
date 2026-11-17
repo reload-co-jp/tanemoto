@@ -1,0 +1,379 @@
+{
+  "id": "hades",
+  "slug": "hades",
+  "title": "ハデスとは何者か？冥界の王の正体を原典から読み解く",
+  "shortTitle": "ハデスとは何者か？冥界の王の正体",
+  "description": "ギリシャ神話の冥界の王ハデス。ゼウスの兄弟としての出自、世界の三分割、ペルセポネとの結婚、「プルトン」という別名の意味まで、ホメロスやヘシオドスの原典から解説します。",
+  "lead": "漫画やアニメでは「冥界の支配者」として、しばしば敵役や黒幕として描かれるハデス。しかし古代ギリシャの文献をたどると、彼はゼウスやポセイドンと対等な兄弟神であり、悪の化身とは少し違う存在として語られています。ホメロスとヘシオドスを中心に、ハデスの実像を見ていきます。",
+  "category": "gods-heroes",
+  "tags": ["ハデス", "冥界", "ペルセポネ", "ゼウス", "ポセイドン"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": true,
+  "figureIds": ["hades", "persephone", "zeus", "poseidon", "cerberus"],
+  "mythologyIds": ["greek"],
+  "storyIds": [
+    "children-of-cronos",
+    "division-of-the-world",
+    "abduction-of-persephone"
+  ],
+  "workIds": [],
+  "topicIds": ["underworld", "divine-items"],
+  "sourceIds": [
+    "hesiod-theogony",
+    "homer-iliad",
+    "homeric-hymn-demeter",
+    "plato-cratylus",
+    "apollodorus-library",
+    "pausanias-description"
+  ],
+  "relatedArticleIds": ["persephone", "cerberus"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ハデスの基本情報",
+      "anchor": "basics"
+    },
+    {
+      "type": "paragraph",
+      "text": "ハデス（ギリシャ語 Ἅιδης／Hades）は、ギリシャ神話で死者の世界を治める神です。ヘシオドス『神統記』によれば、ティタン神族のクロノスとレアの子で、兄弟姉妹にはヘスティア、デメテル、ヘラ、ポセイドン、ゼウスがいます。",
+      "claimIds": ["hades-parents"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』はハデスを「地の下に住む、無慈悲な心をもつ強きハデス」と形容しています。",
+      "claimIds": ["hades-pitiless"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**分類**：神（オリュンポスの神々の世代）",
+        "**親**：クロノスとレア",
+        "**兄弟姉妹**：ヘスティア、デメテル、ヘラ、ポセイドン、ゼウス",
+        "**妻**：ペルセポネ",
+        "**別名**：アイドネウス、プルトン、「多くの者を迎える者」など"
+      ],
+      "claimIds": ["hades-parents", "hades-persephone-wife", "hades-aidoneus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゼウスの兄——父に呑み込まれた子ども",
+      "anchor": "cronos"
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』によると、クロノスは「自分の子に王位を奪われる」という予言を恐れ、レアが産んだ子どもを生まれるそばから呑み込んでいきました。ハデスもその一人です。末子のゼウスだけはクレタ島に隠され、クロノスには産着に包んだ石が渡されました。",
+      "claimIds": ["hades-cronos-swallow"]
+    },
+    {
+      "type": "paragraph",
+      "text": "つまりハデスは、ゼウスにとって兄にあたります。現代の作品では「ゼウスの弟」として描かれることもありますが、『神統記』の誕生順に従えば、ハデスはゼウスより先に生まれています。",
+      "claimIds": ["hades-editorial-elder"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "くじ引きで決まった「冥界の王」",
+      "anchor": "division"
+    },
+    {
+      "type": "paragraph",
+      "text": "ハデスが冥界を治めることになった経緯を伝えるのが、ホメロス『イリアス』第15歌です。ゼウスの命令に反発したポセイドンは、次のように語ります。",
+      "claimIds": []
+    },
+    {
+      "type": "quote",
+      "text": "われらはクロノスとレアから生まれた三兄弟——ゼウスとわたし、そして三番目が死者たちを治めるハデスだ。万物は三つに分けられ、それぞれが領分を得た。くじが振られたとき、わたしは灰色の海を永遠の住処として得、ハデスは霧深い闇を、ゼウスは大気と雲のなかの広い天空を得た。だが大地と高きオリュンポスは、なお三者すべての共有である。",
+      "sourceId": "homer-iliad",
+      "location": "15.187–193",
+      "translationNote": "A. T. Murray の英訳をもとにした編集部訳",
+      "claimIds": ["hades-division-lot"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ここで重要なのは、ハデスの領分が罰や追放の結果ではなく、兄弟の間での**対等なくじ引き**によって決まったとされている点です。ポセイドンはこの言葉を、自分がゼウスと「同等の名誉をもつ」ことの根拠として述べています。",
+      "claimIds": ["hades-division-lot", "hades-editorial-equal"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「冥界送り」ではない",
+      "text": "作品によっては、ハデスがゼウスに冥界へ追いやられた、あるいは冥界を押しつけられたように描かれることがあります。少なくとも『イリアス』のこの場面では、三兄弟がくじで公平に分けたと語られており、ハデスが不当に扱われたという描写はありません。",
+      "claimIds": ["hades-editorial-equal"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ハデスとペルセポネ",
+      "anchor": "persephone"
+    },
+    {
+      "type": "paragraph",
+      "text": "ハデスの妻はペルセポネです。『神統記』は、ゼウスとデメテルの娘ペルセポネを「アイドネウス（ハデス）が母のもとから連れ去り、賢きゼウスが彼に与えた」と簡潔に記しています。",
+      "claimIds": ["hades-persephone-wife"]
+    },
+    {
+      "type": "paragraph",
+      "text": "この誘拐の物語を詳しく語るのが『デメテル讃歌』です。ニュサの野で花を摘んでいたペルセポネの前で大地が裂け、ハデスが不死の馬に引かせた黄金の車で現れて彼女を連れ去りました。讃歌の冒頭でも、ペルセポネはゼウスによってハデスに与えられたとされています。",
+      "claimIds": ["hades-hymn-abduction"]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは[ペルセポネとは？冥界の女王になった理由](/articles/persephone/)で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "冥界の館と番犬",
+      "anchor": "house"
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』では、地下の世界に「強きハデスと恐ろしきペルセポネのこだまする館」があり、その前を恐ろしい番犬が守っていると語られます。この犬は入ってくる者には尾と耳を振ってすり寄るものの、出ていこうとする者は捕らえて食らうとされます。この番犬がケルベロスです。",
+      "claimIds": ["hades-house-hound"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』第20歌には、神々が戦いに加わって大地が激しく揺れたとき、ハデスが「大地が裂けて、神々すら忌み嫌う陰鬱な住処が人間にも神々にも露わになるのではないか」と恐れ、玉座から跳び上がって叫んだという場面があります。ハデスの領域が、見えないこと・隠されていることと強く結びついていることがうかがえます。",
+      "claimIds": ["hades-iliad-20-fear", "hades-editorial-hidden"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「ハデスの帽子」——姿を隠す神器",
+      "anchor": "cap"
+    },
+    {
+      "type": "paragraph",
+      "text": "ハデスにまつわる道具として知られるのが「ハデスの帽子（兜）」です。『イリアス』第5歌では、アテナが軍神アレスに見られないよう、この帽子をかぶります。",
+      "claimIds": ["hades-iliad-cap"]
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロス『ビブリオテーケー』では、ペルセウスがメデューサ退治の際にニンフたちからこの帽子を借り、かぶると「自分は見たいものを見られるが、他の者からは見られなかった」と説明されています。ゴルゴンたちが首を取ったペルセウスを追えなかったのも、この帽子のためでした。",
+      "claimIds": ["hades-apollodorus-cap"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「プルトン」という名前の意味",
+      "anchor": "names"
+    },
+    {
+      "type": "paragraph",
+      "text": "ハデスはしばしば別の名で呼ばれます。『デメテル讃歌』では「アイドネウス」「多くの者を迎える者（ポリュデグモン）」といった呼び名が使われています。",
+      "claimIds": ["hades-aidoneus"]
+    },
+    {
+      "type": "paragraph",
+      "text": "プラトンの対話篇『クラテュロス』では、登場人物ソクラテスが「プルトン」という名は富（ploutos）を与える者という意味で、富は地下の大地から生じるからだと説明し、さらに人々は「ハデス」という名が「目に見えないもの（aeides）」に由来すると考えて恐れ、プルトンと呼ぶのだろうと述べています。",
+      "claimIds": ["hades-cratylus-pluto"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "語源説の扱い",
+      "text": "『クラテュロス』の語源論は、古代の哲学者による言葉遊びを含んだ議論であり、現代の言語学的な語源とは区別して読む必要があります。ここでは「古代ギリシャ人自身がハデスの名をどう受け止めていたか」を示す資料として紹介しています。",
+      "claimIds": ["hades-cratylus-caution"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ハデスは崇拝されていたのか",
+      "anchor": "cult"
+    },
+    {
+      "type": "paragraph",
+      "text": "『イリアス』第9歌で、アガメムノンは「ハデスはなだめることも屈服させることもできない。だからこそ人間にとって神々のなかで最も憎まれる存在なのだ」と語っています。",
+      "claimIds": ["hades-iliad-hated"]
+    },
+    {
+      "type": "paragraph",
+      "text": "実際、ハデスを祀る神殿は多くありませんでした。紀元後2世紀の旅行家パウサニアスは、エリスにハデスの聖域と神殿があり、年に一度だけ開かれるが、そのときでさえ神官以外は入れないと記しています。そして「われわれの知る限り、ハデスを崇拝するのはエリスの人々だけである」と述べています。",
+      "claimIds": ["hades-pausanias-elis"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ハデスはクロノスとレアの子で、ゼウス・ポセイドンの兄弟（『神統記』）",
+        "三兄弟がくじで世界を分け、ハデスは「闇の世界」を得た（『イリアス』）",
+        "妻はペルセポネ。ゼウスの同意のもとで連れ去ったとされる",
+        "姿を隠す「ハデスの帽子」は、アテナやペルセウスも使っている",
+        "「プルトン」は富と結びつけられた呼び名で、古代から恐れを避ける呼び方として使われていた"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "ハデスは恐れられた神ではあっても、原典の中で「悪」として描かれているわけではありません。作品に登場するハデスが冷酷な支配者なのか、公正な裁定者なのか——その違いに注目すると、作り手がどの側面を強調しているのかが見えてきます。",
+      "claimIds": ["hades-editorial-works"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hades-parents",
+      "text": "ハデスはクロノスとレアの子で、兄弟姉妹はヘスティア、デメテル、ヘラ、ポセイドン、ゼウスである。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–457行"
+    },
+    {
+      "id": "hades-pitiless",
+      "text": "『神統記』はハデスを「地の下に住む、無慈悲な心の強きハデス」と形容する。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』455–456行"
+    },
+    {
+      "id": "hades-cronos-swallow",
+      "text": "クロノスは子に王位を奪われる予言を恐れて子どもたちを呑み込み、末子ゼウスの代わりに産着に包んだ石を呑まされた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』459–491行"
+    },
+    {
+      "id": "hades-editorial-elder",
+      "text": "『神統記』の誕生順ではハデスはゼウスより先に生まれており、ゼウスの兄にあたる。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–479行",
+      "note": "『神統記』はゼウスを「子どもたちの末子」とする（478行）。"
+    },
+    {
+      "id": "hades-division-lot",
+      "text": "ゼウス・ポセイドン・ハデスはくじで世界を分け、ポセイドンは海、ハデスは闇、ゼウスは天空を得た。大地とオリュンポスは共有とされた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "hades-editorial-equal",
+      "text": "『イリアス』の該当場面では、世界の分割は兄弟間の対等なくじ引きとして語られ、ハデスが追放・冷遇されたという描写はない。",
+      "classification": "editorial",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.185–195"
+    },
+    {
+      "id": "hades-persephone-wife",
+      "text": "ゼウスとデメテルの娘ペルセポネを、アイドネウス（ハデス）が母のもとから連れ去り、ゼウスが彼に与えた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』912–914行"
+    },
+    {
+      "id": "hades-hymn-abduction",
+      "text": "『デメテル讃歌』では、ニュサの野で花を摘むペルセポネの前で大地が裂け、ハデスが不死の馬の黄金の車で現れて連れ去った。冒頭でペルセポネはゼウスによってハデスに与えられたとされる。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』1–20行"
+    },
+    {
+      "id": "hades-house-hound",
+      "text": "地下にはハデスとペルセポネの館があり、入る者にはすり寄り、出ようとする者を食らう番犬が守っている。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』767–774行"
+    },
+    {
+      "id": "hades-iliad-20-fear",
+      "text": "大地が揺れたとき、ハデス（アイドネウス）は地が裂けて神々も忌む住処が露わになることを恐れ、玉座から跳び上がった。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』20.61–65"
+    },
+    {
+      "id": "hades-editorial-hidden",
+      "text": "ハデスの領域は「見えないこと・隠されていること」と強く結びついて語られている。",
+      "classification": "editorial",
+      "sourceIds": ["homer-iliad", "plato-cratylus"],
+      "verificationStatus": "verified",
+      "note": "『イリアス』20.61–65、『クラテュロス』403a などをもとにした編集部の解釈。"
+    },
+    {
+      "id": "hades-iliad-cap",
+      "text": "アテナはアレスに見られないよう「ハデスの帽子」をかぶった。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』5.844–845"
+    },
+    {
+      "id": "hades-apollodorus-cap",
+      "text": "ペルセウスはニンフたちからハデスの帽子を得た。かぶると他の者から見られず、ゴルゴンたちもペルセウスを追えなかった。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2–3"
+    },
+    {
+      "id": "hades-aidoneus",
+      "text": "『デメテル讃歌』ではハデスを「アイドネウス」「多くの者を迎える者」などの名で呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』2, 9, 17行など"
+    },
+    {
+      "id": "hades-cratylus-pluto",
+      "text": "『クラテュロス』でソクラテスは、プルトンは富（ploutos）を与える者の意で、富は地下から来るからだと説明し、人々は「ハデス」の名を「見えないもの」と結びつけて恐れ、プルトンと呼ぶのだろうと述べる。",
+      "classification": "fact",
+      "sourceIds": ["plato-cratylus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クラテュロス』403a"
+    },
+    {
+      "id": "hades-cratylus-caution",
+      "text": "『クラテュロス』の語源論は言葉遊びを含む哲学的議論であり、現代言語学の語源とは区別して扱う必要がある。",
+      "classification": "editorial",
+      "sourceIds": ["plato-cratylus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クラテュロス』383a–440e（対話篇全体の主題）",
+      "note": "対話篇自体が「名前の正しさ」を問う議論であり、語源説明の多くは作中でも冗談めかした推測として提示されている。"
+    },
+    {
+      "id": "hades-iliad-hated",
+      "text": "アガメムノンは、ハデスはなだめることも屈服させることもできず、それゆえ人間に最も憎まれる神だと語る。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』9.158–159"
+    },
+    {
+      "id": "hades-pausanias-elis",
+      "text": "エリスにはハデスの聖域と神殿があり、年に一度だけ開かれるが神官以外は入れない。パウサニアスは、ハデスを崇拝するのは知る限りエリス人だけだと述べる。",
+      "classification": "fact",
+      "sourceIds": ["pausanias-description"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギリシア案内記』6.25.2"
+    },
+    {
+      "id": "hades-editorial-works",
+      "text": "原典のハデスは恐れられた神だが「悪」として描かれてはいない。作品ごとの描写の違いは、どの側面を強調するかによる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

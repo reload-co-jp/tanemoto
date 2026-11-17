@@ -1,0 +1,56 @@
+[
+  {
+    "id": "underworld",
+    "slug": "underworld",
+    "name": "冥界",
+    "description": "死者の魂が向かう地下の世界。ギリシャ神話では「ハデスの館」と呼ばれ、冥王ハデスと女王ペルセポネが治める。",
+    "figureIds": ["hades", "persephone", "cerberus"],
+    "storyIds": ["abduction-of-persephone", "heracles-cerberus"],
+    "order": 1
+  },
+  {
+    "id": "monsters",
+    "slug": "monsters",
+    "name": "怪物",
+    "description": "英雄に退治される怪物たち。ギリシャ神話の怪物の多くは、エキドナやポルキュスとケトの子孫として系譜に位置づけられている。",
+    "figureIds": ["medusa", "cerberus", "chimera", "echidna", "typhon"],
+    "storyIds": [],
+    "order": 2
+  },
+  {
+    "id": "petrification",
+    "slug": "petrification",
+    "name": "石化",
+    "description": "見た者・触れた者を石に変える力。ゴルゴンの首は、その代表的な例として古典資料に描かれている。",
+    "figureIds": ["medusa"],
+    "storyIds": ["perseus-medusa"],
+    "order": 3
+  },
+  {
+    "id": "divine-items",
+    "slug": "divine-items",
+    "name": "神器・伝説の道具",
+    "description": "姿を隠すハデスの帽子、ゴルゴンの首を据えたアイギス、天馬を御する黄金の手綱など、神々が授ける特別な道具。",
+    "figureIds": ["athena", "hermes"],
+    "storyIds": ["perseus-medusa", "bellerophon-chimera"],
+    "order": 4
+  },
+  {
+    "id": "heroic-quest",
+    "slug": "heroic-quest",
+    "name": "英雄の冒険",
+    "description": "王や神々から課された難題に挑む英雄たちの物語。神々の助力を得て怪物を退治する筋立てが多い。",
+    "figureIds": ["perseus", "heracles", "bellerophon"],
+    "storyIds": ["perseus-medusa", "heracles-cerberus", "bellerophon-chimera"],
+    "order": 5
+  },
+  {
+    "id": "transformation",
+    "slug": "transformation",
+    "name": "変身",
+    "description": "神々の怒りや罰によって姿を変えられる物語。オウィディウス『変身物語』はこのテーマで神話を集めた作品として知られる。",
+    "figureIds": ["medusa"],
+    "storyIds": [],
+    "order": 6
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "greek-and-roman-mythology",
+  "slug": "greek-and-roman-mythology",
+  "title": "ギリシャ神話とローマ神話の違い",
+  "description": "ゼウスとユピテル、アテナとミネルウァ。ギリシャ神話とローマ神話の関係と違いを解説します。",
+  "category": "basics",
+  "tags": ["ローマ神話"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": ["athena", "poseidon", "zeus"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

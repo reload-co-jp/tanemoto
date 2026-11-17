@@ -1,0 +1,21 @@
+{
+  "id": "greek-mythology-overview",
+  "slug": "greek-mythology-overview",
+  "title": "ギリシャ神話の世界観を簡単に解説",
+  "description": "天空・海・冥界の三分割や神々の世代交代など、ギリシャ神話の世界観をわかりやすく解説します。",
+  "category": "myths",
+  "tags": ["ギリシャ神話"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": ["zeus", "hades", "poseidon"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

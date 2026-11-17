@@ -1,0 +1,24 @@
+[
+  {
+    "id": "frazer-apollodorus",
+    "title": "Apollodorus, The Library（ローブ古典叢書版・注釈）",
+    "author": "J. G. フレイザー",
+    "translator": "J. G. フレイザー 訳・注",
+    "type": "secondary",
+    "publishedPeriod": "1921年",
+    "publisher": "Harvard University Press / William Heinemann",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0022",
+    "urlLabel": "Perseus Digital Library",
+    "notes": "アポロドロス『ビブリオテーケー』の英訳。各節に付された注で、同じ神話を伝える他の古典資料が網羅的に示されている。"
+  },
+  {
+    "id": "perseus-digital-library",
+    "title": "Perseus Digital Library",
+    "author": "タフツ大学",
+    "type": "web",
+    "publishedPeriod": "1987年〜（オンライン公開）",
+    "url": "http://www.perseus.tufts.edu/hopper/",
+    "urlLabel": "Perseus Digital Library",
+    "notes": "ギリシャ・ラテン古典の原文と英訳を公開するデジタルライブラリ。トモタネでは原典の該当箇所の確認に使用している。"
+  }
+]

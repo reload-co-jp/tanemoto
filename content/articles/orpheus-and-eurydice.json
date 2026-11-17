@@ -1,0 +1,21 @@
+{
+  "id": "orpheus-and-eurydice",
+  "slug": "orpheus-and-eurydice",
+  "title": "オルフェウスとエウリュディケの物語",
+  "description": "亡き妻を取り戻すため冥界へ下った詩人オルフェウスの物語を、オウィディウスなどの資料から解説します。",
+  "category": "myths",
+  "tags": ["オルフェウス", "冥界"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": ["hades", "persephone"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

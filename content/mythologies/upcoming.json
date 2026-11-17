@@ -1,0 +1,38 @@
+[
+  {
+    "id": "norse",
+    "slug": "norse",
+    "name": "北欧神話",
+    "region": "北欧（スカンディナヴィア・アイスランドなど）",
+    "description": "オーディンやトールなどの神々と、世界の終末ラグナロクの物語で知られる神話。準備中です。",
+    "comingSoon": true,
+    "order": 2
+  },
+  {
+    "id": "japanese",
+    "slug": "japanese",
+    "name": "日本神話",
+    "region": "日本",
+    "description": "『古事記』『日本書紀』などに伝えられる神々の物語。準備中です。",
+    "comingSoon": true,
+    "order": 3
+  },
+  {
+    "id": "egyptian",
+    "slug": "egyptian",
+    "name": "エジプト神話",
+    "region": "古代エジプト",
+    "description": "太陽神ラーやオシリスなど、古代エジプトの神々の物語。準備中です。",
+    "comingSoon": true,
+    "order": 4
+  },
+  {
+    "id": "celtic",
+    "slug": "celtic",
+    "name": "ケルト神話",
+    "region": "アイルランド・ウェールズなど",
+    "description": "アイルランドやウェールズの中世写本に伝わる神々と英雄の物語。準備中です。",
+    "comingSoon": true,
+    "order": 5
+  }
+]

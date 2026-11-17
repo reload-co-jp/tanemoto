@@ -1,0 +1,101 @@
+[
+  {
+    "id": "hesiod-theogony",
+    "title": "神統記",
+    "originalTitle": "Theogonia（Θεογονία）",
+    "author": "ヘシオドス",
+    "type": "primary",
+    "publishedPeriod": "紀元前700年頃（諸説あり）",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130",
+    "urlLabel": "Perseus Digital Library（H. G. Evelyn-White 英訳, 1914）",
+    "notes": "世界と神々の誕生、神々の系譜を語る叙事詩。行番号は原典の行数。邦訳に廣川洋一訳（岩波文庫）がある。"
+  },
+  {
+    "id": "homer-iliad",
+    "title": "イリアス",
+    "originalTitle": "Ilias（Ἰλιάς）",
+    "author": "ホメロス",
+    "type": "primary",
+    "publishedPeriod": "紀元前8世紀後半頃（諸説あり）",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134",
+    "urlLabel": "Perseus Digital Library（A. T. Murray 英訳）",
+    "notes": "トロイア戦争の一時期を描く叙事詩。「巻.行」で箇所を示す。邦訳に松平千秋訳（岩波文庫）がある。"
+  },
+  {
+    "id": "homer-odyssey",
+    "title": "オデュッセイア",
+    "originalTitle": "Odysseia（Ὀδύσσεια）",
+    "author": "ホメロス",
+    "type": "primary",
+    "publishedPeriod": "紀元前8世紀末頃（諸説あり）",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136",
+    "urlLabel": "Perseus Digital Library（A. T. Murray 英訳）",
+    "notes": "トロイア戦争後のオデュッセウスの帰国を描く叙事詩。「巻.行」で箇所を示す。邦訳に松平千秋訳（岩波文庫）がある。"
+  },
+  {
+    "id": "homeric-hymn-demeter",
+    "title": "デメテル讃歌（ホメロス風讃歌 第2歌）",
+    "originalTitle": "Hymn to Demeter",
+    "author": "作者不詳",
+    "type": "primary",
+    "publishedPeriod": "紀元前7〜6世紀頃（諸説あり）",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0138:hymn=2",
+    "urlLabel": "Perseus Digital Library（H. G. Evelyn-White 英訳, 1914）",
+    "notes": "ペルセポネの誘拐とデメテルの嘆きを語る讃歌。古くはホメロス作とされたが、作者は不詳。"
+  },
+  {
+    "id": "apollodorus-library",
+    "title": "ビブリオテーケー（邦題『ギリシア神話』）",
+    "originalTitle": "Bibliotheca（Βιβλιοθήκη）",
+    "author": "アポロドロス（伝）",
+    "type": "primary",
+    "publishedPeriod": "紀元後1〜2世紀頃（諸説あり）",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0022",
+    "urlLabel": "Perseus Digital Library（J. G. Frazer 英訳, 1921）",
+    "notes": "ギリシャ神話を系統的にまとめた神話集。伝統的にアテナイのアポロドロスの作とされてきたが、実際の作者は不詳。「巻.章.節」で箇所を示す。邦訳に高津春繁訳『ギリシア神話』（岩波文庫）がある。"
+  },
+  {
+    "id": "ovid-metamorphoses",
+    "title": "変身物語",
+    "originalTitle": "Metamorphoses",
+    "author": "オウィディウス",
+    "type": "primary",
+    "publishedPeriod": "紀元後8年頃",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028",
+    "urlLabel": "Perseus Digital Library（Brookes More 英訳, 1922）",
+    "notes": "ローマの詩人によるラテン語の叙事詩。ギリシャ・ローマの神話を「変身」をテーマに語り直す。神々の名はラテン名（ミネルウァ＝アテナ、ネプトゥヌス＝ポセイドンなど）で登場する。邦訳に中村善也訳（岩波文庫）がある。"
+  },
+  {
+    "id": "pindar-odes",
+    "title": "祝勝歌",
+    "originalTitle": "Epinikia（オリュンピア祝勝歌・ピュティア祝勝歌ほか）",
+    "author": "ピンダロス",
+    "type": "primary",
+    "publishedPeriod": "紀元前5世紀前半",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0162",
+    "urlLabel": "Perseus Digital Library（D. A. Svarlien 英訳, 1990）",
+    "notes": "競技祭の勝者を讃える合唱歌。神話の挿話が多く織り込まれている。「O.」はオリュンピア祝勝歌、「P.」はピュティア祝勝歌。"
+  },
+  {
+    "id": "pausanias-description",
+    "title": "ギリシア案内記",
+    "originalTitle": "Hellados Periegesis（Ἑλλάδος περιήγησις）",
+    "author": "パウサニアス",
+    "type": "primary",
+    "publishedPeriod": "紀元後2世紀",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0160",
+    "urlLabel": "Perseus Digital Library（W. H. S. Jones 英訳）",
+    "notes": "ギリシャ各地の神殿・祭祀・伝承を記録した旅行記。「巻.章.節」で箇所を示す。"
+  },
+  {
+    "id": "plato-cratylus",
+    "title": "クラテュロス",
+    "originalTitle": "Cratylus（Κρατύλος）",
+    "author": "プラトン",
+    "type": "primary",
+    "publishedPeriod": "紀元前4世紀",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0172",
+    "urlLabel": "Perseus Digital Library（H. N. Fowler 英訳）",
+    "notes": "名前の正しさをめぐる対話篇。神々の名前の語源についての議論を含む。箇所はステファヌス版の頁番号で示す。"
+  }
+]

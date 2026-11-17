@@ -1,0 +1,17 @@
+{
+  "id": "poseidon",
+  "slug": "poseidon",
+  "name": "ポセイドン",
+  "reading": "ぽせいどん",
+  "originalName": "Ποσειδῶν",
+  "romanized": "Poseidon",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["海の神", "大地を揺るがす者"],
+  "mythologyIds": ["greek"],
+  "description": "海を支配する神。クロノスとレアの子で、くじ引きによって海を割り当てられた（『イリアス』）。『神統記』ではメデューサと交わった「黒髪の神」として登場し、アポロドロスはペガソスとクリュサオルを彼の子としている。",
+  "relatedFigureIds": ["zeus", "hades", "medusa", "pegasus"],
+  "relatedStoryIds": ["division-of-the-world", "children-of-cronos"],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "homer-iliad", "apollodorus-library"]
+}

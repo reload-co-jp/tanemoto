@@ -1,0 +1,17 @@
+{
+  "id": "chimera",
+  "slug": "chimera",
+  "name": "キマイラ",
+  "reading": "きまいら",
+  "originalName": "Χίμαιρα",
+  "romanized": "Khimaira",
+  "alternativeNames": ["キメラ", "キマエラ"],
+  "type": "monster",
+  "roles": ["火を吐く怪物"],
+  "mythologyIds": ["greek"],
+  "description": "獅子・山羊・蛇（竜）が組み合わさった、火を吐く怪物。『イリアス』では「前は獅子、後ろは蛇、中ほどは山羊」と描かれる。英雄ベレロポンに退治された。",
+  "relatedFigureIds": ["bellerophon", "pegasus", "echidna"],
+  "relatedStoryIds": ["bellerophon-chimera"],
+  "articleIds": [],
+  "sourceIds": ["homer-iliad", "hesiod-theogony", "apollodorus-library"]
+}

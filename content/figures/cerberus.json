@@ -1,0 +1,17 @@
+{
+  "id": "cerberus",
+  "slug": "cerberus",
+  "name": "ケルベロス",
+  "reading": "けるべろす",
+  "originalName": "Κέρβερος",
+  "romanized": "Kerberos",
+  "alternativeNames": ["ケルベルス（ローマ）"],
+  "type": "monster",
+  "roles": ["冥界の番犬"],
+  "mythologyIds": ["greek"],
+  "description": "ハデスの館を守る冥界の番犬。テュポンとエキドナの子。『神統記』では五十の頭をもつとされ、アポロドロスは三つの犬の頭、竜の尾、背中に多くの蛇の頭をもつ姿を伝える。",
+  "relatedFigureIds": ["hades", "heracles", "echidna", "typhon"],
+  "relatedStoryIds": ["heracles-cerberus"],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "apollodorus-library"]
+}

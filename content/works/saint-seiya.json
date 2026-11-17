@@ -1,0 +1,36 @@
+{
+  "id": "saint-seiya",
+  "slug": "saint-seiya",
+  "title": "聖闘士星矢",
+  "reading": "せいんとせいや",
+  "type": "manga",
+  "mediaTypes": ["anime"],
+  "author": "車田正美",
+  "period": "1986〜1990年（『週刊少年ジャンプ』連載）",
+  "description": "女神アテナを守る少年たち「聖闘士（セイント）」の戦いを描いた漫画作品。ギリシャ神話の神々や星座をモチーフにしたキャラクター・設定が数多く登場する。",
+  "characters": [
+    {
+      "name": "星矢",
+      "figureId": "pegasus",
+      "note": "主人公。ペガサス（天馬星座）の聖衣（クロス）をまとう聖闘士。"
+    },
+    {
+      "name": "城戸沙織",
+      "figureId": "athena",
+      "note": "作中では女神アテナとして、聖闘士たちが守るべき存在とされる。"
+    },
+    {
+      "name": "ポセイドン",
+      "figureId": "poseidon",
+      "note": "海を支配する神として、アテナと敵対する存在として登場する。"
+    },
+    {
+      "name": "ハーデス",
+      "figureId": "hades",
+      "note": "冥界の王として、物語終盤の敵として登場する。"
+    }
+  ],
+  "mythologyIds": ["greek"],
+  "articleIds": [],
+  "sourceIds": ["work-saint-seiya"]
+}

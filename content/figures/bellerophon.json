@@ -1,0 +1,17 @@
+{
+  "id": "bellerophon",
+  "slug": "bellerophon",
+  "name": "ベレロポン",
+  "reading": "べれろぽん",
+  "originalName": "Βελλεροφόντης",
+  "romanized": "Bellerophontes",
+  "alternativeNames": ["ベレロフォン", "ベレロポンテス"],
+  "type": "hero",
+  "roles": ["英雄", "キマイラ退治"],
+  "mythologyIds": ["greek"],
+  "description": "コリントスゆかりの英雄。リュキア王の命でキマイラを退治した。ピンダロスによれば、アテナから授かった黄金の手綱で天馬ペガソスを手なずけた。",
+  "relatedFigureIds": ["chimera", "pegasus", "athena"],
+  "relatedStoryIds": ["bellerophon-chimera"],
+  "articleIds": [],
+  "sourceIds": ["homer-iliad", "apollodorus-library", "pindar-odes"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hades",
+  "slug": "hades",
+  "name": "ハデス",
+  "reading": "はです",
+  "originalName": "Ἅιδης",
+  "romanized": "Hades",
+  "alternativeNames": ["ハーデース", "アイドネウス", "プルトン"],
+  "type": "god",
+  "roles": ["冥界の王", "死者の世界の支配者"],
+  "mythologyIds": ["greek"],
+  "description": "冥界を治める神。クロノスとレアの子で、ゼウス・ポセイドンの兄弟。『イリアス』では、くじ引きによって「闇の世界」を割り当てられたとされる。妻はペルセポネ。",
+  "relatedFigureIds": ["persephone", "zeus", "poseidon", "cerberus"],
+  "relatedStoryIds": [
+    "division-of-the-world",
+    "abduction-of-persephone",
+    "children-of-cronos"
+  ],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "homer-iliad", "homeric-hymn-demeter"]
+}

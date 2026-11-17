@@ -1,0 +1,21 @@
+{
+  "id": "minotaur",
+  "slug": "minotaur",
+  "title": "ミノタウロスとは？迷宮の怪物",
+  "description": "クレタ島の迷宮に閉じ込められた牛頭の怪物ミノタウロスの誕生とテセウスによる退治を解説します。",
+  "category": "monsters",
+  "tags": ["ミノタウロス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

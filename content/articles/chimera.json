@@ -1,0 +1,251 @@
+{
+  "id": "chimera",
+  "slug": "chimera",
+  "title": "キマイラとは？獅子・山羊・蛇が融合した火を吐く怪物",
+  "shortTitle": "キマイラとは？複数の動物が融合した怪物",
+  "description": "獅子・山羊・蛇が一体となり火を吐く怪物キマイラ。ホメロスとヘシオドスで異なる姿の描写、親をめぐる解釈、英雄ベレロポンによる退治の物語を原典から解説します。",
+  "lead": "複数の動物が組み合わさった怪物キマイラ（キメラ）。ゲームや漫画では合成獣の代名詞として登場しますが、古代の文献では具体的にどのような姿で描かれていたのでしょうか。ホメロス、ヘシオドス、アポロドロスの記述を比べながら見ていきます。",
+  "category": "monsters",
+  "tags": ["キマイラ", "ベレロポン", "ペガサス", "エキドナ", "怪物"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["chimera", "bellerophon", "pegasus", "echidna", "typhon"],
+  "mythologyIds": ["greek"],
+  "storyIds": ["bellerophon-chimera"],
+  "workIds": [],
+  "topicIds": ["monsters", "heroic-quest"],
+  "sourceIds": ["homer-iliad", "hesiod-theogony", "apollodorus-library"],
+  "relatedArticleIds": ["pegasus"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "キマイラの基本情報",
+      "anchor": "basics"
+    },
+    {
+      "type": "paragraph",
+      "text": "キマイラ（ギリシャ語 Χίμαιρα／Khimaira）は、獅子・山羊・蛇（竜）の特徴をあわせもち、火を吐く怪物です。英雄ベレロポンに退治されたことで知られています。",
+      "claimIds": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**分類**：怪物",
+        "**姿**：獅子・山羊・蛇（竜）の組み合わせ、火を吐く",
+        "**親**：エキドナ（とテュポン）とされることが多い——後述",
+        "**退治した英雄**：ベレロポン（ペガソスとともに）"
+      ],
+      "claimIds": ["chimera-iliad-form", "chimera-apollodorus-parents"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ホメロスが描いたキマイラ",
+      "anchor": "homer"
+    },
+    {
+      "type": "paragraph",
+      "text": "最古級の記述は、ホメロス『イリアス』第6歌に見られます。トロイア方の武将グラウコスが自らの家系を語る場面で、祖父ベレロポンの物語として登場します。",
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "それによると、キマイラは「神々の血筋のもので、人間のものではなく、前は獅子、後ろは蛇、中ほどは山羊で、燃えさかる炎の力を恐ろしく吐き出していた」とされます。ベレロポンは「神々の示すしるしを頼りに」これを倒しました。",
+      "claimIds": ["chimera-iliad-form"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『イリアス』第16歌にも、キマイラが再び言及されます。そこでは、ある兄弟の父アミソダロスが「多くの人々の災いとなった猛きキマイラを育てた」者として紹介されています。",
+      "claimIds": ["chimera-amisodarus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ヘシオドスのキマイラ——三つの頭",
+      "anchor": "hesiod"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』のキマイラは、さらに具体的です。「恐ろしく、大きく、足が速く、強い」怪物で、「三つの頭をもち、一つは目の鋭い獅子、一つは山羊、一つは蛇、すなわち猛き竜」であり、「前は獅子、後ろは竜、中ほどは山羊で、燃えさかる火の恐ろしい息を吐いた」と描かれます。",
+      "claimIds": ["chimera-theogony-form"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「頭が三つ」か「部位が三つ」か",
+      "text": "『イリアス』の描写は体の前・中・後ろが三種の動物になっている、とも読める書き方ですが、『神統記』ははっきり「三つの頭」をもつとしています。アポロドロスも「三つ目の頭、中央のものは山羊で、そこから火を吐いた」と述べており、頭が三つある姿は後代の資料で定着していったと考えられます。",
+      "claimIds": [
+        "chimera-editorial-heads",
+        "chimera-theogony-form",
+        "chimera-apollodorus-form"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "キマイラの親は誰か",
+      "anchor": "parents"
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』では、キマイラは怪物エキドナの子孫の系譜のなかに登場します。ただし該当箇所は「彼女は火を吐くキマイラを産んだ」という書き方で、直前にはエキドナの子であるヒュドラが語られているため、「彼女」がエキドナとヒュドラのどちらを指すのかは文脈上はっきりしません。",
+      "claimIds": ["chimera-theogony-she"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "アポロドロスの解釈",
+      "text": "アポロドロス『ビブリオテーケー』は、「このキマイラはホメロスの言うとおりアミソダロスに育てられ、ヘシオドスが語るとおりテュポンがエキドナに産ませたものだという」と記しています。少なくともアポロドロスは、キマイラをテュポンとエキドナの子として理解していました。",
+      "claimIds": ["chimera-apollodorus-parents"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ベレロポンによる退治",
+      "anchor": "bellerophon"
+    },
+    {
+      "type": "paragraph",
+      "text": "キマイラ退治の発端は、ベレロポンにかけられた濡れ衣です。『イリアス』によれば、プロイトス王の妻アンテイアはベレロポンに思いを寄せましたが拒まれ、逆に夫に「ベレロポンが無理に言い寄った」と偽りを告げました。プロイトスは自ら手を下すことをはばかり、ベレロポンを死に至らしめるしるしを刻んだ板を持たせて、妻の父であるリュキア王のもとへ送ります。",
+      "claimIds": ["chimera-iliad-plot"]
+    },
+    {
+      "type": "paragraph",
+      "text": "リュキア王はそのしるしを見ると、まずベレロポンにキマイラを殺すよう命じました。アポロドロス版では、王（イオバテス）は「多くの者でもかなわない怪物だから、ベレロポンは殺されるだろう」と考えて命じたとされます。キマイラは国土を荒らし、家畜を襲っており、「一つの体に三頭の獣の力をもっていた」からです。",
+      "claimIds": ["chimera-apollodorus-plot"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ベレロポンは、メデューサとポセイドンの子である翼ある馬ペガソスに乗って高く舞い上がり、空からキマイラを射倒しました。『神統記』も、キマイラを殺したのは「ペガソスと気高いベレロポン」だとしています。",
+      "claimIds": ["chimera-apollodorus-victory", "chimera-theogony-kill"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ペガソスを手なずけた経緯については[ペガサスとは？翼を持つ馬の誕生](/articles/pegasus/)で詳しく解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "キマイラは獅子・山羊・蛇（竜）の特徴をもち、火を吐く怪物",
+        "『イリアス』では「前は獅子、後ろは蛇、中ほどは山羊」、『神統記』では三つの頭をもつとされる",
+        "親については『神統記』の文脈に解釈の余地があり、アポロドロスはテュポンとエキドナの子とする",
+        "英雄ベレロポンがペガソスに乗り、空から退治した"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "複数の動物が一体化した怪物というイメージは、現代の作品で「合成獣」として幅広く応用されています。原典での描写の違いを知っておくと、作品ごとのデザインの工夫にも気づきやすくなるでしょう。",
+      "claimIds": ["chimera-editorial-works"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "chimera-iliad-form",
+      "text": "キマイラは神々の血筋のもので、前は獅子、後ろは蛇、中ほどは山羊で、炎を吐いた。ベレロポンは神々のしるしを頼りに倒した。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』6.179–183"
+    },
+    {
+      "id": "chimera-amisodarus",
+      "text": "アミソダロスは、多くの人々の災いとなったキマイラを育てた者として言及される。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』16.328–329"
+    },
+    {
+      "id": "chimera-theogony-form",
+      "text": "キマイラは三つの頭（獅子・山羊・蛇）をもち、前は獅子、後ろは竜、中ほどは山羊で、燃えさかる火を吐いた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』319–324行"
+    },
+    {
+      "id": "chimera-apollodorus-form",
+      "text": "アポロドロスは、キマイラは前が獅子、尾が竜で、三つ目の中央の頭は山羊で、そこから火を吐いたとする。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.1"
+    },
+    {
+      "id": "chimera-editorial-heads",
+      "text": "『イリアス』の描写は体の部位として読めるが、『神統記』とアポロドロスは三つの頭をもつ姿を描いており、三頭の姿は後代の資料で定着したと考えられる。",
+      "classification": "editorial",
+      "sourceIds": ["homer-iliad", "hesiod-theogony", "apollodorus-library"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "chimera-theogony-she",
+      "text": "『神統記』では「彼女は火を吐くキマイラを産んだ」とあり、直前にヒュドラが語られるため、「彼女」がエキドナとヒュドラのどちらを指すかは文脈上明確でない。",
+      "classification": "variant",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』313–319行",
+      "note": "本記事では原文の構造上の曖昧さを指摘するにとどめる。"
+    },
+    {
+      "id": "chimera-apollodorus-parents",
+      "text": "アポロドロスは、キマイラはホメロスの言うとおりアミソダロスに育てられ、ヘシオドスの語るとおりテュポンがエキドナに産ませたものだと記す。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.1"
+    },
+    {
+      "id": "chimera-iliad-plot",
+      "text": "アンテイアに偽りを告げられたプロイトスは、ベレロポンに死を招くしるしを刻んだ板を持たせ、リュキアの義父のもとへ送った。リュキア王はまずキマイラ退治を命じた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』6.155–179"
+    },
+    {
+      "id": "chimera-apollodorus-plot",
+      "text": "イオバテスはベレロポンが殺されると考えてキマイラ退治を命じた。キマイラは国土を荒らし家畜を襲い、一つの体に三頭の獣の力をもっていた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.1"
+    },
+    {
+      "id": "chimera-apollodorus-victory",
+      "text": "ベレロポンはメデューサとポセイドンの子ペガソスに乗って舞い上がり、空からキマイラを射倒した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.2"
+    },
+    {
+      "id": "chimera-theogony-kill",
+      "text": "キマイラを殺したのはペガソスと気高いベレロポンである。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』325行"
+    },
+    {
+      "id": "chimera-editorial-works",
+      "text": "複数の動物が一体化した怪物のイメージは、現代作品で合成獣として広く応用されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

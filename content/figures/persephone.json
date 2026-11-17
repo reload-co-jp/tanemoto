@@ -1,0 +1,17 @@
+{
+  "id": "persephone",
+  "slug": "persephone",
+  "name": "ペルセポネ",
+  "reading": "ぺるせぽね",
+  "originalName": "Περσεφόνη",
+  "romanized": "Persephone",
+  "alternativeNames": ["ペルセポネー", "コレー"],
+  "type": "god",
+  "roles": ["冥界の女王", "デメテルの娘"],
+  "mythologyIds": ["greek"],
+  "description": "デメテルとゼウスの娘で、ハデスの妻。『デメテル讃歌』によれば、ハデスに連れ去られて冥界の女王となり、ザクロの実を口にしたために一年の三分の一を冥界で過ごすことになった。",
+  "relatedFigureIds": ["hades", "demeter", "zeus", "hermes"],
+  "relatedStoryIds": ["abduction-of-persephone"],
+  "articleIds": [],
+  "sourceIds": ["homeric-hymn-demeter", "hesiod-theogony"]
+}

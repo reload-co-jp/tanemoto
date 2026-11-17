@@ -28,13 +28,22 @@ jobs:
           node-version: "24"
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build application
         run: pnpm build
+        env:
+          # リポジトリの Settings > Secrets and variables > Actions > Variables で設定する
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+          NEXT_PUBLIC_GA_ID: ${{ vars.NEXT_PUBLIC_GA_ID }}
+          NEXT_PUBLIC_ADSENSE_CLIENT: ${{ vars.NEXT_PUBLIC_ADSENSE_CLIENT }}
+          NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE: ${{ vars.NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE }}
+          NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR: ${{ vars.NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR }}
+          NEXT_PUBLIC_GSC_VERIFICATION: ${{ vars.NEXT_PUBLIC_GSC_VERIFICATION }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

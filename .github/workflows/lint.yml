@@ -1,13 +1,14 @@
-name: Lint
+name: Check
 
 on:
   push:
     branches:
       - main
+  pull_request:
 
 jobs:
-  Test:
-    name: Run linter and formatter
+  check:
+    name: Validate content, lint, typecheck and test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,8 +16,14 @@ jobs:
         with:
           node-version: "24"
       - uses: pnpm/action-setup@v4
-      - run: pnpm i
-      - name: Run linter
+      - run: pnpm install --frozen-lockfile
+      - name: Validate content
+        run: pnpm validate
+      - name: Lint
         run: pnpm lint
-      - name: Run formatter
-        run: pnpm format
+      - name: Check formatting
+        run: pnpm format:check
+      - name: Typecheck
+        run: pnpm typecheck
+      - name: Test
+        run: pnpm test

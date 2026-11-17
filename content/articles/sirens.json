@@ -1,0 +1,21 @@
+{
+  "id": "sirens",
+  "slug": "sirens",
+  "title": "セイレーンとは？人を惑わす歌声の伝承",
+  "description": "歌声で船乗りを惑わすセイレーン。『オデュッセイア』での描写と姿の変遷を解説します。",
+  "category": "monsters",
+  "tags": ["セイレーン"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

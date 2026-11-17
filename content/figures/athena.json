@@ -1,0 +1,17 @@
+{
+  "id": "athena",
+  "slug": "athena",
+  "name": "アテナ",
+  "reading": "あてな",
+  "originalName": "Ἀθηνᾶ",
+  "romanized": "Athena",
+  "alternativeNames": ["アテーナー", "パラス・アテナ", "ミネルウァ（ローマ）"],
+  "type": "god",
+  "roles": ["戦いの女神", "英雄の助力者"],
+  "mythologyIds": ["greek"],
+  "description": "ゼウスの娘で、戦いの女神。『イリアス』ではゴルゴンの首を据えたアイギスを身につけて戦場に臨む。ペルセウスのメデューサ退治や、ベレロポンによる天馬の捕獲を助けた。",
+  "relatedFigureIds": ["perseus", "bellerophon", "medusa", "zeus"],
+  "relatedStoryIds": ["perseus-medusa", "bellerophon-chimera"],
+  "articleIds": [],
+  "sourceIds": ["homer-iliad", "apollodorus-library", "pindar-odes"]
+}
