@@ -158,8 +158,8 @@ export const Hero = () => (
         {site.tagline}
       </h1>
       <p className="t-hero__text">
-        アニメや漫画で出会ったキャラクター、能力、武器、世界観。その背景にある神話・伝承を、原典と研究にもとづいてたどります。
-        事実・学説・異伝・創作・考察を区別し、すべての主張に根拠を示します。
+        あのキャラクターの名前は、どこから来たのか。アニメや漫画のキャラクターを入口に、名前の由来やモチーフになった神話・伝承を、原典にもとづいてたどります。
+        作品の設定と神話の内容を区別し、すべての主張に根拠を示します。
       </p>
       <form
         className="t-hero__search"
@@ -174,7 +174,7 @@ export const Hero = () => (
           id="hero-q"
           name="q"
           type="search"
-          placeholder="神・怪物・作品名で検索（例：メデューサ）"
+          placeholder="キャラクター名・作品名・神話の名前で検索"
         />
         <button type="submit">検索</button>
       </form>

@@ -24,6 +24,7 @@ export const search = (
     .filter(Boolean)
   if (terms.length === 0) return []
   const kindBonus: Record<SearchEntry["kind"], number> = {
+    character: 3,
     figure: 2,
     mythology: 2,
     work: 2,

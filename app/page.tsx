@@ -11,6 +11,7 @@ import { JsonLd } from "@/components/seo/JsonLd"
 import { classifications, workTypes } from "@/lib/content/schema"
 import {
   getArticles,
+  getCharacters,
   getArticlesForFigure,
   getArticlesForMythology,
   getArticlesForTopic,
@@ -22,6 +23,7 @@ import {
   getWorks,
 } from "@/lib/content/repository"
 import { buildMetadata, organizationJsonLd, websiteJsonLd } from "@/lib/seo"
+import { characterTile } from "@/lib/characterTile"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { bp, color, font } from "@/lib/styles/theme"
@@ -30,6 +32,7 @@ export const metadata = buildMetadata({ path: "/" })
 
 const styles = css`
   .t-home-grid {
+    margin-top: 48px;
     display: grid;
     gap: 40px;
   }
@@ -96,12 +99,40 @@ const Page = () => {
   const popular = getPopularArticles(5)
   const figures = getFigures().filter((f) => getArticlesForFigure(f).length > 0)
   const works = getWorks()
+  const characters = getCharacters()
 
   return (
     <>
       <Style id="home">{styles}</Style>
       <JsonLd data={[websiteJsonLd(), organizationJsonLd()]} />
       <Hero />
+
+      <Section
+        title="キャラクターから元ネタを探す"
+        en="Characters"
+        id="characters"
+        more={{ href: paths.characters(), label: "すべてのキャラクター" }}
+      >
+        {characters.length > 0 ? (
+          <TileList items={characters.slice(0, 8).map(characterTile)} />
+        ) : (
+          <p className="t-empty">キャラクターの元ネタ解説は準備中です。</p>
+        )}
+        {works.length > 0 && (
+          <div style={{ marginTop: 20 }}>
+            <p className="t-meta" style={{ marginBottom: 8 }}>
+              作品から探す
+            </p>
+            <ChipList
+              items={works.map((w) => ({
+                href: paths.work(w.slug),
+                label: `『${w.title}』`,
+                sub: workTypes[w.type],
+              }))}
+            />
+          </div>
+        )}
+      </Section>
 
       <div className="t-home-grid">
         <div>
@@ -152,7 +183,7 @@ const Page = () => {
       </div>
 
       <Section
-        title="人物・怪物から探す"
+        title="元ネタ（神々・怪物）から探す"
         en="Figures"
         id="figures"
         more={{ href: paths.figures(), label: "すべての人物・怪物" }}
@@ -180,25 +211,6 @@ const Page = () => {
             meta: `記事 ${getArticlesForTopic(t).length}件`,
           }))}
         />
-      </Section>
-
-      <Section
-        title="作品から探す"
-        en="Works"
-        id="works"
-        more={{ href: paths.works(), label: "作品一覧" }}
-      >
-        {works.length > 0 ? (
-          <ChipList
-            items={works.map((w) => ({
-              href: paths.work(w.slug),
-              label: `『${w.title}』`,
-              sub: workTypes[w.type],
-            }))}
-          />
-        ) : (
-          <p className="t-empty">作品ページは準備中です。</p>
-        )}
       </Section>
 
       <section className="t-policy" aria-labelledby="policy-title">

@@ -4,6 +4,7 @@ import { readContent } from "./load"
 import type {
   Article,
   Category,
+  Character,
   Figure,
   Image,
   Mythology,
@@ -151,8 +152,10 @@ export const getRelatedFigures = (figure: Figure): Figure[] => {
   )
 }
 
-export const getWorksForFigure = (figure: Figure): Work[] =>
-  getWorks().filter((w) => w.characters.some((c) => c.figureId === figure.id))
+export const getWorksForFigure = (figure: Figure): Work[] => {
+  const workIds = getCharactersForFigure(figure).map((c) => c.workId)
+  return getWorks().filter((w) => workIds.includes(w.id))
+}
 
 // --- 神話体系 ---------------------------------------------------------------
 
@@ -260,3 +263,74 @@ export const getFeaturedArticles = (limit = 3): Article[] => {
 
 export const getPopularArticles = (limit = 5): Article[] =>
   getArticlesByIds(content().home.popularArticleIds).slice(0, limit)
+
+// --- キャラクター --------------------------------------------------------------
+
+export const getCharacters = (): Character[] =>
+  [...content().characters].sort((a, b) =>
+    (a.reading ?? a.name).localeCompare(b.reading ?? b.name, "ja")
+  )
+export const getCharacter = (slug: string) =>
+  getCharacters().find((c) => c.slug === slug)
+export const getCharactersByIds = (ids: string[]) => pick(getCharacters(), ids)
+
+export const getCharactersForWork = (work: Work): Character[] =>
+  getCharacters().filter((c) => c.workId === work.id)
+
+/** その人物・怪物をモチーフ（元ネタ）にしたキャラクター */
+export const getCharactersForFigure = (figure: Figure): Character[] =>
+  getCharacters().filter((c) => c.motifs.some((m) => m.figureId === figure.id))
+
+/** キャラクターの元ネタとなった人物・怪物（主な元ネタ順） */
+export const getMotifFigures = (character: Character): Figure[] =>
+  getFiguresByIds(
+    uniq(character.motifs.flatMap((m) => (m.figureId ? [m.figureId] : [])))
+  )
+
+/** キャラクターを直接扱う記事 */
+export const getArticlesForCharacter = (character: Character): Article[] =>
+  getArticles().filter(
+    (a) =>
+      a.characterIds.includes(character.id) ||
+      character.articleIds.includes(a.id)
+  )
+
+/** 元ネタ（モチーフの人物・怪物）を解説する記事 */
+export const getOriginArticlesForCharacter = (
+  character: Character
+): Article[] => {
+  const figureIds = getMotifFigures(character).map((f) => f.id)
+  const direct = getArticlesForCharacter(character)
+  return getArticles().filter(
+    (a) =>
+      !direct.includes(a) && a.figureIds.some((id) => figureIds.includes(id))
+  )
+}
+
+/**
+ * 記事に関係するキャラクター。
+ * 記事の characterIds で明示したもの＋記事の主題（figureIds の先頭）をモチーフにしたもの。
+ */
+export const getCharactersForArticle = (article: Article): Character[] => {
+  const explicit = getCharactersByIds(article.characterIds)
+  const subject = article.figureIds[0]
+  const viaFigure = getCharacters().filter(
+    (c) =>
+      !explicit.includes(c) &&
+      (c.articleIds.includes(article.id) ||
+        (subject !== undefined && c.motifs.some((m) => m.figureId === subject)))
+  )
+  return [...explicit, ...viaFigure]
+}
+
+/** 同じ人物・怪物を元ネタにした、ほかのキャラクター */
+export const getCharactersWithSameMotif = (
+  character: Character
+): Character[] => {
+  const figureIds = getMotifFigures(character).map((f) => f.id)
+  return getCharacters().filter(
+    (c) =>
+      c.id !== character.id &&
+      c.motifs.some((m) => m.figureId && figureIds.includes(m.figureId))
+  )
+}

@@ -1,0 +1,111 @@
+{
+  "id": "saint-seiya-seiya",
+  "slug": "saint-seiya-seiya",
+  "name": "星矢",
+  "reading": "せいや",
+  "alternativeNames": [],
+  "workId": "saint-seiya",
+  "description": {
+    "text": "『聖闘士星矢』の主人公。女神アテナを守る聖闘士（セイント）の一人。",
+    "claimIds": ["ss-seiya-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "pegasus",
+      "label": "ペガサス（天馬）",
+      "inWork": {
+        "text": "ペガサス（天馬星座）の聖衣（クロス）をまとう聖闘士として描かれる。",
+        "claimIds": ["ss-seiya-work-pegasus"]
+      },
+      "inMyth": {
+        "text": "原典のペガソスは、英雄ペルセウスがメデューサの首を切り落としたときに生まれた翼ある馬。のちに英雄ベレロポンを乗せてキマイラ退治に加わり、最後はゼウスの館で雷鳴と稲妻を運ぶ存在になったと語られる。",
+        "claimIds": [
+          "ss-seiya-myth-birth",
+          "ss-seiya-myth-bellerophon",
+          "ss-seiya-myth-zeus"
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のペガソスは英雄を背に乗せる「馬」であり、英雄そのものではない。作品では、天馬の名を冠した戦士として主人公に結びつけられている。",
+      "claimIds": ["ss-seiya-cmp-horse"]
+    },
+    {
+      "text": "原典でもペガソスは女神アテナと縁が深い。ピンダロスによれば、ベレロポンはアテナから授かった黄金の手綱でペガソスを手なずけた。アテナを守る「ペガサスの聖闘士」という作品の構図と重ねて読むと興味深い共通点である。",
+      "claimIds": ["ss-seiya-myth-bridle", "ss-seiya-cmp-athena"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ss-seiya-work",
+      "text": "星矢は『聖闘士星矢』の主人公で、アテナを守る聖闘士の一人である。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-seiya-work-pegasus",
+      "text": "星矢はペガサス（天馬星座）の聖衣をまとう聖闘士として描かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-seiya-myth-birth",
+      "text": "ペルセウスがメデューサの首を切ると、クリュサオルと馬のペガソスが生まれ出た。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』280–281行"
+    },
+    {
+      "id": "ss-seiya-myth-bellerophon",
+      "text": "ベレロポンは翼ある馬ペガソスに乗って舞い上がり、空からキマイラを射倒した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.2"
+    },
+    {
+      "id": "ss-seiya-myth-zeus",
+      "text": "ペガソスはゼウスの館に住み、ゼウスに雷鳴と稲妻を運ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』284–286行"
+    },
+    {
+      "id": "ss-seiya-myth-bridle",
+      "text": "ベレロポンは、アテナが夢の中で授けた黄金の手綱を使ってペガソスを捕らえた。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 63–87行"
+    },
+    {
+      "id": "ss-seiya-cmp-horse",
+      "text": "原典のペガソスは英雄を乗せる馬であり、作品では天馬の名を冠した戦士として主人公に結びつけられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-seiya-cmp-athena",
+      "text": "アテナとペガソスの結びつきは、原典と作品の構図に共通して見られる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者が原典のこの挿話を意識したかどうかは確認できないため、共通点の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": [
+    "work-saint-seiya",
+    "hesiod-theogony",
+    "apollodorus-library",
+    "pindar-odes"
+  ],
+  "articleIds": []
+}

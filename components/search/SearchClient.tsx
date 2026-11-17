@@ -5,6 +5,7 @@ import { excerpt, search } from "@/lib/search"
 import type { SearchEntry, SearchKind } from "@/lib/searchIndex"
 
 const kindLabel: Record<SearchKind, string> = {
+  character: "キャラクター",
   article: "記事",
   figure: "人物・怪物",
   work: "作品",
@@ -68,7 +69,7 @@ export const SearchClient = ({ indexUrl, basePath }: Props) => {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="例：メデューサ、冥界、ペルセウス"
+          placeholder="例：キャラクター名、作品名、メデューサ"
           autoComplete="off"
         />
       </form>
@@ -90,11 +91,12 @@ export const SearchClient = ({ indexUrl, basePath }: Props) => {
             {(
               [
                 "all",
+                "character",
                 "article",
                 "figure",
+                "work",
                 "mythology",
                 "topic",
-                "work",
               ] as const
             ).map((k) => {
               const count = k === "all" ? results.length : (counts[k] ?? 0)

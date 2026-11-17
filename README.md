@@ -4,6 +4,19 @@
 
 アニメ・漫画などのエンタメ作品を入口に、キャラクター・能力・武器・世界観の背景にある神話・伝承を、原典と研究にもとづいて解説する知識メディアです。記事中の主張ごとに「事実／学説／異伝／創作／考察」を区別し、出典と該当箇所を示します。
 
+## 基本構成：キャラクターから元ネタへ
+
+サイトの基本単位は**作品のキャラクター**です。各キャラクターは次の順で説明します。
+
+1. **キャラクター名**（作品での位置づけ：CREATIVE）
+2. **名前の由来**（確認できる場合のみ）
+3. **モチーフ（元ネタ）**：名前・称号・外見・能力・武器・立場などの要素ごとに「作品では」と「原典の神話では」を並べる
+4. **元ネタの神話・物語**（人物・怪物ページ、解説記事へ）
+5. **作品と原典の違い・共通点**（EDITORIAL が中心）
+6. **根拠と出典**
+
+神話の解説記事・人物ページ・作品ページにも、そのモチーフが登場するキャラクターの「元ネタ早見」が自動で表示されます。
+
 ## 技術スタック
 
 - **Next.js 16**（App Router / Static Export）・**React 19**・**TypeScript**
@@ -34,6 +47,7 @@ content/                 記事・人物などのデータ（JSON）
   mythologies/           神話体系
   stories/               物語（エピソード）
   works/                 作品
+  characters/            作品のキャラクター（作品ごとのサブフォルダ可。ファイル名 = slug）
   topics/                テーマ
   categories/            記事カテゴリー
   sources/               出典（原典・研究書・Web）
@@ -148,6 +162,41 @@ Claim の ID は全記事で一意にします（`<記事slug>-<名前>` を推�
 - 公開記事に含まれる `unverified` の主張、本文が参照する存在しない主張
 - 記事の `sourceIds` に含まれていない出典の使用
 - ID・slug・見出しアンカーの重複、予約語 slug（`page` / `category` / `tag`）
+
+## キャラクターの追加方法
+
+`content/characters/<作品>/<slug>.json` を作成します。作品の設定は `creative`（出典は作品）、原典の内容は `fact` など出典付きの主張で根拠を示します。`motifs[].inMyth` には出典付きの主張が必須です。
+
+```json
+{
+  "id": "saint-seiya-seiya",
+  "slug": "saint-seiya-seiya",
+  "name": "星矢",
+  "reading": "せいや",
+  "workId": "saint-seiya",
+  "description": { "text": "作品での位置づけ", "claimIds": ["ss-seiya-work"] },
+  "nameOrigin": {
+    "text": "名前の由来（確認できる場合のみ）",
+    "claimIds": ["..."]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "pegasus",
+      "label": "ペガサス（天馬）",
+      "inWork": { "text": "作品では…", "claimIds": ["ss-seiya-work-pegasus"] },
+      "inMyth": { "text": "原典では…", "claimIds": ["ss-seiya-myth-birth"] }
+    }
+  ],
+  "comparison": [
+    { "text": "作品と原典の違い", "claimIds": ["ss-seiya-cmp-horse"] }
+  ],
+  "claims": [],
+  "sourceIds": ["work-saint-seiya", "hesiod-theogony"]
+}
+```
+
+`aspect` は `name`（名前）・`title`（称号）・`appearance`（外見）・`ability`（能力）・`weapon`（武器・道具）・`role`（立場）・`personality`（性格）・`episode`（エピソード）・`setting`（設定）。最初のモチーフが「主な元ネタ」になります。記事側で `characterIds` を指定すると、記事冒頭にそのキャラクターの元ネタ早見が表示されます。
 
 ### 画像
 

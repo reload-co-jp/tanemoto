@@ -22,8 +22,10 @@ import {
   getSourcesByIds,
   getStoriesForFigure,
   getWorksForFigure,
+  getCharactersForFigure,
 } from "@/lib/content/repository"
 import { figureTile } from "@/lib/figureTile"
+import { characterTile } from "@/lib/characterTile"
 import { buildMetadata } from "@/lib/seo"
 import { paths } from "@/lib/site"
 
@@ -55,6 +57,7 @@ const Page = async ({ params }: Props) => {
   const related = getRelatedFigures(figure)
   const stories = getStoriesForFigure(figure)
   const works = getWorksForFigure(figure)
+  const characters = getCharactersForFigure(figure)
 
   return (
     <>
@@ -115,6 +118,16 @@ const Page = async ({ params }: Props) => {
                 sources={[]}
                 images={[]}
               />
+            </Section>
+          )}
+
+          {characters.length > 0 && (
+            <Section
+              title={`${figure.name}が元ネタのキャラクター`}
+              en="Characters"
+              id="characters"
+            >
+              <TileList items={characters.map(characterTile)} />
             </Section>
           )}
 

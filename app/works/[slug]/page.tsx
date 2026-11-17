@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { ArticleList } from "@/components/article/ArticleCard"
+import { OriginSummary } from "@/components/character/OriginSummary"
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
-import { ClassificationLabel } from "@/components/common/ClassificationLabel"
 import { InfoTable } from "@/components/common/InfoTable"
 import { Link } from "@/components/common/Link"
 import { ChipList, PageHeader, Section } from "@/components/common/PageParts"
@@ -10,7 +10,8 @@ import { workTypes } from "@/lib/content/schema"
 import {
   getArticles,
   getArticlesForWork,
-  getFiguresByIds,
+  getCharactersForWork,
+  getMotifFigures,
   getMythologiesByIds,
   getWork,
   getWorks,
@@ -18,7 +19,7 @@ import {
 import { buildMetadata } from "@/lib/seo"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
-import { color, font } from "@/lib/styles/theme"
+import { bp, color } from "@/lib/styles/theme"
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -34,39 +35,32 @@ export const generateStaticParams = () => {
 export const generateMetadata = async ({ params }: Props) => {
   const work = getWork((await params).slug)
   if (!work) return {}
+  const characters = getCharactersForWork(work)
   return buildMetadata({
-    title: `『${work.title}』に登場する神話・伝承の元ネタ`,
-    description: work.description,
+    title: `『${work.title}』キャラクターの元ネタ一覧｜神話・伝承のモチーフ`,
+    description: `『${work.title}』に登場する${characters
+      .slice(0, 4)
+      .map((c) => c.name)
+      .join(
+        "・"
+      )}などのキャラクターの元ネタ・モチーフを、原典の神話とあわせて解説します。`.slice(
+      0,
+      160
+    ),
     path: paths.work(work.slug),
-    noindex: getArticlesForWork(work).length === 0,
+    noindex: characters.length === 0 && getArticlesForWork(work).length === 0,
   })
 }
 
 const styles = css`
-  .t-chars {
-    list-style: none;
-    border-top: 1px solid ${color.border};
-  }
-  .t-chars li {
-    padding: 14px 0;
-    border-bottom: 1px solid ${color.border};
+  .t-origin-grid {
     display: grid;
-    gap: 4px;
+    gap: 16px;
   }
-  .t-chars__name {
-    font-family: ${font.serif};
-    font-weight: 600;
-    color: ${color.navy};
-  }
-  .t-chars__motif {
-    font-size: 0.88rem;
-  }
-  .t-chars__note {
-    font-size: 0.85rem;
-    color: ${color.muted};
-    display: flex;
-    gap: 8px;
-    align-items: baseline;
+  @media ${bp.md} {
+    .t-origin-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
   .t-disclaimer {
     font-size: 0.8rem;
@@ -79,15 +73,13 @@ const Page = async ({ params }: Props) => {
   const work = getWork((await params).slug)
   if (!work) notFound()
   const mythologies = getMythologiesByIds(work.mythologyIds)
+  const characters = getCharactersForWork(work)
   const direct = getArticlesForWork(work)
-  // 作品のキャラクターのモチーフとなった人物を扱う記事
-  const motifFigureIds = work.characters.flatMap((c) =>
-    c.figureId ? [c.figureId] : []
-  )
+  const motifFigures = [...new Set(characters.flatMap(getMotifFigures))]
   const motifArticles = getArticles().filter(
     (a) =>
       !direct.includes(a) &&
-      a.figureIds.some((id) => motifFigureIds.includes(id))
+      a.figureIds.some((id) => motifFigures.some((f) => f.id === id))
   )
   return (
     <>
@@ -100,9 +92,53 @@ const Page = async ({ params }: Props) => {
       />
       <PageHeader
         eyebrow={`${workTypes[work.type]} · Works`}
-        title={`『${work.title}』`}
+        title={`『${work.title}』キャラクターの元ネタ`}
         description={work.description}
       />
+
+      <Section title="キャラクターと元ネタ" en="Characters" id="characters">
+        {characters.length > 0 ? (
+          <>
+            <div className="t-origin-grid">
+              {characters.map((c) => (
+                <OriginSummary key={c.id} character={c} />
+              ))}
+            </div>
+            <p className="t-disclaimer">
+              ※
+              作品内の設定（CREATIVE）と神話・伝承の内容は別のものです。各キャラクターのページで、作品の設定と原典の内容を区別して解説しています。
+            </p>
+          </>
+        ) : (
+          <p className="t-empty">キャラクターの元ネタ解説は準備中です。</p>
+        )}
+      </Section>
+
+      {motifArticles.length > 0 && (
+        <Section
+          title="元ネタの神話を解説した記事"
+          en="Background"
+          id="background"
+        >
+          <ArticleList articles={motifArticles} columns={2} />
+        </Section>
+      )}
+      {direct.length > 0 && (
+        <Section title="この作品に関する記事" en="Articles" id="articles">
+          <ArticleList articles={direct} columns={2} />
+        </Section>
+      )}
+      {motifFigures.length > 0 && (
+        <Section title="元ネタになった人物・怪物" en="Figures" id="figures">
+          <ChipList
+            items={motifFigures.map((f) => ({
+              href: paths.figure(f.slug),
+              label: f.name,
+            }))}
+          />
+        </Section>
+      )}
+
       <Section title="作品概要" en="About" id="about">
         <InfoTable
           rows={[
@@ -128,66 +164,6 @@ const Page = async ({ params }: Props) => {
           ]}
         />
       </Section>
-      {work.characters.length > 0 && (
-        <Section
-          title="神話・伝承に由来するキャラクター"
-          en="Characters"
-          id="characters"
-        >
-          <ul className="t-chars">
-            {work.characters.map((c) => {
-              const figure = c.figureId
-                ? getFiguresByIds([c.figureId])[0]
-                : undefined
-              return (
-                <li key={c.name}>
-                  <span className="t-chars__name">{c.name}</span>
-                  {figure && (
-                    <span className="t-chars__motif">
-                      神話上のモチーフ：
-                      <Link href={paths.figure(figure.slug)}>
-                        {figure.name}
-                      </Link>
-                    </span>
-                  )}
-                  {c.note && (
-                    <span className="t-chars__note">
-                      <ClassificationLabel classification="creative" />
-                      {c.note}
-                    </span>
-                  )}
-                </li>
-              )
-            })}
-          </ul>
-          <p className="t-disclaimer">
-            ※
-            作品内の設定（CREATIVE）と神話・伝承の内容は別のものです。神話上の人物の詳細は各人物ページをご覧ください。
-          </p>
-        </Section>
-      )}
-      <Section title="この作品に関する記事" en="Articles" id="articles">
-        <ArticleList articles={direct} columns={2} />
-      </Section>
-      {motifArticles.length > 0 && (
-        <Section
-          title="モチーフとなった神話の解説記事"
-          en="Background"
-          id="background"
-        >
-          <ArticleList articles={motifArticles} columns={2} />
-        </Section>
-      )}
-      {motifFigureIds.length > 0 && (
-        <Section title="モチーフとなった人物・怪物" en="Figures" id="figures">
-          <ChipList
-            items={getFiguresByIds(motifFigureIds).map((f) => ({
-              href: paths.figure(f.slug),
-              label: f.name,
-            }))}
-          />
-        </Section>
-      )}
       <SourceRefs sourceIds={work.sourceIds} />
     </>
   )

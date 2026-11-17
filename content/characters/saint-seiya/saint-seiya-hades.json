@@ -1,0 +1,83 @@
+{
+  "id": "saint-seiya-hades",
+  "slug": "saint-seiya-hades",
+  "name": "ハーデス",
+  "reading": "はーです",
+  "alternativeNames": ["ハデス"],
+  "workId": "saint-seiya",
+  "description": {
+    "text": "冥界の王として、物語終盤の敵として登場する。",
+    "claimIds": ["ss-hades-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話の冥界の王ハデス（ハーデース）の名を用いている。",
+    "claimIds": ["ss-hades-work", "ss-hades-myth-lot"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "hades",
+      "label": "ハデス（冥界の王）",
+      "inWork": {
+        "text": "冥界の王として、アテナと聖闘士たちに敵対する立場で描かれる。",
+        "claimIds": ["ss-hades-work"]
+      },
+      "inMyth": {
+        "text": "原典のハデスはクロノスとレアの子で、ゼウス・ポセイドンの兄弟。『神統記』では「地の下に住む、無慈悲な心の強きハデス」と形容され、『イリアス』では三兄弟のくじ引きで「霧深い闇」の世界を得たとされる。",
+        "claimIds": ["ss-hades-myth-pitiless", "ss-hades-myth-lot"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のハデスは恐れられる神ではあるが、悪の化身として描かれているわけではない。世界の分割も、兄弟の間の対等なくじ引きとして語られている。",
+      "claimIds": ["ss-hades-myth-lot", "ss-hades-cmp-not-evil"]
+    },
+    {
+      "text": "ハデスにまつわる神器として「ハデスの帽子」がある。『イリアス』では、アテナがアレスに見られないようこの帽子をかぶっている。",
+      "claimIds": ["ss-hades-myth-cap"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ss-hades-work",
+      "text": "作中のハーデスは冥界の王として登場し、物語終盤でアテナと聖闘士たちに敵対する。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-hades-myth-pitiless",
+      "text": "『神統記』はハデスを、地の下に住む無慈悲な心の強きハデスと形容する。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』455–456行"
+    },
+    {
+      "id": "ss-hades-myth-lot",
+      "text": "ゼウス・ポセイドン・ハデスはくじで世界を分け、ハデスは霧深い闇を得た。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "ss-hades-cmp-not-evil",
+      "text": "原典のハデスは恐れられる神だが、悪の化身としては描かれていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-hades-myth-cap",
+      "text": "アテナはアレスに見られないよう「ハデスの帽子」をかぶった。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』5.844–845"
+    }
+  ],
+  "sourceIds": ["work-saint-seiya", "hesiod-theogony", "homer-iliad"],
+  "articleIds": []
+}

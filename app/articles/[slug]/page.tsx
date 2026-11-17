@@ -11,6 +11,7 @@ import {
   classificationInfo,
 } from "@/components/common/ClassificationLabel"
 import { Eyecatch } from "@/components/common/Eyecatch"
+import { OriginSummary } from "@/components/character/OriginSummary"
 import { Link } from "@/components/common/Link"
 import { ChipList, Section, TileList } from "@/components/common/PageParts"
 import { JsonLd } from "@/components/seo/JsonLd"
@@ -19,6 +20,7 @@ import {
   getArticle,
   getArticles,
   getCategory,
+  getCharactersForArticle,
   getFiguresByIds,
   getImage,
   getMythologiesByIds,
@@ -92,6 +94,24 @@ const styles = css`
     margin-top: 14px;
     font-size: 0.8rem;
     color: ${color.muted};
+  }
+  .t-article__origins {
+    margin-bottom: 32px;
+  }
+  .t-article__origins-title {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: ${color.goldDeep};
+    letter-spacing: 0.05em;
+  }
+  .t-article__origins-grid {
+    display: grid;
+    gap: 16px;
+  }
+  @media ${bp.md} {
+    .t-article__origins-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
   .t-article__hero {
     margin: 24px 0 32px;
@@ -214,6 +234,7 @@ const Page = async ({ params }: Props) => {
   const topics = getTopicsByIds(article.topicIds)
   const mythologies = getMythologiesByIds(article.mythologyIds)
   const related = getRelatedArticles(article, 4)
+  const characters = getCharactersForArticle(article)
   const visual = articleVisual(article)
   const usedClassifications = new Set(
     article.claims.map((c) => c.classification)
@@ -269,6 +290,22 @@ const Page = async ({ params }: Props) => {
 
       <div className="t-two-col">
         <div>
+          {characters.length > 0 && (
+            <section
+              className="t-article__origins"
+              aria-labelledby="origins-title"
+            >
+              <h2 className="t-article__origins-title" id="origins-title">
+                この元ネタが登場するキャラクター
+              </h2>
+              <div className="t-article__origins-grid">
+                {characters.map((c) => (
+                  <OriginSummary key={c.id} character={c} />
+                ))}
+              </div>
+            </section>
+          )}
+
           <div className="t-article__toc-inline">
             <Toc items={toc} open />
           </div>

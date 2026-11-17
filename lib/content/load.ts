@@ -4,6 +4,7 @@ import { ZodType } from "zod"
 import {
   articleSchema,
   categorySchema,
+  characterSchema,
   figureSchema,
   homeSchema,
   imageSchema,
@@ -24,6 +25,7 @@ export const collections = {
   mythologies: mythologySchema,
   stories: storySchema,
   works: workSchema,
+  characters: characterSchema,
   topics: topicSchema,
   categories: categorySchema,
   sources: sourceSchema,
@@ -132,6 +134,7 @@ export const readContent = (
     mythologies: read("mythologies"),
     stories: read("stories"),
     works: read("works"),
+    characters: read("characters"),
     topics: read("topics"),
     categories: read("categories"),
     sources: read("sources"),

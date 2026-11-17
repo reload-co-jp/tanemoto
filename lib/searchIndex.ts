@@ -2,16 +2,21 @@ import { figureTypes, workTypes } from "./content/schema"
 import {
   getArticles,
   getCategory,
+  getCharacters,
+  getCharactersForWork,
   getFigures,
+  getMotifFigures,
+  getWorksByIds,
   getFiguresByIds,
   getMythologies,
   getTopics,
   getWorks,
 } from "./content/repository"
-import { blocksToPlainText } from "./content/text"
+import { blocksToPlainText, stripInline } from "./content/text"
 import { paths } from "./site"
 
-export type SearchKind = "article" | "figure" | "work" | "mythology" | "topic"
+export type SearchKind =
+  "character" | "article" | "figure" | "work" | "mythology" | "topic"
 
 export type SearchEntry = {
   kind: SearchKind
@@ -68,10 +73,35 @@ export const buildSearchIndex = (): SearchEntry[] => [
       w.title,
       w.reading ?? "",
       w.author,
-      ...w.characters.map((c) => c.name),
+      ...getCharactersForWork(w).map((c) => c.name),
     ].filter(Boolean),
     body: "",
   })),
+  // キャラクター名・作品名・元ネタ名のどれからでも見つけられるようにする
+  ...getCharacters().map((c) => {
+    const work = getWorksByIds([c.workId])[0]
+    return {
+      kind: "character" as const,
+      title: c.name,
+      label: work ? `『${work.title}』` : "キャラクター",
+      href: paths.character(c.slug),
+      description: `元ネタ：${c.motifs.map((m) => m.label).join("、")}。${stripInline(c.description.text)}`,
+      keywords: [
+        c.reading ?? "",
+        ...c.alternativeNames,
+        work?.title ?? "",
+        ...c.motifs.map((m) => m.label),
+        ...getMotifFigures(c).flatMap((f) => [f.name, ...f.alternativeNames]),
+      ].filter(Boolean),
+      body: [
+        c.nameOrigin?.text ?? "",
+        ...c.motifs.flatMap((m) => [m.inWork.text, m.inMyth?.text ?? ""]),
+        ...c.comparison.map((x) => x.text),
+      ]
+        .map(stripInline)
+        .join("\n"),
+    }
+  }),
   ...getMythologies()
     .filter((m) => !m.comingSoon)
     .map((m) => ({

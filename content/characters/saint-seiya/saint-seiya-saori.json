@@ -1,0 +1,96 @@
+{
+  "id": "saint-seiya-saori",
+  "slug": "saint-seiya-saori",
+  "name": "城戸沙織",
+  "reading": "きど さおり",
+  "alternativeNames": ["アテナ"],
+  "workId": "saint-seiya",
+  "description": {
+    "text": "作中で女神アテナとされる少女。聖闘士たちが守るべき存在として描かれる。",
+    "claimIds": ["ss-saori-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "athena",
+      "label": "アテナ（戦いの女神）",
+      "inWork": {
+        "text": "作中では女神アテナとして、聖闘士たちに守られる立場にある。",
+        "claimIds": ["ss-saori-work"]
+      },
+      "inMyth": {
+        "text": "原典のアテナはゼウスの娘で、戦いの女神。『イリアス』では、ゴルゴンの首のあるアイギスを身につけて自ら戦場に臨む。ペルセウスのメデューサ退治や、ベレロポンによるペガソスの捕獲を助けるなど、英雄の助力者として登場することが多い。",
+        "claimIds": [
+          "ss-saori-myth-aegis",
+          "ss-saori-myth-perseus",
+          "ss-saori-myth-bridle"
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のアテナには、自ら武装して戦場に向かう場面がある。作品では「聖闘士たちが命をかけて守る女神」として位置づけられており、守る側と守られる側の関係が強調されている。",
+      "claimIds": ["ss-saori-myth-aegis", "ss-saori-cmp-protect"]
+    },
+    {
+      "text": "作品でアテナと海の神ポセイドンが対立する構図は、原典にも対応する神話がある。アポロドロスによれば、アッティカの地をめぐってアテナとポセイドンが争い、神々の裁定でアテナのものとされた。",
+      "claimIds": ["ss-saori-myth-attica"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ss-saori-work",
+      "text": "城戸沙織は作中で女神アテナとされ、聖闘士たちに守られる存在である。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-saori-myth-aegis",
+      "text": "アテナはゼウスの娘で、ゴルゴンの首のあるアイギスを身につけ、武装して戦場に臨む。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』5.733–742"
+    },
+    {
+      "id": "ss-saori-myth-perseus",
+      "text": "ペルセウスはヘルメスとアテナの導きでメデューサ退治に向かい、アテナに手を導かれて首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "ss-saori-myth-bridle",
+      "text": "アテナはベレロポンに、ペガソスを手なずける黄金の手綱を授けた。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 65–75行"
+    },
+    {
+      "id": "ss-saori-cmp-protect",
+      "text": "作品では、アテナは聖闘士に守られる女神として位置づけられ、原典の「自ら戦う女神」の側面とは異なる関係が強調されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-saori-myth-attica",
+      "text": "アッティカの地をめぐってポセイドンとアテナが争い、十二神の裁定でアテナのものとされた。怒ったポセイドンは平野を水浸しにした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.14.1"
+    }
+  ],
+  "sourceIds": [
+    "work-saint-seiya",
+    "homer-iliad",
+    "apollodorus-library",
+    "pindar-odes"
+  ],
+  "articleIds": []
+}

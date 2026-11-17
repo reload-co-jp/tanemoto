@@ -1,0 +1,83 @@
+{
+  "id": "saint-seiya-poseidon",
+  "slug": "saint-seiya-poseidon",
+  "name": "ポセイドン",
+  "reading": "ぽせいどん",
+  "alternativeNames": [],
+  "workId": "saint-seiya",
+  "description": {
+    "text": "海を支配する神として登場し、アテナと対立する。",
+    "claimIds": ["ss-poseidon-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話の海の神ポセイドンの名を、そのまま用いている。",
+    "claimIds": ["ss-poseidon-work", "ss-poseidon-myth-sea"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "poseidon",
+      "label": "ポセイドン（海の神）",
+      "inWork": {
+        "text": "海を支配する神として、アテナと敵対する立場で描かれる。",
+        "claimIds": ["ss-poseidon-work"]
+      },
+      "inMyth": {
+        "text": "原典のポセイドンはクロノスとレアの子で、ゼウス・ハデスの兄弟。三兄弟がくじで世界を分けたとき、灰色の海を自分の領分として得たと語られる。",
+        "claimIds": ["ss-poseidon-myth-sea"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "アテナとの対立は原典にも見られる。アポロドロスによれば、ポセイドンはアッティカの地をめぐってアテナと争い、敗れると怒って平野を水浸しにした。",
+      "claimIds": ["ss-poseidon-myth-attica"]
+    },
+    {
+      "text": "『イリアス』のポセイドンは、ゼウスの命令に対して「自分はゼウスと同等の名誉をもつ」と反発している。最高神にも従わない誇り高い海の神という性格は、作品の敵役としての造形とも重なる。",
+      "claimIds": ["ss-poseidon-myth-pride", "ss-poseidon-cmp-pride"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ss-poseidon-work",
+      "text": "作中のポセイドンは海を支配する神として登場し、アテナと対立する。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-poseidon-myth-sea",
+      "text": "ポセイドンはクロノスとレアの子で、ゼウス・ハデスと兄弟。くじ引きで海を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "ss-poseidon-myth-attica",
+      "text": "ポセイドンはアッティカの地をめぐってアテナと争い、国はアテナのものとされた。怒ったポセイドンはトリアシオンの平野を水浸しにした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.14.1"
+    },
+    {
+      "id": "ss-poseidon-myth-pride",
+      "text": "『イリアス』でポセイドンは、ゼウスと同等の名誉をもつと述べ、その命令に反発する。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.185–195"
+    },
+    {
+      "id": "ss-poseidon-cmp-pride",
+      "text": "原典のポセイドンの誇り高い性格は、作品の敵役としての造形と重なる部分がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-saint-seiya", "homer-iliad", "apollodorus-library"],
+  "articleIds": []
+}

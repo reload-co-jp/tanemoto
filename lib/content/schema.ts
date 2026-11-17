@@ -124,6 +124,8 @@ export const articleSchema = z.object({
   mythologyIds: ids,
   storyIds: ids,
   workIds: ids,
+  /** 記事が元ネタを解説しているキャラクター（記事冒頭に「元ネタ早見」を表示） */
+  characterIds: ids,
   topicIds: ids,
   sourceIds: ids,
   /** 明示的に関連付けたい記事（自動算出の関連記事より優先表示） */
@@ -232,22 +234,75 @@ export const workSchema = z.object({
   /** 連載・放送期間など */
   period: z.string().optional(),
   description: z.string().min(1),
-  /** 作品に登場するキャラクターと、モチーフとなった神話上の存在 */
-  characters: z
-    .array(
-      z.object({
-        name: z.string().min(1),
-        figureId: id.optional(),
-        /** 作品内での位置づけ（creative 情報として表示） */
-        note: z.string().optional(),
-      })
-    )
-    .default([]),
   mythologyIds: ids,
   articleIds: ids,
   sourceIds: ids,
 })
 export type Work = z.infer<typeof workSchema>
+
+// ---------------------------------------------------------------------------
+// キャラクター（作品の登場人物）
+//   サイトの基本単位。「キャラクター名 → 名前の由来 → モチーフ（元ネタ）
+//   → 原典での姿 → 作品との違い」の順で説明する。
+// ---------------------------------------------------------------------------
+
+/** モチーフの種類（キャラクターのどの要素が元ネタに由来するか） */
+export const motifAspects = {
+  name: "名前",
+  title: "称号・肩書き",
+  appearance: "外見",
+  ability: "能力",
+  weapon: "武器・道具",
+  role: "立場・役割",
+  personality: "性格",
+  episode: "エピソード",
+  setting: "設定・世界観",
+} as const
+
+/** 本文と根拠（claimIds）の組 */
+const evidenceText = z.object({
+  text: z.string().min(1),
+  claimIds: ids,
+})
+
+export const characterSchema = z.object({
+  id,
+  slug: id,
+  name: z.string().min(1),
+  reading: z.string().optional(),
+  alternativeNames: z.array(z.string()).default([]),
+  workId: id,
+  /** 作品内での位置づけ（作品の設定＝CREATIVE として表示） */
+  description: evidenceText,
+  /** 名前の由来（確認できる範囲で。未確認なら省略） */
+  nameOrigin: evidenceText.optional(),
+  /** モチーフ（元ネタ）。最初の要素を「主な元ネタ」として扱う */
+  motifs: z
+    .array(
+      z.object({
+        aspect: z.enum(
+          Object.keys(motifAspects) as [keyof typeof motifAspects]
+        ),
+        /** 元ネタとなった神話上の人物・怪物 */
+        figureId: id.optional(),
+        /** 元ネタの呼び名（例: ペガサス（天馬）） */
+        label: z.string().min(1),
+        /** 作品側の要素（CREATIVE） */
+        inWork: evidenceText,
+        /** 原典での姿（FACT など） */
+        inMyth: evidenceText.optional(),
+      })
+    )
+    .min(1, "モチーフ（元ネタ）を1つ以上指定してください"),
+  /** 作品と原典の違い・共通点（EDITORIAL が中心） */
+  comparison: z.array(evidenceText).default([]),
+  claims: z.array(claimSchema).default([]),
+  sourceIds: ids,
+  /** 詳しく解説する記事（記事側の characterIds からも自動で関連付く） */
+  articleIds: ids,
+  imageId: id.optional(),
+})
+export type Character = z.infer<typeof characterSchema>
 
 // ---------------------------------------------------------------------------
 // テーマ

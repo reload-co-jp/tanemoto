@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest"
 import { readContent } from "../content/load"
-import { articleSchema, sourceSchema } from "../content/schema"
+import { articleSchema, characterSchema, sourceSchema } from "../content/schema"
 import { ContentData, validateContent } from "../content/validate"
 
 const source = sourceSchema.parse({
@@ -45,6 +45,7 @@ const data = (overrides: Partial<ContentData> = {}): ContentData => ({
   mythologies: [],
   stories: [],
   works: [],
+  characters: [],
   topics: [],
   categories: [
     {
@@ -142,6 +143,97 @@ describe("validateContent", () => {
     const result = errors(data({ articles: [a, a] }))
     expect(result.some((m) => m.includes("予約語"))).toBe(true)
     expect(result.some((m) => m.includes("重複"))).toBe(true)
+  })
+})
+
+describe("validateContent: characters", () => {
+  const work = {
+    id: "w",
+    slug: "w",
+    title: "作品",
+    type: "manga" as const,
+    mediaTypes: [],
+    author: "作者",
+    description: "d",
+    mythologyIds: [],
+    articleIds: [],
+    sourceIds: [],
+  }
+  const character = (overrides: Record<string, unknown> = {}) =>
+    characterSchema.parse({
+      id: "c",
+      slug: "c",
+      name: "キャラ",
+      workId: "w",
+      description: { text: "作中の設定", claimIds: ["c-work"] },
+      motifs: [
+        {
+          aspect: "name",
+          label: "メデューサ",
+          inWork: { text: "作品では", claimIds: ["c-work"] },
+          inMyth: { text: "原典では", claimIds: ["c-myth"] },
+        },
+      ],
+      claims: [
+        {
+          id: "c-work",
+          text: "w",
+          classification: "creative",
+          sourceIds: [],
+          verificationStatus: "verified",
+        },
+        {
+          id: "c-myth",
+          text: "m",
+          classification: "fact",
+          sourceIds: ["theogony"],
+          sourceLocation: "1",
+          verificationStatus: "verified",
+        },
+      ],
+      sourceIds: ["theogony"],
+      ...overrides,
+    })
+
+  it("passes a valid character", () => {
+    expect(errors(data({ works: [work], characters: [character()] }))).toEqual(
+      []
+    )
+  })
+
+  it("requires a sourced claim for the myth side of a motif", () => {
+    const c = character({
+      motifs: [
+        {
+          aspect: "name",
+          label: "メデューサ",
+          inWork: { text: "作品では", claimIds: ["c-work"] },
+          inMyth: { text: "原典では", claimIds: ["c-work"] },
+        },
+      ],
+    })
+    expect(
+      errors(data({ works: [work], characters: [c] })).some((m) =>
+        m.includes("原典の説明")
+      )
+    ).toBe(true)
+  })
+
+  it("detects unknown works and motif figures", () => {
+    const c = character({
+      workId: "missing",
+      motifs: [
+        {
+          aspect: "name",
+          figureId: "nobody",
+          label: "x",
+          inWork: { text: "作品では", claimIds: ["c-work"] },
+        },
+      ],
+    })
+    const result = errors(data({ works: [work], characters: [c] }))
+    expect(result.some((m) => m.includes("missing"))).toBe(true)
+    expect(result.some((m) => m.includes("nobody"))).toBe(true)
   })
 })
 

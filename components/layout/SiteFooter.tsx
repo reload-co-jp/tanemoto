@@ -89,7 +89,7 @@ export const SiteFooter = () => (
               <Link href={paths.mythologies()}>神話から探す</Link>
             </li>
             <li>
-              <Link href={paths.figures()}>人物・怪物から探す</Link>
+              <Link href={paths.figures()}>元ネタ（人物・怪物）から探す</Link>
             </li>
             <li>
               <Link href={paths.topics()}>テーマから探す</Link>

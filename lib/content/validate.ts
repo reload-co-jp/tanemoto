@@ -2,6 +2,7 @@ import type {
   Article,
   Block,
   Category,
+  Character,
   Claim,
   Figure,
   Home,
@@ -21,6 +22,7 @@ export type ContentData = {
   mythologies: WithFile<Mythology>[]
   stories: WithFile<Story>[]
   works: WithFile<Work>[]
+  characters: WithFile<Character>[]
   topics: WithFile<Topic>[]
   categories: WithFile<Category>[]
   sources: WithFile<Source>[]
@@ -86,6 +88,7 @@ export const validateContent = (
   const mythologies = indexOf("mythology", data.mythologies)
   const stories = indexOf("story", data.stories)
   const works = indexOf("work", data.works)
+  const characters = indexOf("character", data.characters)
   const topics = indexOf("topic", data.topics)
   const categories = indexOf("category", data.categories)
   const sources = indexOf("source", data.sources)
@@ -106,6 +109,7 @@ export const validateContent = (
   slugCheck("figure", data.figures)
   slugCheck("mythology", data.mythologies)
   slugCheck("work", data.works)
+  slugCheck("character", data.characters)
   slugCheck("topic", data.topics)
   slugCheck("category", data.categories)
 
@@ -123,39 +127,21 @@ export const validateContent = (
     }
   }
 
-  // --- 記事 -----------------------------------------------------------------
+  // --- 主張（記事・キャラクター共通） ---------------------------------------
   const globalClaimIds = new Map<string, string>()
-  for (const article of data.articles) {
-    const f = article.__file
-    const published = article.status === "published"
-
-    if (article.id !== article.slug)
-      warn(f, "id と slug は一致させることを推奨します")
-    if (RESERVED_ARTICLE_SLUGS.includes(article.slug))
-      error(f, `slug「${article.slug}」は予約語のため使用できません`)
-    if (!categories.has(article.category))
-      error(f, `category: 存在しないカテゴリー「${article.category}」`)
-    refs(f, "figureIds", article.figureIds, figures, "figure")
-    refs(f, "mythologyIds", article.mythologyIds, mythologies, "mythology")
-    refs(f, "storyIds", article.storyIds, stories, "story")
-    refs(f, "workIds", article.workIds, works, "work")
-    refs(f, "topicIds", article.topicIds, topics, "topic")
-    refs(f, "sourceIds", article.sourceIds, sources, "source")
-    refs(f, "relatedArticleIds", article.relatedArticleIds, articles, "article")
-    if (article.thumbnail && !images.has(article.thumbnail))
-      error(f, `thumbnail: 存在しない画像「${article.thumbnail}」`)
-    if (article.updatedAt < article.publishedAt)
-      error(f, "updatedAt が publishedAt より前になっています")
-
-    // 主張
+  const checkClaims = (
+    f: string | undefined,
+    owner: { id: string; claims: Claim[]; sourceIds: string[] },
+    published: boolean
+  ): Set<string> => {
     const claimIds = new Set<string>()
-    for (const claim of article.claims) {
+    for (const claim of owner.claims) {
       if (globalClaimIds.has(claim.id))
         error(
           f,
           `claim id「${claim.id}」が重複しています（${globalClaimIds.get(claim.id)}）`
         )
-      globalClaimIds.set(claim.id, f ?? article.id)
+      globalClaimIds.set(claim.id, f ?? owner.id)
       claimIds.add(claim.id)
       refs(
         f,
@@ -164,7 +150,6 @@ export const validateContent = (
         sources,
         "source"
       )
-
       if (SOURCE_REQUIRED.includes(claim.classification)) {
         if (claim.sourceIds.length === 0)
           error(
@@ -179,19 +164,47 @@ export const validateContent = (
       }
       if (claim.classification === "creative" && claim.sourceIds.length === 0)
         warn(f, `claim「${claim.id}」(creative) に対象作品の出典がありません`)
-
       for (const sourceId of claim.sourceIds) {
-        if (!article.sourceIds.includes(sourceId))
+        if (!owner.sourceIds.includes(sourceId))
           error(
             f,
-            `claim「${claim.id}」の出典「${sourceId}」が記事の sourceIds に含まれていません`
+            `claim「${claim.id}」の出典「${sourceId}」が sourceIds に含まれていません`
           )
       }
       if (published && claim.verificationStatus === "unverified")
-        error(f, `公開記事に未検証の claim「${claim.id}」があります`)
+        error(f, `公開データに未検証の claim「${claim.id}」があります`)
       if (claim.verificationStatus === "disputed" && !claim.note)
         warn(f, `claim「${claim.id}」は disputed ですが note がありません`)
     }
+    return claimIds
+  }
+
+  // --- 記事 -----------------------------------------------------------------
+  for (const article of data.articles) {
+    const f = article.__file
+    const published = article.status === "published"
+
+    if (article.id !== article.slug)
+      warn(f, "id と slug は一致させることを推奨します")
+    if (RESERVED_ARTICLE_SLUGS.includes(article.slug))
+      error(f, `slug「${article.slug}」は予約語のため使用できません`)
+    if (!categories.has(article.category))
+      error(f, `category: 存在しないカテゴリー「${article.category}」`)
+    refs(f, "figureIds", article.figureIds, figures, "figure")
+    refs(f, "mythologyIds", article.mythologyIds, mythologies, "mythology")
+    refs(f, "storyIds", article.storyIds, stories, "story")
+    refs(f, "workIds", article.workIds, works, "work")
+    refs(f, "characterIds", article.characterIds, characters, "character")
+    refs(f, "topicIds", article.topicIds, topics, "topic")
+    refs(f, "sourceIds", article.sourceIds, sources, "source")
+    refs(f, "relatedArticleIds", article.relatedArticleIds, articles, "article")
+    if (article.thumbnail && !images.has(article.thumbnail))
+      error(f, `thumbnail: 存在しない画像「${article.thumbnail}」`)
+    if (article.updatedAt < article.publishedAt)
+      error(f, "updatedAt が publishedAt より前になっています")
+
+    // 主張
+    const claimIds = checkClaims(f, article, article.status === "published")
 
     // 本文
     const usedClaims = new Set<string>()
@@ -302,10 +315,59 @@ export const validateContent = (
     refs(f, "mythologyIds", work.mythologyIds, mythologies, "mythology")
     refs(f, "articleIds", work.articleIds, articles, "article")
     refs(f, "sourceIds", work.sourceIds, sources, "source")
-    work.characters.forEach((c) => {
-      if (c.figureId && !figures.has(c.figureId))
-        error(f, `characters「${c.name}」: 存在しない figure「${c.figureId}」`)
+  }
+
+  // --- キャラクター -----------------------------------------------------------
+  for (const character of data.characters) {
+    const f = character.__file
+    if (!works.has(character.workId))
+      error(f, `workId: 存在しない作品「${character.workId}」`)
+    refs(f, "sourceIds", character.sourceIds, sources, "source")
+    refs(f, "articleIds", character.articleIds, articles, "article")
+    if (character.imageId && !images.has(character.imageId))
+      error(f, `imageId: 存在しない画像「${character.imageId}」`)
+    const claimIds = checkClaims(f, character, true)
+    const used = new Set<string>()
+    const checkEvidence = (
+      label: string,
+      e: { claimIds: string[] } | undefined,
+      required: boolean
+    ) => {
+      if (!e) return
+      if (required && e.claimIds.length === 0)
+        error(f, `${label}: 根拠となる claimIds が必要です`)
+      for (const claimId of e.claimIds) {
+        used.add(claimId)
+        if (!claimIds.has(claimId))
+          error(f, `${label}: 存在しない claim「${claimId}」を参照しています`)
+      }
+    }
+    checkEvidence("description", character.description, true)
+    checkEvidence("nameOrigin", character.nameOrigin, true)
+    character.motifs.forEach((motif, i) => {
+      if (motif.figureId && !figures.has(motif.figureId))
+        error(
+          f,
+          `motifs[${i}].figureId: 存在しない figure「${motif.figureId}」`
+        )
+      checkEvidence(`motifs[${i}].inWork`, motif.inWork, true)
+      checkEvidence(`motifs[${i}].inMyth`, motif.inMyth, true)
+      // 原典側の説明には出典付きの主張（fact 等）が必要
+      if (
+        motif.inMyth &&
+        !motif.inMyth.claimIds.some((id) =>
+          character.claims.some(
+            (c) => c.id === id && SOURCE_REQUIRED.includes(c.classification)
+          )
+        )
+      )
+        error(f, `motifs[${i}].inMyth: 原典の説明に出典付きの主張がありません`)
     })
+    character.comparison.forEach((c, i) =>
+      checkEvidence(`comparison[${i}]`, c, true)
+    )
+    for (const claimId of claimIds)
+      if (!used.has(claimId)) warn(f, `claim「${claimId}」が参照されていません`)
   }
 
   for (const topic of data.topics) {

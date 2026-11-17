@@ -5,6 +5,8 @@ import {
   getArticlesForTopic,
   getArticlesForWork,
   getCategories,
+  getCharacters,
+  getCharactersForWork,
   getArticlesByCategory,
   getFigures,
   getMythologies,
@@ -51,9 +53,14 @@ const sitemap = (): MetadataRoute.Sitemap => {
     ...getTopics()
       .filter((t) => getArticlesForTopic(t).length > 0)
       .map((t) => entry(paths.topic(t.slug), latest, 0.5)),
-    entry(paths.works(), latest, 0.5),
+    entry(paths.characters(), latest, 0.8),
+    ...getCharacters().map((c) => entry(paths.character(c.slug), latest, 0.8)),
+    entry(paths.works(), latest, 0.6),
     ...getWorks()
-      .filter((w) => getArticlesForWork(w).length > 0)
+      .filter(
+        (w) =>
+          getCharactersForWork(w).length > 0 || getArticlesForWork(w).length > 0
+      )
       .map((w) => entry(paths.work(w.slug), latest, 0.5)),
     entry(paths.about(), undefined, 0.2),
     entry(paths.editorialPolicy(), undefined, 0.3),

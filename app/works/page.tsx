@@ -1,7 +1,7 @@
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
 import { PageHeader, TileList } from "@/components/common/PageParts"
 import { workTypes } from "@/lib/content/schema"
-import { getWorks } from "@/lib/content/repository"
+import { getCharactersForWork, getWorks } from "@/lib/content/repository"
 import { buildMetadata } from "@/lib/seo"
 import { paths } from "@/lib/site"
 
@@ -31,10 +31,7 @@ const Page = () => {
             title: `『${w.title}』`,
             eyebrow: `${workTypes[w.type]} · ${w.author}`,
             description: w.description,
-            meta:
-              w.characters.length > 0
-                ? `神話モチーフのキャラクター ${w.characters.length}`
-                : undefined,
+            meta: `元ネタ解説 ${getCharactersForWork(w).length}キャラクター`,
           }))}
         />
       )}
