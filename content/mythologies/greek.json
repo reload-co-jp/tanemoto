@@ -1,0 +1,32 @@
+{
+  "id": "greek",
+  "slug": "greek",
+  "name": "ギリシャ神話",
+  "reading": "ぎりしゃしんわ",
+  "region": "古代ギリシャ（エーゲ海周辺）",
+  "period": "現存する主な文献は紀元前8世紀頃以降",
+  "description": "古代ギリシャの宗教・文化と結びついて語り継がれた神々と英雄の物語。ホメロスやヘシオドスの叙事詩をはじめ、悲劇・抒情詩・後代の神話集など多様な資料に断片的に伝えられており、同じ神話でも資料によって内容が異なることが少なくない。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "ギリシャ神話には「正典」と呼べる一冊の聖典はありません。神々の系譜はヘシオドス『神統記』、トロイア戦争をめぐる物語はホメロスの『イリアス』『オデュッセイア』というように、時代も作者も異なる多くの作品に分かれて伝わっています。後世になると、アポロドロス『ビブリオテーケー』のように神話を体系的にまとめた書物も編まれました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "トモタネでは、記事ごとに参照した原典と該当箇所を明示し、資料によって異なる伝承は「異伝・異説（VARIANT）」として区別して紹介しています。原典の全体像については[ギリシャ神話の原典には何がある？](/articles/greek-mythology-sources/)で解説しています。"
+    }
+  ],
+  "figureIds": ["zeus", "hades", "poseidon", "athena", "persephone", "medusa"],
+  "storyIds": [
+    "division-of-the-world",
+    "perseus-medusa",
+    "abduction-of-persephone"
+  ],
+  "sourceIds": [
+    "hesiod-theogony",
+    "homer-iliad",
+    "homer-odyssey",
+    "apollodorus-library"
+  ],
+  "order": 1
+}

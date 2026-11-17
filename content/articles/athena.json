@@ -1,0 +1,21 @@
+{
+  "id": "athena",
+  "slug": "athena",
+  "title": "アテナとは？知恵と戦争の女神",
+  "description": "知恵と戦いの女神アテナの誕生、英雄たちへの助力、アイギスなどの持ち物を原典から解説します。",
+  "category": "gods-heroes",
+  "tags": ["アテナ"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": ["athena"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

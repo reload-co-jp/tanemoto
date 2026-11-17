@@ -1,0 +1,21 @@
+{
+  "id": "cyclopes",
+  "slug": "cyclopes",
+  "title": "サイクロプスとは？一つ目の巨人の伝承",
+  "description": "一つ目の巨人キュクロプス。ヘシオドスとホメロスで異なる二つのキュクロプス像を解説します。",
+  "category": "monsters",
+  "tags": ["キュクロプス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

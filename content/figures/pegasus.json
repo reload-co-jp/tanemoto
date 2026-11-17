@@ -1,0 +1,17 @@
+{
+  "id": "pegasus",
+  "slug": "pegasus",
+  "name": "ペガサス",
+  "reading": "ぺがさす",
+  "originalName": "Πήγασος",
+  "romanized": "Pegasos",
+  "alternativeNames": ["ペガソス"],
+  "type": "creature",
+  "roles": ["天馬", "ゼウスの雷を運ぶ"],
+  "mythologyIds": ["greek"],
+  "description": "翼をもつ天馬。メデューサの首が切られたときに生まれた。『神統記』によれば、オケアノスの泉（ペーガイ）のほとりで生まれたことから名づけられ、のちにゼウスの館に住んで雷と稲妻を運んだ。",
+  "relatedFigureIds": ["medusa", "bellerophon", "poseidon"],
+  "relatedStoryIds": ["perseus-medusa", "bellerophon-chimera"],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "apollodorus-library", "pindar-odes"]
+}

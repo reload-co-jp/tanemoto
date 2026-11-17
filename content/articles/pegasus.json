@@ -1,0 +1,267 @@
+{
+  "id": "pegasus",
+  "slug": "pegasus",
+  "title": "ペガサスとは？翼を持つ馬の誕生とゼウスの雷を運ぶ天馬",
+  "shortTitle": "ペガサスとは？翼を持つ馬の誕生",
+  "description": "天馬ペガサス（ペガソス）は、メデューサの首から生まれた。名前の由来、英雄ベレロポンとの出会い、そしてゼウスの雷を運ぶ天馬となるまでを、ヘシオドスやピンダロスの原典から解説します。",
+  "lead": "白い翼を広げて空を駆ける天馬ペガサス。幻想的なイメージで知られるこの馬は、実は怪物メデューサの首から生まれたとされています。その誕生から、英雄ベレロポンとの冒険、そして神々の世界にたどり着くまでの物語を、原典に沿って追っていきます。",
+  "category": "monsters",
+  "tags": ["ペガサス", "メデューサ", "ベレロポン", "アテナ", "ゼウス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "pegasus",
+    "medusa",
+    "bellerophon",
+    "athena",
+    "poseidon",
+    "zeus"
+  ],
+  "mythologyIds": ["greek"],
+  "storyIds": ["perseus-medusa", "bellerophon-chimera"],
+  "workIds": [],
+  "topicIds": ["monsters", "divine-items", "heroic-quest"],
+  "sourceIds": ["hesiod-theogony", "apollodorus-library", "pindar-odes"],
+  "relatedArticleIds": ["medusa", "chimera"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ペガサスの基本情報",
+      "anchor": "basics"
+    },
+    {
+      "type": "paragraph",
+      "text": "ペガサス（ギリシャ語 Πήγασος／Pegasos。日本語では「ペガソス」とも表記）は、翼をもつ馬です。ヘシオドス『神統記』によれば、英雄ペルセウスがゴルゴンのメデューサの首を切り落としたとき、そこから大いなるクリュサオルとともに生まれ出ました。",
+      "claimIds": ["pegasus-birth"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**分類**：幻獣（翼のある馬）",
+        "**親**：メデューサとポセイドン（アポロドロス）",
+        "**兄弟**：クリュサオル",
+        "**関わる英雄**：ペルセウス、ベレロポン"
+      ],
+      "claimIds": ["pegasus-birth", "pegasus-poseidon"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "名前の由来は「泉」",
+      "anchor": "name"
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』は、ペガソスという名の由来を「オケアノスの泉（ペーガイ）のほとりで生まれたから」と説明しています。同じ箇所で、兄弟のクリュサオルは「黄金の剣（アオル）を手にしていたから」その名がついたとされます。",
+      "claimIds": ["pegasus-name-springs"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "古代の語源説明",
+      "text": "これは『神統記』のなかでの名前の説明であり、現代の言語学的な語源とは区別して考える必要があります。ただ、古代ギリシャの人々がペガソスを「泉」と結びつけて理解していたことを示す資料として興味深いものです。",
+      "claimIds": ["pegasus-editorial-etymology"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "メデューサとポセイドンの子",
+      "anchor": "parents"
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』は、メデューサが「黒髪の神」——ポセイドン——と春の花の咲く草地で交わったことを語ったうえで、ペガソスとクリュサオルの誕生を記しています。アポロドロス『ビブリオテーケー』は、より明確に「首を切られたゴルゴンから翼のある馬ペガソスと、ゲリュオンの父クリュサオルが飛び出した。これらはポセイドンとの子である」と述べています。",
+      "claimIds": ["pegasus-poseidon"]
+    },
+    {
+      "type": "paragraph",
+      "text": "怪物の首から天馬が生まれるという意外な誕生については、[メデューサとは？ゴルゴンの伝承](/articles/medusa/)もあわせてご覧ください。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "英雄ベレロポンと黄金の手綱",
+      "anchor": "bellerophon"
+    },
+    {
+      "type": "paragraph",
+      "text": "ペガサスと最も深く結びついた英雄が、ベレロポンです。紀元前5世紀の詩人ピンダロスは『オリュンピア祝勝歌』第13歌で、ベレロポンがペイレネの泉のそばでペガソスを馬具につけようとして、大いに苦労したと歌っています。",
+      "claimIds": ["pegasus-pindar-struggle"]
+    },
+    {
+      "type": "paragraph",
+      "text": "そこへ乙女パラス（アテナ）が、黄金の頬当てのついた手綱をもたらしました。眠っていたベレロポンに、アテナは夢の中で「この馬の呪具をとり、白い牡牛を捧げて、馬を馴らす者ポセイドンに示しなさい」と告げます。目覚めると、その不思議な手綱が傍らにありました。",
+      "claimIds": ["pegasus-pindar-bridle"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ベレロポンは予言者の勧めに従って大地を支える神（ポセイドン）に牡牛を捧げ、「馬の女神」アテナに祭壇を築きました。そして手綱をペガソスの顎にかけて捕らえ、その背に乗って戦いに臨んだのです。",
+      "claimIds": ["pegasus-pindar-taming"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "アテナが授けた「神器」",
+      "text": "この黄金の手綱は、神が英雄に授ける特別な道具の一つです。ペルセウスがメデューサを討つ際にも、アテナやヘルメス、ニンフたちから道具を授かっていました。神々の助力によって英雄が怪物に挑むという筋立ては、ギリシャ神話に繰り返し現れます。",
+      "claimIds": ["pegasus-pindar-bridle", "pegasus-perseus-items-ref"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "キマイラ退治、そして転落",
+      "anchor": "chimera"
+    },
+    {
+      "type": "paragraph",
+      "text": "ピンダロスによれば、ベレロポンはペガソスに乗って、冷たい大気のふところからアマゾンの弓兵の軍勢を攻め、火を吐くキマイラとソリュモイの民を倒しました。アポロドロスも、ベレロポンが翼ある馬ペガソスに乗って高く舞い上がり、空からキマイラを射倒したと伝えています。",
+      "claimIds": ["pegasus-chimera-victory"]
+    },
+    {
+      "type": "paragraph",
+      "text": "しかしベレロポンの物語は栄光だけで終わりません。ピンダロスは『イストミア祝勝歌』第7歌で、天の住まいとゼウスの仲間のもとへ行こうとしたベレロポンを、翼あるペガソスが振り落としたと歌っています。",
+      "claimIds": ["pegasus-bellerophon-fall"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "戒めとしてのペガソス",
+      "text": "ピンダロスはこの挿話を「遠くを望みすぎる者は、青銅の床をもつ神々の住まいに届かない」「度を越して甘いものには、最も苦い結末が待っている」という教訓とともに語っています。人間が神々の領域に踏み込もうとすることへの戒めとして、ペガソスの物語が用いられているのです。",
+      "claimIds": ["pegasus-bellerophon-fall"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゼウスの雷を運ぶ天馬",
+      "anchor": "zeus"
+    },
+    {
+      "type": "paragraph",
+      "text": "その後のペガソスについて、『神統記』は「ペガソスは羊の母なる大地を離れて飛び去り、不死の神々のもとへ行った。そしてゼウスの館に住み、賢きゼウスに雷鳴と稲妻を運んでいる」と記しています。ピンダロスも『オリュンピア祝勝歌』第13歌で、ペガソスはオリュンポスのゼウスの古い厩舎に迎えられたと歌っています。",
+      "claimIds": ["pegasus-zeus-thunder"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ペガサス（ペガソス）は、ペルセウスがメデューサの首を切ったときに生まれた（『神統記』）",
+        "『神統記』では、名はオケアノスの泉（ペーガイ）に由来すると説明される",
+        "アポロドロスはペガソスとクリュサオルをポセイドンの子とする",
+        "ベレロポンはアテナの黄金の手綱でペガソスを手なずけ、キマイラを倒した",
+        "天に昇ろうとしたベレロポンを振り落とし、のちにゼウスの雷を運ぶ天馬となった"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "作品では「聖なる天馬」として描かれることの多いペガサスですが、原典では怪物の首から生まれ、英雄を空へ運び、ときに振り落とす存在でもあります。その複雑な来歴を知ると、ペガサスの登場する場面もまた違って見えてくるはずです。",
+      "claimIds": ["pegasus-editorial-works"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "pegasus-birth",
+      "text": "ペルセウスがメデューサの首を切ると、クリュサオルと馬のペガソスが生まれ出た。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』280–281行"
+    },
+    {
+      "id": "pegasus-poseidon",
+      "text": "首を切られたゴルゴンから翼ある馬ペガソスとクリュサオルが生まれ、これらはポセイドンとの子である。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library", "hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2／『神統記』278–281行"
+    },
+    {
+      "id": "pegasus-name-springs",
+      "text": "ペガソスはオケアノスの泉（ペーガイ）のほとりで生まれたことから名づけられ、クリュサオルは黄金の剣を手にしていたことから名づけられた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』281–283行"
+    },
+    {
+      "id": "pegasus-editorial-etymology",
+      "text": "『神統記』の名前の説明は古代の語源説明であり、現代の言語学的語源とは区別して扱う。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pegasus-pindar-struggle",
+      "text": "ベレロポンはペイレネの泉のそばでペガソスを馬具につけようとして大いに苦労した。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 63–64行"
+    },
+    {
+      "id": "pegasus-pindar-bridle",
+      "text": "パラス（アテナ）が黄金の頬当ての手綱をもたらし、夢の中で、白い牡牛を捧げてポセイドンに示すよう告げた。目覚めると手綱が傍らにあった。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 65–75行"
+    },
+    {
+      "id": "pegasus-pindar-taming",
+      "text": "ベレロポンはポセイドンに牡牛を捧げてアテナに祭壇を築き、手綱をペガソスの顎にかけて捕らえた。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 76–87行"
+    },
+    {
+      "id": "pegasus-perseus-items-ref",
+      "text": "ペルセウスはメデューサ退治の際、ニンフたちやヘルメスから道具を授かり、ヘルメスとアテナの導きを受けた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "pegasus-chimera-victory",
+      "text": "ベレロポンはペガソスに乗ってアマゾンを攻め、キマイラとソリュモイを倒した。アポロドロスも、ペガソスに乗って空からキマイラを射倒したと伝える。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes", "apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 87–90行／『ビブリオテーケー』2.3.2"
+    },
+    {
+      "id": "pegasus-bellerophon-fall",
+      "text": "天の住まいとゼウスの仲間のもとへ行こうとしたベレロポンを、ペガソスが振り落とした。ピンダロスはこれを、度を越した望みへの戒めとともに語る。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イストミア祝勝歌』第7歌 43–48行"
+    },
+    {
+      "id": "pegasus-zeus-thunder",
+      "text": "ペガソスは神々のもとへ飛び去ってゼウスの館に住み、ゼウスに雷鳴と稲妻を運ぶ。ピンダロスも、ペガソスがオリュンポスのゼウスの厩舎に迎えられたと歌う。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony", "pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』284–286行／『オリュンピア祝勝歌』第13歌 92行"
+    },
+    {
+      "id": "pegasus-editorial-works",
+      "text": "原典のペガソスは、怪物から生まれ、英雄を運び、時に振り落とす複雑な来歴をもつ。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony", "pindar-odes"],
+      "verificationStatus": "verified"
+    }
+  ]
+}

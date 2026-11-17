@@ -1,0 +1,21 @@
+{
+  "id": "hermes",
+  "slug": "hermes",
+  "name": "ヘルメス",
+  "reading": "へるめす",
+  "originalName": "Ἑρμῆς",
+  "romanized": "Hermes",
+  "alternativeNames": ["ヘルメース", "アルゴス殺し"],
+  "type": "god",
+  "roles": ["神々の使者", "導き手"],
+  "mythologyIds": ["greek"],
+  "description": "ゼウスの使者として神々の伝令を務める神。『デメテル讃歌』ではゼウスの命で冥界に赴き、ペルセポネを地上へ連れ戻した。ペルセウスには金剛の鎌を与えている。",
+  "relatedFigureIds": ["zeus", "perseus", "persephone"],
+  "relatedStoryIds": [
+    "perseus-medusa",
+    "abduction-of-persephone",
+    "heracles-cerberus"
+  ],
+  "articleIds": [],
+  "sourceIds": ["homeric-hymn-demeter", "apollodorus-library"]
+}

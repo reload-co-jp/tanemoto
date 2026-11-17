@@ -1,0 +1,21 @@
+{
+  "id": "petrification-monsters",
+  "slug": "petrification-monsters",
+  "title": "石化能力を持つ怪物はなぜ生まれたのか",
+  "description": "メデューサをはじめとする「石化」の能力をもつ怪物の伝承を比較し、その背景を考えます。",
+  "category": "comparison",
+  "tags": ["石化", "メデューサ"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": ["medusa"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "legendary-weapons",
+  "slug": "legendary-weapons",
+  "title": "神話に登場する神器・伝説の武器",
+  "description": "ハデスの帽子やアイギスなど、神話に登場する神器・伝説の武器を原典の記述とともに紹介します。",
+  "category": "comparison",
+  "tags": ["神器", "武器"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": ["athena", "hermes", "hades"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "typhon",
+  "slug": "typhon",
+  "name": "テュポン",
+  "reading": "てゅぽん",
+  "originalName": "Τυφάων",
+  "romanized": "Typhaon",
+  "alternativeNames": ["テュポーン", "テュパオン", "テュポエウス"],
+  "type": "monster",
+  "roles": ["怪物"],
+  "mythologyIds": ["greek"],
+  "description": "『神統記』で「恐ろしく、無法な」と形容される怪物。エキドナと交わり、ケルベロスをはじめとする怪物たちの父となった。",
+  "relatedFigureIds": ["echidna", "cerberus", "chimera"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "apollodorus-library"]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "persephone",
+  "slug": "persephone",
+  "title": "ペルセポネとは？冥界の女王になった理由と「ザクロの実」の意味",
+  "shortTitle": "ペルセポネとは？冥界の女王になった理由",
+  "description": "デメテルの娘ペルセポネは、なぜ冥界の女王になったのか。『デメテル讃歌』を中心に、ハデスによる誘拐、ザクロの実、一年の三分の一を冥界で過ごす理由を原典から解説します。",
+  "lead": "花を摘んでいた少女が、突然裂けた大地から現れた冥界の王に連れ去られる——。ペルセポネの物語は、ギリシャ神話のなかでも特に印象的なエピソードの一つです。最も詳しくこの物語を伝える『デメテル讃歌』を読みながら、彼女が冥界の女王となった経緯をたどります。",
+  "category": "gods-heroes",
+  "tags": ["ペルセポネ", "ハデス", "デメテル", "冥界", "ザクロ"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["persephone", "hades", "demeter", "zeus", "hermes"],
+  "mythologyIds": ["greek"],
+  "storyIds": ["abduction-of-persephone"],
+  "workIds": [],
+  "topicIds": ["underworld"],
+  "sourceIds": ["hesiod-theogony", "homeric-hymn-demeter", "homer-odyssey"],
+  "relatedArticleIds": ["hades"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ペルセポネの基本情報",
+      "anchor": "basics"
+    },
+    {
+      "type": "paragraph",
+      "text": "ペルセポネ（ギリシャ語 Περσεφόνη／Persephone）は、冥界の王ハデスの妻で、冥界の女王とされる女神です。ヘシオドス『神統記』によれば、ゼウスとデメテルの娘で、アイドネウス（ハデス）が母のもとから連れ去り、ゼウスが彼に与えたとされます。",
+      "claimIds": ["persephone-parents"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**親**：ゼウスとデメテル",
+        "**夫**：ハデス（アイドネウス）",
+        "**役割**：冥界の女王",
+        "**主な資料**：『デメテル讃歌』（ホメロス風讃歌 第2歌）、ヘシオドス『神統記』"
+      ],
+      "claimIds": ["persephone-parents"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ニュサの野での誘拐",
+      "anchor": "abduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "『デメテル讃歌』によれば、ペルセポネはオケアノスの娘たちと遊びながら、柔らかな草地でバラやクロッカス、スミレ、アヤメ、ヒヤシンスを摘んでいました。そこには、ゼウスの意向により「多くの者を迎える者」（ハデス）を喜ばせるため、少女を誘う罠として大地が咲かせた、見事な水仙がありました。",
+      "claimIds": ["persephone-hymn-narcissus"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ペルセポネが両手を伸ばしてその花を取ろうとしたとき、ニュサの野で大地が裂け、ハデスが不死の馬とともに現れました。彼は嫌がるペルセポネを黄金の車に乗せて連れ去ります。ペルセポネは父ゼウスに助けを求めて叫びましたが、その声を聞いたのはヘカテとヘリオス（太陽神）だけでした。",
+      "claimIds": ["persephone-hymn-abduction"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "誘拐はゼウスの同意のもとで",
+      "text": "讃歌は冒頭で、ペルセポネを「全てを見そなわすゼウスによって与えられ、アイドネウスが連れ去った」娘として紹介しています。誘拐はハデスの独断ではなく、ゼウスの承知のうえで起こったこととして語られているのです。",
+      "claimIds": ["persephone-hymn-zeus-gave"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "デメテルの嘆きと地上の飢饉",
+      "anchor": "demeter"
+    },
+    {
+      "type": "paragraph",
+      "text": "娘を奪われたデメテルは、神々のもとを離れて地上をさまよいます。讃歌によると、デメテルは怒りから、娘を自分の目で見るまでは決してオリュンポスに足を踏み入れず、大地に実りをもたらさないと誓いました。",
+      "claimIds": ["persephone-demeter-vow"]
+    },
+    {
+      "type": "paragraph",
+      "text": "これを聞いたゼウスは、黄金の杖をもつ「アルゴス殺し」ヘルメスを冥界（エレボス）に遣わし、ハデスを穏やかな言葉で説得して、ペルセポネを光のもとへ連れ戻させようとしました。",
+      "claimIds": ["persephone-zeus-sends-hermes"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ザクロの実——冥界に結びつけられた理由",
+      "anchor": "pomegranate"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘルメスの言葉を聞いたハデスは、ペルセポネに「わたしは神々のなかでふさわしくない夫ではない。ここにいる間、あなたは生きて動くすべてのものを治め、神々のなかで最大の権能をもつだろう」と語りかけます。",
+      "claimIds": ["persephone-hades-speech"]
+    },
+    {
+      "type": "paragraph",
+      "text": "喜んだペルセポネが跳び上がると、ハデスはひそかに甘いザクロの種を彼女に食べさせました。黒衣のデメテルのもとに、いつまでもとどまることがないように、というのがその意図でした。",
+      "claimIds": ["persephone-pomegranate-seed"]
+    },
+    {
+      "type": "paragraph",
+      "text": "母のもとに戻ったペルセポネに、デメテルは「もし冥界で何かを口にしたのなら、あなたは再び地下に戻り、一年の季節の三分の一をそこで過ごさねばならない。残りの三分の二は、わたしや他の神々とともに過ごせる」と告げます。",
+      "claimIds": ["persephone-third-of-year"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "一年の三分の一を冥界で",
+      "anchor": "seasons"
+    },
+    {
+      "type": "paragraph",
+      "text": "最終的にゼウスは、レアを使いとしてデメテルのもとに送り、ペルセポネが巡る一年の三分の一を闇の世界で、三分の二を母と神々のもとで過ごすことを取り決めました。デメテルもこれに従い、再び大地に実りをもたらしました。",
+      "claimIds": ["persephone-zeus-decree"]
+    },
+    {
+      "type": "paragraph",
+      "text": "讃歌はさらに、デメテルの言葉として、大地が春の花で咲き誇るころ、ペルセポネは闇の世界から再び上ってくるとも語っています。",
+      "claimIds": ["persephone-spring-return"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "季節の起源神話として読む",
+      "text": "ペルセポネの物語は、しばしば「季節の移り変わりの起源」を説明する神話として紹介されます。讃歌自体も、ペルセポネの地上への帰還を春の開花と結びつけ、デメテルの怒りが解けることで再び実りがもたらされたと語っており、そのような読み方を支える要素を含んでいます。ただし、讃歌のなかで「冬」の起源が直接説明されているわけではない点には注意が必要です。",
+      "claimIds": ["persephone-editorial-seasons"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "冥界の女王としてのペルセポネ",
+      "anchor": "queen"
+    },
+    {
+      "type": "paragraph",
+      "text": "ペルセポネは、連れ去られた少女としてだけでなく、冥界を治める恐るべき女王としても描かれます。ヘシオドス『神統記』は、地下に「強きハデスと恐ろしきペルセポネ」の館があると記しています。",
+      "claimIds": ["persephone-theogony-dread"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『オデュッセイア』では、冥界を訪れたオデュッセウスが「尊きペルセポネがハデスの館からゴルゴンの首を送ってよこすのではないか」と恐れて引き返します。ここでのペルセポネは、死者の世界の主として強い力をもつ存在です。",
+      "claimIds": ["persephone-odyssey-persephone"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ペルセポネはゼウスとデメテルの娘で、ハデスの妻（『神統記』）",
+        "ゼウスの同意のもと、ニュサの野でハデスに連れ去られた（『デメテル讃歌』）",
+        "冥界でザクロの種を口にしたため、一年の三分の一を冥界で過ごすことになった",
+        "原典では、恐るべき冥界の女王としての側面も描かれている"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "作品によってペルセポネは、悲劇のヒロインとしても、冥界を支配する女王としても描かれます。どちらも原典に根拠をもつ姿であり、その両面性こそがペルセポネという存在の魅力だといえるでしょう。",
+      "claimIds": ["persephone-editorial-works"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "persephone-parents",
+      "text": "ペルセポネはゼウスとデメテルの娘で、アイドネウス（ハデス）が母のもとから連れ去り、ゼウスが彼に与えた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』912–914行"
+    },
+    {
+      "id": "persephone-hymn-narcissus",
+      "text": "ペルセポネはオケアノスの娘たちと花を摘んでいた。ゼウスの意向で、ハデスを喜ばせ少女を誘う罠として大地が水仙を咲かせた。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』4–10行"
+    },
+    {
+      "id": "persephone-hymn-abduction",
+      "text": "ペルセポネが水仙を取ろうとしたとき、ニュサの野で大地が裂けてハデスが不死の馬とともに現れ、黄金の車で連れ去った。叫び声を聞いたのはヘカテとヘリオスだけだった。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』15–26行"
+    },
+    {
+      "id": "persephone-hymn-zeus-gave",
+      "text": "讃歌の冒頭で、ペルセポネはゼウスによってアイドネウスに与えられ、連れ去られた娘として紹介される。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』1–3行"
+    },
+    {
+      "id": "persephone-demeter-vow",
+      "text": "デメテルは、娘を自分の目で見るまでオリュンポスに足を踏み入れず、大地に実りをもたらさないと誓った。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』331–333行"
+    },
+    {
+      "id": "persephone-zeus-sends-hermes",
+      "text": "ゼウスはヘルメスをエレボスに遣わし、ハデスを説得してペルセポネを連れ戻させようとした。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』334–339行"
+    },
+    {
+      "id": "persephone-hades-speech",
+      "text": "ハデスはペルセポネに、自分はゼウスの兄弟でふさわしくない夫ではなく、冥界にいる間は生きとし生けるものを治め、神々の中で最大の権能をもつと語った。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』360–369行"
+    },
+    {
+      "id": "persephone-pomegranate-seed",
+      "text": "ハデスは、ペルセポネがデメテルのもとにずっととどまらないよう、ひそかに甘いザクロの種を食べさせた。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』370–374行"
+    },
+    {
+      "id": "persephone-third-of-year",
+      "text": "デメテルは、冥界で食べ物を口にしたのなら、一年の三分の一を地下で、三分の二を母や神々と過ごさねばならないと告げた。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』398–400行"
+    },
+    {
+      "id": "persephone-zeus-decree",
+      "text": "ゼウスはレアを使いとして送り、ペルセポネが一年の三分の一を闇の世界で、三分の二を母と神々のもとで過ごすことを取り決めた。デメテルはこれに従い、再び大地に実りをもたらした。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』441–447, 470–473行"
+    },
+    {
+      "id": "persephone-spring-return",
+      "text": "大地が春の花で咲き誇るとき、ペルセポネは闇の世界から再び上ってくるとされる。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』401–403行"
+    },
+    {
+      "id": "persephone-editorial-seasons",
+      "text": "讃歌はペルセポネの帰還を春の開花と結びつけており、季節の起源神話として読む要素を含むが、冬の起源を直接説明しているわけではない。",
+      "classification": "editorial",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "persephone-theogony-dread",
+      "text": "『神統記』は、地下に「強きハデスと恐ろしきペルセポネ」の館があると記す。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』767–768行"
+    },
+    {
+      "id": "persephone-odyssey-persephone",
+      "text": "オデュッセウスは、尊きペルセポネがハデスの館からゴルゴンの首を送ってくることを恐れて引き返した。",
+      "classification": "fact",
+      "sourceIds": ["homer-odyssey"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オデュッセイア』11.633–637"
+    },
+    {
+      "id": "persephone-editorial-works",
+      "text": "ペルセポネの「悲劇の少女」と「冥界の女王」という両面は、どちらも原典に根拠をもつ。",
+      "classification": "editorial",
+      "sourceIds": ["homeric-hymn-demeter", "homer-odyssey"],
+      "verificationStatus": "verified"
+    }
+  ]
+}

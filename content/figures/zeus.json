@@ -1,0 +1,17 @@
+{
+  "id": "zeus",
+  "slug": "zeus",
+  "name": "ゼウス",
+  "reading": "ぜうす",
+  "originalName": "Ζεύς",
+  "romanized": "Zeus",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["神々の王", "天空", "雷"],
+  "mythologyIds": ["greek"],
+  "description": "ギリシャ神話の最高神。クロノスとレアの末子で、父に呑まれることを免れて育った。『イリアス』では、兄弟とのくじ引きで広い天空を割り当てられたと語られる。",
+  "relatedFigureIds": ["hades", "poseidon", "demeter"],
+  "relatedStoryIds": ["children-of-cronos", "division-of-the-world"],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "homer-iliad"]
+}

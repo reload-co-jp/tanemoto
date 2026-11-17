@@ -1,0 +1,21 @@
+{
+  "id": "invincible-heroes",
+  "slug": "invincible-heroes",
+  "title": "神話に登場する不死身の英雄たち",
+  "description": "アキレウスなど「不死身」とされる英雄たちの伝承と、その弱点の由来を比較します。",
+  "category": "comparison",
+  "tags": ["英雄", "不死"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

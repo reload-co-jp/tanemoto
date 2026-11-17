@@ -1,0 +1,21 @@
+{
+  "id": "sphinx",
+  "slug": "sphinx",
+  "title": "スフィンクスとは？謎を出す怪物の正体",
+  "description": "テバイの人々を苦しめた怪物スフィンクスの系譜と、オイディプスの謎かけの物語を解説します。",
+  "category": "monsters",
+  "tags": ["スフィンクス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

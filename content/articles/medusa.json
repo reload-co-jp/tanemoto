@@ -1,0 +1,403 @@
+{
+  "id": "medusa",
+  "slug": "medusa",
+  "title": "メデューサとは？ゴルゴンの伝承と「蛇の髪」の由来",
+  "shortTitle": "メデューサとは？ゴルゴンの伝承",
+  "description": "ギリシャ神話の怪物メデューサの出自、ペルセウスによる退治、蛇の髪の由来を、ヘシオドス・アポロドロス・オウィディウスなどの原典から読み解きます。",
+  "lead": "見た者を石に変える、蛇の髪の怪物——。アニメや漫画でもおなじみのメデューサですが、古代の文献をたどると、その姿や来歴は資料ごとに少しずつ異なります。最古級の資料であるヘシオドス『神統記』から、ローマ時代のオウィディウス『変身物語』まで、メデューサ像の変遷を原典に沿って見ていきます。",
+  "category": "monsters",
+  "tags": ["メデューサ", "ゴルゴン", "ペルセウス", "アテナ", "石化"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "published",
+  "featured": true,
+  "figureIds": ["medusa", "perseus", "athena", "poseidon", "pegasus"],
+  "mythologyIds": ["greek"],
+  "storyIds": ["perseus-medusa"],
+  "workIds": [],
+  "topicIds": ["monsters", "petrification", "divine-items", "transformation"],
+  "sourceIds": [
+    "hesiod-theogony",
+    "apollodorus-library",
+    "ovid-metamorphoses",
+    "pindar-odes",
+    "homer-iliad",
+    "homer-odyssey"
+  ],
+  "relatedArticleIds": ["pegasus"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "メデューサの基本情報",
+      "anchor": "basics"
+    },
+    {
+      "type": "paragraph",
+      "text": "メデューサ（ギリシャ語 Μέδουσα／Medousa）は、ギリシャ神話に登場する**ゴルゴン**と呼ばれる三姉妹の一人です。ヘシオドス『神統記』によれば、ゴルゴンは海の老神ポルキュスとケトの娘たちで、ステンノ、エウリュアレ、メデューサの三人でした。",
+      "claimIds": ["medusa-gorgon-sisters"]
+    },
+    {
+      "type": "paragraph",
+      "text": "三姉妹のうちメデューサだけが死すべき存在で、ほかの二人は不死で年をとらないとされています。ペルセウスが首を取る相手としてメデューサが選ばれたのも、このためだと説明する資料があります。",
+      "claimIds": ["medusa-mortal"]
+    },
+    {
+      "type": "list",
+      "items": [
+        "**分類**：ゴルゴン（三姉妹）の一人",
+        "**親**：ポルキュスとケト（『神統記』）",
+        "**姉妹**：ステンノ、エウリュアレ（いずれも不死）",
+        "**主な登場資料**：ヘシオドス『神統記』、ピンダロス『祝勝歌』、アポロドロス『ビブリオテーケー』、オウィディウス『変身物語』"
+      ],
+      "claimIds": ["medusa-gorgon-sisters", "medusa-mortal"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『神統記』に描かれたメデューサ",
+      "anchor": "theogony"
+    },
+    {
+      "type": "paragraph",
+      "text": "『神統記』でのメデューサに関する記述は、わずか十数行です。ゴルゴンたちの住まいは「名高いオケアノス（大洋）の彼方、夜に近い最果ての地」とされています。",
+      "claimIds": ["medusa-dwelling"]
+    },
+    {
+      "type": "paragraph",
+      "text": "続いて、メデューサが「黒髪の神」——ポセイドンを指す呼び名——と、春の花の咲く柔らかな草地で交わったことが語られます。そしてペルセウスがその首を切り落とすと、首から大いなるクリュサオルと、天馬ペガソス（[ペガサス](/articles/pegasus/)）が生まれ出たとされます。",
+      "claimIds": ["medusa-poseidon", "medusa-birth-pegasus"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "『神統記』に書かれていないこと",
+      "text": "注目したいのは、『神統記』のこの箇所には、メデューサの髪が蛇であることも、見た者を石に変える力も書かれていない点です。現代のイメージを形づくっているこれらの特徴は、後の資料で詳しく語られるようになります。",
+      "claimIds": ["medusa-theogony-silent"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ペルセウスによるメデューサ退治",
+      "anchor": "perseus"
+    },
+    {
+      "type": "paragraph",
+      "text": "メデューサ退治の物語を詳しく伝えているのが、紀元後1〜2世紀頃にまとめられたとされる神話集、アポロドロス『ビブリオテーケー』（邦題『ギリシア神話』）です。それによると、セリポス島の王ポリュデクテスからゴルゴンの首を持ってくるよう命じられたペルセウスは、ヘルメスとアテナの導きを受けて旅立ちます。",
+      "claimIds": ["medusa-perseus-quest"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ペルセウスはまず、ゴルゴンの姉妹にあたるグライアイ（生まれつき老婆の三姉妹で、一つの目と一つの歯を共有していた）から目と歯を奪い、それと引き換えにニンフたちの居場所を聞き出します。そしてニンフたちと神々から、次の道具を手に入れました。",
+      "claimIds": ["medusa-perseus-graiai"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ペルセウスが得た道具",
+      "anchor": "perseus-items"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**翼のあるサンダル**（ニンフたちから）",
+        "**キビシス**——首を入れるための袋（ニンフたちから）",
+        "**ハデスの帽子**——かぶると姿が見えなくなる（ニンフたちから）",
+        "**金剛（アダマス）の鎌**（ヘルメスから）"
+      ],
+      "claimIds": ["medusa-perseus-items"]
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロスはゴルゴンたちの姿を、竜の鱗に覆われた頭、猪のような大きな牙、青銅の手、空を飛ぶための金の翼をもち、**見た者を石に変えた**と描写しています。",
+      "claimIds": ["medusa-gorgon-appearance"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ペルセウスは眠っているゴルゴンたちに近づき、アテナに手を導かれながら、青銅の盾に映るゴルゴンの姿を見て、目をそらしたままメデューサの首を切りました。首を切られたメデューサからはペガソスとクリュサオルが生まれ、アポロドロスはこの二者をポセイドンの子としています。",
+      "claimIds": ["medusa-perseus-shield", "medusa-children-apollodorus"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その後ペルセウスは、この首を見せることで敵を石に変えていきます。旅を終えると、サンダルと袋と帽子はヘルメスに返し、ゴルゴンの首はアテナに捧げました。アテナはその首を自分の盾の中央にはめ込んだとされます。",
+      "claimIds": ["medusa-perseus-return"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "なぜ髪が蛇なのか——資料による違い",
+      "anchor": "snake-hair"
+    },
+    {
+      "type": "paragraph",
+      "text": "蛇の髪の由来として現代でもよく知られているのが、ローマの詩人オウィディウスの『変身物語』（紀元後8年頃）に見える話です。そこでは「なぜ三姉妹のなかでメデューサだけが髪に蛇を交えているのか」という問いに、ペルセウス自身が答えるかたちで、メデューサはもともと非常に美しく、とりわけ髪の美しさで知られ、多くの求婚者がいたと語られます。",
+      "claimIds": ["medusa-ovid-medusa-beauty"]
+    },
+    {
+      "type": "paragraph",
+      "text": "しかし海の支配者（ラテン名ネプトゥヌス＝ポセイドン）がミネルウァ（＝アテナ）の神殿で彼女を辱めたため、ミネルウァはこの行為を罰するとして、ゴルゴンの髪を恐ろしい蛇に変えた——とオウィディウスは記しています。",
+      "claimIds": ["medusa-ovid-medusa-snakes"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "罰を受けた理由は一つではない",
+      "text": "アポロドロスは、ペルセウスの物語を語り終えたあとで「メデューサは美しさにおいてまで女神と張り合おうとしたため、アテナのために首を切られたという者もいる」という別の伝承を紹介しています。メデューサが怪物となった理由・討たれた理由は、資料によって異なるのです。",
+      "claimIds": ["medusa-apollodorus-medusa-variant"]
+    },
+    {
+      "type": "paragraph",
+      "text": "さらにさかのぼると、紀元前5世紀の詩人ピンダロスは『ピュティア祝勝歌』第12歌で、ゴルゴンたちを「蛇の髪」をもつ乙女たちとして歌い、同じ歌のなかでメデューサを「美しい」と形容しています。アテナがゴルゴンたちの嘆きの声を笛の調べに写し取った、という笛の起源譚もこの歌で語られます。",
+      "claimIds": ["medusa-pindar-medusa"]
+    },
+    {
+      "type": "paragraph",
+      "text": "「恐ろしい怪物」と「美しい女性」という二つの側面は、古い時代から併存しており、作者によって比重を変えながら語り継がれてきたと考えられます。",
+      "claimIds": ["medusa-editorial-two-faces"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アテナの盾とゴルゴンの首",
+      "anchor": "aegis"
+    },
+    {
+      "type": "paragraph",
+      "text": "ゴルゴンの首は、ペルセウスの物語より古い資料にも登場します。ホメロス『イリアス』では、アテナが戦いに臨む際に身につけるアイギスに、「恐ろしい怪物ゴルゴンの首」があると描かれています。",
+      "claimIds": ["medusa-iliad-aegis"]
+    },
+    {
+      "type": "paragraph",
+      "text": "また『オデュッセイア』では、冥界を訪れたオデュッセウスが、ペルセポネがハデスの館から「ゴルゴンの首」を送ってよこすのではないかと青ざめ、急いで船に引き返す場面があります。",
+      "claimIds": ["medusa-odyssey-gorgon"]
+    },
+    {
+      "type": "paragraph",
+      "text": "これらの箇所では、メデューサという個人名やペルセウスの冒険は語られず、「ゴルゴン（の首）」そのものが恐怖の象徴として登場している点が印象的です。",
+      "claimIds": ["medusa-editorial-homer-gorgon"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「石化の視線」は古典にあるのか",
+      "anchor": "petrification"
+    },
+    {
+      "type": "paragraph",
+      "text": "アニメ・漫画やゲームでは、メデューサが目から光を放って相手を石にする「石化の魔眼」として描かれることがあります。一方、アポロドロスの記述は「ゴルゴンを見た者が石になった」というもので、ペルセウスも盾に映った姿を見ることで直接見ることを避けています。",
+      "claimIds": ["medusa-gorgon-appearance", "medusa-perseus-shield"]
+    },
+    {
+      "type": "paragraph",
+      "text": "つまり古典資料では、石化の力は「見られること」よりも「見ること」に結びついて語られています。また首を切られたあとも、その首を見せることで敵を石に変えている点から、力は首そのものに宿るものとして描かれていることがわかります。",
+      "claimIds": ["medusa-editorial-petrification", "medusa-perseus-return"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "items": [
+        "メデューサはポルキュスとケトの娘で、ゴルゴン三姉妹のうち唯一の死すべき存在（『神統記』）",
+        "最古級の資料『神統記』には、蛇の髪や石化の力の記述はない",
+        "ペルセウスは神々から授かった道具を使い、盾に映った姿を見ながら首を切った（アポロドロス）",
+        "髪が蛇になった理由はオウィディウスが詳しく語るが、罰の理由については異伝もある",
+        "首から生まれたのが天馬ペガソスとクリュサオル"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "作品に登場するメデューサが「悲劇の美女」なのか「恐るべき怪物」なのかは、どの資料のメデューサ像を下敷きにしているかによって変わります。作品でメデューサを見かけたら、どの伝承に近いかを考えてみるのも面白いでしょう。",
+      "claimIds": ["medusa-editorial-works"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "medusa-gorgon-sisters",
+      "text": "ゴルゴンはポルキュスとケトの娘で、ステンノ、エウリュアレ、メデューサの三姉妹である。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "sourceLocation": "『神統記』270–276行",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-mortal",
+      "text": "三姉妹のうちメデューサだけが死すべき存在で、他の二人は不死で不老である。アポロドロスは、そのためにペルセウスがメデューサの首を取りに遣わされたと説明している。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony", "apollodorus-library"],
+      "sourceLocation": "『神統記』276–277行／『ビブリオテーケー』2.4.2",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-dwelling",
+      "text": "ゴルゴンたちはオケアノスの彼方、夜に近い最果ての地に住む。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "sourceLocation": "『神統記』274–275行",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-poseidon",
+      "text": "メデューサは「黒髪の神」（ポセイドン）と春の花の咲く柔らかな草地で交わった。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "sourceLocation": "『神統記』278–279行",
+      "verificationStatus": "verified",
+      "note": "原文の呼び名はキュアノカイテース（黒髪の者）で、ポセイドンの添え名。"
+    },
+    {
+      "id": "medusa-birth-pegasus",
+      "text": "ペルセウスがメデューサの首を切ると、クリュサオルと馬のペガソスが生まれ出た。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "sourceLocation": "『神統記』280–281行",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-theogony-silent",
+      "text": "『神統記』のメデューサに関する箇所には、蛇の髪や石化の力についての記述がない。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "sourceLocation": "『神統記』270–283行",
+      "verificationStatus": "verified",
+      "note": "該当箇所の本文を確認したうえでの編集部の指摘。"
+    },
+    {
+      "id": "medusa-perseus-quest",
+      "text": "ポリュデクテスにゴルゴンの首を持ってくるよう命じられたペルセウスは、ヘルメスとアテナの導きで旅立った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.2",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-perseus-graiai",
+      "text": "ペルセウスは、一つの目と一つの歯を共有するポルキュスの娘たち（グライアイ）から目と歯を奪い、ニンフたちへの道を教えさせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.2",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-perseus-items",
+      "text": "ペルセウスはニンフたちから翼のあるサンダル、キビシス（袋）、ハデスの帽子を、ヘルメスから金剛の鎌を得た。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.2",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-gorgon-appearance",
+      "text": "ゴルゴンたちは竜の鱗に覆われた頭、猪のような牙、青銅の手、金の翼をもち、見た者を石に変えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.2",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-perseus-shield",
+      "text": "ペルセウスはアテナに手を導かれ、青銅の盾に映るゴルゴンの姿を見ながら、目をそらしてメデューサの首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.2",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-children-apollodorus",
+      "text": "首を切られたメデューサからペガソスとクリュサオルが生まれ、これらはポセイドンとの子であった。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.2",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-perseus-return",
+      "text": "ペルセウスはゴルゴンの首を見せて敵を石に変え、のちにサンダル・袋・帽子をヘルメスに返し、首をアテナに与えた。アテナは首を盾の中央にはめ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.3",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-ovid-medusa-beauty",
+      "text": "オウィディウスでは、なぜ三姉妹のうちメデューサだけが髪に蛇をもつのかという問いに対し、ペルセウスが、彼女はもともと美しさで知られ、とくに髪が美しく、多くの求婚者がいたと答える。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "sourceLocation": "『変身物語』4.791–798",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-ovid-medusa-snakes",
+      "text": "オウィディウスによれば、海の支配者（ネプトゥヌス）がミネルウァの神殿でメデューサを辱め、ミネルウァはその罰としてゴルゴンの髪を蛇に変えた。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "sourceLocation": "『変身物語』4.799–801",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-apollodorus-medusa-variant",
+      "text": "アポロドロスは、メデューサが美しさでも女神と張り合おうとしたため、アテナのために首を切られたという異伝を紹介している。",
+      "classification": "variant",
+      "sourceIds": ["apollodorus-library"],
+      "sourceLocation": "『ビブリオテーケー』2.4.3",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-pindar-medusa",
+      "text": "ピンダロスは、アテナがゴルゴンたちの嘆きを笛の調べに写したことを歌い、ゴルゴンを蛇の髪をもつ乙女たちとして描くとともに、メデューサを「美しい」と形容している。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "sourceLocation": "『ピュティア祝勝歌』第12歌 6–16行",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-editorial-two-faces",
+      "text": "メデューサの「怪物」と「美しい女性」という二つの側面は古くから併存し、作者によって比重を変えて語られてきた。",
+      "classification": "editorial",
+      "sourceIds": ["pindar-odes", "ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "note": "ピンダロスとオウィディウスの記述をもとにした編集部の解釈。"
+    },
+    {
+      "id": "medusa-iliad-aegis",
+      "text": "アテナのアイギスには、恐ろしい怪物ゴルゴンの首がある。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "sourceLocation": "『イリアス』5.741–742",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-odyssey-gorgon",
+      "text": "冥界を訪れたオデュッセウスは、ペルセポネがハデスの館からゴルゴンの首を送ってくることを恐れて引き返した。",
+      "classification": "fact",
+      "sourceIds": ["homer-odyssey"],
+      "sourceLocation": "『オデュッセイア』11.633–637",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-editorial-homer-gorgon",
+      "text": "上記のホメロスの箇所では、メデューサの名やペルセウスの冒険には触れず、ゴルゴンの首が恐怖の象徴として登場している。",
+      "classification": "editorial",
+      "sourceIds": ["homer-iliad", "homer-odyssey"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "medusa-editorial-petrification",
+      "text": "古典資料では、石化の力は「ゴルゴンを見ること」に結びつけて語られ、首を切られた後も首そのものに力が宿るものとして描かれている。",
+      "classification": "editorial",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "note": "アポロドロス 2.4.2–3 の記述にもとづく編集部の整理。"
+    },
+    {
+      "id": "medusa-editorial-works",
+      "text": "作品ごとのメデューサ像の違いは、どの伝承を下敷きにしているかによって生じる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

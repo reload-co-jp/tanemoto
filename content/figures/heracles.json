@@ -1,0 +1,17 @@
+{
+  "id": "heracles",
+  "slug": "heracles",
+  "name": "ヘラクレス",
+  "reading": "へらくれす",
+  "originalName": "Ἡρακλῆς",
+  "romanized": "Herakles",
+  "alternativeNames": ["ヘーラクレース", "ヘルクレス（ローマ）"],
+  "type": "hero",
+  "roles": ["英雄", "十二の功業"],
+  "mythologyIds": ["greek"],
+  "description": "ゼウスの子で、ギリシャ神話を代表する英雄。エウリュステウスに課された十二の功業の最後に、冥界の番犬ケルベロスを地上へ連れ出した。",
+  "relatedFigureIds": ["cerberus", "hades", "hermes"],
+  "relatedStoryIds": ["heracles-cerberus"],
+  "articleIds": [],
+  "sourceIds": ["apollodorus-library", "homer-iliad"]
+}

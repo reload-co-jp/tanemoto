@@ -1,0 +1,17 @@
+{
+  "id": "echidna",
+  "slug": "echidna",
+  "name": "エキドナ",
+  "reading": "えきどな",
+  "originalName": "Ἔχιδνα",
+  "romanized": "Ekhidna",
+  "alternativeNames": [],
+  "type": "monster",
+  "roles": ["怪物たちの母"],
+  "mythologyIds": ["greek"],
+  "description": "上半身は美しいニンフ、下半身は巨大な蛇の姿をもつ不死の怪物。『神統記』では、テュポンとの間にオルトス、ケルベロス、ヒュドラなどの怪物を産んだとされる。",
+  "relatedFigureIds": ["typhon", "cerberus", "chimera"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony"]
+}

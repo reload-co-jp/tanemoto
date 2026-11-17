@@ -1,0 +1,21 @@
+{
+  "id": "pandoras-box",
+  "slug": "pandoras-box",
+  "title": "パンドラの箱とは？本当は何が入っていたのか",
+  "description": "「パンドラの箱」は本来「壺」だった？ヘシオドスの記述から、パンドラの物語を読み解きます。",
+  "category": "myths",
+  "tags": ["パンドラ"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

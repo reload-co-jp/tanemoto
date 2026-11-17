@@ -1,0 +1,17 @@
+{
+  "id": "medusa",
+  "slug": "medusa",
+  "name": "メデューサ",
+  "reading": "めでゅーさ",
+  "originalName": "Μέδουσα",
+  "romanized": "Medousa",
+  "alternativeNames": ["メドゥーサ", "メドゥサ"],
+  "type": "monster",
+  "roles": ["ゴルゴン", "石化"],
+  "mythologyIds": ["greek"],
+  "description": "ゴルゴン三姉妹の一人で、ポルキュスとケトの娘。姉妹のうち唯一の死すべき存在で、英雄ペルセウスに首を切られた。その首からペガソスとクリュサオルが生まれた。",
+  "relatedFigureIds": ["perseus", "athena", "poseidon", "pegasus"],
+  "relatedStoryIds": ["perseus-medusa"],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "apollodorus-library", "ovid-metamorphoses"]
+}

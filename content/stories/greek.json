@@ -1,0 +1,56 @@
+[
+  {
+    "id": "children-of-cronos",
+    "title": "クロノスに呑まれた子どもたち",
+    "mythologyIds": ["greek"],
+    "figureIds": ["zeus", "hades", "poseidon", "demeter"],
+    "summary": "クロノスは自分の子に王位を奪われるという予言を恐れ、レアが産んだヘスティア、デメテル、ヘラ、ハデス、ポセイドンを次々に呑み込んだ。末子ゼウスはクレタ島に隠され、クロノスには産着に包んだ石が渡された。",
+    "sourceIds": ["hesiod-theogony"],
+    "sourceLocation": "『神統記』453–491行"
+  },
+  {
+    "id": "division-of-the-world",
+    "title": "世界の三分割",
+    "mythologyIds": ["greek"],
+    "figureIds": ["zeus", "poseidon", "hades"],
+    "summary": "クロノスとレアの子であるゼウス、ポセイドン、ハデスの三兄弟は、くじによって世界を分け、ポセイドンは海、ハデスは闇の世界、ゼウスは天空を得た。大地とオリュンポスは三者の共有とされた。",
+    "sourceIds": ["homer-iliad"],
+    "sourceLocation": "『イリアス』15.187–193"
+  },
+  {
+    "id": "perseus-medusa",
+    "title": "ペルセウスのメデューサ退治",
+    "mythologyIds": ["greek"],
+    "figureIds": ["perseus", "medusa", "athena", "hermes", "pegasus"],
+    "summary": "セリポス島の王ポリュデクテスにゴルゴンの首を求められたペルセウスは、ヘルメスとアテナの導きで魔法の道具を手に入れ、盾に映った姿を見ながらメデューサの首を切った。首からはペガソスとクリュサオルが生まれた。",
+    "sourceIds": ["apollodorus-library", "hesiod-theogony"],
+    "sourceLocation": "『ビブリオテーケー』2.4.2–3／『神統記』280–281行"
+  },
+  {
+    "id": "abduction-of-persephone",
+    "title": "ペルセポネの誘拐",
+    "mythologyIds": ["greek"],
+    "figureIds": ["persephone", "hades", "demeter", "zeus", "hermes"],
+    "summary": "ニュサの野で花を摘んでいたペルセポネは、大地から現れたハデスに連れ去られた。娘を探し嘆くデメテルのため、ゼウスはヘルメスを冥界に遣わすが、ペルセポネはザクロの実を口にしていたため、一年の三分の一を冥界で過ごすことになった。",
+    "sourceIds": ["homeric-hymn-demeter"],
+    "sourceLocation": "『デメテル讃歌』1–21, 334–403, 441–447行"
+  },
+  {
+    "id": "heracles-cerberus",
+    "title": "ヘラクレスとケルベロス",
+    "mythologyIds": ["greek"],
+    "figureIds": ["heracles", "cerberus", "hades", "hermes"],
+    "summary": "ヘラクレスの十二の功業の最後は、冥界の番犬ケルベロスを地上へ連れ出すことだった。ハデスは武器を使わずに取り押さえることを条件に許し、ヘラクレスは素手で組み伏せて連れ帰ったのち、冥界へ戻した。",
+    "sourceIds": ["apollodorus-library", "homer-iliad"],
+    "sourceLocation": "『ビブリオテーケー』2.5.12／『イリアス』8.366–369"
+  },
+  {
+    "id": "bellerophon-chimera",
+    "title": "ベレロポンのキマイラ退治",
+    "mythologyIds": ["greek"],
+    "figureIds": ["bellerophon", "chimera", "pegasus", "athena"],
+    "summary": "無実の罪で命を狙われた英雄ベレロポンは、リュキア王イオバテスからキマイラ退治を命じられた。アテナから授かった黄金の手綱で天馬ペガソスを手なずけ、空からキマイラを射倒した。",
+    "sourceIds": ["homer-iliad", "apollodorus-library", "pindar-odes"],
+    "sourceLocation": "『イリアス』6.155–183／『ビブリオテーケー』2.3.1–2／『オリュンピア祝勝歌』第13歌 63–92行"
+  }
+]

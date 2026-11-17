@@ -1,0 +1,21 @@
+{
+  "id": "achilles",
+  "slug": "achilles",
+  "title": "アキレウスとは？不死身の英雄の伝承",
+  "description": "トロイア戦争の英雄アキレウス。「不死身」の伝承がどの資料に由来するのかを原典から検証します。",
+  "category": "gods-heroes",
+  "tags": ["アキレウス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": [],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}

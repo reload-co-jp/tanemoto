@@ -1,0 +1,21 @@
+{
+  "id": "zeus",
+  "slug": "zeus",
+  "title": "ゼウスとは？ギリシャ神話の最高神",
+  "description": "ギリシャ神話の最高神ゼウスの出自、ティタン神族との戦い、神々の王としての役割を原典から解説します。",
+  "category": "gods-heroes",
+  "tags": ["ゼウス"],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "status": "draft",
+  "featured": false,
+  "figureIds": ["zeus"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": [],
+  "topicIds": [],
+  "sourceIds": [],
+  "relatedArticleIds": [],
+  "body": [],
+  "claims": []
+}
