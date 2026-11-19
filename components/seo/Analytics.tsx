@@ -1,7 +1,7 @@
 import Script from "next/script"
 import { site } from "@/lib/site"
 
-/** GA4。NEXT_PUBLIC_GA_ID が設定されている場合のみ出力する */
+/** GA4。NEXT_PUBLIC_GA_ID 未設定時は lib/site.ts の既定 ID */
 export const Analytics = () => {
   if (!site.gaId) return null
   return (

@@ -23,7 +23,7 @@ export const site = {
     name: "トモタネ編集部",
   },
   defaultOgImage: "/og-default.png",
-  gaId: process.env.NEXT_PUBLIC_GA_ID ?? "",
+  gaId: process.env.NEXT_PUBLIC_GA_ID || "G-5N5WF76HTW",
   adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",
   /** AdSense 広告ユニットのスロットID */
   adSlots: {
