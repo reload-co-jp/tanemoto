@@ -10,8 +10,8 @@
   "roles": ["英雄", "ゴルゴン退治"],
   "mythologyIds": ["greek"],
   "description": "ダナエの子で、メデューサを討った英雄。ヘルメスとアテナの導きで魔法の道具を手に入れ、盾に映った姿を見ながらメデューサの首を切った。",
-  "relatedFigureIds": ["medusa", "athena", "hermes"],
-  "relatedStoryIds": ["perseus-medusa"],
+  "relatedFigureIds": ["medusa", "athena", "hermes", "andromeda"],
+  "relatedStoryIds": ["perseus-medusa", "perseus-andromeda"],
   "articleIds": [],
   "sourceIds": ["apollodorus-library", "pindar-odes", "hesiod-theogony"]
 }

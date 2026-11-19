@@ -52,5 +52,23 @@
     "summary": "無実の罪で命を狙われた英雄ベレロポンは、リュキア王イオバテスからキマイラ退治を命じられた。アテナから授かった黄金の手綱で天馬ペガソスを手なずけ、空からキマイラを射倒した。",
     "sourceIds": ["homer-iliad", "apollodorus-library", "pindar-odes"],
     "sourceLocation": "『イリアス』6.155–183／『ビブリオテーケー』2.3.1–2／『オリュンピア祝勝歌』第13歌 63–92行"
+  },
+  {
+    "id": "argonauts-medea",
+    "title": "イアソンとメディア",
+    "mythologyIds": ["greek"],
+    "figureIds": ["jason", "medea"],
+    "summary": "金羊毛を求めてコルキスに来たイアソンに、王女メディアは恋をした。メディアは結婚を条件に、火を吐く牡牛にも耐える薬を与え、番をする竜を薬で眠らせて金羊毛を手に入れさせた。のちにコリントスでイアソンに離縁されると、花嫁を毒の衣で焼き殺し、竜の車で逃れた。",
+    "sourceIds": ["apollodorus-library"],
+    "sourceLocation": "『ビブリオテーケー』1.9.23–28"
+  },
+  {
+    "id": "perseus-andromeda",
+    "title": "ペルセウスとアンドロメダ",
+    "mythologyIds": ["greek"],
+    "figureIds": ["perseus", "andromeda", "poseidon"],
+    "summary": "エチオピア王妃カッシオペイアがネレイスたちより美しいと誇ったため、ポセイドンは洪水と海の怪物を送った。神託に従い王女アンドロメダが怪物の生贄として岩に縛りつけられたが、メデューサ退治の帰りのペルセウスが怪物を倒して救い、彼女を妻とした。",
+    "sourceIds": ["apollodorus-library"],
+    "sourceLocation": "『ビブリオテーケー』2.4.3"
   }
 ]

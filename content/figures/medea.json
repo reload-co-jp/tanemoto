@@ -1,0 +1,17 @@
+{
+  "id": "medea",
+  "slug": "medea",
+  "name": "メディア",
+  "reading": "めでぃあ",
+  "originalName": "Μήδεια",
+  "romanized": "Medeia",
+  "alternativeNames": ["メーデイア"],
+  "type": "human",
+  "roles": ["魔女", "コルキスの王女"],
+  "mythologyIds": ["greek"],
+  "description": "コルキス王アイエテスの娘で、太陽神ヘリオスの孫。アポロドロスは「魔女」と呼ぶ。英雄イアソンに恋をして父を裏切り、薬の力で金羊毛の獲得を助けたが、のちにイアソンに捨てられ、復讐を果たした。",
+  "relatedFigureIds": ["jason"],
+  "relatedStoryIds": ["argonauts-medea"],
+  "articleIds": [],
+  "sourceIds": ["apollodorus-library", "hesiod-theogony"]
+}

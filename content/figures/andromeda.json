@@ -1,0 +1,17 @@
+{
+  "id": "andromeda",
+  "slug": "andromeda",
+  "name": "アンドロメダ",
+  "reading": "あんどろめだ",
+  "originalName": "Ἀνδρομέδα",
+  "romanized": "Andromeda",
+  "alternativeNames": ["アンドロメダー"],
+  "type": "human",
+  "roles": ["エチオピアの王女", "ペルセウスの妻"],
+  "mythologyIds": ["greek"],
+  "description": "エチオピア王ケペウスとカッシオペイアの娘。母の高慢によって海の怪物の生贄として岩に縛りつけられたが、メデューサを討った帰りの英雄ペルセウスに救われ、その妻となった。",
+  "relatedFigureIds": ["perseus", "poseidon"],
+  "relatedStoryIds": ["perseus-andromeda"],
+  "articleIds": [],
+  "sourceIds": ["apollodorus-library"]
+}

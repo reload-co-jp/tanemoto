@@ -1,0 +1,17 @@
+{
+  "id": "jason",
+  "slug": "jason",
+  "name": "イアソン",
+  "reading": "いあそん",
+  "originalName": "Ἰάσων",
+  "romanized": "Iason",
+  "alternativeNames": ["イアーソーン"],
+  "type": "hero",
+  "roles": ["英雄", "アルゴ船の指揮者"],
+  "mythologyIds": ["greek"],
+  "description": "アルゴ船を率いて金羊毛を求めた英雄。コルキスの王女メディアの助けで金羊毛を手に入れたが、のちにコリントスで王女と結婚してメディアを離縁し、彼女の復讐を招いた。",
+  "relatedFigureIds": ["medea"],
+  "relatedStoryIds": ["argonauts-medea"],
+  "articleIds": [],
+  "sourceIds": ["apollodorus-library"]
+}

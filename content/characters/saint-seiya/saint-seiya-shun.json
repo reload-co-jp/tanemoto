@@ -1,0 +1,115 @@
+{
+  "id": "saint-seiya-shun",
+  "slug": "saint-seiya-shun",
+  "name": "瞬",
+  "reading": "しゅん",
+  "alternativeNames": ["アンドロメダ瞬"],
+  "workId": "saint-seiya",
+  "description": {
+    "text": "アテナを守る聖闘士の一人で、アンドロメダ星座の聖衣をまとう。",
+    "claimIds": ["ss-shun-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "andromeda",
+      "label": "アンドロメダ（エチオピアの王女）",
+      "inWork": {
+        "text": "アンドロメダ（アンドロメダ星座）の聖衣をまとう聖闘士として描かれる。",
+        "claimIds": ["ss-shun-work"]
+      },
+      "inMyth": {
+        "text": "原典のアンドロメダは、エチオピア王ケペウスの娘。母カッシオペイアがネレイスたちよりも美しいと誇ったため、ポセイドンが洪水と海の怪物を送り、神託に従ってアンドロメダが怪物の生贄として岩に縛りつけられた。",
+        "claimIds": ["ss-shun-myth-cause", "ss-shun-myth-bound"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "andromeda",
+      "label": "鎖（縛められた王女）",
+      "inWork": {
+        "text": "聖衣に備わった鎖を武器として戦う。",
+        "claimIds": ["ss-shun-work-chain"]
+      },
+      "inMyth": {
+        "text": "アポロドロスは、ケペウスが娘を岩に縛りつけたと記している。訳注者フレイザーは、アンドロメダの足かせの跡が後世まで岩に示されていたという伝承を紹介している。",
+        "claimIds": ["ss-shun-myth-bound", "ss-shun-myth-fetters"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のアンドロメダは、岩に縛りつけられ、英雄ペルセウスに救われる王女である。作品では、王女を縛めていた鎖が、聖闘士が戦うための武器として描かれている。",
+      "claimIds": [
+        "ss-shun-myth-bound",
+        "ss-shun-myth-rescue",
+        "ss-shun-cmp-chain"
+      ]
+    },
+    {
+      "text": "原典でアンドロメダを救ったペルセウスは、メデューサの首を取った帰りだった。アンドロメダの物語は、メデューサやペガサスの物語と一続きになっている。",
+      "claimIds": ["ss-shun-myth-rescue"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ss-shun-work",
+      "text": "瞬はアテナを守る聖闘士の一人で、アンドロメダ星座の聖衣をまとう。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-shun-work-chain",
+      "text": "瞬は聖衣に備わった鎖を武器として戦う。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-shun-myth-cause",
+      "text": "ケペウスの妻カッシオペイアがネレイスたちと美を競って勝ると誇ったため、ポセイドンは洪水と海の怪物を送った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "ss-shun-myth-bound",
+      "text": "神託に従い、ケペウスは娘アンドロメダを怪物の生贄として岩に縛りつけた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "ss-shun-myth-fetters",
+      "text": "アンドロメダの足かせの跡がヨッパの岩に示されていたという伝承がある（ヨセフス）。",
+      "classification": "fact",
+      "sourceIds": ["frazer-apollodorus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "フレイザー注（『ビブリオテーケー』2.4.3）"
+    },
+    {
+      "id": "ss-shun-myth-rescue",
+      "text": "メデューサの首を取った帰りのペルセウスは、アンドロメダを妻とすることを条件に怪物を倒し、彼女を救った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "ss-shun-cmp-chain",
+      "text": "作品では、原典で王女を縛めていた鎖が、戦うための武器として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-saint-seiya",
+    "apollodorus-library",
+    "frazer-apollodorus"
+  ],
+  "articleIds": []
+}

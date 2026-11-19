@@ -1,0 +1,151 @@
+{
+  "id": "fate-stay-night-caster",
+  "slug": "fate-stay-night-caster",
+  "name": "キャスター",
+  "reading": "きゃすたー",
+  "alternativeNames": ["メディア"],
+  "workId": "fate-stay-night",
+  "description": {
+    "text": "魔術師（キャスター）のクラスで召喚されたサーヴァント。真名はメディア。",
+    "claimIds": ["fsn-caster-work"]
+  },
+  "nameOrigin": {
+    "text": "真名「メディア」は、ギリシャ神話のコルキスの王女で魔女のメディアに由来する。",
+    "claimIds": ["fsn-caster-work", "fsn-caster-myth-witch"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "medea",
+      "label": "メディア（コルキスの魔女）",
+      "inWork": {
+        "text": "真名はメディア。魔術を得意とするキャスターのクラスで召喚されている。",
+        "claimIds": ["fsn-caster-work"]
+      },
+      "inMyth": {
+        "text": "原典のメディアは、コルキス王アイエテスの娘で、太陽神ヘリオスの孫。アポロドロスは彼女を「魔女」と呼び、薬によって人を火や鉄から守り、竜を眠らせ、牡羊を子羊に変えてみせる力をもつ者として描いている。",
+        "claimIds": [
+          "fsn-caster-myth-family",
+          "fsn-caster-myth-witch",
+          "fsn-caster-myth-drugs"
+        ]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "medea",
+      "label": "誓いと裏切り",
+      "inWork": {
+        "text": "宝具「破戒すべき全ての符（ルールブレイカー）」は、魔術による契約や効果を打ち消す短剣として描かれる。",
+        "claimIds": ["fsn-caster-work-rulebreaker"]
+      },
+      "inMyth": {
+        "text": "原典のメディアの物語は、誓いと裏切りの連続である。メディアは結婚の誓いと引き換えに父を裏切ってイアソンに金羊毛を得させ、追ってきた父の船を足止めするために弟を殺した。のちにイアソンがコリントスの王女と結婚して彼女を離縁すると、メディアはイアソンが誓った神々に訴え、花嫁を毒の衣で焼き殺した。",
+        "claimIds": [
+          "fsn-caster-myth-oath",
+          "fsn-caster-myth-brother",
+          "fsn-caster-myth-corinth"
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のメディアは、イアソンとの「誓い」によって父を裏切り、のちにイアソンの「誓い」が破られたことで復讐に向かう。契約を打ち破る宝具という作品の設定は、誓いと裏切りに彩られたこの物語と重ねて読むことができる。",
+      "claimIds": [
+        "fsn-caster-myth-oath",
+        "fsn-caster-myth-corinth",
+        "fsn-caster-cmp-oath"
+      ]
+    },
+    {
+      "text": "原典のメディアは、薬によって守り・眠らせ・姿を変える力をもつ「魔女」として描かれる。魔術師のクラスで召喚されるという作品の設定は、この性格を反映したものと考えられる。",
+      "claimIds": ["fsn-caster-myth-drugs", "fsn-caster-cmp-witch"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsn-caster-work",
+      "text": "キャスターは魔術師のクラスで召喚されたサーヴァントで、真名はメディアである。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-caster-work-rulebreaker",
+      "text": "キャスターの宝具「破戒すべき全ての符（ルールブレイカー）」は、魔術による契約や効果を打ち消す短剣である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-caster-myth-family",
+      "text": "ヘリオスとペルセイスの子アイエテスは、オケアノスの娘イデュイアを妻とし、メディアが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』956–962行"
+    },
+    {
+      "id": "fsn-caster-myth-witch",
+      "text": "メディアはアイエテスとイデュイアの娘で、アポロドロスは彼女を「魔女」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.23"
+    },
+    {
+      "id": "fsn-caster-myth-drugs",
+      "text": "メディアは一日のあいだ火にも鉄にも傷つかなくなる薬をイアソンに与え、金羊毛を守る竜を薬で眠らせた。のちには牡羊を切り刻んで煮て子羊に変えてみせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.23, 1.9.27"
+    },
+    {
+      "id": "fsn-caster-myth-oath",
+      "text": "メディアは、自分を妻としてギリシャへ連れていくと誓うことを条件に、父に隠れてイアソンを助け、金羊毛を手に入れさせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.23"
+    },
+    {
+      "id": "fsn-caster-myth-brother",
+      "text": "父アイエテスに追われたメディアは、弟を殺して海に投げ込み、追跡を遅らせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.24"
+    },
+    {
+      "id": "fsn-caster-myth-corinth",
+      "text": "イアソンがコリントス王の娘グラウケと結婚してメディアを離縁すると、メディアはイアソンが誓った神々に訴え、毒に浸した衣を花嫁に送って焼き殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.28"
+    },
+    {
+      "id": "fsn-caster-cmp-oath",
+      "text": "契約を打ち消す宝具の設定は、誓いと裏切りに彩られたメディアの物語と重ねて読むことができる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "fsn-caster-cmp-witch",
+      "text": "魔術師のクラスという設定は、原典で薬の力をもつ魔女として描かれるメディアの性格を反映していると考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-fate-stay-night",
+    "hesiod-theogony",
+    "apollodorus-library"
+  ],
+  "articleIds": []
+}
