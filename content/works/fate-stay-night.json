@@ -1,0 +1,14 @@
+{
+  "id": "fate-stay-night",
+  "slug": "fate-stay-night",
+  "title": "Fate/stay night",
+  "reading": "ふぇいと すていないと",
+  "type": "game",
+  "mediaTypes": ["anime", "film"],
+  "author": "TYPE-MOON",
+  "period": "2004年〜（PC用ビジュアルノベルとして発売）",
+  "description": "7人の魔術師（マスター）が英霊（サーヴァント）を召喚し、願いを叶える聖杯をめぐって戦う「聖杯戦争」を描く作品。神話・伝説・歴史上の英雄がサーヴァントとして登場する。",
+  "mythologyIds": ["greek"],
+  "articleIds": [],
+  "sourceIds": ["work-fate-stay-night"]
+}

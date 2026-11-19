@@ -7,5 +7,14 @@
     "publishedPeriod": "1986〜1990年（『週刊少年ジャンプ』連載）",
     "publisher": "集英社",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-fate-stay-night",
+    "title": "Fate/stay night",
+    "author": "TYPE-MOON",
+    "type": "work",
+    "publishedPeriod": "2004年（PC用ビジュアルノベル）",
+    "publisher": "TYPE-MOON",
+    "notes": "作品内の設定について述べる際の出典。"
   }
 ]

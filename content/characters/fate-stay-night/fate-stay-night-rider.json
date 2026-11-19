@@ -1,0 +1,171 @@
+{
+  "id": "fate-stay-night-rider",
+  "slug": "fate-stay-night-rider",
+  "name": "ライダー",
+  "reading": "らいだー",
+  "alternativeNames": ["メドゥーサ"],
+  "workId": "fate-stay-night",
+  "description": {
+    "text": "騎兵（ライダー）のクラスで召喚されたサーヴァント。真名はメドゥーサ。",
+    "claimIds": ["fsn-rider-work"]
+  },
+  "nameOrigin": {
+    "text": "真名「メドゥーサ」は、ギリシャ神話のゴルゴン三姉妹の一人メデューサ（メドゥーサ）に由来する。",
+    "claimIds": ["fsn-rider-work", "fsn-rider-myth-gorgon"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "medusa",
+      "label": "メデューサ（ゴルゴン）",
+      "inWork": {
+        "text": "真名はメドゥーサ。ギリシャ神話のゴルゴンの名をもつサーヴァントとして登場する。",
+        "claimIds": ["fsn-rider-work"]
+      },
+      "inMyth": {
+        "text": "原典のメデューサは、海の老神ポルキュスとケトの娘で、ゴルゴン三姉妹の一人。姉のステンノとエウリュアレは不死だったが、メデューサだけは死すべき存在で、英雄ペルセウスに首を切られた。",
+        "claimIds": ["fsn-rider-myth-gorgon", "fsn-rider-myth-mortal"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "medusa",
+      "label": "石化の力",
+      "inWork": {
+        "text": "視線によって相手を石化させる魔眼をもつ。",
+        "claimIds": ["fsn-rider-work-eyes"]
+      },
+      "inMyth": {
+        "text": "アポロドロスは、ゴルゴンたちが「見た者を石に変えた」と記している。ペルセウスは青銅の盾に映る姿を見ることで、ゴルゴンを直接見ずにメデューサの首を切った。",
+        "claimIds": ["fsn-rider-myth-stone", "fsn-rider-myth-shield"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "pegasus",
+      "label": "ペガサス（天馬）と黄金の手綱",
+      "inWork": {
+        "text": "宝具「騎英の手綱（ベルレフォーン）」によって、天馬ペガサスを駆る。",
+        "claimIds": ["fsn-rider-work-pegasus"]
+      },
+      "inMyth": {
+        "text": "原典の天馬ペガソスは、メデューサの首が切られたときに生まれた。英雄ベレロポンは、女神アテナから夢の中で授かった黄金の手綱でペガソスを手なずけ、その背に乗ってキマイラを退治した。",
+        "claimIds": ["fsn-rider-myth-pegasus", "fsn-rider-myth-bridle"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、石化は「ゴルゴンを見た者」に起こるものとして語られる。作品では、ライダーの視線そのものが相手を石化させる力として描かれており、力の向きが原典とは逆になっている。",
+      "claimIds": ["fsn-rider-myth-stone", "fsn-rider-cmp-gaze"]
+    },
+    {
+      "text": "原典でペガソスを乗りこなしたのは英雄ベレロポンで、その手綱はアテナが授けたものだった。宝具名「ベルレフォーン」は、この英雄の名と重なる。",
+      "claimIds": ["fsn-rider-myth-bridle", "fsn-rider-cmp-bellerophon"]
+    },
+    {
+      "text": "本サイトで参照した原典では、ペガソスはメデューサの首が切られたときに生まれており、メデューサ自身がペガソスに乗る場面は描かれていない。母と子の関係にあたる天馬を駆るという設定は、作品独自の組み合わせといえる。",
+      "claimIds": ["fsn-rider-myth-pegasus", "fsn-rider-cmp-mother"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsn-rider-work",
+      "text": "ライダーは騎兵のクラスで召喚されたサーヴァントで、真名はメドゥーサである。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-rider-work-eyes",
+      "text": "ライダーは視線によって相手を石化させる魔眼をもつ。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-rider-work-pegasus",
+      "text": "ライダーは宝具「騎英の手綱（ベルレフォーン）」によって天馬ペガサスを駆る。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-rider-myth-gorgon",
+      "text": "メデューサはポルキュスとケトの娘で、ステンノ・エウリュアレとともにゴルゴン三姉妹をなす。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』270–276行"
+    },
+    {
+      "id": "fsn-rider-myth-mortal",
+      "text": "三姉妹のうちメデューサだけが死すべき存在で、ペルセウスに首を切られた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony", "apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』276–281行／『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fsn-rider-myth-stone",
+      "text": "ゴルゴンたちは、見た者を石に変えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fsn-rider-myth-shield",
+      "text": "ペルセウスは青銅の盾に映るゴルゴンの姿を見ながら、目をそらしてメデューサの首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fsn-rider-myth-pegasus",
+      "text": "ペルセウスがメデューサの首を切ると、ペガソスとクリュサオルが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』280–281行"
+    },
+    {
+      "id": "fsn-rider-myth-bridle",
+      "text": "ベレロポンはアテナが夢の中で授けた黄金の手綱でペガソスを捕らえ、その背に乗ってキマイラを倒した。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 63–90行"
+    },
+    {
+      "id": "fsn-rider-cmp-gaze",
+      "text": "原典では石化は「見た者」に起こるが、作品ではライダーの視線が相手を石化させる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-rider-cmp-bellerophon",
+      "text": "宝具名「ベルレフォーン」は、原典でペガソスを手なずけた英雄ベレロポンの名と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-rider-cmp-mother",
+      "text": "メデューサ自身がペガソスに乗るという組み合わせは、参照した原典には見られず、作品独自のものといえる。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony", "apollodorus-library"],
+      "verificationStatus": "verified",
+      "note": "『神統記』270–286行、『ビブリオテーケー』2.4.2–3 を確認したうえでの指摘。"
+    }
+  ],
+  "sourceIds": [
+    "work-fate-stay-night",
+    "hesiod-theogony",
+    "apollodorus-library",
+    "pindar-odes"
+  ],
+  "articleIds": []
+}

@@ -1,0 +1,159 @@
+{
+  "id": "fate-stay-night-berserker",
+  "slug": "fate-stay-night-berserker",
+  "name": "バーサーカー",
+  "reading": "ばーさーかー",
+  "alternativeNames": ["ヘラクレス"],
+  "workId": "fate-stay-night",
+  "description": {
+    "text": "狂戦士（バーサーカー）のクラスで召喚されたサーヴァント。真名はヘラクレス。",
+    "claimIds": ["fsn-berserker-work"]
+  },
+  "nameOrigin": {
+    "text": "真名「ヘラクレス」は、ギリシャ神話を代表する英雄ヘラクレスに由来する。",
+    "claimIds": ["fsn-berserker-work", "fsn-berserker-myth-parents"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "heracles",
+      "label": "ヘラクレス（英雄）",
+      "inWork": {
+        "text": "真名はヘラクレス。ギリシャ神話の英雄がサーヴァントとして召喚されている。",
+        "claimIds": ["fsn-berserker-work"]
+      },
+      "inMyth": {
+        "text": "原典のヘラクレスは、ゼウスと人間の女性アルクメネの子。数々の難業を果たした、ギリシャ神話を代表する英雄である。",
+        "claimIds": ["fsn-berserker-myth-parents"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "heracles",
+      "label": "十二の功業",
+      "inWork": {
+        "text": "宝具「十二の試練（ゴッド・ハンド）」によって、命を落としても何度も蘇生する。",
+        "claimIds": ["fsn-berserker-work-godhand"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、デルポイの巫女はヘラクレスに、エウリュステウスに十二年仕えて十の難業を果たせば不死となると告げた。のちにエウリュステウスがヒュドラ退治とアウゲイアスの牛舎の二つを功業と認めなかったため、難業は十二となった。『神統記』は、苦難を終えたヘラクレスが不死の神々のもとで、老いることなく暮らしていると語る。",
+        "claimIds": [
+          "fsn-berserker-myth-pythia",
+          "fsn-berserker-myth-twelve",
+          "fsn-berserker-myth-immortal"
+        ]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "heracles",
+      "label": "ヘラがもたらした狂気",
+      "inWork": {
+        "text": "狂戦士のクラスで召喚され、理性を失った状態で戦う。",
+        "claimIds": ["fsn-berserker-work-madness"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘラクレスはヘラの嫉妬によって狂気に陥り、自分の子どもたちを火に投げ込んでしまった。この罪を償うためにデルポイで神託を受け、難業に挑むことになる。",
+        "claimIds": ["fsn-berserker-myth-madness"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、難業を果たすことが「不死を得る」条件として語られる。作品では、功業の数が「何度も蘇生する力」と結びつけられており、不死の約束が能力として表現されている。",
+      "claimIds": [
+        "fsn-berserker-myth-pythia",
+        "fsn-berserker-myth-twelve",
+        "fsn-berserker-cmp-godhand"
+      ]
+    },
+    {
+      "text": "原典のヘラクレスの難業は、ヘラがもたらした狂気による罪の償いから始まる。作品の狂戦士というクラスは、この狂気の挿話と重ねて読むことができる。",
+      "claimIds": ["fsn-berserker-myth-madness", "fsn-berserker-cmp-madness"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsn-berserker-work",
+      "text": "バーサーカーは狂戦士のクラスで召喚されたサーヴァントで、真名はヘラクレスである。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-berserker-work-godhand",
+      "text": "バーサーカーは宝具「十二の試練（ゴッド・ハンド）」によって、命を落としても何度も蘇生する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-berserker-work-madness",
+      "text": "バーサーカーは狂戦士のクラスで召喚され、理性を失った状態で戦う。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-berserker-myth-parents",
+      "text": "アルクメネはゼウスと交わり、強きヘラクレスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』943–944行"
+    },
+    {
+      "id": "fsn-berserker-myth-pythia",
+      "text": "デルポイの巫女は、エウリュステウスに十二年仕えて十の難業を果たせば不死となるとヘラクレスに告げた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "fsn-berserker-myth-twelve",
+      "text": "エウリュステウスはアウゲイアスの牛舎とヒュドラの二つの功業を認めず、さらに難業を課した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.11"
+    },
+    {
+      "id": "fsn-berserker-myth-immortal",
+      "text": "苦難を終えたヘラクレスは、オリュンポスでヘベを妻とし、不死の神々のもとで老いることなく暮らしている。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』950–955行"
+    },
+    {
+      "id": "fsn-berserker-myth-madness",
+      "text": "ヘラクレスはヘラの嫉妬によって狂気に陥り、自分の子どもたちを火に投げ込んだ。その後デルポイで神託を受けた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "fsn-berserker-cmp-godhand",
+      "text": "作品では功業の数が蘇生の力と結びつけられ、原典の「不死の約束」が能力として表現されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-berserker-cmp-madness",
+      "text": "作品の狂戦士のクラスは、原典のヘラによる狂気の挿話と重ねて読むことができる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者が意図したかは確認できないため、共通点の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": [
+    "work-fate-stay-night",
+    "hesiod-theogony",
+    "apollodorus-library"
+  ],
+  "articleIds": []
+}
