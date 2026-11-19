@@ -1,0 +1,150 @@
+{
+  "id": "record-of-ragnarok-hermes",
+  "slug": "record-of-ragnarok-hermes",
+  "name": "ヘルメス",
+  "reading": "へるめす",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "オリュンポス12神の一柱で、伝令神。燕尾服を着た美青年の姿で、父ゼウスの執事として仕えている。",
+    "claimIds": ["ror-hermes-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の神々の使者ヘルメスそのもの。",
+    "claimIds": ["ror-hermes-work", "ror-hermes-myth-herald"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hermes",
+      "label": "ゼウスの伝令",
+      "inWork": {
+        "text": "伝令神で、父ゼウスの執事として仕えている。",
+        "claimIds": ["ror-hermes-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘルメスはゼウスとマイアの子で、ゼウスは彼を自分と冥界の神々の伝令に任じた。",
+        "claimIds": ["ror-hermes-myth-birth", "ror-hermes-myth-herald"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "hermes",
+      "label": "いたずら者",
+      "inWork": {
+        "text": "「狡猾な曲者」とされ、叔父アダマスの反逆にも加担していた。",
+        "claimIds": ["ror-hermes-work-trick"]
+      },
+      "inMyth": {
+        "text": "生まれたばかりのヘルメスは、揺りかごを抜け出してアポロンの牛を盗み、足跡が残らないよう牛に履物をはかせて隠した。問い詰められても、盗んでいないと言い張った。",
+        "claimIds": ["ror-hermes-myth-cattle"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "hermes",
+      "label": "竪琴の発明",
+      "inWork": {
+        "text": "ゼウスが戦いに臨む際には、バイオリンを演奏する。",
+        "claimIds": ["ror-hermes-work-violin"]
+      },
+      "inMyth": {
+        "text": "ヘルメスは亀の甲羅に牛の腸の弦を張って竪琴（リュラ）を作り、撥（ばち）も発明した。その音色を聞いたアポロンは、盗まれた牛と引き換えに竪琴を求めた。",
+        "claimIds": ["ror-hermes-myth-lyre"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヘルメスは、竪琴を発明した楽器の神でもある。作品でゼウスの戦いのたびにバイオリンを奏でる姿は、この挿話と重ねて読むことができる。",
+      "claimIds": [
+        "ror-hermes-myth-lyre",
+        "ror-hermes-work-violin",
+        "ror-hermes-cmp-music"
+      ]
+    },
+    {
+      "text": "原典では神々の「伝令」であるヘルメスが、作品ではゼウスの「執事」として描かれている。主神に仕える役どころという点は共通している。",
+      "claimIds": [
+        "ror-hermes-myth-herald",
+        "ror-hermes-work",
+        "ror-hermes-cmp-servant"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-hermes-work",
+      "text": "ヘルメスはオリュンポス12神の一柱で、伝令神。燕尾服を着た美青年の姿で、父ゼウスの執事として仕えている。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-hermes-work-trick",
+      "text": "ヘルメスは「狡猾な曲者」とされ、叔父アダマスの反逆に加担していた。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-hermes-work-violin",
+      "text": "ヘルメスはゼウスが戦いに臨む際、バイオリンを演奏する。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-hermes-myth-birth",
+      "text": "マイアはゼウスと交わり、キュレネの洞窟でヘルメスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "ror-hermes-myth-herald",
+      "text": "ゼウスはヘルメスを、自分と冥界の神々の伝令に任じた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "ror-hermes-myth-cattle",
+      "text": "ヘルメスは揺りかごを抜け出してアポロンの牛を盗み、足跡が残らないよう履物をはかせた。ゼウスの前でも牛を持っていないと否定した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "ror-hermes-myth-lyre",
+      "text": "ヘルメスは亀の甲羅に牛の腸の弦を張って竪琴を作り、撥も発明した。アポロンは竪琴の音を聞き、牛と引き換えにそれを得た。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "ror-hermes-cmp-music",
+      "text": "バイオリンを奏でる姿は、竪琴を発明した原典のヘルメスと重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    },
+    {
+      "id": "ror-hermes-cmp-servant",
+      "text": "主神ゼウスに仕える役どころは、原典と作品に共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "apollodorus-library"],
+  "articleIds": []
+}

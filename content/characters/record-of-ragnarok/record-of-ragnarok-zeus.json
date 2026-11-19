@@ -1,0 +1,132 @@
+{
+  "id": "record-of-ragnarok-zeus",
+  "slug": "record-of-ragnarok-zeus",
+  "name": "ゼウス",
+  "reading": "ぜうす",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "ラグナロクに神側の闘士として出場するギリシャ神話の最高神。「全宇宙の父（ゴッドファーザー・オブ・コスモス）」と呼ばれる。",
+    "claimIds": ["ror-zeus-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の最高神ゼウスそのもの。",
+    "claimIds": ["ror-zeus-work", "ror-zeus-myth-kids"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "zeus",
+      "label": "ゼウス（神々の王）",
+      "inWork": {
+        "text": "ギリシャ神話の最高神で、「全宇宙の父」と呼ばれる。第2回戦で「全人類の父」アダムと戦い、勝利した。",
+        "claimIds": ["ror-zeus-work", "ror-zeus-work-round"]
+      },
+      "inMyth": {
+        "text": "原典のゼウスはクロノスとレアの末子。ヘシオドスは彼を「神々と人間の父」と呼ぶ。ティタンとの戦いに勝ったのち、兄弟とのくじ引きで天空の支配を得た。",
+        "claimIds": ["ror-zeus-myth-kids", "ror-zeus-myth-lot"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "zeus",
+      "label": "雷霆（らいてい）",
+      "inWork": {
+        "text": "武器を持たず、自らの肉体で戦う。最終形態は「阿陀磨須（アダマス）」と呼ばれる。",
+        "claimIds": ["ror-zeus-work-fist"]
+      },
+      "inMyth": {
+        "text": "原典のゼウスの武器は雷霆。アポロドロスによれば、ティタンとの戦いに際して、キュクロプスたちが雷鳴と稲妻と雷霆をゼウスに与えた。",
+        "claimIds": ["ror-zeus-myth-cyclopes"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品の「全宇宙の父」という呼び名は、ヘシオドスが用いる「神々と人間の父」という呼び方と重なる。作品では、その「父」が「全人類の父」アダムと戦う構図になっている。",
+      "claimIds": [
+        "ror-zeus-myth-kids",
+        "ror-zeus-work-round",
+        "ror-zeus-cmp-father"
+      ]
+    },
+    {
+      "text": "原典のゼウスを象徴する武器は雷霆だが、作品のゼウスは武器を持たず、肉体だけで戦う闘士として描かれている。",
+      "claimIds": [
+        "ror-zeus-myth-cyclopes",
+        "ror-zeus-work-fist",
+        "ror-zeus-cmp-weapon"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-zeus-work",
+      "text": "ゼウスはラグナロクに神側の闘士として出場するギリシャ神話の最高神で、「全宇宙の父（ゴッドファーザー・オブ・コスモス）」と呼ばれる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-zeus-work-round",
+      "text": "ゼウスは第2回戦で「全人類の父」アダムと戦い、勝利した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-zeus-work-fist",
+      "text": "ゼウスは武器を持たず肉体で戦い、最終形態は「阿陀磨須（アダマス）」と呼ばれる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-zeus-myth-kids",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。ヘシオドスはゼウスを「神々と人間の父」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "ror-zeus-myth-lot",
+      "text": "ティタンに勝ったのち、神々はくじを引き、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界の支配を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "ror-zeus-myth-cyclopes",
+      "text": "ティタンとの戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を、プルトン（ハデス）に兜を、ポセイドンに三叉の矛を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "ror-zeus-cmp-father",
+      "text": "「全宇宙の父」という呼び名は、原典の「神々と人間の父」という呼び方と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-zeus-cmp-weapon",
+      "text": "原典のゼウスの武器は雷霆だが、作品では武器を持たずに戦う。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-record-of-ragnarok",
+    "hesiod-theogony",
+    "apollodorus-library"
+  ],
+  "articleIds": []
+}

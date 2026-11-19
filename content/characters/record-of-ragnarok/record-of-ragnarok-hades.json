@@ -1,0 +1,132 @@
+{
+  "id": "record-of-ragnarok-hades",
+  "slug": "record-of-ragnarok-hades",
+  "name": "ハデス",
+  "reading": "はです",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "ラグナロクに神側の闘士として出場する「冥界の王」。ゼウス、ポセイドン、アダマスらギリシャ四兄弟の長兄とされる。",
+    "claimIds": ["ror-hades-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の冥界の王ハデスそのもの。",
+    "claimIds": ["ror-hades-work", "ror-hades-myth-lot"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "hades",
+      "label": "ハデス（冥界の王）",
+      "inWork": {
+        "text": "「冥界の王」で、ギリシャの兄弟たちの長兄。第7回戦で始皇帝と戦い、敗れた。",
+        "claimIds": ["ror-hades-work", "ror-hades-work-round"]
+      },
+      "inMyth": {
+        "text": "原典のハデスはクロノスとレアの子。ヘシオドスは、ポセイドンやゼウスより先に生まれた子として挙げる。兄弟とのくじ引きで冥界の支配を割り当てられた。",
+        "claimIds": ["ror-hades-myth-kids", "ror-hades-myth-lot"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "hades",
+      "label": "キュクロプスの兜",
+      "inWork": {
+        "text": "神器は二叉の槍バイデント。",
+        "claimIds": ["ror-hades-work-bident"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ティタンとの戦いに際してキュクロプスたちがゼウスに雷霆、ポセイドンに三叉の矛を与えたとき、プルトン（ハデス）に与えたのは兜だった。",
+        "claimIds": ["ror-hades-myth-cyclopes"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ハデスを兄弟の長兄とする作品の設定は、ヘシオドスがハデスをポセイドンとゼウスより先に挙げていることと合う。一方、兄弟の一人「アダマス」は原典の神々の系譜には見られない、作品独自の存在である。",
+      "claimIds": [
+        "ror-hades-myth-kids",
+        "ror-hades-work",
+        "ror-hades-cmp-brothers"
+      ]
+    },
+    {
+      "text": "原典でハデスがキュクロプスから授かったのは武器ではなく兜である。作品では、三叉の矛をもつポセイドンと並ぶように、二叉の槍を神器としている。",
+      "claimIds": [
+        "ror-hades-myth-cyclopes",
+        "ror-hades-work-bident",
+        "ror-hades-cmp-weapon"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-hades-work",
+      "text": "ハデスはラグナロクに神側の闘士として出場する「冥界の王」で、ゼウス、ポセイドン、アダマスらギリシャ四兄弟の長兄とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-hades-work-round",
+      "text": "ハデスは第7回戦で始皇帝と戦い、敗れた。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-hades-work-bident",
+      "text": "ハデスの神器は二叉の槍バイデントである。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-hades-myth-kids",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。ヘシオドスはゼウスを「神々と人間の父」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "ror-hades-myth-lot",
+      "text": "ティタンに勝ったのち、神々はくじを引き、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界の支配を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "ror-hades-myth-cyclopes",
+      "text": "ティタンとの戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を、プルトン（ハデス）に兜を、ポセイドンに三叉の矛を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "ror-hades-cmp-brothers",
+      "text": "兄弟の一人「アダマス」は、ヘシオドスが挙げるクロノスとレアの子には含まれない。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-hades-cmp-weapon",
+      "text": "原典でハデスが授かったのは兜であり、二叉の槍は作品の設定である。",
+      "classification": "editorial",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-record-of-ragnarok",
+    "hesiod-theogony",
+    "apollodorus-library"
+  ],
+  "articleIds": []
+}

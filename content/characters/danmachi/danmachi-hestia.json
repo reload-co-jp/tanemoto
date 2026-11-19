@@ -1,0 +1,125 @@
+{
+  "id": "danmachi-hestia",
+  "slug": "danmachi-hestia",
+  "name": "ヘスティア",
+  "reading": "へすてぃあ",
+  "alternativeNames": [],
+  "workId": "danmachi",
+  "description": {
+    "text": "主人公ベル・クラネルが所属するヘスティア・ファミリアの主神。物語開始時、ファミリアの眷族はベル一人だけだった。",
+    "claimIds": ["dm-hestia-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の炉（かまど）の女神ヘスティアに由来する。",
+    "claimIds": ["dm-hestia-work-hearth", "dm-hestia-myth-kids"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "hestia",
+      "label": "ヘスティア（炉の女神）",
+      "inWork": {
+        "text": "ヘスティア・ファミリアの主神。炉の神であるなどの設定は、実際の神話を踏まえたものとされる。",
+        "claimIds": ["dm-hestia-work", "dm-hestia-work-hearth"]
+      },
+      "inMyth": {
+        "text": "原典のヘスティアはクロノスとレアの子。『アプロディテ讃歌』によれば、ゼウスは彼女に結婚の代わりに「家の中心」の座を与え、ヘスティアはあらゆる神殿で誉れを受ける、人間にとって最も尊い女神となった。",
+        "claimIds": ["dm-hestia-myth-kids", "dm-hestia-myth-hearth"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "hestia",
+      "label": "求婚を拒んだ処女神",
+      "inWork": {
+        "text": "眷族のベルの願いをかなえようと、神友のヘファイストスに強引に頼み込んで「神（ヘスティア）のナイフ」を作らせる。",
+        "claimIds": ["dm-hestia-work-knife"]
+      },
+      "inMyth": {
+        "text": "ヘスティアは、アプロディテの力が及ばない三柱の女神の一人。ポセイドンとアポロンに求婚されたが拒み、ゼウスの頭に手を触れて、生涯処女でいるという大いなる誓いを立てた。",
+        "claimIds": ["dm-hestia-myth-virgin"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヘスティアは「家の中心」に座を与えられた女神である。作品では、ファミリア（眷族）の主神として、ただ一人の眷族ベルを支える存在として描かれており、家の中心に据えられた炉の女神という性格と重ねて読むことができる。",
+      "claimIds": [
+        "dm-hestia-myth-hearth",
+        "dm-hestia-work",
+        "dm-hestia-cmp-home"
+      ]
+    },
+    {
+      "text": "原典ではポセイドンとアポロンの求婚を拒んで処女を誓った女神だが、作品ではベルに強い好意を寄せる女神として描かれる。",
+      "claimIds": ["dm-hestia-myth-virgin", "dm-hestia-cmp-love"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dm-hestia-work",
+      "text": "ヘスティアは主人公ベル・クラネルが所属するヘスティア・ファミリアの主神で、物語開始時、ベルはファミリアに所属する唯一の眷族だった。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hestia-work-hearth",
+      "text": "作品では、ヘスティアが炉の神であるなどの設定が実際の神話を踏襲している。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hestia-work-knife",
+      "text": "ヘスティアはベルの願いをかなえるため、神友の女神ヘファイストスに強引に頼み込んで「神（ヘスティア）のナイフ」を作製してもらう。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hestia-myth-kids",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "dm-hestia-myth-hearth",
+      "text": "ゼウスは結婚の代わりにヘスティアに高い誉れを与え、彼女は家の中心に座を占めた。あらゆる神殿で誉れを受け、人間のあいだで女神たちの筆頭とされる。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』29–32行"
+    },
+    {
+      "id": "dm-hestia-myth-virgin",
+      "text": "ヘスティアはポセイドンとアポロンに求婚されたが拒み、ゼウスの頭に手を触れて生涯処女でいると誓った。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』21–28行"
+    },
+    {
+      "id": "dm-hestia-cmp-home",
+      "text": "眷族を支える主神という作品の描き方は、家の中心に座を与えられた炉の女神という原典の性格と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    },
+    {
+      "id": "dm-hestia-cmp-love",
+      "text": "原典では求婚を拒んだ処女神だが、作品ではベルに好意を寄せる女神として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-danmachi", "hesiod-theogony", "homeric-hymn-aphrodite"],
+  "articleIds": []
+}

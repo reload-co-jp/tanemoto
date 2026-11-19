@@ -1,0 +1,14 @@
+{
+  "id": "danmachi",
+  "slug": "danmachi",
+  "title": "ダンジョンに出会いを求めるのは間違っているだろうか",
+  "reading": "だんじょんにであいをもとめるのはまちがっているだろうか",
+  "type": "novel",
+  "mediaTypes": ["manga", "anime"],
+  "author": "大森藤ノ",
+  "period": "2013年〜（GA文庫）",
+  "description": "天界から下界に降りた神々と、神の恩恵を受けた眷族（ファミリア）が暮らす迷宮都市オラリオを舞台にしたライトノベル。略称「ダンまち」。2015年にアニメ化。ギリシャ神話や北欧神話などの神の名をもつ神々が登場する。",
+  "mythologyIds": ["greek"],
+  "articleIds": [],
+  "sourceIds": ["work-danmachi"]
+}

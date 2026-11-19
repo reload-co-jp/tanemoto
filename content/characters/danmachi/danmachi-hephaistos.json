@@ -1,0 +1,117 @@
+{
+  "id": "danmachi-hephaistos",
+  "slug": "danmachi-hephaistos",
+  "name": "ヘファイストス",
+  "reading": "へふぁいすとす",
+  "alternativeNames": [],
+  "workId": "danmachi",
+  "description": {
+    "text": "ヘファイストス・ファミリアを率いる女神で、ヘスティアの神友。",
+    "claimIds": ["dm-hephaistos-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の鍛冶の神ヘパイストス（ヘファイストス）に由来する。",
+    "claimIds": ["dm-hephaistos-work", "dm-hephaistos-myth-forge"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "hephaestus",
+      "label": "ヘパイストス（鍛冶の神）",
+      "inWork": {
+        "text": "ヘファイストス・ファミリアを率いる女神。ファミリアの店では防具が売られている。",
+        "claimIds": ["dm-hephaistos-work"]
+      },
+      "inMyth": {
+        "text": "原典のヘパイストスは鍛冶と工芸の神。『イリアス』では、青銅でできた自らの館で、炉に向けた二十の鞴（ふいご）を使い、金床と槌でアキレウスの盾を鍛えている。",
+        "claimIds": ["dm-hephaistos-myth-house", "dm-hephaistos-myth-forge"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "hephaestus",
+      "label": "神々と英雄の武具づくり",
+      "inWork": {
+        "text": "ヘスティアに強引に頼み込まれ、「神（ヘスティア）のナイフ」を作製した。",
+        "claimIds": ["dm-hephaistos-work-knife"]
+      },
+      "inMyth": {
+        "text": "ヘパイストスは、母テティスの願いを受けてアキレウスの武具を作った。アポロドロスによれば、ヘラクレスにも黄金の胸当てを与えている。",
+        "claimIds": ["dm-hephaistos-myth-forge", "dm-hephaistos-myth-heracles"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヘパイストスは男神で、『イリアス』では「足の曲がった神」と呼ばれる。作品では、ファミリアを率いる女神として描かれている。",
+      "claimIds": ["dm-hephaistos-myth-house", "dm-hephaistos-cmp-gender"]
+    },
+    {
+      "text": "原典でヘパイストスは、女神テティスの願いにこたえて英雄アキレウスの武具を作った。作品で女神ヘスティアの頼みを受け、眷族ベルのためにナイフを作る構図は、この挿話と重なる。",
+      "claimIds": [
+        "dm-hephaistos-myth-forge",
+        "dm-hephaistos-work-knife",
+        "dm-hephaistos-cmp-request"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dm-hephaistos-work",
+      "text": "ヘファイストスはヘファイストス・ファミリアを率いる女神で、ヘスティアの神友。ファミリアの店では防具が売られている。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hephaistos-work-knife",
+      "text": "ヘファイストスはヘスティアに強引に頼み込まれ、「神（ヘスティア）のナイフ」を作製した。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hephaistos-myth-house",
+      "text": "テティスは、足の曲がった神ヘパイストスが自ら建てた、青銅でできた不滅の館を訪れた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』18.369–371"
+    },
+    {
+      "id": "dm-hephaistos-myth-forge",
+      "text": "ヘパイストスはテティスの願いを受け、二十の鞴を炉に向けて働かせ、金床と槌を用いてアキレウスの盾を作った。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』18.468–482"
+    },
+    {
+      "id": "dm-hephaistos-myth-heracles",
+      "text": "ヘラクレスはヘパイストスから黄金の胸当てを授かった。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.11"
+    },
+    {
+      "id": "dm-hephaistos-cmp-gender",
+      "text": "原典のヘパイストスは男神だが、作品では女神として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "dm-hephaistos-cmp-request",
+      "text": "女神の頼みを受けて英雄のための武具を作る構図は、原典のアキレウスの武具の挿話と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-danmachi", "homer-iliad", "apollodorus-library"],
+  "articleIds": []
+}

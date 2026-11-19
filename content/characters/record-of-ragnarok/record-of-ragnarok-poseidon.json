@@ -1,0 +1,131 @@
+{
+  "id": "record-of-ragnarok-poseidon",
+  "slug": "record-of-ragnarok-poseidon",
+  "name": "ポセイドン",
+  "reading": "ぽせいどん",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "ラグナロクに神側の闘士として出場する海の神。「大海の暴君」「海のゼウス（ゼウス・エナリオス）」と呼ばれる、ゼウスの兄の一人。",
+    "claimIds": ["ror-poseidon-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の海の神ポセイドンそのもの。",
+    "claimIds": ["ror-poseidon-work", "ror-poseidon-myth-lot"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "poseidon",
+      "label": "ポセイドン（海の神）",
+      "inWork": {
+        "text": "「大海の暴君」と呼ばれる海の神で、ゼウスの兄の一人とされる。第3回戦で佐々木小次郎と戦い、敗れた。",
+        "claimIds": ["ror-poseidon-work", "ror-poseidon-work-round"]
+      },
+      "inMyth": {
+        "text": "原典のポセイドンはクロノスとレアの子で、ヘシオドスはゼウスより先に生まれた兄として挙げる。兄弟とのくじ引きで、海の支配を割り当てられた。",
+        "claimIds": ["ror-poseidon-myth-kids", "ror-poseidon-myth-lot"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "poseidon",
+      "label": "三叉の矛（トライデント）",
+      "inWork": {
+        "text": "神器トライデントを武器とする。",
+        "claimIds": ["ror-poseidon-work-trident"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、三叉の矛はティタンとの戦いに際してキュクロプスたちがポセイドンに与えたもの。『イリアス』でも、ポセイドンは三叉の矛を手に、アカイア勢の防壁を波で押し流している。",
+        "claimIds": ["ror-poseidon-myth-cyclopes", "ror-poseidon-myth-trident"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "三叉の矛を武器とし、ゼウスの兄とされる点は、原典の設定をそのまま踏まえている。",
+      "claimIds": [
+        "ror-poseidon-myth-kids",
+        "ror-poseidon-myth-cyclopes",
+        "ror-poseidon-work-trident"
+      ]
+    },
+    {
+      "text": "原典のポセイドンは、兄弟とのくじ引きで海を得た神で、神々の王はゼウスである。作品の「海のゼウス」という呼び名は、海におけるゼウスのような王という意味合いで、この関係を映したものと読める。",
+      "claimIds": ["ror-poseidon-myth-lot", "ror-poseidon-cmp-zeus"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-poseidon-work",
+      "text": "ポセイドンはラグナロクに神側の闘士として出場する海の神で、「大海の暴君」「海のゼウス（ゼウス・エナリオス）」と呼ばれる。ゼウスの兄の一人とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-poseidon-work-round",
+      "text": "ポセイドンは第3回戦で佐々木小次郎と戦い、敗れた。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-poseidon-work-trident",
+      "text": "ポセイドンは神器トライデントを武器とする。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-poseidon-myth-kids",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。ヘシオドスはゼウスを「神々と人間の父」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "ror-poseidon-myth-lot",
+      "text": "ティタンに勝ったのち、神々はくじを引き、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界の支配を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "ror-poseidon-myth-cyclopes",
+      "text": "ティタンとの戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を、プルトン（ハデス）に兜を、ポセイドンに三叉の矛を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "ror-poseidon-myth-trident",
+      "text": "トロイア戦争ののち、ポセイドンは三叉の矛を手に先頭に立ち、アカイア勢の防壁の土台を波に押し流した。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』12.27–28"
+    },
+    {
+      "id": "ror-poseidon-cmp-zeus",
+      "text": "「海のゼウス」という呼び名は、海の支配者としてのポセイドンとゼウスとの関係を映したものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    }
+  ],
+  "sourceIds": [
+    "work-record-of-ragnarok",
+    "hesiod-theogony",
+    "apollodorus-library",
+    "homer-iliad"
+  ],
+  "articleIds": []
+}

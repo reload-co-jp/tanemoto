@@ -1,0 +1,17 @@
+{
+  "id": "hephaestus",
+  "slug": "hephaestus",
+  "name": "ヘパイストス",
+  "reading": "へぱいすとす",
+  "originalName": "Ἥφαιστος",
+  "romanized": "Hephaestus",
+  "alternativeNames": ["ヘファイストス", "ヘーパイストス"],
+  "type": "god",
+  "roles": ["鍛冶", "工芸", "火"],
+  "mythologyIds": ["greek"],
+  "description": "鍛冶と工芸の神。『イリアス』では足の不自由な神として描かれ、青銅の館の炉と鞴（ふいご）でアキレウスの盾と武具を作った。ヘラクレスには黄金の胸当てを与えている。",
+  "relatedFigureIds": ["zeus", "heracles", "athena"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["homer-iliad", "apollodorus-library"]
+}

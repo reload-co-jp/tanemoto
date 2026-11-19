@@ -1,0 +1,139 @@
+{
+  "id": "danmachi-hermes",
+  "slug": "danmachi-hermes",
+  "name": "ヘルメス",
+  "reading": "へるめす",
+  "alternativeNames": [],
+  "workId": "danmachi",
+  "description": {
+    "text": "ヘルメス・ファミリアを率いる男神。団長はアスフィ・アル・アンドロメダ。",
+    "claimIds": ["dm-hermes-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の神々の使者ヘルメスに由来する。",
+    "claimIds": ["dm-hermes-work", "dm-hermes-myth-herald"]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "figureId": "hermes",
+      "label": "策略家",
+      "inWork": {
+        "text": "策略をめぐらせる神として描かれ、ヘルメスの策略によってヘスティアが攫われる事件も起きる。",
+        "claimIds": ["dm-hermes-work-scheme"]
+      },
+      "inMyth": {
+        "text": "生まれたばかりのヘルメスは、揺りかごを抜け出してアポロンの牛を盗み、足跡が残らないよう牛に履物をはかせて隠した。ゼウスの前でも牛を持っていないと言い張った。",
+        "claimIds": ["dm-hermes-myth-cattle"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "hermes",
+      "label": "神々の伝令",
+      "inWork": {
+        "text": "ギルドの主神ウラノスの命を受けて動く場面もある。",
+        "claimIds": ["dm-hermes-work-ouranos"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ゼウスはヘルメスを自分と冥界の神々の伝令に任じた。",
+        "claimIds": ["dm-hermes-myth-herald"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品のヘルメス・ファミリアの団長は「アンドロメダ」の名をもつ。原典でヘルメスはペルセウスに金剛の鎌を与え、メデューサ退治を助けた。ペルセウスはその帰りにアンドロメダを救い、妻としている。",
+      "claimIds": [
+        "dm-hermes-work",
+        "dm-hermes-myth-perseus",
+        "dm-hermes-myth-andromeda",
+        "dm-hermes-cmp-andromeda"
+      ]
+    },
+    {
+      "text": "原典のヘルメスは、盗みと言い逃れで知られるいたずら者でありながら、ゼウスの伝令として神々の秩序の中で働く。作品でも、策略家でありながら上位の神の命で動くという二面性が描かれている。",
+      "claimIds": [
+        "dm-hermes-myth-cattle",
+        "dm-hermes-myth-herald",
+        "dm-hermes-work-ouranos",
+        "dm-hermes-cmp-trick"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dm-hermes-work",
+      "text": "ヘルメスはヘルメス・ファミリアを率いる男神で、団長はアスフィ・アル・アンドロメダである。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hermes-work-scheme",
+      "text": "作中では、ヘルメスの策略によってヘスティアが攫われる。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hermes-work-ouranos",
+      "text": "ヘルメスはギルドの主神ウラノスの命を受けて動く場面がある。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hermes-myth-herald",
+      "text": "ゼウスはヘルメスを、自分と冥界の神々の伝令に任じた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "dm-hermes-myth-cattle",
+      "text": "ヘルメスは揺りかごを抜け出してアポロンの牛を盗み、足跡が残らないよう履物をはかせた。ゼウスの前でも牛を持っていないと否定した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "dm-hermes-myth-perseus",
+      "text": "ペルセウスはヘルメスから金剛の鎌を受け取り、メデューサの首を取った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "dm-hermes-myth-andromeda",
+      "text": "メデューサの首を取った帰りのペルセウスは、アンドロメダを妻とすることを条件に怪物を倒し、彼女を救った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "dm-hermes-cmp-andromeda",
+      "text": "団長の名「アンドロメダ」は、原典でヘルメスが助けたペルセウスの物語と結びつく名である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "dm-hermes-cmp-trick",
+      "text": "策略家でありながら上位の神の命で動く二面性は、原典のヘルメスにも見られる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-danmachi", "apollodorus-library"],
+  "articleIds": []
+}

@@ -1,0 +1,184 @@
+{
+  "id": "record-of-ragnarok-heracles",
+  "slug": "record-of-ragnarok-heracles",
+  "name": "ヘラクレス",
+  "reading": "へらくれす",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "ラグナロクに神側の闘士として出場する、ギリシャ神話の半神半人。「不屈の闘神」と呼ばれる。",
+    "claimIds": ["ror-heracles-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の英雄ヘラクレスそのもの。",
+    "claimIds": ["ror-heracles-work", "ror-heracles-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "heracles",
+      "label": "ヘラクレス（半神の英雄）",
+      "inWork": {
+        "text": "半神半人の「不屈の闘神」として神側で戦うが、人類の滅亡には反対している。第4回戦でジャック・ザ・リッパーと戦い、敗れた。",
+        "claimIds": ["ror-heracles-work", "ror-heracles-work-round"]
+      },
+      "inMyth": {
+        "text": "原典のヘラクレスは、ゼウスと人間の女性アルクメネの子。難業を果たしたのちはオリュンポスでヘベを妻とし、不死の神々のもとで暮らしているとヘシオドスは語る。",
+        "claimIds": ["ror-heracles-myth-birth", "ror-heracles-myth-deified"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "heracles",
+      "label": "棍棒",
+      "inWork": {
+        "text": "神器は獅子の頭をかたどった棍棒。",
+        "claimIds": ["ror-heracles-work-club"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘラクレスは神々から剣・弓矢・胸当て・衣を授かったが、棍棒だけはネメアで自ら切り出したものだった。",
+        "claimIds": ["ror-heracles-myth-club"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "heracles",
+      "label": "十二の難業",
+      "inWork": {
+        "text": "「十二の災禍と罪過」により体に刺青が広がっていき、全身を覆うと消滅してしまう。",
+        "claimIds": ["ror-heracles-work-labors"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘラの嫉妬で狂気に陥ったヘラクレスは自分の子どもたちを火に投げ込み、その償いとしてデルポイの神託に従い、エウリュステウスに仕えて難業を果たすことになった。難業は当初十とされ、のちに十二となった。",
+        "claimIds": [
+          "ror-heracles-myth-madness",
+          "ror-heracles-myth-labors",
+          "ror-heracles-myth-twelve"
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、難業は子殺しの罪を償うためのもので、果たせば不死となると告げられていた。作品の「十二の災禍と罪過」という名は、この「罪」と「難業」の結びつきを踏まえたものと読める。ただし原典では難業は不死への道であり、作品では消滅へ向かう代償として描かれている。",
+      "claimIds": [
+        "ror-heracles-myth-madness",
+        "ror-heracles-myth-labors",
+        "ror-heracles-work-labors",
+        "ror-heracles-cmp-labors"
+      ]
+    },
+    {
+      "text": "原典のヘラクレスは人間として生まれ、難業を経て神々の一員となった。作品で神側に立ちながら人類の滅亡に反対する姿は、人間と神の両方に属するこの出自と重ねて読むことができる。",
+      "claimIds": [
+        "ror-heracles-myth-birth",
+        "ror-heracles-myth-deified",
+        "ror-heracles-work",
+        "ror-heracles-cmp-between"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-heracles-work",
+      "text": "ヘラクレスはラグナロクに神側の闘士として出場する半神半人で、「不屈の闘神」と呼ばれる。人類の滅亡には反対している。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-heracles-work-round",
+      "text": "ヘラクレスは第4回戦でジャック・ザ・リッパーと戦い、敗れた。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-heracles-work-club",
+      "text": "ヘラクレスの神器は、獅子の頭をかたどった棍棒である。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-heracles-work-labors",
+      "text": "ヘラクレスは「十二の災禍と罪過」によって体に刺青が広がり、全身を覆うと消滅する。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-heracles-myth-birth",
+      "text": "アルクメネはゼウスと交わり、強きヘラクレスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』943–944行"
+    },
+    {
+      "id": "ror-heracles-myth-deified",
+      "text": "苦難を終えたヘラクレスは、オリュンポスでヘベを妻とし、不死の神々のもとで老いることなく暮らしている。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』950–955行"
+    },
+    {
+      "id": "ror-heracles-myth-club",
+      "text": "ヘラクレスはヘルメスから剣、アポロンから弓矢、ヘパイストスから黄金の胸当て、アテナから衣を授かったが、棍棒はネメアで自ら切り出した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.11"
+    },
+    {
+      "id": "ror-heracles-myth-madness",
+      "text": "ヘラクレスはヘラの嫉妬によって狂気に陥り、自分の子どもたちを火に投げ込んだ。その後デルポイで神託を受けた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "ror-heracles-myth-labors",
+      "text": "デルポイの巫女は、エウリュステウスに十二年仕えて十の難業を果たせば不死となるとヘラクレスに告げた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "ror-heracles-myth-twelve",
+      "text": "エウリュステウスはアウゲイアスの牛舎とヒュドラの二つの功業を認めず、さらに難業を課した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.11"
+    },
+    {
+      "id": "ror-heracles-cmp-labors",
+      "text": "「十二の災禍と罪過」という名は、原典の罪の償いとしての難業を踏まえたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    },
+    {
+      "id": "ror-heracles-cmp-between",
+      "text": "神側に立ちつつ人類の滅亡に反対する姿は、人間に生まれ神となった原典の出自と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-record-of-ragnarok",
+    "hesiod-theogony",
+    "apollodorus-library"
+  ],
+  "articleIds": []
+}

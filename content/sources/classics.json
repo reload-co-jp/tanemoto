@@ -97,5 +97,16 @@
     "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0172",
     "urlLabel": "Perseus Digital Library（H. N. Fowler 英訳）",
     "notes": "名前の正しさをめぐる対話篇。神々の名前の語源についての議論を含む。箇所はステファヌス版の頁番号で示す。"
+  },
+  {
+    "id": "homeric-hymn-aphrodite",
+    "title": "アプロディテ讃歌（ホメロス風讃歌 第5歌）",
+    "originalTitle": "Hymn to Aphrodite",
+    "author": "作者不詳",
+    "type": "primary",
+    "publishedPeriod": "紀元前7〜6世紀頃（諸説あり）",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0138:hymn=5",
+    "urlLabel": "Perseus Digital Library（H. G. Evelyn-White 英訳, 1914）",
+    "notes": "アプロディテの力が及ばない三柱の女神として、アテナ・アルテミス・ヘスティアを挙げる（21–32行）。"
   }
 ]
