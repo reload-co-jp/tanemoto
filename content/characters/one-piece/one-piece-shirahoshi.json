@@ -1,0 +1,99 @@
+{
+  "id": "one-piece-shirahoshi",
+  "slug": "one-piece-shirahoshi",
+  "name": "しらほし",
+  "reading": "しらほし",
+  "alternativeNames": ["しらほし姫", "人魚姫"],
+  "workId": "one-piece",
+  "description": {
+    "text": "リュウグウ王国の王女で、「人魚姫」と称される人魚。古代兵器「ポセイドン」の名を継ぐ存在。",
+    "claimIds": ["op-shirahoshi-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "poseidon",
+      "label": "ポセイドン（海の神）",
+      "inWork": {
+        "text": "数百年に一人生まれるという「海王類と会話ができる伝説の人魚」であり、世界を滅ぼしかねない力として古代兵器「ポセイドン」の名を継ぐ。",
+        "claimIds": ["op-shirahoshi-work-poseidon"]
+      },
+      "inMyth": {
+        "text": "原典のポセイドンはクロノスとレアの子で、兄弟の間のくじ引きで海を自分の領分として得た神。『イリアス』では、ポセイドンが戦車で波の上を駆けると、海の獣たちが主を知って四方の深みから現れ、戯れたと描かれている。",
+        "claimIds": ["op-shirahoshi-myth-lot", "op-shirahoshi-myth-beasts"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、海の獣たちがポセイドンを「自分たちの主」と知って集まってくる。作品では、海王類と会話し協力を得る力が「ポセイドン」と名づけられており、海の生き物との結びつきという点が共通する。",
+      "claimIds": [
+        "op-shirahoshi-myth-beasts",
+        "op-shirahoshi-work-noah",
+        "op-shirahoshi-cmp-beasts"
+      ]
+    },
+    {
+      "text": "原典のポセイドンは男神で、海を支配する神そのものである。作品では、その名は兵器の呼び名として、人魚の王女が受け継ぐものとされている。",
+      "claimIds": ["op-shirahoshi-myth-lot", "op-shirahoshi-cmp-name"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "op-shirahoshi-work",
+      "text": "しらほしはリュウグウ王国の王女で、「人魚姫」と称される。古代兵器「ポセイドン」の名を継ぐ存在である。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ONE PIECEの登場人物一覧」の記述で確認。"
+    },
+    {
+      "id": "op-shirahoshi-work-poseidon",
+      "text": "海王類と会話ができる人魚は数百年に一人生まれ、世界を滅ぼしかねない力として古代兵器ポセイドンの名を受け継ぐ。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ONE PIECEの登場人物一覧」「ONE PIECEの用語一覧」の記述で確認。"
+    },
+    {
+      "id": "op-shirahoshi-work-noah",
+      "text": "作中で「ポセイドン」の力が覚醒し、海王類の協力によってノアを止めた。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ONE PIECEの登場人物一覧」の記述で確認。"
+    },
+    {
+      "id": "op-shirahoshi-myth-lot",
+      "text": "ポセイドンはクロノスとレアの子で、くじ引きによって海を得た。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "op-shirahoshi-myth-beasts",
+      "text": "ポセイドンが戦車で波の上を駆けると、海の獣たちは主を知って深みから現れ、戯れた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』13.27–29"
+    },
+    {
+      "id": "op-shirahoshi-cmp-beasts",
+      "text": "海の生き物がポセイドンと結びつく点は、原典と作品に共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "op-shirahoshi-cmp-name",
+      "text": "原典では海の男神の名だが、作品では兵器の名として人魚の王女が受け継ぐ。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-one-piece", "homer-iliad"],
+  "articleIds": []
+}

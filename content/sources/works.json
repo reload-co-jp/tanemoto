@@ -16,5 +16,14 @@
     "publishedPeriod": "2004年（PC用ビジュアルノベル）",
     "publisher": "TYPE-MOON",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-one-piece",
+    "title": "ONE PIECE",
+    "author": "尾田栄一郎",
+    "type": "work",
+    "publishedPeriod": "1997年〜（『週刊少年ジャンプ』連載中）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版の関連項目（「ONE PIECEの登場人物一覧」「王下七武海」「ONE PIECEの用語一覧」）でも確認している。"
   }
 ]

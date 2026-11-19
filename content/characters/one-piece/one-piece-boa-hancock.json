@@ -1,0 +1,169 @@
+{
+  "id": "one-piece-boa-hancock",
+  "slug": "one-piece-boa-hancock",
+  "name": "ボア・ハンコック",
+  "reading": "ぼあ・はんこっく",
+  "alternativeNames": ["海賊女帝", "ハンコック"],
+  "workId": "one-piece",
+  "description": {
+    "text": "「海賊女帝」の異名をもつ九蛇海賊団の船長で、アマゾン・リリーの皇帝。「ゴルゴン三姉妹」の長女。",
+    "claimIds": ["op-boa-hancock-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "medusa",
+      "label": "ゴルゴン三姉妹",
+      "inWork": {
+        "text": "妹のサンダーソニア、マリーゴールドとともに「ゴルゴン三姉妹」と呼ばれ、ハンコックはその長女である。",
+        "claimIds": ["op-boa-hancock-work"]
+      },
+      "inMyth": {
+        "text": "原典のゴルゴンは、海の老神ポルキュスとケトの娘たち、ステンノ・エウリュアレ・メデューサの三姉妹。メデューサだけが死すべき存在で、ほかの二人は不死だった。",
+        "claimIds": [
+          "op-boa-hancock-myth-sisters",
+          "op-boa-hancock-myth-mortal"
+        ]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "medusa",
+      "label": "見た者を石に変える力",
+      "inWork": {
+        "text": "「メロメロの実」の能力者で、自分に見惚れた者を石化させることができる。",
+        "claimIds": ["op-boa-hancock-work-stone"]
+      },
+      "inMyth": {
+        "text": "アポロドロスは、ゴルゴンたちが「見た者を石に変えた」と記している。またオウィディウスは、メデューサがもともと美しさで知られ、とくに髪が美しく、多くの求婚者がいたと語っている。",
+        "claimIds": ["op-boa-hancock-myth-stone", "op-boa-hancock-myth-beauty"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "medusa",
+      "label": "「ゴルゴンの呪い」",
+      "inWork": {
+        "text": "背中の天竜人の紋章を島の全員に隠し、怪物ゴルゴンによる呪いだと偽っていた。",
+        "claimIds": ["op-boa-hancock-work-curse"]
+      },
+      "inMyth": {
+        "text": "オウィディウスによれば、メデューサの髪が蛇に変えられたのは、女神ミネルウァ（アテナ）が下した罰によるものだった。",
+        "claimIds": ["op-boa-hancock-myth-punish"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、石化は「ゴルゴンを見た者」に起こる。作品の「見惚れた者が石になる」能力は、この「見る」ことによる石化と、オウィディウスが語るメデューサの美しさという、原典の二つの要素を一つに結びつけたものと読むことができる。",
+      "claimIds": [
+        "op-boa-hancock-myth-stone",
+        "op-boa-hancock-myth-beauty",
+        "op-boa-hancock-cmp-beauty"
+      ]
+    },
+    {
+      "text": "原典のメデューサは三姉妹のなかで唯一の死すべき存在で、名前の順でも最後に挙げられる。作品では、ゴルゴン三姉妹の「長女」がハンコックとされている。",
+      "claimIds": ["op-boa-hancock-myth-sisters", "op-boa-hancock-cmp-order"]
+    },
+    {
+      "text": "作品の「ゴルゴンの呪い」は、ハンコックが過去を隠すための偽りとして語られる。原典でも、メデューサが怪物となったのは女神の罰によるものとされており、「呪い（罰）による変身」という発想は原典にも見られる。",
+      "claimIds": ["op-boa-hancock-myth-punish", "op-boa-hancock-cmp-curse"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "op-boa-hancock-work",
+      "text": "ボア・ハンコックは「海賊女帝」の異名をもつ九蛇海賊団船長で、アマゾン・リリーの皇帝。ゴルゴン三姉妹の長女である。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「王下七武海」の記述で確認。"
+    },
+    {
+      "id": "op-boa-hancock-work-stone",
+      "text": "ハンコックはメロメロの実の能力者で、自分に見惚れた者を石化させることができる。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「王下七武海」の記述で確認。"
+    },
+    {
+      "id": "op-boa-hancock-work-curse",
+      "text": "ハンコックは背中の天竜人の紋章を島の全員に隠し、怪物ゴルゴンによる呪いと偽っていた。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「王下七武海」の記述で確認。"
+    },
+    {
+      "id": "op-boa-hancock-myth-sisters",
+      "text": "ゴルゴンはポルキュスとケトの娘で、ステンノ・エウリュアレ・メデューサの三姉妹である。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』270–276行"
+    },
+    {
+      "id": "op-boa-hancock-myth-mortal",
+      "text": "三姉妹のうちメデューサだけが死すべき存在で、他の二人は不死で不老である。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』276–277行"
+    },
+    {
+      "id": "op-boa-hancock-myth-stone",
+      "text": "ゴルゴンたちは、見た者を石に変えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "op-boa-hancock-myth-beauty",
+      "text": "メデューサはもともと美しさで知られ、とくに髪が美しく、多くの求婚者がいた。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』4.791–798"
+    },
+    {
+      "id": "op-boa-hancock-myth-punish",
+      "text": "ミネルウァは、自分の神殿で起きた行為を罰するため、ゴルゴン（メデューサ）の髪を蛇に変えた。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』4.799–801"
+    },
+    {
+      "id": "op-boa-hancock-cmp-beauty",
+      "text": "「見惚れた者が石になる」能力は、原典の「見ることによる石化」とメデューサの美しさを結びつけたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    },
+    {
+      "id": "op-boa-hancock-cmp-order",
+      "text": "原典ではメデューサは三姉妹の名の最後に挙げられるが、作品ではハンコックが長女とされる。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "op-boa-hancock-cmp-curse",
+      "text": "呪い（罰）によって姿を変えられるという発想は、原典のメデューサの物語にも見られる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-one-piece",
+    "hesiod-theogony",
+    "apollodorus-library",
+    "ovid-metamorphoses"
+  ],
+  "articleIds": []
+}
