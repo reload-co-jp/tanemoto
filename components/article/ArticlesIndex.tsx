@@ -15,7 +15,9 @@ const styles = css`
     margin-bottom: 32px;
     padding: 16px;
     background: ${color.paper};
-    border: 1px solid ${color.border};
+    border: 2.5px solid ${color.ink};
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 ${color.ink};
   }
   .t-filters__label {
     font-size: 0.75rem;

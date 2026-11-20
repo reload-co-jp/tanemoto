@@ -10,13 +10,13 @@ const styles = css`
     gap: 16px;
   }
   .t-story {
-    border-left: 2px solid ${color.gold};
+    border-left: 2px solid ${color.accent};
     padding: 2px 0 2px 16px;
   }
   .t-story__title {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
     font-size: 1.02rem;
   }
   .t-story__summary {

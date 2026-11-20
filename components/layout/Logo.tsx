@@ -1,8 +1,8 @@
 import { color, font } from "@/lib/styles/theme"
 import { css, Style } from "@/lib/styles/css"
 
-/** 種子（タネ）と、そこから伸びる系譜の線をモチーフにしたシンボル */
-export const LogoMark = ({ size = 28 }: { size?: number }) => (
+/** 種子（タネ）と、そこから伸びる芽をモチーフにしたポップなシンボル */
+export const LogoMark = ({ size = 32 }: { size?: number }) => (
   <svg
     width={size}
     height={size}
@@ -13,22 +13,26 @@ export const LogoMark = ({ size = 28 }: { size?: number }) => (
     <circle
       cx="16"
       cy="16"
-      r="15"
+      r="14.5"
+      fill={color.yellow}
+      stroke={color.ink}
+      strokeWidth="2"
+    />
+    <path
+      d="M16 26 C 10.5 22.5, 10 15, 16 8.5 C 22 15, 21.5 22.5, 16 26 Z"
+      fill={color.accent}
+      stroke={color.ink}
+      strokeWidth="1.8"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M16 24 V 13 M16 19 L 13.2 16.2 M16 16 L 18.6 13.4"
+      stroke={color.ink}
+      strokeWidth="1.6"
+      strokeLinecap="round"
       fill="none"
-      stroke={color.gold}
-      strokeWidth="1.2"
     />
-    <path
-      d="M16 25 C 10 21, 9.5 13, 16 6 C 22.5 13, 22 21, 16 25 Z"
-      fill={color.gold}
-      opacity="0.9"
-    />
-    <path d="M16 25 V 10" stroke={color.navy} strokeWidth="1.2" />
-    <path
-      d="M16 18 L 12.6 14.6 M16 15 L 19.2 11.8"
-      stroke={color.navy}
-      strokeWidth="1"
-    />
+    <circle cx="11.6" cy="20" r="1" fill="#fff" />
   </svg>
 )
 
@@ -43,23 +47,32 @@ const styles = css`
   .t-logo:hover {
     color: inherit;
   }
+  .t-logo:hover svg {
+    transform: rotate(-12deg) scale(1.06);
+  }
+  .t-logo svg {
+    transition: transform 0.2s;
+  }
   .t-logo__text {
     display: flex;
     flex-direction: column;
     line-height: 1.1;
   }
   .t-logo__name {
-    font-family: ${font.serif};
-    font-weight: 700;
-    font-size: 1.35rem;
-    letter-spacing: 0.12em;
+    font-family: ${font.display};
+    font-weight: 900;
+    font-size: 1.45rem;
+    letter-spacing: 0.08em;
+    color: ${color.ink};
+    text-shadow: 2px 2px 0 ${color.accentPale};
   }
   .t-logo__en {
-    font-family: ${font.latin};
+    font-family: ${font.pop};
+    font-weight: 600;
     font-size: 0.62rem;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
-    opacity: 0.75;
+    color: ${color.accentDeep};
     margin-top: 2px;
   }
 `

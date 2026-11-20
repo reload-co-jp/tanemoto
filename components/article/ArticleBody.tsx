@@ -44,13 +44,13 @@ const styles = css`
     bottom: -1px;
     width: 3em;
     height: 2px;
-    background: ${color.gold};
+    background: ${color.accent};
   }
   .t-body h3 {
     font-size: 1.15rem;
     margin-top: 2em;
     padding-left: 0.8em;
-    border-left: 3px solid ${color.gold};
+    border-left: 3px solid ${color.accent};
   }
   .t-body h2 + *,
   .t-body h3 + * {
@@ -64,11 +64,11 @@ const styles = css`
     margin-top: 0.4em;
   }
   .t-body li::marker {
-    color: ${color.gold};
+    color: ${color.accent};
   }
   .t-body strong {
     font-weight: 700;
-    background: linear-gradient(transparent 65%, ${color.goldPale} 65%);
+    background: linear-gradient(transparent 65%, ${color.accentPale} 65%);
   }
   .t-claim-marks {
     display: inline-flex;
@@ -95,8 +95,8 @@ const styles = css`
     margin-right: 0;
     padding: 1.2em 1.4em;
     background: ${color.paper};
-    border-left: 3px solid ${color.navy};
-    font-family: ${font.serif};
+    border-left: 3px solid ${color.ink};
+    font-family: ${font.display};
   }
   .t-quote p {
     font-size: 1.02em;
@@ -108,10 +108,11 @@ const styles = css`
     color: ${color.muted};
   }
   .t-note {
-    border: 1px solid ${color.border};
+    border: 2.5px solid ${color.ink};
     background: ${color.paper};
     padding: 1.1em 1.3em;
-    border-radius: 2px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 ${color.ink};
   }
   .t-note__head {
     display: flex;
@@ -119,17 +120,18 @@ const styles = css`
     align-items: flex-start;
     gap: 6px;
     margin-bottom: 0.5em;
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
   }
   ${Object.entries(classificationColor)
-    .map(([k, c]) => `.t-note--${k}{border-left:3px solid ${c.fg};}`)
+    .map(([k, c]) => `.t-note--${k}{border-left:8px solid ${c.fg};}`)
     .join("")}
   .t-figure img {
     width: 100%;
     height: auto;
-    border-radius: 2px;
+    border: 2.5px solid ${color.ink};
+    border-radius: 14px;
   }
   .t-figure figcaption {
     font-size: 0.8rem;

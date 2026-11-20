@@ -56,13 +56,13 @@ export const generateMetadata = async ({ params }: Props) => {
 
 const styles = css`
   .t-char__lead {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-size: 1.05rem;
     line-height: 1.9;
     color: ${color.charcoal};
   }
   .t-char__lead strong {
-    color: ${color.navy};
+    color: ${color.ink};
   }
   .t-char__block {
     max-width: 40em;
@@ -72,7 +72,9 @@ const styles = css`
     margin-top: 12px;
   }
   .t-motif {
-    border: 1px solid ${color.border};
+    border: 2.5px solid ${color.ink};
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 ${color.ink};
     background: ${color.paper};
     padding: 20px;
   }
@@ -81,7 +83,7 @@ const styles = css`
   }
   .t-motif__aspect {
     font-size: 0.75rem;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     letter-spacing: 0.08em;
   }
   .t-motif__label {

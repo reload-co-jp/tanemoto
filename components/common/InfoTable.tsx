@@ -21,9 +21,9 @@ const styles = css`
     border-bottom: 1px solid ${color.border};
   }
   .t-info dt {
-    font-family: ${font.serif};
-    color: ${color.navy};
-    background: ${color.ivory};
+    font-family: ${font.display};
+    color: ${color.ink};
+    background: ${color.cream};
     font-weight: 600;
   }
 `

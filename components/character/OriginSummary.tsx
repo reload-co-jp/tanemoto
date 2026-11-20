@@ -9,8 +9,11 @@ import { bp, color, font } from "@/lib/styles/theme"
 const styles = css`
   .t-origin {
     background: ${color.paper};
-    border: 1px solid ${color.border};
-    border-top: 3px solid ${color.gold};
+    border: 2.5px solid ${color.ink};
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 ${color.ink};
+    border-top-width: 8px;
+    border-top-color: ${color.accent};
     padding: 18px 20px;
   }
   .t-origin__head {
@@ -21,18 +24,18 @@ const styles = css`
     margin-bottom: 12px;
   }
   .t-origin__eyebrow {
-    font-family: ${font.latin};
+    font-family: ${font.pop};
     font-size: 0.7rem;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     width: 100%;
   }
   .t-origin__name {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-size: 1.2rem;
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
   }
   .t-origin__name a {
     color: inherit;
@@ -59,7 +62,7 @@ const styles = css`
     line-height: 1.7;
   }
   .t-origin__rows dt {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     font-weight: 600;
     font-size: 0.82rem;
   }

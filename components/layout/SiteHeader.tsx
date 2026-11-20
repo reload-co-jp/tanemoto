@@ -15,25 +15,56 @@ const nav = [
 
 const styles = css`
   .t-header {
-    background: ${color.navy};
-    color: ${color.ivory};
-    border-bottom: 3px solid ${color.gold};
+    background: ${color.paper};
+    color: ${color.ink};
+    border-bottom: 3px solid ${color.ink};
+    position: relative;
+  }
+  .t-header::before {
+    content: "";
+    display: block;
+    height: 6px;
+    background: repeating-linear-gradient(
+      90deg,
+      ${color.accent} 0 40px,
+      ${color.yellow} 40px 80px,
+      ${color.mint} 80px 120px,
+      ${color.violet} 120px 160px
+    );
   }
   .t-header__inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     flex-wrap: wrap;
   }
   .t-header__tagline {
     display: none;
-    font-family: ${font.serif};
+    font-family: ${font.display};
+    font-weight: 700;
     font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    opacity: 0.8;
+    letter-spacing: 0.06em;
+    color: ${color.ink};
+    background: ${color.yellowPale};
+    border: 2px solid ${color.ink};
+    border-radius: 999px;
+    padding: 2px 12px;
+    position: relative;
+  }
+  .t-header__tagline::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background: ${color.yellowPale};
+    border-left: 2px solid ${color.ink};
+    border-bottom: 2px solid ${color.ink};
+    transform: translateY(-50%) rotate(45deg);
   }
   @media ${bp.md} {
     .t-header__tagline {
@@ -49,48 +80,76 @@ const styles = css`
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    color: ${color.ivory};
+    color: #fff;
+    background: ${color.ink};
     text-decoration: none;
+    font-weight: 700;
     font-size: 0.85rem;
-    border: 1px solid rgba(246, 241, 230, 0.35);
+    border: 2px solid ${color.ink};
     border-radius: 999px;
-    padding: 4px 14px;
+    padding: 5px 16px;
+    box-shadow: 3px 3px 0 ${color.accent};
+    transition:
+      transform 0.15s,
+      box-shadow 0.15s;
   }
   .t-header__search:hover {
-    color: ${color.navy};
-    background: ${color.ivory};
+    color: #fff;
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0 ${color.accent};
   }
   .t-nav {
-    border-top: 1px solid rgba(246, 241, 230, 0.15);
+    border-top: 2px dashed ${color.border};
   }
   .t-nav__list {
     display: flex;
-    gap: 4px;
+    gap: 6px;
     overflow-x: auto;
     scrollbar-width: none;
-    margin: 0 -${"8px"};
+    margin: 0 -8px;
+    padding: 8px;
   }
   .t-nav__list::-webkit-scrollbar {
     display: none;
   }
   .t-nav__link {
     display: block;
-    padding: 10px 12px;
-    color: ${color.ivory};
+    padding: 5px 14px;
+    color: ${color.ink};
     text-decoration: none;
+    font-weight: 700;
     font-size: 0.9rem;
     white-space: nowrap;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    transition:
+      background 0.15s,
+      border-color 0.15s;
+  }
+  .t-nav__item:nth-child(4n + 1) .t-nav__link:hover {
+    background: ${color.accentPale};
+  }
+  .t-nav__item:nth-child(4n + 2) .t-nav__link:hover {
+    background: ${color.yellowPale};
+  }
+  .t-nav__item:nth-child(4n + 3) .t-nav__link:hover {
+    background: ${color.mintPale};
+  }
+  .t-nav__item:nth-child(4n + 4) .t-nav__link:hover {
+    background: ${color.violetPale};
   }
   .t-nav__link:hover {
-    color: ${color.goldPale};
+    color: ${color.ink};
+    border-color: ${color.ink};
   }
   .t-nav__en {
     display: none;
-    font-family: ${font.latin};
+    font-family: ${font.pop};
     font-size: 0.65rem;
-    letter-spacing: 0.2em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    opacity: 0.6;
+    color: ${color.accentDeep};
     margin-left: 6px;
   }
   @media ${bp.md} {
@@ -116,9 +175,9 @@ export const SiteHeader = () => (
             r="5"
             fill="none"
             stroke="currentColor"
-            strokeWidth="1.6"
+            strokeWidth="2.2"
           />
-          <path d="M11 11 L15 15" stroke="currentColor" strokeWidth="1.6" />
+          <path d="M11 11 L15 15" stroke="currentColor" strokeWidth="2.2" />
         </svg>
         検索
       </Link>
@@ -127,7 +186,7 @@ export const SiteHeader = () => (
       <div className="t-container">
         <ul className="t-nav__list">
           {nav.map((item) => (
-            <li key={item.href}>
+            <li key={item.href} className="t-nav__item">
               <Link href={item.href} className="t-nav__link">
                 {item.label}
                 <span className="t-nav__en" aria-hidden="true">

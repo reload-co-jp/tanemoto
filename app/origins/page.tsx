@@ -40,21 +40,21 @@ const styles = css`
   }
   .t-rev__type {
     font-size: 0.75rem;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     letter-spacing: 0.06em;
   }
   .t-rev__name {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-size: 1.15rem;
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
   }
   .t-rev__name a {
     color: inherit;
     text-decoration: none;
   }
   .t-rev__name a:hover {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     text-decoration: underline;
   }
   .t-rev__meta {
@@ -81,9 +81,9 @@ const styles = css`
   }
   .t-rev__aspect {
     font-size: 0.72rem;
-    border: 1px solid ${color.borderStrong};
-    padding: 0 6px;
-    border-radius: 2px;
+    border: 1.5px solid ${color.ink};
+    padding: 0 8px;
+    border-radius: 999px;
     color: ${color.muted};
   }
 `

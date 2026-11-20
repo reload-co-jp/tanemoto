@@ -45,8 +45,9 @@ const styles = css`
   .t-policy {
     margin-top: 56px;
     background: ${color.paper};
-    border: 1px solid ${color.border};
-    border-top: 3px solid ${color.gold};
+    border: 2.5px solid ${color.ink};
+    border-radius: 22px;
+    box-shadow: 6px 6px 0 ${color.accent};
     padding: 28px 24px;
     display: grid;
     gap: 20px;
@@ -83,10 +84,10 @@ const styles = css`
     justify-self: start;
   }
   .t-policy__en {
-    font-family: ${font.latin};
+    font-family: ${font.pop};
     font-size: 0.72rem;
     letter-spacing: 0.25em;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     text-transform: uppercase;
   }
 `

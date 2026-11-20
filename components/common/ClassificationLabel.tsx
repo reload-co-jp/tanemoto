@@ -43,7 +43,7 @@ const styles = css`
     letter-spacing: 0.1em;
     line-height: 1;
     padding: 4px 6px 3px;
-    border-radius: 2px;
+    border-radius: 999px;
     text-decoration: none;
     vertical-align: 0.15em;
     white-space: nowrap;

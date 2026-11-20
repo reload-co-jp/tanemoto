@@ -1,16 +1,17 @@
 import type { Image } from "@/lib/content/schema"
 import { assetPath } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
-import { color, font } from "@/lib/styles/theme"
+import { color, font, radius, shadow } from "@/lib/styles/theme"
 
 const styles = css`
   .t-eyecatch {
     position: relative;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    background: ${color.navy};
-    color: ${color.ivory};
-    border-radius: 2px;
+    background: ${color.accentPale};
+    color: ${color.ink};
+    border: 2.5px solid ${color.ink};
+    border-radius: ${radius.md};
   }
   .t-eyecatch img {
     width: 100%;
@@ -25,43 +26,71 @@ const styles = css`
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 8% 10%;
+    padding: 6% 4%;
     background:
-      radial-gradient(
-        ellipse at 50% 120%,
-        rgba(176, 141, 74, 0.28),
-        transparent 60%
+      repeating-conic-gradient(
+        from 0deg at 50% 50%,
+        rgba(255, 255, 255, 0.55) 0deg 7deg,
+        transparent 7deg 18deg
       ),
-      linear-gradient(160deg, ${color.navy}, ${color.navyDeep});
+      var(--t-eye-bg, ${color.accentPale});
   }
   .t-eyecatch__type::before {
     content: "";
     position: absolute;
-    inset: 10px;
-    border: 1px solid rgba(176, 141, 74, 0.45);
-    pointer-events: none;
+    left: 50%;
+    top: 50%;
+    width: min(72%, 17em);
+    aspect-ratio: 2.2 / 1;
+    transform: translate(-50%, -50%) rotate(-2deg);
+    background: ${color.paper};
+    border: 2.5px solid ${color.ink};
+    border-radius: 999px;
+    box-shadow: 4px 4px 0 var(--t-eye-accent, ${color.accent});
+  }
+  .t-eyecatch__eyebrow,
+  .t-eyecatch__word,
+  .t-eyecatch__orn {
+    position: relative;
   }
   .t-eyecatch__eyebrow {
-    font-family: ${font.latin};
-    font-size: 0.7em;
-    letter-spacing: 0.3em;
+    font-family: ${font.pop};
+    font-weight: 600;
+    font-size: 0.68em;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: ${color.gold};
+    color: ${color.accentDeep};
   }
   .t-eyecatch__word {
-    font-family: ${font.serif};
-    font-weight: 600;
-    font-size: 1.6em;
-    letter-spacing: 0.14em;
-    margin-top: 0.3em;
+    font-family: ${font.display};
+    font-weight: 900;
+    font-size: 1.4em;
+    letter-spacing: 0.04em;
+    margin-top: 0.15em;
     line-height: 1.3;
+    max-width: min(68%, 15em);
   }
   .t-eyecatch__orn {
-    width: 40%;
-    max-width: 140px;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, ${color.gold}, transparent);
-    margin-top: 0.8em;
+    width: 2.2em;
+    height: 0.35em;
+    border-radius: 999px;
+    background: var(--t-eye-accent, ${color.accent});
+    margin-top: 0.4em;
+  }
+  .t-cards > li:nth-child(4n + 2) .t-eyecatch,
+  .t-rows > li:nth-child(4n + 2) .t-eyecatch {
+    --t-eye-bg: ${color.yellowPale};
+    --t-eye-accent: ${color.yellow};
+  }
+  .t-cards > li:nth-child(4n + 3) .t-eyecatch,
+  .t-rows > li:nth-child(4n + 3) .t-eyecatch {
+    --t-eye-bg: ${color.mintPale};
+    --t-eye-accent: ${color.mint};
+  }
+  .t-cards > li:nth-child(4n + 4) .t-eyecatch,
+  .t-rows > li:nth-child(4n + 4) .t-eyecatch {
+    --t-eye-bg: ${color.violetPale};
+    --t-eye-accent: ${color.violet};
   }
   .t-eyecatch--card {
     font-size: 0.85rem;
@@ -69,6 +98,7 @@ const styles = css`
   .t-eyecatch--hero {
     font-size: 1.1rem;
     aspect-ratio: 16 / 7;
+    box-shadow: ${shadow.md};
   }
   @media (min-width: 800px) {
     .t-eyecatch--hero {

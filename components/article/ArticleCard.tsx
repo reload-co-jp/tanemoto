@@ -5,7 +5,7 @@ import { getCategory } from "@/lib/content/repository"
 import { formatDate } from "@/lib/format"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
-import { bp, color, font } from "@/lib/styles/theme"
+import { bp, color, font, radius, shadow } from "@/lib/styles/theme"
 import { articleVisual } from "./articleVisual"
 
 const styles = css`
@@ -29,7 +29,22 @@ const styles = css`
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
+    background: ${color.paper};
+    border: 2.5px solid ${color.ink};
+    border-radius: ${radius.lg};
+    box-shadow: ${shadow.md};
+    padding: 12px 12px 16px;
+    transition:
+      transform 0.15s,
+      box-shadow 0.15s;
+  }
+  .t-card:hover {
+    transform: translate(-2px, -3px) rotate(-0.4deg);
+    box-shadow: ${shadow.lg};
+  }
+  .t-card .t-card__body {
+    padding: 0 6px;
   }
   .t-card__body {
     display: flex;
@@ -46,18 +61,25 @@ const styles = css`
     inset: 0;
   }
   .t-card:hover .t-card__title {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
   }
   .t-card__cat {
-    font-size: 0.75rem;
-    color: ${color.goldDeep};
-    letter-spacing: 0.08em;
+    align-self: flex-start;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: ${color.ink};
+    background: ${color.yellow};
+    border: 2px solid ${color.ink};
+    border-radius: 999px;
+    padding: 0 10px;
+    letter-spacing: 0.04em;
   }
   .t-card__title {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-size: 1.08rem;
+    font-weight: 700;
     line-height: 1.5;
-    color: ${color.navy};
+    color: ${color.ink};
     transition: color 0.15s;
   }
   .t-card__desc {
@@ -72,13 +94,13 @@ const styles = css`
   .t-card__date {
     font-size: 0.75rem;
     color: ${color.muted};
-    font-family: ${font.latin};
+    font-family: ${font.pop};
+    font-weight: 500;
     letter-spacing: 0.05em;
   }
 
   .t-rows {
     list-style: none;
-    border-top: 1px solid ${color.border};
   }
   .t-row {
     position: relative;
@@ -86,7 +108,7 @@ const styles = css`
     grid-template-columns: 96px 1fr;
     gap: 14px;
     padding: 14px 0;
-    border-bottom: 1px solid ${color.border};
+    border-bottom: 2.5px dotted ${color.ink};
     align-items: start;
   }
   @media ${bp.sm} {
@@ -96,7 +118,7 @@ const styles = css`
     }
   }
   .t-row:hover .t-card__title {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
   }
   .t-row .t-eyecatch--card {
     font-size: 0.5rem;
