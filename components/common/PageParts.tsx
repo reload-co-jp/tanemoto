@@ -14,7 +14,10 @@ export const PageHeader = ({
   description?: ReactNode
   children?: ReactNode
 }) => (
-  <header className="t-page-header">
+  <header
+    className="t-page-header"
+    data-title={`${(eyebrow?.match(/^[A-Za-z][A-Za-z ]*/)?.[0] ?? "Tomotane").trim().replace(/\s+/g, "_")}.txt`}
+  >
     {eyebrow && <p className="t-page-header__eyebrow">{eyebrow}</p>}
     <h1 className="t-page-header__title">{title}</h1>
     {description && <div className="t-page-header__desc">{description}</div>}
@@ -42,13 +45,22 @@ export const Section = ({
     aria-labelledby={id ? `${id}-title` : undefined}
   >
     <div className="t-section__head">
-      <Heading className="t-section__title" id={id ? `${id}-title` : undefined}>
-        {title}
-        {en && <small>{en}</small>}
-      </Heading>
+      <div>
+        {en && (
+          <p className="t-section__en" aria-hidden="true">
+            {en}
+          </p>
+        )}
+        <Heading
+          className={`t-section__title${en ? "" : " t-section__title--solo"}`}
+          id={id ? `${id}-title` : undefined}
+        >
+          {title}
+        </Heading>
+      </div>
       {more && (
         <Link href={more.href} className="t-section__more">
-          {more.label} →
+          {more.label}
         </Link>
       )}
     </div>
@@ -68,7 +80,7 @@ const chipStyles = css`
     align-items: baseline;
     gap: 6px;
     padding: 4px 14px;
-    border: 2px solid ${color.ink};
+    border: 2px solid ${color.line};
     background: ${color.paper};
     border-radius: 999px;
     font-size: 0.85rem;
@@ -76,7 +88,7 @@ const chipStyles = css`
     color: ${color.ink};
     text-decoration: none;
     line-height: 1.5;
-    box-shadow: 2px 2px 0 ${color.ink};
+    box-shadow: 2px 2px 0 ${color.glow};
     transition:
       transform 0.15s,
       box-shadow 0.15s,
@@ -86,7 +98,7 @@ const chipStyles = css`
     color: ${color.ink};
     background: ${color.yellowPale};
     transform: translate(-1px, -1px);
-    box-shadow: 3px 3px 0 ${color.ink};
+    box-shadow: 3px 3px 0 ${color.glow};
   }
   .t-chip[aria-current] {
     background: ${color.accent};
@@ -148,7 +160,7 @@ const tileStyles = css`
   .t-tile {
     position: relative;
     background: ${color.paper};
-    border: 2.5px solid ${color.ink};
+    border: 2.5px solid ${color.line};
     border-radius: ${radius.md};
     box-shadow: ${shadow.sm};
     padding: 18px 18px 16px;
@@ -188,8 +200,8 @@ const tileStyles = css`
     background: var(--t-tile-pale, ${color.accentPale});
   }
   .t-tile__eyebrow {
-    font-family: ${font.pop};
-    font-weight: 600;
+    font-family: ${font.display};
+    font-weight: 800;
     font-size: 0.72rem;
     letter-spacing: 0.08em;
     color: ${color.accentDeep};

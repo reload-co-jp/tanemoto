@@ -14,20 +14,20 @@ export const LogoMark = ({ size = 32 }: { size?: number }) => (
       cx="16"
       cy="16"
       r="14.5"
-      fill={color.yellow}
-      stroke={color.ink}
+      fill={color.mintPale}
+      stroke={color.accentDeep}
       strokeWidth="2"
     />
     <path
       d="M16 26 C 10.5 22.5, 10 15, 16 8.5 C 22 15, 21.5 22.5, 16 26 Z"
       fill={color.accent}
-      stroke={color.ink}
+      stroke={color.accentDeep}
       strokeWidth="1.8"
       strokeLinejoin="round"
     />
     <path
       d="M16 24 V 13 M16 19 L 13.2 16.2 M16 16 L 18.6 13.4"
-      stroke={color.ink}
+      stroke={color.accentDeep}
       strokeWidth="1.6"
       strokeLinecap="round"
       fill="none"
@@ -61,19 +61,22 @@ const styles = css`
   .t-logo__name {
     font-family: ${font.display};
     font-weight: 900;
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     letter-spacing: 0.08em;
-    color: ${color.ink};
-    text-shadow: 2px 2px 0 ${color.accentPale};
+    color: ${color.accent};
+    text-shadow:
+      2px 2px 0 #fff,
+      -2px 2px 0 #fff,
+      2px -2px 0 #fff,
+      -2px -2px 0 #fff,
+      3px 3px 0 ${color.glow};
   }
   .t-logo__en {
     font-family: ${font.pop};
-    font-weight: 600;
     font-size: 0.62rem;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: ${color.accentDeep};
-    margin-top: 2px;
+    letter-spacing: 0.14em;
+    color: ${color.mintDeep};
+    margin-top: 3px;
   }
 `
 

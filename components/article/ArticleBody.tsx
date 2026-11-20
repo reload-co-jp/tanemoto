@@ -95,7 +95,7 @@ const styles = css`
     margin-right: 0;
     padding: 1.2em 1.4em;
     background: ${color.paper};
-    border-left: 3px solid ${color.ink};
+    border-left: 3px solid ${color.line};
     font-family: ${font.display};
   }
   .t-quote p {
@@ -108,11 +108,11 @@ const styles = css`
     color: ${color.muted};
   }
   .t-note {
-    border: 2.5px solid ${color.ink};
+    border: 2.5px solid ${color.line};
     background: ${color.paper};
     padding: 1.1em 1.3em;
     border-radius: 14px;
-    box-shadow: 4px 4px 0 ${color.ink};
+    box-shadow: 4px 4px 0 ${color.glow};
   }
   .t-note__head {
     display: flex;
@@ -130,7 +130,7 @@ const styles = css`
   .t-figure img {
     width: 100%;
     height: auto;
-    border: 2.5px solid ${color.ink};
+    border: 2.5px solid ${color.line};
     border-radius: 14px;
   }
   .t-figure figcaption {

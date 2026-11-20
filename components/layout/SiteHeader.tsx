@@ -1,7 +1,7 @@
 import { Link } from "@/components/common/Link"
 import { site, paths, assetPath } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
-import { bp, color, font } from "@/lib/styles/theme"
+import { bp, color, font, pattern } from "@/lib/styles/theme"
 import { Logo } from "./Logo"
 
 const nav = [
@@ -13,24 +13,37 @@ const nav = [
   { href: paths.articles(), label: "記事", en: "Articles" },
 ]
 
+const marquee = "+++ Tomotane — Origins of Stories +++ "
+
 const styles = css`
   .t-header {
-    background: ${color.paper};
-    color: ${color.ink};
-    border-bottom: 3px solid ${color.ink};
     position: relative;
+    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 2px solid ${color.line};
   }
-  .t-header::before {
-    content: "";
-    display: block;
-    height: 6px;
-    background: repeating-linear-gradient(
-      90deg,
-      ${color.accent} 0 40px,
-      ${color.yellow} 40px 80px,
-      ${color.mint} 80px 120px,
-      ${color.violet} 120px 160px
-    );
+  .t-marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    background: ${pattern.stripe("#ff8db5", "#ffa3c4", 7)};
+    color: #fff;
+    font-family: ${font.pop};
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    line-height: 26px;
+    height: 26px;
+  }
+  .t-marquee__track {
+    display: inline-block;
+    animation: t-marquee 40s linear infinite;
+    text-shadow: 0 1px 0 rgba(207, 47, 106, 0.35);
+  }
+  @keyframes t-marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
   .t-header__inner {
     display: flex;
@@ -38,32 +51,31 @@ const styles = css`
     justify-content: space-between;
     gap: 16px;
     padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     flex-wrap: wrap;
   }
   .t-header__tagline {
     display: none;
-    font-family: ${font.display};
-    font-weight: 700;
-    font-size: 0.8rem;
-    letter-spacing: 0.06em;
-    color: ${color.ink};
-    background: ${color.yellowPale};
-    border: 2px solid ${color.ink};
-    border-radius: 999px;
-    padding: 2px 12px;
     position: relative;
+    font-weight: 800;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    color: ${color.accentDeep};
+    background: ${color.paper};
+    border: 2px solid ${color.line};
+    border-radius: 999px;
+    padding: 3px 14px;
   }
   .t-header__tagline::before {
     content: "";
     position: absolute;
-    left: -8px;
+    left: -7px;
     top: 50%;
     width: 10px;
     height: 10px;
-    background: ${color.yellowPale};
-    border-left: 2px solid ${color.ink};
-    border-bottom: 2px solid ${color.ink};
+    background: ${color.paper};
+    border-left: 2px solid ${color.line};
+    border-bottom: 2px solid ${color.line};
     transform: translateY(-50%) rotate(45deg);
   }
   @media ${bp.md} {
@@ -74,32 +86,26 @@ const styles = css`
   .t-header__brand {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 22px;
   }
   .t-header__search {
     display: inline-flex;
     align-items: center;
     gap: 6px;
     color: #fff;
-    background: ${color.ink};
+    background: ${color.mint};
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 0.85rem;
-    border: 2px solid ${color.ink};
     border-radius: 999px;
-    padding: 5px 16px;
-    box-shadow: 3px 3px 0 ${color.accent};
-    transition:
-      transform 0.15s,
-      box-shadow 0.15s;
+    padding: 6px 16px;
+    box-shadow: 0 3px 0 #3fb4ba;
+    text-shadow: 0 1px 0 rgba(11, 122, 132, 0.4);
+    transition: transform 0.15s;
   }
   .t-header__search:hover {
     color: #fff;
-    transform: translate(-1px, -1px);
-    box-shadow: 4px 4px 0 ${color.accent};
-  }
-  .t-nav {
-    border-top: 2px dashed ${color.border};
+    transform: translateY(-2px);
   }
   .t-nav__list {
     display: flex;
@@ -107,54 +113,46 @@ const styles = css`
     overflow-x: auto;
     scrollbar-width: none;
     margin: 0 -8px;
-    padding: 8px;
+    padding: 4px 8px 12px;
   }
   .t-nav__list::-webkit-scrollbar {
     display: none;
   }
   .t-nav__link {
-    display: block;
-    padding: 5px 14px;
-    color: ${color.ink};
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+    padding: 6px 14px 5px;
+    color: #fff;
+    background: ${color.accent};
     text-decoration: none;
-    font-weight: 700;
-    font-size: 0.9rem;
+    font-weight: 800;
+    font-size: 0.85rem;
     white-space: nowrap;
-    border: 2px solid transparent;
-    border-radius: 999px;
-    transition:
-      background 0.15s,
-      border-color 0.15s;
+    border-radius: 8px;
+    box-shadow: 0 3px 0 #e85a8c;
+    transition: transform 0.15s;
   }
-  .t-nav__item:nth-child(4n + 1) .t-nav__link:hover {
-    background: ${color.accentPale};
-  }
-  .t-nav__item:nth-child(4n + 2) .t-nav__link:hover {
-    background: ${color.yellowPale};
-  }
-  .t-nav__item:nth-child(4n + 3) .t-nav__link:hover {
-    background: ${color.mintPale};
-  }
-  .t-nav__item:nth-child(4n + 4) .t-nav__link:hover {
-    background: ${color.violetPale};
+  .t-nav__item:nth-child(even) .t-nav__link {
+    background: ${color.mint};
+    box-shadow: 0 3px 0 #3fb4ba;
   }
   .t-nav__link:hover {
-    color: ${color.ink};
-    border-color: ${color.ink};
+    color: #fff;
+    transform: translateY(-2px);
   }
   .t-nav__en {
     display: none;
     font-family: ${font.pop};
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: ${color.accentDeep};
-    margin-left: 6px;
+    font-size: 0.62rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    opacity: 0.95;
   }
   @media ${bp.md} {
     .t-nav__en {
-      display: inline;
+      display: block;
     }
   }
 `
@@ -162,6 +160,12 @@ const styles = css`
 export const SiteHeader = () => (
   <header className="t-header">
     <Style id="header">{styles}</Style>
+    <div className="t-marquee" aria-hidden="true">
+      <span className="t-marquee__track">
+        {marquee.repeat(12)}
+        {marquee.repeat(12)}
+      </span>
+    </div>
     <div className="t-container t-header__inner">
       <div className="t-header__brand">
         <Logo href={assetPath("/")} />
@@ -188,10 +192,10 @@ export const SiteHeader = () => (
           {nav.map((item) => (
             <li key={item.href} className="t-nav__item">
               <Link href={item.href} className="t-nav__link">
-                {item.label}
                 <span className="t-nav__en" aria-hidden="true">
                   {item.en}
                 </span>
+                {item.label}
               </Link>
             </li>
           ))}

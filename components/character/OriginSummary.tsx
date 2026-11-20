@@ -4,17 +4,14 @@ import { motifAspects, type Character } from "@/lib/content/schema"
 import { getFiguresByIds, getWorksByIds } from "@/lib/content/repository"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { bp, color, font } from "@/lib/styles/theme"
 
 const styles = css`
+  ${winCss(".t-origin")}
   .t-origin {
-    background: ${color.paper};
-    border: 2.5px solid ${color.ink};
-    border-radius: 14px;
-    box-shadow: 4px 4px 0 ${color.ink};
-    border-top-width: 8px;
-    border-top-color: ${color.accent};
     padding: 18px 20px;
+    padding-top: 46px;
   }
   .t-origin__head {
     display: flex;
@@ -88,7 +85,11 @@ export const OriginSummary = ({
   const work = getWorksByIds([character.workId])[0]
   const H = `h${headingLevel}` as "h2" | "h3"
   return (
-    <section className="t-origin" aria-label={`${character.name}の元ネタ早見`}>
+    <section
+      className="t-origin"
+      data-title="Origin.txt"
+      aria-label={`${character.name}の元ネタ早見`}
+    >
       <Style id="origin">{styles}</Style>
       <div className="t-origin__head">
         <span className="t-origin__eyebrow">Origin — 元ネタ早見</span>

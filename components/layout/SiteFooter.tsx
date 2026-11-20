@@ -1,38 +1,43 @@
 import { Link } from "@/components/common/Link"
 import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
-import { bp, color, font } from "@/lib/styles/theme"
+import { bp, color, font, pattern } from "@/lib/styles/theme"
 import { LogoMark } from "./Logo"
 
 const styles = css`
   .t-footer {
-    background: ${color.inkDeep};
-    color: rgba(255, 247, 234, 0.88);
-    padding: 52px 0 32px;
-    font-size: 0.875rem;
-    margin-top: 24px;
     position: relative;
+    margin-top: 40px;
+    padding: 56px 0 36px;
+    font-size: 0.875rem;
+    color: ${color.text};
+    background:
+      ${pattern.grid("rgba(255, 157, 192, 0.22)", 22)},
+      linear-gradient(180deg, #ffe4ee, ${color.mintPale});
+    border-top: 2px solid ${color.line};
   }
   .t-footer::before {
     content: "";
     position: absolute;
     left: 0;
     right: 0;
-    top: -21px;
-    height: 18px;
+    top: -16px;
+    height: 16px;
     background: radial-gradient(
-        circle at 12px 18px,
-        ${color.inkDeep} 11px,
-        transparent 12px
+        circle at 14px 16px,
+        #ffe4ee 12px,
+        ${color.line} 12px 14px,
+        transparent 14.5px
       )
-      0 0 / 24px 18px repeat-x;
+      0 0 / 28px 16px repeat-x;
   }
   .t-footer a {
-    color: rgba(255, 247, 234, 0.88);
+    color: ${color.accentDeep};
+    font-weight: 700;
     text-decoration: none;
   }
   .t-footer a:hover {
-    color: ${color.yellow};
+    color: ${color.mintDeep};
     text-decoration: underline;
   }
   .t-footer__grid {
@@ -47,40 +52,57 @@ const styles = css`
   .t-footer__name {
     font-family: ${font.display};
     font-weight: 900;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     letter-spacing: 0.08em;
-    color: ${color.cream};
+    color: ${color.accent};
+    text-shadow:
+      2px 2px 0 #fff,
+      -2px 2px 0 #fff,
+      2px -2px 0 #fff,
+      -2px -2px 0 #fff;
     display: flex;
     align-items: center;
     gap: 10px;
   }
   .t-footer__tagline {
     margin-top: 8px;
+    font-weight: 800;
+    color: ${color.mintDeep};
   }
   .t-footer__desc {
     margin-top: 12px;
-    opacity: 0.75;
+    color: ${color.muted};
     max-width: 28em;
-    line-height: 1.7;
+    line-height: 1.8;
   }
   .t-footer__heading {
     font-family: ${font.pop};
-    font-weight: 600;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-    color: ${color.yellow};
+    letter-spacing: 0.06em;
+    font-size: 1.1rem;
+    color: ${color.accent};
+    text-shadow:
+      1.5px 1.5px 0 #fff,
+      -1.5px 1.5px 0 #fff,
+      1.5px -1.5px 0 #fff,
+      -1.5px -1.5px 0 #fff;
     margin-bottom: 10px;
   }
   .t-footer__list li + li {
     margin-top: 6px;
   }
+  .t-footer__list li::before {
+    content: "✦";
+    color: ${color.mint};
+    margin-right: 6px;
+    font-size: 0.75em;
+  }
   .t-footer__copy {
     margin-top: 40px;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 247, 234, 0.15);
+    border-top: 2px dashed ${color.borderStrong};
     font-size: 0.75rem;
-    opacity: 0.6;
+    color: ${color.muted};
+    text-align: center;
   }
 `
 

@@ -55,7 +55,7 @@ const styles = css`
   .t-sources__type {
     display: inline-block;
     font-size: 0.7rem;
-    border: 1.5px solid ${color.ink};
+    border: 1.5px solid ${color.line};
     color: ${color.ink};
     font-weight: 700;
     padding: 1px 8px;

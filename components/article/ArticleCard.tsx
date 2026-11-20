@@ -31,16 +31,16 @@ const styles = css`
     flex-direction: column;
     gap: 12px;
     background: ${color.paper};
-    border: 2.5px solid ${color.ink};
+    border: 2px solid ${color.line};
     border-radius: ${radius.lg};
     box-shadow: ${shadow.md};
-    padding: 12px 12px 16px;
+    padding: 10px 10px 16px;
     transition:
       transform 0.15s,
       box-shadow 0.15s;
   }
   .t-card:hover {
-    transform: translate(-2px, -3px) rotate(-0.4deg);
+    transform: translateY(-4px);
     box-shadow: ${shadow.lg};
   }
   .t-card .t-card__body {
@@ -66,12 +66,11 @@ const styles = css`
   .t-card__cat {
     align-self: flex-start;
     font-size: 0.7rem;
-    font-weight: 700;
-    color: ${color.ink};
-    background: ${color.yellow};
-    border: 2px solid ${color.ink};
-    border-radius: 999px;
-    padding: 0 10px;
+    font-weight: 800;
+    color: #fff;
+    background: ${color.mint};
+    border-radius: 4px;
+    padding: 1px 10px;
     letter-spacing: 0.04em;
   }
   .t-card__title {
@@ -92,15 +91,27 @@ const styles = css`
     overflow: hidden;
   }
   .t-card__date {
-    font-size: 0.75rem;
-    color: ${color.muted};
-    font-family: ${font.pop};
-    font-weight: 500;
+    font-size: 0.78rem;
+    color: ${color.accentDeep};
+    font-weight: 800;
     letter-spacing: 0.05em;
   }
 
   .t-rows {
     list-style: none;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid ${color.line};
+    border-radius: ${radius.lg};
+    box-shadow: ${shadow.md};
+    padding: 4px 16px;
+  }
+  @media ${bp.sm} {
+    .t-rows {
+      padding: 6px 24px;
+    }
+  }
+  .t-rows > li:last-child {
+    border-bottom: 0;
   }
   .t-row {
     position: relative;
@@ -108,7 +119,7 @@ const styles = css`
     grid-template-columns: 96px 1fr;
     gap: 14px;
     padding: 14px 0;
-    border-bottom: 2.5px dotted ${color.ink};
+    border-bottom: 2px dashed ${color.borderStrong};
     align-items: start;
   }
   @media ${bp.sm} {

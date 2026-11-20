@@ -5,19 +5,18 @@ import type { Article } from "@/lib/content/schema"
 import { getArticles, getCategories, getTags } from "@/lib/content/repository"
 import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { color } from "@/lib/styles/theme"
 import { ArticleList } from "./ArticleCard"
 
 const styles = css`
+  ${winCss(".t-filters")}
   .t-filters {
     display: grid;
     gap: 14px;
     margin-bottom: 32px;
     padding: 16px;
-    background: ${color.paper};
-    border: 2.5px solid ${color.ink};
-    border-radius: 14px;
-    box-shadow: 4px 4px 0 ${color.ink};
+    padding-top: 44px;
   }
   .t-filters__label {
     font-size: 0.75rem;
@@ -72,7 +71,7 @@ export const ArticlesIndex = ({
           {articles.length}件の記事{total > 1 && `（${page} / ${total}ページ）`}
         </p>
       </PageHeader>
-      <div className="t-filters">
+      <div className="t-filters" data-title="Filter.txt">
         <div>
           <p className="t-filters__label">カテゴリーで絞り込む</p>
           <ChipList

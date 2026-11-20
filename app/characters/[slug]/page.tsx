@@ -26,6 +26,7 @@ import { characterTile } from "@/lib/characterTile"
 import { buildMetadata } from "@/lib/seo"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { bp, color, font } from "@/lib/styles/theme"
 
 type Props = { params: Promise<{ slug: string }> }
@@ -71,12 +72,10 @@ const styles = css`
   .t-char__block + .t-char__block {
     margin-top: 12px;
   }
+  ${winCss(".t-motif")}
   .t-motif {
-    border: 2.5px solid ${color.ink};
-    border-radius: 14px;
-    box-shadow: 4px 4px 0 ${color.ink};
-    background: ${color.paper};
     padding: 20px;
+    padding-top: 48px;
   }
   .t-motif + .t-motif {
     margin-top: 20px;
@@ -195,7 +194,7 @@ const Page = async ({ params }: Props) => {
                 ? getFiguresByIds([motif.figureId])[0]
                 : undefined
               return (
-                <article key={i} className="t-motif">
+                <article key={i} className="t-motif" data-title="Motif.txt">
                   <p className="t-motif__aspect">
                     {i === 0 ? "主な元ネタ" : "元ネタ"} ／{" "}
                     {motifAspects[motif.aspect]}

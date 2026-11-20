@@ -81,7 +81,7 @@ const styles = css`
   }
   .t-rev__aspect {
     font-size: 0.72rem;
-    border: 1.5px solid ${color.ink};
+    border: 1.5px solid ${color.line};
     padding: 0 8px;
     border-radius: 999px;
     color: ${color.muted};

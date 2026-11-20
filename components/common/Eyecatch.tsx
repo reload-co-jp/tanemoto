@@ -1,7 +1,22 @@
 import type { Image } from "@/lib/content/schema"
 import { assetPath } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
-import { color, font, radius, shadow } from "@/lib/styles/theme"
+import { winCss } from "@/lib/styles/global"
+import { color, font, pattern, radius } from "@/lib/styles/theme"
+
+const outline = (w: number, c: string) =>
+  [
+    [w, w],
+    [-w, w],
+    [w, -w],
+    [-w, -w],
+    [0, w],
+    [0, -w],
+    [w, 0],
+    [-w, 0],
+  ]
+    .map(([x, y]) => `${x}px ${y}px 0 ${c}`)
+    .join(",")
 
 const styles = css`
   .t-eyecatch {
@@ -9,8 +24,8 @@ const styles = css`
     aspect-ratio: 16 / 9;
     overflow: hidden;
     background: ${color.accentPale};
-    color: ${color.ink};
-    border: 2.5px solid ${color.ink};
+    color: ${color.accent};
+    border: 2px solid ${color.border};
     border-radius: ${radius.md};
   }
   .t-eyecatch img {
@@ -26,27 +41,32 @@ const styles = css`
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 6% 4%;
+    padding: 6% 6%;
     background:
-      repeating-conic-gradient(
-        from 0deg at 50% 50%,
-        rgba(255, 255, 255, 0.55) 0deg 7deg,
-        transparent 7deg 18deg
-      ),
-      var(--t-eye-bg, ${color.accentPale});
+      ${pattern.grid("rgba(255, 255, 255, 0.7)", 16)},
+      linear-gradient(
+        150deg,
+        var(--t-eye-a, #ffd6e5),
+        var(--t-eye-b, ${color.yellowPale})
+      );
+  }
+  .t-eyecatch__type::before,
+  .t-eyecatch__type::after {
+    content: "✦";
+    position: absolute;
+    color: #fff;
+    font-size: 1.6em;
+    line-height: 1;
+    text-shadow: 0 0 6px rgba(255, 120, 166, 0.5);
   }
   .t-eyecatch__type::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: min(72%, 17em);
-    aspect-ratio: 2.2 / 1;
-    transform: translate(-50%, -50%) rotate(-2deg);
-    background: ${color.paper};
-    border: 2.5px solid ${color.ink};
-    border-radius: 999px;
-    box-shadow: 4px 4px 0 var(--t-eye-accent, ${color.accent});
+    left: 10%;
+    top: 14%;
+  }
+  .t-eyecatch__type::after {
+    right: 10%;
+    bottom: 14%;
+    font-size: 1.1em;
   }
   .t-eyecatch__eyebrow,
   .t-eyecatch__word,
@@ -55,50 +75,53 @@ const styles = css`
   }
   .t-eyecatch__eyebrow {
     font-family: ${font.pop};
-    font-weight: 600;
-    font-size: 0.68em;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: ${color.accentDeep};
+    font-size: 0.9em;
+    letter-spacing: 0.06em;
+    color: #fff;
+    text-shadow: ${outline(1.5, "var(--t-eye-c, #0b7a84)")};
   }
   .t-eyecatch__word {
     font-family: ${font.display};
     font-weight: 900;
-    font-size: 1.4em;
-    letter-spacing: 0.04em;
-    margin-top: 0.15em;
-    line-height: 1.3;
-    max-width: min(68%, 15em);
+    font-size: 1.75em;
+    letter-spacing: 0.06em;
+    line-height: 1.25;
+    max-width: 88%;
+    color: ${color.accent};
+    text-shadow:
+      ${outline(3, "#fff")},
+      5px 5px 0 rgba(99, 216, 221, 0.45);
   }
   .t-eyecatch__orn {
-    width: 2.2em;
-    height: 0.35em;
-    border-radius: 999px;
-    background: var(--t-eye-accent, ${color.accent});
-    margin-top: 0.4em;
+    width: 3.4em;
+    height: 0.55em;
+    margin-top: 0.5em;
+    background: url("data:image/svg+xml,${encodeURIComponent(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 12"><path d="M0 6h22l3-5 4 10 3-8 2 3h26" fill="none" stroke="#ff78a6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>'
+      )}")
+      no-repeat center / contain;
   }
-  .t-cards > li:nth-child(4n + 2) .t-eyecatch,
-  .t-rows > li:nth-child(4n + 2) .t-eyecatch {
-    --t-eye-bg: ${color.yellowPale};
-    --t-eye-accent: ${color.yellow};
+  .t-cards > li:nth-child(3n + 2) .t-eyecatch,
+  .t-rows > li:nth-child(3n + 2) .t-eyecatch {
+    --t-eye-a: ${color.mintPale};
+    --t-eye-b: #ffe4ee;
   }
-  .t-cards > li:nth-child(4n + 3) .t-eyecatch,
-  .t-rows > li:nth-child(4n + 3) .t-eyecatch {
-    --t-eye-bg: ${color.mintPale};
-    --t-eye-accent: ${color.mint};
-  }
-  .t-cards > li:nth-child(4n + 4) .t-eyecatch,
-  .t-rows > li:nth-child(4n + 4) .t-eyecatch {
-    --t-eye-bg: ${color.violetPale};
-    --t-eye-accent: ${color.violet};
+  .t-cards > li:nth-child(3n + 3) .t-eyecatch,
+  .t-rows > li:nth-child(3n + 3) .t-eyecatch {
+    --t-eye-a: ${color.yellowPale};
+    --t-eye-b: ${color.violetPale};
+    --t-eye-c: ${color.accentDeep};
   }
   .t-eyecatch--card {
     font-size: 0.85rem;
   }
+  ${winCss(".t-eyecatch--hero")}
+  .t-eyecatch--hero .t-eyecatch__type {
+    top: 28px;
+  }
   .t-eyecatch--hero {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     aspect-ratio: 16 / 7;
-    box-shadow: ${shadow.md};
   }
   @media (min-width: 800px) {
     .t-eyecatch--hero {
@@ -131,7 +154,14 @@ export const Eyecatch = ({
 }) => (
   <figure>
     <Style id="eyecatch">{styles}</Style>
-    <div className={`t-eyecatch t-eyecatch--${variant}`}>
+    <div
+      className={`t-eyecatch t-eyecatch--${variant}`}
+      data-title={
+        variant === "hero"
+          ? `${(eyebrow ?? "Tomotane").replace(/\s+/g, "_")}.png`
+          : undefined
+      }
+    >
       {image ? (
         <img
           src={assetPath(image.src)}

@@ -26,6 +26,7 @@ import { buildMetadata, organizationJsonLd, websiteJsonLd } from "@/lib/seo"
 import { characterTile } from "@/lib/characterTile"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { bp, color, font } from "@/lib/styles/theme"
 
 export const metadata = buildMetadata({ path: "/" })
@@ -42,20 +43,18 @@ const styles = css`
       gap: 56px;
     }
   }
+  ${winCss(".t-policy")}
   .t-policy {
     margin-top: 56px;
-    background: ${color.paper};
-    border: 2.5px solid ${color.ink};
-    border-radius: 22px;
-    box-shadow: 6px 6px 0 ${color.accent};
     padding: 28px 24px;
     display: grid;
     gap: 20px;
+    padding-top: 56px;
   }
   @media ${bp.md} {
     .t-policy {
       grid-template-columns: 1fr 1fr;
-      padding: 36px 40px;
+      padding: 60px 40px 36px;
       gap: 40px;
     }
   }
@@ -85,10 +84,15 @@ const styles = css`
   }
   .t-policy__en {
     font-family: ${font.pop};
-    font-size: 0.72rem;
-    letter-spacing: 0.25em;
-    color: ${color.accentDeep};
-    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: ${color.accent};
+    text-shadow:
+      2px 2px 0 #fff,
+      -2px 2px 0 #fff,
+      2px -2px 0 #fff,
+      -2px -2px 0 #fff;
   }
 `
 
@@ -215,7 +219,11 @@ const Page = () => {
         />
       </Section>
 
-      <section className="t-policy" aria-labelledby="policy-title">
+      <section
+        className="t-policy"
+        data-title="Editorial_Policy.txt"
+        aria-labelledby="policy-title"
+      >
         <div>
           <p className="t-policy__en">Editorial Policy</p>
           <h2 className="t-policy__title" id="policy-title">

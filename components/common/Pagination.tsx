@@ -18,7 +18,7 @@ const styles = css`
     height: 40px;
     align-items: center;
     justify-content: center;
-    border: 2px solid ${color.ink};
+    border: 2px solid ${color.line};
     border-radius: 999px;
     font-weight: 700;
     padding: 0 12px;

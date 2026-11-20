@@ -1,15 +1,13 @@
 import type { TocItem } from "@/lib/content/text"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { color, font } from "@/lib/styles/theme"
 
 const styles = css`
+  ${winCss(".t-toc")}
   .t-toc {
-    background: ${color.paper};
-    border: 2.5px solid ${color.ink};
-    border-radius: 14px;
-    box-shadow: 4px 4px 0 ${color.ink};
-    overflow: hidden;
     font-size: 0.9rem;
+    padding-top: 30px;
   }
   .t-toc summary {
     cursor: pointer;
@@ -92,7 +90,7 @@ export const Toc = ({
   return (
     <nav aria-label="目次">
       <Style id="toc">{styles}</Style>
-      <details className="t-toc" open={open}>
+      <details className="t-toc" data-title="Contents.txt" open={open}>
         <summary>
           <span>
             目次<span className="t-toc__en">CONTENTS</span>

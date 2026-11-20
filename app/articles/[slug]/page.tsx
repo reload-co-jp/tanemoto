@@ -35,6 +35,7 @@ import { formatDate } from "@/lib/format"
 import { articleJsonLd, buildMetadata } from "@/lib/seo"
 import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { bp, color, font } from "@/lib/styles/theme"
 
 type Props = { params: Promise<{ slug: string }> }
@@ -140,13 +141,11 @@ const styles = css`
       overflow-y: auto;
     }
   }
+  ${winCss(".t-legend")}
   .t-legend {
     font-size: 0.8rem;
-    border: 2.5px solid ${color.ink};
-    border-radius: 14px;
-    box-shadow: 4px 4px 0 ${color.ink};
-    background: ${color.paper};
     padding: 14px 16px;
+    padding-top: 42px;
   }
   .t-legend__title {
     font-family: ${font.display};
@@ -197,7 +196,7 @@ const styles = css`
 `
 
 const Legend = ({ used }: { used: Set<string> }) => (
-  <div className="t-legend">
+  <div className="t-legend" data-title="Legend.txt">
     <p className="t-legend__title">情報区分ラベル</p>
     <ul>
       {classifications

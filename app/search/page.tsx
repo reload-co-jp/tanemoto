@@ -20,11 +20,11 @@ const styles = css`
     width: 100%;
     font-size: 1.1rem;
     padding: 14px 16px;
-    border: 2.5px solid ${color.ink};
+    border: 2.5px solid ${color.line};
     background: ${color.paper};
     border-radius: 999px;
     padding-left: 22px;
-    box-shadow: 4px 4px 0 ${color.ink};
+    box-shadow: 4px 4px 0 ${color.glow};
   }
   .t-search__form input:focus {
     outline: 2px solid ${color.accent};
