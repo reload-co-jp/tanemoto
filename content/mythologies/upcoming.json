@@ -1,14 +1,5 @@
 [
   {
-    "id": "norse",
-    "slug": "norse",
-    "name": "北欧神話",
-    "region": "北欧（スカンディナヴィア・アイスランドなど）",
-    "description": "オーディンやトールなどの神々と、世界の終末ラグナロクの物語で知られる神話。準備中です。",
-    "comingSoon": true,
-    "order": 2
-  },
-  {
     "id": "japanese",
     "slug": "japanese",
     "name": "日本神話",

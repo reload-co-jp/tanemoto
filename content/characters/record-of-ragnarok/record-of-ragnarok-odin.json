@@ -1,0 +1,118 @@
+{
+  "id": "record-of-ragnarok-odin",
+  "slug": "record-of-ragnarok-odin",
+  "name": "オーディン",
+  "reading": "おーでぃん",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "北欧の最高神。眼帯をつけ、両肩にワタリガラスのフギンとムニンを乗せている。今回のラグナロクを「我が宿願」と語るなど、独自の思惑をもつ。",
+    "claimIds": ["ror-odin-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は北欧神話の最高神オーディンそのもの。",
+    "claimIds": ["ror-odin-work", "ror-odin-myth-chief"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "odin",
+      "label": "オーディン（万物の父）",
+      "inWork": {
+        "text": "北欧の最高神として描かれる。",
+        "claimIds": ["ror-odin-work"]
+      },
+      "inMyth": {
+        "text": "スノッリによれば、オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+        "claimIds": ["ror-odin-myth-chief"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "odin",
+      "label": "片目",
+      "inWork": {
+        "text": "眼帯をつけている。",
+        "claimIds": ["ror-odin-work"]
+      },
+      "inMyth": {
+        "text": "オーディンは知恵と理解が蓄えられたミーミルの泉の水をひと口求め、片目を担保として差し出してようやく飲むことができた。",
+        "claimIds": ["ror-odin-myth-eye"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "odin",
+      "label": "フギンとムニン",
+      "inWork": {
+        "text": "両肩にフギンとムニンという二羽のワタリガラスを乗せている。",
+        "claimIds": ["ror-odin-work"]
+      },
+      "inMyth": {
+        "text": "二羽のワタリガラス、フギン（思考）とムニン（記憶）はオーディンの肩にとまり、毎朝世界中を飛び回って見聞きした知らせを耳打ちする。",
+        "claimIds": ["ror-odin-myth-ravens"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "眼帯と、両肩に乗る二羽のワタリガラスという作品のオーディンの姿は、原典の片目の逸話とフギン・ムニンの描写をそのまま踏まえている。",
+      "claimIds": ["ror-odin-myth-eye", "ror-odin-myth-ravens", "ror-odin-work"]
+    },
+    {
+      "text": "原典のオーディンにとってラグナロクは、フェンリル狼に呑まれて最期を迎える運命の戦いである。作品のオーディンがラグナロクを「宿願」と呼ぶのは、原典の運命とは異なる、作品独自の設定である。",
+      "claimIds": ["ror-odin-myth-ragnarok", "ror-odin-cmp-wish"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-odin-work",
+      "text": "オーディンは北欧の最高神で、眼帯をつけ、両肩にワタリガラスのフギンとムニンを乗せている。今回のラグナロクを「我が宿願」と語るなど、独自の思惑をもつ。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-odin-myth-chief",
+      "text": "オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章"
+    },
+    {
+      "id": "ror-odin-myth-eye",
+      "text": "オーディンはミーミルの泉の水をひと口求め、片目を担保として差し出して飲むことができた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15章"
+    },
+    {
+      "id": "ror-odin-myth-ravens",
+      "text": "ワタリガラスのフギンとムニンはオーディンの肩にとまり、毎朝世界中を飛び回って見聞きした知らせを耳打ちする。名はそれぞれ「思考」「記憶」を意味する。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 38章（名の意味は Brodeur 訳注）"
+    },
+    {
+      "id": "ror-odin-myth-ragnarok",
+      "text": "ラグナロクでは、オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。ロキは巨人たちとともに神々に敵対し、ヘイムダルと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-odin-cmp-wish",
+      "text": "ラグナロクを「宿願」とする作品の設定は、原典でのオーディンの最期とは異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda"],
+  "articleIds": []
+}

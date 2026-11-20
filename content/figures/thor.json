@@ -1,0 +1,17 @@
+{
+  "id": "thor",
+  "slug": "thor",
+  "name": "トール",
+  "reading": "とーる",
+  "originalName": "Þórr",
+  "romanized": "Thor",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["雷", "力", "巨人退治"],
+  "mythologyIds": ["norse"],
+  "description": "アース神族で最も強い神。槌ミョルニル、締めると力が倍増する力帯、槌を扱うのに欠かせない鉄の手袋をもつ。ラグナロクではミズガルズの大蛇を倒すが、その毒を浴びて倒れる。",
+  "relatedFigureIds": ["odin", "loki"],
+  "relatedStoryIds": ["ragnarok"],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda"]
+}

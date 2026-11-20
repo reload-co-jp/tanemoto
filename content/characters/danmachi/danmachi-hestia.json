@@ -32,11 +32,11 @@
       "figureId": "hestia",
       "label": "求婚を拒んだ処女神",
       "inWork": {
-        "text": "眷族のベルの願いをかなえようと、神友のヘファイストスに強引に頼み込んで「神（ヘスティア）のナイフ」を作らせる。",
-        "claimIds": ["dm-hestia-work-knife"]
+        "text": "作中でも三大処女神の一人とされる。",
+        "claimIds": ["dm-hestia-work-virgin"]
       },
       "inMyth": {
-        "text": "ヘスティアは、アプロディテの力が及ばない三柱の女神の一人。ポセイドンとアポロンに求婚されたが拒み、ゼウスの頭に手を触れて、生涯処女でいるという大いなる誓いを立てた。",
+        "text": "ヘスティアは、アテナ・アルテミスとともに、アプロディテの力が及ばない三柱の女神の一人。ポセイドンとアポロンに求婚されたが拒み、ゼウスの頭に手を触れて、生涯処女でいるという大いなる誓いを立てた。",
         "claimIds": ["dm-hestia-myth-virgin"]
       }
     }
@@ -51,8 +51,12 @@
       ]
     },
     {
-      "text": "原典ではポセイドンとアポロンの求婚を拒んで処女を誓った女神だが、作品ではベルに強い好意を寄せる女神として描かれる。",
-      "claimIds": ["dm-hestia-myth-virgin", "dm-hestia-cmp-love"]
+      "text": "「三大処女神」という作中の設定は、原典でアプロディテの力が及ばない三柱の女神（アテナ・アルテミス・ヘスティア）として語られることを踏まえている。一方で作品のヘスティアは、ベルに強い好意を寄せる女神として描かれる。",
+      "claimIds": [
+        "dm-hestia-myth-virgin",
+        "dm-hestia-work-virgin",
+        "dm-hestia-cmp-love"
+      ]
     }
   ],
   "claims": [
@@ -67,6 +71,14 @@
     {
       "id": "dm-hestia-work-hearth",
       "text": "作品では、ヘスティアが炉の神であるなどの設定が実際の神話を踏襲している。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hestia-work-virgin",
+      "text": "ヘスティアは作中においても三大処女神の一人であり、炉の女神として竈の炎を司るとされる。",
       "classification": "creative",
       "sourceIds": ["work-danmachi"],
       "verificationStatus": "verified",
@@ -98,11 +110,11 @@
     },
     {
       "id": "dm-hestia-myth-virgin",
-      "text": "ヘスティアはポセイドンとアポロンに求婚されたが拒み、ゼウスの頭に手を触れて生涯処女でいると誓った。",
+      "text": "アテナ、アルテミス、ヘスティアの三柱は、アプロディテの力が及ばない女神である。ヘスティアはポセイドンとアポロンに求婚されたが拒み、ゼウスの頭に手を触れて生涯処女でいると誓った。",
       "classification": "fact",
       "sourceIds": ["homeric-hymn-aphrodite"],
       "verificationStatus": "verified",
-      "sourceLocation": "『アプロディテ讃歌』21–28行"
+      "sourceLocation": "『アプロディテ讃歌』7–28行"
     },
     {
       "id": "dm-hestia-cmp-home",

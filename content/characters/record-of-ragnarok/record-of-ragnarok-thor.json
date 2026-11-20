@@ -1,0 +1,128 @@
+{
+  "id": "record-of-ragnarok-thor",
+  "slug": "record-of-ragnarok-thor",
+  "name": "トール",
+  "reading": "とーる",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "北欧神話最強とうたわれる戦神で、「雷の狂戦士」の異名をもつ雷神。ラグナロク第1回戦で呂布奉先と戦い、勝利した。",
+    "claimIds": ["ror-thor-work", "ror-thor-work-round"]
+  },
+  "nameOrigin": {
+    "text": "名前は北欧神話の雷神トールそのもの。",
+    "claimIds": ["ror-thor-work", "ror-thor-myth-strong"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "thor",
+      "label": "トール（最強の神）",
+      "inWork": {
+        "text": "北欧神話最強とうたわれる戦神で、「雷の狂戦士」と呼ばれる。",
+        "claimIds": ["ror-thor-work"]
+      },
+      "inMyth": {
+        "text": "スノッリは、トールをアース神族の筆頭とし、「神々と人間のなかで最も強い」と語っている。",
+        "claimIds": ["ror-thor-myth-strong"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "thor",
+      "label": "ミョルニルと鉄の手袋",
+      "inWork": {
+        "text": "神器は身の丈を上回る巨大な戦槌ミョルニル。ふだん身に着けている鉄の手袋ヤールングレイプルは、目覚める前のミョルニルを握り壊さないためのものとされる。",
+        "claimIds": ["ror-thor-work-weapon"]
+      },
+      "inMyth": {
+        "text": "トールは三つの宝をもつ。巨人たちが恐れる槌ミョルニル、締めると神の力が半分増す力帯、そして槌の柄を握るときに欠かせない鉄の手袋である。",
+        "claimIds": ["ror-thor-myth-treasures"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でも鉄の手袋は「槌を扱うときに欠かせないもの」とされている。作品は、手袋が槌を握るための道具であるという原典の設定を、強すぎる握力から槌を守るためという形に読みかえている。",
+      "claimIds": [
+        "ror-thor-myth-treasures",
+        "ror-thor-work-weapon",
+        "ror-thor-cmp-gloves"
+      ]
+    },
+    {
+      "text": "原典のトールはラグナロクで大蛇と相討ちのような形で倒れる。作品の「ラグナロク」は、神々と人類の一対一の戦いとして描かれ、トールはその初戦を勝利で飾る。",
+      "claimIds": [
+        "ror-thor-myth-ragnarok",
+        "ror-thor-work-round",
+        "ror-thor-cmp-ragnarok"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-thor-work",
+      "text": "トールは北欧神話最強とうたわれる戦神で、「雷の狂戦士」の異名をもつ雷神。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-thor-work-round",
+      "text": "トールはラグナロク第1回戦で呂布奉先と戦い、勝利した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-thor-work-weapon",
+      "text": "トールの神器は巨大な戦槌ミョルニル。鉄の手袋ヤールングレイプルは、覚醒前のミョルニルをトールが握り壊さないためのものとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-thor-myth-strong",
+      "text": "トールはアース神族の筆頭で、神々と人間のなかで最も強い。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "ror-thor-myth-treasures",
+      "text": "トールは槌ミョルニル、締めると神の力が半分増す力帯、槌の柄を扱うのに欠かせない鉄の手袋の三つの宝をもつ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "ror-thor-myth-ragnarok",
+      "text": "ラグナロクでは、オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。ロキは巨人たちとともに神々に敵対し、ヘイムダルと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-thor-cmp-gloves",
+      "text": "作品は、鉄の手袋が槌を扱うための道具であるという原典の設定を、槌を握り壊さないためという形に読みかえている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-thor-cmp-ragnarok",
+      "text": "原典のラグナロクは神々と巨人の最終戦争だが、作品では神と人類の一対一の戦いの名として用いられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda"],
+  "articleIds": []
+}

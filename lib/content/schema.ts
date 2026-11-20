@@ -146,6 +146,8 @@ export const figureTypes = {
   creature: "幻獣",
   nymph: "ニンフ",
   personification: "擬人化された存在",
+  valkyrie: "戦乙女（ワルキューレ）",
+  giant: "巨人",
 } as const
 export const figureSchema = z.object({
   id,

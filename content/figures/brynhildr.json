@@ -1,0 +1,17 @@
+{
+  "id": "brynhildr",
+  "slug": "brynhildr",
+  "name": "ブリュンヒルド",
+  "reading": "ぶりゅんひるど",
+  "originalName": "Brynhildr",
+  "romanized": "Brynhildr",
+  "alternativeNames": ["ブリュンヒルデ", "ブリュンヒルト"],
+  "type": "valkyrie",
+  "roles": ["戦乙女", "英雄詩"],
+  "mythologyIds": ["norse"],
+  "description": "英雄シグルズの物語に登場する戦乙女（ワルキューレ）。『古エッダ』の「ブリュンヒルドの冥府への旅」では、オーディンの意に背いて王に勝利を与えたため怒りを買い、恐れを知らぬ者にしか目覚めさせられない眠りにつけられたと語る。",
+  "relatedFigureIds": ["odin"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["poetic-edda"]
+}

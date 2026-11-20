@@ -1,0 +1,109 @@
+{
+  "id": "record-of-ragnarok-brunhilde",
+  "slug": "record-of-ragnarok-brunhilde",
+  "name": "ブリュンヒルデ",
+  "reading": "ぶりゅんひるで",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "本作の主人公で、戦乙女（ワルキューレ）13姉妹の長姉。人類に「終末」を与える神々の決議に待ったをかけ、ラグナロクの開催を提唱する。",
+    "claimIds": ["ror-brunhilde-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は北欧の英雄詩に登場する戦乙女ブリュンヒルドに由来する。",
+    "claimIds": ["ror-brunhilde-work", "ror-brunhilde-myth-defy"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "brynhildr",
+      "label": "ブリュンヒルド（オーディンに背いた戦乙女）",
+      "inWork": {
+        "text": "戦乙女の長姉。人類を滅ぼすという神々の決議に異を唱え、ラグナロクで人類の闘士を選んで神々に挑む。",
+        "claimIds": ["ror-brunhilde-work"]
+      },
+      "inMyth": {
+        "text": "『古エッダ』の「ブリュンヒルドの冥府への旅」で、ブリュンヒルドは、オーディンの意に背いてある王を死なせ、その敵に勝利を与えたため、オーディンの怒りを買ったと語る。オーディンは彼女を眠らせ、恐れを知らぬ者にしかその眠りを破らせないと定めた。",
+        "claimIds": ["ror-brunhilde-myth-defy", "ror-brunhilde-myth-sleep"]
+      }
+    },
+    {
+      "aspect": "role",
+      "label": "戦乙女（ワルキューレ）",
+      "inWork": {
+        "text": "戦乙女は北欧の半神で、地上の人類を神兵候補として天に召す「魂の運び手」を担う13人の姉妹とされる。",
+        "claimIds": ["ror-brunhilde-work-valkyrie"]
+      },
+      "inMyth": {
+        "text": "スノッリによれば、ワルキューレはオーディンがあらゆる戦いに送り出す者たちで、人の死の運命を定め、勝利を授ける。",
+        "claimIds": ["ror-brunhilde-myth-valkyrie"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のブリュンヒルドは、最高神オーディンの意に背いて戦の勝敗を決めたために罰を受けた戦乙女である。作品で神々の決議に異を唱え、人類の側に立つブリュンヒルデの姿は、この「神に背く戦乙女」という性格と重ねて読むことができる。",
+      "claimIds": [
+        "ror-brunhilde-myth-defy",
+        "ror-brunhilde-work",
+        "ror-brunhilde-cmp-defy"
+      ]
+    },
+    {
+      "text": "原典のワルキューレは、オーディンの命で戦場に赴き、死すべき者と勝者を定める存在である。作品では、戦乙女が闘士とともに戦い、自らが武器に変わる存在として描かれている。",
+      "claimIds": ["ror-brunhilde-myth-valkyrie", "ror-brunhilde-work-valkyrie"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-brunhilde-work",
+      "text": "ブリュンヒルデは本作の主人公で戦乙女の長姉。人類に「終末」を与える神々の決議に待ったをかけ、ラグナロクの開催を提唱する。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-brunhilde-work-valkyrie",
+      "text": "戦乙女（ワルキューレ）は北欧の半神で、地上の人類を神兵候補として天に召す「魂の運び手」を担う13人の姉妹とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-brunhilde-myth-defy",
+      "text": "ブリュンヒルドは、ゴート族の王ヒャルムグンナルを死なせてアウザの兄弟に勝利を与えたため、オーディンの怒りを買ったと語る。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ブリュンヒルドの冥府への旅」8節"
+    },
+    {
+      "id": "ror-brunhilde-myth-sleep",
+      "text": "オーディンはブリュンヒルドを盾で囲み、その眠りを破るのは恐れを知らぬ者でなければならないと定めた。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ブリュンヒルドの冥府への旅」9節"
+    },
+    {
+      "id": "ror-brunhilde-myth-valkyrie",
+      "text": "ワルキューレはオーディンがあらゆる戦いに送り出す者たちで、人の死の運命を定め、勝利を授ける。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 36章"
+    },
+    {
+      "id": "ror-brunhilde-cmp-defy",
+      "text": "神々の決議に異を唱える作品のブリュンヒルデは、オーディンに背いた原典の戦乙女と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "poetic-edda", "snorri-edda"],
+  "articleIds": []
+}

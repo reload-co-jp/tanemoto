@@ -1,0 +1,17 @@
+{
+  "id": "freyja",
+  "slug": "freyja",
+  "name": "フレイヤ",
+  "reading": "ふれいや",
+  "originalName": "Freyja",
+  "romanized": "Freyja",
+  "alternativeNames": ["フレイア", "ヴァナディース"],
+  "type": "god",
+  "roles": ["愛", "美", "戦死者"],
+  "mythologyIds": ["norse"],
+  "description": "ヴァン神族のニョルズの娘で、女神たちのなかで最も名高い。戦場の戦死者の半分を自らの館フォールクヴァングに迎え、残り半分はオーディンのものとなる。猫の引く車に乗り、恋の歌を好む。首飾りブリーシンガメンの持ち主。",
+  "relatedFigureIds": ["odin"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda"]
+}

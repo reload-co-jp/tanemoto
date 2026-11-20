@@ -108,5 +108,29 @@
     "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0138:hymn=5",
     "urlLabel": "Perseus Digital Library（H. G. Evelyn-White 英訳, 1914）",
     "notes": "アプロディテの力が及ばない三柱の女神として、アテナ・アルテミス・ヘスティアを挙げる（21–32行）。"
+  },
+  {
+    "id": "snorri-edda",
+    "title": "散文エッダ（スノッリのエッダ）",
+    "originalTitle": "Snorra Edda",
+    "author": "スノッリ・ストゥルルソン",
+    "translator": "A. G. ブロデュール 英訳（1916年）",
+    "type": "primary",
+    "publishedPeriod": "1220年頃",
+    "url": "https://en.wikisource.org/wiki/The_Prose_Edda_(1916_translation_by_Arthur_Gilchrist_Brodeur)/Gylfaginning",
+    "urlLabel": "Wikisource（A. G. Brodeur 英訳, 1916）",
+    "notes": "アイスランドの詩人・政治家スノッリが、詩作の手引きとして北欧の神話をまとめた書。第1部「ギュルヴィたぶらかし（ギュルヴァギニング）」は、王ギュルヴィの問いに神々が答える形で、世界の始まりからラグナロクまでを語る。トモタネでは章番号を Brodeur 訳に従って示す。"
+  },
+  {
+    "id": "poetic-edda",
+    "title": "古エッダ（詩のエッダ）",
+    "originalTitle": "Poetic Edda",
+    "author": "作者不詳",
+    "translator": "H. A. ベロウズ 英訳（1923年）",
+    "type": "primary",
+    "publishedPeriod": "13世紀後半の写本（王の写本）に伝わる。個々の詩の成立はそれ以前",
+    "url": "https://en.wikisource.org/wiki/The_Poetic_Edda_(tr._Bellows)",
+    "urlLabel": "Wikisource（H. A. Bellows 英訳, 1923）",
+    "notes": "神々や英雄をうたった古ノルド語の詩を集めたもの。『巫女の予言』などの神話詩と、シグルズやブリュンヒルドなどの英雄詩を含む。スノッリの『散文エッダ』も多くをこれらの詩に拠っている。"
   }
 ]

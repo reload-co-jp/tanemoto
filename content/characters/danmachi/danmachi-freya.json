@@ -1,0 +1,129 @@
+{
+  "id": "danmachi-freya",
+  "slug": "danmachi-freya",
+  "name": "フレイヤ",
+  "reading": "ふれいや",
+  "alternativeNames": [],
+  "workId": "danmachi",
+  "description": {
+    "text": "銀色の髪と瞳をもち、神々のなかでも随一の美貌をもつ美の女神。フレイヤ・ファミリアの主神で、主人公ベルに強く執着する。",
+    "claimIds": ["dm-freya-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は北欧神話の女神フレイヤに由来する。",
+    "claimIds": ["dm-freya-work", "dm-freya-myth-renowned"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "freyja",
+      "label": "フレイヤ（愛と美の女神）",
+      "inWork": {
+        "text": "神々のなかでも随一の美貌をもつ美の女神で、その美による魅了は、モンスターや神さえ簡単に虜にするほど強い。",
+        "claimIds": ["dm-freya-work", "dm-freya-work-charm"]
+      },
+      "inMyth": {
+        "text": "スノッリによれば、フレイヤはニョルズの娘で、美しく力強く、女神たちのなかで最も名高い。恋の歌を好み、恋の成就を願うには彼女に祈るのがよいとされる。",
+        "claimIds": ["dm-freya-myth-renowned", "dm-freya-myth-love"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "freyja",
+      "label": "フォールクヴァング（軍勢の野）",
+      "inWork": {
+        "text": "フレイヤ・ファミリアの本拠は「戦いの野」と呼ばれる。",
+        "claimIds": ["dm-freya-work-home"]
+      },
+      "inMyth": {
+        "text": "フレイヤは天にフォールクヴァングという住まいをもち、戦場に赴くと戦死者の半分を得て、残る半分はオーディンのものとなる。英訳者ブロデュールは、この名を「民の野、軍勢の野」と訳している。",
+        "claimIds": ["dm-freya-myth-folkvangr"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品のフレイヤ・ファミリアの本拠「戦いの野」は、原典でフレイヤが戦死者を迎える住まい「フォールクヴァング（軍勢の野）」と重なる名である。",
+      "claimIds": [
+        "dm-freya-myth-folkvangr",
+        "dm-freya-work-home",
+        "dm-freya-cmp-home"
+      ]
+    },
+    {
+      "text": "原典のフレイヤは恋の願いを聞き届ける女神とされる。作品では、その「美」と「恋」の性格が、他者を虜にする魅了の力として描かれている。",
+      "claimIds": [
+        "dm-freya-myth-love",
+        "dm-freya-work-charm",
+        "dm-freya-cmp-charm"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dm-freya-work",
+      "text": "フレイヤは銀色の髪と瞳をもち、神々のなかでも随一の美貌をもつ美の女神。フレイヤ・ファミリアの主神で、主人公ベルに強く執着する。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-freya-work-charm",
+      "text": "フレイヤの美による魅了は、モンスターや神ですら簡単に虜にするほど強い。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-freya-work-home",
+      "text": "フレイヤ・ファミリアの本拠は「戦いの野」と呼ばれる。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-freya-myth-renowned",
+      "text": "フレイヤはニョルズの娘で、美しく力強く、女神たちのなかで最も名高い。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "dm-freya-myth-love",
+      "text": "フレイヤは恋の歌を好み、恋の成就を願うには彼女に祈るのがよいとされる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "dm-freya-myth-folkvangr",
+      "text": "フレイヤは天の住まいフォールクヴァングをもち、戦場では戦死者の半分を得て、残る半分はオーディンのものとなる。英訳者はこの名を「民の野、軍勢の野」と訳している。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章（名の意味は Brodeur 訳注40）"
+    },
+    {
+      "id": "dm-freya-cmp-home",
+      "text": "本拠の名「戦いの野」は、原典のフレイヤの住まい「フォールクヴァング（軍勢の野）」と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "dm-freya-cmp-charm",
+      "text": "作品の魅了の力は、原典の恋をつかさどる女神としての性格を、他者を虜にする力として描いたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-danmachi", "snorri-edda"],
+  "articleIds": []
+}

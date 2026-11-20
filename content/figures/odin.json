@@ -1,0 +1,17 @@
+{
+  "id": "odin",
+  "slug": "odin",
+  "name": "オーディン",
+  "reading": "おーでぃん",
+  "originalName": "Óðinn",
+  "romanized": "Odin",
+  "alternativeNames": ["万物の父（アルファズル）", "戦死者の父"],
+  "type": "god",
+  "roles": ["神々の長", "知恵", "戦死者"],
+  "mythologyIds": ["norse"],
+  "description": "アース神族の最高神で最年長の神。「万物の父」と呼ばれる。ミーミルの泉の水を飲むために片目を差し出し、二羽のワタリガラス、フギンとムニンを世界中に飛ばして知らせを集める。ラグナロクではフェンリル狼に呑まれる。",
+  "relatedFigureIds": ["thor", "loki", "freyja"],
+  "relatedStoryIds": ["ragnarok"],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda"]
+}

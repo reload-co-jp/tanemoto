@@ -1,0 +1,87 @@
+{
+  "id": "danmachi-loki",
+  "slug": "danmachi-loki",
+  "name": "ロキ",
+  "reading": "ろき",
+  "alternativeNames": [],
+  "workId": "danmachi",
+  "description": {
+    "text": "ロキ・ファミリアの主神で、朱色の瞳と髪をもつ女神。エセ関西弁で話す無類の酒好き。団長フィン・ディムナは最初の眷族。",
+    "claimIds": ["dm-loki-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は北欧神話の神ロキに由来する。",
+    "claimIds": ["dm-loki-work", "dm-loki-myth-loki"]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "figureId": "loki",
+      "label": "トリックスター",
+      "inWork": {
+        "text": "天界では退屈しのぎにほかの神々を扇動して殺し合いをさせようとする物騒な神で、トリックスターとも言われていたが、下界に来てから丸くなった。",
+        "claimIds": ["dm-loki-work-trickster"]
+      },
+      "inMyth": {
+        "text": "スノッリはロキを「アース神族の悪だくみの張本人」「偽りの祖」と呼ぶ。狡知にたけ、神々を窮地に陥れては策で救い出す。",
+        "claimIds": ["dm-loki-myth-loki"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のロキは男神だが、作品では女神として描かれている。",
+      "claimIds": ["dm-loki-myth-loki", "dm-loki-cmp-gender"]
+    },
+    {
+      "text": "原典のロキは、神々を窮地に陥れる一方で、策によって救い出しもする。作品で天界の騒乱の種だったロキが、下界ではファミリアを率いる主神となっている姿は、この両面性と重ねて読むことができる。",
+      "claimIds": [
+        "dm-loki-myth-loki",
+        "dm-loki-work-trickster",
+        "dm-loki-cmp-two"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dm-loki-work",
+      "text": "ロキはロキ・ファミリアの主神で、朱色の瞳と髪をもつ女神。エセ関西弁で話す無類の酒好きで、団長フィン・ディムナは最初の眷族である。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-loki-work-trickster",
+      "text": "ロキは天界では退屈しのぎにほかの神々を扇動して殺し合いをさせようとする物騒な神で、トリックスターとも言われていたが、下界に来てから丸くなった。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-loki-myth-loki",
+      "text": "ロキは巨人ファールバウティの子で、アース神族に数えられる。「アース神族の悪だくみの張本人」「偽りの祖」と呼ばれ、狡知にたけ、神々を窮地に陥れては策で救い出す。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "dm-loki-cmp-gender",
+      "text": "原典のロキは男神だが、作品では女神として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "dm-loki-cmp-two",
+      "text": "天界の騒乱の種でありながら下界でファミリアを率いる姿は、原典のロキの両面性と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-danmachi", "snorri-edda"],
+  "articleIds": []
+}

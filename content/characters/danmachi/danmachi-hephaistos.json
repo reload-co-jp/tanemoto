@@ -19,8 +19,8 @@
       "figureId": "hephaestus",
       "label": "ヘパイストス（鍛冶の神）",
       "inWork": {
-        "text": "ヘファイストス・ファミリアを率いる女神。ファミリアの店では防具が売られている。",
-        "claimIds": ["dm-hephaistos-work"]
+        "text": "ヘファイストス・ファミリアを率いる女神で、鍛冶の神として他の追随を許さない技術をもつ。",
+        "claimIds": ["dm-hephaistos-work", "dm-hephaistos-work-smith"]
       },
       "inMyth": {
         "text": "原典のヘパイストスは鍛冶と工芸の神。『イリアス』では、青銅でできた自らの館で、炉に向けた二十の鞴（ふいご）を使い、金床と槌でアキレウスの盾を鍛えている。",
@@ -43,8 +43,12 @@
   ],
   "comparison": [
     {
-      "text": "原典のヘパイストスは男神で、『イリアス』では「足の曲がった神」と呼ばれる。作品では、ファミリアを率いる女神として描かれている。",
-      "claimIds": ["dm-hephaistos-myth-house", "dm-hephaistos-cmp-gender"]
+      "text": "原典のヘパイストスは男神で、『イリアス』では「足の曲がった神」と呼ばれる。作品では、右目に眼帯をつけた赤髪の女神として描かれている。",
+      "claimIds": [
+        "dm-hephaistos-myth-house",
+        "dm-hephaistos-work-smith",
+        "dm-hephaistos-cmp-gender"
+      ]
     },
     {
       "text": "原典でヘパイストスは、女神テティスの願いにこたえて英雄アキレウスの武具を作った。作品で女神ヘスティアの頼みを受け、眷族ベルのためにナイフを作る構図は、この挿話と重なる。",
@@ -59,6 +63,14 @@
     {
       "id": "dm-hephaistos-work",
       "text": "ヘファイストスはヘファイストス・ファミリアを率いる女神で、ヘスティアの神友。ファミリアの店では防具が売られている。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "dm-hephaistos-work-smith",
+      "text": "ヘファイストスは鍛冶の神として他の追随を許さない技術を保有し、右目に眼帯をつけた赤髪の女神として描かれる。",
       "classification": "creative",
       "sourceIds": ["work-danmachi"],
       "verificationStatus": "verified",

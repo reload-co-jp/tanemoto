@@ -21,7 +21,7 @@ const Page = () => (
     <PageHeader
       eyebrow="Mythologies"
       title="神話から探す"
-      description="神話体系ごとに、主な神々・英雄・怪物と物語をまとめています。現在はギリシャ神話を中心に記事を公開しています。"
+      description="神話体系ごとに、主な神々・英雄・怪物と物語をまとめています。現在はギリシャ神話と北欧神話を扱っています。"
     />
     <TileList
       items={getMythologies().map((m) => ({

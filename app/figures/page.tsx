@@ -10,7 +10,7 @@ import { paths } from "@/lib/site"
 export const metadata = buildMetadata({
   title: "人物・怪物から探す",
   description:
-    "ギリシャ神話の神々・英雄・怪物の一覧。名前の読み方や別名、原典での描かれ方、関連する物語と記事をまとめています。",
+    "ギリシャ神話・北欧神話の神々・英雄・怪物の一覧。名前の読み方や別名、原典での描かれ方、関連する物語と記事をまとめています。",
   path: paths.figures(),
 })
 

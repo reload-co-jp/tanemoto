@@ -1,0 +1,106 @@
+{
+  "id": "record-of-ragnarok-loki",
+  "slug": "record-of-ragnarok-loki",
+  "name": "ロキ",
+  "reading": "ろき",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "北欧神話の狡知の神で、変身能力をもつ。飄々とした少年のような風貌で、変身や言動でほかの神々をからかう。第11回戦でシモ・ヘイヘと戦い、消滅した。",
+    "claimIds": ["ror-loki-work", "ror-loki-work-round"]
+  },
+  "nameOrigin": {
+    "text": "名前は北欧神話の神ロキそのもの。",
+    "claimIds": ["ror-loki-work", "ror-loki-myth-loki"]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "figureId": "loki",
+      "label": "狡知の神",
+      "inWork": {
+        "text": "北欧神話の狡知の神とされ、変身や言動でほかの神々をからかう。",
+        "claimIds": ["ror-loki-work"]
+      },
+      "inMyth": {
+        "text": "スノッリはロキを「アース神族の悪だくみの張本人」「偽りの祖」と呼ぶ。見た目は美しいが心は邪悪で移り気、狡知にたけ、神々を窮地に陥れては策で救い出す。",
+        "claimIds": ["ror-loki-myth-loki"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "loki",
+      "label": "変身",
+      "inWork": {
+        "text": "変身能力をもつ。",
+        "claimIds": ["ror-loki-work"]
+      },
+      "inMyth": {
+        "text": "バルドルの死の責めを負って神々から逃れたロキは、昼のあいだ鮭に姿を変えて滝に隠れた。",
+        "claimIds": ["ror-loki-myth-salmon"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のロキは巨人の子でありながらアース神族に数えられ、ラグナロクでは巨人の側について神々と戦う。作品のロキは、神と人類が戦うラグナロクで神側の闘士として出場している。",
+      "claimIds": [
+        "ror-loki-myth-loki",
+        "ror-loki-myth-ragnarok",
+        "ror-loki-work-round",
+        "ror-loki-cmp-side"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-loki-work",
+      "text": "ロキは北欧神話の狡知の神で、変身能力をもつ。飄々とした少年のような風貌で、変身能力や言動でほかの神々をからかう。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-loki-work-round",
+      "text": "ロキは第11回戦でシモ・ヘイヘと戦い、完全に消滅した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-loki-myth-loki",
+      "text": "ロキは巨人ファールバウティの子で、アース神族に数えられる。「アース神族の悪だくみの張本人」「偽りの祖」と呼ばれ、見た目は美しいが心は邪悪で移り気。狡知にたけ、神々を窮地に陥れては策で救い出す。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "ror-loki-myth-salmon",
+      "text": "神々から逃れたロキは、昼のあいだ鮭に姿を変えてフラーナングの滝に隠れた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 50章"
+    },
+    {
+      "id": "ror-loki-myth-ragnarok",
+      "text": "ラグナロクでは、オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。ロキは巨人たちとともに神々に敵対し、ヘイムダルと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-loki-cmp-side",
+      "text": "原典のロキはラグナロクで巨人側につくが、作品では神側の闘士として戦う。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda"],
+  "articleIds": []
+}
