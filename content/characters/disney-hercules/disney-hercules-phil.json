@@ -1,0 +1,92 @@
+{
+  "id": "disney-hercules-phil",
+  "slug": "disney-hercules-phil",
+  "name": "フィル",
+  "reading": "ふぃる",
+  "alternativeNames": ["ピロクテテス"],
+  "workId": "disney-hercules",
+  "description": {
+    "text": "本名ピロクテテス。半人半獣のヤギ人間サテュロスで、数多くのヒーローを育てた敏腕トレーナー。ヘラクレスの師となる。",
+    "claimIds": ["dh-phil-work"]
+  },
+  "nameOrigin": {
+    "text": "本名「ピロクテテス」は、ヘラクレスの火葬の薪に火をつけた人物として伝わるピロクテテスと同じ名である。",
+    "claimIds": ["dh-phil-work", "dh-phil-myth-pyre-variant"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "label": "ピロクテテス（ヘラクレスの最期を看取った者）",
+      "inWork": {
+        "text": "本名はピロクテテス。ヘラクレスの師として、彼を英雄に育てる。",
+        "claimIds": ["dh-phil-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、オイテ山で火葬の薪に登ったヘラクレスのために、誰も火をつけようとしなかったとき、通りかかったポイアスが火をつけ、ヘラクレスは彼に弓を与えた。訳注者フレイザーは、通常の伝承では火をつけたのはポイアスではなく、その子ピロクテテスだと注記している。",
+        "claimIds": ["dh-phil-myth-pyre", "dh-phil-myth-pyre-variant"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のピロクテテスは、ヘラクレスの最期に立ち会い、弓を受け継いだ人物として伝わる。作品では、英雄の「最期を見送る者」が、英雄を「育てる師」として描き直されている。",
+      "claimIds": [
+        "dh-phil-myth-pyre",
+        "dh-phil-myth-pyre-variant",
+        "dh-phil-work",
+        "dh-phil-cmp-role"
+      ]
+    },
+    {
+      "text": "作品のフィルは半人半獣のサテュロスだが、ヘラクレスの火葬に立ち会ったと伝わるピロクテテスは人間である。",
+      "claimIds": ["dh-phil-myth-pyre-variant", "dh-phil-cmp-satyr"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dh-phil-work",
+      "text": "フィルの本名はピロクテテスで、半人半獣のヤギ人間サテュロス。数多くのヒーローを育てた敏腕トレーナーで、ヘラクレスの師となる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-phil-myth-pyre",
+      "text": "オイテ山で火葬の薪に登ったヘラクレスのために誰も火をつけようとしなかったとき、ポイアスが火をつけ、ヘラクレスは彼に弓を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.7.7"
+    },
+    {
+      "id": "dh-phil-myth-pyre-variant",
+      "text": "通常の伝承では、ヘラクレスの火葬の薪に火をつけたのはポイアスではなくその子ピロクテテスである（ディオドロス、オウィディウスほか）。",
+      "classification": "variant",
+      "sourceIds": ["frazer-apollodorus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "フレイザー注（『ビブリオテーケー』2.7.7）"
+    },
+    {
+      "id": "dh-phil-cmp-satyr",
+      "text": "原典で伝わるピロクテテスは人間であり、サテュロスとする設定は作品独自のものである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "dh-phil-cmp-role",
+      "text": "英雄の最期を見送った者を、英雄を育てる師として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    }
+  ],
+  "sourceIds": [
+    "work-disney-hercules",
+    "apollodorus-library",
+    "frazer-apollodorus"
+  ],
+  "articleIds": []
+}

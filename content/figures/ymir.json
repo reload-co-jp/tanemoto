@@ -1,0 +1,17 @@
+{
+  "id": "ymir",
+  "slug": "ymir",
+  "name": "ユミル",
+  "reading": "ゆみる",
+  "originalName": "Ymir",
+  "romanized": "Ymir",
+  "alternativeNames": ["アウルゲルミル"],
+  "type": "giant",
+  "roles": ["原初の巨人", "霜の巨人の祖"],
+  "mythologyIds": ["norse"],
+  "description": "世界の始まりに、氷の滴から生まれた原初の巨人。霜の巨人たちの祖。牝牛アウズンブラの乳で育った。オーディンら三兄弟に殺され、その体から大地・海・山・天が作られた。",
+  "relatedFigureIds": ["odin"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda"]
+}

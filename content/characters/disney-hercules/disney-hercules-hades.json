@@ -1,0 +1,121 @@
+{
+  "id": "disney-hercules-hades",
+  "slug": "disney-hercules-hades",
+  "name": "ハデス",
+  "reading": "はです",
+  "alternativeNames": [],
+  "workId": "disney-hercules",
+  "description": {
+    "text": "死者の国の神で、ゼウスの弟。運命の三女神の予言を受け、タイタン族を使ってオリンポスを乗っ取ろうとたくらむ。",
+    "claimIds": ["dh-hades-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の冥界の王ハデスそのもの。",
+    "claimIds": ["dh-hades-work", "dh-hades-myth-lot"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "hades",
+      "label": "ハデス（冥界の王）",
+      "inWork": {
+        "text": "死者の国の神で、ゼウスの弟とされる。オリンポスの支配をたくらむ悪役として描かれる。",
+        "claimIds": ["dh-hades-work"]
+      },
+      "inMyth": {
+        "text": "原典のハデスはクロノスとレアの子。ヘシオドスは、ゼウスより先に生まれた子として挙げる。『イリアス』では、ゼウス・ポセイドン・ハデスの三兄弟がくじで世界を分け、ハデスは闇の世界を得たとされ、大地とオリュンポスは三者の共有とされる。",
+        "claimIds": ["dh-hades-myth-kids", "dh-hades-myth-lot"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "label": "ティタン（タイタン族）",
+      "inWork": {
+        "text": "運命の三女神の予言に従い、封印されていたタイタン族を解き放つ。",
+        "claimIds": ["dh-hades-work-titans"]
+      },
+      "inMyth": {
+        "text": "原典では、ゼウスら兄弟はティタンたちと十年にわたって戦って勝利し、ティタンたちをタルタロスに閉じ込めた。ハデスも、キュクロプスから兜を授かってこの戦いに加わっている。",
+        "claimIds": ["dh-hades-myth-titans"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品のハデスはゼウスの「弟」だが、ヘシオドスの系譜ではハデスはゼウスより先に生まれた兄にあたる。",
+      "claimIds": ["dh-hades-myth-kids", "dh-hades-work", "dh-hades-cmp-elder"]
+    },
+    {
+      "text": "原典のハデスは、くじで冥界を割り当てられた神で、ゼウスに反逆する神としては語られない。むしろティタンとの戦いではゼウスの側で戦っている。作品の「ティタンを解き放ってオリンポスを奪う悪役」は、作品独自の設定である。",
+      "claimIds": [
+        "dh-hades-myth-lot",
+        "dh-hades-myth-titans",
+        "dh-hades-work-titans",
+        "dh-hades-cmp-villain"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dh-hades-work",
+      "text": "ハデスは死者の国の神で、ゼウスの弟。運命の三女神に予言を受け、タイタン族を使ってオリンポスを乗っ取ろうとたくらむ。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-hades-work-titans",
+      "text": "ハデスは運命の三女神の予言に従い、封印されていたタイタン族を解き放った。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-hades-myth-kids",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "dh-hades-myth-lot",
+      "text": "ゼウス・ポセイドン・ハデスの三兄弟はくじで世界を分け、ハデスは霧深い闇を得た。大地とオリュンポスは三者の共有である。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "dh-hades-myth-titans",
+      "text": "ゼウスら兄弟はティタンたちと十年戦い、キュクロプスから授かった雷霆・兜・三叉の矛で勝利して、ティタンたちをタルタロスに閉じ込めた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "dh-hades-cmp-elder",
+      "text": "ヘシオドスの系譜では、ハデスはゼウスより先に生まれている。",
+      "classification": "editorial",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "dh-hades-cmp-villain",
+      "text": "原典のハデスはゼウスに反逆する神として語られず、ティタンを解き放つ悪役は作品独自の設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-disney-hercules",
+    "hesiod-theogony",
+    "homer-iliad",
+    "apollodorus-library"
+  ],
+  "articleIds": []
+}

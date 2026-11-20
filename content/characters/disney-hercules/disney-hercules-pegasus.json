@@ -1,0 +1,90 @@
+{
+  "id": "disney-hercules-pegasus",
+  "slug": "disney-hercules-pegasus",
+  "name": "ペガサス",
+  "reading": "ぺがさす",
+  "alternativeNames": [],
+  "workId": "disney-hercules",
+  "description": {
+    "text": "ヘラクレスの誕生祝いにゼウスが雲から作った天馬。話せないが、身ぶりで意思を伝える。",
+    "claimIds": ["dh-pegasus-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の天馬ペガサス（ペガソス）に由来する。",
+    "claimIds": ["dh-pegasus-work", "dh-pegasus-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "pegasus",
+      "label": "ペガサス（天馬）",
+      "inWork": {
+        "text": "ヘラクレスの誕生祝いにゼウスが雲から作った天馬。",
+        "claimIds": ["dh-pegasus-work"]
+      },
+      "inMyth": {
+        "text": "原典のペガサスは、ペルセウスがメデューサの首を切ったとき、その体から生まれた。のちにゼウスの館に住み、ゼウスの雷鳴と稲妻を運んだ。",
+        "claimIds": ["dh-pegasus-myth-birth", "dh-pegasus-myth-zeus"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のペガサスはメデューサから生まれ、英雄ベレロポンを乗せて怪物キマイラを倒した。作品では、ゼウスが雲から作り、英雄ヘラクレスの相棒となる。生まれ方は異なるが、「英雄を乗せる天馬」「ゼウスに仕える天馬」という性格は受け継がれている。",
+      "claimIds": [
+        "dh-pegasus-myth-birth",
+        "dh-pegasus-myth-zeus",
+        "dh-pegasus-myth-bellerophon",
+        "dh-pegasus-work",
+        "dh-pegasus-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dh-pegasus-work",
+      "text": "ペガサスはヘラクレスの誕生祝いにゼウスが雲から作った天馬で、話せないが身ぶりで意思を伝える。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-pegasus-myth-birth",
+      "text": "ペルセウスがメデューサの首を切ったとき、ゴルゴンから天馬ペガソスと、クリュサオルが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "dh-pegasus-myth-zeus",
+      "text": "ペガソスは地上を去ってゼウスの館に住み、ゼウスの雷鳴と稲妻を運ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』284–286行"
+    },
+    {
+      "id": "dh-pegasus-myth-bellerophon",
+      "text": "ベレロポンは天馬ペガソスに乗って空からキマイラを射落とした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.2"
+    },
+    {
+      "id": "dh-pegasus-cmp",
+      "text": "生まれ方は異なるが、英雄を乗せゼウスに仕える天馬という性格は原典と共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-disney-hercules",
+    "apollodorus-library",
+    "hesiod-theogony"
+  ],
+  "articleIds": []
+}

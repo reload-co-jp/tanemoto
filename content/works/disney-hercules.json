@@ -1,0 +1,14 @@
+{
+  "id": "disney-hercules",
+  "slug": "disney-hercules",
+  "title": "ヘラクレス（ディズニー映画）",
+  "reading": "へらくれす",
+  "type": "film",
+  "mediaTypes": [],
+  "author": "ジョン・マスカー、ロン・クレメンツ（監督）",
+  "period": "1997年公開",
+  "description": "ギリシャ神話の英雄ヘラクレスを主人公にした、ディズニーの長編アニメーション映画。神として生まれながら人間界で育ったヘラクレスが、神に戻るため「真のヒーロー」を目指す。ハデスやペガサス、運命の三女神など、神話の神々や怪物が登場する。",
+  "mythologyIds": ["greek"],
+  "articleIds": [],
+  "sourceIds": ["work-disney-hercules"]
+}

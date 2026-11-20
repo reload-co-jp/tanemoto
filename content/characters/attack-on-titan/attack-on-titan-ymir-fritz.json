@@ -1,0 +1,167 @@
+{
+  "id": "attack-on-titan-ymir-fritz",
+  "slug": "attack-on-titan-ymir-fritz",
+  "name": "始祖ユミル",
+  "reading": "しそゆみる",
+  "alternativeNames": ["ユミル・フリッツ"],
+  "workId": "attack-on-titan",
+  "description": {
+    "text": "ユミルの民の祖先で、始祖の巨人の巨人化能力者。もとは古代エルディアの奴隷で、約1820年前に「大地の悪魔」と契約して巨人の力を得たと伝えられる。",
+    "claimIds": ["aot-ymir-fritz-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話には、霜の巨人たちの祖である原初の巨人「ユミル」が登場する。作品の「ユミル」との名前の一致は指摘されることがあるが、作者がこれを参照したことを示す公式な記述は確認できていない。",
+    "claimIds": ["aot-ymir-fritz-myth-origin", "aot-ymir-fritz-cmp-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "ymir",
+      "label": "ユミル（巨人の祖）",
+      "inWork": {
+        "text": "ユミルの民の祖先とされ、作中の巨人の正体は、壁内人類と同じ祖先をもつ「ユミルの民」である。",
+        "claimIds": ["aot-ymir-fritz-work", "aot-ymir-fritz-work-people"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、世界の始まりに、氷の滴が熱に溶かされて生命が宿り、人の姿となったのがユミルで、霜の巨人の種族はすべてユミルから出た。",
+        "claimIds": ["aot-ymir-fritz-myth-origin"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "ymir",
+      "label": "切り分けられた体",
+      "inWork": {
+        "text": "ユミルは巨人化から13年後に死ぬ。その亡骸は、巨人の力を継承させようとしたフリッツ王によって切り刻まれ、3人の娘たちに食べさせられた。",
+        "claimIds": ["aot-ymir-fritz-work-death"]
+      },
+      "inMyth": {
+        "text": "原典のユミルは、オーディンら三兄弟に殺される。三兄弟はユミルの体を奈落の中央に運び、肉から大地を、血から海を、骨から岩山を、頭蓋骨から天を作った。",
+        "claimIds": ["aot-ymir-fritz-myth-slain", "aot-ymir-fritz-myth-body"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のユミルは霜の巨人すべての祖であり、作品の始祖ユミルも巨人の力をもつ「ユミルの民」の祖である。どちらも「巨人の一族の始まり」に位置する存在として描かれている。",
+      "claimIds": [
+        "aot-ymir-fritz-myth-origin",
+        "aot-ymir-fritz-work-people",
+        "aot-ymir-fritz-cmp-ancestor"
+      ]
+    },
+    {
+      "text": "原典ではユミルの体が切り分けられて世界の材料となり、作品ではユミルの亡骸が切り刻まれて巨人の力が娘たちに受け継がれる。死後に体が分けられ、それが次の世界や世代のもとになるという構図に共通点が見られる。",
+      "claimIds": [
+        "aot-ymir-fritz-myth-body",
+        "aot-ymir-fritz-work-death",
+        "aot-ymir-fritz-cmp-body"
+      ]
+    },
+    {
+      "text": "ただし、原典のユミルは邪悪な霜の巨人の祖として語られる一方、作品のユミルは、両親を殺され舌を抜かれた奴隷の少女として描かれており、人物像は大きく異なる。",
+      "claimIds": [
+        "aot-ymir-fritz-myth-evil",
+        "aot-ymir-fritz-work-slave",
+        "aot-ymir-fritz-cmp-diff"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "aot-ymir-fritz-work",
+      "text": "始祖ユミル（ユミル・フリッツ）はユミルの民の祖先で、始祖の巨人の巨人化能力者。約1820年前に「大地の悪魔」と契約して巨人の力を得たと伝えられる。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人の登場人物」の記述で確認。"
+    },
+    {
+      "id": "aot-ymir-fritz-work-people",
+      "text": "作中の巨人の正体は、壁内人類と同じ祖先をもつ「ユミルの民」である。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人」の記述で確認。"
+    },
+    {
+      "id": "aot-ymir-fritz-work-slave",
+      "text": "ユミルは古代エルディアに両親を殺害され、舌を抜かれて物言わぬ身となった奴隷だった。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人の登場人物」の記述で確認。"
+    },
+    {
+      "id": "aot-ymir-fritz-work-death",
+      "text": "ユミルは巨人化を果たした13年後に死亡し、その亡骸は、巨人の力を継承させようとしたフリッツ王の命令で切り刻まれ、3人の娘たちに食われた。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人の登場人物」の記述で確認。"
+    },
+    {
+      "id": "aot-ymir-fritz-myth-origin",
+      "text": "熱が霜に触れて溶けた滴に生命が宿り、人の姿となったのがユミルで、霜の巨人の種族はユミルから出た。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 5章"
+    },
+    {
+      "id": "aot-ymir-fritz-myth-evil",
+      "text": "ユミルは神ではなく、彼もその一族も邪悪で、霜の巨人と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 5章"
+    },
+    {
+      "id": "aot-ymir-fritz-myth-slain",
+      "text": "ボルの息子たち（オーディン、ヴィリ、ヴェー）は巨人ユミルを殺した。その傷から流れた血で、一家族を除く霜の巨人が溺れ死んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 6–7章"
+    },
+    {
+      "id": "aot-ymir-fritz-myth-body",
+      "text": "ボルの息子たちはユミルを奈落ギンヌンガガプの中央に運び、血から海と水を、肉から大地を、骨から岩山を、歯から石を、頭蓋骨から天を作った。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 8章"
+    },
+    {
+      "id": "aot-ymir-fritz-cmp-name",
+      "text": "作品の「ユミル」と北欧神話のユミルとの名前の一致は指摘されることがあるが、作者が参照したことを示す公式な記述は確認できていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "aot-ymir-fritz-cmp-ancestor",
+      "text": "どちらのユミルも「巨人の一族の始まり」に位置する存在として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "aot-ymir-fritz-cmp-body",
+      "text": "死後に体が分けられ、次の世界や世代のもとになるという構図に共通点がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "aot-ymir-fritz-cmp-diff",
+      "text": "原典では邪悪な霜の巨人の祖、作品では奴隷の少女として描かれ、人物像は大きく異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-attack-on-titan", "snorri-edda"],
+  "articleIds": []
+}

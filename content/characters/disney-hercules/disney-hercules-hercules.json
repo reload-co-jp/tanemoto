@@ -1,0 +1,137 @@
+{
+  "id": "disney-hercules-hercules",
+  "slug": "disney-hercules-hercules",
+  "name": "ヘラクレス",
+  "reading": "へらくれす",
+  "alternativeNames": ["ハーク"],
+  "workId": "disney-hercules",
+  "description": {
+    "text": "本作の主人公。ゼウスの息子として生まれたが、ハデスの部下に人間になる薬を飲まされ、人間界で羊飼いの夫婦に育てられる。神に戻るため「本当のヒーロー」を目指す。",
+    "claimIds": ["dh-hercules-work", "dh-hercules-work-potion"]
+  },
+  "nameOrigin": {
+    "text": "名前はギリシャ神話の英雄ヘラクレスそのもの。",
+    "claimIds": ["dh-hercules-work", "dh-hercules-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "heracles",
+      "label": "ヘラクレス（ゼウスの子）",
+      "inWork": {
+        "text": "ゼウスとヘラの息子として生まれる。作品の解説でも、神話と異なり母親はアルクメネではなくヘラとされている。",
+        "claimIds": ["dh-hercules-work", "dh-hercules-work-mother"]
+      },
+      "inMyth": {
+        "text": "原典のヘラクレスは、ゼウスが人間の女性アルクメネのもとに夫アンピトリュオンの姿で訪れて生まれた子。ヘラはヘラクレスを憎み、生後八か月の赤子のもとに二匹の大蛇を送ったが、ヘラクレスは両手で絞め殺した。",
+        "claimIds": ["dh-hercules-myth-birth", "dh-hercules-myth-snakes"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "heracles",
+      "label": "人間から神へ",
+      "inWork": {
+        "text": "人間界で育ったヘラクレスは、ゼウスから「神に戻るには本当のヒーローになるしかない」と告げられ、最後には真のヒーローとなる。",
+        "claimIds": ["dh-hercules-work-hero"]
+      },
+      "inMyth": {
+        "text": "原典のヘラクレスは人間として生まれ、難業を果たせば不死になると神託で告げられた。死の床となった火葬の薪の山から雲に乗って天に昇り、不死を得てヘラと和解し、その娘ヘベを妻とした。",
+        "claimIds": ["dh-hercules-myth-labors", "dh-hercules-myth-ascend"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では母はアルクメネで、ヘラはヘラクレスを憎み続ける継母のような存在である。作品では、母をヘラとすることで、ヘラクレスを「生まれながらの神」として描いている。",
+      "claimIds": [
+        "dh-hercules-myth-birth",
+        "dh-hercules-myth-snakes",
+        "dh-hercules-work-mother"
+      ]
+    },
+    {
+      "text": "原典のヘラクレスは「人間から神になる」英雄であり、作品は「神から人間になり、また神に戻る」物語として組み直している。どちらも、試練を経て神々の一員となる点は共通している。",
+      "claimIds": [
+        "dh-hercules-myth-ascend",
+        "dh-hercules-work-hero",
+        "dh-hercules-cmp-arc"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dh-hercules-work",
+      "text": "ヘラクレスは本作の主人公で、ゼウスの息子。愛称はハーク。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-hercules-work-potion",
+      "text": "ハデスの部下ペインとパニックはヘラクレスを誘拐して人間になる薬を飲ませ、ヘラクレスは人間界で羊飼いの夫婦に育てられた。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-hercules-work-mother",
+      "text": "作品ではヘラクレスの母親はアルクメネではなくヘラとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-hercules-work-hero",
+      "text": "ヘラクレスはゼウスから「神に戻るには本当のヒーローになるしかない」と告げられ、最後には真のヒーローとなる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-hercules-myth-birth",
+      "text": "ゼウスはアンピトリュオンの姿でアルクメネと交わり、アルクメネはヘラクレスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.8"
+    },
+    {
+      "id": "dh-hercules-myth-snakes",
+      "text": "ヘラはヘラクレスの死を望み、生後八か月の赤子のもとに二匹の大蛇を送ったが、ヘラクレスは両手で絞め殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.8"
+    },
+    {
+      "id": "dh-hercules-myth-labors",
+      "text": "デルポイの巫女は、エウリュステウスに十二年仕えて十の難業を果たせば不死となるとヘラクレスに告げた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "dh-hercules-myth-ascend",
+      "text": "ヘラクレスはオイテ山で火葬の薪の山に登り、燃えるあいだに雲に乗って天に昇った。不死を得てヘラと和解し、その娘ヘベを妻とした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.7.7"
+    },
+    {
+      "id": "dh-hercules-cmp-arc",
+      "text": "原典の「人間から神へ」を、作品は「神から人間へ、そして神へ」と組み直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-disney-hercules", "apollodorus-library"],
+  "articleIds": []
+}

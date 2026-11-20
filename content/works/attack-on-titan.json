@@ -1,0 +1,14 @@
+{
+  "id": "attack-on-titan",
+  "slug": "attack-on-titan",
+  "title": "進撃の巨人",
+  "reading": "しんげきのきょじん",
+  "type": "manga",
+  "mediaTypes": ["anime"],
+  "author": "諫山創",
+  "period": "2009〜2021年（『別冊少年マガジン』連載、全34巻）",
+  "description": "人類を捕食する巨人と、壁の中で暮らす人類の戦いを描く漫画作品。2013年からアニメ化。巨人の正体は「ユミルの民」と呼ばれる人々で、その祖先が「始祖ユミル」とされる。",
+  "mythologyIds": ["norse"],
+  "articleIds": [],
+  "sourceIds": ["work-attack-on-titan"]
+}

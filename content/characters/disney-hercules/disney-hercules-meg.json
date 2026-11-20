@@ -1,0 +1,76 @@
+{
+  "id": "disney-hercules-meg",
+  "slug": "disney-hercules-meg",
+  "name": "メガラ",
+  "reading": "めがら",
+  "alternativeNames": ["メグ"],
+  "workId": "disney-hercules",
+  "description": {
+    "text": "ヘラクレスの前に現れた謎の美女。実は死んだ恋人を救うためにハデスに魂を売り、その手下として働いていた。",
+    "claimIds": ["dh-meg-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は、原典でヘラクレスの最初の妻とされるメガラと同じである。",
+    "claimIds": ["dh-meg-work", "dh-meg-myth-wife"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "label": "メガラ（ヘラクレスの最初の妻）",
+      "inWork": {
+        "text": "ヘラクレスと恋に落ちる女性として描かれる。",
+        "claimIds": ["dh-meg-work"]
+      },
+      "inMyth": {
+        "text": "原典のメガラはテーバイ王クレオンの長女で、ヘラクレスが戦いの褒美として妻に迎え、三人の息子をもうけた。しかしヘラクレスはヘラの嫉妬で狂気に陥り、メガラとのあいだの子どもたちを火に投げ込んでしまう。",
+        "claimIds": ["dh-meg-myth-wife", "dh-meg-myth-madness"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のメガラとヘラクレスの結婚は、狂気による子殺しという悲劇に終わり、それがヘラクレスの難業の発端となる。作品では、メガラはハデスの手下からヘラクレスの恋人となり、物語は二人の愛の成就として描かれている。",
+      "claimIds": [
+        "dh-meg-myth-wife",
+        "dh-meg-myth-madness",
+        "dh-meg-work",
+        "dh-meg-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dh-meg-work",
+      "text": "メガラ（メグ）はヘラクレスの前に現れた謎の美女で、実は死んだ恋人を救おうとハデスに魂を売り、その手下として働いていた。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "dh-meg-myth-wife",
+      "text": "ヘラクレスはテーバイ王クレオンから長女メガラを戦いの褒美として妻に迎え、三人の息子をもうけた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.11"
+    },
+    {
+      "id": "dh-meg-myth-madness",
+      "text": "ヘラクレスはヘラの嫉妬で狂気に陥り、メガラとのあいだの子どもたちを火に投げ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "dh-meg-cmp",
+      "text": "原典ではメガラとの結婚は悲劇に終わるが、作品では二人の愛の成就として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-disney-hercules", "apollodorus-library"],
+  "articleIds": []
+}
