@@ -1,0 +1,241 @@
+{
+  "id": "odin",
+  "slug": "odin",
+  "title": "オーディンとは？片目とカラスの理由を北欧神話の原典から解説【終末のワルキューレ】",
+  "shortTitle": "オーディンの元ネタ",
+  "eyecatchText": "オーディン",
+  "description": "『終末のワルキューレ』で眼帯をつけ、両肩にカラスを乗せて登場する北欧の最高神オーディン。片目を失った理由、フギンとムニン、ルーンを得るために自らを捧げた話、ラグナロクでの最期を原典から解説します。",
+  "lead": "眼帯をつけ、両肩に二羽のカラスを乗せた『終末のワルキューレ』のオーディン。その姿は、北欧神話の原典に描かれる「万物の父」の特徴をそのまま踏まえています。なぜ片目なのか、カラスは何をしているのか。エッダの記述から読み解きます。",
+  "category": "character-origins",
+  "tags": [
+    "オーディン",
+    "終末のワルキューレ",
+    "北欧神話",
+    "ワルキューレ",
+    "ルーン"
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["odin", "thor", "loki", "brynhildr"],
+  "mythologyIds": ["norse"],
+  "storyIds": ["ragnarok"],
+  "workIds": ["record-of-ragnarok"],
+  "characterIds": ["record-of-ragnarok-odin"],
+  "topicIds": [],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda", "poetic-edda"],
+  "relatedArticleIds": ["thor", "ragnarok", "brynhildr"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『終末のワルキューレ』のオーディンと元ネタ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『終末のワルキューレ』のオーディンは北欧の最高神で、眼帯をつけ、両肩にワタリガラスのフギンとムニンを乗せています。今回のラグナロクを「我が宿願」と語るなど、独自の思惑をもつ神として描かれます。",
+      "claimIds": ["odin-work"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "万物の父——最も高く最も古い神",
+      "anchor": "allfather"
+    },
+    {
+      "type": "paragraph",
+      "text": "『散文エッダ』によれば、オーディンはアース神族で最も高く最も古い神で、すべてを治め、ほかの神々は子が父に従うように彼に仕えます。すべての神々の父であることから「万物の父（アルファズル）」と呼ばれ、戦で倒れた者はみな彼の養子となるため「戦死者の父」とも呼ばれました。",
+      "claimIds": ["odin-chief", "odin-names"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "片目の理由——ミーミルの泉",
+      "anchor": "eye"
+    },
+    {
+      "type": "paragraph",
+      "text": "世界樹ユグドラシルの根のもとには、知恵と理解が蓄えられたミーミルの泉があります。オーディンはその水をひと口求めましたが、片目を担保として差し出すまで飲ませてもらえませんでした。作品のオーディンの眼帯は、この逸話を踏まえたものと考えられます。",
+      "claimIds": ["odin-eye", "odin-cmp-eye"]
+    },
+    {
+      "type": "quote",
+      "text": "オーディンよ、わたしはすべて知っている。おまえが目をどこに隠したかを。名高いミーミルの泉のなかに。",
+      "sourceId": "snorri-edda",
+      "location": "ギュルヴィたぶらかし 15章（「巫女の予言」の引用）",
+      "translationNote": "Brodeur の英訳をもとにした編集部訳",
+      "claimIds": ["odin-eye"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "フギンとムニン——世界を飛ぶ二羽のカラス",
+      "anchor": "ravens"
+    },
+    {
+      "type": "paragraph",
+      "text": "オーディンの肩には二羽のワタリガラスがとまり、見聞きした知らせを耳打ちします。夜明けに世界中へ飛ばされ、朝食のころに戻ってくるため、オーディンは多くの知らせに通じており、「カラスの神」と呼ばれました。英訳者は二羽の名を「思考（フギン）」「記憶（ムニン）」と訳しています。",
+      "claimIds": ["odin-ravens"]
+    },
+    {
+      "type": "paragraph",
+      "text": "オーディンはまた、食卓の肉を二匹の狼ゲリとフレキに与え、自らは葡萄酒だけで生きているとされます。",
+      "claimIds": ["odin-wolves"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ルーンを得るために自らを捧げた",
+      "anchor": "runes"
+    },
+    {
+      "type": "paragraph",
+      "text": "知恵を求めるオーディンの姿をよく表すのが、『古エッダ』の「高き者の言葉（ハーヴァマール）」です。オーディンは風の吹く木に九夜吊るされ、槍で傷つき、「自分自身を自分自身に」捧げて、ルーン文字を得たとうたわれます。",
+      "claimIds": ["odin-runes"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ワルキューレとヴァルハラ",
+      "anchor": "valhalla"
+    },
+    {
+      "type": "paragraph",
+      "text": "戦死者はオーディンの館ヴァルハラに迎えられます。ワルキューレ（戦乙女）は、オーディンがあらゆる戦いに送り出す者たちで、人の死の運命を定め、勝利を授けます。『終末のワルキューレ』の題名にもなった戦乙女は、本来オーディンに仕える存在でした。",
+      "claimIds": ["odin-names", "odin-valkyrie"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ラグナロクでの最期",
+      "anchor": "ragnarok"
+    },
+    {
+      "type": "paragraph",
+      "text": "世界の終末ラグナロクで、オーディンは黄金の兜と鎧をつけ、槍グングニルを手に先頭を進み、フェンリル狼に立ち向かいます。しかし狼に呑まれて最期を迎え、息子ヴィーザルが狼の顎を引き裂いて仇を討ちます。",
+      "claimIds": ["odin-last", "odin-ragnarok"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "作品の「宿願」との違い",
+      "text": "原典のオーディンにとって、ラグナロクは自らの死が予言された運命の戦いです。作品のオーディンがラグナロクを「宿願」と呼ぶのは、原典とは異なる作品独自の設定です。",
+      "claimIds": ["odin-cmp-wish"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "オーディンはアース神族で最も高く最も古い神で、「万物の父」と呼ばれる",
+        "ミーミルの泉の水を飲むために片目を差し出した",
+        "二羽のカラス、フギン（思考）とムニン（記憶）が世界の知らせを運ぶ",
+        "ワルキューレを戦場に送り、ラグナロクではフェンリル狼に呑まれる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "odin-work",
+      "text": "オーディンは北欧の最高神で、眼帯をつけ、両肩にワタリガラスのフギンとムニンを乗せている。今回のラグナロクを「我が宿願」と語る。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "odin-chief",
+      "text": "オーディンはアース神族で最も高く最も古い神で、すべてを治め、ほかの神々は子が父に従うように彼に仕える。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章"
+    },
+    {
+      "id": "odin-names",
+      "text": "オーディンはすべての神々の父であることから万物の父と呼ばれ、戦で倒れた者はみな彼の養子となるため戦死者の父とも呼ばれる。戦死者にはヴァルハラとヴィーンゴールヴが与えられる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章"
+    },
+    {
+      "id": "odin-eye",
+      "text": "オーディンはミーミルの泉の水をひと口求め、片目を担保として差し出して飲むことができた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15章"
+    },
+    {
+      "id": "odin-cmp-eye",
+      "text": "作品のオーディンの眼帯は、ミーミルの泉で片目を差し出した逸話を踏まえたものと考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "odin-ravens",
+      "text": "ワタリガラスのフギンとムニンはオーディンの肩にとまり、毎朝世界中を飛び回って知らせを耳打ちする。そのためオーディンは「カラスの神」と呼ばれる。英訳者は名を「思考」「記憶」と訳している。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 38章（名の意味は Brodeur 訳注51・52）"
+    },
+    {
+      "id": "odin-wolves",
+      "text": "オーディンは食卓の肉を二匹の狼ゲリとフレキに与え、自らは葡萄酒だけで生きている。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 38章"
+    },
+    {
+      "id": "odin-runes",
+      "text": "オーディンは風の吹く木に九夜吊るされ、槍で傷つき、自分自身を自分自身に捧げて、ルーンを得た。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「高き者の言葉」139–140節"
+    },
+    {
+      "id": "odin-valkyrie",
+      "text": "ワルキューレはオーディンがあらゆる戦いに送り出す者たちで、人の死の運命を定め、勝利を授ける。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 36章"
+    },
+    {
+      "id": "odin-last",
+      "text": "ラグナロクでオーディンは黄金の兜と鎧をつけ、槍グングニルを手に先頭を進んでフェンリル狼に向かうが、狼に呑まれる。ヴィーザルが狼の顎を引き裂いて仇を討つ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "odin-ragnarok",
+      "text": "ラグナロクでは、オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。ロキは巨人たちとともに神々に敵対し、ヘイムダルと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "odin-cmp-wish",
+      "text": "ラグナロクを「宿願」とする作品の設定は、原典でのオーディンの運命とは異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

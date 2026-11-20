@@ -1,0 +1,244 @@
+{
+  "id": "ragnarok",
+  "slug": "ragnarok",
+  "title": "ラグナロクとは？北欧神話の「神々の運命」を原典からわかりやすく解説",
+  "shortTitle": "ラグナロクとは",
+  "eyecatchText": "ラグナロク",
+  "description": "北欧神話の世界の終末ラグナロク。三度の大いなる冬、解き放たれるフェンリル狼とロキ、オーディン・トールの最期、炎に包まれる世界、そして新しい大地の再生までを『エッダ』の記述から解説します。",
+  "lead": "『終末のワルキューレ』の題材にもなった「ラグナロク」。北欧神話では、神々と巨人が最後の戦いを繰り広げ、世界が炎に包まれる終末を指します。神々は誰と戦い、どのように倒れるのか。そして終末のあとに何が残るのか。『エッダ』の記述から順にたどります。",
+  "category": "myths",
+  "tags": [
+    "ラグナロク",
+    "北欧神話",
+    "終末のワルキューレ",
+    "オーディン",
+    "トール",
+    "ロキ"
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["odin", "thor", "loki"],
+  "mythologyIds": ["norse"],
+  "storyIds": ["ragnarok"],
+  "workIds": ["record-of-ragnarok"],
+  "characterIds": ["record-of-ragnarok-brunhilde"],
+  "topicIds": [],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda", "poetic-edda"],
+  "relatedArticleIds": ["odin", "thor", "loki"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ラグナロクとは",
+      "anchor": "what"
+    },
+    {
+      "type": "paragraph",
+      "text": "ラグナロクは、北欧神話で語られる世界の終末です。スノッリの『散文エッダ』は、これを「神々の運命」として、王ギュルヴィの問いに答える形で詳しく語っています。その多くは、『古エッダ』の冒頭に置かれた詩「巫女の予言」に拠っています。",
+      "claimIds": ["ragnarok-what"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "『終末のワルキューレ』のラグナロク",
+      "text": "『終末のワルキューレ』の「ラグナロク」は、神々と人類の代表13人ずつが一対一で戦う「神VS人類最終闘争」の名として用いられています。北欧神話の神々と巨人の最終戦争とは、内容が大きく異なります。",
+      "claimIds": ["ragnarok-work", "ragnarok-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "前兆——大いなる冬と兄弟の争い",
+      "anchor": "signs"
+    },
+    {
+      "type": "paragraph",
+      "text": "まず世界中で大きな戦いが三度の冬にわたって続き、兄弟が欲のために殺し合い、父も子も容赦しなくなります。続いて「フィンブルの冬（大いなる冬）」が訪れ、四方から雪が吹きつけ、太陽は力を失い、夏のない冬が三度続きます。",
+      "claimIds": ["ragnarok-winter"]
+    },
+    {
+      "type": "quote",
+      "text": "兄弟は争い、互いに殺し合う。斧の時代、剣の時代、盾は裂かれ、風の時代、狼の時代——世界が崩れ落ちる前に。",
+      "sourceId": "snorri-edda",
+      "location": "ギュルヴィたぶらかし 51章（「巫女の予言」の引用）",
+      "translationNote": "Brodeur の英訳をもとにした編集部訳",
+      "claimIds": ["ragnarok-winter"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "狼が太陽を呑み、縛めが解ける",
+      "anchor": "release"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがて狼が太陽を呑み、もう一匹の狼が月を捕らえ、星々は天から消えます。大地と山々が激しく揺れ、あらゆる縛めが断ち切られて、フェンリル狼が解き放たれます。ミズガルズの大蛇が陸に上がろうとして海があふれ、死者の爪で作られた船ナグルファルが浮かび上がります。",
+      "claimIds": ["ragnarok-release"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ヴィーグリーズの野に集う軍勢",
+      "anchor": "host"
+    },
+    {
+      "type": "paragraph",
+      "text": "天が裂けて炎の国ムスペルの軍勢が現れ、炎の剣をもつスルトが先頭を進みます。彼らが虹の橋ビフレストを渡ると、橋は崩れ落ちます。フェンリル狼、ミズガルズの大蛇、そしてロキと霜の巨人たちも、広大なヴィーグリーズの野に集います。ヘルの軍勢はみなロキに従います。",
+      "claimIds": ["ragnarok-host"]
+    },
+    {
+      "type": "paragraph",
+      "text": "神々の見張り番ヘイムダルがギャラルホルンを吹き鳴らして神々を目覚めさせ、オーディンはミーミルの泉へ助言を求めに馬を走らせます。",
+      "claimIds": ["ragnarok-horn"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神々の最期",
+      "anchor": "battle"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "オーディンは槍グングニルを手にフェンリル狼に挑むが、狼に呑まれる。息子ヴィーザルが狼の顎を引き裂いて仇を討つ",
+        "トールはミズガルズの大蛇を倒すが、その毒を浴びて九歩進んだところで倒れる",
+        "フレイはスルトと戦うが、剣を手放していたために倒れる",
+        "テュールは冥府の犬ガルムと相討ちになる",
+        "ロキはヘイムダルと相討ちになる"
+      ],
+      "claimIds": ["ragnarok-battle", "ragnarok-ragnarok"]
+    },
+    {
+      "type": "paragraph",
+      "text": "最後にスルトが大地に炎を放ち、全世界を焼き尽くします。「巫女の予言」は、太陽が黒くなり、大地が海に沈み、炎が天にまで届くさまをうたっています。",
+      "claimIds": ["ragnarok-fire", "ragnarok-voluspa-fire"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "終末のあと——新しい世界",
+      "anchor": "rebirth"
+    },
+    {
+      "type": "paragraph",
+      "text": "ラグナロクは、すべての終わりではありません。「巫女の予言」は、海から再び緑の大地が浮かび上がり、神々がイザヴォルに集うさまをうたいます。種をまかなくとも畑は実り、死んだバルドルも戻ってきて、新しい世界が始まるのです。",
+      "claimIds": ["ragnarok-rebirth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ラグナロクは北欧神話の世界の終末で、『散文エッダ』と「巫女の予言」に詳しく語られる",
+        "大いなる冬ののち、フェンリル狼・ロキ・巨人たちが神々に攻め寄せる",
+        "オーディン、トール、フレイ、テュール、ヘイムダルらが倒れ、スルトの炎が世界を焼く",
+        "そのあと大地は海から再び浮かび上がり、新しい世界が始まる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ragnarok-work",
+      "text": "『終末のワルキューレ』のラグナロクは、神々と人類の代表13人ずつが一対一で戦う「神VS人類最終闘争」の名である。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ragnarok-cmp",
+      "text": "作品のラグナロクは、原典の神々と巨人の最終戦争とは内容が大きく異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ragnarok-what",
+      "text": "『散文エッダ』は、王ギュルヴィの問いに答える形で「神々の運命」を語り、「巫女の予言」を引用している。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-winter",
+      "text": "世界中で三度の冬にわたって大きな戦いが続き、兄弟が欲のために殺し合う。続いて大いなる冬が訪れ、夏のない冬が三度続く。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-release",
+      "text": "狼が太陽を呑み、もう一匹の狼が月を捕らえ、星々が消える。大地が揺れて縛めが断ち切られ、フェンリル狼が解き放たれる。ミズガルズの大蛇が陸に上がって海があふれ、死者の爪で作られた船ナグルファルが浮かぶ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-host",
+      "text": "天が裂けてムスペルの子らが現れ、スルトが先頭を進む。ビフレストは崩れ、フェンリル狼、ミズガルズの大蛇、ロキと霜の巨人たちがヴィーグリーズの野に集う。ヘルの軍勢はみなロキに従う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-horn",
+      "text": "ヘイムダルがギャラルホルンを吹き鳴らして神々を目覚めさせ、オーディンはミーミルの泉へ助言を求めに行く。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-battle",
+      "text": "オーディンはフェンリル狼に呑まれ、ヴィーザルが仇を討つ。フレイは剣を手放していたためスルトに倒される。テュールはガルムと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-ragnarok",
+      "text": "ラグナロクでは、オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。ロキは巨人たちとともに神々に敵対し、ヘイムダルと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-fire",
+      "text": "スルトが大地に炎を放ち、全世界を焼き尽くす。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ragnarok-voluspa-fire",
+      "text": "太陽は黒くなり、大地は海に沈み、熱い星々は天から落ち、炎は天にまで届く。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「巫女の予言」57節"
+    },
+    {
+      "id": "ragnarok-rebirth",
+      "text": "巫女は、海から再び緑の大地が浮かび上がるのを見る。神々はイザヴォルに集い、種をまかなくとも畑が実り、バルドルが戻ってくる。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「巫女の予言」59–62節"
+    }
+  ]
+}

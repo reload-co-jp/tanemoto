@@ -1,0 +1,225 @@
+{
+  "id": "freyja",
+  "slug": "freyja",
+  "title": "フレイヤとは？『ダンまち』美の女神の元ネタを北欧神話の原典から解説",
+  "shortTitle": "フレイヤの元ネタ",
+  "eyecatchText": "フレイヤ",
+  "description": "『ダンまち』で主人公ベルに執着する美の女神フレイヤ。元ネタである北欧神話のフレイヤは、愛と美の女神であると同時に戦死者の半分を迎える女神。「戦いの野」の由来、首飾りブリーシンガメン、黄金の涙を原典から解説します。",
+  "lead": "『ダンジョンに出会いを求めるのは間違っているだろうか』で、神さえ虜にする美貌をもつ女神フレイヤ。元ネタとなった北欧神話のフレイヤは、恋の願いを聞き届ける女神であると同時に、戦場で倒れた者を迎える女神でもありました。エッダの記述から、その意外な二面性を読み解きます。",
+  "category": "character-origins",
+  "tags": ["フレイヤ", "ダンまち", "北欧神話", "女神", "オーディン"],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["freyja", "odin", "thor", "loki"],
+  "mythologyIds": ["norse"],
+  "storyIds": [],
+  "workIds": ["danmachi"],
+  "characterIds": ["danmachi-freya"],
+  "topicIds": [],
+  "sourceIds": ["work-danmachi", "snorri-edda", "poetic-edda"],
+  "relatedArticleIds": ["odin", "loki", "thor"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『ダンまち』のフレイヤと元ネタ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ダンまち』のフレイヤは、銀色の髪と瞳をもち、神々のなかでも随一の美貌をもつ美の女神です。その美による魅了は、モンスターや神さえ簡単に虜にするほど強いとされます。フレイヤ・ファミリアの主神で、本拠は「戦いの野」と呼ばれます。",
+      "claimIds": ["freyja-work", "freyja-work-home"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "女神たちのなかで最も名高い",
+      "anchor": "renowned"
+    },
+    {
+      "type": "paragraph",
+      "text": "『散文エッダ』によれば、フレイヤはヴァン神族のニョルズの娘で、兄フレイとともに美しく力強い神です。フレイヤは女神たちのなかで最も名高く、身分の高い女性を呼ぶ敬称「フルー（奥方）」はその名に由来するといいます。",
+      "claimIds": ["freyja-renowned", "freyja-fru"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "愛と恋の女神",
+      "anchor": "love"
+    },
+    {
+      "type": "paragraph",
+      "text": "フレイヤは人々の祈りに最もよく応える女神で、恋の歌を好み、恋の成就を願うにはフレイヤに祈るのがよいとされました。外出するときは猫の引く車に乗ります。",
+      "claimIds": ["freyja-love"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "戦死者の半分を迎える女神——「戦いの野」の由来",
+      "anchor": "folkvangr"
+    },
+    {
+      "type": "paragraph",
+      "text": "フレイヤは愛の女神であるだけではありません。天にフォールクヴァングという住まいをもち、戦場に赴くと、戦死者の半分を得ます。残る半分はオーディンのものです。",
+      "claimIds": ["freyja-folkvangr"]
+    },
+    {
+      "type": "quote",
+      "text": "フォールクヴァングという、フレイヤが広間の座を定めるところ。日ごとに戦死者の半分を彼女が取り、残る半分はオーディンがもつ。",
+      "sourceId": "snorri-edda",
+      "location": "ギュルヴィたぶらかし 24章（「グリームニルの言葉」の引用）",
+      "translationNote": "Brodeur の英訳をもとにした編集部訳",
+      "claimIds": ["freyja-folkvangr"]
+    },
+    {
+      "type": "paragraph",
+      "text": "英訳者ブロデュールは、フォールクヴァングの名を「民の野、軍勢の野」と訳しています。『ダンまち』でフレイヤ・ファミリアの本拠が「戦いの野」と呼ばれるのは、この住まいの名と重なります。",
+      "claimIds": [
+        "freyja-folkvangr-name",
+        "freyja-work-home",
+        "freyja-cmp-home"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "首飾りブリーシンガメンと黄金の涙",
+      "anchor": "necklace"
+    },
+    {
+      "type": "paragraph",
+      "text": "フレイヤは首飾りブリーシンガメンの持ち主です。夫オーズが長い旅に出てしまい、フレイヤは彼を思って泣きますが、その涙は赤い黄金になったといいます。オーズを探して見知らぬ人々のあいだを巡るうちに、フレイヤは多くの名をもつようになりました。",
+      "claimIds": ["freyja-necklace"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "巨人に求められる女神",
+      "anchor": "thrym"
+    },
+    {
+      "type": "paragraph",
+      "text": "フレイヤの美しさは、巨人たちにも狙われます。『古エッダ』の「スリュムの歌」では、巨人の王スリュムがトールの槌を盗み、フレイヤを妻にくれなければ返さないと要求します。フレイヤは激怒し、首飾りブリーシンガメンが弾け飛ぶほどでした。結局、トールがフレイヤに化けて巨人の国に乗り込むことになります。",
+      "claimIds": ["freyja-thrym"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のフレイヤは、恋の願いを聞き届ける女神として描かれます。『ダンまち』では、その「美」と「恋」の性格が、他者を虜にする魅了の力として描かれていると読むことができます。また原典で戦死者を迎える住まいの名が、作品ではファミリアの本拠の名として受け継がれています。",
+      "claimIds": ["freyja-love", "freyja-work", "freyja-cmp-charm"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "フレイヤはニョルズの娘で、女神たちのなかで最も名高い",
+        "恋の歌を好み、恋の願いを聞き届ける女神",
+        "住まいフォールクヴァング（軍勢の野）で戦死者の半分を迎え、残りはオーディンのもの",
+        "首飾りブリーシンガメンをもち、夫を思って流す涙は黄金になる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "freyja-work",
+      "text": "フレイヤは銀色の髪と瞳をもち、神々のなかでも随一の美貌をもつ美の女神。その美による魅了はモンスターや神ですら簡単に虜にするほど強い。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "freyja-work-home",
+      "text": "フレイヤ・ファミリアの本拠は「戦いの野」と呼ばれる。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "freyja-renowned",
+      "text": "フレイヤはニョルズの娘で、兄フレイとともに美しく力強い。女神たちのなかで最も名高い。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "freyja-fru",
+      "text": "身分の高い女性を呼ぶ敬称「フルー」はフレイヤの名に由来する。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "freyja-love",
+      "text": "フレイヤは人々の祈りに最もよく応え、恋の歌を好む。恋の成就を願うにはフレイヤに祈るのがよい。外出するときは猫の引く車に乗る。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "freyja-folkvangr",
+      "text": "フレイヤは天の住まいフォールクヴァングをもち、戦場では戦死者の半分を得て、残る半分はオーディンのものとなる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "freyja-folkvangr-name",
+      "text": "英訳者ブロデュールは、フォールクヴァングの名を「民の野、軍勢の野」と訳している。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Brodeur 訳 訳注40"
+    },
+    {
+      "id": "freyja-cmp-home",
+      "text": "作品の「戦いの野」は、原典のフレイヤの住まいフォールクヴァングと重なる名である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "freyja-necklace",
+      "text": "フレイヤは首飾りブリーシンガメンをもつ。夫オーズが長い旅に出ると、フレイヤは彼を思って泣き、その涙は赤い黄金となった。オーズを探して巡るうちに多くの名をもつようになった。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 35章"
+    },
+    {
+      "id": "freyja-thrym",
+      "text": "巨人の王スリュムはトールの槌を盗み、フレイヤを妻にくれなければ返さないと要求した。フレイヤは怒り、首飾りブリーシンガメンが弾け飛んだ。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「スリュムの歌」7–12節"
+    },
+    {
+      "id": "freyja-cmp-charm",
+      "text": "作品の魅了の力は、原典の恋をつかさどる女神としての性格を描いたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

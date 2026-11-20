@@ -1,0 +1,278 @@
+{
+  "id": "loki",
+  "slug": "loki",
+  "title": "ロキとは？北欧神話のトリックスターを原典から解説【終末のワルキューレ・ダンまち】",
+  "shortTitle": "ロキの元ネタ",
+  "eyecatchText": "ロキ",
+  "description": "『終末のワルキューレ』『ダンまち』に登場するロキ。元ネタである北欧神話のロキは、神々を窮地に陥れては救う狡知の神。バルドルの死、怪物の子どもたち、縛られたロキ、ラグナロクでの役割を原典から解説します。",
+  "lead": "『終末のワルキューレ』では変身能力をもつ狡知の神、『ダンまち』ではトリックスターと呼ばれた女神。作品によって姿は違っても、ロキはいつも一筋縄ではいかない存在として描かれます。元ネタとなった北欧神話のロキを、エッダの記述から読み解きます。",
+  "category": "character-origins",
+  "tags": [
+    "ロキ",
+    "終末のワルキューレ",
+    "ダンまち",
+    "北欧神話",
+    "トリックスター"
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["loki", "thor", "odin", "freyja"],
+  "mythologyIds": ["norse"],
+  "storyIds": ["ragnarok"],
+  "workIds": ["record-of-ragnarok", "danmachi"],
+  "characterIds": ["record-of-ragnarok-loki", "danmachi-loki"],
+  "topicIds": [],
+  "sourceIds": [
+    "work-record-of-ragnarok",
+    "work-danmachi",
+    "snorri-edda",
+    "poetic-edda"
+  ],
+  "relatedArticleIds": ["thor", "ragnarok", "odin"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品のロキと元ネタ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『終末のワルキューレ』のロキは、北欧神話の狡知の神で、変身能力をもちます。飄々とした少年のような風貌で、変身や言動でほかの神々をからかいます。",
+      "claimIds": ["loki-work-rr"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『ダンジョンに出会いを求めるのは間違っているだろうか』（ダンまち）のロキは、ロキ・ファミリアを率いる女神です。天界では退屈しのぎにほかの神々を扇動して殺し合いをさせようとする物騒な神で、トリックスターとも言われていましたが、下界に来てから丸くなったとされます。",
+      "claimIds": ["loki-work-dm"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "悪だくみの張本人——原典のロキ",
+      "anchor": "who"
+    },
+    {
+      "type": "quote",
+      "text": "アース神族に数えられる者のなかに、アース神族の悪だくみの張本人、偽りの祖、神々と人間すべての恥と呼ぶ者もいる者がいる。その名はロキ、またはロプトといい、巨人ファールバウティの子である。",
+      "sourceId": "snorri-edda",
+      "location": "ギュルヴィたぶらかし 33章",
+      "translationNote": "Brodeur の英訳をもとにした編集部訳",
+      "claimIds": ["loki-who"]
+    },
+    {
+      "type": "paragraph",
+      "text": "スノッリによれば、ロキは見た目は美しいものの、心は邪悪で、気まぐれです。狡知にかけては誰よりもすぐれ、いつも神々を大きな窮地に陥れては、悪知恵で救い出したといいます。巨人の子でありながら神々の一員に数えられる、という立ち位置そのものが、ロキの両義性を表しています。",
+      "claimIds": ["loki-who", "loki-trick"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「トリックスター」とは",
+      "text": "トリックスターは、神話や昔話で秩序をかき乱すいたずら者を指す研究上の用語で、原典のロキがそう名乗っているわけではありません。ただ、神々を困らせながら助けもするロキは、その典型として語られることの多い存在です。",
+      "claimIds": ["loki-editorial-trickster"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神々の宝はロキのいたずらから生まれた",
+      "anchor": "treasures"
+    },
+    {
+      "type": "paragraph",
+      "text": "ロキのいたずらは、ときに神々に益ももたらしました。ロキがトールの妻シヴの髪を切り落としたことがきっかけで、小人たちが黄金の髪、オーディンの槍グングニル、トールの槌ミョルニルなどの宝を作ることになります。",
+      "claimIds": ["loki-sif"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『古エッダ』の「スリュムの歌」でも、盗まれたトールの槌を取り戻すため、ロキはフレイヤの羽衣を借りて巨人の国に飛び、花嫁に化けたトールの侍女として機転を利かせています。",
+      "claimIds": ["loki-thrym"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "怪物たちの父",
+      "anchor": "children"
+    },
+    {
+      "type": "paragraph",
+      "text": "ロキは巨人の女アングルボザとのあいだに三人の子をもうけました。フェンリル狼、ミズガルズの大蛇（ヨルムンガンド）、そして死者の国を治めるヘルです。神々はこの子らから大きな災いが来ると予言で知り、大蛇を海に、ヘルを冥府ニヴルヘイムに投げ込み、狼は縛りつけました。",
+      "claimIds": ["loki-children"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "バルドルの死",
+      "anchor": "baldr"
+    },
+    {
+      "type": "paragraph",
+      "text": "ロキの悪意が決定的な形をとるのが、光の神バルドルの死です。母フリッグはあらゆるものにバルドルを傷つけないと誓わせましたが、若すぎるヤドリギだけは誓わせていませんでした。女に化けてそれを聞き出したロキは、ヤドリギを盲目の神ヘズに渡して投げさせ、バルドルを死なせます。スノッリはこれを「神々と人間に起こった最大の不幸」と呼んでいます。",
+      "claimIds": ["loki-baldr"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "縛られたロキ",
+      "anchor": "bound"
+    },
+    {
+      "type": "paragraph",
+      "text": "神々の怒りを逃れようとしたロキは、鮭に姿を変えて滝に隠れますが、網で追われ、トールに尾をつかまれて捕らえられます。ロキは岩に縛られ、頭上の毒蛇から顔に毒が垂らされます。妻シギュンが器で毒を受け止めていますが、器を空けに行くあいだに毒が顔にかかり、ロキが身もだえすると大地が揺れる——それが地震だと語られます。",
+      "claimIds": ["loki-salmon", "loki-bound"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ラグナロクでは神々の敵に",
+      "anchor": "ragnarok"
+    },
+    {
+      "type": "paragraph",
+      "text": "ラグナロクが訪れると、縛めは解け、ロキは巨人たちとともに神々に敵対します。ヘルの軍勢はみなロキに従い、ロキは神々の見張り番ヘイムダルと戦って相討ちになります。",
+      "claimIds": ["loki-ragnarok", "loki-hel-host"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のロキは男神ですが、『ダンまち』では女神として描かれています。また『終末のワルキューレ』のロキは、神と人類が戦うラグナロクで神側の闘士として出場します。原典で神々に敵対するロキが、作品では神々の側に立っている点は大きな違いです。",
+      "claimIds": ["loki-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ロキは巨人の子でありながらアース神族に数えられる、狡知にすぐれた神",
+        "神々を窮地に陥れては救い出し、そのいたずらから神々の宝も生まれた",
+        "フェンリル狼・ミズガルズの大蛇・ヘルの父で、バルドルを死に追いやった",
+        "縛められたのちラグナロクで解き放たれ、神々に敵対してヘイムダルと相討ちになる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "loki-work-rr",
+      "text": "ロキは北欧神話の狡知の神で、変身能力をもつ。飄々とした少年のような風貌で、変身能力や言動でほかの神々をからかう。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "loki-work-dm",
+      "text": "ロキはロキ・ファミリアの主神である女神で、天界では退屈しのぎにほかの神々を扇動して殺し合いをさせようとする物騒な神で、トリックスターとも言われていたが、下界に来てから丸くなった。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "loki-who",
+      "text": "ロキは巨人ファールバウティの子でアース神族に数えられ、悪だくみの張本人、偽りの祖と呼ばれる。見た目は美しいが心は邪悪で気まぐれ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "loki-trick",
+      "text": "ロキは狡知にすぐれ、神々を大きな窮地に陥れては悪知恵で救い出した。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "loki-editorial-trickster",
+      "text": "トリックスターは研究上の用語で、原典のロキがそう名乗るわけではない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "loki-sif",
+      "text": "ロキがシヴの髪を切り落としたことがきっかけで、小人たちが黄金の髪、グングニル、ミョルニルなどの宝を作った。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』詩語法 35章"
+    },
+    {
+      "id": "loki-thrym",
+      "text": "ロキはフレイヤの羽衣を借りて巨人の国に飛び、花嫁に化けたトールの侍女として付き添った。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「スリュムの歌」3–4, 20–28節"
+    },
+    {
+      "id": "loki-children",
+      "text": "ロキは巨人の女アングルボザとのあいだにフェンリル狼、ミズガルズの大蛇、ヘルをもうけた。神々は大蛇を海に、ヘルをニヴルヘイムに投げ込み、狼を縛った。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 34章"
+    },
+    {
+      "id": "loki-baldr",
+      "text": "フリッグはあらゆるものにバルドルを傷つけないと誓わせたが、ヤドリギには誓わせていなかった。女に化けてそれを聞き出したロキは、ヤドリギを盲目のヘズに投げさせてバルドルを死なせた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    },
+    {
+      "id": "loki-salmon",
+      "text": "ロキは鮭に姿を変えて滝に隠れたが、神々に網で追われ、トールに尾をつかまれて捕らえられた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 50章"
+    },
+    {
+      "id": "loki-bound",
+      "text": "ロキは岩に縛られ、頭上の毒蛇から顔に毒が垂らされる。妻シギュンが器で毒を受け止めるが、器を空けるあいだに毒がかかり、ロキが身もだえすると大地が揺れる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 50章"
+    },
+    {
+      "id": "loki-ragnarok",
+      "text": "ラグナロクでは、オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。ロキは巨人たちとともに神々に敵対し、ヘイムダルと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "loki-hel-host",
+      "text": "ラグナロクでは、ヘルの軍勢はみなロキに従う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "loki-cmp",
+      "text": "原典のロキは男神でラグナロクでは神々に敵対するが、ダンまちでは女神、終末のワルキューレでは神側の闘士として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": "brynhildr",
+  "slug": "brynhildr",
+  "title": "ブリュンヒルデの元ネタは？オーディンに背いた戦乙女を北欧神話の原典から解説",
+  "shortTitle": "ブリュンヒルデの元ネタ",
+  "eyecatchText": "ブリュンヒルデ",
+  "description": "『終末のワルキューレ』の主人公ブリュンヒルデ。元ネタである北欧神話の戦乙女ブリュンヒルドは、オーディンの意に背いて罰を受け、英雄シグルズに眠りから覚まされた。『古エッダ』の記述から解説します。",
+  "lead": "『終末のワルキューレ』で、人類滅亡を決めた神々に待ったをかける戦乙女の長姉ブリュンヒルデ。元ネタとなった北欧の英雄詩のブリュンヒルドも、最高神オーディンの意に背いた戦乙女でした。『古エッダ』に残る彼女の言葉から、その物語を読み解きます。",
+  "category": "character-origins",
+  "tags": [
+    "ブリュンヒルデ",
+    "終末のワルキューレ",
+    "ワルキューレ",
+    "北欧神話",
+    "オーディン"
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["brynhildr", "odin"],
+  "mythologyIds": ["norse"],
+  "storyIds": [],
+  "workIds": ["record-of-ragnarok"],
+  "characterIds": ["record-of-ragnarok-brunhilde"],
+  "topicIds": [],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda", "poetic-edda"],
+  "relatedArticleIds": ["odin", "ragnarok"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『終末のワルキューレ』のブリュンヒルデと元ネタ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『終末のワルキューレ』の主人公ブリュンヒルデは、戦乙女（ワルキューレ）13姉妹の長姉です。人類に「終末」を与える神々の決議に待ったをかけ、神と人類の代表が戦うラグナロクの開催を提唱します。",
+      "claimIds": ["brynhildr-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "作品の戦乙女は、北欧の半神で、地上の人類を神兵候補として天に召す「魂の運び手」を担う存在とされます。",
+      "claimIds": ["brynhildr-work-valkyrie"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ワルキューレとは",
+      "anchor": "valkyrie"
+    },
+    {
+      "type": "paragraph",
+      "text": "『散文エッダ』によれば、ワルキューレはオーディンがあらゆる戦いに送り出す者たちで、人の死の運命を定め、勝利を授けます。ヴァルハラでは、戦死者たち（エインヘリャル）に酒を運ぶ役目も担っています。",
+      "claimIds": ["brynhildr-valkyrie"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "オーディンに背いた戦乙女",
+      "anchor": "defy"
+    },
+    {
+      "type": "paragraph",
+      "text": "ブリュンヒルドは、英雄シグルズ（ジークフリート）の物語に登場する戦乙女です。『古エッダ』の「ブリュンヒルドの冥府への旅」で、死後の旅路にあるブリュンヒルドは、自らの過去をこう語ります。",
+      "claimIds": ["brynhildr-defy"]
+    },
+    {
+      "type": "quote",
+      "text": "次にわたしは、ゴート族の長、老いたヒャルムグンナルを冥府へ送り、アウザの兄弟に勝利をもたらした。そのためにオーディンの怒りは激しかった。",
+      "sourceId": "poetic-edda",
+      "location": "「ブリュンヒルドの冥府への旅」8節",
+      "translationNote": "Bellows の英訳をもとにした編集部訳",
+      "claimIds": ["brynhildr-defy"]
+    },
+    {
+      "type": "paragraph",
+      "text": "同じ物語は「勝利をもたらす者の歌（シグルドリーファの歌）」の散文にも語られています。オーディンはヒャルムグンナルに勝利を約束していましたが、戦乙女はその王を討ち取りました。罰としてオーディンは彼女を眠りの棘で刺し、もう戦で勝利を得ることはなく、嫁がねばならないと定めます。彼女のほうも、恐れを知る男とは決して結婚しないと誓いました。",
+      "claimIds": ["brynhildr-sigrdrifa"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "シグルドリーファとブリュンヒルド",
+      "text": "「シグルドリーファ」は「勝利をもたらす者」を意味する言葉で、英訳者ベロウズは、写本の注記者がこの呼び名を固有名と取り違えたものとし、実際にはブリュンヒルドを指すと解説しています。",
+      "claimIds": ["brynhildr-sigrdrifa-name"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "炎に囲まれた眠り",
+      "anchor": "sleep"
+    },
+    {
+      "type": "paragraph",
+      "text": "オーディンはブリュンヒルドを盾で囲み、その眠りを破るのは恐れを知らぬ者でなければならないと定めました。館の周りには炎が燃え上がり、竜ファヴニールの守っていた黄金を手にした英雄がそれを越えてくるよう定められます。こうして彼女を目覚めさせたのが、シグルズでした。",
+      "claimIds": ["brynhildr-sleep", "brynhildr-fire"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "悲劇の結末",
+      "anchor": "end"
+    },
+    {
+      "type": "paragraph",
+      "text": "シグルズとの物語は悲劇に終わります。「ブリュンヒルドの冥府への旅」は、シグルズの死後、火葬の炎に焼かれたブリュンヒルドが冥府への道を進み、巨人の女に責められる場面から始まります。彼女は欺かれて別の男に嫁がされたことを語り、最後に「シグルズとわたしは、ともに生きる」と言い放ちます。",
+      "claimIds": ["brynhildr-end"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のブリュンヒルドは、最高神オーディンの意に背いて戦の勝敗を決め、罰を受けた戦乙女です。『終末のワルキューレ』で神々の決議に異を唱え、人類の側に立つブリュンヒルデの姿は、この「神に背く戦乙女」という性格と重ねて読むことができます。一方、作品の戦乙女が闘士と共鳴して武器に変わるという設定は、原典には見られない作品独自のものです。",
+      "claimIds": ["brynhildr-defy", "brynhildr-work", "brynhildr-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ワルキューレはオーディンが戦場に送り、死の運命と勝利を定める者たち",
+        "ブリュンヒルドはオーディンが勝利を約束した王を討ち、その怒りを買った",
+        "罰として眠らされ、恐れを知らぬ英雄シグルズに目覚めさせられた",
+        "作品の「神に異を唱える戦乙女」は、この性格と重ねて読める"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "brynhildr-work",
+      "text": "ブリュンヒルデは本作の主人公で戦乙女の長姉。人類に「終末」を与える神々の決議に待ったをかけ、ラグナロクの開催を提唱する。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "brynhildr-work-valkyrie",
+      "text": "作品の戦乙女は北欧の半神で、地上の人類を神兵候補として天に召す「魂の運び手」を担う13人の姉妹とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "brynhildr-valkyrie",
+      "text": "ワルキューレはオーディンがあらゆる戦いに送り出す者たちで、人の死の運命を定め、勝利を授ける。ヴァルハラではエインヘリャルに酒を運ぶ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 36章"
+    },
+    {
+      "id": "brynhildr-defy",
+      "text": "ブリュンヒルドは、ゴート族の長ヒャルムグンナルを冥府へ送り、アウザの兄弟に勝利をもたらしたため、オーディンの怒りを買ったと語る。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ブリュンヒルドの冥府への旅」8節"
+    },
+    {
+      "id": "brynhildr-sigrdrifa",
+      "text": "オーディンはヒャルムグンナルに勝利を約束していたが、戦乙女がその王を討った。罰としてオーディンは彼女を眠りの棘で刺し、もう勝利を得ることはなく嫁がねばならないと定めた。彼女は恐れを知る男とは結婚しないと誓った。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「勝利をもたらす者の歌」4節のあとの散文"
+    },
+    {
+      "id": "brynhildr-sigrdrifa-name",
+      "text": "「シグルドリーファ」は「勝利をもたらす者」という呼び名で、英訳者ベロウズは、これが誤って固有名とされたもので実際にはブリュンヒルドを指すと解説している。",
+      "classification": "scholarship",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Bellows 訳「勝利をもたらす者の歌」序文"
+    },
+    {
+      "id": "brynhildr-sleep",
+      "text": "オーディンはブリュンヒルドを盾で囲み、その眠りを破るのは恐れを知らぬ者でなければならないと定めた。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ブリュンヒルドの冥府への旅」9節"
+    },
+    {
+      "id": "brynhildr-fire",
+      "text": "オーディンは館の周りに炎を燃え上がらせ、ファヴニールの守っていた黄金をもたらす英雄がそれを越えてくるよう定めた。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ブリュンヒルドの冥府への旅」10節"
+    },
+    {
+      "id": "brynhildr-end",
+      "text": "火葬の炎に焼かれたブリュンヒルドは冥府への道で巨人の女に責められ、欺かれて嫁がされたことを語り、最後にシグルズとともに生きると言い放つ。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ブリュンヒルドの冥府への旅」冒頭散文・13–14節"
+    },
+    {
+      "id": "brynhildr-cmp",
+      "text": "神々の決議に異を唱える作品のブリュンヒルデは、オーディンに背いた原典の戦乙女と重ねて読める。戦乙女が武器に変わる設定は作品独自のものである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    }
+  ]
+}

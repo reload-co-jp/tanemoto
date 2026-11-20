@@ -85,14 +85,6 @@
       "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
     },
     {
-      "id": "dm-hestia-work-knife",
-      "text": "ヘスティアはベルの願いをかなえるため、神友の女神ヘファイストスに強引に頼み込んで「神（ヘスティア）のナイフ」を作製してもらう。",
-      "classification": "creative",
-      "sourceIds": ["work-danmachi"],
-      "verificationStatus": "verified",
-      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
-    },
-    {
       "id": "dm-hestia-myth-kids",
       "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
       "classification": "fact",

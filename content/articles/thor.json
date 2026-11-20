@@ -1,0 +1,306 @@
+{
+  "id": "thor",
+  "slug": "thor",
+  "title": "トールとは？『終末のワルキューレ』雷神トールの元ネタを北欧神話の原典から解説",
+  "shortTitle": "トールの元ネタ",
+  "eyecatchText": "トール",
+  "description": "『終末のワルキューレ』で第1回戦を戦う雷神トール。元ネタである北欧神話のトールの槌ミョルニル、力帯と鉄の手袋、花嫁に化けた「スリュムの歌」、ミズガルズの大蛇との因縁を原典から解説します。",
+  "lead": "『終末のワルキューレ』で「雷の狂戦士」と呼ばれ、巨大な戦槌ミョルニルを振るうトール。元ネタとなった北欧神話のトールは、「神々と人間のなかで最も強い」とされる神です。槌がどのように生まれ、なぜ鉄の手袋が必要なのか。エッダの記述から読み解きます。",
+  "category": "character-origins",
+  "tags": [
+    "トール",
+    "終末のワルキューレ",
+    "北欧神話",
+    "ミョルニル",
+    "ラグナロク"
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["thor", "loki", "odin", "freyja"],
+  "mythologyIds": ["norse"],
+  "storyIds": ["ragnarok"],
+  "workIds": ["record-of-ragnarok"],
+  "characterIds": ["record-of-ragnarok-thor"],
+  "topicIds": [],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda", "poetic-edda"],
+  "relatedArticleIds": ["loki", "ragnarok", "odin"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『終末のワルキューレ』のトールと元ネタ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『終末のワルキューレ』のトールは、北欧神話最強とうたわれる戦神で、「雷の狂戦士」の異名をもつ雷神です。神器は身の丈を上回る巨大な戦槌ミョルニル。ラグナロク第1回戦で呂布奉先と戦い、勝利しました。",
+      "claimIds": ["thor-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "名前も武器も、北欧神話の雷神トールそのものです。この記事では、原典のトールがどのような神として語られているかを紹介します。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神々と人間のなかで最も強い神",
+      "anchor": "strongest"
+    },
+    {
+      "type": "paragraph",
+      "text": "13世紀のアイスランドで詩人スノッリ・ストゥルルソンが著した『散文エッダ』は、トールをアース神族の筆頭に挙げ、「神々と人間のなかで最も強い」と語ります。二頭の山羊が引く車に乗ることから「車のトール」とも呼ばれました。",
+      "claimIds": ["thor-strong"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三つの宝——ミョルニル、力帯、鉄の手袋",
+      "anchor": "treasures"
+    },
+    {
+      "type": "quote",
+      "text": "トールは三つの宝をもつ。一つは槌ミョルニルで、霜の巨人も山の巨人も、それが高く振り上げられると見ればそれと知る。二つめは何よりすぐれた力帯で、これを締めると神の力が半分増す。三つめは鉄の手袋で、槌の柄を握るときにはこれが欠かせない。",
+      "sourceId": "snorri-edda",
+      "location": "ギュルヴィたぶらかし 21章",
+      "translationNote": "Brodeur の英訳をもとにした編集部訳",
+      "claimIds": ["thor-treasures"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『終末のワルキューレ』でトールがふだん身に着けている鉄の手袋ヤールングレイプルは、目覚める前のミョルニルを握り壊さないためのものとされています。原典でも手袋は「槌を扱うのに欠かせないもの」で、槌と手袋を一組とする発想は共通しています。",
+      "claimIds": ["thor-work-gloves", "thor-treasures"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ミョルニルの誕生——ロキの賭け",
+      "anchor": "mjollnir"
+    },
+    {
+      "type": "paragraph",
+      "text": "ミョルニルの由来は、ロキのいたずらに始まります。『散文エッダ』の「詩語法」によれば、ロキがトールの妻シヴの髪を残らず切り落とし、怒ったトールに骨を砕かれそうになって、黒い妖精に黄金の髪を作らせると誓いました。",
+      "claimIds": ["thor-sif"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ロキはさらに、小人ブロックと「その兄弟シンドリには、これに並ぶ宝は作れない」と首を賭けます。シンドリが鍛えた宝の一つが槌でした。ロキが蝿に化けたものとされる一匹の蝿に邪魔をされ、柄が少し短くなってしまったものの、神々はこの槌を「霜の巨人に対する最大の守り」として、すべての宝のなかで最もすぐれていると判定しました。",
+      "claimIds": ["thor-brokkr", "thor-verdict"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "思うさま打っても、槌は決して損なわれない",
+        "投げれば必ず当たり、手元に戻ってくる",
+        "望めば懐に入るほど小さくできる",
+        "ただし柄が少し短いのが欠点"
+      ],
+      "claimIds": ["thor-verdict"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "蝿の正体",
+      "text": "原典は蝿がロキだと明言してはいませんが、賭けに負けそうなロキが邪魔をしたと読むのが一般的です。ここではその読み方を紹介するにとどめます。",
+      "claimIds": ["thor-editorial-fly"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "花嫁に化けたトール——「スリュムの歌」",
+      "anchor": "thrym"
+    },
+    {
+      "type": "paragraph",
+      "text": "『古エッダ』の「スリュムの歌」は、トールの槌が盗まれる話です。巨人の王スリュムは槌を地下深くに隠し、女神フレイヤを妻にくれなければ返さないと言います。フレイヤは激怒して首飾りブリーシンガメンが弾け飛ぶほどでした。",
+      "claimIds": ["thor-thrym-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "そこでヘイムダルの案により、トールが花嫁衣装を着てフレイヤに化け、ロキが侍女として付き添います。宴でトールは牛一頭と鮭八匹を平らげ、蜂蜜酒を三樽飲み干しますが、ロキが「花嫁は巨人の国に来たい一心で八晩なにも食べていなかった」と言いつくろいます。最後に花嫁を清めるため槌が膝に置かれると、トールは槌を取り戻し、スリュムと巨人たちを打ち倒しました。",
+      "claimIds": ["thor-thrym-2", "thor-thrym-3"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ミズガルズの大蛇との因縁",
+      "anchor": "serpent"
+    },
+    {
+      "type": "paragraph",
+      "text": "トールの宿敵は、ロキの子で世界を取り巻く海に横たわるミズガルズの大蛇です。『散文エッダ』では、トールが巨人ヒュミルと海に出て、牛の頭を餌に大蛇を釣り上げる話が語られます。槌を振り上げた瞬間、恐れたヒュミルが釣り糸を切ってしまい、大蛇は海に沈みました。",
+      "claimIds": ["thor-fishing"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "大蛇は死んだのか",
+      "text": "このとき投げた槌で大蛇の頭を打ち落としたと言う人もいるが、大蛇はまだ生きて海に横たわっているというのが本当だろう——スノッリは語り手にそう言わせ、二つの伝承を並べています。",
+      "claimIds": ["thor-fishing-variant"]
+    },
+    {
+      "type": "paragraph",
+      "text": "決着はラグナロクでつきます。トールはついにミズガルズの大蛇を倒しますが、その吹きかけた毒を浴び、九歩進んだところで倒れて死にます。『古エッダ』の「巫女の予言」も、トールが九歩進んで大蛇に倒されるさまをうたっています。",
+      "claimIds": ["thor-ragnarok", "thor-voluspa"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のラグナロクは神々と巨人の最終戦争で、トールは大蛇と刺し違えるようにして命を落とします。『終末のワルキューレ』では、ラグナロクは神と人類の代表が一対一で戦う場として描かれ、トールはその初戦を勝利で飾ります。「最強の神」という性格は受け継ぎながら、運命の結末は作品独自のものになっています。",
+      "claimIds": ["thor-ragnarok", "thor-work", "thor-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "トールは『散文エッダ』で「神々と人間のなかで最も強い」とされる神",
+        "ミョルニル・力帯・鉄の手袋の三つの宝をもち、手袋は槌を扱うのに欠かせない",
+        "ミョルニルはロキの賭けをきっかけに小人が鍛えたもので、柄が短いのが欠点",
+        "ラグナロクではミズガルズの大蛇を倒すが、毒を浴びて倒れる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "thor-work",
+      "text": "トールは北欧神話最強とうたわれる戦神で「雷の狂戦士」の異名をもつ雷神。神器は巨大な戦槌ミョルニルで、ラグナロク第1回戦で呂布奉先に勝利した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "thor-work-gloves",
+      "text": "トールの鉄の手袋ヤールングレイプルは、覚醒前のミョルニルを握り壊さないためのものとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "thor-strong",
+      "text": "トールはアース神族の筆頭で、神々と人間のなかで最も強い。二頭の山羊が引く車に乗ることから「車のトール」と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "thor-treasures",
+      "text": "トールは槌ミョルニル、締めると神の力が半分増す力帯、槌の柄を握るのに欠かせない鉄の手袋の三つの宝をもつ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "thor-sif",
+      "text": "ロキはシヴの髪を残らず切り落とし、トールに捕まると、黒い妖精に黄金の髪を作らせると誓った。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』詩語法 35章"
+    },
+    {
+      "id": "thor-brokkr",
+      "text": "ロキは小人ブロックと、その兄弟シンドリにはイーヴァルディの息子たちの宝に並ぶ宝は作れないと首を賭けた。シンドリが槌を鍛えるあいだ、蝿がブロックの瞼を刺して邪魔をした。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』詩語法 35章"
+    },
+    {
+      "id": "thor-verdict",
+      "text": "槌は思うさま打っても損なわれず、投げれば必ず当たって手元に戻り、懐に入るほど小さくできたが、柄が少し短いのが欠点だった。神々は槌を霜の巨人に対する最大の守りとして、最もすぐれた宝と判定した。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』詩語法 35章"
+    },
+    {
+      "id": "thor-editorial-fly",
+      "text": "原典は蝿がロキだと明言していないが、ロキが邪魔をしたと読むのが一般的である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "thor-thrym-1",
+      "text": "巨人の王スリュムはトールの槌を隠し、フレイヤを妻にくれなければ返さないと言った。フレイヤは怒り、首飾りブリーシンガメンが弾け飛んだ。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「スリュムの歌」7–12節"
+    },
+    {
+      "id": "thor-thrym-2",
+      "text": "ヘイムダルの案で、トールは花嫁衣装を着てフレイヤに化け、ロキが侍女として付き添った。宴でトールは牛一頭と鮭八匹を食べ、蜂蜜酒を三樽飲んだが、ロキが言いつくろった。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「スリュムの歌」14–26節"
+    },
+    {
+      "id": "thor-thrym-3",
+      "text": "花嫁を清めるため槌が膝に置かれると、トールは槌を取り戻し、スリュムと巨人たちを打ち倒した。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「スリュムの歌」30–31節"
+    },
+    {
+      "id": "thor-fishing",
+      "text": "トールは巨人ヒュミルと海に出て、牛の頭を餌にミズガルズの大蛇を釣り上げたが、槌を振り上げたときヒュミルが釣り糸を切り、大蛇は海に沈んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 48章"
+    },
+    {
+      "id": "thor-fishing-variant",
+      "text": "投げた槌で大蛇の頭を打ち落としたという伝承と、大蛇はまだ生きているという伝承が並べて語られている。",
+      "classification": "variant",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 48章"
+    },
+    {
+      "id": "thor-ragnarok",
+      "text": "ラグナロクでは、オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。ロキは巨人たちとともに神々に敵対し、ヘイムダルと相討ちになる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "thor-voluspa",
+      "text": "トールは怒りに燃えて大蛇を打ち、九歩進んで大蛇に倒される。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「巫女の予言」56節"
+    },
+    {
+      "id": "thor-cmp",
+      "text": "作品のラグナロクは神と人類の一対一の戦いとして描かれ、トールは初戦に勝利する。原典の結末とは異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}
