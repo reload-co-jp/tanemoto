@@ -1,0 +1,264 @@
+{
+  "id": "ymir",
+  "slug": "ymir",
+  "title": "『進撃の巨人』ユミルの元ネタ？北欧神話の原初の巨人ユミルを原典から解説",
+  "shortTitle": "進撃の巨人ユミルと北欧神話",
+  "eyecatchText": "ユミル",
+  "description": "『進撃の巨人』の始祖ユミルと同じ名をもつ、北欧神話の原初の巨人ユミル。氷から生まれた霜の巨人の祖、牝牛アウズンブラ、オーディンら三兄弟による殺害と、その体から作られた世界を原典から解説します。",
+  "lead": "『進撃の巨人』で、すべての巨人の始まりとされる「始祖ユミル」。北欧神話にも、巨人たちの祖である「ユミル」という原初の巨人がいます。名前の一致は偶然か、それとも。作品側に公式な説明は見当たりませんが、原典のユミルがどのような存在かを知ると、二人の共通点と違いが見えてきます。",
+  "category": "character-origins",
+  "tags": ["ユミル", "進撃の巨人", "北欧神話", "巨人", "オーディン"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["ymir", "odin"],
+  "mythologyIds": ["norse"],
+  "storyIds": [],
+  "workIds": ["attack-on-titan"],
+  "characterIds": ["attack-on-titan-ymir-fritz"],
+  "topicIds": [],
+  "sourceIds": ["work-attack-on-titan", "snorri-edda"],
+  "relatedArticleIds": ["odin", "ragnarok"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『進撃の巨人』の始祖ユミル",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『進撃の巨人』の始祖ユミル（ユミル・フリッツ）は、ユミルの民の祖先で、始祖の巨人の巨人化能力者です。もとは古代エルディアの奴隷で、約1820年前に「大地の悪魔」と契約して巨人の力を得たと伝えられています。作中の巨人の正体は、壁内人類と同じ祖先をもつ「ユミルの民」でした。",
+      "claimIds": ["ymir-work", "ymir-work-people"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "名前の由来について",
+      "text": "北欧神話のユミルとの名前の一致はよく指摘されますが、作者がこれを参照したことを示す公式な記述は、今回確認した資料には見当たりませんでした。この記事では、原典のユミルを紹介したうえで、共通点を「読み方の一つ」として示します。",
+      "claimIds": ["ymir-cmp-name"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "氷と炎のあいだに生まれた巨人",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "スノッリの『散文エッダ』によれば、世界の始まりには、北の寒く暗いニヴルヘイムと、南の熱いムスペルヘイムのあいだに、大きな裂け目ギンヌンガガプがありました。北から流れ込んだ氷と霜に、南からの熱気が触れて溶け、その滴に生命が宿って人の姿になりました。それがユミルです。",
+      "claimIds": ["ymir-birth"]
+    },
+    {
+      "type": "quote",
+      "text": "その者はユミルと呼ばれる。霜の巨人たちは彼をアウルゲルミルと呼び、霜の巨人の種族はすべて彼から出た。",
+      "sourceId": "snorri-edda",
+      "location": "ギュルヴィたぶらかし 5章",
+      "translationNote": "Brodeur の英訳をもとにした編集部訳",
+      "claimIds": ["ymir-birth"]
+    },
+    {
+      "type": "paragraph",
+      "text": "スノッリはまた、ユミルは神ではなく、彼もその一族も邪悪で、霜の巨人と呼ばれると語ります。ユミルが眠っていると汗をかき、左腕の下から男と女が、片方の足からもう一方の足とのあいだに息子が生まれ、そこから巨人の種族が増えていきました。",
+      "claimIds": ["ymir-evil", "ymir-sweat"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "牝牛アウズンブラ",
+      "anchor": "audumla"
+    },
+    {
+      "type": "paragraph",
+      "text": "霜が溶けた滴からは、牝牛アウズンブラも生まれました。その乳房から四筋の乳が流れ、ユミルを養いました。アウズンブラが塩辛い氷の塊をなめると、三日目に一人の男ブーリが現れます。ブーリの孫が、オーディン、ヴィリ、ヴェーの三兄弟でした。",
+      "claimIds": ["ymir-audumla"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "殺されたユミルと世界の創造",
+      "anchor": "creation"
+    },
+    {
+      "type": "paragraph",
+      "text": "ボルの息子たち——オーディンら三兄弟——は、巨人ユミルを殺しました。その傷から流れ出た血はあまりに多く、霜の巨人たちはベルゲルミルとその妻を除いて溺れ死んだといいます。",
+      "claimIds": ["ymir-slain"]
+    },
+    {
+      "type": "paragraph",
+      "text": "三兄弟はユミルの体を奈落ギンヌンガガプの中央に運び、そこから世界を作りました。",
+      "claimIds": ["ymir-body"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "血 → 海と水",
+        "肉 → 大地",
+        "骨 → 岩山",
+        "歯と砕けた骨 → 石と砂利",
+        "頭蓋骨 → 天（四隅を四人の小人が支える）",
+        "眉 → 巨人から守るための砦ミズガルズ"
+      ],
+      "claimIds": ["ymir-body", "ymir-midgard"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "始祖ユミルとの共通点と違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のユミルは霜の巨人すべての祖であり、作品の始祖ユミルも巨人の力をもつ「ユミルの民」の祖です。どちらも「巨人の一族の始まり」に位置する存在として描かれています。",
+      "claimIds": ["ymir-birth", "ymir-work-people", "ymir-cmp-ancestor"]
+    },
+    {
+      "type": "paragraph",
+      "text": "また、原典ではユミルの体が切り分けられて世界の材料となり、作品ではユミルの亡骸が切り刻まれて、巨人の力が3人の娘へと受け継がれます。死後に体が分けられ、それが次の世界や世代のもとになるという構図にも共通点が見られます。",
+      "claimIds": ["ymir-body", "ymir-work-death", "ymir-cmp-body"]
+    },
+    {
+      "type": "paragraph",
+      "text": "一方で、原典のユミルが邪悪な霜の巨人の祖として語られるのに対し、作品の始祖ユミルは、両親を殺され舌を抜かれた奴隷の少女として描かれています。人物像はまったく異なります。",
+      "claimIds": ["ymir-evil", "ymir-work-slave", "ymir-cmp-diff"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ユミルは、氷と熱が出会って生まれた北欧神話の原初の巨人",
+        "霜の巨人の種族はすべてユミルから出た",
+        "オーディンら三兄弟に殺され、その体から大地・海・天が作られた",
+        "『進撃の巨人』の始祖ユミルとは「巨人の祖」「分けられる体」という共通点があるが、作者が参照したかは確認できない"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ymir-work",
+      "text": "始祖ユミル（ユミル・フリッツ）はユミルの民の祖先で、始祖の巨人の巨人化能力者。約1820年前に「大地の悪魔」と契約して巨人の力を得たと伝えられる。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人」「進撃の巨人の登場人物」の記述で確認。"
+    },
+    {
+      "id": "ymir-work-people",
+      "text": "作中の巨人の正体は、壁内人類と同じ祖先をもつ「ユミルの民」である。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人」「進撃の巨人の登場人物」の記述で確認。"
+    },
+    {
+      "id": "ymir-work-slave",
+      "text": "ユミルは古代エルディアに両親を殺害され、舌を抜かれた奴隷だった。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人」「進撃の巨人の登場人物」の記述で確認。"
+    },
+    {
+      "id": "ymir-work-death",
+      "text": "ユミルの亡骸は、巨人の力を継承させようとしたフリッツ王の命令で切り刻まれ、3人の娘たちに食われた。",
+      "classification": "creative",
+      "sourceIds": ["work-attack-on-titan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「進撃の巨人」「進撃の巨人の登場人物」の記述で確認。"
+    },
+    {
+      "id": "ymir-cmp-name",
+      "text": "北欧神話のユミルとの名前の一致は指摘されるが、作者が参照したことを示す公式な記述は確認できていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ymir-birth",
+      "text": "熱気が霜に触れて溶けた滴に生命が宿り、人の姿となったのがユミルで、霜の巨人たちは彼をアウルゲルミルと呼ぶ。霜の巨人の種族はすべて彼から出た。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 5章"
+    },
+    {
+      "id": "ymir-evil",
+      "text": "ユミルは神ではなく、彼もその一族も邪悪で、霜の巨人と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 5章"
+    },
+    {
+      "id": "ymir-sweat",
+      "text": "ユミルが眠ると汗をかき、左手の下から男と女が生まれ、片方の足がもう一方の足とのあいだに息子をもうけた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 5章"
+    },
+    {
+      "id": "ymir-audumla",
+      "text": "霜の滴から牝牛アウズンブラが生まれ、四筋の乳でユミルを養った。アウズンブラが氷をなめると三日目にブーリが現れ、その孫がオーディン、ヴィリ、ヴェーである。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 6章"
+    },
+    {
+      "id": "ymir-slain",
+      "text": "ボルの息子たちは巨人ユミルを殺し、その血で霜の巨人はベルゲルミルとその妻を除いて溺れ死んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 7章"
+    },
+    {
+      "id": "ymir-body",
+      "text": "ボルの息子たちはユミルをギンヌンガガプの中央に運び、血から海と水を、肉から大地を、骨から岩山を、歯と砕けた骨から石と砂利を、頭蓋骨から天を作り、四隅を四人の小人に支えさせた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 8章"
+    },
+    {
+      "id": "ymir-midgard",
+      "text": "神々は巨人の敵意から守るため、ユミルの眉で世界を囲う砦を築き、そこをミズガルズと呼んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 8章"
+    },
+    {
+      "id": "ymir-cmp-ancestor",
+      "text": "どちらのユミルも「巨人の一族の始まり」に位置する存在である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ymir-cmp-body",
+      "text": "死後に体が分けられ、次の世界や世代のもとになるという構図に共通点がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "ymir-cmp-diff",
+      "text": "原典では邪悪な霜の巨人の祖、作品では奴隷の少女として描かれ、人物像は大きく異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

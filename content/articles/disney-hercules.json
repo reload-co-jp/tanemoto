@@ -1,0 +1,326 @@
+{
+  "id": "disney-hercules",
+  "slug": "disney-hercules",
+  "title": "ディズニー『ヘラクレス』と神話の違いは？ハデス・メガラ・フィルの元ネタを原典から解説",
+  "shortTitle": "ディズニー『ヘラクレス』と神話",
+  "eyecatchText": "ヘラクレス",
+  "description": "ディズニー映画『ヘラクレス』は、ギリシャ神話とどこが違う？母ヘラ、悪役ハデス、雲から生まれたペガサス、トレーナーのフィル、恋人メガラの元ネタを、アポロドロスやヘシオドスの原典と比べて解説します。",
+  "lead": "1997年公開のディズニー映画『ヘラクレス』は、ギリシャ神話の英雄を主人公にしながら、多くの設定を大胆に組み替えています。母は誰か、ハデスは本当に悪者か、フィルやメグは神話に登場するのか。作品の設定と原典の記述を並べて比べます。",
+  "category": "comparison",
+  "tags": ["ヘラクレス", "ディズニー", "ハデス", "メガラ", "ペガサス"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["heracles", "hades", "pegasus", "zeus"],
+  "mythologyIds": ["greek"],
+  "storyIds": [],
+  "workIds": ["disney-hercules"],
+  "characterIds": [
+    "disney-hercules-hercules",
+    "disney-hercules-hades",
+    "disney-hercules-pegasus",
+    "disney-hercules-phil",
+    "disney-hercules-meg"
+  ],
+  "topicIds": [],
+  "sourceIds": [
+    "work-disney-hercules",
+    "apollodorus-library",
+    "hesiod-theogony",
+    "frazer-apollodorus"
+  ],
+  "relatedArticleIds": ["heracles", "hades", "pegasus"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ディズニー映画『ヘラクレス』とは",
+      "anchor": "film"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ヘラクレス』は1997年に公開されたディズニーの長編アニメーション映画です。監督はジョン・マスカーとロン・クレメンツ。ゼウスの息子として生まれながら人間界で育ったヘラクレスが、神に戻るため「本当のヒーロー」を目指す物語です。",
+      "claimIds": ["disney-hercules-film"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "母はヘラか、アルクメネか",
+      "anchor": "mother"
+    },
+    {
+      "type": "paragraph",
+      "text": "映画では、ヘラクレスはゼウスとヘラの息子として生まれます。作品の解説でも、神話と異なり母親はアルクメネではなくヘラとされている、と説明されています。",
+      "claimIds": ["disney-hercules-dh-mother"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典では、母は人間の女性アルクメネです。ゼウスがアルクメネの夫の姿をとって交わり、ヘラクレスが生まれました。ヘラはむしろヘラクレスを憎み、赤子の寝床に大蛇を送り込んでいます。映画は、母をヘラにすることで、ヘラクレスを「生まれながらの神」として描き直しています。",
+      "claimIds": ["disney-hercules-birth", "disney-hercules-snakes"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ハデスは悪役なのか",
+      "anchor": "hades"
+    },
+    {
+      "type": "paragraph",
+      "text": "映画のハデスは死者の国の神で、ゼウスの弟。運命の三女神の予言を受け、タイタン族を解き放ってオリンポスを乗っ取ろうとたくらむ悪役です。",
+      "claimIds": ["disney-hercules-dh-hades"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のハデスはクロノスとレアの子で、ヘシオドスの系譜ではゼウスより先に生まれています。ゼウスら兄弟はティタンたちと戦って勝ち、くじで世界を分けて、ハデスは冥界を治めることになりました。ハデスはティタンとの戦いでゼウスの側に立っており、ゼウスに反逆する神としては語られていません。",
+      "claimIds": ["disney-hercules-kids", "disney-hercules-titans"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「冥界の神＝悪」ではない",
+      "text": "原典のハデスは厳しく恐れられる神ですが、悪の化身ではありません。冥界の王を悪役とする描き方は、映画独自の脚色です。",
+      "claimIds": ["disney-hercules-cmp-hades"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ペガサスはどこから来たか",
+      "anchor": "pegasus"
+    },
+    {
+      "type": "paragraph",
+      "text": "映画のペガサスは、ヘラクレスの誕生祝いにゼウスが雲から作った天馬です。原典のペガサスは、ペルセウスがメデューサの首を切ったときにその体から生まれ、英雄ベレロポンを乗せて怪物キマイラを倒しました。ヘラクレスの愛馬ではありませんが、のちにゼウスの館に住んで雷を運んだとされ、ゼウスとのつながりは原典にもあります。",
+      "claimIds": [
+        "disney-hercules-dh-pegasus",
+        "disney-hercules-pegasus-birth",
+        "disney-hercules-pegasus-zeus"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "フィル（ピロクテテス）の元ネタ",
+      "anchor": "phil"
+    },
+    {
+      "type": "paragraph",
+      "text": "映画のトレーナー、フィルの本名はピロクテテス。半人半獣のサテュロスで、数多くのヒーローを育てた人物として描かれます。",
+      "claimIds": ["disney-hercules-dh-phil"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典の伝承では、ピロクテテスはヘラクレスの最期に立ち会った人物です。毒に苦しむヘラクレスがオイテ山で火葬の薪に登ったとき、誰も火をつけようとしませんでした。アポロドロスは火をつけたのをポイアスとしますが、フレイザーの注によれば、通常の伝承ではその子ピロクテテスが火をつけ、礼としてヘラクレスの弓を受け取りました。英雄の最期を見送った人物が、映画では英雄を育てる師になっているのです。",
+      "claimIds": ["disney-hercules-pyre", "disney-hercules-pyre-variant"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "メガラ（メグ）の元ネタ",
+      "anchor": "meg"
+    },
+    {
+      "type": "paragraph",
+      "text": "映画のメグは、死んだ恋人を救うためハデスに魂を売り、その手下として働いていた女性で、やがてヘラクレスと恋に落ちます。",
+      "claimIds": ["disney-hercules-dh-meg"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のメガラは、テーバイ王クレオンの長女で、ヘラクレスの最初の妻です。しかしヘラの送った狂気によって、ヘラクレスはメガラとのあいだの子どもたちを火に投げ込んでしまいます。この悲劇が、ヘラクレスの難業の発端となりました。",
+      "claimIds": ["disney-hercules-megara", "disney-hercules-madness"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「神に戻る」物語と「神になる」物語",
+      "anchor": "arc"
+    },
+    {
+      "type": "paragraph",
+      "text": "映画のヘラクレスは、ゼウスに「神に戻るには本当のヒーローになるしかない」と告げられます。原典のヘラクレスは人間として生まれ、難業を果たせば不死になると神託で告げられ、最期は火葬の炎のなかから天に昇って神となりました。映画は「人間から神へ」という原典の筋を、「神から人間へ、そして神へ」と組み直しているのです。",
+      "claimIds": [
+        "disney-hercules-dh-hero",
+        "disney-hercules-oracle",
+        "disney-hercules-ascend"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "映画の母ヘラは、原典ではヘラクレスを憎む存在で、実の母はアルクメネ",
+        "原典のハデスはティタンとの戦いでゼウスの側に立った神で、悪役ではない",
+        "フィルの本名ピロクテテスは、伝承でヘラクレスの火葬に火をつけた人物の名",
+        "メガラは原典ではヘラクレスの最初の妻で、悲劇の人物"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "disney-hercules-film",
+      "text": "『ヘラクレス』は1997年公開のディズニーの長編アニメーション映画で、監督はジョン・マスカーとロン・クレメンツ。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "disney-hercules-dh-mother",
+      "text": "作品ではヘラクレスの母親はアルクメネではなくヘラとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "disney-hercules-dh-hades",
+      "text": "ハデスは死者の国の神でゼウスの弟。運命の三女神の予言を受け、タイタン族を解き放ってオリンポスを乗っ取ろうとたくらむ。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "disney-hercules-dh-pegasus",
+      "text": "ペガサスはヘラクレスの誕生祝いにゼウスが雲から作った天馬である。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "disney-hercules-dh-phil",
+      "text": "フィルの本名はピロクテテスで、半人半獣のヤギ人間サテュロス。数多くのヒーローを育てた敏腕トレーナー。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "disney-hercules-dh-meg",
+      "text": "メガラ（メグ）は死んだ恋人を救おうとハデスに魂を売り、その手下として働いていた。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "disney-hercules-dh-hero",
+      "text": "ヘラクレスはゼウスから「神に戻るには本当のヒーローになるしかない」と告げられる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "disney-hercules-birth",
+      "text": "ゼウスはアンピトリュオンの姿をとってアルクメネと交わり、アルクメネはヘラクレスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.8"
+    },
+    {
+      "id": "disney-hercules-snakes",
+      "text": "ヘラは生後八か月のヘラクレスの寝床に二匹の大蛇を送ったが、ヘラクレスは両手で絞め殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.8"
+    },
+    {
+      "id": "disney-hercules-kids",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "disney-hercules-titans",
+      "text": "ゼウスら兄弟はティタンたちと十年戦い、キュクロプスから授かった雷霆・兜・三叉の矛で勝利した。その後くじで、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界を得た。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "disney-hercules-cmp-hades",
+      "text": "冥界の王を悪役とする描き方は、映画独自の脚色である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "disney-hercules-pegasus-birth",
+      "text": "ペルセウスがメデューサの首を切ったとき、天馬ペガソスが生まれた。ベレロポンはペガソスに乗ってキマイラを射落とした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2, 2.3.2"
+    },
+    {
+      "id": "disney-hercules-pegasus-zeus",
+      "text": "ペガソスはゼウスの館に住み、雷鳴と稲妻を運ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』284–286行"
+    },
+    {
+      "id": "disney-hercules-pyre",
+      "text": "ヘラクレスはオイテ山で薪に登り火をつけるよう命じたが誰も従わず、ポイアスが火をつけ、ヘラクレスは彼に弓を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.7.7"
+    },
+    {
+      "id": "disney-hercules-pyre-variant",
+      "text": "通常の伝承では、火をつけたのはポイアスではなくその子ピロクテテスである。",
+      "classification": "variant",
+      "sourceIds": ["frazer-apollodorus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "フレイザー注（『ビブリオテーケー』2.7.7）"
+    },
+    {
+      "id": "disney-hercules-megara",
+      "text": "ヘラクレスはテーバイ王クレオンから長女メガラを妻に迎えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.11"
+    },
+    {
+      "id": "disney-hercules-madness",
+      "text": "ヘラクレスはヘラの嫉妬によって狂気に陥り、メガラとのあいだの子どもたちを火に投げ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "disney-hercules-oracle",
+      "text": "デルポイの巫女は、十の難業を果たせば不死となるとヘラクレスに告げた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "disney-hercules-ascend",
+      "text": "火葬の薪が燃えるあいだ、雲が雷鳴とともにヘラクレスを天へ運び、ヘラクレスは不死を得た。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.7.7"
+    }
+  ]
+}

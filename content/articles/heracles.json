@@ -1,0 +1,334 @@
+{
+  "id": "heracles",
+  "slug": "heracles",
+  "title": "ヘラクレスとは？十二の難業と神になった英雄を原典から解説【Fate・終末のワルキューレ・ディズニー】",
+  "shortTitle": "ヘラクレスとは",
+  "eyecatchText": "ヘラクレス",
+  "description": "『Fate/stay night』のバーサーカー、『終末のワルキューレ』、ディズニー映画でおなじみのヘラクレス。ゼウスの子としての誕生、狂気と十二の難業、ネメアの獅子とヒュドラ、火葬の炎から神になるまでを原典から解説します。",
+  "lead": "ギリシャ神話で最も名高い英雄ヘラクレスは、多くの作品で、それぞれ違った姿で描かれています。狂戦士として、神側の闘士として、あるいはヒーローを目指す青年として。その元になった原典のヘラクレスは、どのような生涯を送ったのでしょうか。アポロドロス『ビブリオテーケー』を中心に読み解きます。",
+  "category": "gods-heroes",
+  "tags": [
+    "ヘラクレス",
+    "Fate",
+    "終末のワルキューレ",
+    "ディズニー",
+    "十二の難業"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["heracles", "zeus", "hades", "cerberus"],
+  "mythologyIds": ["greek"],
+  "storyIds": ["heracles-cerberus"],
+  "workIds": ["fate-stay-night", "record-of-ragnarok", "disney-hercules"],
+  "characterIds": [
+    "fate-stay-night-berserker",
+    "record-of-ragnarok-heracles",
+    "disney-hercules-hercules"
+  ],
+  "topicIds": [],
+  "sourceIds": [
+    "work-fate-stay-night",
+    "work-record-of-ragnarok",
+    "work-disney-hercules",
+    "apollodorus-library",
+    "frazer-apollodorus"
+  ],
+  "relatedArticleIds": ["disney-hercules", "cerberus", "hades"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品に登場するヘラクレス",
+      "anchor": "works"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『Fate/stay night』：狂戦士（バーサーカー）のクラスで召喚されたサーヴァントで、宝具「十二の試練（ゴッド・ハンド）」によって何度も蘇生する",
+        "『終末のワルキューレ』：神側の闘士として出場する半神半人。「十二の災禍と罪過」により体に刺青が広がっていく",
+        "ディズニー映画『ヘラクレス』：ゼウスとヘラの息子として生まれ、人間界で育ち、神に戻るため「本当のヒーロー」を目指す"
+      ],
+      "claimIds": ["heracles-work-fsn", "heracles-work-rr", "heracles-work-dh"]
+    },
+    {
+      "type": "paragraph",
+      "text": "どの作品にも共通するのは「難業」と「神と人のあいだ」というテーマです。以下、原典のヘラクレスの生涯を順にたどります。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゼウスとアルクメネの子として生まれる",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロスによれば、ゼウスはアルクメネの夫アンピトリュオンの姿をとり、一夜を三倍に引き延ばして彼女と交わりました。アルクメネは双子を産みます。ゼウスの子ヘラクレスと、アンピトリュオンの子イピクレスです。",
+      "claimIds": ["heracles-birth"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ゼウスの浮気相手の子であるヘラクレスを、ゼウスの妻ヘラは憎みました。生後八か月の赤子の寝床に二匹の大蛇を送り込みますが、ヘラクレスは起き上がり、両手で大蛇を絞め殺してしまいます。",
+      "claimIds": ["heracles-snakes"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "狂気と償い——難業の始まり",
+      "anchor": "madness"
+    },
+    {
+      "type": "paragraph",
+      "text": "成長したヘラクレスはテーバイ王クレオンの娘メガラを妻とし、子どもにも恵まれます。しかしヘラの嫉妬によって狂気に陥り、自分の子どもたちを火に投げ込んでしまいました。",
+      "claimIds": ["heracles-megara", "heracles-madness"]
+    },
+    {
+      "type": "paragraph",
+      "text": "罪を償うためデルポイで神託を求めると、巫女はこう告げます。ティリュンスに住み、エウリュステウスに十二年仕えて十の難業を果たせ、そうすれば不死となる——。のちに二つの難業が認められなかったため、難業は十二となりました。",
+      "claimIds": ["heracles-oracle", "heracles-twelve"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "作品の「十二」との関係",
+      "text": "『Fate/stay night』の宝具「十二の試練」や『終末のワルキューレ』の「十二の災禍と罪過」は、この十二の難業を踏まえたものと考えられます。原典では難業は「罪の償い」であり、「不死への道」でもありました。",
+      "claimIds": ["heracles-editorial-twelve"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "十二の難業から",
+      "anchor": "labors"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ネメアの獅子",
+      "anchor": "lion"
+    },
+    {
+      "type": "paragraph",
+      "text": "最初の難業は、テュポンの子で不死身の獅子の皮を持ち帰ることでした。矢が通じないと知ったヘラクレスは棍棒で追い立て、洞窟に追い込んで首を腕で締め上げ、絞め殺しました。",
+      "claimIds": ["heracles-lion"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "レルネのヒュドラ",
+      "anchor": "hydra"
+    },
+    {
+      "type": "paragraph",
+      "text": "二つめはレルネの沼の水蛇ヒュドラ退治です。九つの頭のうち八つは死すべきもので、真ん中の一つは不死でした。棍棒で頭を砕いても一つ砕くと二つ生えてきたため、甥イオラオスが松明で首の根元を焼いて再生を防ぎ、最後に不死の頭を切り落として岩の下に埋めました。",
+      "claimIds": ["heracles-hydra"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "冥界の番犬ケルベロス",
+      "anchor": "cerberus"
+    },
+    {
+      "type": "paragraph",
+      "text": "十二番目の難業は、冥界からケルベロスを連れ出すことでした。三つの犬の頭と竜の尾をもつ怪物で、ヘラクレスはタイナロンの冥界の入り口から降りていきます。",
+      "claimIds": ["heracles-cerberus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "火葬の炎から神へ",
+      "anchor": "apotheosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "晩年のヘラクレスは、妻デイアネイラが媚薬と信じて塗った毒——実はヒュドラの毒——によって、衣が肌に張りついて焼けただれます。ヘラクレスはオイテ山に薪を積み上げてその上に登り、火をつけるよう命じました。",
+      "claimIds": ["heracles-poison", "heracles-pyre"]
+    },
+    {
+      "type": "paragraph",
+      "text": "薪が燃えるあいだ、雲がヘラクレスの下に現れ、雷鳴とともに彼を天へ運び上げたといいます。こうしてヘラクレスは不死を得て、ヘラと和解し、その娘ヘベを妻としました。ヘシオドスも、苦難を終えたヘラクレスが不死の神々のもとで老いることなく暮らしていると語っています。",
+      "claimIds": ["heracles-pyre", "heracles-hebe"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "誰が火をつけたのか",
+      "text": "アポロドロスは、通りかかったポイアスが火をつけ、ヘラクレスは礼に弓を与えたとします。一方、訳注者フレイザーによれば、通常の伝承では火をつけたのはポイアスの子ピロクテテスでした。ディズニー映画のトレーナー、フィルの本名はこのピロクテテスです。",
+      "claimIds": ["heracles-pyre", "heracles-pyre-variant"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品ごとの描き方",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のヘラクレスは、人間として生まれ、狂気と罪と難業を経て神となった英雄です。狂戦士のクラス（Fate）、罪過の刺青（終末のワルキューレ）、神から人間へ、そして神へという物語（ディズニー）は、それぞれこの生涯の異なる側面を取り出したものと読むことができます。",
+      "claimIds": ["heracles-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ヘラクレスはゼウスと人間の女性アルクメネの子で、ヘラに憎まれた",
+        "ヘラの送った狂気で子を殺し、その償いとして難業に挑んだ",
+        "難業は当初十とされ、のちに十二となった",
+        "火葬の炎のなかから天に昇り、不死の神となった"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "heracles-work-fsn",
+      "text": "バーサーカーは狂戦士のクラスで召喚されたサーヴァントで真名はヘラクレス。宝具「十二の試練（ゴッド・ハンド）」によって命を落としても何度も蘇生する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "heracles-work-rr",
+      "text": "ヘラクレスは神側の闘士として出場する半神半人で、「十二の災禍と罪過」により体に刺青が広がり、全身を覆うと消滅する。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "heracles-work-dh",
+      "text": "ヘラクレスはゼウスとヘラの息子として生まれ、人間界で育ち、神に戻るため本当のヒーローを目指す。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-hercules"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラクレス (1997年の映画)」の記述で確認。"
+    },
+    {
+      "id": "heracles-birth",
+      "text": "ゼウスはアンピトリュオンの姿をとり、一夜を三倍に引き延ばしてアルクメネと交わった。アルクメネはゼウスの子ヘラクレスと、アンピトリュオンの子イピクレスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.8"
+    },
+    {
+      "id": "heracles-snakes",
+      "text": "ヘラは生後八か月のヘラクレスの寝床に二匹の大蛇を送ったが、ヘラクレスは両手で絞め殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.8"
+    },
+    {
+      "id": "heracles-megara",
+      "text": "ヘラクレスはテーバイ王クレオンから長女メガラを妻に迎え、三人の息子をもうけた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.11"
+    },
+    {
+      "id": "heracles-madness",
+      "text": "ヘラクレスはヘラの嫉妬によって狂気に陥り、自分の子どもたちを火に投げ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "heracles-oracle",
+      "text": "デルポイの巫女は、ティリュンスに住んでエウリュステウスに十二年仕え、十の難業を果たせば不死となるとヘラクレスに告げた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "heracles-twelve",
+      "text": "エウリュステウスはアウゲイアスの牛舎とヒュドラの二つの功業を認めず、さらに難業を課した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.11"
+    },
+    {
+      "id": "heracles-editorial-twelve",
+      "text": "作品の「十二の試練」「十二の災禍と罪過」は、十二の難業を踏まえたものと考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "heracles-lion",
+      "text": "最初の難業はテュポンの子で不死身のネメアの獅子の皮を持ち帰ること。ヘラクレスは矢が効かないと知ると棍棒で追い、洞窟で首を締め上げて絞め殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.1"
+    },
+    {
+      "id": "heracles-hydra",
+      "text": "ヒュドラは九つの頭をもち、八つは死すべきもので真ん中の一つは不死だった。頭を砕くと二つ生えてきたため、イオラオスが首の根元を焼いて再生を防ぎ、ヘラクレスは不死の頭を切り落として岩の下に埋めた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.2"
+    },
+    {
+      "id": "heracles-cerberus",
+      "text": "十二番目の難業は冥界からケルベロスを連れ出すこと。ケルベロスは三つの犬の頭と竜の尾をもち、ヘラクレスはタイナロンの入り口から冥界に降りた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.12"
+    },
+    {
+      "id": "heracles-poison",
+      "text": "デイアネイラはネッソスの血を媚薬と信じて衣に塗ったが、衣が温まるとヒュドラの毒がヘラクレスの肌を蝕み、衣を引き剥がすと肉も剥がれた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.7.7"
+    },
+    {
+      "id": "heracles-pyre",
+      "text": "ヘラクレスはオイテ山に薪を積んで登り、火をつけるよう命じた。ポイアスが火をつけ、ヘラクレスは彼に弓を与えた。薪が燃えるあいだ、雲が雷鳴とともにヘラクレスを天へ運んだ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.7.7"
+    },
+    {
+      "id": "heracles-hebe",
+      "text": "ヘラクレスは不死を得てヘラと和解し、その娘ヘベを妻とした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.7.7"
+    },
+    {
+      "id": "heracles-pyre-variant",
+      "text": "通常の伝承では、火をつけたのはポイアスではなくその子ピロクテテスである。",
+      "classification": "variant",
+      "sourceIds": ["frazer-apollodorus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "フレイザー注（『ビブリオテーケー』2.7.7）"
+    },
+    {
+      "id": "heracles-cmp",
+      "text": "各作品の描き方は、人間として生まれ狂気と罪と難業を経て神となった原典の生涯の、異なる側面を取り出したものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

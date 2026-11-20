@@ -1,0 +1,242 @@
+{
+  "id": "hestia",
+  "slug": "hestia",
+  "title": "ヘスティアとは？『ダンまち』女神の元ネタ、炉の女神を原典から解説",
+  "shortTitle": "ヘスティアの元ネタ",
+  "eyecatchText": "ヘスティア",
+  "description": "『ダンまち』で主人公ベルを支える女神ヘスティア。元ネタであるギリシャ神話のヘスティアは、炉（かまど）の女神で三大処女神の一柱。クロノスの長子にして末子という出自、求婚を拒んだ誓い、家の中心の座を原典から解説します。",
+  "lead": "『ダンジョンに出会いを求めるのは間違っているだろうか』（ダンまち）で、ただ一人の眷族ベルを支える女神ヘスティア。作中の「炉の女神」「三大処女神」という設定は、ギリシャ神話の原典を踏まえたものです。神話の中では目立つ物語の少ないヘスティアが、どのような女神として語られているのかを紹介します。",
+  "category": "character-origins",
+  "tags": ["ヘスティア", "ダンまち", "炉の女神", "処女神", "ギリシャ神話"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["hestia", "hephaestus", "zeus", "poseidon"],
+  "mythologyIds": ["greek"],
+  "storyIds": ["children-of-cronos"],
+  "workIds": ["danmachi"],
+  "characterIds": ["danmachi-hestia", "danmachi-hephaistos"],
+  "topicIds": [],
+  "sourceIds": [
+    "work-danmachi",
+    "hesiod-theogony",
+    "homeric-hymn-aphrodite",
+    "homer-iliad"
+  ],
+  "relatedArticleIds": ["freyja", "loki"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『ダンまち』のヘスティアと元ネタ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ダンまち』のヘスティアは、主人公ベル・クラネルが所属するヘスティア・ファミリアの主神です。物語開始時、ファミリアに所属する眷族はベル一人だけでした。作中においても三大処女神の一人であり、炉の女神として竈の炎を司るとされています。",
+      "claimIds": ["hestia-work", "hestia-work-virgin"]
+    },
+    {
+      "type": "paragraph",
+      "text": "神友の女神ヘファイストスは、ヘスティアに強引に頼み込まれ、ベルのために「神（ヘスティア）のナイフ」を作製しました。",
+      "claimIds": ["hestia-work-knife"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "クロノスの長子にして末子",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、ヘスティアはクロノスとレアの子で、デメテル、ヘラ、ハデス、ポセイドン、ゼウスのきょうだいです。",
+      "claimIds": ["hestia-kids"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『アプロディテ讃歌』は、ヘスティアを「クロノスの最初に生まれた子であり、また最後の子でもある」と呼びます。クロノスは生まれた子を次々に呑み込み、のちに吐き出させられましたが、最初に呑まれたヘスティアは最後に吐き出されたため、こう呼ばれるのだと英訳者は注しています。",
+      "claimIds": ["hestia-first-last", "hestia-first-last-note"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アプロディテの力が及ばない三柱の女神",
+      "anchor": "virgin"
+    },
+    {
+      "type": "paragraph",
+      "text": "『アプロディテ讃歌』は、愛の女神アプロディテが心を動かせない女神が三柱いると語ります。戦と工芸を好むアテナ、狩りと弓を好むアルテミス、そしてヘスティアです。作中の「三大処女神」という設定は、この記述と重なります。",
+      "claimIds": ["hestia-three", "hestia-work-virgin"]
+    },
+    {
+      "type": "quote",
+      "text": "ポセイドンとアポロンが彼女を妻にと望んだが、彼女はまったく望まず、かたく拒んだ。そしてアイギスをもつ父ゼウスの頭に手を触れ、生涯乙女でいるという大いなる誓いを立てた。その誓いはまことに果たされている。",
+      "sourceId": "homeric-hymn-aphrodite",
+      "location": "『アプロディテ讃歌』24–28行",
+      "translationNote": "Evelyn-White の英訳をもとにした編集部訳",
+      "claimIds": ["hestia-oath"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "家の中心に座す女神",
+      "anchor": "hearth"
+    },
+    {
+      "type": "paragraph",
+      "text": "誓いを立てたヘスティアに、ゼウスは結婚の代わりに高い誉れを与えました。ヘスティアは家の中心に座を占め、最も豊かな分け前を受けます。あらゆる神々の神殿で誉れを受け、人間のあいだでは女神たちの筆頭とされました。",
+      "claimIds": ["hestia-hearth"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「家の中心」と「ファミリア」",
+      "text": "古代ギリシャで炉は家の中心に置かれ、家族の暮らしを支えるものでした。家の中心に座を与えられた炉の女神が、作品では眷族（ファミリア）を支える主神として描かれていると読むことができます。",
+      "claimIds": ["hestia-cmp-home"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "鍛冶の神ヘパイストスとの関係",
+      "anchor": "hephaestus"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品でナイフを作るヘファイストスの元ネタは、ギリシャ神話の鍛冶の神ヘパイストスです。『イリアス』では、青銅の館で鞴と金床と槌を使い、英雄アキレウスの武具を作っています。原典のヘパイストスは男神で、作品では女神として描かれています。",
+      "claimIds": ["hestia-forge", "hestia-cmp-gender"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のヘスティアは、ポセイドンとアポロンの求婚を拒んで生涯処女を誓った女神です。一方、作品のヘスティアはベルに強い好意を寄せる女神として描かれています。「炉の女神」「処女神」という設定を受け継ぎながら、人物像には作品独自の色づけがされています。",
+      "claimIds": ["hestia-oath", "hestia-cmp-love"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ヘスティアはクロノスとレアの子で、「最初で最後の子」とされる",
+        "アテナ、アルテミスとともに、アプロディテの力が及ばない三柱の女神",
+        "ポセイドンとアポロンの求婚を拒み、生涯処女を誓った",
+        "ゼウスから家の中心の座を与えられ、あらゆる神殿で誉れを受ける"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "hestia-work",
+      "text": "ヘスティアは主人公ベル・クラネルが所属するヘスティア・ファミリアの主神で、物語開始時、ベルはファミリアに所属する唯一の眷族だった。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "hestia-work-virgin",
+      "text": "ヘスティアは作中においても三大処女神の一人であり、炉の女神として竈の炎を司るとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "hestia-work-knife",
+      "text": "ヘファイストスはヘスティアに強引に頼み込まれ、「神（ヘスティア）のナイフ」を作製した。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ダンジョンに出会いを求めるのは間違っているだろうか」の記述で確認。"
+    },
+    {
+      "id": "hestia-kids",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "hestia-first-last",
+      "text": "ヘスティアはクロノスの最初に生まれた子であり、また最後の子でもある。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』22–23行"
+    },
+    {
+      "id": "hestia-first-last-note",
+      "text": "最初に呑み込まれたヘスティアは最後に吐き出されたため、最初で最後の子とされる、と英訳者は注している。",
+      "classification": "scholarship",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Evelyn-White 訳注（『アプロディテ讃歌』22行）"
+    },
+    {
+      "id": "hestia-three",
+      "text": "アプロディテが心を動かせない女神は三柱、アテナ、アルテミス、ヘスティアである。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』7–21行"
+    },
+    {
+      "id": "hestia-oath",
+      "text": "ヘスティアはポセイドンとアポロンの求婚を拒み、ゼウスの頭に手を触れて生涯乙女でいると誓った。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』24–28行"
+    },
+    {
+      "id": "hestia-hearth",
+      "text": "ゼウスは結婚の代わりにヘスティアに誉れを与え、ヘスティアは家の中心に座を占めた。あらゆる神殿で誉れを受け、人間のあいだで女神たちの筆頭とされる。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』29–32行"
+    },
+    {
+      "id": "hestia-cmp-home",
+      "text": "家の中心に座を与えられた炉の女神が、作品では眷族を支える主神として描かれていると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、読み方の一つとして示す。"
+    },
+    {
+      "id": "hestia-forge",
+      "text": "ヘパイストスは青銅の館で鞴と金床と槌を使い、アキレウスの盾と武具を作った。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』18.369–371, 468–482"
+    },
+    {
+      "id": "hestia-cmp-gender",
+      "text": "原典のヘパイストスは男神だが、作品では女神として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "hestia-cmp-love",
+      "text": "原典では求婚を拒んだ処女神だが、作品ではベルに好意を寄せる女神として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}
