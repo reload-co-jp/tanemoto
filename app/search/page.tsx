@@ -20,14 +20,16 @@ const styles = css`
     width: 100%;
     font-size: 1.1rem;
     padding: 14px 16px;
-    border: 1px solid ${color.borderStrong};
+    border: 2.5px solid ${color.line};
     background: ${color.paper};
-    border-radius: 2px;
+    border-radius: 999px;
+    padding-left: 22px;
+    box-shadow: 4px 4px 0 ${color.glow};
   }
   .t-search__form input:focus {
-    outline: 2px solid ${color.gold};
+    outline: 2px solid ${color.accent};
     outline-offset: 0;
-    border-color: ${color.gold};
+    border-color: ${color.accent};
   }
   .t-search__kinds {
     display: flex;
@@ -39,9 +41,9 @@ const styles = css`
     cursor: pointer;
   }
   .t-search__kinds .t-chip[aria-pressed="true"] {
-    background: ${color.navy};
-    color: ${color.ivory};
-    border-color: ${color.navy};
+    background: ${color.ink};
+    color: ${color.cream};
+    border-color: ${color.ink};
   }
   .t-search__results {
     list-style: none;
@@ -56,18 +58,18 @@ const styles = css`
   }
   .t-search__kind {
     font-size: 0.75rem;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     letter-spacing: 0.05em;
   }
   .t-search__title {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-size: 1.1rem;
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
     text-decoration: none;
   }
   .t-search__title:hover {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     text-decoration: underline;
   }
   .t-search__desc {

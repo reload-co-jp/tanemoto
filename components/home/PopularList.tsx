@@ -20,19 +20,19 @@ const styles = css`
   }
   .t-rank li::before {
     content: counter(rank);
-    font-family: ${font.latin};
+    font-family: ${font.pop};
     font-size: 1.5rem;
-    color: ${color.gold};
+    color: ${color.accent};
     line-height: 1;
   }
   .t-rank a {
-    font-family: ${font.serif};
-    color: ${color.navy};
+    font-family: ${font.display};
+    color: ${color.ink};
     text-decoration: none;
     line-height: 1.6;
   }
   .t-rank a:hover {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     text-decoration: underline;
   }
 `

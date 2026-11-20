@@ -1,20 +1,20 @@
 import type { TocItem } from "@/lib/content/text"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { color, font } from "@/lib/styles/theme"
 
 const styles = css`
+  ${winCss(".t-toc")}
   .t-toc {
-    background: ${color.paper};
-    border: 1px solid ${color.border};
-    border-top: 2px solid ${color.navy};
     font-size: 0.9rem;
+    padding-top: 30px;
   }
   .t-toc summary {
     cursor: pointer;
     padding: 12px 16px;
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -25,17 +25,17 @@ const styles = css`
   }
   .t-toc summary::after {
     content: "＋";
-    color: ${color.gold};
+    color: ${color.accent};
     font-size: 0.9rem;
   }
   .t-toc[open] summary::after {
     content: "－";
   }
   .t-toc__en {
-    font-family: ${font.latin};
+    font-family: ${font.pop};
     letter-spacing: 0.2em;
     font-size: 0.7rem;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     margin-left: 8px;
     font-weight: 400;
   }
@@ -56,7 +56,7 @@ const styles = css`
     display: block;
   }
   .t-toc a:hover {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     text-decoration: underline;
   }
   .t-toc__h2 {
@@ -66,8 +66,8 @@ const styles = css`
   }
   .t-toc__h2::before {
     content: counter(toc, decimal-leading-zero);
-    font-family: ${font.latin};
-    color: ${color.goldDeep};
+    font-family: ${font.pop};
+    color: ${color.accentDeep};
   }
   .t-toc__h3 {
     padding-left: 1.8em;
@@ -90,7 +90,7 @@ export const Toc = ({
   return (
     <nav aria-label="目次">
       <Style id="toc">{styles}</Style>
-      <details className="t-toc" open={open}>
+      <details className="t-toc" data-title="Contents.txt" open={open}>
         <summary>
           <span>
             目次<span className="t-toc__en">CONTENTS</span>

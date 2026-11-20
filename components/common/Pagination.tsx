@@ -18,19 +18,21 @@ const styles = css`
     height: 40px;
     align-items: center;
     justify-content: center;
-    border: 1px solid ${color.border};
+    border: 2px solid ${color.line};
+    border-radius: 999px;
+    font-weight: 700;
     padding: 0 12px;
     text-decoration: none;
     color: ${color.text};
     background: ${color.paper};
   }
   .t-pager a:hover {
-    border-color: ${color.gold};
+    border-color: ${color.accent};
   }
   .t-pager [aria-current] {
-    background: ${color.navy};
-    color: ${color.ivory};
-    border-color: ${color.navy};
+    background: ${color.ink};
+    color: ${color.cream};
+    border-color: ${color.ink};
   }
 `
 

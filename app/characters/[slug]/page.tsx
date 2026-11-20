@@ -26,6 +26,7 @@ import { characterTile } from "@/lib/characterTile"
 import { buildMetadata } from "@/lib/seo"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { bp, color, font } from "@/lib/styles/theme"
 
 type Props = { params: Promise<{ slug: string }> }
@@ -56,13 +57,13 @@ export const generateMetadata = async ({ params }: Props) => {
 
 const styles = css`
   .t-char__lead {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-size: 1.05rem;
     line-height: 1.9;
     color: ${color.charcoal};
   }
   .t-char__lead strong {
-    color: ${color.navy};
+    color: ${color.ink};
   }
   .t-char__block {
     max-width: 40em;
@@ -71,17 +72,17 @@ const styles = css`
   .t-char__block + .t-char__block {
     margin-top: 12px;
   }
+  ${winCss(".t-motif")}
   .t-motif {
-    border: 1px solid ${color.border};
-    background: ${color.paper};
     padding: 20px;
+    padding-top: 48px;
   }
   .t-motif + .t-motif {
     margin-top: 20px;
   }
   .t-motif__aspect {
     font-size: 0.75rem;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     letter-spacing: 0.08em;
   }
   .t-motif__label {
@@ -193,7 +194,7 @@ const Page = async ({ params }: Props) => {
                 ? getFiguresByIds([motif.figureId])[0]
                 : undefined
               return (
-                <article key={i} className="t-motif">
+                <article key={i} className="t-motif" data-title="Motif.txt">
                   <p className="t-motif__aspect">
                     {i === 0 ? "主な元ネタ" : "元ネタ"} ／{" "}
                     {motifAspects[motif.aspect]}

@@ -19,14 +19,14 @@ const styles = css`
     scroll-margin-top: 24px;
   }
   .t-evidence li:target {
-    background: ${color.goldPale};
+    background: ${color.accentPale};
   }
   .t-evidence__num {
     position: absolute;
     left: 0;
     top: 14px;
-    font-family: ${font.latin};
-    color: ${color.goldDeep};
+    font-family: ${font.pop};
+    color: ${color.accentDeep};
     width: 2em;
     text-align: right;
   }
@@ -55,11 +55,12 @@ const styles = css`
   .t-sources__type {
     display: inline-block;
     font-size: 0.7rem;
-    border: 1px solid ${color.borderStrong};
-    color: ${color.muted};
-    padding: 1px 6px;
+    border: 1.5px solid ${color.line};
+    color: ${color.ink};
+    font-weight: 700;
+    padding: 1px 8px;
     margin-right: 8px;
-    border-radius: 2px;
+    border-radius: 999px;
     vertical-align: 0.1em;
   }
   .t-sources__title {

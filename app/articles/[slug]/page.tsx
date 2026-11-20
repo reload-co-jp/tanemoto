@@ -35,6 +35,7 @@ import { formatDate } from "@/lib/format"
 import { articleJsonLd, buildMetadata } from "@/lib/seo"
 import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
+import { winCss } from "@/lib/styles/global"
 import { bp, color, font } from "@/lib/styles/theme"
 
 type Props = { params: Promise<{ slug: string }> }
@@ -65,10 +66,10 @@ const styles = css`
   .t-article__cat {
     display: inline-block;
     font-size: 0.8rem;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     text-decoration: none;
     letter-spacing: 0.08em;
-    border-bottom: 1px solid ${color.gold};
+    border-bottom: 1px solid ${color.accent};
   }
   .t-article__title {
     font-size: 1.65rem;
@@ -85,7 +86,7 @@ const styles = css`
     font-size: 1.02rem;
     color: ${color.charcoal};
     line-height: 1.95;
-    font-family: ${font.serif};
+    font-family: ${font.display};
   }
   .t-article__dates {
     display: flex;
@@ -101,7 +102,7 @@ const styles = css`
   .t-article__origins-title {
     font-size: 1rem;
     margin-bottom: 12px;
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     letter-spacing: 0.05em;
   }
   .t-article__origins-grid {
@@ -140,16 +141,16 @@ const styles = css`
       overflow-y: auto;
     }
   }
+  ${winCss(".t-legend")}
   .t-legend {
     font-size: 0.8rem;
-    border: 1px solid ${color.border};
-    background: ${color.paper};
     padding: 14px 16px;
+    padding-top: 42px;
   }
   .t-legend__title {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
     margin-bottom: 8px;
     font-size: 0.9rem;
   }
@@ -179,13 +180,13 @@ const styles = css`
     gap: 12px;
   }
   .t-stories li {
-    border-left: 2px solid ${color.gold};
+    border-left: 2px solid ${color.accent};
     padding: 2px 0 2px 14px;
   }
   .t-stories__title {
-    font-family: ${font.serif};
+    font-family: ${font.display};
     font-weight: 600;
-    color: ${color.navy};
+    color: ${color.ink};
   }
   .t-stories__summary {
     font-size: 0.88rem;
@@ -195,7 +196,7 @@ const styles = css`
 `
 
 const Legend = ({ used }: { used: Set<string> }) => (
-  <div className="t-legend">
+  <div className="t-legend" data-title="Legend.txt">
     <p className="t-legend__title">情報区分ラベル</p>
     <ul>
       {classifications

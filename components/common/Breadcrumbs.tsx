@@ -25,14 +25,14 @@ const styles = css`
   .t-crumbs li + li::before {
     content: "›";
     margin: 0 8px;
-    color: ${color.gold};
+    color: ${color.accent};
   }
   .t-crumbs a {
     color: ${color.muted};
     text-decoration: none;
   }
   .t-crumbs a:hover {
-    color: ${color.goldDeep};
+    color: ${color.accentDeep};
     text-decoration: underline;
   }
   .t-crumbs [aria-current] {
