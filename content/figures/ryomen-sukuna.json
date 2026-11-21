@@ -1,0 +1,17 @@
+{
+  "id": "ryomen-sukuna",
+  "slug": "ryomen-sukuna",
+  "name": "両面宿儺",
+  "reading": "りょうめんすくな",
+  "originalName": "宿儺",
+  "romanized": "Ryomen Sukuna",
+  "alternativeNames": ["宿儺"],
+  "type": "human",
+  "roles": ["異形の者", "飛騨"],
+  "mythologyIds": ["japanese"],
+  "description": "『日本書紀』仁徳天皇六十五年条に記される、飛騨国の人物。一つの体に二つの顔があり、顔はそれぞれ反対を向いていた。手足も前後にそれぞれあって、四本の手で剣と弓矢を使い、天皇の命に従わず人々を略奪したため、難波根子武振熊に討たれた。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["nihon-shoki"]
+}

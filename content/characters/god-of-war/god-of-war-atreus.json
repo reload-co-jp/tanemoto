@@ -1,0 +1,69 @@
+{
+  "id": "god-of-war-atreus",
+  "slug": "god-of-war-atreus",
+  "name": "アトレウス",
+  "reading": "あとれうす",
+  "alternativeNames": ["ロキ"],
+  "workId": "god-of-war-2018",
+  "description": {
+    "text": "クレイトスと、北欧の地で迎えた妻フェイの息子。亡き母の遺灰を九界で一番高い山から撒くため、父とともに旅をする。旅の終わりに、母がつけた本当の名が「ロキ」であることが明かされる。",
+    "claimIds": ["gow-atreus-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "loki",
+      "label": "ロキ",
+      "inWork": {
+        "text": "母フェイは巨人であり、アトレウスは神と人間と巨人の血を引く。母が彼につけた名前は「ロキ」だった。",
+        "claimIds": ["gow-atreus-work-loki"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』のロキは、巨人ファールバウティの子で、母はラウフェイまたはナールという。アース神族に数えられながら、巨人の血を引く存在である。",
+        "claimIds": ["gow-atreus-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のロキも、巨人の父をもちながら神々の側にいる存在として描かれる。作品は、ロキの「巨人の血を引く神」という出自を、巨人の母と神の父をもつ少年という設定に置き換えている。母の名「フェイ」と、原典のロキの母「ラウフェイ」の響きの近さも興味深い。",
+      "claimIds": ["gow-atreus-myth", "gow-atreus-work-loki", "gow-atreus-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gow-atreus-work",
+      "text": "アトレウスはクレイトスの幼い息子で、亡き妻フェイの遺灰を九界で一番高い山の山頂から撒くため、父と共に旅に出る。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gow-atreus-work-loki",
+      "text": "旅の終わりに、母フェイが巨人であり、アトレウスが神と人間と巨人の血を引いていること、母が付けた名前が「ロキ」であることが明かされる。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gow-atreus-myth",
+      "text": "ロキ（ロプト）は巨人ファールバウティの子で、母はラウフェイまたはナール。アース神族に数えられる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "gow-atreus-cmp",
+      "text": "巨人の血を引く神というロキの出自が、巨人の母をもつ少年という設定に置き換えられている。「フェイ」と「ラウフェイ」の響きも近い。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "名前の類似が意図されたものかは確認できないため、筆者の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-2018", "snorri-edda"],
+  "articleIds": []
+}

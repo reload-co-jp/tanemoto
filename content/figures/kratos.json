@@ -1,0 +1,17 @@
+{
+  "id": "kratos",
+  "slug": "kratos",
+  "name": "クラトス",
+  "reading": "くらとす",
+  "originalName": "Κράτος",
+  "romanized": "Kratos",
+  "alternativeNames": [],
+  "type": "personification",
+  "roles": ["力"],
+  "mythologyIds": ["greek"],
+  "description": "「力」を擬人化した神。ヘシオドス『神統記』によれば、オケアノスの娘ステュクスとパラスの子で、ゼロス（競争心）、ニケ（勝利）、ビア（暴力）と兄弟。いつもゼウスのそばにいて、ゼウスの行くところにしか道をもたない。",
+  "relatedFigureIds": ["zeus"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony"]
+}

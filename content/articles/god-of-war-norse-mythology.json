@@ -1,0 +1,247 @@
+{
+  "id": "god-of-war-norse-mythology",
+  "slug": "god-of-war-norse-mythology",
+  "title": "『ゴッド・オブ・ウォー』（2018）の元ネタ｜アトレウスの正体ロキ、フレイヤとバルドル、ミーミルの首を北欧神話から解説",
+  "shortTitle": "『ゴッド・オブ・ウォー』の元ネタ",
+  "eyecatchText": "GOD OF WAR",
+  "description": "『ゴッド・オブ・ウォー』（2018）で明かされるアトレウスの本当の名「ロキ」。バルドルの母とされたフレイヤ、首だけで旅をするミーミル、主人公クレイトスの名の由来まで、『散文エッダ』『古エッダ』『神統記』の原典から解説します。",
+  "lead": "ギリシャの神々への復讐を終えた戦士クレイトスが、北欧の地で息子と旅をする『ゴッド・オブ・ウォー』（2018）。作中には北欧神話の神々が次々に登場し、原典を大胆にアレンジした設定が随所に見られます。どこが原典どおりで、どこが作品独自なのかを整理します。",
+  "category": "character-origins",
+  "tags": [
+    "ゴッド・オブ・ウォー",
+    "アトレウス",
+    "ロキ",
+    "フレイヤ",
+    "ミーミル",
+    "北欧神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["loki", "freyja", "frigg", "baldr", "mimir", "odin", "kratos"],
+  "mythologyIds": ["norse", "greek"],
+  "storyIds": ["ragnarok"],
+  "workIds": ["god-of-war-2018"],
+  "characterIds": [
+    "god-of-war-atreus",
+    "god-of-war-freya",
+    "god-of-war-mimir",
+    "god-of-war-kratos"
+  ],
+  "topicIds": [],
+  "sourceIds": [
+    "work-god-of-war-2018",
+    "snorri-edda",
+    "poetic-edda",
+    "hesiod-theogony"
+  ],
+  "relatedArticleIds": ["loki", "freyja", "ragnarok"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "元ネタ早見表",
+      "anchor": "overview"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "アトレウス → ロキ：母が彼につけた本当の名",
+        "フレイヤ → フレイヤ＋フリッグ：作品ではバルドルの母でオーディンの妻",
+        "ミーミル → ミーミル：知恵の泉の番人。オーディンが首に耳を傾ける",
+        "クレイトス → クラトス：ギリシャ神話の「力」の擬人神"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アトレウスの本当の名",
+      "anchor": "atreus"
+    },
+    {
+      "type": "paragraph",
+      "text": "亡き母フェイの遺灰を、九界で一番高い山の頂から撒くため、クレイトスと息子アトレウスは旅に出ます。旅の終わり、巨人の国ヨトゥンヘイムで、母フェイが巨人であったこと、そして母がアトレウスにつけた名が「ロキ」であったことが明かされます。",
+      "claimIds": ["gw-atreus"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典の『散文エッダ』によれば、ロキは巨人ファールバウティの子で、母はラウフェイまたはナールといいます。巨人の血を引きながらアース神族に数えられるという出自が、作品では巨人の母と神の父をもつ少年という設定に置き換えられています。",
+      "claimIds": ["gw-loki"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "フェイとラウフェイ",
+      "text": "作品の母の名「フェイ（Faye）」と、原典のロキの母「ラウフェイ（Laufey）」は響きがよく似ています。意図されたものかは確認できませんが、原典を知っていると気づく一致です。",
+      "claimIds": ["gw-cmp-faye"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "フレイヤとフリッグ",
+      "anchor": "freya"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイトス親子を助ける「森の魔女」フレイヤは、実はヴァン神族の女神で、オーディンに追放された妻であり、敵として立ちはだかるバルドルの母でした。",
+      "claimIds": ["gw-freya"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ところが原典では、オーディンの妻でバルドルの母なのは、女神フリッグです。フリッグは息子を守るため、火や水、鉄や石、獣や毒にまでバルドルを傷つけないと誓わせましたが、若いヤドリギだけは誓わせていませんでした。一方のフレイヤは、オーズという男の妻で、旅に出た夫を思って赤い黄金の涙を流す女神とされています。",
+      "claimIds": ["gw-frigg", "gw-freyja"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "二柱の女神を一人に",
+      "text": "作品は、原典のフリッグとフレイヤの役割を一人のフレイヤにまとめています。研究者の間には、フレイヤの夫オーズ（Óðr）とオーディン（Óðinn）の名の類似などから、二柱の女神がもとは一つの存在だったのではないかとする議論もあり、作品の設定はそうした説を思わせます。",
+      "claimIds": ["gw-cmp-freya"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ミーミルの首",
+      "anchor": "mimir"
+    },
+    {
+      "type": "paragraph",
+      "text": "自らを「知の巨人」と呼ぶミーミルは、クレイトスに自分の首を切り落とさせ、森の魔女の力で首だけの姿でよみがえって、親子の旅に同行します。",
+      "claimIds": ["gw-mimir"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のミーミルは、世界樹ユグドラシルの根元にある知恵の泉の番人です。オーディンは泉の水を一口飲むために、片目を担保として差し出しました。そして『古エッダ』の「巫女の予言」は、ラグナロクを前にオーディンが「ミームの首」に耳を傾ける、とうたっています。首だけで知恵を語るミーミルの姿は、この原典に由来します。",
+      "claimIds": ["gw-well", "gw-head"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "クレイトスの名",
+      "anchor": "kratos"
+    },
+    {
+      "type": "paragraph",
+      "text": "主人公クレイトス（Kratos）の名は、ギリシャ語で「力」を意味します。ヘシオドス『神統記』のクラトスは「力」を擬人化した神で、ニケ（勝利）、ビア（暴力）らと兄弟で、いつもゼウスのそばに仕えています。ゼウスをはじめギリシャの神々に復讐を果たした作品の主人公は、名前の由来とは正反対の立場にいるといえます。",
+      "claimIds": ["gw-kratos", "gw-cmp-kratos"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "アトレウスの本当の名はロキ。巨人の母をもつ設定は、巨人の血を引く原典のロキの出自を置き換えたもの",
+        "作品でバルドルの母とされるフレイヤは、原典ではフリッグの役割",
+        "首だけのミーミルは、オーディンがミームの首に耳を傾けるという原典に由来する",
+        "クレイトスの名は、ゼウスに仕える「力」の擬人神クラトスと同じ"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "gw-atreus",
+      "text": "クレイトスと息子アトレウスは亡き妻フェイの遺灰を九界で一番高い山から撒くため旅に出る。旅の終わりに、フェイが巨人であり、母がアトレウスに付けた名前が「ロキ」であることが明かされる。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gw-loki",
+      "text": "ロキは巨人ファールバウティの子で、母はラウフェイまたはナール。アース神族に数えられる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "gw-cmp-faye",
+      "text": "「フェイ」と「ラウフェイ」は響きが近い。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "意図されたものかは確認できない。"
+    },
+    {
+      "id": "gw-freya",
+      "text": "フレイヤは森の魔女としてクレイトス親子に協力するが、実はヴァン神族の女神でオーディンの追放された妻であり、バルドルの母であった。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gw-frigg",
+      "text": "オーディンの妻はフリッグで、バルドルはオーディンの二番目の息子。フリッグは火や水、鉄や石、獣や毒などにバルドルを傷つけないと誓わせた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 9章・22章・49章"
+    },
+    {
+      "id": "gw-freyja",
+      "text": "フレイヤはオーズという男の妻で、オーズが遠い旅に出たため彼を思って泣き、その涙は赤い黄金である。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 35章"
+    },
+    {
+      "id": "gw-cmp-freya",
+      "text": "作品はフリッグとフレイヤの役割を一人にまとめている。オーズとオーディンの名の類似から両女神の同一起源を論じる説がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "同一起源説は研究者の一般的な議論として紹介するもの。"
+    },
+    {
+      "id": "gw-mimir",
+      "text": "ミーミルはクレイトスに自らの首を切り落とさせ、その首を森の魔女の力で蘇生させて旅に同行した。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gw-well",
+      "text": "世界樹の根の下にミーミルの泉があり、知恵と理解が蓄えられている。オーディンは泉の水を一口飲むために片目を担保とした。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15章"
+    },
+    {
+      "id": "gw-head",
+      "text": "ユグドラシルが揺れ巨人が解き放たれるとき、オーディンはミームの首に耳を傾ける。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「巫女の予言」47節（ベロウズ訳の節番号。一般的な節番号では46節）"
+    },
+    {
+      "id": "gw-kratos",
+      "text": "ステュクスはパラスと交わってゼロス、ニケ、クラトス（力）、ビアを産んだ。彼らはつねにゼウスのそばにいる。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』383–388行"
+    },
+    {
+      "id": "gw-cmp-kratos",
+      "text": "ゼウスに仕える「力」の名をもつ主人公が、ギリシャの神々に復讐した戦士として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "主人公の名がクラトスに由来するという点は名称の一致にもとづく指摘。"
+    }
+  ]
+}

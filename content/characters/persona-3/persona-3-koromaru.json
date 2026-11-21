@@ -1,0 +1,68 @@
+{
+  "id": "persona-3-koromaru",
+  "slug": "persona-3-koromaru",
+  "name": "コロマル",
+  "reading": "ころまる",
+  "alternativeNames": ["虎狼丸"],
+  "workId": "persona-3",
+  "description": {
+    "text": "人の言葉を理解するアルビノの柴犬。飼い主の神主を事故で亡くしたのち、神社に現れたシャドウとの戦いでペルソナ能力に目覚め、学生寮で飼われることになる。",
+    "claimIds": ["p3-koro-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "cerberus",
+      "label": "ケルベロス",
+      "inWork": {
+        "text": "コロマルのペルソナはケルベロス。",
+        "claimIds": ["p3-koro-work-persona"]
+      },
+      "inMyth": {
+        "text": "ケルベロスは冥界の入り口を守る番犬。ヘシオドス『神統記』は、エキドナとテュポンの子で、青銅の声をもつ五十の頭の犬と記す。",
+        "claimIds": ["p3-koro-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "犬のコロマルに冥界の番犬ケルベロスという配役は、ペルソナとしてわかりやすい組み合わせである。亡き主人の神社を守り続けていたコロマルの姿は、主人の館の門を守る番犬ケルベロスとも重なる。",
+      "claimIds": ["p3-koro-myth", "p3-koro-work", "p3-koro-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-koro-work",
+      "text": "コロマルは人語を理解するアルビノの柴犬。長鳴神社の神主に飼われていたが、神主を事故で亡くした後は野良犬として過ごし、神社に現れたシャドウとの戦闘でペルソナ能力が覚醒した。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-koro-work-persona",
+      "text": "コロマルのペルソナはケルベロス。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-koro-myth",
+      "text": "ケルベロスはエキドナとテュポンの子で、青銅の声をもつ五十の頭の、ハデスの犬である。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』310–312行"
+    },
+    {
+      "id": "p3-koro-cmp",
+      "text": "亡き主人の神社を守るコロマルの姿は、主人の館を守る番犬ケルベロスと重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "hesiod-theogony"],
+  "articleIds": []
+}

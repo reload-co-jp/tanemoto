@@ -143,5 +143,32 @@
     "publishedPeriod": "1977年",
     "publisher": "George Allen & Unwin",
     "notes": "作品内の設定について述べる際の出典。トゥーリン・トゥランバールの物語の筋とカレワラとの関係は、英語版 Wikipedia「Túrin Turambar」「The Story of Kullervo」とその参考文献で確認している。"
+  },
+  {
+    "id": "work-jujutsu-kaisen",
+    "title": "呪術廻戦",
+    "author": "芥見下々",
+    "type": "work",
+    "publishedPeriod": "2018〜2024年（『週刊少年ジャンプ』連載）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「呪術廻戦」、英語版「Ryomen Sukuna」でも確認している。"
+  },
+  {
+    "id": "work-persona-3",
+    "title": "ペルソナ3",
+    "author": "アトラス",
+    "type": "work",
+    "publishedPeriod": "2006年（PlayStation 2用ゲーム）。2024年にリメイク版『ペルソナ3 リロード』",
+    "publisher": "アトラス",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ペルソナ3」でも確認している。"
+  },
+  {
+    "id": "work-god-of-war-2018",
+    "title": "ゴッド・オブ・ウォー（2018年）",
+    "author": "サンタモニカスタジオ",
+    "type": "work",
+    "publishedPeriod": "2018年（PlayStation 4用ゲーム）",
+    "publisher": "ソニー・インタラクティブエンタテインメント",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ゴッド・オブ・ウォー (2018)」でも確認している。"
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "id": "orpheus",
+  "slug": "orpheus",
+  "name": "オルフェウス",
+  "reading": "おるふぇうす",
+  "originalName": "Ὀρφεύς",
+  "romanized": "Orpheus",
+  "alternativeNames": ["オルペウス"],
+  "type": "hero",
+  "roles": ["竪琴の名手", "冥界下り"],
+  "mythologyIds": ["greek"],
+  "description": "竪琴の名手として知られる伝説の詩人。毒蛇に嚙まれて亡くなった妻エウリュディケを連れ戻すため冥界に下り、その歌で冥王と王妃の心を動かしたが、地上に出る直前に振り返ってしまい、妻を永遠に失った。",
+  "relatedFigureIds": ["hades", "persephone"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["ovid-metamorphoses"]
+}

@@ -1,0 +1,293 @@
+{
+  "id": "persona-3-greek-mythology",
+  "slug": "persona-3-greek-mythology",
+  "title": "『ペルソナ3』の元ネタ｜オルフェウス、ディオスクロイ、アイギスとアテナ——仲間たちのペルソナとギリシャ神話",
+  "shortTitle": "『ペルソナ3』の元ネタ",
+  "eyecatchText": "ペルソナ3",
+  "description": "『ペルソナ3』の主人公のペルソナ・オルフェウス、真田と荒垣のポリデュークスとカストール、アイギスのアテナ、ゆかりのイオとイシス、コロマルのケルベロス。仲間たちのペルソナの元ネタを、ギリシャ神話などの原典から解説します。",
+  "lead": "『ペルソナ3』の仲間たちが呼び出すペルソナの多くは、ギリシャ神話の神々や英雄の名をもっています。その組み合わせは、ただ名前を借りただけではありません。原典を知ると、キャラクターの運命と神話が重なって見えてきます。",
+  "category": "character-origins",
+  "tags": [
+    "ペルソナ3",
+    "オルフェウス",
+    "カストル",
+    "ポリュデウケス",
+    "アテナ",
+    "ギリシャ神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "orpheus",
+    "castor",
+    "polydeuces",
+    "athena",
+    "isis",
+    "cerberus",
+    "hades",
+    "persephone"
+  ],
+  "mythologyIds": ["greek", "egyptian"],
+  "storyIds": [],
+  "workIds": ["persona-3"],
+  "characterIds": [
+    "persona-3-protagonist",
+    "persona-3-akihiko-sanada",
+    "persona-3-shinjiro-aragaki",
+    "persona-3-aigis",
+    "persona-3-yukari-takeba",
+    "persona-3-koromaru"
+  ],
+  "topicIds": ["underworld"],
+  "sourceIds": [
+    "work-persona-3",
+    "ovid-metamorphoses",
+    "apollodorus-library",
+    "homer-iliad",
+    "herodotus-histories",
+    "hesiod-theogony"
+  ],
+  "relatedArticleIds": [
+    "izanagi-and-orpheus",
+    "persona-4-japanese-mythology",
+    "athena"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "元ネタ早見表",
+      "anchor": "overview"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "主人公 → オルフェウス：冥界に下った竪琴の名手",
+        "真田明彦 → ポリデュークス（ポリュデウケス）：ディオスクロイの一人、拳闘の名手",
+        "荒垣真次郎 → カストール（カストル）：ディオスクロイのもう一人",
+        "アイギス → パラディオン → アテナ：アイギスはアテナの防具の名",
+        "岳羽ゆかり → イオ → イシス：古代から結びつけられた二柱の女神",
+        "コロマル → ケルベロス：冥界の番犬"
+      ],
+      "claimIds": ["p3a-personas"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "主人公とオルフェウス",
+      "anchor": "orpheus"
+    },
+    {
+      "type": "paragraph",
+      "text": "主人公が最初に呼び出すペルソナは、ギリシャ神話の竪琴の名手オルフェウスです。物語の最後、主人公は宇宙のアルカナ「ユニバース」の力で、自らの命を封印として、世界に死をもたらすニュクスを封じました。",
+      "claimIds": ["p3a-hero"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のオルフェウスは、毒蛇に嚙まれて亡くなった妻エウリュディケを取り戻すため、冥界に下った英雄です。竪琴の歌で冥王と王妃の心を動かしましたが、地上に出るまで振り返ってはならないという約束を破り、妻を永遠に失いました。この物語は日本神話のイザナギとよく比べられます。詳しくは[イザナギとオルフェウス](/articles/izanagi-and-orpheus/)で解説しています。",
+      "claimIds": ["p3a-orpheus"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "死に立ち向かう者",
+      "text": "死の国に下って愛する者を取り戻そうとしたオルフェウスと、死の化身ニュクスに立ち向かい、命を懸けて仲間の世界を守った主人公。二人の物語は「死と向き合う者」として重ねて読むことができます。",
+      "claimIds": ["p3a-cmp-hero"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "真田と荒垣——双子の神ディオスクロイ",
+      "anchor": "dioscuri"
+    },
+    {
+      "type": "paragraph",
+      "text": "同じ孤児院で育った幼なじみの真田明彦と荒垣真次郎。二人のペルソナは、ギリシャ神話の双子ポリュデウケス（ポリデュークス）とカストル（カストール）です。ボクシング部主将の真田に、拳闘の名手ポリュデウケスが当てられています。",
+      "claimIds": ["p3a-sanada", "p3a-dioscuri"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典では、カストルは争いの中で殺されます。天に迎えられたポリュデウケスは、兄弟が死んでいるのに自分だけ不死になることを拒み、ゼウスは二人が一日おきに神々のもとと人間のもとで過ごすことを許しました。",
+      "claimIds": ["p3a-dioscuri-death"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『ペルソナ3』でも、カストールをペルソナとする荒垣は、物語の途中で敵のペルソナ使いに撃たれて命を落とし、ポリデュークスをペルソナとする真田が残されます。双子の神話の結末が、二人の幼なじみの運命と重なる配役です。",
+      "claimIds": ["p3a-aragaki", "p3a-cmp-dioscuri"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アイギスとアテナ",
+      "anchor": "aigis"
+    },
+    {
+      "type": "paragraph",
+      "text": "少女型の戦闘用ロボット・アイギスのペルソナは、パラディオンから女神アテナへと変化します。「アイギス」という名そのものが、ホメロス『イリアス』でアテナが肩にかける、ゴルゴンの首を据えた防具の名です。名前の元である女神が最終的なペルソナになる、という一貫した設定になっています。",
+      "claimIds": ["p3a-aigis", "p3a-aegis"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゆかりとイオ、イシス",
+      "anchor": "yukari"
+    },
+    {
+      "type": "paragraph",
+      "text": "岳羽ゆかりのペルソナは、ギリシャ神話のイオから、エジプトの女神イシスへと変化します。一見別の神話の存在ですが、ヘロドトスは「イシスの像は牝牛の角をもつ女性の姿で、ギリシャ人がイオを描くのとまったく同じだ」と記しています。古代から二柱は結びつけて考えられてきたのです。",
+      "claimIds": ["p3a-yukari", "p3a-io"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "コロマルとケルベロス",
+      "anchor": "koromaru"
+    },
+    {
+      "type": "paragraph",
+      "text": "柴犬コロマルのペルソナは、冥界の番犬ケルベロスです。ヘシオドスはケルベロスを、青銅の声をもつ五十の頭のハデスの犬と記しています。亡き主人の神社を守り続けていたコロマルの姿は、主人の館の門を守る番犬と重なります。",
+      "claimIds": ["p3a-koro", "p3a-cerberus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "主人公のオルフェウスは、死の国に下った英雄の名",
+        "真田（ポリデュークス）と荒垣（カストール）は、双子の神ディオスクロイ。原典でも作品でもカストルの側が命を落とす",
+        "アイギスの名はアテナの防具の名で、最終的なペルソナもアテナ",
+        "ゆかりのイオとイシスは、古代から結びつけられてきた女神"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3a-personas",
+      "text": "主人公のペルソナはオルフェウス、真田はポリデュークス→カエサル、荒垣はカストール、アイギスはパラディオン→アテナ、岳羽ゆかりはイオ→イシス、コロマルはケルベロス。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3a-hero",
+      "text": "主人公は宇宙のアルカナ「ユニバース」を用いた「大いなる封印」で、自らの命を封印としてニュクスを封じた。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3a-orpheus",
+      "text": "オルフェウスは毒蛇に嚙まれて死んだ妻エウリュディケのために冥界に下り、竪琴で冥王と王妃の心を動かしたが、地上に出る前に振り返って妻を失った。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』10.1–63"
+    },
+    {
+      "id": "p3a-cmp-hero",
+      "text": "死の国に下ったオルフェウスと、死の化身に立ち向かった主人公は、死と向き合う者として重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "p3a-sanada",
+      "text": "真田明彦はボクシング部の主将で、荒垣真次郎とは同じ孤児院で育った幼なじみ。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3a-dioscuri",
+      "text": "レダの息子のうちカストルは戦いの術を、ポリュデウケスは拳闘の術を修め、二人はディオスクロイと呼ばれた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.11.2"
+    },
+    {
+      "id": "p3a-dioscuri-death",
+      "text": "イダスはカストルを殺した。ゼウスはポリュデウケスを天に迎えたが、彼はカストルが死んでいるのに不死を受けることを拒み、二人は一日おきに神々の間と人間の間にいることを許された。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.11.2"
+    },
+    {
+      "id": "p3a-aragaki",
+      "text": "荒垣はストレガのタカヤに銃で撃たれて亡くなる（女性主人公の場合、進め方によっては意識不明の入院となる）。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3a-cmp-dioscuri",
+      "text": "先に命を落とすカストルを荒垣に、残されるポリュデウケスを真田に当てる配役は、双子の神話の結末と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "p3a-aigis",
+      "text": "アイギスは桐条グループが製作した少女型戦闘用ロボットで、ペルソナはパラディオン → アテナと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3a-aegis",
+      "text": "アテナは戦場に向かう際、ゴルゴンの首のあるアイギスを肩にかけた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』5.733–742"
+    },
+    {
+      "id": "p3a-yukari",
+      "text": "岳羽ゆかりのペルソナはイオ → イシスと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3a-io",
+      "text": "イシスの像は牝牛の角をもつ女性の姿で、ギリシャ人がイオを描くのとまったく同じである。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』2.41"
+    },
+    {
+      "id": "p3a-koro",
+      "text": "コロマルは長鳴神社の神主に飼われていたアルビノの柴犬で、神主の死後、神社に現れたシャドウとの戦いでペルソナ能力に目覚めた。ペルソナはケルベロス。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3a-cerberus",
+      "text": "ケルベロスはエキドナとテュポンの子で、青銅の声をもつ五十の頭のハデスの犬である。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』310–312行"
+    }
+  ]
+}

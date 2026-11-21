@@ -1,0 +1,69 @@
+{
+  "id": "persona-3-aigis",
+  "slug": "persona-3-aigis",
+  "name": "アイギス",
+  "reading": "あいぎす",
+  "alternativeNames": [],
+  "workId": "persona-3",
+  "description": {
+    "text": "シャドウ制圧を目的に桐条グループが製作した、少女型の戦闘用ロボット。自我を与えられているためペルソナを召喚できる。",
+    "claimIds": ["p3-aigis-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "athena",
+      "label": "アテナのアイギス",
+      "inWork": {
+        "text": "アイギスのペルソナはパラディオンから、女神アテナへと変化する。",
+        "claimIds": ["p3-aigis-work-persona"]
+      },
+      "inMyth": {
+        "text": "ホメロス『イリアス』では、戦いに向かうアテナが、ゴルゴンの首を据えた「アイギス」を肩にかける。",
+        "claimIds": ["p3-aigis-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「アイギス」という名は、女神アテナが身につける防具の名そのものである。名前の元になった女神アテナが最終的なペルソナになるという、名前とペルソナが一つにつながる設定になっている。パラディオンもまた、トロイアに伝わったアテナ（パラス）の神像の名である。",
+      "claimIds": ["p3-aigis-myth", "p3-aigis-work-persona", "p3-aigis-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-aigis-work",
+      "text": "アイギスは桐条グループがシャドウ制圧を目的として製作した少女型戦闘用ロボット。自我を与えられているためペルソナを召喚できる。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-aigis-work-persona",
+      "text": "アイギスのペルソナはパラディオン → アテナと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-aigis-myth",
+      "text": "アテナは戦場に向かう際、ゴルゴンの首のあるアイギスを肩にかけた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』5.733–742"
+    },
+    {
+      "id": "p3-aigis-cmp",
+      "text": "名前の元であるアテナが最終的なペルソナとなり、名前とペルソナが結びついている。パラディオンはトロイアのパラス・アテナ像の名である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "パラディオンについては一般的な解説による。"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "homer-iliad"],
+  "articleIds": []
+}

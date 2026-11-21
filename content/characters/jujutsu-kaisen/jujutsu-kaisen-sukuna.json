@@ -1,0 +1,117 @@
+{
+  "id": "jujutsu-kaisen-sukuna",
+  "slug": "jujutsu-kaisen-sukuna",
+  "name": "両面宿儺",
+  "reading": "りょうめんすくな",
+  "alternativeNames": ["宿儺", "呪いの王"],
+  "workId": "jujutsu-kaisen",
+  "description": {
+    "text": "「呪いの王」と呼ばれる存在。千年以上前の平安時代に最強の呪術師として恐れられ、その力は20本の指の形の呪物に分けて封じられていた。主人公・虎杖悠仁が指を飲み込んだことで、虎杖の体に宿る。",
+    "claimIds": ["jjk-sukuna-work"]
+  },
+  "nameOrigin": {
+    "text": "名前と姿は、『日本書紀』に記された飛騨の人物・宿儺に由来する。",
+    "claimIds": ["jjk-sukuna-work-origin", "jjk-sukuna-myth"]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "ryomen-sukuna",
+      "label": "二つの顔、四本の腕",
+      "inWork": {
+        "text": "宿儺の本来の姿は、二つの顔と四本の腕をもつとされる。その力は20本の指に分けて封じられている。",
+        "claimIds": ["jjk-sukuna-work-form"]
+      },
+      "inMyth": {
+        "text": "『日本書紀』の宿儺は、一つの体に二つの顔があり、顔は互いに反対を向き、頭の頂は一つで項（うなじ）がなかった。それぞれの顔の側に手足があり、四本の手で弓矢を使ったという。",
+        "claimIds": ["jjk-sukuna-myth"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "ryomen-sukuna",
+      "label": "朝廷に従わぬ者",
+      "inWork": {
+        "text": "作中では、呪術師たちに恐れられる「呪いの王」として描かれる。",
+        "claimIds": ["jjk-sukuna-work"]
+      },
+      "inMyth": {
+        "text": "宿儺は力が強く身軽で、左右に剣を帯び、天皇の命に従わずに人々を略奪して楽しんだため、和珥臣の祖・難波根子武振熊に討たれた。",
+        "claimIds": ["jjk-sukuna-myth-defeat"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「二つの顔と四本の腕」という異形の姿は、『日本書紀』の宿儺の記述をそのまま受け継いでいる。手が四本あれば指は二十本になり、作中で力が封じられた「20本の指」という数もこの姿と対応している。",
+      "claimIds": [
+        "jjk-sukuna-myth",
+        "jjk-sukuna-work-form",
+        "jjk-sukuna-cmp-fingers"
+      ]
+    },
+    {
+      "text": "『日本書紀』の宿儺は朝廷に逆らって討たれた「賊」として記されるが、地元の飛騨では、寺を開いた英雄として語り伝える伝承もある。作品の「呪いの王」像は、『日本書紀』の悪役としての側面を強調したものといえる。",
+      "claimIds": ["jjk-sukuna-myth-defeat", "jjk-sukuna-cmp-hida"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jjk-sukuna-work",
+      "text": "宿儺は平安時代最強の呪術師で、「呪いの王」と呼ばれる。その力は20本のミイラ化した指に封じられて各地に散らばっており、虎杖悠仁が指を食べたことでその器となった。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「呪術廻戦」および英語版「Ryomen Sukuna」の記述で確認。"
+    },
+    {
+      "id": "jjk-sukuna-work-origin",
+      "text": "キャラクターの元になったのは『日本書紀』に記される両面宿儺で、二つの顔と四本の腕という姿と悪鬼のような性格が共通する。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "英語版 Wikipedia「Ryomen Sukuna」の記述で確認。"
+    },
+    {
+      "id": "jjk-sukuna-work-form",
+      "text": "宿儺の姿は二つの顔と四本の腕をもつとされ、力は20本の指に封じられている。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「呪術廻戦」および英語版「Ryomen Sukuna」の記述で確認。"
+    },
+    {
+      "id": "jjk-sukuna-myth",
+      "text": "飛騨国に宿儺という者がいた。一つの体に二つの顔があり、顔はそれぞれ背き合い、頭頂は合わさって項がなかった。それぞれに手足があり、膝はあってもひかがみと踵がなかった。四本の手で弓矢を用いた。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』巻第十一 仁徳天皇六十五年条"
+    },
+    {
+      "id": "jjk-sukuna-myth-defeat",
+      "text": "宿儺は力が強く身軽で、左右に剣を帯びていた。皇命に従わず人民を略奪して楽しんだので、和珥臣の祖・難波根子武振熊を遣わして誅した。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』巻第十一 仁徳天皇六十五年条"
+    },
+    {
+      "id": "jjk-sukuna-cmp-fingers",
+      "text": "四本の手は二十本の指をもち、作中で力が封じられた20本の指と数が対応する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "jjk-sukuna-cmp-hida",
+      "text": "飛騨地方には両面宿儺を寺院の開基とする伝承があり、作品は『日本書紀』の悪役としての側面を強調している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "飛騨の伝承は岐阜県の千光寺などに伝わるもので、本記事で登録した出典にもとづくものではない。"
+    }
+  ],
+  "sourceIds": ["work-jujutsu-kaisen", "nihon-shoki"],
+  "articleIds": []
+}

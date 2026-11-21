@@ -1,0 +1,69 @@
+{
+  "id": "persona-3-yukari-takeba",
+  "slug": "persona-3-yukari-takeba",
+  "name": "岳羽ゆかり",
+  "reading": "たけばゆかり",
+  "alternativeNames": [],
+  "workId": "persona-3",
+  "description": {
+    "text": "主人公のクラスメイトで弓道部の少女。明るく勝気な性格。父親は10年前の研究所の爆発事故で亡くなっている。",
+    "claimIds": ["p3-yukari-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "isis",
+      "label": "イオ→イシス",
+      "inWork": {
+        "text": "ゆかりのペルソナはイオから、エジプトの女神イシスへと変化する。",
+        "claimIds": ["p3-yukari-work-persona"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスは、イシスの像は牝牛の角をもつ女性の姿で、ギリシャ人がイオを描くのとまったく同じだと記している。",
+        "claimIds": ["p3-yukari-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ギリシャ神話のイオと、エジプトの女神イシスという、一見別の神話の存在が同じキャラクターのペルソナとしてつながっている。ヘロドトスが、牝牛の角をもつイシスの像はギリシャ人の描くイオとそっくりだと記しているように、古代からこの二柱は結びつけて考えられてきた。",
+      "claimIds": ["p3-yukari-work-persona", "p3-yukari-myth", "p3-yukari-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-yukari-work",
+      "text": "岳羽ゆかりは主人公のクラスメイトで弓道部に所属する少女。父親は10年前に研究所の爆発事故で他界している。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-yukari-work-persona",
+      "text": "岳羽ゆかりのペルソナはイオ → イシスと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-yukari-myth",
+      "text": "イシスの像は牝牛の角をもつ女性の姿で、ギリシャ人がイオを描くのとまったく同じである。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』2.41"
+    },
+    {
+      "id": "p3-yukari-cmp",
+      "text": "イオからイシスへの変化は、古代から両者が結びつけられてきたことと対応する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品の意図は確認できないため、一致の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "herodotus-histories"],
+  "articleIds": []
+}

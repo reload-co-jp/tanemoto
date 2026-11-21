@@ -1,0 +1,89 @@
+{
+  "id": "persona-3-shinjiro-aragaki",
+  "slug": "persona-3-shinjiro-aragaki",
+  "name": "荒垣真次郎",
+  "reading": "あらがきしんじろう",
+  "alternativeNames": [],
+  "workId": "persona-3",
+  "description": {
+    "text": "月光館学園の3年生で、真田の幼なじみ。ぶっきらぼうだが情に厚く、動物好きで料理が得意。ペルソナを制御する劇薬を服用しながら戦う。",
+    "claimIds": ["p3-shinji-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "castor",
+      "label": "カストル",
+      "inWork": {
+        "text": "荒垣のペルソナはカストール。物語の途中、敵対するペルソナ使いに撃たれて命を落とす。",
+        "claimIds": ["p3-shinji-work-persona", "p3-shinji-work-death"]
+      },
+      "inMyth": {
+        "text": "カストルは双子のポリュデウケスとともにディオスクロイと呼ばれたが、争いの中でイダスに殺された。ポリュデウケスは兄弟が死んだままでは不死を受け取らないと拒み、二人は一日おきに神々と人間のもとで過ごすことを許された。",
+        "claimIds": ["p3-shinji-myth-death", "p3-shinji-myth-share"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で先に命を落とすのは、ディオスクロイのうちカストルである。作品でもカストールをペルソナとする荒垣が物語の途中で命を落とし、ポリデュークスをペルソナとする幼なじみの真田が残される。双子の神話の結末が、二人の幼なじみの運命と重なる配役になっている。",
+      "claimIds": [
+        "p3-shinji-myth-death",
+        "p3-shinji-work-death",
+        "p3-shinji-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-shinji-work",
+      "text": "荒垣真次郎は月光館学園高等部3年生で真田の幼なじみ。ぶっきらぼうだが情に厚く、動物好きで料理が得意。副作用で命を縮めるほどの劇薬「ペルソナ制御薬」を服用していた。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-shinji-work-persona",
+      "text": "荒垣真次郎のペルソナはカストール。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-shinji-work-death",
+      "text": "荒垣はストレガのタカヤに銃で撃たれて亡くなる（女性主人公の場合、進め方によっては意識不明の入院となる）。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-shinji-myth-death",
+      "text": "リュンケウスがカストルを見つけてイダスに知らせ、イダスはカストルを殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.11.2"
+    },
+    {
+      "id": "p3-shinji-myth-share",
+      "text": "ゼウスはポリュデウケスを天に迎えたが、彼はカストルが死んでいるのに不死を受けることを拒んだ。ゼウスは二人が一日おきに神々の間と人間の間にいることを許した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.11.2"
+    },
+    {
+      "id": "p3-shinji-cmp",
+      "text": "先に命を落とすカストルを荒垣に、残されるポリュデウケスを真田に当てる配役は、双子の神話の結末と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品の意図は確認できないため、共通点の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "apollodorus-library"],
+  "articleIds": []
+}

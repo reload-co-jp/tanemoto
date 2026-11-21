@@ -1,0 +1,14 @@
+{
+  "id": "persona-3",
+  "slug": "persona-3",
+  "title": "ペルソナ3",
+  "reading": "ぺるそなすりー",
+  "type": "game",
+  "mediaTypes": ["anime", "film"],
+  "author": "アトラス",
+  "period": "2006年（PlayStation 2用ゲーム）。2024年にリメイク版『ペルソナ3 リロード』",
+  "description": "一日と一日のはざまに存在する「影時間」と、そこに現れる怪物シャドウに、ペルソナ能力に目覚めた高校生たちが挑むロールプレイングゲーム。主人公のオルフェウスをはじめ、仲間たちのペルソナの多くがギリシャ神話の神々や英雄の名をもつ。",
+  "mythologyIds": ["greek", "egyptian"],
+  "articleIds": [],
+  "sourceIds": ["work-persona-3"]
+}

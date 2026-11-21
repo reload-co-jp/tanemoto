@@ -1,0 +1,14 @@
+{
+  "id": "jujutsu-kaisen",
+  "slug": "jujutsu-kaisen",
+  "title": "呪術廻戦",
+  "reading": "じゅじゅつかいせん",
+  "type": "manga",
+  "mediaTypes": ["anime", "film"],
+  "author": "芥見下々",
+  "period": "2018〜2024年（『週刊少年ジャンプ』連載）",
+  "description": "人の負の感情から生まれる「呪い」と、それを祓う呪術師たちの戦いを描く漫画。主人公・虎杖悠仁は、「呪いの王」両面宿儺の指を飲み込んだことでその器となる。宿儺の名と姿は、『日本書紀』に記された飛騨の異形の人物・宿儺に由来する。",
+  "mythologyIds": ["japanese"],
+  "articleIds": [],
+  "sourceIds": ["work-jujutsu-kaisen"]
+}

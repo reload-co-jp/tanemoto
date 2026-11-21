@@ -1,0 +1,17 @@
+{
+  "id": "castor",
+  "slug": "castor",
+  "name": "カストル",
+  "reading": "かすとる",
+  "originalName": "Κάστωρ",
+  "romanized": "Kastor",
+  "alternativeNames": ["カストール"],
+  "type": "hero",
+  "roles": ["ディオスクロイ", "戦いの名手"],
+  "mythologyIds": ["greek"],
+  "description": "レダの息子で、ポリュデウケスと並んで「ディオスクロイ（ゼウスの息子たち）」と呼ばれる双子の一人。戦いの技に長けていた。イダスとリュンケウスとの争いでイダスに殺された。",
+  "relatedFigureIds": ["polydeuces"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["apollodorus-library"]
+}

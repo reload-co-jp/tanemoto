@@ -1,0 +1,17 @@
+{
+  "id": "polydeuces",
+  "slug": "polydeuces",
+  "name": "ポリュデウケス",
+  "reading": "ぽりゅでうけす",
+  "originalName": "Πολυδεύκης",
+  "romanized": "Polydeukes",
+  "alternativeNames": ["ポルックス", "ポリデュークス"],
+  "type": "hero",
+  "roles": ["ディオスクロイ", "拳闘の名手"],
+  "mythologyIds": ["greek"],
+  "description": "レダの息子で、カストルと並ぶ「ディオスクロイ」の一人。拳闘の名手。兄弟カストルが殺されると、ゼウスに天上へ迎えられたが、カストルが死んだままでは不死を受けないと拒み、二人は一日おきに神々のもとと人間のもとで過ごすことを許された。",
+  "relatedFigureIds": ["castor", "zeus"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["apollodorus-library"]
+}

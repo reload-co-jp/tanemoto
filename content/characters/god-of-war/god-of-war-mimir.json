@@ -1,0 +1,68 @@
+{
+  "id": "god-of-war-mimir",
+  "slug": "god-of-war-mimir",
+  "name": "ミーミル",
+  "reading": "みーみる",
+  "alternativeNames": [],
+  "workId": "god-of-war-2018",
+  "description": {
+    "text": "かつてオーディンの助言者で、自らを「知の巨人」と呼ぶ。オーディンを裏切った疑いで罰を受けていたが、クレイトスに自らの首を切り落とさせ、首だけの姿で蘇生して旅に同行する。",
+    "claimIds": ["gow-mimir-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "mimir",
+      "label": "ミーミルの首",
+      "inWork": {
+        "text": "森の魔女の力で首だけの姿でよみがえり、クレイトス親子の旅に知恵を貸す。",
+        "claimIds": ["gow-mimir-work"]
+      },
+      "inMyth": {
+        "text": "原典のミーミルは、世界樹の根元にある知恵の泉の番人。『古エッダ』の「巫女の予言」は、ラグナロクを前に、オーディンが「ミームの首」に耳を傾けるとうたう。",
+        "claimIds": ["gow-mimir-myth-well", "gow-mimir-myth-head"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "首だけになって知恵を語るミーミルの姿は、オーディンが「ミームの首」に助言を求めるという原典の描写に由来する。作品では、首の相手がオーディンからクレイトス親子に替わっている。",
+      "claimIds": ["gow-mimir-myth-head", "gow-mimir-work", "gow-mimir-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gow-mimir-work",
+      "text": "ミーミルはかつてオーディンの助言者で、自らを知の巨人と呼ぶ。オーディンを裏切った疑いで罰を受けていたが、クレイトスに自らの首を切り落とさせ、その首を森の魔女の力で蘇生させて旅に同行した。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gow-mimir-myth-well",
+      "text": "霜の巨人の方へのびる世界樹の根の下にミーミルの泉があり、知恵と理解が蓄えられている。オーディンは泉の水を一口飲むために片目を担保とした。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15章"
+    },
+    {
+      "id": "gow-mimir-myth-head",
+      "text": "ユグドラシルが揺れ、巨人が解き放たれるとき、オーディンはミームの首に耳を傾ける。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「巫女の予言」47節（ベロウズ訳の節番号。一般的な節番号では46節）"
+    },
+    {
+      "id": "gow-mimir-cmp",
+      "text": "首だけのミーミルは、オーディンがミームの首に耳を傾ける原典の描写に由来し、作品では助言の相手がクレイトス親子に替わっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-2018", "snorri-edda", "poetic-edda"],
+  "articleIds": []
+}

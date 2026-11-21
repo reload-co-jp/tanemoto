@@ -1,0 +1,17 @@
+{
+  "id": "baldr",
+  "slug": "baldr",
+  "name": "バルドル",
+  "reading": "ばるどる",
+  "originalName": "Baldr",
+  "romanized": "Baldr",
+  "alternativeNames": ["バルドル", "バルデル"],
+  "type": "god",
+  "roles": ["光", "美"],
+  "mythologyIds": ["norse"],
+  "description": "オーディンの二番目の息子。あまりに美しく輝かしいので、光がそこから射すといわれた。母フリッグは万物にバルドルを傷つけないと誓わせたが、若いヤドリギだけは誓わせておらず、ロキの企みで盲目のヘズが投げたヤドリギに貫かれて死んだ。",
+  "relatedFigureIds": ["odin", "frigg", "loki"],
+  "relatedStoryIds": ["ragnarok"],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda"]
+}

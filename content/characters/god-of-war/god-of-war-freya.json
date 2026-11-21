@@ -1,0 +1,87 @@
+{
+  "id": "god-of-war-freya",
+  "slug": "god-of-war-freya",
+  "name": "フレイヤ",
+  "reading": "ふれいや",
+  "alternativeNames": ["森の魔女"],
+  "workId": "god-of-war-2018",
+  "description": {
+    "text": "九界を旅するクレイトス親子を助ける「森の魔女」。その正体はヴァン神族の女神で、オーディンに追放された妻であり、敵として現れる神バルドルの母だった。",
+    "claimIds": ["gow-freya-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "freyja",
+      "label": "フレイヤ",
+      "inWork": {
+        "text": "フレイヤはヴァン神族の女神で、オーディンの追放された妻。バルドルの母である。",
+        "claimIds": ["gow-freya-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』のフレイヤは最も名高い女神で、オーズという男の妻。オーズが遠い旅に出たため、フレイヤは彼を思って赤い黄金の涙を流すという。",
+        "claimIds": ["gow-freya-myth"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "frigg",
+      "label": "フリッグ（バルドルの母）",
+      "inWork": {
+        "text": "作品のフレイヤは、オーディンの妻であり、バルドルの母とされている。",
+        "claimIds": ["gow-freya-work"]
+      },
+      "inMyth": {
+        "text": "原典でオーディンの妻としてバルドルの母となるのはフリッグである。フリッグは万物にバルドルを傷つけないと誓わせた。",
+        "claimIds": ["gow-freya-myth-frigg"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、オーディンの妻でバルドルの母なのは女神フリッグであり、フレイヤはオーズという男の妻とされる。作品は、この二柱の女神の役割を一人のフレイヤにまとめている。研究者の間では、フレイヤの夫オーズ（Óðr）とオーディン（Óðinn）の名の類似から、二柱の女神がもとは同じ存在だったのではないかという説も唱えられており、作品の設定はこうした議論を思わせる。",
+      "claimIds": [
+        "gow-freya-myth",
+        "gow-freya-myth-frigg",
+        "gow-freya-work",
+        "gow-freya-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gow-freya-work",
+      "text": "フレイヤは森の魔女としてクレイトス親子に協力するが、実はヴァン神族の女神でオーディンの追放された妻であり、バルドルの母であった。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gow-freya-myth",
+      "text": "フレイヤはフリッグと並ぶ高貴な女神で、オーズという男の妻である。オーズが遠い旅に出たため、フレイヤは彼を思って泣き、その涙は赤い黄金である。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 35章"
+    },
+    {
+      "id": "gow-freya-myth-frigg",
+      "text": "オーディンの妻はフリッグで、バルドルはオーディンの二番目の息子。フリッグは火や水、鉄や石、獣や毒などにバルドルを傷つけないと誓わせた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 9章・22章・49章"
+    },
+    {
+      "id": "gow-freya-cmp",
+      "text": "作品はフリッグとフレイヤの役割を一人にまとめている。オーズとオーディンの名の類似から両女神の同一起源を論じる説がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "同一起源説は研究者の一般的な議論として紹介するもので、本記事で登録した出典にもとづくものではない。"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-2018", "snorri-edda"],
+  "articleIds": []
+}

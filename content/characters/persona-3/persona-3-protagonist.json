@@ -1,0 +1,85 @@
+{
+  "id": "persona-3-protagonist",
+  "slug": "persona-3-protagonist",
+  "name": "主人公（結城理）",
+  "reading": "ゆうきまこと",
+  "alternativeNames": ["結城理"],
+  "workId": "persona-3",
+  "description": {
+    "text": "月光館学園に転入してきた高校2年生。名前はプレイヤーが自由に付けられ、劇場版では結城理という名前が設定されている。複数のペルソナを付け替えられる「ワイルド」の能力をもつ。",
+    "claimIds": ["p3-hero-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "orpheus",
+      "label": "オルフェウス",
+      "inWork": {
+        "text": "最初のペルソナはオルフェウス。物語の最後に主人公は、自らの命を封印として世界の破滅をもたらすニュクスを封じる。",
+        "claimIds": ["p3-hero-work-orpheus", "p3-hero-work-seal"]
+      },
+      "inMyth": {
+        "text": "竪琴の名手オルフェウスは、亡き妻を連れ戻すため冥界に下り、その歌で冥王と王妃の心を動かした。しかし地上に出る直前に振り返り、妻を永遠に失った。",
+        "claimIds": ["p3-hero-myth-descent", "p3-hero-myth-look"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "オルフェウスは、死の世界に下って愛する者を取り戻そうとした英雄である。死の象徴であるシャドウや「死」をもたらすニュクスと向き合い、最後に自らの命を懸けて仲間たちのいる世界を守る主人公の物語は、死に立ち向かったオルフェウスの姿と重ねて読める。",
+      "claimIds": ["p3-hero-myth-descent", "p3-hero-work-seal", "p3-hero-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-hero-work",
+      "text": "主人公の名前は自由に付けられ、劇場版では結城理。アルカナは愚者（ワイルド）で、ペルソナは付け替えが可能。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-hero-work-orpheus",
+      "text": "主人公の最初のペルソナはオルフェウスで、のちにタナトス、メサイア、オルフェウス・改などに変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-hero-work-seal",
+      "text": "主人公は宇宙のアルカナ「ユニバース」を用いた「大いなる封印」で、自らの命を封印としてニュクスを封じた。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-hero-myth-descent",
+      "text": "エウリュディケが毒蛇に嚙まれて死ぬと、オルフェウスは冥界に下り、ペルセポネとプルートの前で竪琴を奏でて妻を返してほしいと歌った。亡霊たちも涙を流した。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』10.1–49"
+    },
+    {
+      "id": "p3-hero-myth-look",
+      "text": "地上に出るまで振り返ってはならないという条件を破り、オルフェウスが振り返ると、エウリュディケは冥界に引き戻された。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』10.50–63"
+    },
+    {
+      "id": "p3-hero-cmp",
+      "text": "死の世界に下った英雄オルフェウスの姿は、死と向き合い命を懸けて世界を守る主人公の物語と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品の意図は確認できないため、筆者の読みとして示す。"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "ovid-metamorphoses"],
+  "articleIds": []
+}

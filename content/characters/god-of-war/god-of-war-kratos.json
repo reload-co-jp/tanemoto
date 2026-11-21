@@ -1,0 +1,61 @@
+{
+  "id": "god-of-war-kratos",
+  "slug": "god-of-war-kratos",
+  "name": "クレイトス",
+  "reading": "くれいとす",
+  "alternativeNames": ["クラトス"],
+  "workId": "god-of-war-2018",
+  "description": {
+    "text": "ギリシャの神々への復讐を果たしたのち、北欧の地へ流れ着いた戦士。妻フェイを亡くし、その遺言を果たすため息子アトレウスと旅に出る。寡黙で苛烈な戦士として描かれる。",
+    "claimIds": ["gow-kratos-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "kratos",
+      "label": "クラトス（力）",
+      "inWork": {
+        "text": "主人公の名はクレイトス（Kratos）。ギリシャの神々と戦ってきた戦士である。",
+        "claimIds": ["gow-kratos-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドス『神統記』のクラトスは「力」を擬人化した神で、ステュクスの子。ニケ（勝利）、ビア（暴力）らと兄弟で、いつもゼウスのそばにいる。",
+        "claimIds": ["gow-kratos-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "名前の元になったクラトスは、原典ではつねにゼウスに仕える「力」の擬人神である。作品のクレイトスがゼウスをはじめギリシャの神々に復讐を果たした戦士であることを思うと、名前の由来とは正反対の立場にいるといえる。",
+      "claimIds": ["gow-kratos-myth", "gow-kratos-work", "gow-kratos-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gow-kratos-work",
+      "text": "クレイトスはギリシャの神々への復讐を果たしたのち、北欧の地へ流れ着き、新たな家庭を築いた。妻フェイを亡くし、息子アトレウスと旅に出る。寡黙な戦士である。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gow-kratos-myth",
+      "text": "オケアノスの娘ステュクスはパラスと交わり、ゼロス（競争心）、ニケ（勝利）、クラトス（力）、ビア（暴力）を産んだ。彼らはゼウスと離れた住まいをもたず、つねにゼウスのそばにいる。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』383–388行"
+    },
+    {
+      "id": "gow-kratos-cmp",
+      "text": "ゼウスに仕える「力」の名をもつ主人公が、ギリシャの神々に復讐した戦士として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "主人公の名がクラトスに由来するという点は名称の一致にもとづく指摘であり、開発者の発言で確認したものではない。"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-2018", "hesiod-theogony"],
+  "articleIds": []
+}

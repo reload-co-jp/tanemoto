@@ -1,0 +1,183 @@
+{
+  "id": "ryomen-sukuna",
+  "slug": "ryomen-sukuna",
+  "title": "両面宿儺とは？『呪術廻戦』呪いの王の元ネタを『日本書紀』の原文から解説",
+  "shortTitle": "両面宿儺の元ネタ",
+  "eyecatchText": "両面宿儺",
+  "description": "『呪術廻戦』の「呪いの王」両面宿儺。その名と、二つの顔と四本の腕という姿は、『日本書紀』仁徳天皇六十五年条に記された飛騨の人物・宿儺に由来する。原文を読み下し、作品の「20本の指」との関係も解説します。",
+  "lead": "『呪術廻戦』で主人公・虎杖悠仁の体に宿る「呪いの王」両面宿儺。その名は作者の創作ではなく、奈良時代に編まれた『日本書紀』に記録された人物の名です。わずか数行の記述から、異形の宿儺の姿を読み解きます。",
+  "category": "character-origins",
+  "tags": ["両面宿儺", "呪術廻戦", "日本書紀", "飛騨", "日本神話"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["ryomen-sukuna"],
+  "mythologyIds": ["japanese"],
+  "storyIds": [],
+  "workIds": ["jujutsu-kaisen"],
+  "characterIds": ["jujutsu-kaisen-sukuna"],
+  "topicIds": ["monsters"],
+  "sourceIds": ["work-jujutsu-kaisen", "nihon-shoki"],
+  "relatedArticleIds": [
+    "japanese-mythology-overview",
+    "yamata-no-orochi",
+    "naruto-japanese-mythology"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『呪術廻戦』の両面宿儺",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『呪術廻戦』の両面宿儺は、千年以上前の平安時代に最強の呪術師として恐れられた「呪いの王」です。その力は20本の指の形の呪物に分けて封じられ、各地に散らばっていました。主人公の虎杖悠仁は、その指を飲み込んだことで宿儺の「器」となります。",
+      "claimIds": ["rs-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "キャラクターの元になったのは、『日本書紀』に記された両面宿儺という人物です。二つの顔と四本の腕という姿、そして悪鬼のような性格が、作品の宿儺にも受け継がれています。",
+      "claimIds": ["rs-work-origin"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『日本書紀』の記述",
+      "anchor": "shoki"
+    },
+    {
+      "type": "paragraph",
+      "text": "宿儺が登場するのは、『日本書紀』巻第十一、仁徳天皇六十五年の条です。記述はわずか数行にすぎません。",
+      "claimIds": ["rs-shoki"]
+    },
+    {
+      "type": "quote",
+      "text": "六十五年、飛騨国に一人有り。宿儺と曰ふ。其の為人、体を壱にして両つの面有り。面各相背けり。頂合ひて項無し。各手足有り。其れ膝有りて膕踵無し。力多くして軽捷し。左右に剣を佩きて、四つの手並びに弓矢を用ふ。",
+      "sourceId": "nihon-shoki",
+      "location": "巻第十一 仁徳天皇六十五年条",
+      "claimIds": ["rs-shoki"],
+      "translationNote": "原文（漢文）の書き下し（編集部）"
+    },
+    {
+      "type": "paragraph",
+      "text": "一つの体に二つの顔があり、その顔は互いに背中合わせの方向を向いていました。頭のてっぺんは一つにつながっていて、首の後ろ（うなじ）がありません。前後それぞれの側に手足があり、膝はあってもひかがみ（膝の裏のくぼみ）とかかとがない。力が強くて身軽で、左右の腰に剣を帯び、四本の手でいっせいに弓矢を使ったといいます。",
+      "claimIds": ["rs-shoki"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "討たれた宿儺",
+      "anchor": "defeat"
+    },
+    {
+      "type": "paragraph",
+      "text": "記述の後半は、宿儺が討伐された理由を伝えています。",
+      "claimIds": ["rs-defeat"]
+    },
+    {
+      "type": "quote",
+      "text": "是を以て皇命に随はず、人民を掠略して楽とす。是に、和珥臣の祖、難波根子武振熊を遣はして誅す。",
+      "sourceId": "nihon-shoki",
+      "location": "巻第十一 仁徳天皇六十五年条",
+      "claimIds": ["rs-defeat"],
+      "translationNote": "原文（漢文）の書き下し（編集部）"
+    },
+    {
+      "type": "paragraph",
+      "text": "宿儺は天皇の命令に従わず、人々を襲って奪うことを楽しんでいたため、朝廷は和珥臣の祖である難波根子武振熊を遣わして討ち取りました。『日本書紀』の宿儺は、朝廷に逆らった異形の「賊」として描かれているのです。",
+      "claimIds": ["rs-defeat"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "飛騨に残る別の顔",
+      "text": "一方、宿儺の地元とされる飛騨（現在の岐阜県北部）には、両面宿儺を寺院を開いた英雄や、悪竜を退治した人物として語り伝える伝承もあります。朝廷の歴史書と、地元の伝承とで、宿儺の評価は大きく異なっています。",
+      "claimIds": ["rs-cmp-hida"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との共通点",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品の宿儺の「二つの顔と四本の腕」という姿は、『日本書紀』の記述をそのまま受け継いでいます。手が四本あれば、指は二十本。宿儺の力が「20本の指」に分けて封じられているという作品の設定も、この異形の姿と数が対応しています。",
+      "claimIds": ["rs-shoki", "rs-work", "rs-cmp-fingers"]
+    },
+    {
+      "type": "paragraph",
+      "text": "また、原典の宿儺は朝廷に従わない者として討たれた存在でした。人の世の秩序に従わず、己の快楽のままにふるまう作品の「呪いの王」の性格は、『日本書紀』の悪役としての宿儺の側面を強調したものといえるでしょう。",
+      "claimIds": ["rs-defeat", "rs-cmp-hida"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "両面宿儺は『日本書紀』仁徳天皇六十五年条に記された、飛騨国の人物",
+        "一つの体に背中合わせの二つの顔と、前後に手足をもち、四本の手で弓矢を使った",
+        "天皇の命に従わず人々を略奪したため、難波根子武振熊に討たれた",
+        "作品の「20本の指」は、四本の手をもつ姿と数が対応している"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "rs-work",
+      "text": "宿儺は平安時代最強の呪術師で「呪いの王」と呼ばれる。力は20本の指に封じられて各地に散らばり、虎杖悠仁が指を食べたことでその器となった。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「呪術廻戦」および英語版「Ryomen Sukuna」の記述で確認。"
+    },
+    {
+      "id": "rs-work-origin",
+      "text": "キャラクターの元は『日本書紀』の両面宿儺で、二つの顔と四本の腕という姿と悪鬼のような性格が共通する。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "英語版 Wikipedia「Ryomen Sukuna」の記述で確認。"
+    },
+    {
+      "id": "rs-shoki",
+      "text": "仁徳天皇六十五年、飛騨国に宿儺という者がいた。一つの体に二つの顔があり、顔はそれぞれ背き合い、頭頂が合わさって項がなかった。それぞれに手足があり、膝はあるがひかがみとかかとがなかった。力が強く身軽で、左右に剣を帯び、四本の手で弓矢を用いた。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』巻第十一 仁徳天皇六十五年条"
+    },
+    {
+      "id": "rs-defeat",
+      "text": "宿儺は皇命に従わず、人民を略奪して楽しんだ。そこで和珥臣の祖・難波根子武振熊を遣わして誅した。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』巻第十一 仁徳天皇六十五年条"
+    },
+    {
+      "id": "rs-cmp-hida",
+      "text": "飛騨地方には両面宿儺を寺院の開基や悪竜退治の英雄とする伝承がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "岐阜県の千光寺などに伝わる伝承による。本記事で登録した出典にもとづく記述ではない。"
+    },
+    {
+      "id": "rs-cmp-fingers",
+      "text": "四本の手は二十本の指をもち、作中の20本の指と数が対応する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者が意図したかは確認できないため、対応の指摘にとどめる。"
+    }
+  ]
+}

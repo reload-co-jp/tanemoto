@@ -1,0 +1,17 @@
+{
+  "id": "frigg",
+  "slug": "frigg",
+  "name": "フリッグ",
+  "reading": "ふりっぐ",
+  "originalName": "Frigg",
+  "romanized": "Frigg",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["オーディンの妻", "運命を知る者"],
+  "mythologyIds": ["norse"],
+  "description": "オーディンの妻で、バルドルの母。人々の運命をすべて知っているが、それを語ることはないとされる。息子を守るため、火や水、鉄や石、獣や毒にまでバルドルを傷つけないと誓わせた。",
+  "relatedFigureIds": ["odin", "baldr", "freyja"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda"]
+}

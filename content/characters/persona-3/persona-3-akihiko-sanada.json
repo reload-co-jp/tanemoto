@@ -1,0 +1,68 @@
+{
+  "id": "persona-3-akihiko-sanada",
+  "slug": "persona-3-akihiko-sanada",
+  "name": "真田明彦",
+  "reading": "さなだあきひこ",
+  "alternativeNames": [],
+  "workId": "persona-3",
+  "description": {
+    "text": "月光館学園の3年生で、ボクシング部の主将。幼いころ孤児院の火災で妹を亡くし、それ以来、力を求め続けている。荒垣真次郎とは同じ孤児院で育った幼なじみ。",
+    "claimIds": ["p3-akihiko-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "polydeuces",
+      "label": "ポリュデウケス",
+      "inWork": {
+        "text": "真田のペルソナはポリデュークスから、カエサルへと変化する。",
+        "claimIds": ["p3-akihiko-work-persona"]
+      },
+      "inMyth": {
+        "text": "ポリュデウケスは拳闘の名手で、双子のカストルとともにディオスクロイと呼ばれた。",
+        "claimIds": ["p3-akihiko-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ボクシング部の主将である真田のペルソナが、拳闘の名手ポリュデウケスであるのは、原典の性格とよく対応している。そして幼なじみの荒垣のペルソナは、ポリュデウケスの双子の兄弟カストルである。",
+      "claimIds": ["p3-akihiko-myth", "p3-akihiko-work", "p3-akihiko-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-akihiko-work",
+      "text": "真田明彦は月光館学園高等部3年生でボクシング部の主将。妹を孤児院の火災で亡くし、以来力を追い求める。荒垣とは同じ孤児院で育った幼なじみ。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-akihiko-work-persona",
+      "text": "真田明彦のペルソナはポリデュークス → カエサルと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-akihiko-myth",
+      "text": "レダの息子のうち、カストルは戦いの術を、ポリュデウケスは拳闘の術を修め、二人はディオスクロイと呼ばれた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.11.2"
+    },
+    {
+      "id": "p3-akihiko-cmp",
+      "text": "ボクシング部主将の真田に拳闘の名手のペルソナ、幼なじみの荒垣にその双子のカストルが当てられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "apollodorus-library"],
+  "articleIds": []
+}

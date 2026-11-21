@@ -1,0 +1,17 @@
+{
+  "id": "mimir",
+  "slug": "mimir",
+  "name": "ミーミル",
+  "reading": "みーみる",
+  "originalName": "Mímir",
+  "romanized": "Mimir",
+  "alternativeNames": ["ミーミ", "ミーム"],
+  "type": "giant",
+  "roles": ["知恵", "泉の番人"],
+  "mythologyIds": ["norse"],
+  "description": "世界樹ユグドラシルの根元にある知恵の泉の番人。オーディンは泉の水を一口飲むために、片目を担保として差し出した。『古エッダ』の「巫女の予言」は、ラグナロクを前にオーディンが「ミームの首」に耳を傾けるとうたう。",
+  "relatedFigureIds": ["odin"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda", "poetic-edda"]
+}
