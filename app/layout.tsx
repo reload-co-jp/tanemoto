@@ -17,7 +17,10 @@ export const metadata: Metadata = {
   ...buildMetadata({ path: "/" }),
   applicationName: site.name,
   icons: {
-    icon: [{ url: assetPath("/favicon.svg"), type: "image/svg+xml" }],
+    icon: [
+      { url: assetPath("/favicon.ico"), sizes: "48x48" },
+      { url: assetPath("/favicon-96.png"), sizes: "96x96", type: "image/png" },
+    ],
     apple: assetPath("/apple-touch-icon.png"),
   },
   verification: site.gscVerification

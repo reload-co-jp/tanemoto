@@ -113,7 +113,7 @@ export const SiteFooter = () => (
       <div className="t-footer__grid">
         <div>
           <p className="t-footer__name">
-            <LogoMark size={24} />
+            <LogoMark size={32} />
             {site.name}
           </p>
           <p className="t-footer__tagline">{site.tagline}</p>
