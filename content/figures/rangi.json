@@ -1,0 +1,17 @@
+{
+  "id": "rangi",
+  "slug": "rangi",
+  "name": "ランギ",
+  "reading": "らんぎ",
+  "originalName": "Rangi-nui",
+  "romanized": "Ranginui",
+  "alternativeNames": ["ランギヌイ"],
+  "type": "god",
+  "roles": ["天空", "父"],
+  "mythologyIds": ["polynesian"],
+  "description": "マオリの伝承で天そのものとされる原初の父。大地の母パパと固く抱き合っていたため、世界は暗闇に閉ざされていた。子の森の神タネによって押し上げられ、妻と引き離された。",
+  "relatedFigureIds": ["papa", "tane"],
+  "relatedStoryIds": ["separation-of-rangi-and-papa"],
+  "articleIds": [],
+  "sourceIds": ["grey-polynesian-mythology"]
+}

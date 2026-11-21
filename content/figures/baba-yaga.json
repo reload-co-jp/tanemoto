@@ -1,0 +1,17 @@
+{
+  "id": "baba-yaga",
+  "slug": "baba-yaga",
+  "name": "バーバ・ヤガー",
+  "reading": "ばーば・やがー",
+  "originalName": "Баба-яга",
+  "romanized": "Baba Yaga",
+  "alternativeNames": ["ババ・ヤガー", "ヤガー婆さん"],
+  "type": "monster",
+  "roles": ["森の魔女", "試練を与える者"],
+  "mythologyIds": ["slavic"],
+  "description": "ロシア民話に登場する森の魔女。人間の骨の垣根と目の光る髑髏に囲まれた家や、鶏の足の上でぐるぐると回る小屋に住み、臼に乗って杵で漕ぎ、箒で跡を消しながら森を行く。人を食らう恐ろしい存在だが、試練をくぐり抜けた主人公には火や助けを与えることもある。",
+  "relatedFigureIds": ["koschei"],
+  "relatedStoryIds": ["vasilisa-and-baba-yaga", "geese-swans"],
+  "articleIds": [],
+  "sourceIds": ["afanasyev-tales"]
+}

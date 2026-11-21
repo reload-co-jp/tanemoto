@@ -1,0 +1,39 @@
+{
+  "id": "polynesian",
+  "slug": "polynesian",
+  "name": "ポリネシア神話",
+  "reading": "ぽりねしあしんわ",
+  "region": "ハワイ・ニュージーランド（アオテアロア）など太平洋の島々",
+  "period": "口承で伝えられ、19世紀以降に各地の伝承が文字で記録された",
+  "description": "天と地を引き離した森の神タネ、太陽を捕らえ海から島を釣り上げた半神マウイ、ハワイの火山に住む女神ペレなど、太平洋の島々に伝わる神々と英雄の物語。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "ポリネシアは、ハワイ、ニュージーランド、イースター島を結ぶ広大な三角形の海域に広がる島々の総称です。島々の人々は共通の祖先から分かれ、カヌーで海を渡って各地に住みついたため、半神マウイのように多くの島で語られる英雄がいる一方、同じ神や英雄でも島ごとに名前や筋が異なります。"
+    },
+    {
+      "type": "paragraph",
+      "text": "これらの神話は長く口承で伝えられ、19世紀以降、宣教師や植民地の行政官、そして島の人々自身によって記録されました。トモタネでは、ニュージーランドのマオリの伝承はグレイ『ポリネシア神話』（1855年）、ハワイの伝承はウェスターヴェルトの伝説集を出典に、どの島の伝承かを示して紹介します。概要は[ポリネシア神話とは？](/articles/polynesian-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": [
+    "rangi",
+    "papa",
+    "tane",
+    "maui",
+    "mahuika",
+    "hine-nui-te-po",
+    "pele",
+    "hiiaka"
+  ],
+  "storyIds": [
+    "separation-of-rangi-and-papa",
+    "maui-snares-the-sun",
+    "maui-fishes-up-the-land",
+    "maui-and-mahuika",
+    "death-of-maui",
+    "pele-comes-to-hawaii"
+  ],
+  "sourceIds": ["grey-polynesian-mythology", "westervelt-volcanoes"],
+  "order": 12
+}

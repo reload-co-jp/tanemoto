@@ -1,0 +1,236 @@
+{
+  "id": "baba-yaga",
+  "slug": "baba-yaga",
+  "title": "バーバ・ヤガーとは？『ジョン・ウィック』の異名の元ネタ、ロシア民話の森の魔女を解説",
+  "shortTitle": "バーバ・ヤガーとは？",
+  "eyecatchText": "バーバ・ヤガー",
+  "description": "『ジョン・ウィック』で主人公が恐れられた異名「バーバ・ヤガー」。その元ネタは、人骨の垣根の家に住み、臼に乗って森を行くロシア民話の魔女です。アファナーシエフの民話集から、恐ろしくも不思議な老婆の姿をたどります。",
+  "lead": "伝説の殺し屋ジョン・ウィックは、ロシアの裏社会で「バーバ・ヤガー」と呼ばれていました。この名は、ロシアの子どもなら誰でも知っている民話の魔女のものです。人を食らう森の老婆は、なぜ主人公に火を与えたのでしょうか。",
+  "category": "character-origins",
+  "tags": [
+    "バーバ・ヤガー",
+    "ジョン・ウィック",
+    "ロシア民話",
+    "アファナーシエフ",
+    "スラヴ神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["baba-yaga", "koschei"],
+  "mythologyIds": ["slavic"],
+  "storyIds": ["vasilisa-and-baba-yaga", "geese-swans", "marya-morevna"],
+  "workIds": ["john-wick"],
+  "characterIds": ["john-wick-john-wick"],
+  "topicIds": ["monsters"],
+  "sourceIds": ["work-john-wick", "afanasyev-tales"],
+  "relatedArticleIds": ["slavic-mythology-overview"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『ジョン・ウィック』の「バーバ・ヤガー」",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "映画『ジョン・ウィック』の主人公ジョンは、引退した殺し屋です。亡き妻が遺した犬をロシアン・マフィアのボスの息子に殺されたことで、彼は裏社会へ戻ります。息子のしでかしたことを知ったボスのヴィゴは、ジョンがかつて自分の下で働いていた殺し屋で、裏社会で「バーバ・ヤガー」と呼ばれ恐れられていたことを明かします。",
+      "claimIds": ["by-work"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "森の奥の家",
+      "anchor": "house"
+    },
+    {
+      "type": "paragraph",
+      "text": "アファナーシエフの『ロシア民話集』に収められた「美しいワシリーサ」は、バーバ・ヤガーが登場する代表的な話です。そこではまず、彼女が森の空き地の小屋に住み、誰も近づけず、人を雛鳥のように食らうと語られます。",
+      "claimIds": ["by-forest"]
+    },
+    {
+      "type": "paragraph",
+      "text": "継母に家の火を消され、火をもらいにバーバ・ヤガーのもとへ行かされたワシリーサがたどり着いたのは、恐ろしい家でした。",
+      "claimIds": ["by-fence"]
+    },
+    {
+      "type": "quote",
+      "text": "家のまわりの垣根は人の骨でできていて、垣根には目のついた人の髑髏が刺さっている。門柱の代わりに人の脚、かんぬきの代わりに人の手、錠の代わりに鋭い歯の生えた口。",
+      "sourceId": "afanasyev-tales",
+      "location": "第104話「美しいワシリーサ」",
+      "claimIds": ["by-fence"],
+      "translationNote": "原文をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "夜が来ると、垣根の髑髏の目がいっせいに光り、空き地は昼のように明るくなります。やがて森の木々がきしみ、バーバ・ヤガーが帰ってきました。臼に乗り、杵で漕ぎ、箒で跡を掃き消しながら。",
+      "claimIds": ["by-mortar"]
+    },
+    {
+      "type": "paragraph",
+      "text": "別の話「鵞鳥と白鳥」では、さらわれた弟を探す少女が、鶏の足の上に立ってぐるぐると回る小屋を見つけます。中にはバーバ・ヤガーが座っていました。",
+      "claimIds": ["by-hut"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三人の騎手",
+      "anchor": "riders"
+    },
+    {
+      "type": "paragraph",
+      "text": "ワシリーサは森へ向かう途中、白い馬に乗った白い騎手とすれ違い、夜が明けはじめます。続いて赤い騎手が通ると太陽が昇り、バーバ・ヤガーの家の門の前で黒い騎手が消えると夜になりました。のちにワシリーサが尋ねると、バーバ・ヤガーはこう答えます。",
+      "claimIds": ["by-riders"]
+    },
+    {
+      "type": "quote",
+      "text": "あれはわたしの明るい昼、あれはわたしの赤いお日さま、あれはわたしの暗い夜。みんなわたしの忠実な召使いさ。",
+      "sourceId": "afanasyev-tales",
+      "location": "第104話「美しいワシリーサ」",
+      "claimIds": ["by-riders"],
+      "translationNote": "原文をもとにした編集部訳"
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "昼と夜を従える老婆",
+      "text": "昼と太陽と夜を「召使い」と呼ぶバーバ・ヤガーは、ただの人食いの魔女ではなく、世界の秩序にかかわる力をもつ存在として描かれています。研究者のなかには、ここに古い女神の名残を見る人もいますが、確かなことはわかっていません。",
+      "claimIds": ["by-cmp-riders"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "試練と報い",
+      "anchor": "trial"
+    },
+    {
+      "type": "paragraph",
+      "text": "バーバ・ヤガーはワシリーサに、家の掃除や食事の支度、麦の選り分けなど、こなせなければ食べてしまうという仕事を次々と課します。ワシリーサは母の形見の人形に助けられて仕事をやり遂げ、バーバ・ヤガーは「母親の祝福」に助けられていると知ると、彼女を追い出しました。そのとき、目の燃える髑髏を棒に刺し、火として持たせて帰したのです。",
+      "claimIds": ["by-trial", "by-fire"]
+    },
+    {
+      "type": "paragraph",
+      "text": "「マリヤ・モレーヴナ」では、イワン王子が不死身のコシチェイに勝てる駿馬を求めて、バーバ・ヤガーの雌馬を三日間番する試練に挑みます。バーバ・ヤガーは、主人公に試練を課し、越えた者には力を与える存在として繰り返し現れます。",
+      "claimIds": ["by-morevna"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品と原典の違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "恐怖の代名詞として",
+      "text": "『ジョン・ウィック』は、バーバ・ヤガーの名を、ロシアの裏社会の人々が震え上がる存在の代名詞として借りています。民話のバーバ・ヤガーも、人を食らうと恐れられ、誰も近づけない森の魔女でした。一方で民話の彼女は、試練を課して相手を見極め、それを越えた者には報いる存在でもあります。殺し屋の異名には、その恐ろしさの側面だけが受け継がれたといえるでしょう。",
+      "claimIds": ["by-cmp-name"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『ジョン・ウィック』の主人公は、裏社会で「バーバ・ヤガー」と呼ばれ恐れられた殺し屋",
+        "民話のバーバ・ヤガーは、人骨の垣根の家や鶏の足の小屋に住み、臼に乗って森を行く魔女",
+        "昼・太陽・夜の騎手を召使いと呼び、試練を越えたワシリーサには火を与えた"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "by-work",
+      "text": "ジョン・ウィックは引退した殺し屋で、マフィアのボスのヴィゴは、ジョンがかつて自分の下で働き、裏社会で「バーバ・ヤガー」と呼ばれ恐れられていたと明かす。",
+      "classification": "creative",
+      "sourceIds": ["work-john-wick"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ジョン・ウィック」、英語版「John Wick (film)」の記述で確認。"
+    },
+    {
+      "id": "by-forest",
+      "text": "バーバ・ヤガーは森の空き地の小屋に住み、誰も近づけず、人を雛鳥のように食らった。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "by-fence",
+      "text": "バーバ・ヤガーの家の垣根は人骨でできており、目のある髑髏が刺さっていた。門柱は人の脚、かんぬきは人の手、錠は鋭い歯の生えた口だった。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "by-mortar",
+      "text": "夜になると髑髏の目が光って空き地を照らした。バーバ・ヤガーは臼に乗り、杵で漕ぎ、箒で跡を消しながらやって来た。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "by-hut",
+      "text": "「鵞鳥と白鳥」では、鶏の足の上に立ってぐるぐる回る小屋にバーバ・ヤガーが座っていた。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第113話「鵞鳥と白鳥」"
+    },
+    {
+      "id": "by-riders",
+      "text": "白い騎手が通ると夜が明け、赤い騎手が通ると太陽が昇り、黒い騎手が消えると夜になった。バーバ・ヤガーは彼らを自分の昼、太陽、夜であり、忠実な召使いだと答えた。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "by-cmp-riders",
+      "text": "昼と太陽と夜を召使いと呼ぶバーバ・ヤガーは、世界の秩序にかかわる力をもつ存在として描かれている。古い女神の名残とみる説もあるが、確かなことはわかっていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "by-trial",
+      "text": "バーバ・ヤガーはワシリーサに、できなければ食べると脅して仕事を課したが、ワシリーサは人形の助けでやり遂げた。母の祝福に助けられていると聞くと、バーバ・ヤガーは彼女を追い出した。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "by-fire",
+      "text": "バーバ・ヤガーは目の燃える髑髏を棒に刺して、火としてワシリーサに持たせた。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "by-morevna",
+      "text": "「マリヤ・モレーヴナ」で、イワン王子はバーバ・ヤガーの雌馬を三日間番すれば駿馬をもらえるという試練に挑む。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "第159話「マリヤ・モレーヴナ」"
+    },
+    {
+      "id": "by-cmp-name",
+      "text": "作品はバーバ・ヤガーの名を恐るべき存在の代名詞として借りており、試練を課して報いるという民話の側面は受け継がれていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "筆者の読みとして示す。"
+    }
+  ]
+}

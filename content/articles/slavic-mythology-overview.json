@@ -1,0 +1,248 @@
+{
+  "id": "slavic-mythology-overview",
+  "slug": "slavic-mythology-overview",
+  "title": "スラヴ神話とは？雷神ペルーンと『原初年代記』、民話のバーバ・ヤガーまでわかりやすく解説",
+  "shortTitle": "スラヴ神話とは？",
+  "eyecatchText": "ペルーン",
+  "description": "スラヴ神話は、キリスト教以前のスラヴの人々が信じた神々の物語。雷神ペルーンや家畜の神ヴォロスを伝える『原初年代記』と、バーバ・ヤガーやコシチェイが登場するロシア民話という二つの手がかりから、その姿をたどります。",
+  "lead": "ギリシャ神話や北欧神話と違い、スラヴ神話にはまとまった神話の書物が残っていません。それでも、年代記に記された神々の名前と、19世紀に集められた民話から、その世界をうかがい知ることができます。何がわかっていて、何がわかっていないのかを整理します。",
+  "category": "basics",
+  "tags": [
+    "スラヴ神話",
+    "ペルーン",
+    "原初年代記",
+    "バーバ・ヤガー",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["perun", "veles", "mokosh", "dazhbog", "baba-yaga", "koschei"],
+  "mythologyIds": ["slavic"],
+  "storyIds": [
+    "vladimir-pantheon",
+    "oath-of-perun-and-volos",
+    "fall-of-perun",
+    "vasilisa-and-baba-yaga",
+    "death-of-koschei"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["primary-chronicle", "afanasyev-tales"],
+  "relatedArticleIds": ["baba-yaga", "what-is-mythology"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "書き残されなかった神話",
+      "anchor": "sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "スラヴの人々は、東ヨーロッパからロシアにかけての広い地域に暮らし、10世紀末ごろまでに多くがキリスト教を受け入れました。古い神々の物語を自分たちで書き残すことはなかったため、その信仰を知る手がかりは、キリスト教の修道士がまとめた年代記などに残された断片的な記述が中心です。",
+      "claimIds": ["sl-sources"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "手がかりは限られている",
+      "text": "スラヴ神話の神々について、ギリシャ神話のような系譜や物語はほとんど伝わっていません。神々の役割について書かれた解説の多くは、わずかな記述からの推定や、後世の民間信仰からの類推を含んでいます。トモタネでは、原典に書かれていることと、研究上の推定を分けて紹介します。",
+      "claimIds": ["sl-caution"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "キエフの丘の神々",
+      "anchor": "pantheon"
+    },
+    {
+      "type": "paragraph",
+      "text": "12世紀初めに成立したキエフ・ルーシの年代記『原初年代記』（『過ぎし年月の物語』）は、980年、キエフで公となったウラジーミルが、館の外の丘に神々の像を立てたと記しています。",
+      "claimIds": ["sl-pantheon"]
+    },
+    {
+      "type": "quote",
+      "text": "館の外の丘に神像を立てた。木のペルーン、その頭は銀、口髭は金。そしてホルス、ダジボーグ、ストリボーグ、シマルグル、モコシ。",
+      "sourceId": "primary-chronicle",
+      "location": "6488年（980年）条",
+      "claimIds": ["sl-pantheon"],
+      "translationNote": "原文をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "筆頭に挙げられたペルーンは、キエフ・ルーシで最も重んじられた神でした。名前はスラヴ語で雷を意味する語と結びつけられ、雷神と考えられています。モコシは一覧の中でただ一人の女神とされますが、年代記には名前しか記されていません。",
+      "claimIds": ["sl-pantheon", "sl-perun-thunder"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ペルーンとヴォロスへの誓い",
+      "anchor": "oath"
+    },
+    {
+      "type": "paragraph",
+      "text": "『原初年代記』には、ルーシとビザンツ帝国の条約の記事も収められています。907年、キエフの公オレグが和を結んだとき、ギリシャの皇帝たちは十字架に口づけして誓い、ルーシの人々は自分たちの掟に従って、武器と神々にかけて誓いました。",
+      "claimIds": ["sl-oath"]
+    },
+    {
+      "type": "quote",
+      "text": "ルーシの掟に従って、自らの武器と、自らの神ペルーンと、家畜の神ヴォロスにかけて誓い、和を固めた。",
+      "sourceId": "primary-chronicle",
+      "location": "6415年（907年）条",
+      "claimIds": ["sl-oath"],
+      "translationNote": "原文をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヴォロス（ヴェレス）は、キエフの丘の神像の一覧には名前がありません。後世の研究では、天の雷神ペルーンと対立する地下や水の神と考える説もありますが、年代記が伝えるのは「家畜の神」という呼び名だけです。",
+      "claimIds": ["sl-oath", "sl-veles"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "投げ捨てられた雷神",
+      "anchor": "fall"
+    },
+    {
+      "type": "paragraph",
+      "text": "988年、ウラジーミルはキリスト教を受け入れ、自ら立てた神像を倒させました。ペルーンの像は馬の尾に縛られて丘から引きずり下ろされ、十二人の男に杖で打たれたのち、ドニエプル川に投げ込まれます。年代記によれば、まだ洗礼を受けていない人々はそれを見て泣いたといいます。",
+      "claimIds": ["sl-fall"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "民話に生きる森の魔女と不死の魔王",
+      "anchor": "folktales"
+    },
+    {
+      "type": "paragraph",
+      "text": "古い神々の名前が年代記の中に消えていった一方で、農村の人々のあいだでは、不思議な存在が登場する民話が語り継がれていました。19世紀、民俗学者アファナーシエフは各地で書き取られた民話を集めて『ロシア民話集』を刊行します。",
+      "claimIds": ["sl-afanasyev"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "バーバ・ヤガー：森の奥、人骨の垣根に囲まれた家や、鶏の足の上で回る小屋に住む魔女。臼に乗って杵で漕ぐ",
+        "不死身のコシチェイ：王女や英雄の妻をさらう悪役。自分の死を、遠く離れた場所の卵の中に隠している"
+      ],
+      "claimIds": ["sl-yaga", "sl-koschei"]
+    },
+    {
+      "type": "note",
+      "classification": "scholarship",
+      "title": "民話は神話か",
+      "text": "民話の登場人物の背後に古い神々の姿を読み取ろうとする研究は19世紀から盛んに行われてきましたが、どこまでが古い信仰の名残で、どこからが民話としての創作なのかを見分けるのは難しく、議論が続いています。",
+      "claimIds": ["sl-folk-myth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "スラヴ神話には神話の書物が残っておらず、年代記の断片的な記述と民話が主な手がかりになる",
+        "『原初年代記』は、980年にウラジーミルがペルーンらの神像をキエフの丘に立てたことを伝える",
+        "ルーシの人々は、条約の際にペルーンと「家畜の神」ヴォロスにかけて誓った",
+        "19世紀に集められた民話には、バーバ・ヤガーや不死身のコシチェイが登場する"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "sl-sources",
+      "text": "キリスト教以前のスラヴの神々について伝える文字資料は、キリスト教受容後に修道士がまとめた年代記などの断片的な記述が中心である。",
+      "classification": "scholarship",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』（資料の性格について）"
+    },
+    {
+      "id": "sl-caution",
+      "text": "スラヴの神々の役割についての解説の多くは、わずかな記述からの推定や後世の民間信仰からの類推を含む。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sl-pantheon",
+      "text": "ウラジーミルは館の外の丘に、頭が銀で口髭が金の木製のペルーン像と、ホルス、ダジボーグ、ストリボーグ、シマルグル、モコシの像を立て、人々はそれらに犠牲を捧げた。",
+      "classification": "fact",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6488年（980年）条"
+    },
+    {
+      "id": "sl-perun-thunder",
+      "text": "ペルーンの名はスラヴ語で雷を意味する語と結びつけられ、雷神と考えられている。モコシは一覧中唯一の女神とされる。",
+      "classification": "scholarship",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6488年（980年）条（神名の解釈は研究上の通説）"
+    },
+    {
+      "id": "sl-oath",
+      "text": "907年の和約で、ギリシャの皇帝たちは十字架に口づけして誓い、オレグとその部下はルーシの掟に従って、武器とペルーン、家畜の神ヴォロスにかけて誓った。",
+      "classification": "fact",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6415年（907年）条"
+    },
+    {
+      "id": "sl-veles",
+      "text": "ヴォロス（ヴェレス）をペルーンと対立する地下・水の神とみる説があるが、年代記の記述は「家畜の神」という呼び名に限られる。",
+      "classification": "scholarship",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6415年（907年）条",
+      "note": "対立の構図は主にイワノフとトポロフらの再構成説による。"
+    },
+    {
+      "id": "sl-fall",
+      "text": "ウラジーミルは神像を倒させ、ペルーン像を馬の尾に縛って引きずり、十二人の男に杖で打たせてドニエプル川に投げ込ませた。洗礼を受けていない人々は泣いた。",
+      "classification": "fact",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6496年（988年）条"
+    },
+    {
+      "id": "sl-afanasyev",
+      "text": "アファナーシエフは各地で書き取られたロシアの民話を集め、1855年から1863年にかけて『ロシア民話集』として刊行した。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ロシア民話集』（書誌）"
+    },
+    {
+      "id": "sl-yaga",
+      "text": "バーバ・ヤガーは人骨の垣根に囲まれた森の家や、鶏の足の上で回る小屋に住み、臼に乗って杵で漕ぐ。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ロシア民話集』第104話「美しいワシリーサ」、第113話「鵞鳥と白鳥」"
+    },
+    {
+      "id": "sl-koschei",
+      "text": "不死身のコシチェイは、樫の木の下の箱の中の兎の中の鴨の中の卵に、自らの死を隠している。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ロシア民話集』第156話"
+    },
+    {
+      "id": "sl-folk-myth",
+      "text": "民話の登場人物に古い神々の名残を読み取る研究は多いが、古い信仰と民話としての創作の区別は難しく、議論がある。",
+      "classification": "scholarship",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ロシア民話集』（研究史について）"
+    }
+  ]
+}

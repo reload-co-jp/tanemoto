@@ -1,0 +1,223 @@
+{
+  "id": "polynesian-mythology-overview",
+  "slug": "polynesian-mythology-overview",
+  "title": "ポリネシア神話とは？天と地の分離、半神マウイ、火山の女神ペレまでわかりやすく解説",
+  "shortTitle": "ポリネシア神話とは？",
+  "eyecatchText": "ランギとパパ",
+  "description": "ポリネシア神話は、ハワイやニュージーランドなど太平洋の島々に伝わる神々と英雄の物語。抱き合う天と地を森の神タネが引き離したマオリの創世神話や、火山の女神ペレのハワイ渡来の伝承を紹介します。",
+  "lead": "太平洋に点在する島々の人々は、カヌーで大海原を渡り、それぞれの島に住みつきました。そのため、遠く離れた島どうしでよく似た神話が語られています。ニュージーランドのマオリとハワイの伝承を中心に、その世界をのぞいてみましょう。",
+  "category": "basics",
+  "tags": ["ポリネシア神話", "マオリ", "ハワイ", "ペレ", "基礎知識"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["rangi", "papa", "tane", "maui", "pele", "hiiaka"],
+  "mythologyIds": ["polynesian"],
+  "storyIds": [
+    "separation-of-rangi-and-papa",
+    "maui-fishes-up-the-land",
+    "pele-comes-to-hawaii"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": ["creation"],
+  "sourceIds": ["grey-polynesian-mythology", "westervelt-volcanoes"],
+  "relatedArticleIds": ["maui", "what-is-mythology"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "海を渡った人々の神話",
+      "anchor": "polynesia"
+    },
+    {
+      "type": "paragraph",
+      "text": "ポリネシアは、ハワイ、ニュージーランド（アオテアロア）、イースター島（ラパ・ヌイ）を頂点とする大きな三角形の海域に広がる島々の総称です。島々の人々は共通の祖先から分かれ、カヌーで海を渡って各地に住みつきました。そのため、半神マウイのように多くの島で語られる神や英雄がいる一方、名前や物語の筋は島ごとに少しずつ異なります。",
+      "claimIds": ["po-region"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「ポリネシア神話」という呼び名",
+      "text": "「ポリネシア神話」は一つの聖典にまとめられた神話ではなく、島ごとに伝えられてきた多様な伝承の総称です。トモタネでは、どの島の伝承で、どの記録にもとづくのかを示して紹介します。",
+      "claimIds": ["po-caution"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "天と地の分離（マオリ）",
+      "anchor": "creation"
+    },
+    {
+      "type": "paragraph",
+      "text": "ニュージーランドのマオリの伝承は、19世紀半ばにニュージーランド総督ジョージ・グレイが首長や長老から集め、『ポリネシア神話』（1855年）として英訳を刊行しました。その冒頭で語られるのが、天ランギと地パパの物語です。",
+      "claimIds": ["po-grey"]
+    },
+    {
+      "type": "paragraph",
+      "text": "はじめ、天ランギと地パパは固く抱き合っており、そのあいだに生まれた子どもたちは光のない暗闇の中にいました。子どもたちは、父母を殺すか、引き離すかを話し合います。",
+      "claimIds": ["po-dark"]
+    },
+    {
+      "type": "quote",
+      "text": "いや、そうではない。引き離して、天を遠く頭上に立たせ、大地を足もとに横たわらせよう。空はよそ者のように遠ざけ、大地は育ての母として身近にとどめよう。",
+      "sourceId": "grey-polynesian-mythology",
+      "location": "p.2",
+      "claimIds": ["po-tane-plan"],
+      "translationNote": "原文をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "森の神タネのこの提案に、嵐の神タウィリマテアを除く兄弟が賛成しました。農作物の神ロンゴ、海の神タンガロアらが次々に挑んで失敗したのち、タネは頭を母の大地につけ、足を父の天に当てて押し上げ、ついに二人を引き離します。こうして世界に光が差し込みました。",
+      "claimIds": ["po-tane-plan", "po-separation"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "嘆く天と地",
+      "text": "グレイの記録では、引き離されるランギとパパは「なぜ親を殺すのか」と叫び、嘆き声を上げます。天地の分離を、子が親を引き裂く痛ましい出来事として語っている点が印象的です。",
+      "claimIds": ["po-cry"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "半神マウイ",
+      "anchor": "maui"
+    },
+    {
+      "type": "paragraph",
+      "text": "マオリの伝承でとくに多く語られるのが、半神の英雄マウイです。マウイは太陽を罠にかけて歩みを遅らせ、魔法の釣り針で海から陸地を釣り上げ、火の女神マフイカから火を手に入れました。詳しくは[マウイとは？](/articles/maui/)で解説しています。",
+      "claimIds": ["po-maui"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "火山の女神ペレ（ハワイ）",
+      "anchor": "pele"
+    },
+    {
+      "type": "paragraph",
+      "text": "ハワイでは、火山の女神ペレの伝承が広く知られています。ウェスターヴェルトが19世紀のハワイ語新聞の記事などをもとにまとめた伝説集によれば、ペレは海の女神である姉ナマカオカハイと争い、高潮と洪水で家を壊されて故郷を追われました。",
+      "claimIds": ["po-pele-flee"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ペレは魔法の掘り棒パオアを携え、降り立った島々で大地を突いては火口を開きましたが、どれも海に近すぎて水に消されてしまいます。島から島へと渡ったペレは、ついにハワイ島のキラウエアにたどり着き、そこに炎の住まいを築いたといいます。",
+      "claimIds": ["po-pele-kilauea"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "ペレの渡来には異伝がある",
+      "text": "ウェスターヴェルト自身、ペレの出自や渡来の理由についていくつもの伝承を紹介しています。夫を探して島々を巡ったという話も外国人のあいだで広く知られましたが、彼はこれを初期のハワイ人の書き手には受け入れられていない話だと注記しています。",
+      "claimIds": ["po-pele-variant"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ポリネシア神話は、太平洋の島々に伝わる多様な伝承の総称で、島ごとに名前や筋が異なる",
+        "マオリの伝承では、森の神タネが抱き合う天ランギと地パパを引き離し、世界に光をもたらした",
+        "半神マウイは多くの島で語られる英雄で、太陽を捕らえ、陸地を釣り上げた",
+        "ハワイの火山の女神ペレは、姉に追われて島々を渡り、キラウエアに住みついた"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "po-region",
+      "text": "ポリネシアはハワイ、ニュージーランド、イースター島を結ぶ三角形の海域の島々の総称で、多くの島で共通する神や英雄が語られる一方、島ごとに違いがある。",
+      "classification": "scholarship",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』序文（地域の概説は一般的な通説）"
+    },
+    {
+      "id": "po-caution",
+      "text": "ポリネシア神話は一つの聖典ではなく、島ごとの伝承の総称である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "po-grey",
+      "text": "グレイはニュージーランド総督として首長や長老から伝承を集め、1855年に『ポリネシア神話』として英訳を刊行した。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』序文"
+    },
+    {
+      "id": "po-dark",
+      "text": "天ランギと地パパは抱き合っており、その子どもたちは光のない暗闇の中にいて、父母を殺すか引き離すかを話し合った。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.1–2"
+    },
+    {
+      "id": "po-tane-plan",
+      "text": "タネは父母を引き離し、天を遠くに、大地を育ての母として身近にとどめることを提案し、タウィリマテア以外の兄弟が賛成した。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』p.2"
+    },
+    {
+      "id": "po-separation",
+      "text": "ロンゴ、タンガロア、ハウミア、トゥらが失敗したのち、タネは頭を大地につけ、足で天を押し上げて二人を引き離した。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.3–4"
+    },
+    {
+      "id": "po-cry",
+      "text": "引き離されるランギとパパは、なぜ親を殺すのか、なぜ引き裂くのかと叫んだ。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』p.4"
+    },
+    {
+      "id": "po-maui",
+      "text": "マウイは太陽を罠にかけ、魔法の釣り針で陸地を釣り上げ、火の女神マフイカから火を手に入れた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.35–49"
+    },
+    {
+      "id": "po-pele-flee",
+      "text": "ペレは海の女神である姉ナマカオカハイとの争いで、高潮と洪水により家と土地を壊され、故郷を追われた。",
+      "classification": "fact",
+      "sourceIds": ["westervelt-volcanoes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ウェスターヴェルト『ハワイの火山の伝説』第2章"
+    },
+    {
+      "id": "po-pele-kilauea",
+      "text": "ペレは魔法の掘り棒パオアで火口を開いたが、海に近すぎて水に消され、島から島へ渡った末にハワイ島のキラウエアに住まいを築いた。",
+      "classification": "fact",
+      "sourceIds": ["westervelt-volcanoes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ウェスターヴェルト『ハワイの火山の伝説』第2章"
+    },
+    {
+      "id": "po-pele-variant",
+      "text": "ペレの渡来には複数の伝承があり、夫を探して島々を巡ったという話は外国人に広く受け入れられたが、初期のハワイ人の書き手には受け入れられていないとウェスターヴェルトは注記する。",
+      "classification": "variant",
+      "sourceIds": ["westervelt-volcanoes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ウェスターヴェルト『ハワイの火山の伝説』第2章"
+    }
+  ]
+}

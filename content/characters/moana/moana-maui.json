@@ -1,0 +1,200 @@
+{
+  "id": "moana-maui",
+  "slug": "moana-maui",
+  "name": "マウイ",
+  "reading": "まうい",
+  "alternativeNames": [],
+  "workId": "moana",
+  "description": {
+    "text": "風と海を司る半神。神に与えられた釣り針でどんな生き物にも姿を変えられる。かつては人間のために偉業を重ねた英雄だったが、女神テ・フィティの「心」を盗んだことで釣り針を失い、千年のあいだ島に閉じ込められていた。",
+    "claimIds": ["mo-maui-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は、ポリネシア各地で語られる半神の英雄マウイに由来する。",
+    "claimIds": ["mo-maui-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "maui",
+      "label": "島を釣り上げた英雄",
+      "inWork": {
+        "text": "人間のために島を引き揚げ、昼を長くし、火を人間に与えたと語り、それらの偉業は彼の体にタトゥーとして刻まれている。",
+        "claimIds": ["mo-maui-work-deeds"]
+      },
+      "inMyth": {
+        "text": "マオリの伝承では、マウイは魔法の釣り針で海から陸地を釣り上げ、縄の罠で太陽を捕らえて歩みを遅らせ、火の女神マフイカから火を手に入れた。",
+        "claimIds": [
+          "mo-maui-myth-fish",
+          "mo-maui-myth-sun",
+          "mo-maui-myth-fire"
+        ]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "maui",
+      "label": "魔法の釣り針",
+      "inWork": {
+        "text": "神から与えられた巨大な釣り針を持ち、その力で姿を変える。",
+        "claimIds": ["mo-maui-work"]
+      },
+      "inMyth": {
+        "text": "マウイが陸地を釣り上げた釣り針は、祖先ムリランガウェヌアの顎の骨を先につけた魔法の釣り針で、真珠貝が光り、犬の尾の毛の房で飾られていた。",
+        "claimIds": ["mo-maui-myth-hook"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "maui",
+      "label": "鳥への変身",
+      "inWork": {
+        "text": "泳ぎは苦手で、海を越えるときは釣り針で鷹などに変身する。",
+        "claimIds": ["mo-maui-work-hawk"]
+      },
+      "inMyth": {
+        "text": "マウイは森のあらゆる鳥に姿を変えることができたと語り、火の女神の炎から逃れるときには鷲に変身した。",
+        "claimIds": ["mo-maui-myth-birds"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "釣り上げた島、捕らえた太陽、人間にもたらした火という作品のマウイの「偉業」は、いずれもマオリの伝承のマウイの物語と重なる。釣り針もまた、原典では祖先の顎の骨から作られた魔法の道具として語られる。",
+      "claimIds": [
+        "mo-maui-work-deeds",
+        "mo-maui-myth-fish",
+        "mo-maui-myth-sun",
+        "mo-maui-myth-fire",
+        "mo-maui-cmp-deeds"
+      ]
+    },
+    {
+      "text": "原典のマウイは、火を得るために村の火をこっそり消し、女神をだまして爪を次々に抜かせるなど、いたずら好きのトリックスターとしての面が強い。作品の自信家で調子のよいマウイの性格は、こうした伝承のマウイ像を明るく描き直したものと読める。",
+      "claimIds": ["mo-maui-myth-fire", "mo-maui-cmp-trickster"]
+    },
+    {
+      "text": "原典のマウイは、死を滅ぼそうと女神ヒネ・ヌイ・テ・ポの体内に入って命を落とす。人間のために命の限界を越えようとする姿は、命の限られた人間のために「心」を盗んだという作品のマウイの動機とも響き合う。",
+      "claimIds": [
+        "mo-maui-myth-death",
+        "mo-maui-work-heart",
+        "mo-maui-cmp-death"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "mo-maui-work",
+      "text": "マウイは風と海を司る半神で、神に与えられた釣り針でどんな生き物にも姿を変えられる。テ・フィティの心を盗んだことで釣り針を失い、千年間島に幽閉されていた。",
+      "classification": "creative",
+      "sourceIds": ["work-moana"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「モアナと伝説の海」の記述で確認。"
+    },
+    {
+      "id": "mo-maui-name",
+      "text": "作品のマウイは、ポリネシアの伝承の半神マウイをもとにしたキャラクターである。",
+      "classification": "creative",
+      "sourceIds": ["work-moana"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「モアナと伝説の海」の記述で確認。"
+    },
+    {
+      "id": "mo-maui-work-deeds",
+      "text": "マウイは人間のために島を引き揚げ、昼を伸ばし、火を人間に与えたと語り、その偉業はタトゥーとして体に現れている。",
+      "classification": "creative",
+      "sourceIds": ["work-moana"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「モアナと伝説の海」の記述で確認。"
+    },
+    {
+      "id": "mo-maui-work-hawk",
+      "text": "マウイは泳ぎが不得意で、釣り針で鷹や水棲生物に変身するか船に乗るかしなければ海を越えられない。",
+      "classification": "creative",
+      "sourceIds": ["work-moana"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「モアナと伝説の海」の記述で確認。"
+    },
+    {
+      "id": "mo-maui-work-heart",
+      "text": "マウイがテ・フィティの心を盗んだのは、命の限られた人間たちのためだったと語られる。",
+      "classification": "creative",
+      "sourceIds": ["work-moana"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「モアナと伝説の海」の記述で確認。"
+    },
+    {
+      "id": "mo-maui-myth-fish",
+      "text": "マウイは兄弟の舟で沖に出て、魔法の釣り針で海の底から大地の一部（マウイの魚）を釣り上げた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.38–45"
+    },
+    {
+      "id": "mo-maui-myth-sun",
+      "text": "マウイは日が短すぎると考え、兄弟と縄の罠を作って太陽を捕らえ、祖先の顎の骨で打ちすえて、ゆっくり進むようにさせた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.35–38"
+    },
+    {
+      "id": "mo-maui-myth-fire",
+      "text": "マウイは村の火をすべて消したうえで火の女神マフイカのもとへ行き、火を受け取っては消してまたねだり、女神に手足の爪を次々と抜かせた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.45–48"
+    },
+    {
+      "id": "mo-maui-myth-hook",
+      "text": "マウイの釣り針は祖先ムリランガウェヌアの顎の骨を先につけた魔法の釣り針で、真珠貝が光り、犬の尾の毛の房で飾られていた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.39, 41–42, 45"
+    },
+    {
+      "id": "mo-maui-myth-birds",
+      "text": "マウイは森のあらゆる鳥に姿を変えたと語り、火の女神の炎に追われたときには鷲に姿を変えて逃げた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.35–36, 48"
+    },
+    {
+      "id": "mo-maui-myth-death",
+      "text": "マウイは人が死なずにすむよう死の女神ヒネ・ヌイ・テ・ポの体内を通り抜けようとしたが、小鳥ティワカワカの笑い声で女神が目を覚まし、殺された。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.54–58"
+    },
+    {
+      "id": "mo-maui-cmp-deeds",
+      "text": "作品のマウイの偉業は、マオリの伝承のマウイの物語と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "mo-maui-cmp-trickster",
+      "text": "作品の自信家で調子のよい性格は、トリックスターとしての伝承のマウイ像を明るく描き直したものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "制作側の意図は確認できないため、筆者の読みとして示す。"
+    },
+    {
+      "id": "mo-maui-cmp-death",
+      "text": "人間のために命の限界を越えようとする原典のマウイの姿は、作品のマウイの動機と響き合う。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "筆者の読みとして示す。"
+    }
+  ],
+  "sourceIds": ["work-moana", "grey-polynesian-mythology"],
+  "articleIds": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "koschei",
+  "slug": "koschei",
+  "name": "コシチェイ",
+  "reading": "こしちぇい",
+  "originalName": "Кощей Бессмертный",
+  "romanized": "Koschei the Deathless",
+  "alternativeNames": ["不死身のコシチェイ", "カッシェイ"],
+  "type": "monster",
+  "roles": ["不死の魔王", "さらう者"],
+  "mythologyIds": ["slavic"],
+  "description": "ロシア民話で王女や英雄の妻をさらう不死身の悪役。自らの死を体の外に隠しており、ある話では「樫の木の下の箱の中の兎の中の鴨の中の卵の中」にあるという。卵を見つけ出されると力を失う。",
+  "relatedFigureIds": ["baba-yaga"],
+  "relatedStoryIds": ["death-of-koschei", "marya-morevna"],
+  "articleIds": [],
+  "sourceIds": ["afanasyev-tales"]
+}

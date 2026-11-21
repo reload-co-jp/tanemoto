@@ -1,0 +1,14 @@
+{
+  "id": "john-wick",
+  "slug": "john-wick",
+  "title": "ジョン・ウィック",
+  "reading": "じょん・うぃっく",
+  "type": "film",
+  "mediaTypes": [],
+  "author": "チャド・スタエルスキ（監督）・デレク・コルスタッド（脚本）",
+  "period": "2014年〜（シリーズ）",
+  "description": "引退した伝説の殺し屋ジョン・ウィックが、亡き妻の残した犬を殺されたことをきっかけに、ロシアン・マフィアへの復讐に乗り出すアクション映画。裏社会でジョンは、ロシア民話の魔女の名で「バーバ・ヤガー」と呼ばれ恐れられていた。",
+  "mythologyIds": ["slavic"],
+  "articleIds": [],
+  "sourceIds": ["work-john-wick"]
+}

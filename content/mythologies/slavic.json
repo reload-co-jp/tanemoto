@@ -1,0 +1,31 @@
+{
+  "id": "slavic",
+  "slug": "slavic",
+  "name": "スラヴ神話",
+  "reading": "すらゔしんわ",
+  "region": "東ヨーロッパ・ロシアなど",
+  "period": "キリスト教受容（10世紀末）以前の信仰。断片的な記録と、19世紀に記録された民話を通じて伝わる",
+  "description": "雷神ペルーン、家畜の神ヴォロス、女神モコシなど、キリスト教以前のスラヴの人々が信じた神々と、森の魔女バーバ・ヤガーや不死身のコシチェイが登場するロシアの民話。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "スラヴの人々は、キリスト教を受け入れる以前の神々の物語を、自分たちの手で書き残しませんでした。古い神々について知る手がかりは、キリスト教の修道士がまとめた『原初年代記』などの年代記や、周辺の国々の記録に残された断片的な記述が中心です。そこには、キエフ・ルーシで重んじられた雷神ペルーンや、家畜の神ヴォロスの名が見えます。"
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、19世紀には民俗学者アファナーシエフらが各地の民話を集め、森の魔女バーバ・ヤガーや不死身のコシチェイといった印象的な存在が知られるようになりました。トモタネでは、年代記の記述と民話を区別して紹介します。概要は[スラヴ神話とは？](/articles/slavic-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": ["perun", "veles", "mokosh", "dazhbog", "baba-yaga", "koschei"],
+  "storyIds": [
+    "vladimir-pantheon",
+    "oath-of-perun-and-volos",
+    "fall-of-perun",
+    "vasilisa-and-baba-yaga",
+    "geese-swans",
+    "death-of-koschei",
+    "marya-morevna"
+  ],
+  "sourceIds": ["primary-chronicle", "afanasyev-tales"],
+  "order": 11
+}

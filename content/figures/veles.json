@@ -1,0 +1,17 @@
+{
+  "id": "veles",
+  "slug": "veles",
+  "name": "ヴォロス（ヴェレス）",
+  "reading": "ゔぉろす（ゔぇれす）",
+  "originalName": "Волосъ",
+  "romanized": "Volos / Veles",
+  "alternativeNames": ["ヴェレス", "ヴォロス"],
+  "type": "god",
+  "roles": ["家畜の神"],
+  "mythologyIds": ["slavic"],
+  "description": "『原初年代記』では「家畜の神」と呼ばれ、ビザンツ帝国との条約の際にペルーンと並んで誓いの対象となった神。ウラジーミル1世がキエフの丘に立てた神像の一覧には名がない。後世の研究ではペルーンと対立する地下や水の神と考える説もあるが、原典の記述はごく短い。",
+  "relatedFigureIds": ["perun"],
+  "relatedStoryIds": ["oath-of-perun-and-volos"],
+  "articleIds": [],
+  "sourceIds": ["primary-chronicle"]
+}

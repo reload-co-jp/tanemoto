@@ -170,5 +170,25 @@
     "publishedPeriod": "2018年（PlayStation 4用ゲーム）",
     "publisher": "ソニー・インタラクティブエンタテインメント",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ゴッド・オブ・ウォー (2018)」でも確認している。"
+  },
+  {
+    "id": "work-moana",
+    "title": "モアナと伝説の海",
+    "originalTitle": "Moana",
+    "author": "ロン・クレメンツ、ジョン・マスカー（監督）・ウォルト・ディズニー・アニメーション・スタジオ（制作）",
+    "type": "work",
+    "publishedPeriod": "2016年（日本公開は2017年）",
+    "publisher": "ウォルト・ディズニー・スタジオ",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「モアナと伝説の海」でも確認している。"
+  },
+  {
+    "id": "work-john-wick",
+    "title": "ジョン・ウィック",
+    "originalTitle": "John Wick",
+    "author": "チャド・スタエルスキ（監督）・デレク・コルスタッド（脚本）",
+    "type": "work",
+    "publishedPeriod": "2014年（日本公開は2015年）",
+    "publisher": "サミット・エンターテインメント",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ジョン・ウィック」、英語版「John Wick (film)」でも確認している。"
   }
 ]

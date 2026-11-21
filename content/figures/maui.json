@@ -1,0 +1,22 @@
+{
+  "id": "maui",
+  "slug": "maui",
+  "name": "マウイ",
+  "reading": "まうい",
+  "originalName": "Maui-tikitiki-o-Taranga",
+  "romanized": "Māui-tikitiki-a-Taranga",
+  "alternativeNames": ["マウイ・ティキティキ・オ・タランガ"],
+  "type": "hero",
+  "roles": ["半神", "トリックスター", "文化英雄"],
+  "mythologyIds": ["polynesian"],
+  "description": "ポリネシア各地で語られる半神の英雄。マオリの伝承では、祖先ムリランガウェヌアの顎の骨を武器に太陽を罠にかけて歩みを遅らせ、同じ顎の骨を先につけた釣り針で海から陸地を釣り上げ、火の女神マフイカから火を手に入れた。最後に死を滅ぼそうと冥界の女神ヒネ・ヌイ・テ・ポの体内に入り込むが、小鳥の笑い声で女神が目を覚まし、命を落とした。",
+  "relatedFigureIds": ["mahuika", "hine-nui-te-po", "rangi", "papa"],
+  "relatedStoryIds": [
+    "maui-snares-the-sun",
+    "maui-fishes-up-the-land",
+    "maui-and-mahuika",
+    "death-of-maui"
+  ],
+  "articleIds": [],
+  "sourceIds": ["grey-polynesian-mythology"]
+}

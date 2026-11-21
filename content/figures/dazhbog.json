@@ -1,0 +1,17 @@
+{
+  "id": "dazhbog",
+  "slug": "dazhbog",
+  "name": "ダジボーグ",
+  "reading": "だじぼーぐ",
+  "originalName": "Дажьбогъ",
+  "romanized": "Dazhbog",
+  "alternativeNames": ["ダシュボグ"],
+  "type": "god",
+  "roles": ["太陽神（とされる）"],
+  "mythologyIds": ["slavic"],
+  "description": "ウラジーミル1世が980年にキエフの丘に立てた神像の一つ。980年の記事には名前しか記されていないが、イパーチー写本の1114年条（ギリシャの年代記を引いた箇所）に「太陽の王、スヴァローグの子、すなわちダジボーグ」とあることなどから、太陽神と考えられている。",
+  "relatedFigureIds": ["perun", "mokosh"],
+  "relatedStoryIds": ["vladimir-pantheon"],
+  "articleIds": [],
+  "sourceIds": ["primary-chronicle"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mokosh",
+  "slug": "mokosh",
+  "name": "モコシ",
+  "reading": "もこし",
+  "originalName": "Мокошь",
+  "romanized": "Mokosh",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["女神"],
+  "mythologyIds": ["slavic"],
+  "description": "ウラジーミル1世が980年にキエフの丘に立てた神像のうち、最後に名が挙げられる神で、一覧の中では唯一の女神と考えられている。『原初年代記』には名前以外の記述がなく、糸紡ぎや女性の仕事、湿った大地と結びつける見方は、後世の民間信仰や研究にもとづく。",
+  "relatedFigureIds": ["perun", "dazhbog"],
+  "relatedStoryIds": ["vladimir-pantheon"],
+  "articleIds": [],
+  "sourceIds": ["primary-chronicle"]
+}

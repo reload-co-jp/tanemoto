@@ -1,0 +1,17 @@
+{
+  "id": "mahuika",
+  "slug": "mahuika",
+  "name": "マフイカ",
+  "reading": "まふいか",
+  "originalName": "Mahu-ika",
+  "romanized": "Mahuika",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["火の女神"],
+  "mythologyIds": ["polynesian"],
+  "description": "マオリの伝承で火を司る女神で、マウイの祖先にあたる。手足の爪から火を生み出す。マウイにだまされて爪を一つずつ与え続け、最後に残った足の爪を地面に叩きつけると、あたり一面が燃え上がった。雨で火が消える前に、火種をカイコマコなどの木の中に投げ込んで残したという。",
+  "relatedFigureIds": ["maui"],
+  "relatedStoryIds": ["maui-and-mahuika"],
+  "articleIds": [],
+  "sourceIds": ["grey-polynesian-mythology"]
+}

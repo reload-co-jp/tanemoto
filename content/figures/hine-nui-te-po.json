@@ -1,0 +1,17 @@
+{
+  "id": "hine-nui-te-po",
+  "slug": "hine-nui-te-po",
+  "name": "ヒネ・ヌイ・テ・ポ",
+  "reading": "ひね・ぬい・て・ぽ",
+  "originalName": "Hine-nui-te-po",
+  "romanized": "Hine-nui-te-pō",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["死の女神"],
+  "mythologyIds": ["polynesian"],
+  "description": "マオリの伝承で死を司る女神で、マウイの祖先にあたる。地平線が空と接するあたりで光って見えるという。死を滅ぼそうとしたマウイは、眠る彼女の体内を通り抜けようとしたが、小鳥ティワカワカ（セキレイと訳される）の笑い声で目を覚ました女神に殺された。そのため人は死ぬようになったと語られる。",
+  "relatedFigureIds": ["maui"],
+  "relatedStoryIds": ["death-of-maui"],
+  "articleIds": [],
+  "sourceIds": ["grey-polynesian-mythology"]
+}

@@ -380,5 +380,51 @@
     "url": "https://archive.org/details/kalevalaepicpoem01craw",
     "urlLabel": "Internet Archive（Crawford 英訳 第1巻）",
     "notes": "医師リョンロートが、フィンランド東部やカレリア地方で歌い継がれていた歌謡を収集・編集して一つの叙事詩にまとめたもの。全50章（ルーノ）。古い神話を伝える資料であると同時に、編者による再構成を経た19世紀の作品でもある。箇所は「第◯章」で示す。邦訳に小泉保訳（岩波文庫）、森本覚丹訳（講談社学術文庫）がある。"
+  },
+  {
+    "id": "primary-chronicle",
+    "title": "過ぎし年月の物語（原初年代記）",
+    "originalTitle": "Повесть временных лет",
+    "author": "伝ネストル（キエフ・ペチェールスキー修道院の修道士）",
+    "type": "primary",
+    "publishedPeriod": "12世紀初め",
+    "url": "https://ru.wikisource.org/wiki/%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C_%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85_%D0%BB%D0%B5%D1%82_(%D0%9D%D0%B5%D1%81%D1%82%D0%BE%D1%80)/1997_(%D0%94%D0%9E)",
+    "urlLabel": "ウィキソース（古ルーシ語原文）",
+    "notes": "キエフ・ルーシの成り立ちを記した最古の年代記。ウラジーミル1世が980年にキエフの丘にペルーンらの神像を立てたことや、ビザンツ帝国との条約でルーシの人々がペルーンとヴォロスに誓ったことなど、キリスト教化以前のスラヴの神々を伝える数少ない文字資料の一つ。キリスト教の修道士の手による記録であることに注意が必要。年は世界創造紀元で記され、「6488年（980年）条」のように示す。邦訳に國本哲男ほか訳『ロシア原初年代記』（名古屋大学出版会）がある。"
+  },
+  {
+    "id": "afanasyev-tales",
+    "title": "ロシア民話集",
+    "originalTitle": "Народные русские сказки",
+    "author": "アレクサンドル・アファナーシエフ（編）",
+    "type": "primary",
+    "publishedPeriod": "1855–1863年",
+    "url": "https://ru.wikisource.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5_%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8_(%D0%90%D1%84%D0%B0%D0%BD%D0%B0%D1%81%D1%8C%D0%B5%D0%B2)",
+    "urlLabel": "ウィキソース（ロシア語原文）",
+    "notes": "民俗学者アファナーシエフが、各地で書き取られた民話を集めて刊行したロシア民話の古典的な集成。森の魔女バーバ・ヤガーや不死身のコシチェイが登場する話の多くはここに収められている。神話そのものではなく19世紀に記録された民話であり、古いスラヴの神々の信仰をどこまで反映しているかには議論がある。箇所はウィキソース所収の版の話番号（例: 第104話）で示す。邦訳に中村喜和編訳『アファナーシエフ ロシア民話集』（岩波文庫）がある。"
+  },
+  {
+    "id": "grey-polynesian-mythology",
+    "title": "ポリネシア神話",
+    "originalTitle": "Polynesian Mythology and Ancient Traditional History of the New Zealand Race",
+    "author": "ジョージ・グレイ（編・訳）",
+    "type": "primary",
+    "publishedPeriod": "1855年",
+    "publisher": "John Murray",
+    "url": "https://archive.org/details/polynesianmythol00greyuoft",
+    "urlLabel": "Internet Archive（初版）",
+    "notes": "ニュージーランド総督だったグレイが、マオリの首長や長老たちから集めた伝承をマオリ語で記録し、英訳して刊行したもの。天と地（ランギとパパ）の分離や、半神マウイの冒険を伝える代表的な資料。ポリネシア全体ではなくニュージーランドのマオリの伝承であり、植民地の行政官による編集を経ている点に注意が必要。箇所は初版の頁で示す。"
+  },
+  {
+    "id": "westervelt-volcanoes",
+    "title": "ハワイの火山の伝説",
+    "originalTitle": "Hawaiian Legends of Volcanoes",
+    "author": "W. D. ウェスターヴェルト",
+    "type": "translation",
+    "publishedPeriod": "1916年",
+    "publisher": "Ellis Press",
+    "url": "https://archive.org/details/hawaiianlegends00westgoog",
+    "urlLabel": "Internet Archive",
+    "notes": "ハワイの宣教師・研究者ウェスターヴェルトが、19世紀のハワイ語新聞などに掲載された伝承をもとに英語で再話した伝説集。火山の女神ペレがハワイへやって来た経緯や、妹ヒイアカの冒険を収める。逐語訳ではなく再話であり、著者自身も異伝の信頼性について注記している。箇所は章で示す。"
   }
 ]
