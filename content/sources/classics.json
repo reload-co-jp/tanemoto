@@ -241,5 +241,53 @@
     "url": "https://archive.org/details/revueceltique03pari",
     "urlLabel": "Internet Archive（Revue Celtique 第3巻）",
     "notes": "クー・フーリンが禁忌（ゲシュ）を破り、宿敵たちに討たれるまでを語る物語。Stokes は『レンスターの書』の本文を抄訳している。"
+  },
+  {
+    "id": "gilgamesh-epic",
+    "title": "ギルガメシュ叙事詩（標準バビロニア版）",
+    "originalTitle": "Epic of Gilgamesh（ša naqba īmuru）",
+    "author": "シン・レーキ・ウンニンニ（伝）",
+    "translator": "R. Campbell Thompson 英訳『The Epic of Gilgamish』（1928年）",
+    "type": "primary",
+    "publishedPeriod": "紀元前13〜11世紀頃に編纂（諸説あり）。主な写本は紀元前7世紀のニネヴェ出土粘土板",
+    "url": "https://archive.org/details/thompson-1928-gilgamesh",
+    "urlLabel": "Internet Archive（Thompson 英訳）",
+    "notes": "ウルクの王ギルガメシュと友エンキドゥの冒険、友の死、不死の探求を語るアッカド語の叙事詩。12枚の粘土板からなり、箇所は「第◯粘土板」で示す。邦訳に月本昭男訳（岩波書店）などがある。"
+  },
+  {
+    "id": "enuma-elish",
+    "title": "エヌマ・エリシュ",
+    "originalTitle": "Enūma eliš（「上にあるとき」）",
+    "author": "作者不詳",
+    "translator": "L. W. King 英訳『The Seven Tablets of Creation』（1902年）",
+    "type": "primary",
+    "publishedPeriod": "紀元前12世紀頃（諸説あり）",
+    "url": "https://archive.org/details/the-seven-tablets-of-creation.-vol.-1",
+    "urlLabel": "Internet Archive（King 英訳 第1巻）",
+    "notes": "バビロンの主神マルドゥクが原初の海の女神ティアマトを倒して世界を造り、神々の王となるまでを語るバビロニアの創世叙事詩。7枚の粘土板からなり、題名は冒頭の語句に由来する。箇所は「第◯粘土板◯行」で示す。"
+  },
+  {
+    "id": "rigveda",
+    "title": "リグ・ヴェーダ",
+    "originalTitle": "Ṛgveda",
+    "author": "作者不詳（伝承ではリシ〈聖仙〉たち）",
+    "translator": "R. T. H. Griffith 英訳『The Hymns of the Rigveda』（1896年）",
+    "type": "primary",
+    "publishedPeriod": "紀元前1500〜1000年頃（諸説あり）",
+    "url": "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda",
+    "urlLabel": "Wikisource（Griffith 英訳）",
+    "notes": "インド最古の宗教文献で、神々への讃歌1028篇を10巻に収める。箇所は「巻.讃歌番号」で示す。邦訳に辻直四郎訳（岩波文庫、抄訳）がある。"
+  },
+  {
+    "id": "mahabharata",
+    "title": "マハーバーラタ",
+    "originalTitle": "Mahābhārata",
+    "author": "ヴィヤーサ（伝）",
+    "translator": "K. M. Ganguli 英訳（1883〜1896年）",
+    "type": "primary",
+    "publishedPeriod": "紀元前4世紀〜紀元後4世紀頃にかけて成立（諸説あり）",
+    "url": "https://archive.org/details/TheMahabharataOfKrishna-dwaipayanaVyasa",
+    "urlLabel": "Internet Archive（Ganguli 英訳）",
+    "notes": "バラタ族の王位をめぐるパーンダヴァ五兄弟とカウラヴァ百王子の大戦争を中心とする、18巻からなる古代インドの大叙事詩。箇所は Ganguli 英訳の巻名と節番号（例: 森の巻 308節）で示す。節の区切りは底本・訳によって異なる。邦訳に上村勝彦訳（ちくま学芸文庫、未完）などがある。"
   }
 ]

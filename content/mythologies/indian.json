@@ -1,0 +1,37 @@
+{
+  "id": "indian",
+  "slug": "indian",
+  "name": "インド神話",
+  "reading": "いんどしんわ",
+  "region": "インド",
+  "period": "最古の文献『リグ・ヴェーダ』は紀元前1500〜1000年頃に成立",
+  "description": "雷神インドラが悪竜ヴリトラを倒す『リグ・ヴェーダ』の讃歌から、破壊と創造の神シヴァ、大叙事詩『マハーバーラタ』の英雄カルナとアルジュナまで、三千年以上にわたって語り継がれてきたインドの神々と英雄の物語。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "インド神話の資料は、時代によって大きく層が分かれます。最も古い『リグ・ヴェーダ』では雷神インドラや火神アグニが中心でしたが、のちの二大叙事詩『マハーバーラタ』『ラーマーヤナ』や、プラーナ文献の時代になると、シヴァやヴィシュヌが最高神として崇拝されるようになります。"
+    },
+    {
+      "type": "paragraph",
+      "text": "同じ神でも時代によって地位や性格が大きく変わることがあるため、トモタネでは、どの文献のどの箇所に拠るかを明示して紹介します。概要は[インド神話とは？](/articles/indian-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": [
+    "indra",
+    "vritra",
+    "shiva",
+    "surya",
+    "karna",
+    "arjuna",
+    "krishna"
+  ],
+  "storyIds": [
+    "indra-slays-vritra",
+    "churning-of-the-ocean",
+    "karna-armor",
+    "arjuna-and-the-kirata",
+    "death-of-karna"
+  ],
+  "sourceIds": ["rigveda", "mahabharata"],
+  "order": 7
+}

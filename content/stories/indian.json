@@ -1,0 +1,47 @@
+[
+  {
+    "id": "indra-slays-vritra",
+    "title": "インドラのヴリトラ退治",
+    "mythologyIds": ["indian"],
+    "figureIds": ["indra", "vritra"],
+    "summary": "ソーマを飲んで力を得たインドラは、工匠神トヴァシュトリが造った雷霆を手に、山に横たわって水をせき止めていた竜ヴリトラを打ち倒した。解き放たれた水は、鳴きながら駆ける牛のように海へと流れ下った。",
+    "sourceIds": ["rigveda"],
+    "sourceLocation": "『リグ・ヴェーダ』1.32"
+  },
+  {
+    "id": "churning-of-the-ocean",
+    "title": "乳海攪拌とシヴァの青い喉",
+    "mythologyIds": ["indian"],
+    "figureIds": ["shiva", "indra"],
+    "summary": "神々とアスラ（魔族）が不死の霊薬アムリタを得るために大海を攪拌すると、さまざまな宝や生き物が現れたのち、世界を焼き尽くすほどの猛毒カーラクータが湧き出た。シヴァはブラフマーに請われてこの毒を飲み込み、喉にとどめたため、それ以来ニーラカンタ（青い喉の者）と呼ばれる。",
+    "sourceIds": ["mahabharata"],
+    "sourceLocation": "『マハーバーラタ』始まりの巻 18節（Ganguli 英訳）"
+  },
+  {
+    "id": "karna-armor",
+    "title": "カルナの鎧と耳飾り",
+    "mythologyIds": ["indian"],
+    "figureIds": ["karna", "indra", "surya"],
+    "summary": "太陽神スーリヤの子カルナは、生まれながらに体と一体の鎧と耳飾りを身につけていた。息子アルジュナを助けたいインドラは、バラモンに姿を変えてそれを乞う。カルナは、一度だけ必ず敵を倒す槍と引き換えに、自らの体から鎧を切り剝がし、耳飾りを切り取ってインドラに与えた。",
+    "sourceIds": ["mahabharata"],
+    "sourceLocation": "『マハーバーラタ』森の巻 308節、始まりの巻 67節（Ganguli 英訳）"
+  },
+  {
+    "id": "arjuna-and-the-kirata",
+    "title": "アルジュナとキラータ",
+    "mythologyIds": ["indian"],
+    "figureIds": ["arjuna", "shiva"],
+    "summary": "ヒマラヤで苦行するアルジュナの前に、猪の姿の魔物が現れる。アルジュナと、狩人キラータの姿をしたシヴァが同時に矢を放ち、どちらの獲物かをめぐって二人は戦いとなる。アルジュナの矢は尽き、素手の戦いでも敵わなかったが、その武勇を喜んだシヴァは正体を現し、神の武器パーシュパタを授けた。",
+    "sourceIds": ["mahabharata"],
+    "sourceLocation": "『マハーバーラタ』森の巻 39–40節（Ganguli 英訳）"
+  },
+  {
+    "id": "death-of-karna",
+    "title": "カルナの最期",
+    "mythologyIds": ["indian"],
+    "figureIds": ["karna", "arjuna", "krishna"],
+    "summary": "クルクシェートラの大戦で、カルナはついにアルジュナと対決する。しかしバラモンの呪いによって、師パラシュラーマから授かったブラフマーストラの使い方を忘れ、戦車の左の車輪も大地に呑み込まれた。車輪を引き上げようとするカルナに、クリシュナに促されたアルジュナは、アンジャリカという矢でカルナの首を射落とした。",
+    "sourceIds": ["mahabharata"],
+    "sourceLocation": "『マハーバーラタ』カルナの巻 90–91節（Ganguli 英訳）"
+  }
+]

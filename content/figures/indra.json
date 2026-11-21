@@ -1,0 +1,17 @@
+{
+  "id": "indra",
+  "slug": "indra",
+  "name": "インドラ",
+  "reading": "いんどら",
+  "originalName": "इन्द्र",
+  "romanized": "Indra",
+  "alternativeNames": ["帝釈天"],
+  "type": "god",
+  "roles": ["雷", "戦い", "神々の王"],
+  "mythologyIds": ["indian"],
+  "description": "『リグ・ヴェーダ』で最も多くの讃歌を捧げられる雷神・戦神。工匠神トヴァシュトリが造った雷霆（ヴァジュラ）で、水をせき止める悪竜ヴリトラを打ち倒した。『マハーバーラタ』では英雄アルジュナの父で、バラモンに姿を変えてカルナの鎧と耳飾りを手に入れた。",
+  "relatedFigureIds": ["vritra", "arjuna", "karna"],
+  "relatedStoryIds": ["indra-slays-vritra", "karna-armor"],
+  "articleIds": [],
+  "sourceIds": ["rigveda", "mahabharata"]
+}

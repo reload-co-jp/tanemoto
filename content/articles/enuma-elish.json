@@ -1,0 +1,216 @@
+{
+  "id": "enuma-elish",
+  "slug": "enuma-elish",
+  "title": "エヌマ・エリシュとは？マルドゥクとティアマトの戦いと天地創造をバビロニアの創世神話から解説",
+  "shortTitle": "エヌマ・エリシュとは？",
+  "eyecatchText": "エヌマ・エリシュ",
+  "description": "『Fate』の宝具名としても知られる「エヌマ・エリシュ」。原初の女神ティアマトと若き神マルドゥクの戦い、悪風と網と矢による決着、ティアマトの体から天と地が造られる場面まで、バビロニアの創世叙事詩をKing英訳の粘土板に沿って解説します。",
+  "lead": "「エヌマ・エリシュ」は、ゲームやアニメで強大な技や武器の名として使われる言葉です。その元は、バビロニアの創世叙事詩の題名。原初の海の女神ティアマトと、その体から世界を造った神マルドゥクの物語をたどります。",
+  "category": "myths",
+  "tags": [
+    "エヌマ・エリシュ",
+    "マルドゥク",
+    "ティアマト",
+    "天地創造",
+    "メソポタミア神話",
+    "Fate/stay night"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["marduk", "tiamat", "gilgamesh"],
+  "mythologyIds": ["mesopotamian"],
+  "storyIds": ["marduk-and-tiamat"],
+  "workIds": ["fate-stay-night"],
+  "characterIds": ["fate-stay-night-gilgamesh"],
+  "topicIds": ["dragon-slaying", "monsters"],
+  "sourceIds": ["enuma-elish", "work-fate-stay-night"],
+  "relatedArticleIds": [
+    "mesopotamian-mythology-overview",
+    "gilgamesh",
+    "serpent-slayers"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「上にあるとき」",
+      "anchor": "title"
+    },
+    {
+      "type": "paragraph",
+      "text": "『エヌマ・エリシュ』は、バビロニアで語られた創世の叙事詩です。7枚の粘土板からなり、題名は冒頭の語句「エヌマ・エリシュ（上にあるとき）」から取られています。物語は、天も地もまだ名づけられていなかった太古、淡水の神アプスーと塩水の女神ティアマトが水を混ぜ合わせていたところから始まります。",
+      "claimIds": ["ee-title"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ティアマトの怒り",
+      "anchor": "tiamat"
+    },
+    {
+      "type": "paragraph",
+      "text": "アプスーとティアマトからは次々に神々が生まれますが、やがて原初の神々と若い神々のあいだに争いが起こります。ティアマトは怪物たちを生み出して軍勢を整え、神キングーをその長に据えて、彼に「天命の書板」を与えました。",
+      "claimIds": ["ee-revolt"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "マルドゥクの戦い",
+      "anchor": "battle"
+    },
+    {
+      "type": "paragraph",
+      "text": "ティアマトに立ち向かえる神はなく、エアの子マルドゥクが、勝利すれば神々の王となることを条件に戦いを引き受けます。マルドゥクは弓と矢、網、そして七つの風を携えて出陣しました。",
+      "claimIds": ["ee-marduk"]
+    },
+    {
+      "type": "quote",
+      "text": "主は網を広げて彼女を捕らえ、うしろに控えさせた悪風を彼女の顔に解き放った。ティアマトが口をいっぱいに開いたとき、彼はその唇が閉じぬうちに悪風を吹き込んだ。恐ろしい風が彼女の腹を満たした。",
+      "sourceId": "enuma-elish",
+      "location": "第4粘土板 95–100行",
+      "claimIds": ["ee-fight"],
+      "translationNote": "King の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "マルドゥクは矢でティアマトの腹を射抜き、心臓を裂いて命を奪いました。キングーからは、本来彼のものではない「天命の書板」を取り上げ、自らの胸に収めます。",
+      "claimIds": ["ee-kill"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "天と地の創造",
+      "anchor": "creation"
+    },
+    {
+      "type": "paragraph",
+      "text": "戦いを終えたマルドゥクはティアマトのもとへ戻り、容赦ない棍棒でその頭蓋を砕いて血の流れを断ちました。そしてティアマトの体を干し魚のように二つに裂き、半分を天の覆いとして据え、水が漏れ出さないよう閂と番人を置きました。",
+      "claimIds": ["ee-split"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "神々の王マルドゥク",
+      "text": "続く粘土板では、マルドゥクが星々の位置を定めて暦を整え、神々のために人間を造ることを計画し、最後に神々から五十の名を贈られて王と讃えられるまでが語られます。",
+      "claimIds": ["ee-after"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『Fate』のエヌマ・エリシュ",
+      "anchor": "fate"
+    },
+    {
+      "type": "paragraph",
+      "text": "『Fate/stay night』のギルガメッシュは、「乖離剣・エア」と呼ぶ剣の一撃「天地乖離す開闢の星（エヌマ・エリシュ）」で空間を切断します。原典の『エヌマ・エリシュ』は、ティアマトの体を裂いて天と地を分けた創世の物語です。「天地を乖離する」という宝具名は、この天地創造の場面と重なっています。",
+      "claimIds": ["ee-work", "ee-split", "ee-cmp"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "ギルガメシュとエヌマ・エリシュ",
+      "text": "『エヌマ・エリシュ』にギルガメシュは登場しません。作品は、同じメソポタミアの別の神話の題名を英雄王の宝具に借りていることになります。",
+      "claimIds": ["ee-cmp-gil"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『エヌマ・エリシュ』はバビロニアの創世叙事詩で、題名は冒頭の語句「上にあるとき」",
+        "マルドゥクは網と悪風と矢で原初の女神ティアマトを倒した",
+        "ティアマトの体を二つに裂き、半分から天を造った",
+        "『Fate』の宝具名「天地乖離す開闢の星」は、この天地創造を思わせる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ee-title",
+      "text": "『エヌマ・エリシュ』は7枚の粘土板からなるバビロニアの創世叙事詩で、題名は冒頭の語句 Enuma elish（上にあるとき）に由来する。冒頭では、天地が名づけられる前にアプスーとティアマトが水を混ぜ合わせていたと語る。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第1粘土板 1–5行（King 英訳 序文）"
+    },
+    {
+      "id": "ee-revolt",
+      "text": "原初の神々と若い神々のあいだに争いが起こり、ティアマトは怪物たちを生んで軍勢を整え、キングーを長に据えて天命の書板を与えた。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第1粘土板（King 英訳）"
+    },
+    {
+      "id": "ee-marduk",
+      "text": "マルドゥクは、勝利したなら神々の運命を定める者となることを条件に、ティアマトとの戦いを引き受けた。弓矢、網、七つの風を携えて出陣した。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第2–4粘土板（King 英訳）"
+    },
+    {
+      "id": "ee-fight",
+      "text": "マルドゥクは網を広げてティアマトを捕らえ、悪風を顔に解き放った。ティアマトが口を大きく開いたとき悪風を吹き込み、恐ろしい風が腹を満たした。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 95–100行"
+    },
+    {
+      "id": "ee-kill",
+      "text": "マルドゥクは槍（矢）でティアマトの腹を破って命を奪った。キングーから本来彼のものではない天命の書板を取り上げ、封をして自らの胸に収めた。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 101–122行"
+    },
+    {
+      "id": "ee-split",
+      "text": "マルドゥクはティアマトの後ろ足の上に立ち、容赦ない棍棒で頭蓋を砕き、血の流れを断った。そして体を干し魚のように二つに裂き、半分を天の覆いとして据え、閂を固め番人を置いて水を出さないよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 129–140行"
+    },
+    {
+      "id": "ee-after",
+      "text": "マルドゥクは星々の位置を定め、人間を造ることを計画し、神々は集まって五十の称号でマルドゥクを讃えた。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第5–7粘土板（King 英訳）",
+      "note": "人間の創造に用いられた血について、King（1902）は当時の断片からマルドゥク自身の血と読んでいるが、のちに発見された写本ではキングーの血とされる。"
+    },
+    {
+      "id": "ee-work",
+      "text": "『Fate/stay night』のギルガメッシュは、乖離剣・エアによる一撃「天地乖離す開闢の星（エヌマ・エリシュ）」で空間を切断する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "ee-cmp",
+      "text": "「天地を乖離する」という宝具名は、ティアマトの体を裂いて天地を分けた場面と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ee-cmp-gil",
+      "text": "『エヌマ・エリシュ』にギルガメシュは登場せず、作品は別の神話の題名を宝具名に借りている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

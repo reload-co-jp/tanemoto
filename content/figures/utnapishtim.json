@@ -1,0 +1,17 @@
+{
+  "id": "utnapishtim",
+  "slug": "utnapishtim",
+  "name": "ウトナピシュティム",
+  "reading": "うとなぴしゅてぃむ",
+  "originalName": "Ūta-napišti",
+  "romanized": "Utnapishtim",
+  "alternativeNames": ["ウタナピシュティム"],
+  "type": "human",
+  "roles": ["大洪水の生き残り", "不死"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "神々が起こした大洪水を、エア神の知らせで方舟を造って生き延びた人物。神々から永遠の命を与えられ、はるか遠くに住む。不死を求めて訪ねてきたギルガメシュに洪水の物語を語り、海の底の若返りの草のありかを教えた。",
+  "relatedFigureIds": ["gilgamesh"],
+  "relatedStoryIds": ["plant-of-youth"],
+  "articleIds": [],
+  "sourceIds": ["gilgamesh-epic"]
+}

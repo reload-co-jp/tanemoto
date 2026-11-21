@@ -1,0 +1,286 @@
+{
+  "id": "gilgamesh",
+  "slug": "gilgamesh",
+  "title": "ギルガメシュとは？『Fate』英雄王ギルガメッシュの元ネタ、エンキドゥとの友情と不死の探求を解説",
+  "shortTitle": "ギルガメシュの元ネタ",
+  "eyecatchText": "ギルガメシュ",
+  "description": "『Fate/stay night』の英雄王ギルガメッシュの元ネタ、『ギルガメシュ叙事詩』のウルク王。粘土から生まれた友エンキドゥ、天の牡牛、友の死と若返りの草を奪った蛇まで、Thompson英訳の粘土板に沿って解説します。",
+  "lead": "『Fate』シリーズで「人類最古の英雄王」として君臨するギルガメッシュ。元となったのは、四千年以上前のウルクの王を主人公とする『ギルガメシュ叙事詩』です。宝具の名にもなった友エンキドゥとの物語を、粘土板の記述からたどります。",
+  "category": "character-origins",
+  "tags": [
+    "ギルガメシュ",
+    "ギルガメッシュ",
+    "Fate/stay night",
+    "エンキドゥ",
+    "ギルガメシュ叙事詩",
+    "メソポタミア神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["gilgamesh", "enkidu", "ishtar", "humbaba", "utnapishtim"],
+  "mythologyIds": ["mesopotamian"],
+  "storyIds": ["creation-of-enkidu", "bull-of-heaven", "plant-of-youth"],
+  "workIds": ["fate-stay-night"],
+  "characterIds": ["fate-stay-night-gilgamesh"],
+  "topicIds": ["heroic-quest", "taboo"],
+  "sourceIds": ["work-fate-stay-night", "gilgamesh-epic"],
+  "relatedArticleIds": [
+    "mesopotamian-mythology-overview",
+    "enuma-elish",
+    "serpent-slayers"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『Fate/stay night』のギルガメッシュ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『Fate/stay night』のギルガメッシュは、存在するはずのない8人目のサーヴァントです。「王」を自称し、この世のすべては自分のものだと言ってはばかりません。作中では、古代メソポタミアのギルガメシュ叙事詩などに「人類最古の英雄王」として収められているとされます。",
+      "claimIds": ["gl-work"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三分の二は神",
+      "anchor": "king"
+    },
+    {
+      "type": "quote",
+      "text": "三分の二は神にして、三分の一は人なり。",
+      "sourceId": "gilgamesh-epic",
+      "location": "第1粘土板",
+      "claimIds": ["gl-twothirds"],
+      "translationNote": "Thompson の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "叙事詩の冒頭で、ギルガメシュは高い城壁に囲まれたウルク（英訳ではエレク）の王として紹介されます。しかしその横暴に苦しんだ民は神々に訴え、天神アヌは女神アルルに、ギルガメシュと張り合う者を造るよう命じました。",
+      "claimIds": ["gl-twothirds", "gl-aruru"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "粘土から生まれた友エンキドゥ",
+      "anchor": "enkidu"
+    },
+    {
+      "type": "paragraph",
+      "text": "アルルは手を洗って粘土をつまみ、荒野にエンキドゥを造りました。全身を毛におおわれたエンキドゥは獣とともに草を食み、水場で水を飲んで暮らしていました。狩人が連れてきた娼婦と六日七晩を過ごしたのち、エンキドゥは獣たちに去られ、彼女に導かれてウルクへ向かいます。",
+      "claimIds": ["gl-aruru", "gl-courtesan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ウルクに着いたエンキドゥはギルガメシュと激しく戦い、やがて二人は互いの力を認め合って無二の友となりました。",
+      "claimIds": ["gl-friends"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "フンババ退治と天の牡牛",
+      "anchor": "bull"
+    },
+    {
+      "type": "paragraph",
+      "text": "二人は神エンリルが番人に任じた怪物フンババの守る杉の森へ遠征し、太陽神シャマシュの送る風の助けを得て、フンババの首を切りました。",
+      "claimIds": ["gl-humbaba"]
+    },
+    {
+      "type": "paragraph",
+      "text": "凱旋したギルガメシュの美しさに目をとめた女神イシュタルは、黄金の戦車を与えようと求婚します。しかしギルガメシュは、イシュタルに愛された者たち——羊飼い、鳥、獅子、馬——がみな不幸な末路をたどったことを挙げて拒みました。怒ったイシュタルは父アヌに天の牡牛を造らせますが、ギルガメシュとエンキドゥはこれを殺し、その心臓を太陽神に捧げます。",
+      "claimIds": ["gl-ishtar", "gl-bull"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "友の死",
+      "anchor": "death"
+    },
+    {
+      "type": "paragraph",
+      "text": "天の牡牛を殺した罪で、神々はエンキドゥが死なねばならないと定めました。病に倒れたエンキドゥが息を引き取ると、ギルガメシュは友の顔を花嫁のようにヴェールでおおい、雌獅子のように吠えて嘆きました。",
+      "claimIds": ["gl-enkidu-death"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "不死の探求と蛇",
+      "anchor": "immortality"
+    },
+    {
+      "type": "paragraph",
+      "text": "友の死に死の恐怖を知ったギルガメシュは、大洪水を生き延びて神々から永遠の命を得たウトナピシュティムを訪ねます。帰り際に教えられたのは、海の底に生える若返りの草でした。ギルガメシュは足に重い石を結んで潜り、草を手に入れます。",
+      "claimIds": ["gl-plant"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ところが帰り道、泉で水浴びをしているあいだに、草の香りをかぎつけた蛇がこれを奪い去ってしまいます。ギルガメシュは座り込み、涙を流しました。",
+      "claimIds": ["gl-serpent"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "蛇が脱皮する理由",
+      "text": "蛇が若返りの草を食べたという筋は、蛇が脱皮して若返るように見えることの由来譚として読まれることがあります。",
+      "claimIds": ["gl-cmp-serpent"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との共通点",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品のギルガメッシュが好んで使う「天の鎖（エルキドゥ）」は、神を律する鎖とされ、相手の神性が高いほど拘束力が高まります。叙事詩のエンキドゥは、神々に逆らって天の牡牛を倒し、そのために死を定められた友でした。宝具の名に友の名が冠されていることは、二人の物語を知るとより印象深く感じられます。",
+      "claimIds": ["gl-work-chain", "gl-bull", "gl-cmp-chain"]
+    },
+    {
+      "type": "paragraph",
+      "text": "もう一つの宝具「天地乖離す開闢の星」の読み「エヌマ・エリシュ」は、ギルガメシュ叙事詩ではなく、バビロニアの創世神話の題名です。詳しくは[エヌマ・エリシュ](/articles/enuma-elish/)で解説しています。",
+      "claimIds": ["gl-work-ea"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ギルガメシュはウルクの王で、三分の二が神、三分の一が人間",
+        "エンキドゥは女神アルルが粘土から造った友で、天の牡牛を殺した罪で死を定められた",
+        "ギルガメシュは若返りの草を手に入れたが、蛇に奪われた",
+        "宝具「天の鎖」の名は、この友エンキドゥに由来する"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "gl-work",
+      "text": "ギルガメッシュは存在するはずのない8人目のサーヴァントで、「王」を自称し、この世の全ては自分の所有物だと言う。古代メソポタミアのギルガメシュ叙事詩など多くの神話で人類最古の英雄王として収められているとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "gl-work-chain",
+      "text": "対神兵装「天の鎖（エルキドゥ）」は神を律する鎖で、相手の神性が高いほど拘束力が高まる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "gl-work-ea",
+      "text": "乖離剣・エアによる一撃「天地乖離す開闢の星（エヌマ・エリシュ）」は空間を切断する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "gl-twothirds",
+      "text": "ギルガメシュは三分の二が神、三分の一が人間で、高い城壁のエレク（ウルク）の牧者（王）である。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+    },
+    {
+      "id": "gl-aruru",
+      "text": "民の嘆きを聞いたアヌは女神アルルに、ギルガメシュと張り合う者を造るよう命じた。アルルは手を洗い、粘土をつまんで荒野にエンキドゥを造った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+    },
+    {
+      "id": "gl-courtesan",
+      "text": "狩人は娼婦を連れて行き、エンキドゥは彼女と六日七晩を過ごした。その後獣たちはエンキドゥから離れ、娼婦は彼を高い城壁のエレクへ誘った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+    },
+    {
+      "id": "gl-friends",
+      "text": "エンキドゥとギルガメシュは激しく戦い、互いの力を認め合って友となった。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第2粘土板（Thompson 英訳の梗概）"
+    },
+    {
+      "id": "gl-humbaba",
+      "text": "エンリルは杉の森の番人にフンババを任じた。ギルガメシュとエンキドゥは太陽神の送る風の助けでフンババを捕らえ、首を切った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第3–5粘土板（Thompson 英訳の梗概）"
+    },
+    {
+      "id": "gl-ishtar",
+      "text": "イシュタルはギルガメシュに求婚し、黄金の戦車を約束した。ギルガメシュは、イシュタルが愛した者たち（タンムズ、鳥、獅子、馬、羊飼いなど）の末路を挙げて拒んだ。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6粘土板"
+    },
+    {
+      "id": "gl-bull",
+      "text": "イシュタルは父アヌに天の牡牛を造らせた。ギルガメシュとエンキドゥは牡牛を殺し、その心臓を太陽神に捧げた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6粘土板"
+    },
+    {
+      "id": "gl-enkidu-death",
+      "text": "神々は天の牡牛を殺したエンキドゥが死なねばならないと定めた。ギルガメシュは死んだ友を花嫁のようにヴェールでおおい、子を奪われた雌獅子のように吠えた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第7–8粘土板"
+    },
+    {
+      "id": "gl-plant",
+      "text": "ウトナピシュティムはギルガメシュに、海の底に茨のような草があり、それを手にすれば命を得ると教えた。ギルガメシュは足に重い石を結んで海の底へ潜り、草を手に入れた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    },
+    {
+      "id": "gl-serpent",
+      "text": "ギルガメシュが冷たい水の池で水浴びをしているあいだに、蛇が草の香りをかぎつけて奪い去った。ギルガメシュは座り込んで泣いた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    },
+    {
+      "id": "gl-cmp-serpent",
+      "text": "蛇が草を奪う筋は、蛇の脱皮の由来譚として読まれることがある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gl-cmp-chain",
+      "text": "神に逆らって死を定められた友の名が「神を律する鎖」に冠されていることは、二人の物語を踏まえると印象深い。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、筆者の読みとして示す。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "arjuna",
+  "slug": "arjuna",
+  "name": "アルジュナ",
+  "reading": "あるじゅな",
+  "originalName": "अर्जुन",
+  "romanized": "Arjuna",
+  "alternativeNames": ["パールタ"],
+  "type": "hero",
+  "roles": ["弓の名手", "パーンダヴァ五兄弟"],
+  "mythologyIds": ["indian"],
+  "description": "『マハーバーラタ』の主人公格の英雄で、パーンダヴァ五兄弟の三男。雷神インドラとクンティーの子で、ヴァルナに由来する弓ガーンディーヴァを操る。シヴァから神の武器パーシュパタを授かり、大戦ではクリシュナを御者としてカルナを討った。",
+  "relatedFigureIds": ["indra", "karna", "krishna", "shiva"],
+  "relatedStoryIds": ["arjuna-and-the-kirata", "death-of-karna"],
+  "articleIds": [],
+  "sourceIds": ["mahabharata"]
+}

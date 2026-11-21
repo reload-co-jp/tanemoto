@@ -1,0 +1,17 @@
+{
+  "id": "humbaba",
+  "slug": "humbaba",
+  "name": "フンババ",
+  "reading": "ふんばば",
+  "originalName": "Ḫumbaba",
+  "romanized": "Humbaba",
+  "alternativeNames": ["フワワ"],
+  "type": "monster",
+  "roles": ["杉の森の番人"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "神エンリルによって杉の森の番人に任じられた怪物。ギルガメシュとエンキドゥは杉を手に入れるために森へ遠征し、太陽神シャマシュの送る風の助けを得てフンババを捕らえ、首を切った。",
+  "relatedFigureIds": ["gilgamesh", "enkidu"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["gilgamesh-epic"]
+}

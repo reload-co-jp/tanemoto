@@ -8,7 +8,7 @@
   "author": "梅村真也（原作）・フクイタクミ（構成）・アジチカ（作画）",
   "period": "2017年〜（『月刊コミックゼノン』連載中）",
   "description": "人類の滅亡を決めた神々に戦乙女（ワルキューレ）が待ったをかけ、神と人類の代表13人ずつが一対一で戦う「ラグナロク」を描く漫画作品。2021年にアニメ化。ゼウス、ポセイドン、ヘラクレス、ハデスなど、ギリシャ神話の神々が神側の闘士として登場する。",
-  "mythologyIds": ["greek", "norse"],
+  "mythologyIds": ["greek", "norse", "indian"],
   "articleIds": [],
   "sourceIds": ["work-record-of-ragnarok"]
 }

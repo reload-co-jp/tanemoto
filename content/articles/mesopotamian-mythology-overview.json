@@ -1,0 +1,174 @@
+{
+  "id": "mesopotamian-mythology-overview",
+  "slug": "mesopotamian-mythology-overview",
+  "title": "メソポタミア神話とは？粘土板に残る世界最古級の神話と主な神々をわかりやすく解説",
+  "shortTitle": "メソポタミア神話とは？",
+  "eyecatchText": "メソポタミア神話",
+  "description": "『ギルガメシュ叙事詩』や『エヌマ・エリシュ』で知られるメソポタミア神話。楔形文字の粘土板という資料の特徴、シュメール語とアッカド語で名が変わる神々、ギルガメシュ・イシュタル・マルドゥクなどの主な神々と英雄を紹介します。",
+  "lead": "『Fate』シリーズの英雄王ギルガメッシュや、ゲームでおなじみのティアマト、イシュタル。その出典は、いまのイラク周辺で数千年前に粘土板へ刻まれた物語です。世界最古級の神話を読むための基本を整理します。",
+  "category": "basics",
+  "tags": [
+    "メソポタミア神話",
+    "ギルガメシュ叙事詩",
+    "エヌマ・エリシュ",
+    "粘土板",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "gilgamesh",
+    "enkidu",
+    "ishtar",
+    "marduk",
+    "tiamat",
+    "utnapishtim"
+  ],
+  "mythologyIds": ["mesopotamian"],
+  "storyIds": [
+    "creation-of-enkidu",
+    "bull-of-heaven",
+    "plant-of-youth",
+    "marduk-and-tiamat"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["gilgamesh-epic", "enuma-elish"],
+  "relatedArticleIds": ["gilgamesh", "enuma-elish"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "粘土板に刻まれた神話",
+      "anchor": "tablets"
+    },
+    {
+      "type": "paragraph",
+      "text": "メソポタミア（ギリシャ語で「川のあいだの地」）は、ティグリス川とユーフラテス川に挟まれた地域で、現在のイラクを中心とします。ここではシュメール人、のちにバビロニア人やアッシリア人が文明を築き、粘土板に楔形文字で記録を残しました。",
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "『ギルガメシュ叙事詩』の標準版は12枚の粘土板からなり、その主な写本はアッシリアの都ニネヴェから出土した紀元前7世紀の粘土板です。英国の研究者たちが19世紀にこれを解読し、なかに旧約聖書の「ノアの方舟」によく似た洪水物語が含まれていたことが大きな反響を呼びました。",
+      "claimIds": ["mo-nineveh", "mo-flood"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "欠けた物語",
+      "text": "粘土板は割れたり欠けたりしていることが多く、物語の一部が失われています。たとえば『ギルガメシュ叙事詩』第6粘土板では、天の牡牛が殺される場面の十数行が損なわれていると英訳者トンプソンは注記しています。",
+      "claimIds": ["mo-gap"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "名前が変わる神々",
+      "anchor": "names"
+    },
+    {
+      "type": "paragraph",
+      "text": "メソポタミアではシュメール語とアッカド語という二つの言語が使われ、同じ神が言語によって別の名で呼ばれることがあります。",
+      "claimIds": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "愛と戦いの女神：シュメール語でイナンナ、アッカド語でイシュタル",
+        "知恵と水の神：シュメール語でエンキ、アッカド語でエア",
+        "月の神：シュメール語でナンナ、アッカド語でシン",
+        "ギルガメシュ自身も、シュメール語の物語ではビルガメシュと書かれる"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "主な物語",
+      "anchor": "stories"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ギルガメシュ叙事詩",
+      "anchor": "gilgamesh"
+    },
+    {
+      "type": "paragraph",
+      "text": "ウルクの王ギルガメシュは「三分の二は神、三分の一は人間」とされる英雄です。横暴な王に対抗させるため神々が粘土から造ったエンキドゥは、ギルガメシュと戦ったのち無二の友となり、二人は杉の森の番人フンババを倒し、女神イシュタルが送った天の牡牛を殺します。しかしその罪でエンキドゥは死を定められ、友を失ったギルガメシュは不死を求める旅に出ます。詳しくは[ギルガメシュとは？](/articles/gilgamesh/)で解説しています。",
+      "claimIds": ["mo-gilgamesh"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "エヌマ・エリシュ",
+      "anchor": "enuma"
+    },
+    {
+      "type": "paragraph",
+      "text": "バビロニアの創世叙事詩『エヌマ・エリシュ』は、原初の海の女神ティアマトと戦ったマルドゥクが、その体を二つに裂いて天と地を造り、神々の王となるまでを語ります。題名は冒頭の語句「上にあるとき」に由来します。詳しくは[エヌマ・エリシュ](/articles/enuma-elish/)で解説しています。",
+      "claimIds": ["mo-ee"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "メソポタミア神話は、楔形文字で粘土板に記された世界最古級の神話",
+        "同じ神がシュメール語とアッカド語で別の名をもつことがある",
+        "代表作は英雄譚『ギルガメシュ叙事詩』と創世神話『エヌマ・エリシュ』"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "mo-nineveh",
+      "text": "トンプソンの英訳は主にニネヴェ出土のアッシリア版粘土板にもとづき、叙事詩は12枚の粘土板からなる。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Thompson 英訳 序文・目次"
+    },
+    {
+      "id": "mo-flood",
+      "text": "ギルガメシュ叙事詩の第11粘土板には、ウトナピシュティムが方舟で大洪水を生き延び、鳩・燕・烏を放った話が含まれる。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    },
+    {
+      "id": "mo-gap",
+      "text": "第6粘土板では、天の牡牛が殺される場面の約14行が損なわれている。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6粘土板（Thompson 英訳の注記）"
+    },
+    {
+      "id": "mo-gilgamesh",
+      "text": "ギルガメシュは三分の二が神、三分の一が人間。アルルが粘土から造ったエンキドゥと友になり、フンババを倒し、天の牡牛を殺した。その後エンキドゥは死を定められ、ギルガメシュは不死を求めた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1–11粘土板"
+    },
+    {
+      "id": "mo-ee",
+      "text": "マルドゥクはティアマトを倒し、その体を二つに裂いて半分を天の覆いとした。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 93–140行"
+    }
+  ]
+}

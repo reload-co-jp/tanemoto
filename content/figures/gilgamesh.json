@@ -1,0 +1,17 @@
+{
+  "id": "gilgamesh",
+  "slug": "gilgamesh",
+  "name": "ギルガメシュ",
+  "reading": "ぎるがめしゅ",
+  "originalName": "Gilgameš",
+  "romanized": "Gilgamesh",
+  "alternativeNames": ["ギルガメッシュ", "ビルガメシュ"],
+  "type": "hero",
+  "roles": ["ウルクの王", "英雄王"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "高い城壁に囲まれた都ウルクの王で、『ギルガメシュ叙事詩』の主人公。「三分の二は神、三分の一は人間」とされる。友エンキドゥとともに杉の森の番人フンババを倒し、天の牡牛を殺したが、友の死をきっかけに不死を求める旅に出る。",
+  "relatedFigureIds": ["enkidu", "ishtar", "humbaba", "utnapishtim"],
+  "relatedStoryIds": ["creation-of-enkidu", "bull-of-heaven", "plant-of-youth"],
+  "articleIds": [],
+  "sourceIds": ["gilgamesh-epic"]
+}

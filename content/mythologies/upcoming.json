@@ -1,23 +1,5 @@
 [
   {
-    "id": "indian",
-    "slug": "indian",
-    "name": "インド神話",
-    "region": "インド",
-    "description": "『リグ・ヴェーダ』や二大叙事詩『マハーバーラタ』『ラーマーヤナ』に伝えられる神々と英雄の物語。準備中です。",
-    "comingSoon": true,
-    "order": 6
-  },
-  {
-    "id": "mesopotamian",
-    "slug": "mesopotamian",
-    "name": "メソポタミア神話",
-    "region": "古代メソポタミア（現在のイラク周辺）",
-    "description": "『ギルガメシュ叙事詩』や『エヌマ・エリシュ』など、粘土板に楔形文字で記された世界最古級の神話。準備中です。",
-    "comingSoon": true,
-    "order": 7
-  },
-  {
     "id": "chinese",
     "slug": "chinese",
     "name": "中国神話",
@@ -25,5 +7,23 @@
     "description": "『山海経』や『淮南子』などに断片的に伝えられる神々と怪異の物語。準備中です。",
     "comingSoon": true,
     "order": 8
+  },
+  {
+    "id": "aztec",
+    "slug": "aztec",
+    "name": "アステカ神話",
+    "region": "メキシコ中央部",
+    "description": "ケツァルコアトルやテスカトリポカなど、征服前のメキシコ中央部で信仰された神々の物語。準備中です。",
+    "comingSoon": true,
+    "order": 9
+  },
+  {
+    "id": "slavic",
+    "slug": "slavic",
+    "name": "スラヴ神話",
+    "region": "東ヨーロッパ・ロシアなど",
+    "description": "雷神ペルーンや森の魔女バーバ・ヤガーなど、スラヴの人々の神々と民間伝承。準備中です。",
+    "comingSoon": true,
+    "order": 10
   }
 ]

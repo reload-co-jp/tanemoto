@@ -1,0 +1,16 @@
+{
+  "id": "enkidu",
+  "slug": "enkidu",
+  "name": "エンキドゥ",
+  "reading": "えんきどぅ",
+  "romanized": "Enkidu",
+  "alternativeNames": ["エアバニ"],
+  "type": "hero",
+  "roles": ["野人", "ギルガメシュの友"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "天神アヌの求めで、女神アルルが粘土から造った野人。獣とともに荒野で暮らしていたが、狩人が連れてきた娼婦に導かれてウルクへ行き、ギルガメシュと戦ったのち無二の友となる。天の牡牛を殺したことで神々に死を定められた。",
+  "relatedFigureIds": ["gilgamesh", "ishtar", "humbaba"],
+  "relatedStoryIds": ["creation-of-enkidu", "bull-of-heaven"],
+  "articleIds": [],
+  "sourceIds": ["gilgamesh-epic"]
+}

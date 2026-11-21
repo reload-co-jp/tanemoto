@@ -1,0 +1,17 @@
+{
+  "id": "krishna",
+  "slug": "krishna",
+  "name": "クリシュナ",
+  "reading": "くりしゅな",
+  "originalName": "कृष्ण",
+  "romanized": "Krishna",
+  "alternativeNames": ["ヴァースデーヴァ"],
+  "type": "god",
+  "roles": ["ヴィシュヌの化身", "御者"],
+  "mythologyIds": ["indian"],
+  "description": "ヴィシュヌ神の化身とされる英雄神。『マハーバーラタ』の大戦ではアルジュナの戦車の御者をつとめ、迷うアルジュナに説いた教えが『バガヴァッド・ギーター』として知られる。",
+  "relatedFigureIds": ["arjuna", "karna"],
+  "relatedStoryIds": ["death-of-karna"],
+  "articleIds": [],
+  "sourceIds": ["mahabharata"]
+}

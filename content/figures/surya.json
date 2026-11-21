@@ -1,0 +1,17 @@
+{
+  "id": "surya",
+  "slug": "surya",
+  "name": "スーリヤ",
+  "reading": "すーりや",
+  "originalName": "सूर्य",
+  "romanized": "Surya",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["太陽"],
+  "mythologyIds": ["indian"],
+  "description": "太陽神。『マハーバーラタ』では、王女クンティーに呼び出されて子を授け、生まれた子カルナは生まれながらに鎧と耳飾りを身につけていた。",
+  "relatedFigureIds": ["karna"],
+  "relatedStoryIds": ["karna-armor"],
+  "articleIds": [],
+  "sourceIds": ["mahabharata"]
+}

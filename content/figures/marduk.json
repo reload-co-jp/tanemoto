@@ -1,0 +1,16 @@
+{
+  "id": "marduk",
+  "slug": "marduk",
+  "name": "マルドゥク",
+  "reading": "まるどぅく",
+  "romanized": "Marduk",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["バビロンの主神", "神々の王"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "バビロンの都市神。『エヌマ・エリシュ』では、神々の王となることを条件に原初の女神ティアマトとの戦いを引き受け、網と悪風と矢でティアマトを倒した。その体を二つに裂いて天と地を造り、神々の王となった。",
+  "relatedFigureIds": ["tiamat"],
+  "relatedStoryIds": ["marduk-and-tiamat"],
+  "articleIds": [],
+  "sourceIds": ["enuma-elish"]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mesopotamian",
+  "slug": "mesopotamian",
+  "name": "メソポタミア神話",
+  "reading": "めそぽたみあしんわ",
+  "region": "古代メソポタミア（現在のイラク周辺）",
+  "period": "紀元前3千年紀から紀元前1千年紀にかけて粘土板に記された",
+  "description": "英雄王ギルガメシュの冒険を語る『ギルガメシュ叙事詩』や、マルドゥクが原初の女神ティアマトを倒して世界を造る『エヌマ・エリシュ』など、シュメール人・バビロニア人・アッシリア人が楔形文字で粘土板に記した、世界最古級の神話。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "メソポタミア神話の資料は、楔形文字で書かれた粘土板です。19世紀にアッシリアの都ニネヴェの遺跡などから大量の粘土板が発掘され、解読が進んだことで、数千年のあいだ忘れられていた物語がよみがえりました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "粘土板は欠けたり割れたりしていることが多く、物語には失われた部分が少なくありません。また同じ神でも、シュメール語ではイナンナ、アッカド語ではイシュタルというように、言語によって名が変わります。トモタネでは、どの版・どの粘土板に拠るかを明示して紹介します。概要は[メソポタミア神話とは？](/articles/mesopotamian-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": [
+    "gilgamesh",
+    "enkidu",
+    "ishtar",
+    "humbaba",
+    "utnapishtim",
+    "marduk",
+    "tiamat"
+  ],
+  "storyIds": [
+    "creation-of-enkidu",
+    "bull-of-heaven",
+    "plant-of-youth",
+    "marduk-and-tiamat"
+  ],
+  "sourceIds": ["gilgamesh-epic", "enuma-elish"],
+  "order": 6
+}

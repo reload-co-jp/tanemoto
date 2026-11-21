@@ -1,11 +1,11 @@
 {
   "id": "serpent-slayers",
   "slug": "serpent-slayers",
-  "title": "大蛇退治の神話を比べる——スサノオとヤマタノオロチ、ヘラクレスとヒュドラ、トールとミズガルズの大蛇",
+  "title": "大蛇退治の神話を比べる——スサノオ、ヘラクレス、トール、インドラ、マルドゥク",
   "shortTitle": "大蛇退治の神話を比べる",
   "eyecatchText": "大蛇退治",
-  "description": "八つの頭のヤマタノオロチ、九つの頭のヒュドラ、世界を取り巻くミズガルズの大蛇。日本・ギリシャ・北欧の神話で神や英雄が大蛇に挑む物語を原典で読み比べ、退治の方法や「大蛇から得たもの」の共通点と違いを整理します。",
-  "lead": "巨大な蛇や竜を倒す物語は、世界中の神話に見られます。日本のスサノオ、ギリシャのヘラクレス、北欧のトール。三柱の神と英雄が、それぞれどのように大蛇に挑み、何を得て、あるいは失ったのか。原典の記述を並べて比べます。",
+  "description": "ヤマタノオロチ、ヒュドラ、ミズガルズの大蛇、ヴリトラ、ティアマト。日本・ギリシャ・北欧・インド・メソポタミアの神話で神や英雄が大蛇や竜に挑む物語を原典で読み比べ、退治の方法や「大蛇から得たもの」の共通点と違いを整理します。",
+  "lead": "巨大な蛇や竜を倒す物語は、世界中の神話に見られます。日本のスサノオ、ギリシャのヘラクレス、北欧のトール、インドのインドラ、そしてメソポタミアのマルドゥク。神と英雄たちが、それぞれどのように大蛇に挑み、何を得て、あるいは失ったのか。原典の記述を並べて比べます。",
   "category": "comparison",
   "tags": [
     "ヤマタノオロチ",
@@ -14,20 +14,49 @@
     "スサノオ",
     "ヘラクレス",
     "トール",
-    "比較神話"
+    "比較神話",
+    "ヴリトラ",
+    "インドラ",
+    "ティアマト",
+    "マルドゥク"
   ],
   "publishedAt": "2026-11-21",
   "updatedAt": "2026-11-21",
   "status": "published",
   "featured": false,
-  "figureIds": ["susanoo", "yamata-no-orochi", "heracles", "thor"],
-  "mythologyIds": ["japanese", "greek", "norse"],
-  "storyIds": ["yamata-no-orochi-slaying", "ragnarok"],
+  "figureIds": [
+    "susanoo",
+    "yamata-no-orochi",
+    "heracles",
+    "thor",
+    "indra",
+    "vritra",
+    "marduk",
+    "tiamat"
+  ],
+  "mythologyIds": ["japanese", "greek", "norse", "indian", "mesopotamian"],
+  "storyIds": [
+    "yamata-no-orochi-slaying",
+    "ragnarok",
+    "indra-slays-vritra",
+    "marduk-and-tiamat"
+  ],
   "workIds": [],
   "characterIds": [],
   "topicIds": ["dragon-slaying", "monsters", "heroic-quest"],
-  "sourceIds": ["kojiki", "apollodorus-library", "snorri-edda", "poetic-edda"],
-  "relatedArticleIds": ["yamata-no-orochi", "heracles", "thor"],
+  "sourceIds": [
+    "kojiki",
+    "apollodorus-library",
+    "snorri-edda",
+    "poetic-edda",
+    "rigveda",
+    "enuma-elish"
+  ],
+  "relatedArticleIds": [
+    "yamata-no-orochi",
+    "enuma-elish",
+    "indian-mythology-overview"
+  ],
   "body": [
     {
       "type": "heading",
@@ -41,9 +70,17 @@
       "items": [
         "ヤマタノオロチ（日本）：八つの頭と八つの尾。体に木が生え、八つの谷と峰にわたる",
         "レルネのヒュドラ（ギリシャ）：九つの頭のうち八つは死すべきもの、中央の一つは不死",
-        "ミズガルズの大蛇（北欧）：ロキの子で、世界を取り巻く海に横たわる"
+        "ミズガルズの大蛇（北欧）：ロキの子で、世界を取り巻く海に横たわる",
+        "ヴリトラ（インド）：山に横たわり、水をせき止めていた竜",
+        "ティアマト（メソポタミア）：原初の海の女神。のちの伝承では竜の姿で描かれることもある"
       ],
-      "claimIds": ["ss-orochi-shape", "ss-hydra-shape", "ss-serpent"]
+      "claimIds": [
+        "ss-orochi-shape",
+        "ss-hydra-shape",
+        "ss-serpent",
+        "ss-vritra",
+        "ss-tiamat"
+      ]
     },
     {
       "type": "heading",
@@ -98,6 +135,28 @@
     {
       "type": "heading",
       "level": 2,
+      "text": "インドラとヴリトラ",
+      "anchor": "indra"
+    },
+    {
+      "type": "paragraph",
+      "text": "インド最古の文献『リグ・ヴェーダ』は、雷神インドラが竜ヴリトラを倒した武勲をうたいます。ソーマを飲んで力を得たインドラは、工匠神トヴァシュトリが造った雷霆を手に、山に横たわって水をせき止めていたヴリトラを打ち倒しました。解き放たれた水は、鳴きながら駆ける牛の群れのように海へと流れ下ったといいます。",
+      "claimIds": ["ss-vritra"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "マルドゥクとティアマト",
+      "anchor": "marduk"
+    },
+    {
+      "type": "paragraph",
+      "text": "バビロニアの創世叙事詩『エヌマ・エリシュ』では、神々に戦いを挑んだ原初の女神ティアマトを、若き神マルドゥクが網と悪風と矢で倒します。マルドゥクはその体を二つに裂き、半分で天の覆いを造りました。詳しくは[エヌマ・エリシュ](/articles/enuma-elish/)で解説しています。",
+      "claimIds": ["ss-tiamat"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
       "text": "比べてみると",
       "anchor": "compare"
     },
@@ -126,6 +185,17 @@
     {
       "type": "heading",
       "level": 3,
+      "text": "大蛇の体から世界が生まれる",
+      "anchor": "world"
+    },
+    {
+      "type": "paragraph",
+      "text": "インドラとマルドゥクの物語では、大蛇や竜を倒すことが世界の成り立ちと結びついています。ヴリトラが倒されて水が解き放たれ、ティアマトの体からは天と地が造られました。英雄の武勲にとどまらず、混沌を退けて秩序ある世界を開く「創世」の物語として語られている点が特徴です。",
+      "claimIds": ["ss-vritra", "ss-tiamat", "ss-cmp-world"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
       "text": "相討ちの結末",
       "anchor": "fate"
     },
@@ -147,7 +217,8 @@
         "ヤマタノオロチは八つ、ヒュドラは九つの頭をもつ多頭の大蛇",
         "スサノオは酒で、ヘラクレスはイオラオスの火の助けで大蛇を退治した",
         "スサノオは草薙剣を、ヘラクレスは毒矢を、倒した大蛇の体から得た",
-        "トールはミズガルズの大蛇を倒すが、自らも毒を浴びて倒れる"
+        "トールはミズガルズの大蛇を倒すが、自らも毒を浴びて倒れる",
+        "インドラはヴリトラを倒して水を解き放ち、マルドゥクはティアマトの体から天地を造った"
       ],
       "claimIds": []
     }
@@ -250,6 +321,29 @@
     {
       "id": "ss-cmp-fate",
       "text": "トールと大蛇の相討ちは、終末を語るラグナロクの一場面として描かれる点で前の二つと異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-vritra",
+      "text": "ソーマを飲んだインドラは、トヴァシュトリが造った雷霆で、山に横たわる竜ヴリトラを打ち殺した。解き放たれた水は鳴く牛のように海へ流れ下った。",
+      "classification": "fact",
+      "sourceIds": ["rigveda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『リグ・ヴェーダ』1.32.1–5"
+    },
+    {
+      "id": "ss-tiamat",
+      "text": "マルドゥクは網と悪風と槍（矢）でティアマトを倒し、その体を二つに裂いて半分を天の覆いとした。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 93–140行"
+    },
+    {
+      "id": "ss-cmp-world",
+      "text": "インドラとマルドゥクの竜退治は、水の解放や天地の創造という世界の成り立ちと結びついている。",
       "classification": "editorial",
       "sourceIds": [],
       "verificationStatus": "verified"

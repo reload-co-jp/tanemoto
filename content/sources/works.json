@@ -88,5 +88,14 @@
     "publishedPeriod": "1989〜1992年（『週刊少年ジャンプ』連載）",
     "publisher": "集英社",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「スターダストクルセイダース」でも確認している。"
+  },
+  {
+    "id": "work-fate-apocrypha",
+    "title": "Fate/Apocrypha",
+    "author": "東出祐一郎（著）・近衛乙嗣（イラスト）",
+    "type": "work",
+    "publishedPeriod": "2012〜2014年（小説）",
+    "publisher": "TYPE-MOON BOOKS",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「Fate/Apocrypha」でも確認している。"
   }
 ]

@@ -1,0 +1,154 @@
+{
+  "id": "fate-stay-night-gilgamesh",
+  "slug": "fate-stay-night-gilgamesh",
+  "name": "ギルガメッシュ",
+  "reading": "ぎるがめっしゅ",
+  "alternativeNames": ["英雄王", "アーチャー（第四次）"],
+  "workId": "fate-stay-night",
+  "description": {
+    "text": "存在するはずのない8人目のサーヴァント。前回の聖杯戦争のアーチャーで、そのまま現界し続けている。「王」を自称し、この世のすべては自分の所有物だと言ってはばからない。",
+    "claimIds": ["fsn-gil-work"]
+  },
+  "nameOrigin": {
+    "text": "古代メソポタミアの『ギルガメシュ叙事詩』の主人公、ウルクの王ギルガメシュ。作中では「人類最古の英雄王」とされる。",
+    "claimIds": ["fsn-gil-work-origin", "fsn-gil-myth-king"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "gilgamesh",
+      "label": "ギルガメシュ（ウルクの王）",
+      "inWork": {
+        "text": "古代メソポタミアのギルガメシュ叙事詩などに「人類最古の英雄王」として収められているとされ、神性のスキルをもつ。",
+        "claimIds": ["fsn-gil-work-origin"]
+      },
+      "inMyth": {
+        "text": "『ギルガメシュ叙事詩』のギルガメシュは、高い城壁に囲まれた都ウルクの王で、「三分の二は神、三分の一は人間」とされる。",
+        "claimIds": ["fsn-gil-myth-king"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "enkidu",
+      "label": "エンキドゥ（天の鎖）",
+      "inWork": {
+        "text": "好んで使う対神兵装「天の鎖（エルキドゥ）」は、相手の神性が高いほど拘束力が高まる、神を律する鎖とされる。",
+        "claimIds": ["fsn-gil-work-chain"]
+      },
+      "inMyth": {
+        "text": "エンキドゥは、ギルガメシュと張り合う者として女神アルルが粘土から造った野人で、ギルガメシュと戦ったのち無二の友となった。ともに天の牡牛を殺したことで、神々に死を定められる。",
+        "claimIds": ["fsn-gil-myth-enkidu", "fsn-gil-myth-bull"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "marduk",
+      "label": "エヌマ・エリシュ",
+      "inWork": {
+        "text": "「乖離剣・エア」と呼ぶ無銘の剣による一撃「天地乖離す開闢の星（エヌマ・エリシュ）」は、空間を切断する。",
+        "claimIds": ["fsn-gil-work-ea"]
+      },
+      "inMyth": {
+        "text": "『エヌマ・エリシュ』はバビロニアの創世叙事詩で、マルドゥクが原初の女神ティアマトの体を二つに裂き、その半分で天を造ったと語る。",
+        "claimIds": ["fsn-gil-myth-ee"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "宝具の名「天の鎖（エルキドゥ）」は、叙事詩でギルガメシュの唯一の友だったエンキドゥに由来する。叙事詩では、エンキドゥは神々の造った天の牡牛を倒したことで神々に死を定められており、「神を律する鎖」という作品の設定は、神に逆らった友の物語と重ねて読める。",
+      "claimIds": [
+        "fsn-gil-work-chain",
+        "fsn-gil-myth-bull",
+        "fsn-gil-cmp-chain"
+      ]
+    },
+    {
+      "text": "「天地乖離す開闢の星」の読みエヌマ・エリシュは、ギルガメシュ叙事詩ではなく、別のバビロニアの創世神話の題名である。天と地を切り分ける創世の物語の名を、空間を切断する一撃にあてている。",
+      "claimIds": ["fsn-gil-work-ea", "fsn-gil-myth-ee", "fsn-gil-cmp-ee"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsn-gil-work",
+      "text": "ギルガメッシュは存在するはずのない8人目のサーヴァントで、前回の聖杯戦争のアーチャー。そのまま現界し続けている。「王」を自称し、この世の全ては自分の所有物だと言って憚らない。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-gil-work-origin",
+      "text": "ギルガメッシュは古代メソポタミアのギルガメシュ叙事詩など多くの神話で人類最古の英雄王として収められている。スキルに神性をもつ。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-gil-work-chain",
+      "text": "対神兵装「天の鎖（エルキドゥ）」は神を律する鎖で、相手の神性が高いほど制約・拘束力が高まる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-gil-work-ea",
+      "text": "「乖離剣・エア」と呼ぶ無銘の剣の宝具によるEXランクの一撃「天地乖離す開闢の星（エヌマ・エリシュ）」は空間を切断する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-gil-myth-king",
+      "text": "ギルガメシュは高い城壁のウルク（エレク）の王で、三分の二は神、三分の一は人間である。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+    },
+    {
+      "id": "fsn-gil-myth-enkidu",
+      "text": "アヌは女神アルルに、ギルガメシュと張り合う者を造るよう命じた。アルルは粘土をつまんで荒野にエンキドゥを造った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+    },
+    {
+      "id": "fsn-gil-myth-bull",
+      "text": "イシュタルの求めでアヌが造った天の牡牛を、ギルガメシュとエンキドゥは殺した。その後、神々はエンキドゥが死なねばならないと定めた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6–7粘土板"
+    },
+    {
+      "id": "fsn-gil-myth-ee",
+      "text": "マルドゥクはティアマトを倒したのち、その体を干し魚のように二つに裂き、半分を天の覆いとした。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 135–138行"
+    },
+    {
+      "id": "fsn-gil-cmp-chain",
+      "text": "神を律する鎖という設定は、神に逆らい死を定められた友エンキドゥの物語と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、筆者の読みとして示す。"
+    },
+    {
+      "id": "fsn-gil-cmp-ee",
+      "text": "エヌマ・エリシュはギルガメシュ叙事詩とは別の創世神話の題名で、天地を分ける物語の名が空間を切断する一撃に当てられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-stay-night", "gilgamesh-epic", "enuma-elish"],
+  "articleIds": []
+}

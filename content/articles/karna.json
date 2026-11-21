@@ -1,0 +1,248 @@
+{
+  "id": "karna",
+  "slug": "karna",
+  "title": "カルナとは？『Fate/Apocrypha』赤のランサーの元ネタ、黄金の鎧と施しの英雄を『マハーバーラタ』から解説",
+  "shortTitle": "カルナの元ネタ",
+  "eyecatchText": "カルナ",
+  "description": "『Fate/Apocrypha』赤のランサーの真名カルナ。太陽神の子として鎧と耳飾りをもって生まれ、インドラに鎧を差し出して槍を得た「施しの英雄」。宿敵アルジュナとの最後の戦いまで、『マハーバーラタ』の原典から解説します。",
+  "lead": "『Fate/Apocrypha』で黄金の鎧をまとう赤のランサー、カルナ。その宝具「カヴァーチャ＆クンダーラ」「ヴァサヴィ・シャクティ」「ブラフマーストラ」は、どれも『マハーバーラタ』のカルナの物語に由来します。悲運の英雄の生涯を原典からたどります。",
+  "category": "character-origins",
+  "tags": [
+    "カルナ",
+    "Fate/Apocrypha",
+    "赤のランサー",
+    "マハーバーラタ",
+    "アルジュナ",
+    "インド神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["karna", "surya", "indra", "arjuna", "krishna"],
+  "mythologyIds": ["indian"],
+  "storyIds": ["karna-armor", "death-of-karna"],
+  "workIds": ["fate-apocrypha"],
+  "characterIds": ["fate-apocrypha-red-lancer"],
+  "topicIds": ["divine-items", "heroic-quest"],
+  "sourceIds": ["work-fate-apocrypha", "mahabharata"],
+  "relatedArticleIds": ["indian-mythology-overview", "shiva", "cu-chulainn"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『Fate/Apocrypha』の赤のランサー",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『Fate/Apocrypha』の赤のランサーは、肉体と一体化したかのような黄金の鎧をまとう青年です。真名はインドの叙事詩『マハーバーラタ』の大英雄カルナ。慎ましくも誇り高く、敵であってもその技量を称えます。",
+      "claimIds": ["ka-work"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "日輪よ、具足となれ（カヴァーチャ＆クンダーラ）：最高レベルの防御力をもつ黄金の鎧",
+        "日輪よ、死に随え（ヴァサヴィ・シャクティ）：対神宝具",
+        "梵天よ、我を呪え（ブラフマーストラ・クンダーラ）：対国宝具"
+      ],
+      "claimIds": ["ka-work-np"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "鎧と耳飾りをもって生まれた子",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "カルナの母クンティーは、嫁ぐ前の娘時代に、聖仙から授かった呪文を試そうと太陽神スーリヤを呼び出し、身ごもりました。生まれた子は、耳飾りと鎧を身につけ、太陽のように輝いていました。親族の目を恐れたクンティーは子を川に流し、子は御者アディラタとその妻ラーダーに拾われて育てられます。",
+      "claimIds": ["ka-birth"]
+    },
+    {
+      "type": "paragraph",
+      "text": "のちにクンティーはパーンドゥ王に嫁ぎ、インドラを呼び出してアルジュナを授かります。カルナとアルジュナは、互いにそれと知らない異父兄弟でした。",
+      "claimIds": ["ka-arjuna"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "インドラへの施し",
+      "anchor": "armor"
+    },
+    {
+      "type": "paragraph",
+      "text": "カルナは、バラモンに乞われればどんなものでも与える、施しの英雄として知られていました。息子アルジュナを勝たせたいインドラは、それにつけ込んでカルナの鎧と耳飾りを手に入れようとします。父スーリヤは夢でこれを警告しましたが、カルナは施しの誓いを曲げませんでした。",
+      "claimIds": ["ka-warn"]
+    },
+    {
+      "type": "paragraph",
+      "text": "カルナはインドラに、鎧と耳飾りと引き換えに、必ず敵を倒す槍を求めます。インドラは「私の手にあればこの槍は敵を百人単位で倒して戻ってくるが、お前の手では一人の強大な敵を倒したのち私のもとへ戻る」と条件をつけて槍を与えました。",
+      "claimIds": ["ka-shakti"]
+    },
+    {
+      "type": "quote",
+      "text": "カルナは燃え立つ槍を受け取ると、生来の鎧を剝がしはじめた。己の体を切り裂きながら、カルナは顔をゆがめることもなかった。……そして血のしたたる鎧をヴァーサヴァに与え、耳からは耳飾りを切り取って渡した。",
+      "sourceId": "mahabharata",
+      "location": "森の巻 308節",
+      "claimIds": ["ka-peel"],
+      "translationNote": "Ganguli の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "「カルナ」の名",
+      "text": "Ganguli の英訳は、この行いによって彼が「カルナ」と呼ばれるようになったと記しています。始まりの巻でも、もとの名はヴァスシェーナで、のちにその行いからカルナと呼ばれたと語られます。",
+      "claimIds": ["ka-name"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "最後の戦い",
+      "anchor": "death"
+    },
+    {
+      "type": "paragraph",
+      "text": "クルクシェートラの大戦で、カルナはついにアルジュナと対決します。しかしその死の時が来ると、バラモンの呪いのために、師パラシュラーマから授かったブラフマーストラの使い方がカルナの記憶から失われ、大地が戦車の左の車輪を呑み込みました。",
+      "claimIds": ["ka-curse"]
+    },
+    {
+      "type": "paragraph",
+      "text": "車輪を引き上げようとするカルナは、「戦車を降りた者を討つのは卑怯だ」とアルジュナに訴えます。しかし御者クリシュナはカルナの過去の不正を挙げて退け、アルジュナはアンジャリカという矢でカルナの首を射落としました。",
+      "claimIds": ["ka-end"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との共通点",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品の三つの宝具は、いずれも原典のカルナの物語に対応しています。黄金の鎧と耳飾りは生まれながらの鎧と耳飾り、ヴァサヴィ・シャクティはインドラ（ヴァーサヴァ）から得た槍、ブラフマーストラはパラシュラーマから授かり、呪いによって失われた武器です。",
+      "claimIds": ["ka-work-np", "ka-peel", "ka-curse", "ka-cmp"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "鎧と槍を両方もつサーヴァント",
+      "text": "原典では、槍は鎧と耳飾りと引き換えに得たものなので、カルナが両方を同時に持つことはありません。作品で鎧とヴァサヴィ・シャクティがともに宝具として扱われているのは、英霊としての生涯全体を表す作品ならではの設定といえます。",
+      "claimIds": ["ka-shakti", "ka-cmp-both"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "カルナは太陽神スーリヤの子で、生まれながらに鎧と耳飾りをもっていた",
+        "インドラに乞われ、自らの体から鎧を剝がして与え、代わりに一度だけ使える槍を得た",
+        "最後の戦いでは呪いでブラフマーストラを忘れ、車輪を大地に呑まれてアルジュナに討たれた",
+        "作品の三つの宝具は、いずれも原典の物語に対応している"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ka-work",
+      "text": "赤のランサーは肉体と一体化したかのような黄金の鎧を纏う青年で、真名はマハーバーラタの大英雄カルナ。慎ましくも誇り高い性格で、敵であろうとその手練は賞賛する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "ka-work-np",
+      "text": "赤のランサーは宝具「日輪よ、具足となれ（カヴァーチャ＆クンダーラ）」「梵天よ、我を呪え（ブラフマーストラ・クンダーラ）」「日輪よ、死に随え（ヴァサヴィ・シャクティ）」を有する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "ka-birth",
+      "text": "娘時代のクンティーはスーリヤを呼び出して身ごもり、耳飾りと鎧を身につけた子を密かに産んだ。親族を恐れて子を水に流し、ラーダーの夫が拾って妻と育てた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 67節（Ganguli 英訳）"
+    },
+    {
+      "id": "ka-arjuna",
+      "text": "パーンドゥの妃となったクンティーは、インドラを呼び出してアルジュナを授かった。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 123節（Ganguli 英訳）"
+    },
+    {
+      "id": "ka-warn",
+      "text": "インドラは息子アルジュナのためにバラモンの姿でカルナの耳飾りと鎧を乞うた。スーリヤはこれを事前にカルナに警告した。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 67節、森の巻 300節（Ganguli 英訳）"
+    },
+    {
+      "id": "ka-shakti",
+      "text": "カルナは鎧と耳飾りと引き換えに必ず敵を倒す槍を求めた。インドラは、自分の手では敵を百人単位で倒して戻るが、カルナの手では一人の強大な敵を倒したのち自分のもとに戻ると告げて槍を与えた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 308節（Ganguli 英訳）"
+    },
+    {
+      "id": "ka-peel",
+      "text": "カルナは槍を受け取ると生来の鎧を剝がしはじめ、顔をゆがめることもなかった。血のしたたる鎧をヴァーサヴァに与え、耳飾りも切り取って渡した。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 308節（Ganguli 英訳）"
+    },
+    {
+      "id": "ka-name",
+      "text": "この行いのためにカルナと呼ばれるようになった。もとの名はヴァスシェーナである。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 308節、始まりの巻 67節（Ganguli 英訳）",
+      "note": "カルナ（karṇa）は「耳」を意味する語で、耳飾りを切り取った逸話と結びつけられる。"
+    },
+    {
+      "id": "ka-curse",
+      "text": "カルナの死の時が来ると、バラモンの呪いにより、バールガヴァ（パラシュラーマ）から授かったブラフマーストラが記憶から失われ、大地が戦車の左の車輪を呑み込んだ。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』カルナの巻 90節（Ganguli 英訳）"
+    },
+    {
+      "id": "ka-end",
+      "text": "カルナは車輪を引き上げるまで待てとアルジュナに訴えたが、ヴァースデーヴァ（クリシュナ）はカルナの過去の行いを挙げて退けた。アルジュナはアンジャリカという武器でカルナの首を射落とした。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』カルナの巻 90–91節（Ganguli 英訳）"
+    },
+    {
+      "id": "ka-cmp",
+      "text": "作品の三つの宝具は、原典の鎧と耳飾り、インドラの槍、ブラフマーストラに対応する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ka-cmp-both",
+      "text": "鎧と、それと引き換えに得た槍をともに宝具とするのは作品独自の設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

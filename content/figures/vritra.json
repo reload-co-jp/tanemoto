@@ -1,0 +1,17 @@
+{
+  "id": "vritra",
+  "slug": "vritra",
+  "name": "ヴリトラ",
+  "reading": "ゔりとら",
+  "originalName": "वृत्र",
+  "romanized": "Vritra",
+  "alternativeNames": [],
+  "type": "monster",
+  "roles": ["悪竜", "水をせき止める者"],
+  "mythologyIds": ["indian"],
+  "description": "『リグ・ヴェーダ』で、山に横たわって水をせき止めていた竜（蛇）。インドラに雷霆で打ち倒され、解き放たれた水は海へと流れ出した。手も足もないまま、なおインドラに挑んだと讃歌はうたう。",
+  "relatedFigureIds": ["indra"],
+  "relatedStoryIds": ["indra-slays-vritra"],
+  "articleIds": [],
+  "sourceIds": ["rigveda"]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "creation-of-enkidu",
+    "title": "エンキドゥの創造",
+    "mythologyIds": ["mesopotamian"],
+    "figureIds": ["gilgamesh", "enkidu"],
+    "summary": "ウルクの民はギルガメシュの横暴を神々に訴え、天神アヌは女神アルルに、ギルガメシュと張り合う者を造るよう命じた。アルルは手を洗って粘土をつまみ、荒野にエンキドゥを造った。獣とともに暮らしていたエンキドゥは、狩人が連れてきた娼婦と交わって獣たちに去られ、ウルクへと導かれた。",
+    "sourceIds": ["gilgamesh-epic"],
+    "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+  },
+  {
+    "id": "bull-of-heaven",
+    "title": "天の牡牛",
+    "mythologyIds": ["mesopotamian"],
+    "figureIds": ["gilgamesh", "enkidu", "ishtar"],
+    "summary": "女神イシュタルはギルガメシュに求婚するが、ギルガメシュはイシュタルがこれまでに愛した者たちの悲惨な末路を挙げて拒んだ。怒ったイシュタルは父アヌに天の牡牛を造らせてウルクに送るが、ギルガメシュとエンキドゥは牡牛を殺し、その心臓を太陽神シャマシュに捧げた。",
+    "sourceIds": ["gilgamesh-epic"],
+    "sourceLocation": "『ギルガメシュ叙事詩』第6粘土板"
+  },
+  {
+    "id": "plant-of-youth",
+    "title": "若返りの草",
+    "mythologyIds": ["mesopotamian"],
+    "figureIds": ["gilgamesh", "utnapishtim"],
+    "summary": "友の死に打ちのめされ不死を求めたギルガメシュは、大洪水を生き延びて永遠の命を得たウトナピシュティムのもとにたどり着く。帰り際に海の底にある若返りの草のありかを教えられ、足に石を結んで潜って手に入れたが、泉で水浴びをしているあいだに蛇に草を奪われた。",
+    "sourceIds": ["gilgamesh-epic"],
+    "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+  },
+  {
+    "id": "marduk-and-tiamat",
+    "title": "マルドゥクとティアマトの戦い",
+    "mythologyIds": ["mesopotamian"],
+    "figureIds": ["marduk", "tiamat"],
+    "summary": "神々に戦いを挑んだ原初の女神ティアマトに対し、若き神マルドゥクは神々の王となることを条件に戦いを引き受ける。網でティアマトを捕らえ、開いた口に悪風を吹き込んで腹を膨らませ、矢で射抜いて倒した。マルドゥクはその体を干し魚のように二つに裂き、半分で天の覆いを造った。",
+    "sourceIds": ["enuma-elish"],
+    "sourceLocation": "『エヌマ・エリシュ』第4粘土板 93–140行"
+  }
+]

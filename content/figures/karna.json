@@ -1,0 +1,17 @@
+{
+  "id": "karna",
+  "slug": "karna",
+  "name": "カルナ",
+  "reading": "かるな",
+  "originalName": "कर्ण",
+  "romanized": "Karna",
+  "alternativeNames": ["ヴァスシェーナ"],
+  "type": "hero",
+  "roles": ["弓の名手", "施しの英雄"],
+  "mythologyIds": ["indian"],
+  "description": "『マハーバーラタ』の英雄。太陽神スーリヤとクンティーの子で、生まれながらに鎧と耳飾りを身につけていたが、母に川に流され御者の夫婦に育てられた。カウラヴァ側の将として、異父弟アルジュナと宿命の対決を迎える。",
+  "relatedFigureIds": ["surya", "arjuna", "indra", "krishna"],
+  "relatedStoryIds": ["karna-armor", "death-of-karna"],
+  "articleIds": [],
+  "sourceIds": ["mahabharata"]
+}

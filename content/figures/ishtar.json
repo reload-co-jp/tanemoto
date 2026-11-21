@@ -1,0 +1,17 @@
+{
+  "id": "ishtar",
+  "slug": "ishtar",
+  "name": "イシュタル",
+  "reading": "いしゅたる",
+  "originalName": "Ištar",
+  "romanized": "Ishtar",
+  "alternativeNames": ["イナンナ"],
+  "type": "god",
+  "roles": ["愛", "戦い", "金星"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "愛と戦いの女神で、金星と結びつけられる。シュメール語ではイナンナと呼ばれる。『ギルガメシュ叙事詩』ではギルガメシュに求婚して拒まれ、怒って父アヌに天の牡牛を造らせた。",
+  "relatedFigureIds": ["gilgamesh", "enkidu"],
+  "relatedStoryIds": ["bull-of-heaven"],
+  "articleIds": [],
+  "sourceIds": ["gilgamesh-epic"]
+}

@@ -32,7 +32,10 @@
       "echidna",
       "typhon",
       "yamata-no-orochi",
-      "balor"
+      "balor",
+      "humbaba",
+      "vritra",
+      "tiamat"
     ],
     "storyIds": ["yamata-no-orochi-slaying", "second-battle-of-mag-tuired"],
     "order": 2
@@ -58,14 +61,19 @@
       "yamato-takeru",
       "cu-chulainn",
       "lugh",
-      "nuada"
+      "nuada",
+      "karna",
+      "arjuna",
+      "indra"
     ],
     "storyIds": [
       "perseus-medusa",
       "bellerophon-chimera",
       "yamata-no-orochi-slaying",
       "yamato-takeru-kusanagi",
-      "death-of-ferdiad"
+      "death-of-ferdiad",
+      "karna-armor",
+      "arjuna-and-the-kirata"
     ],
     "order": 4
   },
@@ -79,14 +87,21 @@
       "heracles",
       "bellerophon",
       "yamato-takeru",
-      "cu-chulainn"
+      "cu-chulainn",
+      "gilgamesh",
+      "enkidu",
+      "arjuna",
+      "karna"
     ],
     "storyIds": [
       "perseus-medusa",
       "heracles-cerberus",
       "bellerophon-chimera",
       "yamato-takeru-kusanagi",
-      "naming-of-cu-chulainn"
+      "naming-of-cu-chulainn",
+      "bull-of-heaven",
+      "plant-of-youth",
+      "arjuna-and-the-kirata"
     ],
     "order": 5
   },
@@ -103,9 +118,23 @@
     "id": "dragon-slaying",
     "slug": "dragon-slaying",
     "name": "大蛇・竜退治",
-    "description": "神や英雄が巨大な蛇や竜を倒す物語。日本神話のスサノオとヤマタノオロチ、北欧神話のトールとミズガルズの大蛇、エジプト神話で太陽神の船を襲う大蛇など、世界の神話に繰り返し現れるモチーフ。",
-    "figureIds": ["susanoo", "yamata-no-orochi", "thor", "heracles"],
-    "storyIds": ["yamata-no-orochi-slaying", "ragnarok"],
+    "description": "神や英雄が巨大な蛇や竜を倒す物語。日本神話のスサノオとヤマタノオロチ、北欧神話のトールとミズガルズの大蛇、インド神話のインドラとヴリトラ、メソポタミア神話のマルドゥクとティアマトなど、世界の神話に繰り返し現れるモチーフ。",
+    "figureIds": [
+      "susanoo",
+      "yamata-no-orochi",
+      "thor",
+      "heracles",
+      "indra",
+      "vritra",
+      "marduk",
+      "tiamat"
+    ],
+    "storyIds": [
+      "yamata-no-orochi-slaying",
+      "ragnarok",
+      "indra-slays-vritra",
+      "marduk-and-tiamat"
+    ],
     "order": 7
   },
   {

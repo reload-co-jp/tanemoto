@@ -1,0 +1,134 @@
+{
+  "id": "record-of-ragnarok-shiva",
+  "slug": "record-of-ragnarok-shiva",
+  "name": "シヴァ",
+  "reading": "しゔぁ",
+  "alternativeNames": ["宇宙の破壊神"],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "インド神話の破壊と創造の神で、「宇宙の破壊神」と呼ばれる。印度神界の絶対神として1117柱の頂点に立つ。武器を使わず自らの体で戦い、第5回戦で雷電為右衛門と対戦した。",
+    "claimIds": ["ror-shiva-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はヒンドゥー教の三大神の一柱、シヴァに由来する。",
+    "claimIds": ["ror-shiva-work", "ror-shiva-myth-rudra"]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "shiva",
+      "label": "三つの目",
+      "inWork": {
+        "text": "薄紫の肌に4本の腕、額と目の下とを合わせて3つの目をもつ。",
+        "claimIds": ["ror-shiva-work-look"]
+      },
+      "inMyth": {
+        "text": "『マハーバーラタ』は、三つの目をもつマハーデーヴァ（シヴァ）がルドラたちの主とされたと語る。",
+        "claimIds": ["ror-shiva-myth-eyes"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "shiva",
+      "label": "ルドラ",
+      "inWork": {
+        "text": "暴風神ルドラは幼なじみで唯一無二の相棒。シヴァと最強を決める戦いの末に自ら降参し、印度神界をシヴァに託した。",
+        "claimIds": ["ror-shiva-work-rudra"]
+      },
+      "inMyth": {
+        "text": "『マハーバーラタ』では「彼はルドラであり、シヴァである」と語られ、ルドラとシヴァは同じ神とされる。",
+        "claimIds": ["ror-shiva-myth-rudra"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "shiva",
+      "label": "踊りの王",
+      "inWork": {
+        "text": "かつては印度神界でほぼ無名の神で、将来は「踊りの王（ナラタージャ）」になろうとしていた。",
+        "claimIds": ["ror-shiva-work-dance"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典ではルドラとシヴァは同じ神の別名として扱われる。作品はこの二つの名を、幼なじみの親友という別々の神に分けて描いている。",
+      "claimIds": [
+        "ror-shiva-myth-rudra",
+        "ror-shiva-work-rudra",
+        "ror-shiva-cmp-rudra"
+      ]
+    },
+    {
+      "text": "「踊りの王」は、シヴァの代表的な姿の一つである舞踏神ナタラージャを踏まえた設定である。",
+      "claimIds": ["ror-shiva-work-dance", "ror-shiva-cmp-dance"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-shiva-work",
+      "text": "シヴァは印度神話の破壊と創造の神で「宇宙の破壊神」と呼ばれる。印度神界の絶対神で印度神1117柱の頂点。武器は使用せずに自身の身体で戦い、第5回戦で雷電為右衛門と戦った。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-shiva-work-look",
+      "text": "シヴァは薄紫の肌に4本の腕、額と目の下合わせて3つの目を持っている。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-shiva-work-rudra",
+      "text": "暴風神ルドラはシヴァの幼なじみで唯一無二の友。印度神界の絶対神を決める戦いで、ルドラは自ら降参してシヴァに印度神界を託した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-shiva-work-dance",
+      "text": "シヴァはかつて印度神界ではほぼ無名の神で、将来は「踊りの王」（ナラタージャ）になろうとしていた。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-shiva-myth-eyes",
+      "text": "三つの目をもつ永遠のマハーデーヴァが、ルドラたちの主とされた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』平和の巻 122節（Ganguli 英訳）"
+    },
+    {
+      "id": "ror-shiva-myth-rudra",
+      "text": "「彼はルドラであり、シヴァであり、アグニであり、すべてである」とマハーデーヴァが讃えられる。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』ドローナの巻 202節（Ganguli 英訳）"
+    },
+    {
+      "id": "ror-shiva-cmp-rudra",
+      "text": "原典で同一視されるルドラとシヴァを、作品は別の神として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-shiva-cmp-dance",
+      "text": "「踊りの王」は舞踏神ナタラージャとしてのシヴァを踏まえた設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "ナタラージャとしてのシヴァ像は南インドのチョーラ朝期のブロンズ像などで広く知られる。"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "mahabharata"],
+  "articleIds": []
+}

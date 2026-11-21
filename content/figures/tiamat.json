@@ -1,0 +1,17 @@
+{
+  "id": "tiamat",
+  "slug": "tiamat",
+  "name": "ティアマト",
+  "reading": "てぃあまと",
+  "originalName": "Tiāmat",
+  "romanized": "Tiamat",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["原初の海", "混沌"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "『エヌマ・エリシュ』で、淡水のアプスーとともに世界の始まりに存在した塩水の女神。夫アプスーを殺された怒りから怪物たちを生んで神々に戦いを挑んだが、マルドゥクに倒され、その体から天と地が造られた。",
+  "relatedFigureIds": ["marduk"],
+  "relatedStoryIds": ["marduk-and-tiamat"],
+  "articleIds": [],
+  "sourceIds": ["enuma-elish"]
+}

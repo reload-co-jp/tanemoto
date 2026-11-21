@@ -1,0 +1,203 @@
+{
+  "id": "indian-mythology-overview",
+  "slug": "indian-mythology-overview",
+  "title": "インド神話とは？『リグ・ヴェーダ』から『マハーバーラタ』まで、時代で変わる神々をわかりやすく解説",
+  "shortTitle": "インド神話とは？",
+  "eyecatchText": "インド神話",
+  "description": "インド神話はどんな資料から知られているのか。最古の讃歌集『リグ・ヴェーダ』の雷神インドラから、叙事詩『マハーバーラタ』の英雄カルナとアルジュナ、最高神シヴァまで、時代によって変わる神々の姿を原典にもとづいて整理します。",
+  "lead": "インドラ、シヴァ、カルナ、アルジュナ——インド神話の神々と英雄は、ゲームや漫画でも大人気です。けれども、三千年以上にわたって語り継がれてきたインド神話は、時代によって神々の顔ぶれも地位も大きく変わります。読み解くための基本を整理します。",
+  "category": "basics",
+  "tags": [
+    "インド神話",
+    "リグ・ヴェーダ",
+    "マハーバーラタ",
+    "インドラ",
+    "シヴァ",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "indra",
+    "vritra",
+    "shiva",
+    "karna",
+    "arjuna",
+    "krishna",
+    "surya"
+  ],
+  "mythologyIds": ["indian"],
+  "storyIds": [
+    "indra-slays-vritra",
+    "churning-of-the-ocean",
+    "karna-armor",
+    "death-of-karna"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["rigveda", "mahabharata"],
+  "relatedArticleIds": ["karna", "shiva", "serpent-slayers"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "層になったインド神話",
+      "anchor": "layers"
+    },
+    {
+      "type": "paragraph",
+      "text": "インド神話の資料は、成立した時代によって大きく分かれます。",
+      "claimIds": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ヴェーダ：紀元前1500年頃から編まれた讃歌と祭式の文献。最古の『リグ・ヴェーダ』はインドラやアグニ（火）への讃歌が中心",
+        "二大叙事詩：『マハーバーラタ』と『ラーマーヤナ』。英雄たちの物語の中に、多くの神話が織り込まれる",
+        "プラーナ：シヴァやヴィシュヌを中心に、宇宙の創造や神々の物語を集めた後代の文献群"
+      ],
+      "claimIds": ["io2-rv", "io2-mb"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『リグ・ヴェーダ』の英雄神インドラ",
+      "anchor": "indra"
+    },
+    {
+      "type": "paragraph",
+      "text": "『リグ・ヴェーダ』で最も多くの讃歌を捧げられているのが、雷神インドラです。有名な讃歌（1.32）は、インドラが工匠神トヴァシュトリの造った雷霆を手に、山に横たわって水をせき止めていた竜ヴリトラを打ち倒し、水を解き放った武勲をうたいます。",
+      "claimIds": ["io2-vritra"]
+    },
+    {
+      "type": "quote",
+      "text": "私はインドラの雄々しい業を語ろう。雷霆を持つ者が最初になしとげた業を。彼は竜を殺し、水を解き放ち、山の流れの水路を切り開いた。",
+      "sourceId": "rigveda",
+      "location": "1.32.1",
+      "claimIds": ["io2-vritra"],
+      "translationNote": "Griffith の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "地位を下げたインドラ",
+      "text": "ヴェーダで神々の王として讃えられたインドラは、後代の叙事詩やプラーナではシヴァやヴィシュヌより下位の神として描かれることが多くなります。日本では仏教を通じて「帝釈天」の名でも知られています。",
+      "claimIds": ["io2-indra-later"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『マハーバーラタ』——英雄たちの大戦争",
+      "anchor": "mahabharata"
+    },
+    {
+      "type": "paragraph",
+      "text": "『マハーバーラタ』は、従兄弟どうしのパーンダヴァ五兄弟とカウラヴァ百王子が王位をめぐって争い、クルクシェートラの野で大戦争に至る物語です。全18巻にわたる長大な叙事詩で、その中に神々の物語や哲学的な教えが数多く織り込まれています。",
+      "claimIds": ["io2-mb"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "アルジュナ：パーンダヴァ五兄弟の三男で、雷神インドラの子。弓の名手",
+        "カルナ：太陽神スーリヤの子で、生まれながらに鎧と耳飾りをもつ。アルジュナの異父兄だが、カウラヴァ側で戦う",
+        "クリシュナ：ヴィシュヌの化身とされ、アルジュナの戦車の御者をつとめる"
+      ],
+      "claimIds": ["io2-arjuna", "io2-karna"]
+    },
+    {
+      "type": "paragraph",
+      "text": "カルナについては[カルナとは？](/articles/karna/)で詳しく解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "シヴァとヴィシュヌ",
+      "anchor": "shiva"
+    },
+    {
+      "type": "paragraph",
+      "text": "後代のヒンドゥー教で最高神として崇拝されるのが、シヴァとヴィシュヌです。『マハーバーラタ』にも、神々とアスラが不死の霊薬を求めて大海を攪拌したとき、湧き出た猛毒をシヴァが飲み込み、喉が青くなって「ニーラカンタ（青い喉の者）」と呼ばれるようになった物語が語られています。シヴァについては[シヴァとは？](/articles/shiva/)で解説しています。",
+      "claimIds": ["io2-shiva"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "インド神話は、ヴェーダ・二大叙事詩・プラーナと時代によって層をなす",
+        "最古の『リグ・ヴェーダ』では雷神インドラが英雄神として讃えられる",
+        "『マハーバーラタ』ではカルナやアルジュナら英雄の物語に神々が深く関わる",
+        "後代にはシヴァやヴィシュヌが最高神として崇拝される"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "io2-rv",
+      "text": "『リグ・ヴェーダ』は神々への讃歌を10巻に収めたインド最古の文献である。",
+      "classification": "fact",
+      "sourceIds": ["rigveda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『リグ・ヴェーダ』（Griffith 英訳）"
+    },
+    {
+      "id": "io2-mb",
+      "text": "『マハーバーラタ』は18巻からなり、パーンダヴァとカウラヴァの王位をめぐる争いとクルクシェートラの大戦を語る。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 1–2節（Ganguli 英訳、全体の梗概）"
+    },
+    {
+      "id": "io2-vritra",
+      "text": "インドラは竜を殺して水を解き放ち、山の流れの水路を切り開いた。その雷霆はトヴァシュトリが造った。ソーマを飲んだインドラは雷霆で竜の初子を打ち殺した。",
+      "classification": "fact",
+      "sourceIds": ["rigveda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『リグ・ヴェーダ』1.32.1–3"
+    },
+    {
+      "id": "io2-indra-later",
+      "text": "後代の文献でインドラはシヴァやヴィシュヌより下位に置かれることが多い。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "io2-arjuna",
+      "text": "アルジュナはクンティーがインドラを呼び出して授かった子である。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 123節（Ganguli 英訳）"
+    },
+    {
+      "id": "io2-karna",
+      "text": "クンティーが嫁ぐ前にスーリヤを呼び出して産んだ子は、耳飾りと鎧を身につけて生まれ、川に流されてラーダーの夫に拾われた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 67節（Ganguli 英訳）"
+    },
+    {
+      "id": "io2-shiva",
+      "text": "乳海攪拌で猛毒カーラクータが現れると、シヴァはブラフマーに請われてこれを飲み込み、喉にとどめた。以来ニーラカンタ（青い喉の者）と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 18節（Ganguli 英訳）"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "shiva",
+  "slug": "shiva",
+  "name": "シヴァ",
+  "reading": "しゔぁ",
+  "originalName": "शिव",
+  "romanized": "Shiva",
+  "alternativeNames": ["マハーデーヴァ", "ルドラ", "大自在天"],
+  "type": "god",
+  "roles": ["破壊と創造", "苦行", "踊りの王"],
+  "mythologyIds": ["indian"],
+  "description": "ヒンドゥー教の三大神の一柱で、破壊と再生をつかさどる神。三つの目をもち、乳海攪拌で生じた猛毒を飲み込んで喉が青くなったことから「ニーラカンタ（青い喉の者）」とも呼ばれる。『リグ・ヴェーダ』の暴風神ルドラと同一視される。",
+  "relatedFigureIds": ["arjuna"],
+  "relatedStoryIds": ["churning-of-the-ocean", "arjuna-and-the-kirata"],
+  "articleIds": [],
+  "sourceIds": ["mahabharata", "rigveda"]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "fate-apocrypha-red-lancer",
+  "slug": "fate-apocrypha-red-lancer",
+  "name": "赤のランサー",
+  "reading": "あかのらんさー",
+  "alternativeNames": ["カルナ"],
+  "workId": "fate-apocrypha",
+  "description": {
+    "text": "赤の陣営のランサー。肉体と一体化したような黄金の鎧をまとう青年で、真名はインドの叙事詩『マハーバーラタ』の大英雄カルナ。慎ましくも誇り高く、敵であってもその技量を称える。",
+    "claimIds": ["fapo-karna-work"]
+  },
+  "nameOrigin": {
+    "text": "真名は『マハーバーラタ』の英雄カルナ。太陽神スーリヤとクンティーの子である。",
+    "claimIds": ["fapo-karna-work", "fapo-karna-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "karna",
+      "label": "生まれながらの鎧と耳飾り",
+      "inWork": {
+        "text": "黄金の鎧「日輪よ、具足となれ（カヴァーチャ＆クンダーラ）」は、最高レベルの防御力をもつ宝具とされる。",
+        "claimIds": ["fapo-karna-work-armor"]
+      },
+      "inMyth": {
+        "text": "カルナは太陽神スーリヤの子として、生まれながらに鎧と耳飾りを身につけて母の胎から出てきた。",
+        "claimIds": ["fapo-karna-myth-birth"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "indra",
+      "label": "インドラの槍",
+      "inWork": {
+        "text": "対神宝具「日輪よ、死に随え（ヴァサヴィ・シャクティ）」をもつ。",
+        "claimIds": ["fapo-karna-work-shakti"]
+      },
+      "inMyth": {
+        "text": "インドラ（ヴァーサヴァ）は、カルナの鎧と耳飾りと引き換えに、一度だけ強大な敵を必ず倒して自分のもとへ戻る槍を与えた。カルナは自らの体から鎧を切り剝がして差し出した。",
+        "claimIds": ["fapo-karna-myth-armor"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "karna",
+      "label": "ブラフマーストラ",
+      "inWork": {
+        "text": "対国宝具「梵天よ、我を呪え（ブラフマーストラ・クンダーラ）」をもつ。",
+        "claimIds": ["fapo-karna-work-brahma"]
+      },
+      "inMyth": {
+        "text": "カルナは師パラシュラーマからブラフマーストラを授かったが、バラモンの呪いにより、アルジュナとの最後の戦いでその使い方を忘れてしまった。",
+        "claimIds": ["fapo-karna-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のカルナは、鎧と耳飾りを失ったことが最後の戦いの不利につながる。作品では鎧が宝具として健在であり、原典で引き換えに得た槍「ヴァサヴィ・シャクティ」もあわせて所持している点が、作品ならではの設定といえる。",
+      "claimIds": [
+        "fapo-karna-myth-armor",
+        "fapo-karna-work-armor",
+        "fapo-karna-work-shakti",
+        "fapo-karna-cmp-armor"
+      ]
+    },
+    {
+      "text": "作品の宝具名「梵天よ、我を呪え」は、原典でカルナがバラモンの呪いのためにブラフマーストラを使えなくなったという結末を思わせる。",
+      "claimIds": [
+        "fapo-karna-work-brahma",
+        "fapo-karna-myth-death",
+        "fapo-karna-cmp-curse"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fapo-karna-work",
+      "text": "赤のランサーは肉体と一体化したかのような黄金の鎧を纏う青年で、真名はインドの叙事詩「マハーバーラタ」に登場する不死身の大英雄カルナ。慎ましくも誇り高い性格で、敵であろうとその手練は賞賛する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-karna-work-armor",
+      "text": "黄金の鎧「日輪よ、具足となれ（カヴァーチャ＆クンダーラ）」は最高レベルの防御力を持つとされる宝具。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-karna-work-shakti",
+      "text": "赤のランサーは対神宝具「日輪よ、死に随え（ヴァサヴィ・シャクティ）」を有する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-karna-work-brahma",
+      "text": "赤のランサーは対国宝具「梵天よ、我を呪え（ブラフマーストラ・クンダーラ）」を有する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-karna-myth-birth",
+      "text": "クンティーが太陽神スーリヤを呼び出して身ごもった子は、耳飾りと鎧を身につけて生まれた。クンティーは親族を恐れて子を水に流し、子はラーダーの夫に拾われて育てられた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 67節（Ganguli 英訳）"
+    },
+    {
+      "id": "fapo-karna-myth-armor",
+      "text": "カルナはヴァーサヴァ（インドラ）に、鎧と耳飾りと引き換えに必ず敵を倒す槍を求めた。インドラは、カルナの手では一人の強大な敵を倒したのち自分のもとへ戻る槍を与えた。カルナは顔色一つ変えずに体から鎧を剝がし、耳飾りを切り取ってインドラに与えた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 308節（Ganguli 英訳）"
+    },
+    {
+      "id": "fapo-karna-myth-death",
+      "text": "カルナの死の時が来ると、バラモンの呪いにより、パラシュラーマから授かったブラフマーストラはカルナの記憶から失われ、大地が戦車の左の車輪を呑み込んだ。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』カルナの巻 90節（Ganguli 英訳）"
+    },
+    {
+      "id": "fapo-karna-cmp-armor",
+      "text": "鎧と、それと引き換えに得たはずの槍をともに所持している点は作品独自の設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fapo-karna-cmp-curse",
+      "text": "宝具名「梵天よ、我を呪え」は、呪いでブラフマーストラを使えなくなった原典の結末を思わせる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-fate-apocrypha", "mahabharata"],
+  "articleIds": []
+}
