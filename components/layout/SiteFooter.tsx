@@ -12,8 +12,8 @@ const styles = css`
     font-size: 0.875rem;
     color: ${color.text};
     background:
-      ${pattern.grid("rgba(255, 157, 192, 0.22)", 22)},
-      linear-gradient(180deg, #ffe4ee, ${color.mintPale});
+      ${pattern.grid("rgba(124, 141, 103, 0.16)", 22)},
+      linear-gradient(180deg, #f9e0c2, ${color.mintPale});
     border-top: 2px solid ${color.line};
   }
   .t-footer::before {
@@ -25,7 +25,7 @@ const styles = css`
     height: 16px;
     background: radial-gradient(
         circle at 14px 16px,
-        #ffe4ee 12px,
+        #f9e0c2 12px,
         ${color.line} 12px 14px,
         transparent 14.5px
       )

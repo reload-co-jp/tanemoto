@@ -24,7 +24,7 @@ const styles = css`
   .t-marquee {
     overflow: hidden;
     white-space: nowrap;
-    background: ${pattern.stripe("#ff8db5", "#ffa3c4", 7)};
+    background: ${pattern.stripe("#324b4a", "#3e5a58", 7)};
     color: #fff;
     font-family: ${font.pop};
     font-size: 0.78rem;
@@ -35,7 +35,7 @@ const styles = css`
   .t-marquee__track {
     display: inline-block;
     animation: t-marquee 40s linear infinite;
-    text-shadow: 0 1px 0 rgba(207, 47, 106, 0.35);
+    text-shadow: 0 1px 0 rgba(31, 49, 48, 0.45);
   }
   @keyframes t-marquee {
     from {
@@ -99,8 +99,8 @@ const styles = css`
     font-size: 0.85rem;
     border-radius: 999px;
     padding: 6px 16px;
-    box-shadow: 0 3px 0 #3fb4ba;
-    text-shadow: 0 1px 0 rgba(11, 122, 132, 0.4);
+    box-shadow: 0 3px 0 #5e6e4b;
+    text-shadow: 0 1px 0 rgba(31, 49, 48, 0.35);
     transition: transform 0.15s;
   }
   .t-header__search:hover {
@@ -131,12 +131,12 @@ const styles = css`
     font-size: 0.85rem;
     white-space: nowrap;
     border-radius: 8px;
-    box-shadow: 0 3px 0 #e85a8c;
+    box-shadow: 0 3px 0 #1f3130;
     transition: transform 0.15s;
   }
   .t-nav__item:nth-child(even) .t-nav__link {
     background: ${color.mint};
-    box-shadow: 0 3px 0 #3fb4ba;
+    box-shadow: 0 3px 0 #5e6e4b;
   }
   .t-nav__link:hover {
     color: #fff;

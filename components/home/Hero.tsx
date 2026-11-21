@@ -12,8 +12,8 @@ const styles = css`
       ${pattern.grid("rgba(255, 255, 255, 0.55)", 22)},
       linear-gradient(
         160deg,
-        #ffd9e7 0%,
-        #ffeaf2 40%,
+        #f9e0c2 0%,
+        #fbf0dc 40%,
         ${color.mintPale} 75%,
         ${color.yellowPale} 100%
       );
@@ -168,10 +168,10 @@ const styles = css`
     border-top: 2px solid ${color.line};
     background: linear-gradient(
       90deg,
-      #ffd0e1,
+      #f9e0c2,
       ${color.mintPale},
       ${color.yellowPale},
-      #ffd0e1
+      #f9e0c2
     );
     font-family: ${font.pop};
     font-size: 1.15rem;

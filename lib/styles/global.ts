@@ -30,7 +30,7 @@ export const winCss = (sel: string) => css`
     right: 0;
     height: 28px;
     padding: 0 76px 0 12px;
-    background: linear-gradient(180deg, #ffeef4, ${color.accentPale});
+    background: linear-gradient(180deg, #fbf3e4, ${color.accentPale});
     border-bottom: 2px solid ${color.line};
     font-family: ${font.pop};
     font-size: 0.78rem;
@@ -86,10 +86,10 @@ export const globalCss = css`
       ${pattern.grid()},
       linear-gradient(
         180deg,
-        #ffeaf2 0%,
+        #fbf3e4 0%,
         ${color.mintPale} 38%,
         ${color.yellowPale} 72%,
-        #ffe6ea 100%
+        #f9e0c2 100%
       );
     background-attachment: fixed;
     color: ${color.text};
@@ -207,7 +207,7 @@ export const globalCss = css`
   .t-page-header {
     margin-bottom: 36px;
     padding: 50px 22px 24px;
-    background: ${pattern.grid("rgba(99, 216, 221, 0.16)", 20)}, ${color.paper};
+    background: ${pattern.grid("rgba(124, 141, 103, 0.14)", 20)}, ${color.paper};
   }
   @media ${bp.md} {
     .t-page-header {
