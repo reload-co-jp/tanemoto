@@ -2,6 +2,7 @@ import { ReactNode } from "react"
 import { css, Style } from "@/lib/styles/css"
 import { color, font, radius, shadow } from "@/lib/styles/theme"
 import { Link } from "./Link"
+import { Mascot, MascotName } from "./Mascot"
 
 export const PageHeader = ({
   eyebrow,
@@ -32,6 +33,7 @@ export const Section = ({
   children,
   id,
   as: Heading = "h2",
+  mascot,
 }: {
   title: string
   en?: string
@@ -39,24 +41,31 @@ export const Section = ({
   children: ReactNode
   id?: string
   as?: "h2" | "h3"
+  /** 見出しの横に添えるマスコットのイラスト */
+  mascot?: MascotName
 }) => (
   <section
     className="t-section"
     aria-labelledby={id ? `${id}-title` : undefined}
   >
     <div className="t-section__head">
-      <div>
-        {en && (
-          <p className="t-section__en" aria-hidden="true">
-            {en}
-          </p>
+      <div className={mascot ? "t-section__heading" : undefined}>
+        {mascot && (
+          <Mascot name={mascot} height={76} className="t-section__mascot" />
         )}
-        <Heading
-          className={`t-section__title${en ? "" : " t-section__title--solo"}`}
-          id={id ? `${id}-title` : undefined}
-        >
-          {title}
-        </Heading>
+        <div>
+          {en && (
+            <p className="t-section__en" aria-hidden="true">
+              {en}
+            </p>
+          )}
+          <Heading
+            className={`t-section__title${en ? "" : " t-section__title--solo"}`}
+            id={id ? `${id}-title` : undefined}
+          >
+            {title}
+          </Heading>
+        </div>
       </div>
       {more && (
         <Link href={more.href} className="t-section__more">

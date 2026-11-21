@@ -207,7 +207,8 @@ export const globalCss = css`
   .t-page-header {
     margin-bottom: 36px;
     padding: 50px 22px 24px;
-    background: ${pattern.grid("rgba(124, 141, 103, 0.14)", 20)}, ${color.paper};
+    background:
+      ${pattern.grid("rgba(124, 141, 103, 0.14)", 20)}, ${color.paper};
   }
   @media ${bp.md} {
     .t-page-header {
@@ -262,6 +263,27 @@ export const globalCss = css`
     gap: 12px;
     flex-wrap: wrap;
     margin-bottom: 22px;
+  }
+  .t-section__heading {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .t-section__mascot {
+    flex: none;
+    width: auto;
+    height: 64px;
+    margin-bottom: -4px;
+    transform-origin: 50% 100%;
+    transition: transform 0.2s;
+  }
+  .t-section:hover .t-section__mascot {
+    transform: rotate(-4deg) translateY(-2px);
+  }
+  @media ${bp.md} {
+    .t-section__mascot {
+      height: 84px;
+    }
   }
   .t-section__en {
     font-family: ${font.pop};

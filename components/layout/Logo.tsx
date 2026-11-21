@@ -2,7 +2,7 @@ import { color, font } from "@/lib/styles/theme"
 import { assetPath } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 
-/** マスコット（フェレットの案内人）の顔をあしらったシンボル */
+/** マスコット（フェレットの旅人）の顔をあしらったシンボル */
 export const LogoMark = ({ size = 40 }: { size?: number }) => (
   <img
     className="t-logo__mark"
