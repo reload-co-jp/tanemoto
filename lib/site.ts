@@ -4,7 +4,7 @@
  *   NEXT_PUBLIC_SITE_URL       公開URL（末尾スラッシュなし。basePath を含む）
  *   NEXT_PUBLIC_BASE_PATH      basePath（サブパスで公開する場合のみ）
  *   NEXT_PUBLIC_GA_ID          GA4 測定ID（G-XXXX）。未設定なら計測タグを出力しない
- *   NEXT_PUBLIC_ADSENSE_CLIENT AdSense クライアントID（ca-pub-XXXX）。未設定なら広告を出力しない
+ *   NEXT_PUBLIC_ADSENSE_CLIENT AdSense クライアントID（ca-pub-XXXX）。未設定なら既定 ID を使う
  *   NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE / NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR 広告ユニットID
  *   NEXT_PUBLIC_GSC_VERIFICATION Google Search Console の所有権確認トークン
  */
@@ -24,7 +24,8 @@ export const site = {
   },
   defaultOgImage: "/og-default.png",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "G-5N5WF76HTW",
-  adsenseClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "",
+  adsenseClient:
+    process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-6542845006087970",
   /** AdSense 広告ユニットのスロットID */
   adSlots: {
     articleBottom: process.env.NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE ?? "",
