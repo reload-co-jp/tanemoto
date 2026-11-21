@@ -244,7 +244,13 @@ const Page = async ({ params }: Props) => {
   return (
     <article>
       <Style id="article">{styles}</Style>
-      <JsonLd data={articleJsonLd(article, visual.image?.src)} />
+      <JsonLd
+        data={articleJsonLd(
+          article,
+          visual.image?.src,
+          getFiguresByIds(article.figureIds)
+        )}
+      />
       <Breadcrumbs
         items={[
           { name: "記事一覧", href: paths.articles() },

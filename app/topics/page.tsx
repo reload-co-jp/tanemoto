@@ -7,7 +7,7 @@ import { paths } from "@/lib/site"
 export const metadata = buildMetadata({
   title: "テーマから探す",
   description:
-    "冥界、怪物、石化、英雄の冒険など、神話に繰り返し現れるテーマから記事を探せます。",
+    "冥界、怪物、竜退治、禁忌、天地創造、英雄の冒険など、世界の神話に繰り返し現れるテーマから記事や人物を横断して探せます。",
   path: paths.topics(),
 })
 

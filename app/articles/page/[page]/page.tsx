@@ -21,6 +21,13 @@ export const generateMetadata = async ({ params }: Props) => {
   const { page } = await params
   return buildMetadata({
     title: `記事一覧（${page}ページ目）`,
+    description: `トモタネの記事一覧（${page}ページ目）。${paginate(
+      getArticles(),
+      Number(page)
+    )
+      .items.slice(0, 3)
+      .map((a) => a.title.split(/[？｜]/)[0])
+      .join("、")}など、神話・伝承の解説記事を掲載しています。`.slice(0, 120),
     path: paths.articlesPage(Number(page)),
   })
 }

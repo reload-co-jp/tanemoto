@@ -64,6 +64,7 @@ export const paths = {
   topics: () => "/topics/",
   topic: (slug: string) => `/topics/${slug}/`,
   search: () => "/search/",
+  feed: () => "/feed.xml",
   about: () => "/about/",
   editorialPolicy: () => "/about/editorial-policy/",
   references: () => "/about/references/",

@@ -7,7 +7,12 @@ import { Breadcrumbs } from "@/components/common/Breadcrumbs"
 import { Link } from "@/components/common/Link"
 import { PageHeader, Section, TileList } from "@/components/common/PageParts"
 import { StoryList } from "@/components/common/StoryList"
-import { motifAspects, figureTypes } from "@/lib/content/schema"
+import {
+  motifAspects,
+  figureTypes,
+  type Character,
+  type Work,
+} from "@/lib/content/schema"
 import {
   getArticlesForCharacter,
   getCharacter,
@@ -23,7 +28,8 @@ import {
 } from "@/lib/content/repository"
 import { stripInline } from "@/lib/content/text"
 import { characterTile } from "@/lib/characterTile"
-import { buildMetadata } from "@/lib/seo"
+import { JsonLd } from "@/components/seo/JsonLd"
+import { buildMetadata, characterJsonLd } from "@/lib/seo"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { winCss } from "@/lib/styles/global"
@@ -43,16 +49,19 @@ export const generateMetadata = async ({ params }: Props) => {
   const character = getCharacter((await params).slug)
   if (!character) return {}
   const work = getWorksByIds([character.workId])[0]
-  const labels = character.motifs.map((m) => m.label).join("・")
   return buildMetadata({
     title: `${character.name}（${work ? `${work.title}` : "作品"}）の元ネタは？${character.motifs[0].label}の神話`,
-    description:
-      `『${work?.title ?? ""}』の${character.name}の元ネタ・モチーフ（${labels}）を、名前の由来から原典の神話まで解説。作品の設定と神話の内容を区別して紹介します。`.slice(
-        0,
-        160
-      ),
+    description: characterDescription(character, work),
     path: paths.character(character.slug),
   })
+}
+
+const characterDescription = (character: Character, work?: Work) => {
+  const labels = character.motifs.map((m) => m.label).join("・")
+  return `『${work?.title ?? ""}』の${character.name}の元ネタ・モチーフ（${labels}）を、名前の由来から原典の神話まで解説。作品の設定と神話の内容を区別して紹介します。`.slice(
+    0,
+    160
+  )
 }
 
 const styles = css`
@@ -146,6 +155,14 @@ const Page = async ({ params }: Props) => {
   return (
     <>
       <Style id="character">{styles}</Style>
+      <JsonLd
+        data={characterJsonLd(
+          character,
+          work,
+          motifFigures,
+          characterDescription(character, work)
+        )}
+      />
       <Breadcrumbs
         items={[
           { name: "キャラクター", href: paths.characters() },

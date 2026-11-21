@@ -19,7 +19,15 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!category) return {}
   return buildMetadata({
     title: `${category.name}の記事一覧`,
-    description: category.description,
+    description: `${category.description}${getArticlesByCategory(category.id)
+      .slice(0, 3)
+      .map((a) => a.title.split(/[？｜]/)[0])
+      .join(
+        "、"
+      )}など${getArticlesByCategory(category.id).length}本の記事を掲載。`.slice(
+      0,
+      120
+    ),
     path: paths.category(category.slug),
     noindex: getArticlesByCategory(category.id).length === 0,
   })

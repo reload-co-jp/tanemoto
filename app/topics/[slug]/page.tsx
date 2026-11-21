@@ -16,8 +16,9 @@ import {
   getTopics,
 } from "@/lib/content/repository"
 import { figureTile } from "@/lib/figureTile"
-import { buildMetadata } from "@/lib/seo"
-import { paths } from "@/lib/site"
+import { JsonLd } from "@/components/seo/JsonLd"
+import { buildMetadata, webPageJsonLd } from "@/lib/seo"
+import { absoluteUrl, paths } from "@/lib/site"
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -44,6 +45,19 @@ const Page = async ({ params }: Props) => {
   const stories = getStoriesForTopic(topic)
   return (
     <>
+      <JsonLd
+        data={webPageJsonLd({
+          name: `「${topic.name}」をテーマにした神話・伝承`,
+          description: topic.description,
+          path: paths.topic(topic.slug),
+          type: "CollectionPage",
+          mentions: articles.map((a) => ({
+            "@type": "Article",
+            headline: a.title,
+            url: absoluteUrl(paths.article(a.slug)),
+          })),
+        })}
+      />
       <Breadcrumbs
         items={[
           { name: "テーマ", href: paths.topics() },

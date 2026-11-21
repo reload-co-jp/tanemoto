@@ -16,7 +16,8 @@ import {
   getWork,
   getWorks,
 } from "@/lib/content/repository"
-import { buildMetadata } from "@/lib/seo"
+import { JsonLd } from "@/components/seo/JsonLd"
+import { buildMetadata, workJsonLd } from "@/lib/seo"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { bp, color } from "@/lib/styles/theme"
@@ -84,6 +85,7 @@ const Page = async ({ params }: Props) => {
   return (
     <>
       <Style id="work">{styles}</Style>
+      <JsonLd data={workJsonLd(work, characters)} />
       <Breadcrumbs
         items={[
           { name: "作品", href: paths.works() },

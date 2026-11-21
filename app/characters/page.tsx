@@ -9,7 +9,7 @@ import { paths } from "@/lib/site"
 export const metadata = buildMetadata({
   title: "キャラクターから元ネタを探す",
   description:
-    "アニメ・漫画のキャラクター名から、名前の由来やモチーフになった神話・伝承の元ネタを探せます。",
+    "アニメ・漫画・ゲームのキャラクター名から、名前の由来やモチーフになった神話・伝承の元ネタを探せます。作品の設定と原典の内容を区別して解説します。",
   path: paths.characters(),
 })
 

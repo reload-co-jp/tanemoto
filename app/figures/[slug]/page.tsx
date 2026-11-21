@@ -26,7 +26,8 @@ import {
 } from "@/lib/content/repository"
 import { figureTile } from "@/lib/figureTile"
 import { characterTile } from "@/lib/characterTile"
-import { buildMetadata } from "@/lib/seo"
+import { JsonLd } from "@/components/seo/JsonLd"
+import { buildMetadata, figureJsonLd, metaDescription } from "@/lib/seo"
 import { paths } from "@/lib/site"
 
 type Props = { params: Promise<{ slug: string }> }
@@ -41,7 +42,7 @@ export const generateMetadata = async ({ params }: Props) => {
   const mythology = getMythologiesByIds(figure.mythologyIds)[0]
   return buildMetadata({
     title: `${figure.name}（${mythology?.name ?? "神話"}）とは`,
-    description: figure.description,
+    description: metaDescription(figure.description),
     path: paths.figure(figure.slug),
     // 関連記事がまだない人物ページは薄いコンテンツになりやすいため noindex
     noindex:
@@ -61,6 +62,7 @@ const Page = async ({ params }: Props) => {
 
   return (
     <>
+      <JsonLd data={figureJsonLd(figure, mythologies)} />
       <Breadcrumbs
         items={[
           { name: "人物・怪物", href: paths.figures() },

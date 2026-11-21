@@ -14,7 +14,8 @@ import {
   getStoriesForMythology,
 } from "@/lib/content/repository"
 import { figureTile } from "@/lib/figureTile"
-import { buildMetadata } from "@/lib/seo"
+import { JsonLd } from "@/components/seo/JsonLd"
+import { buildMetadata, metaDescription, mythologyJsonLd } from "@/lib/seo"
 import { paths } from "@/lib/site"
 
 type Props = { params: Promise<{ slug: string }> }
@@ -30,7 +31,7 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!myth) return {}
   return buildMetadata({
     title: `${myth.name}とは？主な神々・物語と解説記事`,
-    description: myth.description.slice(0, 120),
+    description: metaDescription(myth.description),
     path: paths.mythology(myth.slug),
   })
 }
@@ -43,6 +44,7 @@ const Page = async ({ params }: Props) => {
   const stories = getStoriesForMythology(myth)
   return (
     <>
+      <JsonLd data={mythologyJsonLd(myth, figures)} />
       <Breadcrumbs
         items={[
           { name: "神話", href: paths.mythologies() },
