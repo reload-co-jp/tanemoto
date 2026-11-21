@@ -1,0 +1,266 @@
+{
+  "id": "maui",
+  "slug": "maui",
+  "title": "マウイとは？『モアナと伝説の海』の半神の元ネタ、島を釣り上げ太陽を捕らえた英雄を解説",
+  "shortTitle": "マウイの元ネタ",
+  "eyecatchText": "マウイ",
+  "description": "『モアナと伝説の海』の半神マウイ。島を釣り上げ、太陽を捕らえ、人間に火をもたらしたという彼の「偉業」は、ポリネシアの伝承そのままです。マオリの伝承を記録したグレイ『ポリネシア神話』から、トリックスターの英雄の物語をたどります。",
+  "lead": "ディズニー映画『モアナと伝説の海』で、自信たっぷりに自分の偉業を歌い上げる半神マウイ。島を引き揚げ、昼を長くし、火を人間に与えた——その一つひとつに、ポリネシアの島々で語り継がれてきた物語があります。",
+  "category": "character-origins",
+  "tags": [
+    "マウイ",
+    "モアナと伝説の海",
+    "ポリネシア神話",
+    "マオリ",
+    "ディズニー"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["maui", "mahuika", "hine-nui-te-po"],
+  "mythologyIds": ["polynesian"],
+  "storyIds": [
+    "maui-snares-the-sun",
+    "maui-fishes-up-the-land",
+    "maui-and-mahuika",
+    "death-of-maui"
+  ],
+  "workIds": ["moana"],
+  "characterIds": ["moana-maui"],
+  "topicIds": ["heroic-quest", "divine-items"],
+  "sourceIds": ["work-moana", "grey-polynesian-mythology"],
+  "relatedArticleIds": ["polynesian-mythology-overview", "disney-hercules"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『モアナと伝説の海』のマウイ",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『モアナと伝説の海』のマウイは、風と海を司る半神です。神から与えられた釣り針で、どんな生き物にも姿を変えることができます。かつては英雄と称えられましたが、女神テ・フィティの「心」を盗んだことで釣り針を失い、千年のあいだ島に閉じ込められていました。",
+      "claimIds": ["ma-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "モアナと出会ったマウイは、自分は人間のために島を引き揚げ、昼を長くし、火を与えてきたのだと語ります。そうした偉業は、彼の体にタトゥーとして刻まれています。",
+      "claimIds": ["ma-work-deeds"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "太陽を捕らえる",
+      "anchor": "sun"
+    },
+    {
+      "type": "paragraph",
+      "text": "ニュージーランドのマオリの伝承によれば、マウイは日が昇るとすぐに沈んでしまうのを不満に思い、人々が働ける長い昼を得るために、太陽を罠にかけようと兄弟たちに持ちかけました。兄弟たちは亜麻で縄を編み、東の果ての太陽が昇る場所に潜んで待ちます。",
+      "claimIds": ["ma-sun-plan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "太陽が頭と前足を罠に通したところで縄が引き絞られ、マウイは祖先ムリランガウェヌアの顎の骨を手に飛び出して、太陽を激しく打ちすえました。傷ついた太陽は、それからゆっくりと空を進むようになったといいます。",
+      "claimIds": ["ma-sun-strike"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "陸地を釣り上げる",
+      "anchor": "fishing"
+    },
+    {
+      "type": "paragraph",
+      "text": "ある日、マウイは兄弟の舟の底にこっそり隠れて沖へ出ると、陸地が見えなくなるまで漕がせました。そして取り出したのが、ムリランガウェヌアの顎の骨を先につけた魔法の釣り針です。",
+      "claimIds": ["ma-hook"]
+    },
+    {
+      "type": "quote",
+      "text": "懐から釣り針を取り出すと、その窪みにはめた美しい真珠貝がきらりと光った。釣り針には彫刻が施され、犬の尾から抜いた毛の房で飾られていた。",
+      "sourceId": "grey-polynesian-mythology",
+      "location": "pp.41–42",
+      "claimIds": ["ma-hook"],
+      "translationNote": "原文をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "兄弟が餌を分けてくれなかったので、マウイは自分の鼻を拳で打ち、流れ出た血を餌にして釣り針を沈めました。針は海の底の家に引っかかり、呪文とともに巨大な「マウイの魚」、すなわち大地の一部が浮かび上がります。マウイが神々への捧げ物をしに行っているあいだに兄弟たちが魚を切り刻んだため、大地は山や谷のある凸凹な姿になったと語られます。",
+      "claimIds": ["ma-fish", "ma-rough"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "火を手に入れる",
+      "anchor": "fire"
+    },
+    {
+      "type": "paragraph",
+      "text": "マウイは夜のうちに村じゅうの火を消すと、祖先である火の女神マフイカのもとへ火をもらいに行きました。女神が爪を抜くと、そこから火が流れ出ます。ところがマウイは、少し離れては火を消し、また戻って火をねだりました。",
+      "claimIds": ["ma-fire"]
+    },
+    {
+      "type": "paragraph",
+      "text": "手足の爪をほとんど抜き取られた女神は、ついにだまされていると気づき、最後の爪を地面に叩きつけます。あたり一面が炎に包まれ、マウイは鷲に姿を変えて逃げましたが、炎は追ってきます。マウイが祖先に雨を願うと豪雨が降り、火は消えました。女神は消える前に火種をカイコマコなどの木に投げ込んで残したので、人々は今もその木で火をおこすのだといいます。",
+      "claimIds": ["ma-fire-end"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "死に挑む",
+      "anchor": "death"
+    },
+    {
+      "type": "paragraph",
+      "text": "マウイの最後の冒険は、死そのものへの挑戦でした。人が死なずにすむよう、マウイは死の女神ヒネ・ヌイ・テ・ポの体内を通り抜けようとします。小鳥たちに笑わないよう言い含めて、眠る女神の中に入り込みましたが、小鳥ティワカワカがこらえきれずに笑い出しました。目を覚ました女神はマウイを殺し、こうして人は死を免れなくなったと語られます。",
+      "claimIds": ["ma-death"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品と原典の違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品のマウイが誇る偉業——島の引き揚げ、長い昼、人間への火——は、いずれもマオリの伝承のマウイの物語と重なります。神から与えられたという釣り針も、原典では祖先の顎の骨から作られた魔法の道具でした。マウイが鳥に変身できることも、伝承と共通しています。",
+      "claimIds": [
+        "ma-work-deeds",
+        "ma-fish",
+        "ma-sun-strike",
+        "ma-fire",
+        "ma-birds",
+        "ma-cmp-deeds"
+      ]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "トリックスターの英雄",
+      "text": "原典のマウイは、火を得るために村の火を消し、女神をだまして爪を抜かせるなど、いたずら好きのトリックスターとしての面が強い英雄です。作品の自信家で調子のよいマウイの性格は、こうした伝承のマウイ像を明るく描き直したものと読むことができるでしょう。そして、人間のために死の限界を越えようとした原典のマウイの最期は、命の限られた人間のために「心」を盗んだという作品のマウイの動機とも響き合います。",
+      "claimIds": ["ma-cmp-trickster"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『モアナと伝説の海』のマウイは、ポリネシアの伝承の半神マウイをもとにしたキャラクター",
+        "マオリの伝承では、マウイは太陽を罠にかけて打ちすえ、昼を長くした",
+        "祖先の顎の骨の釣り針で、海から大地を釣り上げた",
+        "火の女神マフイカから火を手に入れ、最後は死の女神に挑んで命を落とした"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ma-work",
+      "text": "マウイは風と海を司る半神で、神に与えられた釣り針でどんな生き物にも姿を変えられる。テ・フィティの心を盗んだことで釣り針を失い、千年間島に幽閉されていた。",
+      "classification": "creative",
+      "sourceIds": ["work-moana"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「モアナと伝説の海」の記述で確認。"
+    },
+    {
+      "id": "ma-work-deeds",
+      "text": "マウイは人間のために島を引き揚げ、昼を伸ばし、火を与えたと語り、その偉業はタトゥーとして体に現れている。",
+      "classification": "creative",
+      "sourceIds": ["work-moana"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「モアナと伝説の海」の記述で確認。"
+    },
+    {
+      "id": "ma-sun-plan",
+      "text": "マウイは日が短すぎると考え、人々が働ける長い昼を得るため太陽を罠にかけようと兄弟を誘った。兄弟は亜麻の縄を編み、東の果ての太陽が昇る場所に潜んだ。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.35–37"
+    },
+    {
+      "id": "ma-sun-strike",
+      "text": "太陽が罠にかかると、マウイはムリランガウェヌアの顎の骨で太陽を打ちすえた。弱った太陽はゆっくりと進むようになった。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.37–38"
+    },
+    {
+      "id": "ma-hook",
+      "text": "マウイの釣り針はムリランガウェヌアの顎の骨を先につけた魔法の釣り針で、真珠貝が光り、彫刻が施され、犬の尾の毛の房で飾られていた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.39, 41–42"
+    },
+    {
+      "id": "ma-fish",
+      "text": "マウイは鼻を打って流れた血を餌にし、釣り針は海の底の家に引っかかった。呪文とともに、大地の一部であるマウイの魚が浮かび上がった。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.42–43"
+    },
+    {
+      "id": "ma-rough",
+      "text": "マウイの留守中に兄弟が魚を切り刻んだため、大地は山や谷のある凸凹な姿になった。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.44–45"
+    },
+    {
+      "id": "ma-fire",
+      "text": "マウイは村の火をすべて消し、火の女神マフイカのもとへ行った。女神は爪を抜いて火を与えたが、マウイは火を消しては何度もねだった。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.45–48"
+    },
+    {
+      "id": "ma-fire-end",
+      "text": "女神は最後の爪を叩きつけてあたりを燃え上がらせた。マウイは鷲に変身して逃げ、祖先に願って雨を降らせた。女神は火種をカイコマコなどの木に投げ込んで残した。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.48–49"
+    },
+    {
+      "id": "ma-death",
+      "text": "マウイは死の女神ヒネ・ヌイ・テ・ポの体内を通り抜けようとしたが、小鳥ティワカワカの笑い声で女神が目を覚まし、殺された。これにより人は死ぬようになった。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.54–58"
+    },
+    {
+      "id": "ma-birds",
+      "text": "マウイは森のあらゆる鳥に姿を変えたと語る。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.35–36"
+    },
+    {
+      "id": "ma-cmp-deeds",
+      "text": "作品のマウイの偉業や釣り針、変身能力は、マオリの伝承のマウイと共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ma-cmp-trickster",
+      "text": "作品の自信家のマウイは伝承のトリックスター像を明るく描き直したものと読め、その動機は死に挑んだ原典のマウイの最期と響き合う。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "制作側の意図は確認できないため、筆者の読みとして示す。"
+    }
+  ]
+}

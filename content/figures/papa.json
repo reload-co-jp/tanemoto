@@ -1,0 +1,20 @@
+{
+  "id": "papa",
+  "slug": "papa",
+  "name": "パパ",
+  "reading": "ぱぱ",
+  "originalName": "Papa-tu-a-nuku",
+  "romanized": "Papatūānuku",
+  "alternativeNames": ["パパトゥアヌク"],
+  "type": "god",
+  "roles": ["大地", "母"],
+  "mythologyIds": ["polynesian"],
+  "description": "マオリの伝承で大地そのものとされる原初の母。天の父ランギと抱き合っていたが、子のタネによって引き離された。子どもたちは大地を「育ての母」として身近にとどめることを選んだ。",
+  "relatedFigureIds": ["rangi", "tane"],
+  "relatedStoryIds": [
+    "separation-of-rangi-and-papa",
+    "maui-fishes-up-the-land"
+  ],
+  "articleIds": [],
+  "sourceIds": ["grey-polynesian-mythology"]
+}

@@ -11,14 +11,16 @@
       "izanami",
       "osiris",
       "anubis",
-      "lemminkainen"
+      "lemminkainen",
+      "hine-nui-te-po"
     ],
     "storyIds": [
       "abduction-of-persephone",
       "heracles-cerberus",
       "izanagi-yomi",
       "weighing-of-the-heart",
-      "lemminkainen-in-tuonela"
+      "lemminkainen-in-tuonela",
+      "death-of-maui"
     ],
     "order": 1
   },
@@ -38,9 +40,16 @@
       "humbaba",
       "vritra",
       "tiamat",
-      "nine-tailed-fox"
+      "nine-tailed-fox",
+      "baba-yaga",
+      "koschei"
     ],
-    "storyIds": ["yamata-no-orochi-slaying", "second-battle-of-mag-tuired"],
+    "storyIds": [
+      "yamata-no-orochi-slaying",
+      "second-battle-of-mag-tuired",
+      "vasilisa-and-baba-yaga",
+      "death-of-koschei"
+    ],
     "order": 2
   },
   {
@@ -71,7 +80,8 @@
       "sun-wukong",
       "nezha",
       "vainamoinen",
-      "ilmarinen"
+      "ilmarinen",
+      "maui"
     ],
     "storyIds": [
       "perseus-medusa",
@@ -84,7 +94,8 @@
       "havoc-in-heaven",
       "nezha-lotus-body",
       "forging-of-the-sampo",
-      "birth-of-the-kantele"
+      "birth-of-the-kantele",
+      "maui-fishes-up-the-land"
     ],
     "order": 4
   },
@@ -103,7 +114,8 @@
       "enkidu",
       "arjuna",
       "karna",
-      "hou-yi"
+      "hou-yi",
+      "maui"
     ],
     "storyIds": [
       "perseus-medusa",
@@ -114,7 +126,9 @@
       "bull-of-heaven",
       "plant-of-youth",
       "arjuna-and-the-kirata",
-      "yi-shoots-the-suns"
+      "yi-shoots-the-suns",
+      "maui-snares-the-sun",
+      "maui-and-mahuika"
     ],
     "order": 5
   },
@@ -163,16 +177,21 @@
     "id": "taboo",
     "slug": "taboo",
     "name": "禁忌（タブー）",
-    "description": "「見てはならない」「食べてはならない」といった禁を破ったり、それと知らずに禁忌を犯したりして、取り返しのつかない結果を招く物語。イザナギの黄泉国訪問や、禁忌（ゲシュ）を破ったクー・フーリンの最期、それと知らずに妹と結ばれたクッレルヴォの悲劇などがある。",
+    "description": "「見てはならない」「食べてはならない」といった禁を破ったり、それと知らずに禁忌を犯したりして、取り返しのつかない結果を招く物語。イザナギの黄泉国訪問や、禁忌（ゲシュ）を破ったクー・フーリンの最期、それと知らずに妹と結ばれたクッレルヴォの悲劇、開けてはならない納戸を開けて不死身のコシチェイを解き放ったロシア民話などがある。",
     "figureIds": ["izanagi", "izanami", "cu-chulainn", "kullervo"],
-    "storyIds": ["izanagi-yomi", "death-of-cu-chulainn", "fate-of-kullervo"],
+    "storyIds": [
+      "izanagi-yomi",
+      "death-of-cu-chulainn",
+      "fate-of-kullervo",
+      "marya-morevna"
+    ],
     "order": 8
   },
   {
     "id": "creation",
     "slug": "creation",
     "name": "天地創造",
-    "description": "世界がどのように始まったのかを語る神話。原初の女神の体から天地を造る『エヌマ・エリシュ』、卵から世界が生まれる『カレワラ』、神々の自己犠牲で太陽と月が生まれるアステカの神話など、さまざまな形がある。",
+    "description": "世界がどのように始まったのかを語る神話。原初の女神の体から天地を造る『エヌマ・エリシュ』、卵から世界が生まれる『カレワラ』、神々の自己犠牲で太陽と月が生まれるアステカの神話、抱き合う天と地を子の神が引き離すマオリの神話など、さまざまな形がある。",
     "figureIds": [
       "tiamat",
       "marduk",
@@ -181,13 +200,18 @@
       "tecuciztecatl",
       "nuwa",
       "izanagi",
-      "izanami"
+      "izanami",
+      "rangi",
+      "papa",
+      "tane"
     ],
     "storyIds": [
       "marduk-and-tiamat",
       "birth-of-vainamoinen",
       "fifth-sun",
-      "nuwa-mends-heaven"
+      "nuwa-mends-heaven",
+      "separation-of-rangi-and-papa",
+      "maui-fishes-up-the-land"
     ],
     "order": 9
   }

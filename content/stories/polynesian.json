@@ -1,0 +1,56 @@
+[
+  {
+    "id": "separation-of-rangi-and-papa",
+    "title": "天と地の分離",
+    "mythologyIds": ["polynesian"],
+    "figureIds": ["rangi", "papa", "tane"],
+    "summary": "はじめ天ランギと地パパは固く抱き合い、その間に生まれた子どもたちは暗闇の中にいた。子どもたちは父母を殺すか引き離すかを話し合い、森の神タネの「引き離して、天を遠くに、大地を育ての母として身近に」という案に、嵐の神タウィリマテア以外が賛成した。兄弟が次々に挑んで失敗したのち、タネは頭を大地につけ、足で天を押し上げて二人を引き離した。こうして光が差し込んだ。",
+    "sourceIds": ["grey-polynesian-mythology"],
+    "sourceLocation": "グレイ『ポリネシア神話』pp.1–5"
+  },
+  {
+    "id": "maui-snares-the-sun",
+    "title": "太陽を捕らえるマウイ",
+    "mythologyIds": ["polynesian"],
+    "figureIds": ["maui"],
+    "summary": "日が短すぎると考えたマウイは、人々が働けるよう太陽の歩みを遅らせようと決める。兄弟たちと亜麻の縄で罠を作り、東の果ての太陽が昇る場所に潜んで待った。太陽が罠にかかると、マウイは祖先ムリランガウェヌアの顎の骨で太陽を激しく打ちすえた。弱った太陽は、それからゆっくりと空を進むようになった。",
+    "sourceIds": ["grey-polynesian-mythology"],
+    "sourceLocation": "グレイ『ポリネシア神話』pp.35–38"
+  },
+  {
+    "id": "maui-fishes-up-the-land",
+    "title": "陸地を釣り上げるマウイ",
+    "mythologyIds": ["polynesian"],
+    "figureIds": ["maui", "papa"],
+    "summary": "兄弟の舟にこっそり乗り込んだマウイは、陸の見えない沖まで漕がせると、ムリランガウェヌアの顎の骨を先につけた魔法の釣り針を取り出した。自分の鼻を打って流れた血を餌にして針を沈めると、海の底の家に引っかかり、呪文とともに巨大な「マウイの魚」、すなわち大地の一部が浮かび上がった。マウイの留守中に兄弟たちが魚を切り刻んだため、大地は山や谷のある凸凹な姿になった。",
+    "sourceIds": ["grey-polynesian-mythology"],
+    "sourceLocation": "グレイ『ポリネシア神話』pp.38–45"
+  },
+  {
+    "id": "maui-and-mahuika",
+    "title": "マウイと火の女神",
+    "mythologyIds": ["polynesian"],
+    "figureIds": ["maui", "mahuika"],
+    "summary": "村じゅうの火をこっそり消したマウイは、火の女神マフイカのもとへ火をもらいに行く。女神は爪を抜いて火を与えたが、マウイは少し離れては火を消し、また火をねだった。手足の爪をほとんど抜き取られた女神は、最後の爪を地面に叩きつけ、あたり一面が炎に包まれた。マウイは鷲に姿を変えて逃げ、雨を呼んで火を消した。女神は消える前に火種をカイコマコなどの木に投げ込んで残した。",
+    "sourceIds": ["grey-polynesian-mythology"],
+    "sourceLocation": "グレイ『ポリネシア神話』pp.45–49"
+  },
+  {
+    "id": "death-of-maui",
+    "title": "マウイの死",
+    "mythologyIds": ["polynesian"],
+    "figureIds": ["maui", "hine-nui-te-po"],
+    "summary": "人が永遠に生きられるよう、マウイは死の女神ヒネ・ヌイ・テ・ポの体内を通り抜けようとする。小鳥たちに笑わないよう言い含めて、眠る女神の中に入り込んだが、小鳥ティワカワカがこらえきれずに笑い出し、目を覚ました女神に殺されてしまった。こうして人は死を免れなくなったと語られる。",
+    "sourceIds": ["grey-polynesian-mythology"],
+    "sourceLocation": "グレイ『ポリネシア神話』pp.54–58"
+  },
+  {
+    "id": "pele-comes-to-hawaii",
+    "title": "ペレのハワイ渡来",
+    "mythologyIds": ["polynesian"],
+    "figureIds": ["pele", "hiiaka"],
+    "summary": "火の女神ペレは、海の女神である姉ナマカオカハイと争い、高潮と洪水で家を壊されて故郷を追われた。兄の鮫の神カモホアリイが用意した大きな舟で海を渡り、ペレは魔法の掘り棒パオアで降り立った島々に火口を掘ったが、どれも海に近すぎて水に消された。ついにハワイ島のキラウエアにたどり着き、そこに炎の住まいを築いた。",
+    "sourceIds": ["westervelt-volcanoes"],
+    "sourceLocation": "ウェスターヴェルト『ハワイの火山の伝説』第2章"
+  }
+]

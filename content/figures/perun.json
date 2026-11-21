@@ -1,0 +1,21 @@
+{
+  "id": "perun",
+  "slug": "perun",
+  "name": "ペルーン",
+  "reading": "ぺるーん",
+  "originalName": "Перунъ",
+  "romanized": "Perun",
+  "alternativeNames": ["ペルン"],
+  "type": "god",
+  "roles": ["雷神", "戦士の神", "誓約の神"],
+  "mythologyIds": ["slavic"],
+  "description": "キエフ・ルーシで最も重んじられた神。『原初年代記』は、ウラジーミル1世が980年にキエフの丘に立てた神像のうち、銀の頭と金の口髭をもつ木像としてペルーンを筆頭に挙げる。ビザンツ帝国との条約では、ルーシの人々が武器とペルーンにかけて誓った。988年のキリスト教受容の際、神像は馬の尾に縛られて引きずられ、ドニエプル川に投げ込まれた。",
+  "relatedFigureIds": ["veles", "mokosh", "dazhbog"],
+  "relatedStoryIds": [
+    "vladimir-pantheon",
+    "oath-of-perun-and-volos",
+    "fall-of-perun"
+  ],
+  "articleIds": [],
+  "sourceIds": ["primary-chronicle"]
+}

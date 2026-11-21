@@ -1,0 +1,100 @@
+{
+  "id": "john-wick-john-wick",
+  "slug": "john-wick-john-wick",
+  "name": "ジョン・ウィック",
+  "reading": "じょん・うぃっく",
+  "alternativeNames": ["バーバ・ヤガー"],
+  "workId": "john-wick",
+  "description": {
+    "text": "引退した伝説の殺し屋。亡き妻が遺した犬をロシアン・マフィアのボスの息子に殺されたことで、裏社会に戻り復讐を果たそうとする。",
+    "claimIds": ["jw-work"]
+  },
+  "nameOrigin": {
+    "text": "本名ではなく異名。かつて裏社会で「バーバ・ヤガー」と呼ばれて恐れられていた。バーバ・ヤガーはロシア民話の森の魔女の名である。",
+    "claimIds": ["jw-work-baba-yaga", "jw-myth-forest"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "baba-yaga",
+      "label": "バーバ・ヤガー（異名）",
+      "inWork": {
+        "text": "ロシアン・マフィアのボスは、かつて自分の下で働いていたジョンが、裏社会で「バーバ・ヤガー」と呼ばれる恐るべき殺し屋だったことを息子に明かす。",
+        "claimIds": ["jw-work-baba-yaga"]
+      },
+      "inMyth": {
+        "text": "アファナーシエフの民話集のバーバ・ヤガーは、森の奥の人骨の垣根に囲まれた家に住み、人を「雛鳥のように」食らう恐ろしい魔女として語られる。",
+        "claimIds": ["jw-myth-forest", "jw-myth-fence"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品はバーバ・ヤガーの名を、ロシアの裏社会の人々が震え上がる存在の代名詞として借りている。民話のバーバ・ヤガーも、人を食らうと恐れられ、誰も近づけない森の魔女だった。",
+      "claimIds": ["jw-work-baba-yaga", "jw-myth-forest", "jw-cmp-name"]
+    },
+    {
+      "text": "ただし民話のバーバ・ヤガーは、ただの怪物ではない。「美しいワシリーサ」では、課した仕事をこなしたワシリーサに火を与えて帰しており、試練を与え、それを越えた者には報いる存在としても描かれる。",
+      "claimIds": ["jw-myth-fire", "jw-cmp-tester"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jw-work",
+      "text": "ジョン・ウィックは引退した殺し屋で、亡き妻が遺した犬をロシアン・マフィアのボスの息子に殺され、復讐に乗り出す。",
+      "classification": "creative",
+      "sourceIds": ["work-john-wick"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ジョン・ウィック」、英語版「John Wick (film)」の記述で確認。"
+    },
+    {
+      "id": "jw-work-baba-yaga",
+      "text": "マフィアのボスのヴィゴは、ジョンがかつて自分の下で働いた殺し屋で、裏社会で「バーバ・ヤガー」として恐れられていたと息子に明かす。",
+      "classification": "creative",
+      "sourceIds": ["work-john-wick"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ジョン・ウィック」、英語版「John Wick (film)」の記述で確認。"
+    },
+    {
+      "id": "jw-myth-forest",
+      "text": "バーバ・ヤガーは森の中の小屋に住み、誰も近づけず、人を雛鳥のように食らった。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アファナーシエフ『ロシア民話集』第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "jw-myth-fence",
+      "text": "バーバ・ヤガーの家の垣根は人骨でできており、垣根には目のある人の髑髏が刺さっていた。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アファナーシエフ『ロシア民話集』第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "jw-myth-fire",
+      "text": "バーバ・ヤガーは、仕事をやり遂げたワシリーサに、目の燃える髑髏を火として持たせて帰した。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アファナーシエフ『ロシア民話集』第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "jw-cmp-name",
+      "text": "作品はバーバ・ヤガーの名を、恐るべき存在の代名詞として借りていると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "筆者の読みとして示す。"
+    },
+    {
+      "id": "jw-cmp-tester",
+      "text": "民話のバーバ・ヤガーは、試練を課し、それを越えた者に報いる存在としても描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-john-wick", "afanasyev-tales"],
+  "articleIds": []
+}

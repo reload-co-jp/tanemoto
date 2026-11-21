@@ -1,0 +1,17 @@
+{
+  "id": "hiiaka",
+  "slug": "hiiaka",
+  "name": "ヒイアカ",
+  "reading": "ひいあか",
+  "originalName": "Hi'iaka-i-ka-poli-o-Pele",
+  "romanized": "Hiʻiakaikapoliopele",
+  "alternativeNames": ["ヒイアカ・イ・カ・ポリ・オ・ペレ"],
+  "type": "god",
+  "roles": ["ペレの末の妹"],
+  "mythologyIds": ["polynesian"],
+  "description": "ペレの末の妹。ある伝承では、ペレが卵を腰布に包んで温めていると、それが美しい少女に変わったという。名前は「ペレの胸に抱かれたヒイアカ」を意味する。",
+  "relatedFigureIds": ["pele"],
+  "relatedStoryIds": ["pele-comes-to-hawaii"],
+  "articleIds": [],
+  "sourceIds": ["westervelt-volcanoes"]
+}

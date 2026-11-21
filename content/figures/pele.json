@@ -1,0 +1,17 @@
+{
+  "id": "pele",
+  "slug": "pele",
+  "name": "ペレ",
+  "reading": "ぺれ",
+  "originalName": "Pele",
+  "romanized": "Pele",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["火山の女神", "火の女神"],
+  "mythologyIds": ["polynesian"],
+  "description": "ハワイの火山の女神。海の女神である姉ナマカオカハイと争って故郷を追われ、魔法の掘り棒パオアで火口を掘りながら島から島へと渡り、最後にハワイ島のキラウエアに住まいを定めたと語られる。",
+  "relatedFigureIds": ["hiiaka"],
+  "relatedStoryIds": ["pele-comes-to-hawaii"],
+  "articleIds": [],
+  "sourceIds": ["westervelt-volcanoes"]
+}

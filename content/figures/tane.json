@@ -1,0 +1,17 @@
+{
+  "id": "tane",
+  "slug": "tane",
+  "name": "タネ",
+  "reading": "たね",
+  "originalName": "Tane-mahuta",
+  "romanized": "Tāne Mahuta",
+  "alternativeNames": ["タネ・マフタ"],
+  "type": "god",
+  "roles": ["森の神", "鳥と虫の父"],
+  "mythologyIds": ["polynesian"],
+  "description": "天ランギと地パパの子で、森と鳥と虫の父とされる神。兄弟たちが誰も父母を引き離せなかったとき、頭を母の大地につけ、足で父の天を押し上げて、天と地を引き離した。",
+  "relatedFigureIds": ["rangi", "papa"],
+  "relatedStoryIds": ["separation-of-rangi-and-papa"],
+  "articleIds": [],
+  "sourceIds": ["grey-polynesian-mythology"]
+}

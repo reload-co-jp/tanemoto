@@ -1,0 +1,65 @@
+[
+  {
+    "id": "vladimir-pantheon",
+    "title": "ウラジーミルの神々",
+    "mythologyIds": ["slavic"],
+    "figureIds": ["perun", "dazhbog", "mokosh"],
+    "summary": "キエフでただ一人の公となったウラジーミルは、館の外の丘に神々の像を立てた。銀の頭と金の口髭をもつ木像のペルーン、そしてホルス、ダジボーグ、ストリボーグ、シマルグル、モコシである。人々はこれらを神と呼んで犠牲を捧げた。",
+    "sourceIds": ["primary-chronicle"],
+    "sourceLocation": "『原初年代記』6488年（980年）条"
+  },
+  {
+    "id": "oath-of-perun-and-volos",
+    "title": "ペルーンとヴォロスへの誓い",
+    "mythologyIds": ["slavic"],
+    "figureIds": ["perun", "veles"],
+    "summary": "キエフの公オレグがビザンツ帝国と和を結んだとき、ギリシャの皇帝たちは十字架に口づけして誓い、オレグとその部下たちはルーシの掟に従って、自分たちの武器と、自らの神ペルーン、家畜の神ヴォロスにかけて誓った。",
+    "sourceIds": ["primary-chronicle"],
+    "sourceLocation": "『原初年代記』6415年（907年）条"
+  },
+  {
+    "id": "fall-of-perun",
+    "title": "ペルーン像の破壊",
+    "mythologyIds": ["slavic"],
+    "figureIds": ["perun"],
+    "summary": "キリスト教を受け入れたウラジーミルは、立てていた神像を倒し、あるものは切り刻み、あるものは焼かせた。ペルーンの像は馬の尾に縛りつけられて丘から引きずり下ろされ、十二人の男に杖で打たれたのちドニエプル川に投げ込まれた。まだ洗礼を受けていない人々はそれを見て泣いたという。",
+    "sourceIds": ["primary-chronicle"],
+    "sourceLocation": "『原初年代記』6496年（988年）条"
+  },
+  {
+    "id": "vasilisa-and-baba-yaga",
+    "title": "美しいワシリーサとバーバ・ヤガー",
+    "mythologyIds": ["slavic"],
+    "figureIds": ["baba-yaga"],
+    "summary": "継母に家の火を消され、森のバーバ・ヤガーのもとへ火をもらいに行かされたワシリーサは、白い騎手（夜明け）、赤い騎手（太陽）、黒い騎手（夜）とすれ違い、人骨の垣根と目の光る髑髏に囲まれた家にたどり着く。母の形見の人形に助けられて難しい仕事をこなしたワシリーサに、バーバ・ヤガーは目の燃える髑髏を火として持たせて帰した。",
+    "sourceIds": ["afanasyev-tales"],
+    "sourceLocation": "アファナーシエフ『ロシア民話集』第104話「美しいワシリーサ」"
+  },
+  {
+    "id": "geese-swans",
+    "title": "鵞鳥と白鳥",
+    "mythologyIds": ["slavic"],
+    "figureIds": ["baba-yaga"],
+    "summary": "両親の留守中、少女が目を離したすきに、幼い弟が鵞鳥と白鳥にさらわれてしまう。弟を探して森を走った少女は、鶏の足の上でぐるぐると回る小屋を見つける。中にはバーバ・ヤガーが座り、そのそばで弟が金の林檎で遊んでいた。少女は弟を連れ出し、ペチカや林檎の木、乳の川に匿ってもらいながら逃げ帰った。",
+    "sourceIds": ["afanasyev-tales"],
+    "sourceLocation": "アファナーシエフ『ロシア民話集』第113話「鵞鳥と白鳥」"
+  },
+  {
+    "id": "death-of-koschei",
+    "title": "コシチェイの死のありか",
+    "mythologyIds": ["slavic"],
+    "figureIds": ["koschei"],
+    "summary": "母をさらったコシチェイ（コシ）から、イワン王子の母は死のありかを聞き出す。「ある場所に樫の木が立ち、その下に箱があり、箱の中に兎、兎の中に鴨、鴨の中に卵、卵の中にわたしの死がある」。王子は助けた獣たちの力を借りて卵を手に入れ、卵を握るとコシチェイは苦しみ悶えた。",
+    "sourceIds": ["afanasyev-tales"],
+    "sourceLocation": "アファナーシエフ『ロシア民話集』第156話「不死身のコシチェイ」"
+  },
+  {
+    "id": "marya-morevna",
+    "title": "マリヤ・モレーヴナ",
+    "mythologyIds": ["slavic"],
+    "figureIds": ["koschei", "baba-yaga"],
+    "summary": "イワン王子は妻となった女王マリヤ・モレーヴナから開けてはならないと言われた納戸を開け、十二本の鎖につながれた不死身のコシチェイを見つける。求められるまま水を三桶飲ませると、コシチェイは力を取り戻して鎖を引きちぎり、マリヤ・モレーヴナをさらって飛び去った。王子は妻を取り戻すため、バーバ・ヤガーのもとで駿馬を手に入れる試練に挑む。",
+    "sourceIds": ["afanasyev-tales"],
+    "sourceLocation": "アファナーシエフ『ロシア民話集』第159話「マリヤ・モレーヴナ」"
+  }
+]
