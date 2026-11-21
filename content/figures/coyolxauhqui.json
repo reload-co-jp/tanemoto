@@ -1,0 +1,17 @@
+{
+  "id": "coyolxauhqui",
+  "slug": "coyolxauhqui",
+  "name": "コヨルシャウキ",
+  "reading": "こよるしゃうき",
+  "originalName": "Coyolxāuhqui",
+  "romanized": "Coyolxauhqui",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["月（とされる）"],
+  "mythologyIds": ["aztec"],
+  "description": "コアトリクエの娘。母の懐妊を恥とし、兄弟たちセンツォンウィツナワを率いて母を殺そうとしたが、生まれたばかりのウィツィロポチトリに火の蛇で打たれて体を砕かれ、首はコアテペクの山に残った。",
+  "relatedFigureIds": ["huitzilopochtli", "coatlicue"],
+  "relatedStoryIds": ["birth-of-huitzilopochtli"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

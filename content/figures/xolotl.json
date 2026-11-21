@@ -1,0 +1,17 @@
+{
+  "id": "xolotl",
+  "slug": "xolotl",
+  "name": "ショロトル",
+  "reading": "しょろとる",
+  "originalName": "Xōlōtl",
+  "romanized": "Xolotl",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["双子", "変身"],
+  "mythologyIds": ["aztec"],
+  "description": "太陽を動かすために神々が死を選んだとき、ただ一人死を拒んで逃げた神。トウモロコシ、リュウゼツラン、そして水中の魚アショロトルへと姿を変えて逃げたが、最後には捕らえられた。",
+  "relatedFigureIds": ["quetzalcoatl", "nanahuatzin"],
+  "relatedStoryIds": ["fifth-sun"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

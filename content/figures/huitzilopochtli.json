@@ -1,0 +1,17 @@
+{
+  "id": "huitzilopochtli",
+  "slug": "huitzilopochtli",
+  "name": "ウィツィロポチトリ",
+  "reading": "うぃつぃろぽちとり",
+  "originalName": "Huītzilōpōchtli",
+  "romanized": "Huitzilopochtli",
+  "alternativeNames": ["ウィツィロポチトリ"],
+  "type": "god",
+  "roles": ["戦い", "太陽", "メシカの守護神"],
+  "mythologyIds": ["aztec"],
+  "description": "メシカ（アステカ）の守護神で、戦いの神。コアテペクの山で母コアトリクエが羽毛の球を胸に入れて身ごもり、母を殺そうとした姉コヨルシャウキと兄たちセンツォンウィツナワを、生まれるやいなや火の蛇シウコアトルで打ち破った。",
+  "relatedFigureIds": ["coatlicue", "coyolxauhqui"],
+  "relatedStoryIds": ["birth-of-huitzilopochtli"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "kullervo",
+  "slug": "kullervo",
+  "name": "クッレルヴォ",
+  "reading": "くっれるゔぉ",
+  "originalName": "Kullervo",
+  "romanized": "Kullervo",
+  "alternativeNames": ["クレルヴォ", "クッレルボ"],
+  "type": "hero",
+  "roles": ["悲劇の英雄", "復讐"],
+  "mythologyIds": ["finnish"],
+  "description": "一族を滅ぼした叔父のもとで奴隷として育った悲劇の若者。数々の災いをもたらしたのち、それと知らずに生き別れの妹と結ばれ、真実を知った妹は川に身を投げた。クッレルヴォは剣に問いかけ、自らの剣に身を投じて命を絶つ。",
+  "relatedFigureIds": ["vainamoinen"],
+  "relatedStoryIds": ["fate-of-kullervo"],
+  "articleIds": [],
+  "sourceIds": ["kalevala"]
+}

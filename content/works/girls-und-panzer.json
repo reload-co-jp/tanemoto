@@ -1,0 +1,14 @@
+{
+  "id": "girls-und-panzer",
+  "slug": "girls-und-panzer",
+  "title": "ガールズ&パンツァー",
+  "reading": "がーるず あんど ぱんつぁー",
+  "type": "anime",
+  "mediaTypes": ["film", "manga"],
+  "author": "水島努（監督）・アクタス（制作）",
+  "period": "2012年〜（テレビアニメ）。劇場版・最終章が続く",
+  "description": "戦車を使った武道「戦車道」に打ち込む女子高校生たちを描くアニメ。各国の文化をモチーフにした学校が登場し、フィンランド系の継続高校の隊長ミカは、フィンランドの民族楽器カンテレを奏でる。",
+  "mythologyIds": ["finnish"],
+  "articleIds": [],
+  "sourceIds": ["work-girls-und-panzer"]
+}

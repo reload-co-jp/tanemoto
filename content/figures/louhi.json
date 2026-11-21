@@ -1,0 +1,17 @@
+{
+  "id": "louhi",
+  "slug": "louhi",
+  "name": "ロウヒ",
+  "reading": "ろうひ",
+  "originalName": "Louhi",
+  "romanized": "Louhi",
+  "alternativeNames": [],
+  "type": "human",
+  "roles": ["ポホヨラの女主人", "魔女"],
+  "mythologyIds": ["finnish"],
+  "description": "北の国ポホヨラを治める女主人。娘を嫁がせる代わりにイルマリネンにサンポを鍛えさせ、それを岩山の奥に隠した。のちにサンポを奪い返しに来たワイナミョイネンたちと激しく争う。",
+  "relatedFigureIds": ["ilmarinen", "vainamoinen", "lemminkainen"],
+  "relatedStoryIds": ["forging-of-the-sampo", "lemminkainen-in-tuonela"],
+  "articleIds": [],
+  "sourceIds": ["kalevala"]
+}

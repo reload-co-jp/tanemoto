@@ -1,0 +1,149 @@
+{
+  "id": "maidragon-lucoa",
+  "slug": "maidragon-lucoa",
+  "name": "ケツァルコアトル（ルコア）",
+  "reading": "けつぁるこあとる（るこあ）",
+  "alternativeNames": ["ルコア", "エヘカトル"],
+  "workId": "maidragon",
+  "description": {
+    "text": "異世界のドラゴンで、愛称はルコア。カテゴリとしては「元神」にあたり、トールの古くからの友人。温和で心優しく、ドラゴン同士の勢力争いには関わらない「傍観勢」に属する。",
+    "claimIds": ["md-lucoa-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はアステカ神話の神ケツァルコアトルに由来する。トールからは、風の神としての別名に由来する「エヘカトル」の渾名で呼ばれることもある。",
+    "claimIds": [
+      "md-lucoa-work",
+      "md-lucoa-work-ehecatl",
+      "md-lucoa-myth-ehecatl"
+    ]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "quetzalcoatl",
+      "label": "羽毛ある蛇",
+      "inWork": {
+        "text": "ドラゴンとしての姿は名前の意味どおりの「羽毛ある蛇」で、途方もなく長大な胴体は山や水平線をまたいでなお伸びる。",
+        "claimIds": ["md-lucoa-work-form"]
+      },
+      "inMyth": {
+        "text": "ケツァルコアトルは「羽毛ある蛇」を意味する名の神で、サアグンの記録では風の神とされる。",
+        "claimIds": ["md-lucoa-myth-wind"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "quetzalcoatl",
+      "label": "神の座を追われた文化神",
+      "inWork": {
+        "text": "神として崇められた時代には文化を司り、農耕技術を広めるなどの功績を残したが、神の座を追われた。伝承のとおり、妹との過去も示唆されている。",
+        "claimIds": ["md-lucoa-work-past"]
+      },
+      "inMyth": {
+        "text": "サアグンの記録では、トゥーラで崇められていたケツァルコアトルは、老人に化けた魔術師に酒を飲まされて酔い、国を去ることを決め、蛇の筏で海の彼方へ旅立った。",
+        "claimIds": ["md-lucoa-myth-fall"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「神の座を追われた」という作品の設定は、酒に酔わされてトゥーラを去ったケツァルコアトルの伝承と重なる。作中で示唆される妹との過去は、別の記録（『クアウティトランの年代記』など）が伝える、酔ったケツァルコアトルが姉妹と一夜を過ごしたという伝承を踏まえたものと考えられる。",
+      "claimIds": [
+        "md-lucoa-myth-fall",
+        "md-lucoa-work-past",
+        "md-lucoa-cmp-fall"
+      ]
+    },
+    {
+      "text": "原典のケツァルコアトルは酒で失敗した神だが、作品のルコアは「お酒は強い」とされている。",
+      "claimIds": [
+        "md-lucoa-myth-fall",
+        "md-lucoa-work-sake",
+        "md-lucoa-cmp-sake"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "md-lucoa-work",
+      "text": "ケツァルコアトルは異世界のドラゴン（雌）で、愛称はルコア。カテゴリとしては「元神」にあたる。トールの古くからの友人で、温和で心優しく、中立的な立場をとる「傍観勢」に属する。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "md-lucoa-work-ehecatl",
+      "text": "ルコアはトールから「エヘカトル」の渾名で呼ばれることもある。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "md-lucoa-work-form",
+      "text": "ドラゴンとしての姿は名前の意味通りの「羽毛ある蛇」であり、途方もなく長大な胴体は山や水平線をまたいでなおも伸びる。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "md-lucoa-work-past",
+      "text": "神として崇められた時代には文化を司り、農耕技術を普及する等の功績を残したが、神の座を追われた。伝承の通り、妹と肉体関係を結んだ過去が示唆されている。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "md-lucoa-work-sake",
+      "text": "ルコアはお酒に強い。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "md-lucoa-myth-wind",
+      "text": "ケツァルコアトルは風の神とされ、雨が降る前に大風と砂ぼこりが起こることから、雨の神々のために道を掃き清めるといわれた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第5章"
+    },
+    {
+      "id": "md-lucoa-myth-ehecatl",
+      "text": "第五の太陽の神話で東を見て太陽の出る方角を当てた神々の中に、「エカトルとも呼ばれる」ケツァルコアトルがいた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "md-lucoa-myth-fall",
+      "text": "トゥーラのケツァルコアトルのもとに、白髪の老人に化けた魔術師ティトラカワンが薬と称して酒を持ってきた。ケツァルコアトルはそれを飲んで酔い、泣き、国を去る決意をした。のちに海辺で蛇の筏に乗り、トラパランへ去った。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第4章・第14章"
+    },
+    {
+      "id": "md-lucoa-cmp-fall",
+      "text": "神の座を追われたという設定は、酒に酔わされてトゥーラを去った伝承と重なる。妹との過去は『クアウティトランの年代記』などの別伝を踏まえたものと考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "姉妹との伝承はサアグンの記録には見えず、16世紀の『クアウティトランの年代記』に記される。本記事で登録した出典ではないため、筆者の解説として示す。"
+    },
+    {
+      "id": "md-lucoa-cmp-sake",
+      "text": "原典で酒によって失墜した神が、作品では酒に強いとされている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-maidragon", "sahagun-historia"],
+  "articleIds": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tlaloc",
+  "slug": "tlaloc",
+  "name": "トラロック",
+  "reading": "とらろっく",
+  "originalName": "Tlāloc",
+  "romanized": "Tlaloc",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["雨", "雷"],
+  "mythologyIds": ["aztec"],
+  "description": "雨の神。サアグンの記録ではトラロクトラマカスキの名で記され、雨を降らせて草木や作物を育てる一方、雹や稲妻、嵐も送る神とされた。",
+  "relatedFigureIds": ["quetzalcoatl"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

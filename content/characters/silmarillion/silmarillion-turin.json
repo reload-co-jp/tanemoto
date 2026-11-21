@@ -1,0 +1,89 @@
+{
+  "id": "silmarillion-turin",
+  "slug": "silmarillion-turin",
+  "name": "トゥーリン・トゥランバール",
+  "reading": "とぅーりん・とぅらんばーる",
+  "alternativeNames": ["トゥーリン"],
+  "workId": "silmarillion",
+  "description": {
+    "text": "人間の英雄フーリンの息子。父がモルゴスに呪われたことで、一族は数々の不幸に見舞われる。呪いに抗おうとするたびに、周囲と自らに破滅をもたらす悲劇の英雄。",
+    "claimIds": ["sil-turin-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "kullervo",
+      "label": "クッレルヴォ",
+      "inWork": {
+        "text": "竜グラウルングの呪縛で記憶を失った妹ニエノールと、それと知らずに結婚する。真実を知ったニエノールは川に身を投げ、トゥーリンも自らの剣グアサングで命を絶つ。",
+        "claimIds": ["sil-turin-work-end"]
+      },
+      "inMyth": {
+        "text": "『カレワラ』のクッレルヴォは、それと知らずに生き別れの妹と結ばれ、真実を知った妹は川に身を投げる。クッレルヴォは剣に「私の血を飲みたいか」と問い、剣に身を投じて死ぬ。",
+        "claimIds": ["sil-turin-myth-sister", "sil-turin-myth-sword"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "トールキンは、トゥーリンの物語がフィンランドのクッレルヴォに由来する要素をもつと自ら書き残しており、若い頃にはクッレルヴォの物語を自分の言葉で書き直そうとしていた。妹と知らずに結ばれる悲劇、妹の入水、自らの剣による最期という骨格は、両者に共通している。",
+      "claimIds": [
+        "sil-turin-work-source",
+        "sil-turin-myth-sister",
+        "sil-turin-work-end",
+        "sil-turin-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sil-turin-work",
+      "text": "トゥーリンは呪いに抗おうとしながら、ベレリアンドの多くの地と、自らと妹ニエノールに破滅をもたらす。",
+      "classification": "creative",
+      "sourceIds": ["work-silmarillion"],
+      "verificationStatus": "verified",
+      "note": "英語版 Wikipedia「Túrin Turambar」の記述で確認。"
+    },
+    {
+      "id": "sil-turin-work-end",
+      "text": "グラウルングの呪縛から解かれたニエノールは、夫トゥランバールが兄であることを知ってテイグリン川に身を投げた。トゥーリンは自らの剣グアサングで命を絶った。",
+      "classification": "creative",
+      "sourceIds": ["work-silmarillion"],
+      "verificationStatus": "verified",
+      "note": "英語版 Wikipedia「Túrin Turambar」の記述で確認。"
+    },
+    {
+      "id": "sil-turin-work-source",
+      "text": "トールキンはトゥーリンの物語をカレワラのクッレルヴォの話にもとづいて書いた。書簡では、トゥーリンがシグルズ、オイディプス、フィンランドのクッレルヴォの要素から派生したといえると述べている。1914年には、クッレルヴォの物語を短編として書き直す試み『クッレルヴォの物語』に取り組んでいた。",
+      "classification": "creative",
+      "sourceIds": ["work-silmarillion"],
+      "verificationStatus": "verified",
+      "note": "英語版 Wikipedia「Túrin Turambar」の記述で確認。英語版「The Story of Kullervo」も参照。"
+    },
+    {
+      "id": "sil-turin-myth-sister",
+      "text": "クッレルヴォはそれと知らずに妹と結ばれ、真実を知った妹は川の急流に身を投げた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第35章（Crawford 英訳）"
+    },
+    {
+      "id": "sil-turin-myth-sword",
+      "text": "クッレルヴォは妹と出会った場所に戻り、剣に「私の血を飲みたいか」と問うた。剣は「罪ある者の血を飲まぬ理由があろうか」と答え、クッレルヴォは柄を地に立てて剣に身を投じた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第36章（Crawford 英訳）"
+    },
+    {
+      "id": "sil-turin-cmp",
+      "text": "妹と知らずに結ばれる悲劇、妹の入水、自らの剣による最期という骨格が共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-silmarillion", "kalevala"],
+  "articleIds": []
+}

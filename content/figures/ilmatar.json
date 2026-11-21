@@ -1,0 +1,17 @@
+{
+  "id": "ilmatar",
+  "slug": "ilmatar",
+  "name": "イルマタル",
+  "reading": "いるまたる",
+  "originalName": "Ilmatar",
+  "romanized": "Ilmatar",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["大気の乙女", "創造"],
+  "mythologyIds": ["finnish"],
+  "description": "大気の乙女。広大な海に降りて水の母となり、膝に巣を作った鴨の卵が割れて、その破片から大地と天、太陽と月、星々と雲が生まれた。長い年月ののちにワイナミョイネンを産んだ。",
+  "relatedFigureIds": ["vainamoinen"],
+  "relatedStoryIds": ["birth-of-vainamoinen"],
+  "articleIds": [],
+  "sourceIds": ["kalevala"]
+}

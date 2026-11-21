@@ -1,0 +1,17 @@
+{
+  "id": "tezcatlipoca",
+  "slug": "tezcatlipoca",
+  "name": "テスカトリポカ",
+  "reading": "てすかとりぽか",
+  "originalName": "Tezcatlipoca",
+  "romanized": "Tezcatlipoca",
+  "alternativeNames": ["ティトラカワン"],
+  "type": "god",
+  "roles": ["夜", "運命", "争い"],
+  "mythologyIds": ["aztec"],
+  "description": "名は「煙を吐く鏡」を意味する。サアグンは「真の神で目に見えず、天にも地にも冥界にもいる」と記し、地上で戦争や不和を引き起こし、繁栄を与えも奪いもする神とした。トゥーラでは老人に化けてケツァルコアトルに酒を飲ませ、国を去らせた（記録では別名ティトラカワンとして登場する）。",
+  "relatedFigureIds": ["quetzalcoatl"],
+  "relatedStoryIds": ["fall-of-quetzalcoatl"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "fifth-sun",
+    "title": "第五の太陽の誕生",
+    "mythologyIds": ["aztec"],
+    "figureIds": ["nanahuatzin", "tecuciztecatl", "quetzalcoatl", "xolotl"],
+    "summary": "まだ昼のなかった太古、神々はテオティワカンに集まり、誰が世界を照らすかを話し合った。名のり出た裕福なテクシステカトルと、皆に推された腫れ物の神ナナワツィンが四日間の苦行を行う。燃えさかる火を前にテクシステカトルは四度ためらい、ナナワツィンが目を閉じて火に飛び込んで太陽となった。続いて火に入ったテクシステカトルは月となり、神々に兎を投げつけられて光を弱められた。動かない太陽を動かすため神々は自ら死を選び、風が吹いて太陽は動きはじめた。",
+    "sourceIds": ["sahagun-historia"],
+    "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+  },
+  {
+    "id": "birth-of-huitzilopochtli",
+    "title": "ウィツィロポチトリの誕生",
+    "mythologyIds": ["aztec"],
+    "figureIds": ["huitzilopochtli", "coatlicue", "coyolxauhqui"],
+    "summary": "コアテペクの山で掃除の苦行をしていたコアトリクエは、降ってきた羽毛の球を胸に入れて身ごもった。恥をかかされたと怒った娘コヨルシャウキは、兄弟センツォンウィツナワを率いて母を殺しに向かう。一行が山頂に着いたその瞬間、ウィツィロポチトリが武装して生まれ、火の蛇シウコアトルでコヨルシャウキを打ち砕き、兄弟たちを追い散らした。",
+    "sourceIds": ["sahagun-historia"],
+    "sourceLocation": "サアグン『諸事物概史』第3書第1章"
+  },
+  {
+    "id": "fall-of-quetzalcoatl",
+    "title": "ケツァルコアトルの旅立ち",
+    "mythologyIds": ["aztec"],
+    "figureIds": ["quetzalcoatl", "tezcatlipoca"],
+    "summary": "トゥーラ（トゥラン）で崇められていたケツァルコアトルのもとに、白髪の老人に化けた魔術師ティトラカワン（テスカトリポカ）が「薬」を持って現れる。病に伏していたケツァルコアトルはそれを飲み、酔って泣き、国を去ることを決めた。薬はリュウゼツランから造る酒だった。旅の途中で従者たちを失いながら海辺に着いたケツァルコアトルは、蛇で編んだ筏に乗って海へ去り、トラパランへ向かった。",
+    "sourceIds": ["sahagun-historia"],
+    "sourceLocation": "サアグン『諸事物概史』第3書第3–14章"
+  }
+]

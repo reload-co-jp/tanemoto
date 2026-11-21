@@ -1,0 +1,197 @@
+{
+  "id": "aztec-mythology-overview",
+  "slug": "aztec-mythology-overview",
+  "title": "アステカ神話とは？宣教師が記録したメキシコの神々と「五つの太陽」をわかりやすく解説",
+  "shortTitle": "アステカ神話とは？",
+  "eyecatchText": "アステカ神話",
+  "description": "ケツァルコアトル、テスカトリポカ、ウィツィロポチトリ——アステカ神話の神々は、どんな資料から知られているのか。征服後に修道士サアグンが古老から聞き取った記録の特徴と、主な神々、太陽と月の誕生の神話を紹介します。",
+  "lead": "ゲームやアニメで「羽毛ある蛇」ケツァルコアトルの名を見かけることは珍しくありません。けれども、アステカの神話は、その多くがスペインによる征服ののちに、キリスト教の宣教師によって書き留められたものです。アステカ神話を読むための基本を整理します。",
+  "category": "basics",
+  "tags": [
+    "アステカ神話",
+    "ケツァルコアトル",
+    "テスカトリポカ",
+    "サアグン",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "quetzalcoatl",
+    "tezcatlipoca",
+    "huitzilopochtli",
+    "tlaloc",
+    "nanahuatzin",
+    "tecuciztecatl"
+  ],
+  "mythologyIds": ["aztec"],
+  "storyIds": ["fifth-sun", "birth-of-huitzilopochtli", "fall-of-quetzalcoatl"],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["sahagun-historia"],
+  "relatedArticleIds": ["fifth-sun", "quetzalcoatl"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "宣教師が残した記録",
+      "anchor": "sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "アステカ（メシカ）の人々は、14世紀から16世紀にかけて、現在のメキシコシティにあたる湖上の都テノチティトランを中心に栄えました。彼らは絵文字で暦や歴史を記録していましたが、1521年のスペインによる征服の過程で、その多くが失われてしまいます。",
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "今日アステカの神話を伝える最も重要な資料の一つが、スペイン人修道士ベルナルディーノ・デ・サアグンの『ヌエバ・エスパーニャ諸事物概史』です。サアグンは先住民の古老たちから神々や祭り、風俗について聞き取り、全12書にまとめました。",
+      "claimIds": ["az-sahagun"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "記録者の視点に注意",
+      "text": "サアグンは宣教のために異教の信仰を調べたので、神々を「悪魔」と呼んだり、ケツァルコアトルを「もう一人のヘラクレス」、テスカトリポカを「もう一人のユピテル」とたとえたりしています。記録の内容と、記録者の評価とを区別して読む必要があります。",
+      "claimIds": ["az-sahagun-view", "az-caution"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "主な神々",
+      "anchor": "gods"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ケツァルコアトル：「羽毛ある蛇」。風の神で、トゥーラの王として崇められた",
+        "テスカトリポカ：「煙を吐く鏡」。目に見えずどこにでもいて、戦争や不和を起こす神",
+        "ウィツィロポチトリ：メシカの守護神で、戦いの神",
+        "トラロック：雨の神。雨を降らせる一方で、雹や稲妻も送る"
+      ],
+      "claimIds": ["az-quetzal", "az-tezca", "az-huitzi", "az-tlaloc"]
+    },
+    {
+      "type": "quote",
+      "text": "テスカトリポカと呼ばれる神は、真の神にして目に見えないものとされ、天にも地にも冥界にも、あらゆる所を歩くといわれた。地上を歩くときには戦争や敵意、不和を引き起こすと恐れられた。",
+      "sourceId": "sahagun-historia",
+      "location": "第1書第3章",
+      "claimIds": ["az-tezca"],
+      "translationNote": "スペイン語原文からの編集部訳"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "五つの太陽",
+      "anchor": "suns"
+    },
+    {
+      "type": "paragraph",
+      "text": "アステカの人々は、世界はこれまでに何度も滅びと再生を繰り返してきたと考えていました。いまの世界を照らす太陽は「第五の太陽」とされ、サアグンの記録には、その太陽と月がテオティワカンで生まれたいきさつが語られています。腫れ物に覆われた神ナナワツィンが自ら火に身を投じて太陽となり、続いて火に入ったテクシステカトルが月となったのです。詳しくは[第五の太陽の誕生](/articles/fifth-sun/)で解説しています。",
+      "claimIds": ["az-fifth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ケツァルコアトルの旅立ち",
+      "anchor": "quetzalcoatl"
+    },
+    {
+      "type": "paragraph",
+      "text": "サアグンは、トゥーラの王として崇められたケツァルコアトルが、老人に化けた魔術師に酒を飲まされて国を去り、蛇の筏に乗って海の彼方へ旅立ったという物語も伝えています。詳しくは[ケツァルコアトルとは？](/articles/quetzalcoatl/)で解説しています。",
+      "claimIds": ["az-fall"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "アステカ神話の多くは、征服後に宣教師が先住民から聞き取った記録によって伝わる",
+        "代表的な資料はサアグン『ヌエバ・エスパーニャ諸事物概史』",
+        "いまの太陽は「第五の太陽」で、神々の自己犠牲によって生まれたとされる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "az-sahagun",
+      "text": "サアグンの『ヌエバ・エスパーニャ諸事物概史』は全12書からなり、アステカの神々、祭り、天体の神話、風俗などを記録している。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』（Bustamante 版 第1巻の目次）"
+    },
+    {
+      "id": "az-sahagun-view",
+      "text": "サアグンはケツァルコアトルを「もう一人のヘラクレス」、テスカトリポカを「もう一人のユピテル」とたとえ、ウィツィロポチトリを「悪魔」と呼んでいる。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第3章、第3書第1・3章"
+    },
+    {
+      "id": "az-caution",
+      "text": "記録の内容と、宣教師としての記録者の評価とを区別して読む必要がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "az-quetzal",
+      "text": "ケツァルコアトルは風の神とされ、雨の神々のために道を掃き清めるといわれた。トゥーラで古くから神として崇められた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第5章、第3書第3章"
+    },
+    {
+      "id": "az-tezca",
+      "text": "テスカトリポカは真の神で目に見えず、天にも地にも冥界にもいて、地上では戦争や敵意、不和を引き起こすと恐れられた。繁栄と富を与えるのも奪うのも彼一人であるといわれた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第3章"
+    },
+    {
+      "id": "az-huitzi",
+      "text": "メシカの人々はウィツィロポチトリを戦いの神としてあがめ、戦いで大きな加護を与えると考えた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第1章"
+    },
+    {
+      "id": "az-tlaloc",
+      "text": "雨の神トラロクトラマカスキは雨を降らせて草木や作物を育て、雹や稲妻、嵐も送るとされた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第4章"
+    },
+    {
+      "id": "az-fifth",
+      "text": "テオティワカンに集まった神々のうち、ナナワツィンが火に身を投じて太陽となり、続いて火に入ったテクシステカトルが月となった。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "az-fall",
+      "text": "トゥーラのケツァルコアトルは、老人に化けた魔術師ティトラカワンに酒を飲まされて国を去る決意をし、海辺で蛇の筏に乗ってトラパランへ去った。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第4章・第14章"
+    }
+  ]
+}

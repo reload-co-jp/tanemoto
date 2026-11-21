@@ -1,0 +1,267 @@
+{
+  "id": "quetzalcoatl",
+  "slug": "quetzalcoatl",
+  "title": "ケツァルコアトルとは？『小林さんちのメイドラゴン』ルコアの元ネタ、羽毛ある蛇の神と追放の伝承を解説",
+  "shortTitle": "ケツァルコアトルの元ネタ",
+  "eyecatchText": "ケツァルコアトル",
+  "description": "『小林さんちのメイドラゴン』のルコアことケツァルコアトル。元ネタのアステカの神は「羽毛ある蛇」の名をもつ風の神で、トゥーラの王として崇められながら、酒に酔わされて国を去った。サアグンの記録から伝承を解説します。",
+  "lead": "『小林さんちのメイドラゴン』で、温和な「元神」のドラゴンとして登場するルコア。その本名ケツァルコアトルは、アステカをはじめメソアメリカで広く崇拝された神の名です。「神の座を追われた」という作中の設定は、原典ではどのような物語なのでしょうか。",
+  "category": "character-origins",
+  "tags": [
+    "ケツァルコアトル",
+    "小林さんちのメイドラゴン",
+    "ルコア",
+    "アステカ神話",
+    "テスカトリポカ"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["quetzalcoatl", "tezcatlipoca", "huitzilopochtli"],
+  "mythologyIds": ["aztec"],
+  "storyIds": ["fall-of-quetzalcoatl", "fifth-sun"],
+  "workIds": ["maidragon"],
+  "characterIds": ["maidragon-lucoa"],
+  "topicIds": [],
+  "sourceIds": ["work-maidragon", "sahagun-historia"],
+  "relatedArticleIds": [
+    "aztec-mythology-overview",
+    "fifth-sun",
+    "serpent-slayers"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『小林さんちのメイドラゴン』のルコア",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『小林さんちのメイドラゴン』のケツァルコアトルは、異世界のドラゴンで、愛称はルコア。カテゴリとしては「元神」にあたり、主人公トールの古くからの友人です。ドラゴンとしての姿は、名前の意味どおりの「羽毛ある蛇」とされています。",
+      "claimIds": ["qz-work", "qz-work-form"]
+    },
+    {
+      "type": "paragraph",
+      "text": "作中では、神として崇められた時代に文化を司り、農耕技術を広めたものの、神の座を追われたと語られます。トールからは「エヘカトル」の渾名で呼ばれることもあります。",
+      "claimIds": ["qz-work-past"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "羽毛ある蛇、風の神",
+      "anchor": "name"
+    },
+    {
+      "type": "paragraph",
+      "text": "ケツァルコアトルの名は、ナワトル語で「ケツァル鳥の羽毛（をもつ）蛇」を意味します。サアグンの記録では、ケツァルコアトルは風の神とされました。雨の季節の前には大風と砂ぼこりが起こることから、風の神が雨の神々のために道を掃き清めていると考えられたのです。",
+      "claimIds": ["qz-name", "qz-wind"]
+    },
+    {
+      "type": "paragraph",
+      "text": "太陽と月が生まれた神話では、ケツァルコアトルは「エカトル（風）とも呼ばれる」神として登場し、太陽が東から昇ることを言い当てています。作中の渾名「エヘカトル」は、この風の神としての名に由来します。",
+      "claimIds": ["qz-ehecatl"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "トゥーラの王",
+      "anchor": "tula"
+    },
+    {
+      "type": "paragraph",
+      "text": "サアグンによれば、ケツァルコアトルは古くからトゥーラ（トゥラン）で神として崇められていました。高い神殿には、狭い段がいくつも重なる急な階段があり、像は横たわった姿で布に覆われていたといいます。",
+      "claimIds": ["qz-tula"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "酒に酔わされた神",
+      "anchor": "fall"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがてケツァルコアトルとトゥーラの人々の繁栄に終わりの時が来ます。ウィツィロポチトリ、ティトラカワン、トラカウエパンという三人の魔術師が現れ、トゥーラで数々のたくらみをめぐらせたのです。",
+      "claimIds": ["qz-three"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ティトラカワンは白髪の老人に化けてケツァルコアトルを訪ね、病に伏していた彼に「飲めば酔い、病が癒え、心がやわらぐ薬」を勧めました。ケツァルコアトルは断りましたが、勧められるままに口をつけ、二度目を飲んで酔い、悲しげに泣き出します。そして国を去る思いに心を動かされたのでした。その「薬」とは、リュウゼツランから造った白い酒だったと、サアグンは記しています。",
+      "claimIds": ["qz-pulque"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "ティトラカワンとテスカトリポカ",
+      "text": "ケツァルコアトルを陥れた魔術師ティトラカワンは、テスカトリポカの別名として知られています。",
+      "claimIds": ["qz-titlacauan"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "蛇の筏で海の彼方へ",
+      "anchor": "departure"
+    },
+    {
+      "type": "paragraph",
+      "text": "国を去ったケツァルコアトルは、火山と雪の山のあいだを越える途中で、付き従っていた小人やせむしの従者たちを寒さで失い、嘆きの歌を歌いながら旅を続けました。各地に足跡を残し、山や土地に名を与えながら海辺にたどり着くと、蛇で編んだ筏を作らせ、それに乗って海へ漕ぎ出し、トラパランへと去っていったといいます。",
+      "claimIds": ["qz-journey", "qz-raft"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との共通点と違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "作中の「神の座を追われた」という設定は、酒に酔わされてトゥーラを去ったという伝承と重なります。また作中で示唆される妹との過去は、サアグンの記録ではなく、『クアウティトランの年代記』など別の記録が伝える、酔ったケツァルコアトルが姉妹と一夜を過ごしたという伝承を踏まえたものと考えられます。",
+      "claimIds": ["qz-work-past", "qz-pulque", "qz-cmp-fall"]
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、原典では酒によって失墜したケツァルコアトルですが、作品のルコアは「お酒は強い」とされています。原典を知っていると、ちょっとした皮肉にも見える設定です。",
+      "claimIds": ["qz-work-sake", "qz-cmp-sake"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ケツァルコアトルは「羽毛ある蛇」の名をもつ風の神で、エカトルとも呼ばれた",
+        "トゥーラで崇められたが、老人に化けたティトラカワン（テスカトリポカ）に酒を飲まされて国を去った",
+        "海辺で蛇の筏に乗り、トラパランへ去ったと伝えられる",
+        "ルコアの「元神」「神の座を追われた」という設定は、この伝承と重なる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "qz-work",
+      "text": "ケツァルコアトルは異世界のドラゴンで、愛称はルコア。カテゴリとしては「元神」にあたり、トールの古くからの友人。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "qz-work-form",
+      "text": "ドラゴンとしての姿は名前の意味通りの「羽毛ある蛇」であり、胴体は山や水平線をまたいでなおも伸びる。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "qz-work-past",
+      "text": "神として崇められた時代には文化を司り、農耕技術を普及する等の功績を残したが、神の座を追われた。トールからはエヘカトルの渾名で呼ばれることもある。妹と肉体関係を結んだ過去が示唆されている。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "qz-work-sake",
+      "text": "ルコアはお酒に強い。",
+      "classification": "creative",
+      "sourceIds": ["work-maidragon"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「小林さんちのメイドラゴン」の記述で確認。"
+    },
+    {
+      "id": "qz-name",
+      "text": "ケツァルコアトルの名は、ナワトル語のケツァリ（ケツァル鳥の羽）とコアトル（蛇）からなる。",
+      "classification": "scholarship",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第5章（羽飾りケツァリの記述）",
+      "note": "語源は一般的な解釈による。サアグンは像の羽飾りを quetzalli と記している。"
+    },
+    {
+      "id": "qz-wind",
+      "text": "ケツァルコアトルは風の神とされ、雨が降る前に大風と砂ぼこりが起こることから、雨の神々のために道を掃き清めるといわれた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第5章"
+    },
+    {
+      "id": "qz-ehecatl",
+      "text": "太陽が昇る方角を探す神々のうち、東を見たのはエカトルとも呼ばれるケツァルコアトルらであった。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "qz-tula",
+      "text": "ケツァルコアトルは古くからトゥーラで神として崇められ、狭い段の多い高い神殿があり、像は横たわって布に覆われていた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第3章"
+    },
+    {
+      "id": "qz-three",
+      "text": "ケツァルコアトルとトゥーラの人々の繁栄が終わる時が来て、ウィツィロポチトリ、ティトラカワン、トラカウエパンの三人の魔術師がトゥーラでたくらみをめぐらせた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第4章"
+    },
+    {
+      "id": "qz-pulque",
+      "text": "ティトラカワンは白髪の老人に化け、病のケツァルコアトルに、飲めば酔って病が癒え心がやわらぐ薬を勧めた。ケツァルコアトルは二度飲んで酔い、泣き、国を去る思いに心を動かされた。その薬はリュウゼツランから造る白い酒だった。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第4章"
+    },
+    {
+      "id": "qz-titlacauan",
+      "text": "ティトラカワンはテスカトリポカの別名として理解されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "サアグンの第3書は魔術師ティトラカワンとして記す。テスカトリポカの別名とする理解は研究者の一般的な解釈による。"
+    },
+    {
+      "id": "qz-journey",
+      "text": "ケツァルコアトルが火山と雪の山のあいだを越えるとき、付き従っていた小人やせむしの従者たちが寒さで死に、彼は嘆きの歌を歌った。各地に足跡を残し、山や土地に名を与えた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第14章"
+    },
+    {
+      "id": "qz-raft",
+      "text": "海辺に着いたケツァルコアトルは蛇で編んだ筏（コアトラペチトリ）を作らせ、それに乗って海を渡り、トラパランへ去った。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第14章"
+    },
+    {
+      "id": "qz-cmp-fall",
+      "text": "神の座を追われた設定は、酒に酔わされてトゥーラを去った伝承と重なる。妹との過去は『クアウティトランの年代記』などの別伝を踏まえたものと考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "姉妹との伝承はサアグンの記録には見えない。本記事で登録した出典ではないため、筆者の解説として示す。"
+    },
+    {
+      "id": "qz-cmp-sake",
+      "text": "原典で酒によって失墜した神が、作品では酒に強いとされている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ilmarinen",
+  "slug": "ilmarinen",
+  "name": "イルマリネン",
+  "reading": "いるまりねん",
+  "originalName": "Ilmarinen",
+  "romanized": "Ilmarinen",
+  "alternativeNames": [],
+  "type": "hero",
+  "roles": ["鍛冶師"],
+  "mythologyIds": ["finnish"],
+  "description": "天の蓋を鍛えたとされる不世出の鍛冶師。ポホヨラの娘を妻に迎える条件として、北の女主人ロウヒのために、穀物と塩と金を挽き出す魔法の臼サンポを鍛えた。",
+  "relatedFigureIds": ["vainamoinen", "louhi"],
+  "relatedStoryIds": ["forging-of-the-sampo"],
+  "articleIds": [],
+  "sourceIds": ["kalevala"]
+}

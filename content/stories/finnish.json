@@ -1,0 +1,47 @@
+[
+  {
+    "id": "birth-of-vainamoinen",
+    "title": "世界の始まりとワイナミョイネンの誕生",
+    "mythologyIds": ["finnish"],
+    "figureIds": ["ilmatar", "vainamoinen"],
+    "summary": "大気の乙女イルマタルは海に降りて水の母となり、波に揺られて漂い続けた。一羽の鴨が彼女の膝に巣を作って卵を温めたが、膝が熱くなって身を動かすと、卵は海に落ちて割れた。卵の下半分から大地が、上半分から天が、黄身から太陽が、白身から月が生まれた。やがてイルマタルの胎内で長い年月を過ごしたワイナミョイネンが、自ら外へ出て海を泳ぎ、陸に上がった。",
+    "sourceIds": ["kalevala"],
+    "sourceLocation": "『カレワラ』第1章"
+  },
+  {
+    "id": "forging-of-the-sampo",
+    "title": "サンポの鍛造",
+    "mythologyIds": ["finnish"],
+    "figureIds": ["ilmarinen", "louhi", "vainamoinen"],
+    "summary": "ポホヨラの女主人ロウヒは、魔法の臼サンポを造った者に娘を与えると約束する。鍛冶師イルマリネンは炉で何日もかけてサンポを鍛え上げた。サンポは一回りごとに食べるための分、売るための分、蓄えるための分を挽き出した。ロウヒはサンポを岩山の奥にしまい込んだ。",
+    "sourceIds": ["kalevala"],
+    "sourceLocation": "『カレワラ』第10章"
+  },
+  {
+    "id": "birth-of-the-kantele",
+    "title": "カンテレの誕生",
+    "mythologyIds": ["finnish"],
+    "figureIds": ["vainamoinen", "ilmarinen"],
+    "summary": "サンポを奪いにポホヨラへ向かう船が、巨大なカワカマスの肩に乗り上げた。ワイナミョイネンは剣でカワカマスを仕留め、皆で食べたのち、残った顎の骨から最初のカンテレ（竪琴）を作った。歯は糸巻きに、弦は悪霊レンポの馬の尾の毛で張られた。誰が弾いても音にならなかったが、ワイナミョイネンが奏でると、森の獣も空の鳥も聴き入った。",
+    "sourceIds": ["kalevala"],
+    "sourceLocation": "『カレワラ』第40–41章"
+  },
+  {
+    "id": "lemminkainen-in-tuonela",
+    "title": "レンミンカイネンの死と再生",
+    "mythologyIds": ["finnish"],
+    "figureIds": ["lemminkainen", "louhi"],
+    "summary": "ロウヒの娘に求婚したレンミンカイネンは、死者の国トゥオネラの川の白鳥を射るよう命じられる。川辺で待ち伏せた牧人に水蛇で射られたレンミンカイネンは、体を切り刻まれてトゥオネラの川に投げ込まれた。息子の死を知った母は、イルマリネンに銅の熊手を造らせて川底から体を集め、つなぎ合わせ、蜂が運んだ蜜の膏薬で息子をよみがえらせた。",
+    "sourceIds": ["kalevala"],
+    "sourceLocation": "『カレワラ』第14–15章"
+  },
+  {
+    "id": "fate-of-kullervo",
+    "title": "クッレルヴォの悲劇",
+    "mythologyIds": ["finnish"],
+    "figureIds": ["kullervo"],
+    "summary": "一族を叔父ウンタモに滅ぼされ、奴隷として売られたクッレルヴォは、行く先々で災いをもたらす。やがて生き別れの家族と再会するが、旅の途中でそれと知らずに妹と交わってしまい、真実を知った妹は川に身を投げた。すべてを失ったクッレルヴォは、妹と出会った場所に戻り、剣に「私の血を飲みたいか」と問う。剣は「罪人の血を飲まぬ理由があろうか」と答え、クッレルヴォは剣に身を投じた。",
+    "sourceIds": ["kalevala"],
+    "sourceLocation": "『カレワラ』第31–36章"
+  }
+]

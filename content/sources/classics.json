@@ -356,5 +356,29 @@
     "url": "https://zh.wikisource.org/wiki/%E5%B0%81%E7%A5%9E%E6%BC%94%E7%BE%A9",
     "urlLabel": "Wikisource（原文）",
     "notes": "殷の紂王が倒され周が興る易姓革命を、仙人たちの戦いとして描いた長編小説。作者には諸説がある。神話そのものではなく明代の創作文学だが、女媧・哪吒・太公望などの像に大きな影響を与えた。箇所は回数で示す。日本では安能務による翻案的な訳（講談社文庫）が広く読まれた。"
+  },
+  {
+    "id": "sahagun-historia",
+    "title": "ヌエバ・エスパーニャ諸事物概史",
+    "originalTitle": "Historia general de las cosas de Nueva España",
+    "author": "ベルナルディーノ・デ・サアグン",
+    "translator": "C. M. de Bustamante 編（メキシコ、1829–1830年刊のスペイン語版）",
+    "type": "primary",
+    "publishedPeriod": "16世紀後半（1570年代にほぼ完成）",
+    "url": "https://archive.org/details/historiagenerald01saha",
+    "urlLabel": "Internet Archive（Bustamante 版 第1巻）",
+    "notes": "スペイン人修道士サアグンが、アステカ（メシカ）の古老たちから聞き取った信仰・神話・風俗を、ナワトル語とスペイン語で記録した全12書の大著。ナワトル語を含む完全な写本は「フィレンツェ絵文書」として知られる。征服後にキリスト教の宣教師がまとめた記録であることに注意が必要。箇所は「第3書第1章」のように書と章で示す。"
+  },
+  {
+    "id": "kalevala",
+    "title": "カレワラ",
+    "originalTitle": "Kalevala",
+    "author": "エリアス・リョンロート（編）",
+    "translator": "John Martin Crawford 英訳『The Kalevala』（1888年）",
+    "type": "primary",
+    "publishedPeriod": "1849年（新カレワラ）。素材となった歌謡は口承で伝えられた",
+    "url": "https://archive.org/details/kalevalaepicpoem01craw",
+    "urlLabel": "Internet Archive（Crawford 英訳 第1巻）",
+    "notes": "医師リョンロートが、フィンランド東部やカレリア地方で歌い継がれていた歌謡を収集・編集して一つの叙事詩にまとめたもの。全50章（ルーノ）。古い神話を伝える資料であると同時に、編者による再構成を経た19世紀の作品でもある。箇所は「第◯章」で示す。邦訳に小泉保訳（岩波文庫）、森本覚丹訳（講談社学術文庫）がある。"
   }
 ]

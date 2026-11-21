@@ -1,0 +1,81 @@
+{
+  "id": "girls-und-panzer-mika",
+  "slug": "girls-und-panzer-mika",
+  "name": "ミカ",
+  "reading": "みか",
+  "alternativeNames": [],
+  "workId": "girls-und-panzer",
+  "description": {
+    "text": "フィンランド系の学校・継続高校の戦車道チームの隊長で、BT-42の車長。チューリップハットをかぶり、哲学的な話し方をする、つかみどころのない人物。",
+    "claimIds": ["gup-mika-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "vainamoinen",
+      "label": "カンテレ",
+      "inWork": {
+        "text": "戦車の車内でも、フィンランドの民族楽器カンテレを弾いている。",
+        "claimIds": ["gup-mika-work-kantele"]
+      },
+      "inMyth": {
+        "text": "『カレワラ』では、老賢者ワイナミョイネンが巨大なカワカマスの顎の骨から最初のカンテレを作った。誰が弾いても音にならなかったが、ワイナミョイネンが奏でると森の獣も空の鳥も聴き入った。",
+        "claimIds": ["gup-mika-myth-kantele", "gup-mika-myth-play"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ミカは神話の人物の名をもつキャラクターではないが、彼女が手にするカンテレは、『カレワラ』でワイナミョイネンが作り出した楽器として語られる。音楽で人を魅了する「歌い手」ワイナミョイネンの姿と、つねにカンテレを奏で、言葉で人を煙に巻くミカの姿を重ねて楽しむこともできる。",
+      "claimIds": [
+        "gup-mika-myth-kantele",
+        "gup-mika-work-kantele",
+        "gup-mika-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gup-mika-work",
+      "text": "ミカは継続高校の隊長でBT-42の車長。チューリップハットを被り、幻想的でつかみどころのない佇まいで、哲学的な話し方をする。継続高校はフィンランド系の学校。",
+      "classification": "creative",
+      "sourceIds": ["work-girls-und-panzer"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ガールズ&パンツァーの登場人物」の記述で確認。"
+    },
+    {
+      "id": "gup-mika-work-kantele",
+      "text": "ミカは車内でもフィンランドの民族楽器カンテレを弾く。",
+      "classification": "creative",
+      "sourceIds": ["work-girls-und-panzer"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ガールズ&パンツァーの登場人物」の記述で確認。"
+    },
+    {
+      "id": "gup-mika-myth-kantele",
+      "text": "ワイナミョイネンはカワカマスの顎の骨から竪琴（カンテレ）を作った。アーチは顎の骨、糸巻きは歯、弦はレンポの馬の尾の毛から作られた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40章（Crawford 英訳）"
+    },
+    {
+      "id": "gup-mika-myth-play",
+      "text": "若者たちや老人たちが弾いても不協和音しか出なかったが、ワイナミョイネンが奏でると、森の獣や空の鳥、水の魚までが聴き入った。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40–41章（Crawford 英訳）"
+    },
+    {
+      "id": "gup-mika-cmp",
+      "text": "カンテレを奏でるミカの姿は、歌と楽器で人を魅了するワイナミョイネンと重ねて楽しめる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品がワイナミョイネンを意図したかは確認できないため、筆者の読みとして示す。"
+    }
+  ],
+  "sourceIds": ["work-girls-und-panzer", "kalevala"],
+  "articleIds": []
+}

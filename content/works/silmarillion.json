@@ -1,0 +1,14 @@
+{
+  "id": "silmarillion",
+  "slug": "silmarillion",
+  "title": "シルマリルの物語",
+  "reading": "しるまりるのものがたり",
+  "type": "novel",
+  "mediaTypes": [],
+  "author": "J. R. R. トールキン（著）・クリストファー・トールキン（編）",
+  "period": "1977年（没後刊行）",
+  "description": "『指輪物語』の作者トールキンが生涯をかけて書き継いだ、中つ国の太古の神話と歴史。悲劇の英雄トゥーリン・トゥランバールの物語は、トールキン自身がフィンランドの『カレワラ』のクッレルヴォの物語を下敷きにしたと認めている。",
+  "mythologyIds": ["finnish"],
+  "articleIds": [],
+  "sourceIds": ["work-silmarillion"]
+}

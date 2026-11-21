@@ -115,5 +115,33 @@
     "publishedPeriod": "1996〜2000年（『週刊少年ジャンプ』連載）",
     "publisher": "集英社",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「封神演義 (漫画)」でも確認している。"
+  },
+  {
+    "id": "work-maidragon",
+    "title": "小林さんちのメイドラゴン",
+    "author": "クール教信者",
+    "type": "work",
+    "publishedPeriod": "2013〜2024年（『月刊アクション』連載）",
+    "publisher": "双葉社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「小林さんちのメイドラゴン」でも確認している。"
+  },
+  {
+    "id": "work-girls-und-panzer",
+    "title": "ガールズ&パンツァー",
+    "author": "水島努（監督）・アクタス（制作）",
+    "type": "work",
+    "publishedPeriod": "2012年〜（テレビアニメ）",
+    "publisher": "ガールズ&パンツァー製作委員会",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ガールズ&パンツァーの登場人物」でも確認している。"
+  },
+  {
+    "id": "work-silmarillion",
+    "title": "シルマリルの物語",
+    "originalTitle": "The Silmarillion",
+    "author": "J. R. R. トールキン（著）・クリストファー・トールキン（編）",
+    "type": "work",
+    "publishedPeriod": "1977年",
+    "publisher": "George Allen & Unwin",
+    "notes": "作品内の設定について述べる際の出典。トゥーリン・トゥランバールの物語の筋とカレワラとの関係は、英語版 Wikipedia「Túrin Turambar」「The Story of Kullervo」とその参考文献で確認している。"
   }
 ]

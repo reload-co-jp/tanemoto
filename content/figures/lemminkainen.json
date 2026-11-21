@@ -1,0 +1,17 @@
+{
+  "id": "lemminkainen",
+  "slug": "lemminkainen",
+  "name": "レンミンカイネン",
+  "reading": "れんみんかいねん",
+  "originalName": "Lemminkäinen",
+  "romanized": "Lemminkainen",
+  "alternativeNames": [],
+  "type": "hero",
+  "roles": ["冒険者", "色男"],
+  "mythologyIds": ["finnish"],
+  "description": "向こう見ずで女好きの若き英雄。ポホヨラの娘に求婚して課された難題に挑み、死者の国トゥオネラの川で白鳥を狩ろうとして殺され、体を切り刻まれて川に流された。母が銅の熊手で体を集めてつなぎ合わせ、よみがえらせた。",
+  "relatedFigureIds": ["louhi"],
+  "relatedStoryIds": ["lemminkainen-in-tuonela"],
+  "articleIds": [],
+  "sourceIds": ["kalevala"]
+}

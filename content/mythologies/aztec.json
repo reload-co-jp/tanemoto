@@ -1,0 +1,33 @@
+{
+  "id": "aztec",
+  "slug": "aztec",
+  "name": "アステカ神話",
+  "reading": "あすてかしんわ",
+  "region": "メキシコ中央部",
+  "period": "14〜16世紀のアステカ（メシカ）の信仰。主な記録は征服後の16世紀に書かれた",
+  "description": "羽毛ある蛇ケツァルコアトル、煙を吐く鏡テスカトリポカ、戦いの神ウィツィロポチトリなど、征服前のメキシコ中央部で信仰された神々の物語。神々が自らを火に投じて太陽と月が生まれたという「第五の太陽」の神話で知られる。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "アステカ（メシカ）の人々は、絵文字による記録を残していましたが、その多くはスペインによる征服の過程で失われました。今日アステカの神話を知る主な手がかりは、征服後の16世紀に、宣教師たちが先住民の古老から聞き取ってまとめた記録です。"
+    },
+    {
+      "type": "paragraph",
+      "text": "その代表が、修道士ベルナルディーノ・デ・サアグンの『ヌエバ・エスパーニャ諸事物概史』です。ただし、キリスト教の宣教師がまとめた記録であるため、神々を「悪魔」と呼ぶなど、記録者の立場が色濃く反映されています。トモタネでは、どの記録のどの箇所に拠るかを明示して紹介します。概要は[アステカ神話とは？](/articles/aztec-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": [
+    "quetzalcoatl",
+    "tezcatlipoca",
+    "huitzilopochtli",
+    "coatlicue",
+    "coyolxauhqui",
+    "nanahuatzin",
+    "tecuciztecatl",
+    "tlaloc",
+    "xolotl"
+  ],
+  "storyIds": ["fifth-sun", "birth-of-huitzilopochtli", "fall-of-quetzalcoatl"],
+  "sourceIds": ["sahagun-historia"],
+  "order": 9
+}

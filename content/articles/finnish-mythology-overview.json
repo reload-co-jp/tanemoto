@@ -1,0 +1,171 @@
+{
+  "id": "finnish-mythology-overview",
+  "slug": "finnish-mythology-overview",
+  "title": "フィンランド神話とは？叙事詩『カレワラ』の成り立ちと世界の始まりをわかりやすく解説",
+  "shortTitle": "フィンランド神話とは？",
+  "eyecatchText": "カレワラ",
+  "description": "フィンランド神話は、19世紀にリョンロートが歌い手たちの歌を集めて編んだ叙事詩『カレワラ』によって知られる。卵から生まれた世界、老賢者ワイナミョイネン、魔法の臼サンポなど、『カレワラ』の主な物語を紹介します。",
+  "lead": "フィンランドの国民的叙事詩『カレワラ』は、トールキンの物語やシベリウスの音楽にも影響を与えた作品です。けれどもそれは、古代から一冊の本として伝わったものではありません。歌い継がれた神話がどのように叙事詩になったのか、基本から整理します。",
+  "category": "basics",
+  "tags": [
+    "フィンランド神話",
+    "カレワラ",
+    "ワイナミョイネン",
+    "サンポ",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "ilmatar",
+    "vainamoinen",
+    "ilmarinen",
+    "louhi",
+    "lemminkainen",
+    "kullervo"
+  ],
+  "mythologyIds": ["finnish"],
+  "storyIds": [
+    "birth-of-vainamoinen",
+    "forging-of-the-sampo",
+    "lemminkainen-in-tuonela",
+    "fate-of-kullervo"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["kalevala"],
+  "relatedArticleIds": ["vainamoinen", "kullervo"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "歌から叙事詩へ",
+      "anchor": "kalevala"
+    },
+    {
+      "type": "paragraph",
+      "text": "フィンランドやカレリア地方では、古い神話や英雄の物語が、長いあいだ歌として口伝えに受け継がれてきました。19世紀、医師エリアス・リョンロートは各地を旅して歌い手たちから歌謡を書き取り、それらを一つの筋にまとめて叙事詩『カレワラ』を編みました。1849年に完成した新カレワラは全50章（ルーノ）からなります。",
+      "claimIds": ["fi-lonnrot"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "編まれた叙事詩",
+      "text": "『カレワラ』は古い歌謡を素材にしていますが、どの歌をどの順に並べ、どうつなぐかはリョンロートが決めました。古代の神話をそのまま伝える資料であると同時に、19世紀に編纂された作品でもある点に注意が必要です。",
+      "claimIds": ["fi-caution"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "卵から生まれた世界",
+      "anchor": "creation"
+    },
+    {
+      "type": "paragraph",
+      "text": "『カレワラ』は世界の始まりから歌い起こされます。大気の乙女イルマタルは、海に降りて水の母となり、風と波に揺られて漂い続けました。そこへ一羽の鴨が飛んできて、彼女の膝に巣を作り、卵を温めます。",
+      "claimIds": ["fi-ilmatar"]
+    },
+    {
+      "type": "paragraph",
+      "text": "やがて膝が熱くなり、イルマタルが身を動かすと、卵は海に落ちて砕けました。けれども破片は失われず、美しく姿を変えました。卵の下半分は大地に、上半分は天に、黄身は太陽に、白身は月に、まだらの部分は星に、黒い部分は雲になったのです。",
+      "claimIds": ["fi-egg"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "主な登場人物",
+      "anchor": "figures"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ワイナミョイネン：イルマタルの子で、歌で魔法を使う老賢者。最初のカンテレを作った",
+        "イルマリネン：天の蓋を鍛えたとされる鍛冶師。魔法の臼サンポを鍛えた",
+        "ロウヒ：北の国ポホヨラの女主人。サンポを手に入れる",
+        "レンミンカイネン：向こう見ずな若き英雄。死者の国の川で殺されるが、母によってよみがえる",
+        "クッレルヴォ：奴隷として育った悲劇の若者"
+      ],
+      "claimIds": ["fi-figures"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "サンポ",
+      "anchor": "sampo"
+    },
+    {
+      "type": "paragraph",
+      "text": "物語の中心にあるのが、魔法の臼サンポです。ロウヒは、サンポを造った者に娘を与えると約束し、鍛冶師イルマリネンが炉で鍛え上げました。サンポは一回りごとに、食べるための分、売るための分、蓄えるための分を挽き出したといいます。のちにワイナミョイネンたちはポホヨラからサンポを奪おうと船出し、その途中で最初のカンテレが生まれます。詳しくは[ワイナミョイネンとカンテレ](/articles/vainamoinen/)で解説しています。",
+      "claimIds": ["fi-sampo"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『カレワラ』は、リョンロートが口承の歌謡を集めて1849年にまとめた全50章の叙事詩",
+        "世界は、イルマタルの膝の上で割れた鴨の卵から生まれた",
+        "魔法の臼サンポをめぐる争いが物語の大きな軸になっている"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "fi-lonnrot",
+      "text": "『カレワラ』はリョンロートがフィンランドとカレリアの口承歌謡を集めて編纂した叙事詩で、1849年の新カレワラは全50章からなる。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Crawford 英訳 序文・目次"
+    },
+    {
+      "id": "fi-caution",
+      "text": "歌の選択と配列は編者リョンロートによるもので、19世紀の作品としての側面ももつ。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fi-ilmatar",
+      "text": "大気の乙女は海に降りて水の母となり、四方を漂った。助けを求めると一羽の鴨が飛んできて、彼女の膝に巣を作り卵を温めた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第1章"
+    },
+    {
+      "id": "fi-egg",
+      "text": "膝が熱くなって乙女が身を動かすと卵は海に落ちて砕けたが、破片は姿を変え、下半分から大地、上半分から天、黄身から太陽、白身から月、まだらの部分から星、黒い部分から雲が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第1章"
+    },
+    {
+      "id": "fi-figures",
+      "text": "『カレワラ』にはワイナミョイネン、イルマリネン、ロウヒ、レンミンカイネン、クッレルヴォらが登場する。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』（Crawford 英訳 目次）"
+    },
+    {
+      "id": "fi-sampo",
+      "text": "イルマリネンはロウヒのためにサンポを鍛えた。サンポは食べるための分、売るための分、蓄えるための分を挽き出した。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第10章"
+    }
+  ]
+}

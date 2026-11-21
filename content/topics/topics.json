@@ -10,13 +10,15 @@
       "cerberus",
       "izanami",
       "osiris",
-      "anubis"
+      "anubis",
+      "lemminkainen"
     ],
     "storyIds": [
       "abduction-of-persephone",
       "heracles-cerberus",
       "izanagi-yomi",
-      "weighing-of-the-heart"
+      "weighing-of-the-heart",
+      "lemminkainen-in-tuonela"
     ],
     "order": 1
   },
@@ -67,7 +69,9 @@
       "arjuna",
       "indra",
       "sun-wukong",
-      "nezha"
+      "nezha",
+      "vainamoinen",
+      "ilmarinen"
     ],
     "storyIds": [
       "perseus-medusa",
@@ -78,7 +82,9 @@
       "karna-armor",
       "arjuna-and-the-kirata",
       "havoc-in-heaven",
-      "nezha-lotus-body"
+      "nezha-lotus-body",
+      "forging-of-the-sampo",
+      "birth-of-the-kantele"
     ],
     "order": 4
   },
@@ -117,8 +123,15 @@
     "slug": "transformation",
     "name": "変身",
     "description": "神々の怒りや罰、術によって姿を変える物語。オウィディウス『変身物語』のほか、妲己の体を借りた千年狐狸精や、七十二の変化を操る孫悟空などがある。",
-    "figureIds": ["medusa", "daji", "nine-tailed-fox", "sun-wukong"],
-    "storyIds": ["daji-and-the-fox", "havoc-in-heaven"],
+    "figureIds": [
+      "medusa",
+      "daji",
+      "nine-tailed-fox",
+      "sun-wukong",
+      "xolotl",
+      "tecuciztecatl"
+    ],
+    "storyIds": ["daji-and-the-fox", "havoc-in-heaven", "fifth-sun"],
     "order": 6
   },
   {
@@ -150,9 +163,32 @@
     "id": "taboo",
     "slug": "taboo",
     "name": "禁忌（タブー）",
-    "description": "「見てはならない」「食べてはならない」といった禁を破ったことで、取り返しのつかない結果を招く物語。イザナギの黄泉国訪問や、禁忌（ゲシュ）を破って力を失ったクー・フーリンの最期などがある。",
-    "figureIds": ["izanagi", "izanami", "cu-chulainn"],
-    "storyIds": ["izanagi-yomi", "death-of-cu-chulainn"],
+    "description": "「見てはならない」「食べてはならない」といった禁を破ったり、それと知らずに禁忌を犯したりして、取り返しのつかない結果を招く物語。イザナギの黄泉国訪問や、禁忌（ゲシュ）を破ったクー・フーリンの最期、それと知らずに妹と結ばれたクッレルヴォの悲劇などがある。",
+    "figureIds": ["izanagi", "izanami", "cu-chulainn", "kullervo"],
+    "storyIds": ["izanagi-yomi", "death-of-cu-chulainn", "fate-of-kullervo"],
     "order": 8
+  },
+  {
+    "id": "creation",
+    "slug": "creation",
+    "name": "天地創造",
+    "description": "世界がどのように始まったのかを語る神話。原初の女神の体から天地を造る『エヌマ・エリシュ』、卵から世界が生まれる『カレワラ』、神々の自己犠牲で太陽と月が生まれるアステカの神話など、さまざまな形がある。",
+    "figureIds": [
+      "tiamat",
+      "marduk",
+      "ilmatar",
+      "nanahuatzin",
+      "tecuciztecatl",
+      "nuwa",
+      "izanagi",
+      "izanami"
+    ],
+    "storyIds": [
+      "marduk-and-tiamat",
+      "birth-of-vainamoinen",
+      "fifth-sun",
+      "nuwa-mends-heaven"
+    ],
+    "order": 9
   }
 ]

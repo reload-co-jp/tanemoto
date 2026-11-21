@@ -1,0 +1,17 @@
+{
+  "id": "tecuciztecatl",
+  "slug": "tecuciztecatl",
+  "name": "テクシステカトル",
+  "reading": "てくしすてかとる",
+  "originalName": "Tēcciztēcatl",
+  "romanized": "Tecuciztecatl",
+  "alternativeNames": ["テクシステカトル"],
+  "type": "god",
+  "roles": ["月"],
+  "mythologyIds": ["aztec"],
+  "description": "テオティワカンで、世界を照らす役目を自ら名のり出た神。高価な供物を捧げたが、火に飛び込むのをためらい、ナナワツィンのあとに火に入って月となった。神々に顔へ兎を投げつけられたため、月には兎の模様があるという。",
+  "relatedFigureIds": ["nanahuatzin"],
+  "relatedStoryIds": ["fifth-sun"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

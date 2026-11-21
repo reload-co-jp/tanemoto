@@ -1,0 +1,17 @@
+{
+  "id": "coatlicue",
+  "slug": "coatlicue",
+  "name": "コアトリクエ",
+  "reading": "こあとりくえ",
+  "originalName": "Cōātlīcue",
+  "romanized": "Coatlicue",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["大地", "母神"],
+  "mythologyIds": ["aztec"],
+  "description": "「蛇のスカート」を意味する名の女神。コアテペクの山で掃除の苦行をしていたとき、空から降ってきた羽毛の球を胸に入れて身ごもり、ウィツィロポチトリを産んだ。",
+  "relatedFigureIds": ["huitzilopochtli", "coyolxauhqui"],
+  "relatedStoryIds": ["birth-of-huitzilopochtli"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

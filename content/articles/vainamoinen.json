@@ -1,0 +1,200 @@
+{
+  "id": "vainamoinen",
+  "slug": "vainamoinen",
+  "title": "ワイナミョイネンとカンテレ——『カレワラ』の老賢者と、カワカマスの骨から生まれた楽器",
+  "shortTitle": "ワイナミョイネンとカンテレ",
+  "eyecatchText": "ワイナミョイネン",
+  "description": "生まれたときから老人だった『カレワラ』の賢者ワイナミョイネン。巨大なカワカマスの顎の骨から作った最初のカンテレで、森の獣も空の鳥も魅了した。『ガールズ&パンツァー』のミカが奏でるカンテレの由来とともに解説します。",
+  "lead": "『ガールズ&パンツァー』で、継続高校の隊長ミカがいつも手にしている楽器カンテレ。フィンランドの民族楽器であるこのカンテレは、『カレワラ』では老賢者ワイナミョイネンが作り出したものとして語られます。歌の力で世界を動かす賢者の物語をたどります。",
+  "category": "gods-heroes",
+  "tags": [
+    "ワイナミョイネン",
+    "カンテレ",
+    "カレワラ",
+    "ガールズ&パンツァー",
+    "フィンランド神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["vainamoinen", "ilmatar", "ilmarinen", "louhi"],
+  "mythologyIds": ["finnish"],
+  "storyIds": [
+    "birth-of-vainamoinen",
+    "birth-of-the-kantele",
+    "forging-of-the-sampo"
+  ],
+  "workIds": ["girls-und-panzer"],
+  "characterIds": ["girls-und-panzer-mika"],
+  "topicIds": ["divine-items"],
+  "sourceIds": ["kalevala", "work-girls-und-panzer"],
+  "relatedArticleIds": ["finnish-mythology-overview", "kullervo"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "生まれながらの老人",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "ワイナミョイネンは、大気の乙女イルマタルの子です。けれども彼は、なかなか母の胎内から出てきませんでした。『カレワラ』は、彼が三十の夏と三十の冬を母の胎内で過ごしたと歌います。",
+      "claimIds": ["va-thirty"]
+    },
+    {
+      "type": "paragraph",
+      "text": "月にも太陽にも大熊座にも出口を開いてもらえなかったワイナミョイネンは、ついに自ら名もなき指で扉を開き、頭から海へ飛び込みました。七年、八年と海を泳いだのち、ようやく岬に上がって、太陽と月を仰ぎ見たのです。",
+      "claimIds": ["va-out"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「永遠の歌い手」",
+      "text": "ワイナミョイネンは剣や力ではなく、歌によって魔法を使う賢者として描かれます。生まれながらの老人という姿は、知恵と経験を体現する存在であることを表しているといえるでしょう。",
+      "claimIds": ["va-cmp-old"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "巨大なカワカマス",
+      "anchor": "pike"
+    },
+    {
+      "type": "paragraph",
+      "text": "ポホヨラにある魔法の臼サンポを奪うため、ワイナミョイネンはイルマリネン、レンミンカイネンとともに船で出発します。ところが船は、巨大なカワカマス（パイク）の肩に乗り上げて動かなくなってしまいました。ワイナミョイネンは剣でカワカマスを仕留め、皆でその肉を食べます。",
+      "claimIds": ["va-pike"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "最初のカンテレ",
+      "anchor": "kantele"
+    },
+    {
+      "type": "paragraph",
+      "text": "宴のあと、岩の上に残った魚の骨を眺めて、ワイナミョイネンは「この骨から何か不思議なものが作れるかもしれない」と考えました。鍛冶師イルマリネンは「魚の骨からはろくなものはできない」と答えますが、ワイナミョイネンは自ら骨細工の名人となって、見事な竪琴を作り上げます。",
+      "claimIds": ["va-make"]
+    },
+    {
+      "type": "quote",
+      "text": "竪琴の弓形はどこから？　怪物の顎の骨から。なくてはならぬ糸巻きはどこから？　カワカマスの歯をしっかりはめて。甘く歌う弦はどこから？　レンポの馬の尾から。",
+      "sourceId": "kalevala",
+      "location": "第40章",
+      "claimIds": ["va-parts"],
+      "translationNote": "Crawford の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "若者たちや老人たちが代わる代わる弾いてみても、出てくるのは不協和音ばかりでした。ところがワイナミョイネンが弾くと、森の獣も空の鳥も、水の中の魚までもが集まってきて聴き入ったといいます。",
+      "claimIds": ["va-play"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『ガールズ&パンツァー』のミカ",
+      "anchor": "mika"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ガールズ&パンツァー』に登場するフィンランド系の学校・継続高校の隊長ミカは、戦車の車内でもカンテレを弾いている、つかみどころのない人物です。フィンランドの民族楽器カンテレは、『カレワラ』ではワイナミョイネンが作り出した楽器として語られています。",
+      "claimIds": ["va-work", "va-parts"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "奏でる者たち",
+      "text": "ミカは神話の人物の名をもつキャラクターではありませんが、歌と楽器で人々を魅了したワイナミョイネンの姿と、つねにカンテレを奏で、哲学的な言葉で周囲を煙に巻くミカの姿を重ねて楽しむこともできるでしょう。",
+      "claimIds": ["va-cmp-mika"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ワイナミョイネンは大気の乙女イルマタルの子で、三十年を母の胎内で過ごした",
+        "サンポを奪いに行く途中、巨大なカワカマスを仕留め、その顎の骨から最初のカンテレを作った",
+        "ワイナミョイネンがカンテレを奏でると、森の獣も空の鳥も聴き入った"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "va-thirty",
+      "text": "ワイナミョイネンは三十の夏と三十の冬を母の胎内で過ごした。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第1章"
+    },
+    {
+      "id": "va-out",
+      "text": "月も太陽も大熊座も彼を解き放たなかったため、ワイナミョイネンは名もなき指で扉を開き、頭から海に飛び込んだ。七年、八年と海にいたのち、岬に上がって太陽と月を見た。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第1章"
+    },
+    {
+      "id": "va-cmp-old",
+      "text": "生まれながらの老人という姿は、知恵と経験を体現する存在であることを表しているといえる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "va-pike",
+      "text": "サンポを求めてポホヨラへ向かう船は巨大なカワカマスの肩に乗り上げた。ワイナミョイネンはカワカマスを仕留め、一行はそれを食べた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40章"
+    },
+    {
+      "id": "va-make",
+      "text": "ワイナミョイネンは残った魚の骨から不思議なものが作れると考えた。イルマリネンは魚の骨からは何も作れないと答えたが、ワイナミョイネンは自ら骨細工の名人となって竪琴を作った。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40章"
+    },
+    {
+      "id": "va-parts",
+      "text": "竪琴の弓形は怪物の顎の骨から、糸巻きはカワカマスの歯から、弦はレンポの馬の尾から作られた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40章（Crawford 英訳）"
+    },
+    {
+      "id": "va-play",
+      "text": "若者たちが弾いても不協和音しか出なかったが、ワイナミョイネンが奏でると、森の獣も空の鳥も水の魚も集まって聴き入った。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40–41章"
+    },
+    {
+      "id": "va-work",
+      "text": "ミカは継続高校の隊長で、車内でもフィンランドの民族楽器カンテレを弾く。幻想的でつかみどころのない佇まいで、哲学的な話し方をする。",
+      "classification": "creative",
+      "sourceIds": ["work-girls-und-panzer"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ガールズ&パンツァーの登場人物」の記述で確認。"
+    },
+    {
+      "id": "va-cmp-mika",
+      "text": "カンテレを奏でるミカの姿は、歌と楽器で人を魅了するワイナミョイネンと重ねて楽しめる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品がワイナミョイネンを意図したかは確認できないため、筆者の読みとして示す。"
+    }
+  ]
+}

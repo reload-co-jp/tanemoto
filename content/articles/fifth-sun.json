@@ -1,0 +1,250 @@
+{
+  "id": "fifth-sun",
+  "slug": "fifth-sun",
+  "title": "第五の太陽の誕生——テオティワカンで火に身を投じた神々と、月の兎の神話",
+  "shortTitle": "第五の太陽の誕生",
+  "eyecatchText": "第五の太陽",
+  "description": "アステカ神話で、いまの世界を照らす「第五の太陽」はどう生まれたのか。テオティワカンで、腫れ物の神ナナワツィンが自ら火に飛び込んで太陽となり、ためらった神テクシステカトルが月となった物語を、サアグンの記録から解説します。",
+  "lead": "月に兎がいるという話は日本だけのものではありません。アステカの神話にも、神々が月の顔に兎を投げつけたという話があります。それは、太陽と月が生まれた壮大な神話の一場面でした。サアグンの記録に沿ってたどります。",
+  "category": "myths",
+  "tags": [
+    "アステカ神話",
+    "第五の太陽",
+    "テオティワカン",
+    "ナナワツィン",
+    "月の兎"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["nanahuatzin", "tecuciztecatl", "quetzalcoatl", "xolotl"],
+  "mythologyIds": ["aztec"],
+  "storyIds": ["fifth-sun"],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": ["transformation"],
+  "sourceIds": ["sahagun-historia"],
+  "relatedArticleIds": [
+    "aztec-mythology-overview",
+    "quetzalcoatl",
+    "hou-yi-and-change"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "誰が世界を照らすのか",
+      "anchor": "council"
+    },
+    {
+      "type": "paragraph",
+      "text": "まだ昼のなかった太古、神々はテオティワカンに集まり、「誰が世界を照らす役目を引き受けるのか」と話し合いました。真っ先に名のり出たのは、テクシステカトルという神でした。",
+      "claimIds": ["fs-council"]
+    },
+    {
+      "type": "paragraph",
+      "text": "もう一人を決めようとすると、神々は互いに顔を見合わせるばかりで、誰も名のり出ようとしません。そこで神々は、黙って話を聞いていた、腫れ物に覆われた目立たない神に声をかけました。「お前が照らす者になれ、腫れ物の神よ」。その神、ナナワツィンは「ありがたくお引き受けします」と、快く応じたのです。",
+      "claimIds": ["fs-nanahuatzin"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "二柱の苦行",
+      "anchor": "penance"
+    },
+    {
+      "type": "paragraph",
+      "text": "二柱は四日間の苦行を行います。テクシステカトルの供物はどれも豪華でした。枝の代わりに美しい羽を、草の玉の代わりに黄金の玉を、リュウゼツランの棘の代わりに宝石の棘を、血で染めた棘の代わりに赤い珊瑚の棘を捧げました。",
+      "claimIds": ["fs-offering"]
+    },
+    {
+      "type": "paragraph",
+      "text": "一方ナナワツィンは、緑の葦を三本ずつ束ねたものを捧げ、草の玉とリュウゼツランの棘を自らの血で染め、香の代わりに自分の腫れ物のかさぶたを捧げました。二柱のために山のような塔が築かれ、そこで四夜の苦行が行われました。",
+      "claimIds": ["fs-offering"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "火の中へ",
+      "anchor": "fire"
+    },
+    {
+      "type": "paragraph",
+      "text": "真夜中、神々は四日間燃え続けた炉のまわりに二列に並びました。「さあテクシステカトル、火に入れ」。テクシステカトルは火に飛び込もうとしますが、あまりの熱さに恐れて後ずさりします。四度試みても、ついに飛び込むことはできませんでした。",
+      "claimIds": ["fs-fire"]
+    },
+    {
+      "type": "quote",
+      "text": "神々はナナワツィンに言った。「さあナナワツィン、お前が試せ」。言われるや、彼は奮い立ち、目を閉じて駆け寄り、火の中に身を投げた。そして焼かれる者のように、火の中でぱちぱちと音を立てはじめた。",
+      "sourceId": "sahagun-historia",
+      "location": "第7書第2章",
+      "claimIds": ["fs-fire"],
+      "translationNote": "スペイン語原文からの編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "それを見たテクシステカトルも、続いて火に身を投じました。このとき鷲も火に入って羽が黒くなり、最後にジャガーが入って焦げ、黒と白のまだらになったといいます。勇敢な戦士を「鷲とジャガー」と呼ぶ習わしは、ここから生まれたとされます。",
+      "claimIds": ["fs-eagle"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "東から昇る太陽",
+      "anchor": "sunrise"
+    },
+    {
+      "type": "paragraph",
+      "text": "神々が待つうちに、空が赤く染まり、あらゆる方向に夜明けの光が現れました。神々はひざまずいて、太陽がどこから昇るのかを見守ります。北を、南を、さまざまな方向を見る神々のなかで、東を見つめていたのが、「エカトルとも呼ばれる」ケツァルコアトルたちでした。その言葉どおり、太陽は東から昇り、続いて月も東から昇りました。",
+      "claimIds": ["fs-east"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "月の兎",
+      "anchor": "rabbit"
+    },
+    {
+      "type": "paragraph",
+      "text": "昇った太陽と月は、同じように明るく輝いていました。神々は「二つが同じように照らしてよいものか」と話し合い、一柱が駆け寄って、テクシステカトルの顔に兎を投げつけました。こうして月の顔は暗くなり、光は弱められ、いまの月の姿になったといいます。",
+      "claimIds": ["fs-rabbit"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "サアグンが記す「月の兎」",
+      "text": "サアグンは、満月の中には兎のような姿が見えると記し、それは神々が月をからかって顔に兎を投げつけた跡だという話を伝えています。",
+      "claimIds": ["fs-rabbit-face"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神々の死と風",
+      "anchor": "wind"
+    },
+    {
+      "type": "paragraph",
+      "text": "ところが太陽と月は空に昇ったまま、少しも動きません。「どうして生きていけようか。我々も死に、太陽をよみがえらせよう」——神々はそう決め、風の神が神々を殺していきました。ただ一柱、ショロトルだけは死を拒み、トウモロコシ、リュウゼツラン、そして水中の魚アショロトルへと姿を変えて逃げましたが、ついに捕らえられて殺されます。",
+      "claimIds": ["fs-death"]
+    },
+    {
+      "type": "paragraph",
+      "text": "それでも太陽は動きませんでした。そこで風が激しく吹きはじめ、太陽はようやく自分の道を進みはじめます。太陽が動き出したあとも月はしばらくとどまっていましたが、やがて月も動き出し、こうして太陽と月は別々の時に昇るようになりました。",
+      "claimIds": ["fs-wind"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "もしも先に飛び込んでいたら",
+      "text": "サアグンは、もしテクシステカトルが先に火に飛び込んでいれば、彼こそが太陽になっていただろうという言い伝えも記しています。",
+      "claimIds": ["fs-ifonly"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "神々はテオティワカンに集まり、世界を照らす者を決めようとした",
+        "豪華な供物を捧げたテクシステカトルは火を恐れ、腫れ物の神ナナワツィンが先に火に飛び込んで太陽となった",
+        "続いて火に入ったテクシステカトルは月となり、顔に兎を投げつけられて光を弱められた",
+        "動かない太陽を動かすため、神々は死を選び、風が太陽を動かした"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "fs-council",
+      "text": "昼のない時代、神々はテオティワカンに集まり、誰が世界を照らすかを話し合った。テクシステカトルが「私が引き受けよう」と名のり出た。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-nanahuatzin",
+      "text": "ほかの神々は誰も名のり出ず、黙って聞いていた腫れ物の神に「お前が照らせ」と言った。彼は喜んでそれを受けた。この神がナナワツィンである。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-offering",
+      "text": "テクシステカトルは羽、黄金の玉、宝石の棘、赤い珊瑚の棘、上等の香を捧げた。ナナワツィンは三本ずつ束ねた緑の葦、草の玉と自らの血で染めたリュウゼツランの棘、香の代わりに腫れ物のかさぶたを捧げた。二柱のために山のような塔が築かれ、四夜の苦行が行われた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-fire",
+      "text": "テクシステカトルは火に入ろうとして熱さを恐れ、四度試みても飛び込めなかった。神々に促されたナナワツィンは目を閉じて火に身を投げ、焼かれる者のように音を立てた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-eagle",
+      "text": "テクシステカトルも続いて火に飛び込んだ。鷲も火に入って羽が黒ずみ、最後にジャガーが入って黒と白のまだらになった。そこから勇敢な戦士をクアウトリ・オセロトル（鷲とジャガー）と呼ぶようになった。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-east",
+      "text": "空が赤くなり夜明けの光が四方に現れると、神々は太陽の昇る方角を探した。東を見たのは、エカトルとも呼ばれるケツァルコアトルらであり、太陽は東から昇り、月も東から昇った。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-rabbit",
+      "text": "太陽と月は同じように輝いていたため、神々の一柱が駆け寄ってテクシステカトルの顔に兎を投げつけ、その顔を暗くして光を弱めた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-rabbit-face",
+      "text": "満月の中には兎のような姿が見え、それは神々が月をからかって顔に兎を投げつけた跡だという。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-death",
+      "text": "太陽と月は動かなかったため、神々は自らの死によって太陽をよみがえらせようと決め、風が神々を殺した。ショロトルは死を拒み、二本茎のトウモロコシ、二つの胴をもつリュウゼツラン、水中の魚アショロトルへと姿を変えて逃げたが、捕らえられて殺された。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-wind",
+      "text": "神々が死んでも太陽は動かず、風が激しく吹いて太陽を動かした。太陽が動き出したあとも月はとどまっていたが、やがて動き出し、太陽と月は別々の時に出るようになった。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    },
+    {
+      "id": "fs-ifonly",
+      "text": "テクシステカトルが先に火に入っていれば、太陽になっていただろうといわれる。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第7書第2章"
+    }
+  ]
+}

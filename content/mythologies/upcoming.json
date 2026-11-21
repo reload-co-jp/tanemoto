@@ -1,29 +1,20 @@
 [
   {
-    "id": "aztec",
-    "slug": "aztec",
-    "name": "アステカ神話",
-    "region": "メキシコ中央部",
-    "description": "ケツァルコアトルやテスカトリポカなど、征服前のメキシコ中央部で信仰された神々の物語。準備中です。",
-    "comingSoon": true,
-    "order": 9
-  },
-  {
     "id": "slavic",
     "slug": "slavic",
     "name": "スラヴ神話",
     "region": "東ヨーロッパ・ロシアなど",
     "description": "雷神ペルーンや森の魔女バーバ・ヤガーなど、スラヴの人々の神々と民間伝承。準備中です。",
     "comingSoon": true,
-    "order": 10
+    "order": 11
   },
   {
-    "id": "finnish",
-    "slug": "finnish",
-    "name": "フィンランド神話",
-    "region": "フィンランド・カレリア",
-    "description": "叙事詩『カレワラ』に伝えられる、賢者ワイナモイネンや魔法の臼サンポの物語。準備中です。",
+    "id": "polynesian",
+    "slug": "polynesian",
+    "name": "ポリネシア神話",
+    "region": "ハワイ・ニュージーランドなど太平洋の島々",
+    "description": "半神マウイや火山の女神ペレなど、太平洋の島々に伝わる神々の物語。準備中です。",
     "comingSoon": true,
-    "order": 11
+    "order": 12
   }
 ]

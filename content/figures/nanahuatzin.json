@@ -1,0 +1,17 @@
+{
+  "id": "nanahuatzin",
+  "slug": "nanahuatzin",
+  "name": "ナナワツィン",
+  "reading": "ななわつぃん",
+  "originalName": "Nanāhuatzin",
+  "romanized": "Nanahuatzin",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["太陽"],
+  "mythologyIds": ["aztec"],
+  "description": "できもの（梅毒のような腫れ物）に覆われた、目立たない神。テオティワカンに集まった神々のうち、誰もが恐れて引き受けなかった役目を受け入れ、燃えさかる火に身を投じて太陽となった。",
+  "relatedFigureIds": ["tecuciztecatl", "quetzalcoatl"],
+  "relatedStoryIds": ["fifth-sun"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

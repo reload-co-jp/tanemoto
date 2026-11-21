@@ -1,0 +1,17 @@
+{
+  "id": "vainamoinen",
+  "slug": "vainamoinen",
+  "name": "ワイナミョイネン",
+  "reading": "わいなみょいねん",
+  "originalName": "Väinämöinen",
+  "romanized": "Vainamoinen",
+  "alternativeNames": ["ワイナモイネン", "ヴァイナモイネン"],
+  "type": "hero",
+  "roles": ["賢者", "歌い手", "カンテレ"],
+  "mythologyIds": ["finnish"],
+  "description": "『カレワラ』の主人公格の老賢者で、歌によって魔法を使う「永遠の歌い手」。大気の乙女イルマタルの子で、母の胎内で長い年月を過ごし、生まれたときにはすでに老人だった。巨大なカワカマスの顎の骨から最初のカンテレを作った。",
+  "relatedFigureIds": ["ilmatar", "ilmarinen", "louhi"],
+  "relatedStoryIds": ["birth-of-vainamoinen", "birth-of-the-kantele"],
+  "articleIds": [],
+  "sourceIds": ["kalevala"]
+}

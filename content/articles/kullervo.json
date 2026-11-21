@@ -1,0 +1,200 @@
+{
+  "id": "kullervo",
+  "slug": "kullervo",
+  "title": "クッレルヴォとは？『カレワラ』の悲劇の英雄と、トールキン『シルマリルの物語』トゥーリンへの影響",
+  "shortTitle": "クッレルヴォとトゥーリン",
+  "eyecatchText": "クッレルヴォ",
+  "description": "『カレワラ』で最も悲劇的な英雄クッレルヴォ。奴隷として育ち、それと知らずに妹と結ばれ、最後は剣に問いかけて命を絶つ。トールキンが『シルマリルの物語』のトゥーリン・トゥランバールの下敷きにした物語を原典から解説します。",
+  "lead": "『指輪物語』の作者トールキンは、学生時代に『カレワラ』に魅了され、なかでもクッレルヴォの物語を「とても偉大で、最も悲劇的な物語」と呼んで自ら書き直そうとしました。その物語は、のちに『シルマリルの物語』の英雄トゥーリンへと受け継がれます。",
+  "category": "character-origins",
+  "tags": [
+    "クッレルヴォ",
+    "カレワラ",
+    "トールキン",
+    "シルマリルの物語",
+    "トゥーリン",
+    "フィンランド神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["kullervo", "ilmarinen"],
+  "mythologyIds": ["finnish"],
+  "storyIds": ["fate-of-kullervo"],
+  "workIds": ["silmarillion"],
+  "characterIds": ["silmarillion-turin"],
+  "topicIds": ["taboo"],
+  "sourceIds": ["kalevala", "work-silmarillion"],
+  "relatedArticleIds": [
+    "finnish-mythology-overview",
+    "vainamoinen",
+    "cu-chulainn"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "奴隷として育った子",
+      "anchor": "childhood"
+    },
+    {
+      "type": "paragraph",
+      "text": "クッレルヴォの一族は、叔父ウンタモ（ウンタモイネン）に滅ぼされました。生き残ったクッレルヴォはウンタモのもとで育ちますが、何度殺されそうになっても生きのび、与えられた仕事はことごとく台無しにしてしまいます。持て余したウンタモは、彼を鍛冶師イルマリネンに奴隷として売りました。",
+      "claimIds": ["kv-untamo", "kv-sold"]
+    },
+    {
+      "type": "paragraph",
+      "text": "イルマリネンの妻に虐げられたクッレルヴォは、狼と熊を使って彼女に復讐します。こうしてクッレルヴォは、行く先々で災いをもたらしていきました。",
+      "claimIds": ["kv-revenge"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "それと知らずに",
+      "anchor": "sister"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがて、死んだと思っていた家族が生きていたことを知ったクッレルヴォは、家族のもとへ戻ります。ところが、旅の途中で出会った娘と、それと知らずに結ばれてしまいます。娘は、幼いころに森で行方知れずになった、彼自身の妹でした。真実を知った妹は、川の急流に身を投げました。",
+      "claimIds": ["kv-sister"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "剣への問いかけ",
+      "anchor": "sword"
+    },
+    {
+      "type": "paragraph",
+      "text": "家族をすべて失ったクッレルヴォは、妹と出会った場所に戻ってきます。草も森も、ヒースも花も、妹の死を嘆いて泣いていました。",
+      "claimIds": ["kv-return"]
+    },
+    {
+      "type": "quote",
+      "text": "「教えてくれ、わが誉れの刃よ。おまえは私の命の血を飲みたいか。クッレルヴォの血を飲みたいか」。忠実な剣は、彼の心を見抜いて答えた。「なぜ飲まずにいられよう、罪あるクッレルヴォの血を。正しき者の血さえ飲む私が」。",
+      "sourceId": "kalevala",
+      "location": "第36章",
+      "claimIds": ["kv-sword"],
+      "translationNote": "Crawford の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "クッレルヴォは剣の柄を地に立て、切っ先を胸に向けて、その上に身を投げました。",
+      "claimIds": ["kv-sword"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "トゥーリン・トゥランバールへ",
+      "anchor": "turin"
+    },
+    {
+      "type": "paragraph",
+      "text": "トールキンは1914年、オックスフォードの学生だったころ、クッレルヴォの物語を自分の言葉で短編に書き直そうとしていました。このとき書かれた『クッレルヴォの物語』は、彼がそれまでの詩作から散文を書きはじめた最初の作品ともいわれます。",
+      "claimIds": ["kv-tolkien"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その影響は、のちの『シルマリルの物語』の英雄トゥーリン・トゥランバールに受け継がれました。トゥーリンは、竜グラウルングの呪縛で記憶を失った妹ニエノールと、それと知らずに結ばれます。呪縛が解けて真実を知ったニエノールは川に身を投げ、トゥーリンもまた、自らの剣グアサングで命を絶ちました。",
+      "claimIds": ["kv-turin"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "重なる三つの場面",
+      "text": "妹と知らずに結ばれる悲劇、妹の入水、そして自らの剣による最期——トゥーリンの物語は、クッレルヴォの物語の骨格をはっきりと受け継いでいます。トールキン自身も、トゥーリンはシグルズやオイディプス、そしてクッレルヴォの要素から生まれたといえると書き残しています。",
+      "claimIds": ["kv-sister", "kv-turin", "kv-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "クッレルヴォは一族を叔父に滅ぼされ、奴隷として売られた悲劇の若者",
+        "それと知らずに生き別れの妹と結ばれ、妹は川に身を投げた",
+        "剣に「私の血を飲みたいか」と問い、自らの剣に身を投じて命を絶った",
+        "トールキンはこの物語をもとに、『シルマリルの物語』のトゥーリン・トゥランバールを生み出した"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "kv-untamo",
+      "text": "ウンタモ（ウンタモイネン）はクッレルヴォの一族を滅ぼした。生き残ったクッレルヴォはウンタモのもとで育ったが、殺されそうになっても生きのび、与えられた仕事を台無しにした。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第31章"
+    },
+    {
+      "id": "kv-sold",
+      "text": "ウンタモはクッレルヴォを鍛冶師イルマリネンに売った。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第31章"
+    },
+    {
+      "id": "kv-revenge",
+      "text": "イルマリネンの妻に虐げられたクッレルヴォは、牛の群れを魔法で狼と熊に変えて彼女のもとへ追い帰し、復讐した。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第32–33章"
+    },
+    {
+      "id": "kv-sister",
+      "text": "クッレルヴォはそれと知らずに妹と結ばれた。真実を知った妹は川の急流に身を投げた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第35章"
+    },
+    {
+      "id": "kv-return",
+      "text": "クッレルヴォは妹と出会った場所に戻り、草や森やヒースや花が妹の死を嘆いて泣いているのを見た。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第36章"
+    },
+    {
+      "id": "kv-sword",
+      "text": "クッレルヴォは剣に「私の血を飲みたいか」と問い、剣は「罪あるクッレルヴォの血を飲まぬ理由があろうか、正しき者の血さえ飲む私が」と答えた。クッレルヴォは柄を地に立て、切っ先を胸に向けて身を投じた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第36章（Crawford 英訳）"
+    },
+    {
+      "id": "kv-tolkien",
+      "text": "トールキンは1914年から1915年、オックスフォードの学生時代に、カレワラのクッレルヴォの物語を散文で書き直した『クッレルヴォの物語』を書いた。これは詩人だった彼が散文を書きはじめた最初の作品とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-silmarillion"],
+      "verificationStatus": "verified",
+      "note": "英語版 Wikipedia「The Story of Kullervo」の記述で確認。"
+    },
+    {
+      "id": "kv-turin",
+      "text": "トゥーリンは、グラウルングの呪縛で記憶を失った妹ニエノールと結婚した。真実を知ったニエノールはテイグリン川に身を投げ、トゥーリンは自らの剣グアサングで命を絶った。トールキンはこの物語をカレワラのクッレルヴォにもとづいて書いた。",
+      "classification": "creative",
+      "sourceIds": ["work-silmarillion"],
+      "verificationStatus": "verified",
+      "note": "英語版 Wikipedia「Túrin Turambar」の記述で確認。"
+    },
+    {
+      "id": "kv-cmp",
+      "text": "トゥーリンの物語は、妹と知らずに結ばれる悲劇、妹の入水、自らの剣による最期というクッレルヴォの物語の骨格を受け継いでいる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

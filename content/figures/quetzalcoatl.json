@@ -1,0 +1,17 @@
+{
+  "id": "quetzalcoatl",
+  "slug": "quetzalcoatl",
+  "name": "ケツァルコアトル",
+  "reading": "けつぁるこあとる",
+  "originalName": "Quetzalcōātl",
+  "romanized": "Quetzalcoatl",
+  "alternativeNames": ["エエカトル", "ケツァル・コアトル"],
+  "type": "god",
+  "roles": ["風", "文化", "羽毛ある蛇"],
+  "mythologyIds": ["aztec"],
+  "description": "「羽毛ある蛇」を意味する名をもつ神。サアグンの記録では風の神とされ、雨の神々のために道を掃き清めるといわれた。トゥーラ（トゥラン）の王として崇められたが、テスカトリポカに酒を飲まされて国を去り、蛇の筏に乗って海の彼方へ旅立ったと語られる。エエカトル（風）の名でも呼ばれる。",
+  "relatedFigureIds": ["tezcatlipoca", "huitzilopochtli", "xolotl"],
+  "relatedStoryIds": ["fall-of-quetzalcoatl", "fifth-sun"],
+  "articleIds": [],
+  "sourceIds": ["sahagun-historia"]
+}

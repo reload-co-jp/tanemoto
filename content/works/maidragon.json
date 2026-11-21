@@ -1,0 +1,14 @@
+{
+  "id": "maidragon",
+  "slug": "maidragon",
+  "title": "小林さんちのメイドラゴン",
+  "reading": "こばやしさんちのめいどらごん",
+  "type": "manga",
+  "mediaTypes": ["anime"],
+  "author": "クール教信者",
+  "period": "2013〜2024年（『月刊アクション』連載）。2017年にアニメ化",
+  "description": "会社員の小林さんが、異世界からやってきたドラゴンのトールをメイドとして雇うことになるコメディ漫画。北欧神話の雷神の名をもつトールのほか、アステカ神話の神ケツァルコアトルの名をもつドラゴンなどが登場する。",
+  "mythologyIds": ["aztec", "norse"],
+  "articleIds": [],
+  "sourceIds": ["work-maidragon"]
+}
