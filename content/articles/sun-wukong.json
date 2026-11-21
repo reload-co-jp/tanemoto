@@ -1,0 +1,225 @@
+{
+  "id": "sun-wukong",
+  "slug": "sun-wukong",
+  "title": "孫悟空とは？『ドラゴンボール』悟空の元ネタ、『西遊記』の石猿と如意棒・觔斗雲を解説",
+  "shortTitle": "孫悟空の元ネタ",
+  "eyecatchText": "孫悟空",
+  "description": "『ドラゴンボール』の主人公・孫悟空の名の由来は、明代の小説『西遊記』の孫悟空。仙石から生まれた石猿、如意金箍棒と觔斗雲、天界での大暴れと釈迦の掌まで、『西遊記』第1〜7回の原文から解説し、作品との違いも紹介します。",
+  "lead": "如意棒を振り回し、筋斗雲に乗って空を飛ぶ『ドラゴンボール』の孫悟空。その名前と道具は、明代の小説『西遊記』の主人公・孫悟空から取られています。花果山の石から生まれた元祖・悟空の物語を、原文に沿ってたどります。",
+  "category": "character-origins",
+  "tags": [
+    "孫悟空",
+    "ドラゴンボール",
+    "西遊記",
+    "如意棒",
+    "筋斗雲",
+    "中国神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["sun-wukong", "nezha"],
+  "mythologyIds": ["chinese"],
+  "storyIds": ["havoc-in-heaven"],
+  "workIds": ["dragon-ball"],
+  "characterIds": ["dragon-ball-son-goku"],
+  "topicIds": ["divine-items"],
+  "sourceIds": ["work-dragon-ball", "xiyouji"],
+  "relatedArticleIds": ["chinese-mythology-overview", "hoshin-engi"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『ドラゴンボール』の孫悟空",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ドラゴンボール』の主人公・孫悟空は、育ての親の孫悟飯に名づけられたサイヤ人の少年です。名前の由来は中国の伝奇小説『西遊記』の孫悟空。少年期には尻尾があり、孫悟飯から譲り受けた如意棒を自在に伸び縮みさせて戦い、清らかな心の持ち主しか乗れない筋斗雲で空を飛びます。",
+      "claimIds": ["sw-work", "sw-work-items"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "『西遊記』は小説",
+      "text": "『西遊記』は16世紀、明の時代に書かれた長編小説で、古代の神話そのものではありません。ただし道教や仏教の神々を数多く登場させ、孫悟空の姿はこの小説によって定着しました。",
+      "claimIds": ["sw-novel"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "仙石から生まれた石猿",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "東勝神洲の傲来国にある花果山の頂に、一つの仙石がありました。高さは三丈六尺五寸で周天三百六十五度に、周囲は二丈四尺で二十四節気にかたどられています。天地開闢以来、天と地の精気、日と月の光を受け続けたこの石は、ある日割れて石の卵を産み、風に当たって一匹の石猿となりました。生まれた石猿の目からは二筋の金の光が放たれ、天界の玉皇大帝を驚かせたといいます。",
+      "claimIds": ["sw-birth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「悟空」の名と觔斗雲",
+      "anchor": "name"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがて猿たちの王・美猴王となった石猿は、不老長生の術を求めて海を渡り、須菩提祖師に弟子入りします。祖師は彼に孫の姓を与え、弟子の世代を表す字「悟」を用いて「孫悟空」と名づけました。",
+      "claimIds": ["sw-name"]
+    },
+    {
+      "type": "paragraph",
+      "text": "祖師は悟空に七十二の変化の術を授け、さらに雲に乗る術を教えます。ほかの仙人のように足を踏みしめて雲に乗るのではなく、身をひるがえして跳ぶ悟空のくせに合わせて、祖師は「觔斗雲」を授けました。印を結び真言を唱えて跳べば、ひとっ跳びで十万八千里を行くといいます。",
+      "claimIds": ["sw-cloud"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "如意金箍棒",
+      "anchor": "staff"
+    },
+    {
+      "type": "paragraph",
+      "text": "故郷に戻った悟空は武器を求めて東海竜王の宮殿を訪れ、海の底に立つ一本の鉄の柱に目をとめます。悟空が「太すぎる、長すぎる」と言うと、柱は言葉どおりに短く細くなりました。両端には金の箍がはまり、そこには「如意金箍棒、重さ一万三千五百斤」と刻まれていました。",
+      "claimIds": ["sw-staff"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "天界での大暴れと釈迦の掌",
+      "anchor": "havoc"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがて悟空は天界に招かれますが、低い役職に怒って「斉天大聖」を名のり、天界で大暴れします。天の軍勢も悟空を抑えられず、ついに釈迦如来が現れました。",
+      "claimIds": ["sw-havoc"]
+    },
+    {
+      "type": "paragraph",
+      "text": "如来は「私の右の掌から觔斗雲で跳び出せたらお前の勝ちだ」と賭けを持ちかけます。ひとっ跳びで十万八千里を行く悟空は、蓮の葉ほどの大きさの掌を見て、たやすいことだと笑いました。しかしどれほど遠くへ飛んでも、そこは如来の掌の中。悟空は五行山の下に封じられ、のちに三蔵法師に救い出されるまでそこで過ごすことになります。",
+      "claimIds": ["sw-palm"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品との違い",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典の觔斗雲は、悟空が修行して身につけた術で、乗る者の心の清らかさは問われません。天界で大暴れした原典の悟空を思えば、「清らかな心の持ち主しか乗れない」という作品の筋斗雲は、むしろ対照的な設定です。",
+      "claimIds": ["sw-cloud", "sw-work-items", "sw-cmp-cloud"]
+    },
+    {
+      "type": "paragraph",
+      "text": "また原典の悟空は石から生まれた猿ですが、作品の悟空は尻尾をもち、満月を見ると大猿に変身する宇宙人として描かれます。「猿」の要素を受け継ぎながら、SF的な出自に置き換えている点も大きな違いです。",
+      "claimIds": ["sw-birth", "sw-work", "sw-cmp-monkey"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『ドラゴンボール』の孫悟空の名は、明代の小説『西遊記』の孫悟空に由来する",
+        "原典の悟空は花果山の仙石から生まれた石猿で、須菩提祖師から名と觔斗雲を授かった",
+        "如意金箍棒は東海竜王の宮殿にあった、重さ一万三千五百斤の鉄の棒",
+        "作品の「清らかな心でないと乗れない筋斗雲」は、原典にない独自の設定"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "sw-work",
+      "text": "孫悟空はサイヤ人で、作中では育ての親である孫悟飯によって名付けられた。名前の由来は中国の伝奇小説『西遊記』の孫悟空。尻尾があり大猿化する。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「孫悟空 (ドラゴンボール)」の記述で確認。"
+    },
+    {
+      "id": "sw-work-items",
+      "text": "悟空は育ての親の孫悟飯から譲り受けた如意棒を自由自在に伸縮させて使う。筋斗雲は心が清らかでないと乗れないが、悟空は乗ることができる。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「孫悟空 (ドラゴンボール)」の記述で確認。"
+    },
+    {
+      "id": "sw-novel",
+      "text": "『西遊記』は16世紀後半の明代に成立した長編小説である。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』（成立年代は諸説あり）"
+    },
+    {
+      "id": "sw-birth",
+      "text": "花果山の頂に高さ三丈六尺五寸、周囲二丈四尺の仙石があり、天地の精気と日月の光を受けて、ある日裂けて石の卵を産み、風に当たって石猿となった。石猿の目から放たれた金光は天界の玉皇大天尊を驚かせた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第1回"
+    },
+    {
+      "id": "sw-name",
+      "text": "須菩提祖師は石猿に孫の姓を与え、門下の十二字の順に当たる「悟」の字を用いて、法名を孫悟空とした。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第1回"
+    },
+    {
+      "id": "sw-cloud",
+      "text": "祖師は、仙人たちが足を踏みしめて雲に乗るのとは違う悟空の跳び方に合わせて觔斗雲を授けた。印を結び真言を唱えて身をひるがえして跳べば、ひとっ跳びで十万八千里を行く。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第2回"
+    },
+    {
+      "id": "sw-staff",
+      "text": "東海竜王の宮殿で悟空が見つけた鉄の柱は、悟空の言葉に応じて短く細くなった。両端は金の箍で、「如意金箍棒、重一萬三千五百斤」と刻まれていた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第3回"
+    },
+    {
+      "id": "sw-havoc",
+      "text": "悟空は斉天大聖を名のって天界で大暴れし、天の軍勢も抑えられず、釈迦如来が現れた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第4–7回"
+    },
+    {
+      "id": "sw-palm",
+      "text": "如来は、右の掌から一觔斗で跳び出せたら勝ちという賭けを持ちかけた。蓮の葉ほどの掌を見た悟空は跳び出そうとしたが、如来の掌から出ることはできず、五行山の下に封じられた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第7回"
+    },
+    {
+      "id": "sw-cmp-cloud",
+      "text": "心の清らかさを条件とする筋斗雲は作品独自の設定で、原典の悟空像とは対照的である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sw-cmp-monkey",
+      "text": "猿の要素を受け継ぎつつ、尻尾をもつ宇宙人というSF的な出自に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

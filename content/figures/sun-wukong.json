@@ -1,0 +1,17 @@
+{
+  "id": "sun-wukong",
+  "slug": "sun-wukong",
+  "name": "孫悟空",
+  "reading": "そんごくう",
+  "originalName": "孫悟空",
+  "romanized": "Sun Wukong",
+  "alternativeNames": ["斉天大聖", "美猴王"],
+  "type": "creature",
+  "roles": ["石猿", "斉天大聖"],
+  "mythologyIds": ["chinese"],
+  "description": "明代の小説『西遊記』の主人公の一人。花果山の仙石から生まれた石猿で、須菩提祖師に七十二の変化と、ひとっ跳びで十万八千里を行く觔斗雲を学び、東海竜王から如意金箍棒を手に入れた。天界で大暴れしたのち、釈迦如来の掌から逃れられず五行山の下に封じられた。",
+  "relatedFigureIds": ["nezha"],
+  "relatedStoryIds": ["havoc-in-heaven"],
+  "articleIds": [],
+  "sourceIds": ["xiyouji"]
+}

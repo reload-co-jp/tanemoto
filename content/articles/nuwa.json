@@ -1,0 +1,196 @@
+{
+  "id": "nuwa",
+  "slug": "nuwa",
+  "title": "女媧と伏羲——天を補った女神と八卦を作った神、『封神演義』で殷を滅ぼした女媧まで解説",
+  "shortTitle": "女媧と伏羲",
+  "eyecatchText": "女媧",
+  "description": "五色の石で天の破れを補った女神女媧と、八卦を作ったとされる伏羲。『淮南子』『易経』の記述から二柱の神話を紹介し、『封神演義』で紂王に怒り妲己を遣わした女媧、藤崎竜版『封神演義』で太公望の正体とされた伏羲まで解説します。",
+  "lead": "天が崩れかけた世界を救った女神・女媧。そして八卦を作り、人々に狩りと漁を教えた伏羲。中国神話の「始まり」に位置する二柱は、明代の小説や現代の漫画でも重要な役割を与えられています。原典の姿をたどります。",
+  "category": "gods-heroes",
+  "tags": ["女媧", "伏羲", "中国神話", "淮南子", "封神演義"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["nuwa", "fuxi", "daji"],
+  "mythologyIds": ["chinese"],
+  "storyIds": ["nuwa-mends-heaven", "daji-and-the-fox"],
+  "workIds": ["hoshin-engi"],
+  "characterIds": ["hoshin-engi-taikobo"],
+  "topicIds": [],
+  "sourceIds": [
+    "huainanzi",
+    "yijing-xici",
+    "fengshen-yanyi",
+    "work-hoshin-engi"
+  ],
+  "relatedArticleIds": ["chinese-mythology-overview", "hoshin-engi"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "女媧補天",
+      "anchor": "nuwa"
+    },
+    {
+      "type": "paragraph",
+      "text": "前漢の思想書『淮南子』覧冥訓は、太古の大災害を次のように描きます。",
+      "claimIds": ["nw-disaster"]
+    },
+    {
+      "type": "quote",
+      "text": "往古の時、四極廃れ、九州裂け、天は兼ねて覆わず、地は周く載せず。火は爁炎として滅えず、水は浩洋として息まず。猛獣は顓民を食らい、鷙鳥は老弱を攫む。是に於いて女媧、五色の石を煉りて以て蒼天を補い、鼇の足を断ちて以て四極を立つ。",
+      "sourceId": "huainanzi",
+      "location": "覧冥訓",
+      "claimIds": ["nw-disaster", "nw-mend"],
+      "translationNote": "原文の書き下し（編集部）"
+    },
+    {
+      "type": "paragraph",
+      "text": "女媧はさらに黒竜を殺して冀州を救い、葦の灰を積んで洪水を止めました。こうして天は補われ、四方の柱はまっすぐに立ち、あふれた水は引き、民は生きのびることができたといいます。",
+      "claimIds": ["nw-mend"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "天が傾いた理由",
+      "text": "『封神演義』第1回では、女媧が天を補った理由を「共工氏が不周山に頭をぶつけ、天は西北に傾き、地は東南に陥った」ためと説明しています。共工と不周山の話は『淮南子』天文訓などにも見え、のちに女媧補天の物語と結びつけて語られるようになりました。",
+      "claimIds": ["nw-gonggong"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "八卦を作った伏羲",
+      "anchor": "fuxi"
+    },
+    {
+      "type": "paragraph",
+      "text": "伏羲は、占いの書『易経』の解説である繋辞下伝に「包犠氏」の名で登場します。それによれば、太古に天下を治めた包犠氏は、天の現象と地の形、鳥獣の模様を観察し、身近なものから遠くのものまでを手本として八卦を作りました。また縄を結んで網を作り、人々に狩りと漁を教えたといいます。",
+      "claimIds": ["nw-fuxi"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "夫婦神としての女媧と伏羲",
+      "text": "漢代の画像石などには、蛇の下半身をもつ男女が尾を絡ませた姿で描かれ、伏羲と女媧とされるものがあります。二柱を兄妹や夫婦とする伝承は、こうした時代以降に広まりました。",
+      "claimIds": ["nw-pair"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『封神演義』の女媧",
+      "anchor": "fengshen"
+    },
+    {
+      "type": "paragraph",
+      "text": "明代の小説『封神演義』は、女媧から物語を始めます。女媧の誕生日に女媧宮へ参詣した殷の紂王は、女媧の像の美しさに心を奪われ、壁にみだらな詩を書きつけました。宰相の商容は「女媧は上古の正神で朝歌の福主である」と諫めますが、紂王は聞き入れません。",
+      "claimIds": ["nw-poem"]
+    },
+    {
+      "type": "paragraph",
+      "text": "怒った女媧は招妖旛で天下の妖怪を集め、軒轅墳の三妖——千年狐狸精・九頭雉雞精・玉石琵琶精——に、正体を隠して宮中に入り、紂王を惑わして殷を滅ぼす手助けをするよう命じました。このうち千年狐狸精が、冀州侯の娘妲己の体を借りて紂王の妃となります。",
+      "claimIds": ["nw-three", "nw-daji"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "藤崎竜『封神演義』の伏羲",
+      "anchor": "hoshin"
+    },
+    {
+      "type": "paragraph",
+      "text": "藤崎竜の漫画『封神演義』では、主人公の太公望の正体が「始まりの人」の一人である伏羲であったことが終盤で明かされます。女媧の配下として王朝を傾けてきた妲己との因縁も、この設定によって中国神話の始まりにまで結びつけられています。詳しくは[藤崎竜『封神演義』の元ネタ](/articles/hoshin-engi/)で解説しています。",
+      "claimIds": ["nw-work"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "女媧は五色の石を練って天を補い、大亀の脚で四方の柱を立てた（『淮南子』）",
+        "伏羲は天地と鳥獣を観察して八卦を作り、網を作って狩りと漁を教えた（『易経』繋辞伝）",
+        "『封神演義』の女媧は、紂王の不敬に怒って妖怪を遣わし、殷を滅ぼす発端となる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "nw-disaster",
+      "text": "往古、四極が廃れ九州が裂け、天は覆わず地は載せず、火は燃え続け水はあふれて止まず、猛獣が民を食らい猛禽が老弱をさらった。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』覧冥訓"
+    },
+    {
+      "id": "nw-mend",
+      "text": "女媧は五色の石を練って蒼天を補い、鼇の足を断って四極を立て、黒竜を殺して冀州を救い、葦の灰を積んで洪水を止めた。こうして天は補われ、四極は正され、洪水は引き、民は生きた。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』覧冥訓"
+    },
+    {
+      "id": "nw-gonggong",
+      "text": "『封神演義』第1回は、共工氏が不周山に頭をぶつけて天が西北に傾き地が東南に陥ったため、女媧が五色の石を練って青天を補ったと語る。",
+      "classification": "variant",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第1回"
+    },
+    {
+      "id": "nw-fuxi",
+      "text": "古の包犠氏は天下を治め、天の象と地の法、鳥獣の模様を観察し、身近なものと遠くのものに取って八卦を作った。また縄を結んで網を作り、狩りと漁を行った。",
+      "classification": "fact",
+      "sourceIds": ["yijing-xici"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『易経』繋辞下伝"
+    },
+    {
+      "id": "nw-pair",
+      "text": "伏羲と女媧を対の神とする図像や伝承は漢代以降に広まった。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "漢代の画像石や唐代の文献に見える伝承にもとづく一般的な解説で、本記事で登録した出典の特定箇所によるものではない。"
+    },
+    {
+      "id": "nw-poem",
+      "text": "紂王は女媧宮に参詣して女媧の像の美しさに心を奪われ、粉壁に詩を書きつけた。商容は女媧を上古の正神、朝歌の福主として、詩を洗い流すよう諫めた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第1回"
+    },
+    {
+      "id": "nw-three",
+      "text": "女媧は招妖旛で群妖を集め、軒轅墳の三妖（千年狐狸精・九頭雉雞精・玉石琵琶精）に、妖形を隠して宮中に入り紂王の心を惑わし、武王の伐紂を助けるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第1回"
+    },
+    {
+      "id": "nw-daji",
+      "text": "冀州侯蘇護の娘妲己は恩州の駅舎で千年狐狸に魂を吸われて死に、狐がその体を借りた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第4回"
+    },
+    {
+      "id": "nw-work",
+      "text": "藤崎竜『封神演義』では、太公望の正体が伏羲であることが終盤で明かされる。妲己は女媧の配下として王朝を衰退させてきた。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hoshin-engi",
+  "slug": "hoshin-engi",
+  "title": "封神演義（藤崎竜）",
+  "reading": "ほうしんえんぎ",
+  "type": "manga",
+  "mediaTypes": ["anime"],
+  "author": "藤崎竜",
+  "period": "1996〜2000年（『週刊少年ジャンプ』連載）",
+  "description": "殷の皇后妲己を倒すため、仙人の太公望が「封神計画」に挑む漫画。明代の小説『封神演義』（安能務訳）を原作としつつ、ギャグや古代文明のSF的な設定を大胆に加えている。1999年と2018年にアニメ化。",
+  "mythologyIds": ["chinese"],
+  "articleIds": [],
+  "sourceIds": ["work-hoshin-engi"]
+}

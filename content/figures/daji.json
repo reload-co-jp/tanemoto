@@ -1,0 +1,17 @@
+{
+  "id": "daji",
+  "slug": "daji",
+  "name": "妲己",
+  "reading": "だっき",
+  "originalName": "妲己",
+  "romanized": "Daji",
+  "alternativeNames": [],
+  "type": "human",
+  "roles": ["殷の妃", "傾国の美女"],
+  "mythologyIds": ["chinese"],
+  "description": "殷の最後の王・紂王の妃。『封神演義』では、冀州侯蘇護の娘・妲己が紂王のもとへ向かう途中、恩州の駅舎で千年狐狸精に魂を吸われて死に、狐がその体を借りて紂王を惑わしたと語られる。日本では九尾の狐と結びつけて語られることが多い。",
+  "relatedFigureIds": ["nine-tailed-fox", "nuwa", "jiang-ziya"],
+  "relatedStoryIds": ["daji-and-the-fox"],
+  "articleIds": [],
+  "sourceIds": ["fengshen-yanyi"]
+}

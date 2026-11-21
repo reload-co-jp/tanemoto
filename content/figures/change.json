@@ -1,0 +1,17 @@
+{
+  "id": "change",
+  "slug": "change",
+  "name": "嫦娥",
+  "reading": "じょうが",
+  "originalName": "嫦娥",
+  "romanized": "Chang'e",
+  "alternativeNames": ["姮娥"],
+  "type": "god",
+  "roles": ["月の女神"],
+  "mythologyIds": ["chinese"],
+  "description": "羿の妻。夫が西王母から得た不死の薬を盗んで飲み、月へと逃れたと『淮南子』に記される。古くは姮娥と書き、漢の文帝（劉恒）の名を避けて嫦娥と改められたとされる。",
+  "relatedFigureIds": ["hou-yi", "xiwangmu"],
+  "relatedStoryIds": ["change-flees-to-the-moon"],
+  "articleIds": [],
+  "sourceIds": ["huainanzi"]
+}

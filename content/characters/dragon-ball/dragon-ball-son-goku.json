@@ -1,0 +1,157 @@
+{
+  "id": "dragon-ball-son-goku",
+  "slug": "dragon-ball-son-goku",
+  "name": "孫悟空",
+  "reading": "そんごくう",
+  "alternativeNames": ["カカロット"],
+  "workId": "dragon-ball",
+  "description": {
+    "text": "『ドラゴンボール』の主人公。サイヤ人で、本名はカカロット。育ての親の孫悟飯に名づけられた。強い相手と戦うことを好む、まっすぐで能天気な性格。",
+    "claimIds": ["db-goku-work"]
+  },
+  "nameOrigin": {
+    "text": "名前の由来は、中国の伝奇小説『西遊記』の孫悟空。",
+    "claimIds": ["db-goku-work-name", "db-goku-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "sun-wukong",
+      "label": "孫悟空（西遊記）",
+      "inWork": {
+        "text": "名前は『西遊記』の孫悟空から取られている。少年期の悟空には尻尾があり、満月を見ると大猿に変身する。",
+        "claimIds": ["db-goku-work-name", "db-goku-work-tail"]
+      },
+      "inMyth": {
+        "text": "『西遊記』の孫悟空は、花果山の仙石から生まれた石猿。須菩提祖師に弟子入りし、「悟空」の法名を授かった。",
+        "claimIds": ["db-goku-myth-name"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "sun-wukong",
+      "label": "如意金箍棒",
+      "inWork": {
+        "text": "育ての親の孫悟飯から譲り受けた如意棒を、自由自在に伸縮させて戦う。主に少年期に使う。",
+        "claimIds": ["db-goku-work-staff"]
+      },
+      "inMyth": {
+        "text": "孫悟空は東海竜王の宮殿で、両端に金の箍のついた鉄の柱を見つける。「如意金箍棒、重さ一万三千五百斤」と刻まれたその棒は、悟空の思うままに太さも長さも変わった。",
+        "claimIds": ["db-goku-myth-staff"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "sun-wukong",
+      "label": "觔斗雲",
+      "inWork": {
+        "text": "筋斗雲は心が清らかでないと乗れない雲で、悪の心がまったくない悟空は乗ることができる。",
+        "claimIds": ["db-goku-work-cloud"]
+      },
+      "inMyth": {
+        "text": "須菩提祖師は悟空に觔斗雲の術を授けた。印を結んで真言を唱え、身をひるがえして跳べば、ひとっ跳びで十万八千里を行くという。",
+        "claimIds": ["db-goku-myth-cloud"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『西遊記』の觔斗雲は術として身につけるもので、乗る者の心の清らかさは問われない。作品の「清らかな心の持ち主しか乗れない」という性質は、天界で大暴れした原典の悟空とは対照的な、作品独自の設定である。",
+      "claimIds": [
+        "db-goku-myth-cloud",
+        "db-goku-work-cloud",
+        "db-goku-cmp-cloud"
+      ]
+    },
+    {
+      "text": "原典の悟空は石から生まれた猿で、作品の悟空は尻尾をもち大猿に変身する宇宙人として描かれる。「猿」の要素を受け継ぎながら、SF的な出自に置き換えている。",
+      "claimIds": [
+        "db-goku-myth-name",
+        "db-goku-work-tail",
+        "db-goku-cmp-monkey"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "db-goku-work",
+      "text": "孫悟空はサイヤ人で、本名（サイヤ人名）はカカロット。作中では育ての親である孫悟飯によって名付けられた。趣味は強い相手を見つけて闘うこと。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「孫悟空 (ドラゴンボール)」の記述で確認。"
+    },
+    {
+      "id": "db-goku-work-name",
+      "text": "孫悟空の名前の由来は、中国の伝奇小説『西遊記』の孫悟空である。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「孫悟空 (ドラゴンボール)」の記述で確認。"
+    },
+    {
+      "id": "db-goku-work-tail",
+      "text": "サイヤ人の悟空には尻尾があり、大猿化する。のちに神様によって尻尾を二度と生えないようにされた。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「孫悟空 (ドラゴンボール)」の記述で確認。"
+    },
+    {
+      "id": "db-goku-work-staff",
+      "text": "如意棒は育ての親の孫悟飯から譲り受けたもので、自由自在に伸縮させたり防御に使ったりできる。主に少年期に使用。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「孫悟空 (ドラゴンボール)」の記述で確認。"
+    },
+    {
+      "id": "db-goku-work-cloud",
+      "text": "筋斗雲は心が清らかでないと乗れず、悟空は乗ることができる。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「孫悟空 (ドラゴンボール)」の記述で確認。"
+    },
+    {
+      "id": "db-goku-myth-name",
+      "text": "花果山の頂の仙石が割れて石の卵が生まれ、風に当たって石猿となった。のちに須菩提祖師は彼に「孫悟空」の法名を与えた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第1回"
+    },
+    {
+      "id": "db-goku-myth-staff",
+      "text": "悟空が東海竜王の宮殿で見つけた鉄の柱は、両端に金の箍があり「如意金箍棒、重一萬三千五百斤」と刻まれていた。悟空の言葉に応じて短く細くなった。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第3回"
+    },
+    {
+      "id": "db-goku-myth-cloud",
+      "text": "祖師は悟空に觔斗雲を授けた。印を結び真言を唱えて身をひるがえせば、ひとっ跳びで十万八千里を行く。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第2回"
+    },
+    {
+      "id": "db-goku-cmp-cloud",
+      "text": "心の清らかさを条件とする筋斗雲の性質は、原典にない作品独自の設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "db-goku-cmp-monkey",
+      "text": "猿の要素を受け継ぎつつ、尻尾をもつ宇宙人というSF的な出自に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-dragon-ball", "xiyouji"],
+  "articleIds": []
+}

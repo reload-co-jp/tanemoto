@@ -97,5 +97,23 @@
     "publishedPeriod": "2012〜2014年（小説）",
     "publisher": "TYPE-MOON BOOKS",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「Fate/Apocrypha」でも確認している。"
+  },
+  {
+    "id": "work-dragon-ball",
+    "title": "ドラゴンボール",
+    "author": "鳥山明",
+    "type": "work",
+    "publishedPeriod": "1984〜1995年（『週刊少年ジャンプ』連載）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「孫悟空 (ドラゴンボール)」でも確認している。"
+  },
+  {
+    "id": "work-hoshin-engi",
+    "title": "封神演義（藤崎竜）",
+    "author": "藤崎竜",
+    "type": "work",
+    "publishedPeriod": "1996〜2000年（『週刊少年ジャンプ』連載）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「封神演義 (漫画)」でも確認している。"
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nuwa-mends-heaven",
+    "title": "女媧補天",
+    "mythologyIds": ["chinese"],
+    "figureIds": ["nuwa"],
+    "summary": "太古、天を支える四方の柱が崩れて大地は裂け、火は燃え続け、水はあふれて引かず、猛獣が民を食らった。女媧は五色の石を練って青い天を補い、大亀の脚を切って四方の柱とし、黒竜を殺し、葦の灰を積んで洪水を止めた。",
+    "sourceIds": ["huainanzi"],
+    "sourceLocation": "『淮南子』覧冥訓"
+  },
+  {
+    "id": "yi-shoots-the-suns",
+    "title": "羿、十の太陽を射る",
+    "mythologyIds": ["chinese"],
+    "figureIds": ["hou-yi"],
+    "summary": "堯の時代、十の太陽が同時に昇って作物を焦がし、草木を枯らした。猰貐・鑿歯・九嬰・大風・封豨・修蛇といった怪物も民を苦しめた。堯は羿に命じ、羿は天に向かって十の太陽を射落とし、地上の怪物たちを次々に退治した。",
+    "sourceIds": ["huainanzi"],
+    "sourceLocation": "『淮南子』本経訓"
+  },
+  {
+    "id": "change-flees-to-the-moon",
+    "title": "嫦娥奔月",
+    "mythologyIds": ["chinese"],
+    "figureIds": ["change", "hou-yi", "xiwangmu"],
+    "summary": "羿は西王母に不死の薬を求めて手に入れたが、妻の姮娥（嫦娥）がそれを盗み、月へと逃れた。羿は悲嘆にくれたが、薬の出どころを知らないため、もう一度手に入れることはできなかった。",
+    "sourceIds": ["huainanzi"],
+    "sourceLocation": "『淮南子』覧冥訓"
+  },
+  {
+    "id": "huangdi-and-chiyou",
+    "title": "黄帝と蚩尤の戦い",
+    "mythologyIds": ["chinese"],
+    "figureIds": ["huangdi", "chiyou"],
+    "summary": "蚩尤は兵器を作って黄帝を攻めた。黄帝が応竜に冀州の野で迎え撃たせると、蚩尤は風伯と雨師を呼んで大風雨を起こす。黄帝は天女の魃を下して雨を止め、蚩尤を討った。『史記』は、黄帝が涿鹿の野で蚩尤を捕らえて殺し、諸侯に推されて天子となったと記す。",
+    "sourceIds": ["shanhaijing", "shiji"],
+    "sourceLocation": "『山海経』大荒北経、『史記』巻1 五帝本紀"
+  },
+  {
+    "id": "havoc-in-heaven",
+    "title": "孫悟空の大鬧天宮",
+    "mythologyIds": ["chinese"],
+    "figureIds": ["sun-wukong"],
+    "summary": "花果山の仙石から生まれた石猿は、須菩提祖師のもとで孫悟空の名と七十二の変化、觔斗雲の術を授かり、東海竜王の宮殿で如意金箍棒を手に入れる。天界で斉天大聖を名のって大暴れした悟空は、釈迦如来と「掌から跳び出せたら勝ち」という賭けをするが、どこまで飛んでも如来の掌の中で、五行山の下に封じられた。",
+    "sourceIds": ["xiyouji"],
+    "sourceLocation": "『西遊記』第1–7回"
+  },
+  {
+    "id": "nezha-lotus-body",
+    "title": "哪吒、蓮の化身となる",
+    "mythologyIds": ["chinese"],
+    "figureIds": ["nezha"],
+    "summary": "霊珠子の化身として乾坤圏と混天綾を身につけて生まれた哪吒は、東海の河口で水浴びをして竜宮を揺るがし、竜王の三太子敖丙を殺してしまう。父母に累が及ぶのを避けるため、哪吒は自ら腹を裂き骨肉を父母に返して死んだ。師の太乙真人は蓮の花と葉で体を作って魂を宿らせ、哪吒は蓮の化身としてよみがえった。",
+    "sourceIds": ["fengshen-yanyi"],
+    "sourceLocation": "『封神演義』第12–14回"
+  },
+  {
+    "id": "daji-and-the-fox",
+    "title": "女媧の怒りと妲己",
+    "mythologyIds": ["chinese"],
+    "figureIds": ["nuwa", "daji", "nine-tailed-fox"],
+    "summary": "女媧宮に参詣した紂王は、女媧の像の美しさに心を奪われ、壁にみだらな詩を書きつけた。怒った女媧は軒轅墳の三妖——千年狐狸精・九頭雉雞精・玉石琵琶精——を呼び、紂王を惑わして殷を滅ぼすよう命じる。紂王に献じられる途中の妲己は、恩州の駅舎で千年狐狸精に魂を吸われて死に、狐がその体を借りて紂王の妃となった。",
+    "sourceIds": ["fengshen-yanyi"],
+    "sourceLocation": "『封神演義』第1回・第4回"
+  }
+]

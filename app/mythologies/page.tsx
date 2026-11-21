@@ -21,7 +21,7 @@ const Page = () => (
     <PageHeader
       eyebrow="Mythologies"
       title="神話から探す"
-      description="神話体系ごとに、主な神々・英雄・怪物と物語をまとめています。現在はギリシャ・北欧・日本・エジプト・ケルト・メソポタミア・インドの7つの神話を扱っています。"
+      description="神話体系ごとに、主な神々・英雄・怪物と物語をまとめています。現在はギリシャ・北欧・日本・エジプト・ケルト・メソポタミア・インド・中国の8つの神話を扱っています。"
     />
     <TileList
       items={getMythologies().map((m) => ({

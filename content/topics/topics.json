@@ -35,7 +35,8 @@
       "balor",
       "humbaba",
       "vritra",
-      "tiamat"
+      "tiamat",
+      "nine-tailed-fox"
     ],
     "storyIds": ["yamata-no-orochi-slaying", "second-battle-of-mag-tuired"],
     "order": 2
@@ -64,7 +65,9 @@
       "nuada",
       "karna",
       "arjuna",
-      "indra"
+      "indra",
+      "sun-wukong",
+      "nezha"
     ],
     "storyIds": [
       "perseus-medusa",
@@ -73,7 +76,9 @@
       "yamato-takeru-kusanagi",
       "death-of-ferdiad",
       "karna-armor",
-      "arjuna-and-the-kirata"
+      "arjuna-and-the-kirata",
+      "havoc-in-heaven",
+      "nezha-lotus-body"
     ],
     "order": 4
   },
@@ -91,7 +96,8 @@
       "gilgamesh",
       "enkidu",
       "arjuna",
-      "karna"
+      "karna",
+      "hou-yi"
     ],
     "storyIds": [
       "perseus-medusa",
@@ -101,7 +107,8 @@
       "naming-of-cu-chulainn",
       "bull-of-heaven",
       "plant-of-youth",
-      "arjuna-and-the-kirata"
+      "arjuna-and-the-kirata",
+      "yi-shoots-the-suns"
     ],
     "order": 5
   },
@@ -109,9 +116,9 @@
     "id": "transformation",
     "slug": "transformation",
     "name": "変身",
-    "description": "神々の怒りや罰によって姿を変えられる物語。オウィディウス『変身物語』はこのテーマで神話を集めた作品として知られる。",
-    "figureIds": ["medusa"],
-    "storyIds": [],
+    "description": "神々の怒りや罰、術によって姿を変える物語。オウィディウス『変身物語』のほか、妲己の体を借りた千年狐狸精や、七十二の変化を操る孫悟空などがある。",
+    "figureIds": ["medusa", "daji", "nine-tailed-fox", "sun-wukong"],
+    "storyIds": ["daji-and-the-fox", "havoc-in-heaven"],
     "order": 6
   },
   {
@@ -127,13 +134,15 @@
       "indra",
       "vritra",
       "marduk",
-      "tiamat"
+      "tiamat",
+      "hou-yi"
     ],
     "storyIds": [
       "yamata-no-orochi-slaying",
       "ragnarok",
       "indra-slays-vritra",
-      "marduk-and-tiamat"
+      "marduk-and-tiamat",
+      "yi-shoots-the-suns"
     ],
     "order": 7
   },

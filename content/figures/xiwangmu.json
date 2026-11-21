@@ -1,0 +1,17 @@
+{
+  "id": "xiwangmu",
+  "slug": "xiwangmu",
+  "name": "西王母",
+  "reading": "せいおうぼ",
+  "originalName": "西王母",
+  "romanized": "Xiwangmu",
+  "alternativeNames": ["王母娘娘"],
+  "type": "god",
+  "roles": ["不死の薬", "西方の女神"],
+  "mythologyIds": ["chinese"],
+  "description": "西方の玉山に住む女神。『山海経』では、人のような姿で豹の尾と虎の歯をもち、よく吠え、ざんばら髪に勝（髪飾り）をつけ、天の災いと刑罰をつかさどる恐ろしい神として描かれる。のちに不老不死の仙桃をもつ美しい女仙の女王へと姿を変えた。『淮南子』では羿が不死の薬を求めた相手でもある。",
+  "relatedFigureIds": ["hou-yi", "change"],
+  "relatedStoryIds": ["change-flees-to-the-moon"],
+  "articleIds": [],
+  "sourceIds": ["shanhaijing", "huainanzi"]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "hoshin-engi-nataku",
+  "slug": "hoshin-engi-nataku",
+  "name": "哪吒",
+  "reading": "なたく",
+  "alternativeNames": ["哪吒（なた）"],
+  "workId": "hoshin-engi",
+  "description": {
+    "text": "崑崙山の道士で、宝貝人間。本体は太乙真人が作った宝貝「霊珠」で、乾坤圏・風火輪・混天綾などの宝貝を身につけて戦う。",
+    "claimIds": ["hs-nz-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "nezha",
+      "label": "霊珠子と蓮の化身",
+      "inWork": {
+        "text": "本体の霊珠が李靖の三男に宿って生まれたが、一度宿主の肉体を失い、蓮の花を新しい宿主として蓮の化身としてよみがえった。",
+        "claimIds": ["hs-nz-work-lotus"]
+      },
+      "inMyth": {
+        "text": "『封神演義』の哪吒は霊珠子の化身として生まれた。竜王の三太子を殺した責めを負って骨肉を父母に返して死んだのち、太乙真人が蓮の花と葉で作った体に魂を宿らせ、蓮花の化身としてよみがえった。",
+        "claimIds": ["hs-nz-myth-birth", "hs-nz-myth-lotus"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "nezha",
+      "label": "乾坤圏・混天綾・風火輪",
+      "inWork": {
+        "text": "宝貝は乾坤圏・風火輪・混天綾・金磚・火尖鎗など。",
+        "claimIds": ["hs-nz-work-weapons"]
+      },
+      "inMyth": {
+        "text": "哪吒は生まれたとき右手に金の腕輪「乾坤圏」をはめ、腹に赤い綾「混天綾」を巻いていた。よみがえったのち、太乙真人から火尖鎗と風火輪、金磚を授かった。",
+        "claimIds": ["hs-nz-myth-birth", "hs-nz-myth-weapons"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品の宝貝の名や、蓮の化身としてよみがえる筋は、原典『封神演義』の哪吒をほぼそのまま踏まえている。一方、原典では師の手で蓮の体を与えられるのに対し、作品の哪吒は霊珠という「宝貝」そのものが本体の宝貝人間として描かれ、より機械的なキャラクターになっている。",
+      "claimIds": ["hs-nz-myth-lotus", "hs-nz-work-lotus", "hs-nz-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hs-nz-work",
+      "text": "哪吒は崑崙山の道士で宝貝人間。本体は太乙真人が作った宝貝・霊珠。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-nz-work-lotus",
+      "text": "霊珠は李靖と殷氏の三男が胎児の時に寄生したが、一度宿主の肉体を失い、蓮の花を新しい宿主として蓮の化身として生き返った。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-nz-work-weapons",
+      "text": "哪吒の宝貝は霊珠、乾坤圏、風火輪、混天綾、金磚、火尖鎗など。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-nz-myth-birth",
+      "text": "陳塘関に生まれた哪吒は霊珠子の化身で、右手に金の腕輪、腹に赤い綾を巻いていた。金の腕輪は乾坤圏、赤い綾は混天綾である。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "hs-nz-myth-lotus",
+      "text": "哪吒は敖丙を殺した責めを負い、腹を裂き骨肉を父母に返して死んだ。太乙真人は蓮の花と荷葉で体を作り、哪吒の魂魄を推し入れて蓮花の化身としてよみがえらせた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第13–14回"
+    },
+    {
+      "id": "hs-nz-myth-weapons",
+      "text": "太乙真人は哪吒に火尖鎗を伝え、風火二輪を与え、豹皮の袋に乾坤圏・混天綾・金磚を入れて授けた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第14回"
+    },
+    {
+      "id": "hs-nz-cmp",
+      "text": "宝貝の名や蓮の化身の筋は原典を踏まえ、霊珠そのものを本体とする宝貝人間という造形は作品独自である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hoshin-engi", "fengshen-yanyi"],
+  "articleIds": []
+}

@@ -1,0 +1,121 @@
+{
+  "id": "hoshin-engi-taikobo",
+  "slug": "hoshin-engi-taikobo",
+  "name": "太公望",
+  "reading": "たいこうぼう",
+  "alternativeNames": ["呂望", "伏羲"],
+  "workId": "hoshin-engi",
+  "description": {
+    "text": "本作の主人公。元始天尊の直弟子で、周の軍師。うつけ者を装っているが崑崙一の頭脳をもつ策士で、風を操る宝貝「打神鞭」を武器とする。",
+    "claimIds": ["hs-tk-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "jiang-ziya",
+      "label": "太公望呂尚",
+      "inWork": {
+        "text": "元は羌族の統領の子で、12歳で家族を失い、元始天尊にスカウトされて仙人界で修業した。周の軍師として殷と戦う。",
+        "claimIds": ["hs-tk-work-origin"]
+      },
+      "inMyth": {
+        "text": "『史記』の呂尚は、年老いて貧しいなか釣りをして周の西伯（文王）に近づいた。西伯は渭水の北で彼に出会い、「わが祖父太公が待ち望んでいた人物だ」と喜んで「太公望」と号し、師とした。",
+        "claimIds": ["hs-tk-myth-shiji"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "fuxi",
+      "label": "伏羲",
+      "inWork": {
+        "text": "物語の終盤で、太公望の正体は「始まりの人」の一人である伏羲であることが明かされる。",
+        "claimIds": ["hs-tk-work-fuxi"]
+      },
+      "inMyth": {
+        "text": "伏羲（包犠氏）は太古に天下を治め、天地の姿や鳥獣の模様を観察して八卦を作り、網を作って狩りと漁を教えたとされる。",
+        "claimIds": ["hs-tk-myth-fuxi"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の太公望は、主君に見いだされる知略の老賢者として語られる。作品の太公望が「卑怯な手も使う策士」として描かれるのは、兵法の祖とされた太公望の伝承を、ギャグを交えて誇張したものといえる。",
+      "claimIds": [
+        "hs-tk-myth-shiji",
+        "hs-tk-myth-strategy",
+        "hs-tk-work",
+        "hs-tk-cmp-strategy"
+      ]
+    },
+    {
+      "text": "太公望と伏羲は、原典では時代も性格もまったく別の存在である。作品は、女媧と対になる神・伏羲を主人公の正体に据えることで、殷周革命の物語を中国神話の始まりにまで結びつけている。",
+      "claimIds": ["hs-tk-work-fuxi", "hs-tk-myth-fuxi", "hs-tk-cmp-fuxi"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hs-tk-work",
+      "text": "太公望は本作の主人公で、元始天尊の直弟子にして周の軍師。うつけ者を装っているが崑崙一の頭脳を持つ策士。主要武器は風を操る宝貝「打神鞭」。目的のために卑怯な手も堂々と使う。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-tk-work-origin",
+      "text": "太公望は元々は羌族の統領子息で、12歳の時に家族を人狩りで失い、元始天尊にスカウトされて仙人界で修業を積んだ。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-tk-work-fuxi",
+      "text": "物語の終盤で、太公望の正体は伏羲であることが明かされる。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。妲己の項に「太公望（伏羲）」とある。"
+    },
+    {
+      "id": "hs-tk-myth-shiji",
+      "text": "呂尚は年老いて困窮し、釣りをして周の西伯に近づいた。西伯は渭水の北で彼に会い、「吾が太公、子を望むこと久し」と言って太公望と号し、車に乗せて帰って師とした。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻32 斉太公世家"
+    },
+    {
+      "id": "hs-tk-myth-strategy",
+      "text": "西伯は呂尚とひそかに徳を修めて殷を傾ける謀をめぐらし、その多くは兵権と奇計であったため、後世に兵法を語る者はみな太公を祖とした。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻32 斉太公世家"
+    },
+    {
+      "id": "hs-tk-myth-fuxi",
+      "text": "古の包犠氏は天下を治め、天の象と地の法、鳥獣の模様を観察して八卦を作り、縄を結んで網を作り狩りと漁を教えた。",
+      "classification": "fact",
+      "sourceIds": ["yijing-xici"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『易経』繋辞下伝"
+    },
+    {
+      "id": "hs-tk-cmp-strategy",
+      "text": "卑怯な手も使う策士という造形は、兵法の祖とされた太公望の伝承を誇張したものといえる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "hs-tk-cmp-fuxi",
+      "text": "原典で別々の存在である太公望と伏羲を結びつけ、物語を中国神話の始まりにつなげている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hoshin-engi", "shiji", "yijing-xici"],
+  "articleIds": []
+}

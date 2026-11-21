@@ -1,0 +1,245 @@
+{
+  "id": "chinese-mythology-overview",
+  "slug": "chinese-mythology-overview",
+  "title": "中国神話とは？『山海経』『淮南子』から『西遊記』『封神演義』まで、神々の物語をわかりやすく解説",
+  "shortTitle": "中国神話とは？",
+  "eyecatchText": "中国神話",
+  "description": "中国神話はどんな資料から知られているのか。断片的に神話を伝える『山海経』『淮南子』『史記』と、孫悟空や哪吒の姿を定着させた明代の小説『西遊記』『封神演義』の違いを整理し、女媧・黄帝・羿などの主な神々を紹介します。",
+  "lead": "孫悟空、哪吒、太公望、妲己、九尾の狐——中国由来のキャラクターは、日本の漫画やゲームでもおなじみです。ところが、その多くは古代の神話ではなく、明代に書かれた小説で活躍した人物です。中国神話を読むための基本を整理します。",
+  "category": "basics",
+  "tags": ["中国神話", "山海経", "淮南子", "西遊記", "封神演義", "基礎知識"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "nuwa",
+    "fuxi",
+    "huangdi",
+    "chiyou",
+    "xiwangmu",
+    "hou-yi",
+    "change",
+    "nine-tailed-fox",
+    "sun-wukong",
+    "nezha"
+  ],
+  "mythologyIds": ["chinese"],
+  "storyIds": [
+    "nuwa-mends-heaven",
+    "yi-shoots-the-suns",
+    "huangdi-and-chiyou",
+    "havoc-in-heaven"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": [
+    "shanhaijing",
+    "huainanzi",
+    "shiji",
+    "xiyouji",
+    "fengshen-yanyi"
+  ],
+  "relatedArticleIds": ["nuwa", "hou-yi-and-change", "sun-wukong"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「まとまった神話」がない中国",
+      "anchor": "sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "中国にはギリシャ神話のヘシオドスや日本神話の『古事記』にあたる、神々の物語をまとめた古代の書物がありません。神話は、さまざまな目的で書かれた書物の中に断片的に残っています。",
+      "claimIds": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『山海経』：各地の山と海、そこに住む奇妙な生き物や神々を記した地理書",
+        "『淮南子』：前漢の思想書。女媧が天を補った話や、羿が太陽を射落とした話を含む",
+        "『史記』：司馬遷の歴史書。黄帝を中国史の始まりに置き、蚩尤との戦いを記す"
+      ],
+      "claimIds": ["cn-sources"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "怪物の地理書『山海経』",
+      "anchor": "shanhaijing"
+    },
+    {
+      "type": "paragraph",
+      "text": "『山海経』には、のちの物語に大きな影響を与えた存在が数多く記されています。たとえば南山経には、青丘の山に住む、狐に似て尾が九本ある獣——九尾の狐——が登場します。西山経の西王母は、人のような姿で豹の尾と虎の歯をもち、よく吠える恐ろしい神として描かれています。",
+      "claimIds": ["cn-fox", "cn-xwm"]
+    },
+    {
+      "type": "quote",
+      "text": "西王母、其の状は人の如く、豹の尾、虎の歯にして善く嘯き、蓬髪にして勝を戴く。是れ天の厲及び五残を司る。",
+      "sourceId": "shanhaijing",
+      "location": "西山経（玉山）",
+      "claimIds": ["cn-xwm"],
+      "translationNote": "原文の書き下し（編集部）"
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "姿を変えた西王母",
+      "text": "『山海経』で恐ろしい姿だった西王母は、のちの時代には不老不死の仙桃をもつ美しい女仙の女王として描かれるようになります。同じ神でも、時代によって姿が大きく変わる例です。",
+      "claimIds": ["cn-xwm-later"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "天を補った女神と太陽を射た英雄",
+      "anchor": "huainanzi"
+    },
+    {
+      "type": "paragraph",
+      "text": "『淮南子』は、天を支える柱が崩れて世界が崩壊しかけたとき、女媧が五色の石を練って天を補ったと語ります。また堯の時代には十の太陽が同時に昇り、弓の名手羿がそれを射落としたといいます。詳しくは[女媧と伏羲](/articles/nuwa/)、[羿と嫦娥](/articles/hou-yi-and-change/)で解説しています。",
+      "claimIds": ["cn-nuwa", "cn-yi"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "黄帝と蚩尤",
+      "anchor": "huangdi"
+    },
+    {
+      "type": "paragraph",
+      "text": "『史記』は中国の歴史を黄帝から書き起こします。黄帝は炎帝を阪泉の野で破り、反乱を起こした蚩尤を涿鹿の野で討って天子となりました。『山海経』はこの戦いを、より神話的に語っています。蚩尤が風伯と雨師を呼んで大風雨を起こすと、黄帝は天女の魃を下して雨を止め、蚩尤を討ったというのです。",
+      "claimIds": ["cn-shiji", "cn-chiyou"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "明代の小説——『西遊記』と『封神演義』",
+      "anchor": "novels"
+    },
+    {
+      "type": "paragraph",
+      "text": "16世紀、明の時代に、『西遊記』や『封神演義』といった長編小説が書かれました。これらは古代の神話そのものではなく、道教や仏教の神々、民間信仰、歴史上の人物を取り込んで新たに作られた物語です。しかし孫悟空や哪吒、仙人としての太公望の姿は、これらの小説によって定着しました。",
+      "claimIds": ["cn-novels"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『西遊記』：花果山の石から生まれた孫悟空が、三蔵法師の天竺への旅を守る",
+        "『封神演義』：殷の紂王を倒す易姓革命を、仙人たちの戦いとして描く。妲己・哪吒・太公望が活躍する"
+      ],
+      "claimIds": ["cn-novels"]
+    },
+    {
+      "type": "paragraph",
+      "text": "それぞれの作品のキャラクターについては、[孫悟空とは？](/articles/sun-wukong/)、[藤崎竜『封神演義』の元ネタ](/articles/hoshin-engi/)で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "トモタネの方針",
+      "text": "古代の文献に見える神話と、明代の小説で作られた設定は性格が異なります。トモタネでは両者を区別し、小説に拠る記述にはその旨を明記します。",
+      "claimIds": ["cn-policy"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "中国神話は『山海経』『淮南子』『史記』などに断片的に残る",
+        "九尾の狐や西王母は『山海経』、女媧補天や羿の射日は『淮南子』に見える",
+        "孫悟空や哪吒の姿は、明代の小説『西遊記』『封神演義』で定着した"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "cn-sources",
+      "text": "『山海経』は山海の地理と産物・神怪を記し、『淮南子』は女媧補天や羿の射日を含み、『史記』五帝本紀は黄帝から書き起こす。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing", "huainanzi", "shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "shanhaijing: 全篇; huainanzi: 覧冥訓・本経訓; shiji: 巻1 五帝本紀"
+    },
+    {
+      "id": "cn-fox",
+      "text": "青丘の山に、狐のような姿で九本の尾をもち、赤子のような声で鳴き、人を食う獣がいる。その肉を食べた者は蠱（邪気）に冒されない。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』南山経（青丘之山）"
+    },
+    {
+      "id": "cn-xwm",
+      "text": "玉山は西王母の住むところである。西王母は人のような姿で豹の尾と虎の歯をもち、よく嘯き、蓬髪に勝をつけ、天の厲（災い）と五残（刑罰）をつかさどる。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』西山経（玉山）"
+    },
+    {
+      "id": "cn-xwm-later",
+      "text": "西王母はのちに不老不死の仙桃をもつ女仙の女王として描かれるようになる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "漢代以降の西王母信仰の展開による。原典の特定箇所にもとづく記述ではない。"
+    },
+    {
+      "id": "cn-nuwa",
+      "text": "往古、四極が廃れ九州が裂けたとき、女媧は五色の石を練って蒼天を補い、鼇の足を断って四極を立てた。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』覧冥訓"
+    },
+    {
+      "id": "cn-yi",
+      "text": "堯の時代に十の太陽が並び出て作物を焦がした。堯は羿に命じ、羿は十の太陽を射た。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』本経訓"
+    },
+    {
+      "id": "cn-shiji",
+      "text": "軒轅（黄帝）は炎帝と阪泉の野で三たび戦って勝ち、蚩尤が乱を起こすと涿鹿の野で戦ってこれを捕らえ殺した。諸侯は軒轅を天子として尊び、黄帝とした。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻1 五帝本紀"
+    },
+    {
+      "id": "cn-chiyou",
+      "text": "蚩尤は兵器を作って黄帝を攻め、黄帝は応竜に冀州の野で迎え撃たせた。蚩尤は風伯・雨師に大風雨を起こさせたが、黄帝は天女の魃を下して雨を止め、蚩尤を殺した。",
+      "classification": "variant",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』大荒北経"
+    },
+    {
+      "id": "cn-novels",
+      "text": "『西遊記』は花果山の石猿孫悟空を、『封神演義』は殷周革命と仙人たちの戦いを描く明代の小説である。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji", "fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "xiyouji: 第1回; fengshen-yanyi: 第1回"
+    },
+    {
+      "id": "cn-policy",
+      "text": "古代の文献と明代の小説を区別して紹介する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

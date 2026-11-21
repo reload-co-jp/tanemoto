@@ -1,14 +1,5 @@
 [
   {
-    "id": "chinese",
-    "slug": "chinese",
-    "name": "中国神話",
-    "region": "中国",
-    "description": "『山海経』や『淮南子』などに断片的に伝えられる神々と怪異の物語。準備中です。",
-    "comingSoon": true,
-    "order": 8
-  },
-  {
     "id": "aztec",
     "slug": "aztec",
     "name": "アステカ神話",
@@ -25,5 +16,14 @@
     "description": "雷神ペルーンや森の魔女バーバ・ヤガーなど、スラヴの人々の神々と民間伝承。準備中です。",
     "comingSoon": true,
     "order": 10
+  },
+  {
+    "id": "finnish",
+    "slug": "finnish",
+    "name": "フィンランド神話",
+    "region": "フィンランド・カレリア",
+    "description": "叙事詩『カレワラ』に伝えられる、賢者ワイナモイネンや魔法の臼サンポの物語。準備中です。",
+    "comingSoon": true,
+    "order": 11
   }
 ]

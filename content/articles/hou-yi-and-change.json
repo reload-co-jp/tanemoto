@@ -1,0 +1,177 @@
+{
+  "id": "hou-yi-and-change",
+  "slug": "hou-yi-and-change",
+  "title": "羿と嫦娥——十の太陽を射落とした英雄と、不死の薬を盗んで月へ逃れた妻",
+  "shortTitle": "羿と嫦娥",
+  "eyecatchText": "羿と嫦娥",
+  "description": "十の太陽が同時に昇った堯の時代、弓の名手羿は太陽を射落とし、地上の怪物を退治した。しかし西王母から得た不死の薬は妻の嫦娥に盗まれ、彼女は月へ逃れる。『淮南子』に残る二つの物語を原文から解説します。",
+  "lead": "中秋節の月見とともに語られる嫦娥と、太陽を射落とした英雄羿。月の女神として、ゲームやアニメでも名前を見かける嫦娥の物語は、前漢の『淮南子』にわずか一行ほどで記されているにすぎません。断片から浮かび上がる二人の物語をたどります。",
+  "category": "myths",
+  "tags": ["羿", "嫦娥", "西王母", "中国神話", "淮南子", "月"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["hou-yi", "change", "xiwangmu"],
+  "mythologyIds": ["chinese"],
+  "storyIds": ["yi-shoots-the-suns", "change-flees-to-the-moon"],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": ["heroic-quest", "monsters"],
+  "sourceIds": ["huainanzi", "shanhaijing"],
+  "relatedArticleIds": [
+    "chinese-mythology-overview",
+    "nuwa",
+    "serpent-slayers"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "十の太陽",
+      "anchor": "suns"
+    },
+    {
+      "type": "paragraph",
+      "text": "『淮南子』本経訓は、伝説の聖王堯の時代の災厄を語ります。",
+      "claimIds": ["yc-suns"]
+    },
+    {
+      "type": "quote",
+      "text": "堯の時に逮んで、十日並び出で、禾稼を焦がし、草木を殺して、民は食らう所無し。猰貐・鑿歯・九嬰・大風・封豨・修蛇、皆民の害を為す。",
+      "sourceId": "huainanzi",
+      "location": "本経訓",
+      "claimIds": ["yc-suns"],
+      "translationNote": "原文の書き下し（編集部）"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "羿の弓",
+      "anchor": "yi"
+    },
+    {
+      "type": "paragraph",
+      "text": "堯は羿に命じて、これらの災いを除かせました。羿は疇華の野で鑿歯を誅し、凶水のほとりで九嬰を殺し、青丘の沢で大風を射とめ、天に向かって十の太陽を射落とし、地上では猰貐を殺しました。さらに洞庭で修蛇を断ち、桑林で封豨を捕らえます。万民は喜び、堯を天子に戴いたといいます。",
+      "claimIds": ["yc-yi"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "太陽はなぜ一つになったか",
+      "text": "原文は「上は十日を射る」と記すだけで、何個の太陽を射落としたかは明言していません。今も空に太陽が一つ残っていることから、羿は九つを射落として一つを残したと語られるのが一般的です。",
+      "claimIds": ["yc-cmp-nine"]
+    },
+    {
+      "type": "paragraph",
+      "text": "羿が退治した修蛇は「大きな蛇」を意味します。大蛇退治の神話は世界各地に見られ、[大蛇退治の神話を比べる](/articles/serpent-slayers/)でも紹介しています。",
+      "claimIds": ["yc-yi"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "不死の薬と嫦娥",
+      "anchor": "change"
+    },
+    {
+      "type": "paragraph",
+      "text": "羿の物語のもう一つの断片は、『淮南子』覧冥訓に、たとえ話として登場します。",
+      "claimIds": ["yc-change"]
+    },
+    {
+      "type": "quote",
+      "text": "譬えば羿、不死の薬を西王母に請い、姮娥竊みて以て月に奔る。悵然として喪うこと有り、以て之を続くる無し。何となれば則ち、不死の薬の由りて生ずる所を知らざればなり。",
+      "sourceId": "huainanzi",
+      "location": "覧冥訓",
+      "claimIds": ["yc-change"],
+      "translationNote": "原文の書き下し（編集部）"
+    },
+    {
+      "type": "paragraph",
+      "text": "羿は西王母に不死の薬を求めて手に入れましたが、妻の姮娥（嫦娥）がそれを盗んで月へと逃げてしまいました。羿は悲嘆にくれましたが、薬がどこから生まれるのかを知らないので、もう一度手に入れることはできなかった——『淮南子』は、物事の根本を知ることの大切さを説くたとえとして、この話を引いています。",
+      "claimIds": ["yc-change"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "西王母",
+      "text": "不死の薬をもっていた西王母は、『山海経』では人のような姿に豹の尾と虎の歯をもつ、天の災いと刑罰をつかさどる神として描かれています。",
+      "claimIds": ["yc-xwm"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "断片から物語へ",
+      "anchor": "later"
+    },
+    {
+      "type": "paragraph",
+      "text": "古代の文献に残る羿と嫦娥の物語は、このように短い断片です。月に逃れた嫦娥がその後どうなったのか、なぜ薬を盗んだのかといった細部は、後の時代の伝承や物語によって補われ、さまざまな異伝が生まれました。",
+      "claimIds": ["yc-cmp-later"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "堯の時代に十の太陽が並んで昇り、羿がこれを射落として怪物たちを退治した（『淮南子』本経訓）",
+        "羿は西王母から不死の薬を得たが、妻の姮娥（嫦娥）が盗んで月へ逃れた（『淮南子』覧冥訓）",
+        "古代の記録は断片的で、細部は後世の伝承で補われていった"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "yc-suns",
+      "text": "堯の時代に十の太陽が並んで昇り、作物を焦がし草木を枯らして、民は食べるものがなくなった。猰貐・鑿歯・九嬰・大風・封豨・修蛇もみな民の害をなした。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』本経訓"
+    },
+    {
+      "id": "yc-yi",
+      "text": "堯は羿に命じ、羿は疇華の野で鑿歯を誅し、凶水で九嬰を殺し、青丘の沢で大風を射とめ、上は十日を射て下は猰貐を殺し、洞庭で修蛇を断ち、桑林で封豨を捕らえた。万民は喜び、堯を天子とした。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』本経訓"
+    },
+    {
+      "id": "yc-cmp-nine",
+      "text": "原文は「十日を射る」とのみ記し、九つを射落として一つを残したという話は後世に一般化した語り方である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "yc-change",
+      "text": "羿は不死の薬を西王母に請うたが、姮娥がそれを盗んで月に奔った。羿は悵然として失ったものを取り戻せなかった。不死の薬がどこから生じるかを知らなかったからである。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』覧冥訓"
+    },
+    {
+      "id": "yc-xwm",
+      "text": "西王母は人のような姿で豹の尾と虎の歯をもち、天の厲と五残をつかさどる。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』西山経（玉山）"
+    },
+    {
+      "id": "yc-cmp-later",
+      "text": "嫦娥の物語の細部は後世の伝承によって補われ、異伝が生まれた。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

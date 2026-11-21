@@ -1,0 +1,50 @@
+{
+  "id": "chinese",
+  "slug": "chinese",
+  "name": "中国神話",
+  "reading": "ちゅうごくしんわ",
+  "region": "中国",
+  "period": "断片的な記録は戦国時代〜漢代の文献から。明代の小説にも大きく受け継がれた",
+  "description": "天を補った女神女媧、八卦を作った伏羲、黄帝と蚩尤の戦い、十の太陽を射落とした羿と月へ逃れた嫦娥など、古代の文献に断片的に残る神々の物語。明代の小説『西遊記』『封神演義』を通じて、孫悟空や哪吒も広く知られるようになった。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "中国の神話は、ギリシャ神話のように一つの体系としてまとめられることがありませんでした。『山海経』『淮南子』『史記』などの書物に、地理や思想、歴史の記述の一部として断片的に残っています。"
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、明代には『西遊記』や『封神演義』といった長編小説が書かれ、古い神々や民間信仰の神々を物語の中で活躍させました。これらは神話そのものではなく創作文学ですが、孫悟空や哪吒の姿はこの小説によって定着しています。トモタネでは、古代の文献と明代の小説を区別して紹介します。概要は[中国神話とは？](/articles/chinese-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": [
+    "nuwa",
+    "fuxi",
+    "huangdi",
+    "chiyou",
+    "xiwangmu",
+    "hou-yi",
+    "change",
+    "sun-wukong",
+    "nezha",
+    "jiang-ziya",
+    "daji"
+  ],
+  "storyIds": [
+    "nuwa-mends-heaven",
+    "yi-shoots-the-suns",
+    "change-flees-to-the-moon",
+    "huangdi-and-chiyou",
+    "havoc-in-heaven",
+    "nezha-lotus-body",
+    "daji-and-the-fox"
+  ],
+  "sourceIds": [
+    "shanhaijing",
+    "huainanzi",
+    "shiji",
+    "yijing-xici",
+    "xiyouji",
+    "fengshen-yanyi"
+  ],
+  "order": 8
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nezha",
+  "slug": "nezha",
+  "name": "哪吒",
+  "reading": "なた",
+  "originalName": "哪吒",
+  "romanized": "Nezha",
+  "alternativeNames": ["なたく", "哪吒太子"],
+  "type": "god",
+  "roles": ["少年神", "蓮の化身"],
+  "mythologyIds": ["chinese"],
+  "description": "李靖の三男。『封神演義』では霊珠子の化身として生まれ、乾坤圏と混天綾を身につけていた。東海竜王の三太子敖丙を殺したため、自ら骨肉を父母に返して死ぬが、師の太乙真人によって蓮の花と葉から新しい体を与えられ、火尖鎗と風火輪を授かった。",
+  "relatedFigureIds": ["sun-wukong", "jiang-ziya"],
+  "relatedStoryIds": ["nezha-lotus-body"],
+  "articleIds": [],
+  "sourceIds": ["fengshen-yanyi", "xiyouji"]
+}

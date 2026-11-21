@@ -1,0 +1,17 @@
+{
+  "id": "nuwa",
+  "slug": "nuwa",
+  "name": "女媧",
+  "reading": "じょか",
+  "originalName": "女媧",
+  "romanized": "Nuwa",
+  "alternativeNames": ["女媧娘娘"],
+  "type": "god",
+  "roles": ["天の修復", "創造"],
+  "mythologyIds": ["chinese"],
+  "description": "天地が崩れかけた太古、五色の石を練って天の破れを補い、大亀の脚を切って天を支える四本の柱とした女神。『淮南子』に記される。明代の小説『封神演義』では、紂王に詩で侮辱されたことに怒り、妖怪たちを遣わして殷を滅ぼす発端をつくる。",
+  "relatedFigureIds": ["fuxi", "daji"],
+  "relatedStoryIds": ["nuwa-mends-heaven", "daji-and-the-fox"],
+  "articleIds": [],
+  "sourceIds": ["huainanzi", "fengshen-yanyi"]
+}

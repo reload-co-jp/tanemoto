@@ -1,0 +1,17 @@
+{
+  "id": "fuxi",
+  "slug": "fuxi",
+  "name": "伏羲",
+  "reading": "ふっき",
+  "originalName": "伏羲",
+  "romanized": "Fuxi",
+  "alternativeNames": ["包犠", "庖犠", "伏犠"],
+  "type": "god",
+  "roles": ["八卦", "文化英雄"],
+  "mythologyIds": ["chinese"],
+  "description": "太古の帝王とされる神。『易経』繋辞伝によれば、天の現象と地の形、鳥獣の模様を観察して八卦を作り、縄を結んで網を作り、狩りと漁を教えた。漢代以降、女媧と対になる神として描かれるようになる。",
+  "relatedFigureIds": ["nuwa"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["yijing-xici"]
+}

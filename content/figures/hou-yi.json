@@ -1,0 +1,17 @@
+{
+  "id": "hou-yi",
+  "slug": "hou-yi",
+  "name": "羿",
+  "reading": "げい",
+  "originalName": "羿",
+  "romanized": "Yi",
+  "alternativeNames": ["后羿"],
+  "type": "hero",
+  "roles": ["弓の名手", "太陽を射る者"],
+  "mythologyIds": ["chinese"],
+  "description": "弓の名手。『淮南子』本経訓によれば、堯の時代に十の太陽が同時に昇って作物を焼いたとき、天に向かって十の太陽を射落とし、さらに地上の怪物たちを退治して民を救った。西王母から不死の薬を得たが、妻の姮娥（嫦娥）に盗まれた。",
+  "relatedFigureIds": ["change", "xiwangmu"],
+  "relatedStoryIds": ["yi-shoots-the-suns", "change-flees-to-the-moon"],
+  "articleIds": [],
+  "sourceIds": ["huainanzi"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nine-tailed-fox",
+  "slug": "nine-tailed-fox",
+  "name": "九尾の狐",
+  "reading": "きゅうびのきつね",
+  "originalName": "九尾狐",
+  "romanized": "Jiuweihu",
+  "alternativeNames": [],
+  "type": "monster",
+  "roles": ["九本の尾", "変化"],
+  "mythologyIds": ["chinese"],
+  "description": "『山海経』南山経に記される、青丘の山に住む獣。狐のような姿で尾が九本あり、赤子のような声で鳴き、人を食う。その肉を食べた者は邪気に冒されないという。のちに美女に化けて国を傾ける妖狐の伝説と結びついた。",
+  "relatedFigureIds": ["daji"],
+  "relatedStoryIds": ["daji-and-the-fox"],
+  "articleIds": [],
+  "sourceIds": ["shanhaijing", "fengshen-yanyi"]
+}

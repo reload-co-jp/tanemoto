@@ -289,5 +289,72 @@
     "url": "https://archive.org/details/TheMahabharataOfKrishna-dwaipayanaVyasa",
     "urlLabel": "Internet Archive（Ganguli 英訳）",
     "notes": "バラタ族の王位をめぐるパーンダヴァ五兄弟とカウラヴァ百王子の大戦争を中心とする、18巻からなる古代インドの大叙事詩。箇所は Ganguli 英訳の巻名と節番号（例: 森の巻 308節）で示す。節の区切りは底本・訳によって異なる。邦訳に上村勝彦訳（ちくま学芸文庫、未完）などがある。"
+  },
+  {
+    "id": "shanhaijing",
+    "title": "山海経",
+    "originalTitle": "山海經",
+    "author": "作者不詳",
+    "translator": "郭璞注（晋）",
+    "type": "primary",
+    "publishedPeriod": "戦国時代〜漢代にかけて成立（諸説あり）",
+    "url": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "各地の山や海、そこに住む奇妙な生き物や神々を記した古代中国の地理書。九尾の狐や西王母など、のちの物語に影響を与えた存在が多く記される。箇所は「南山経」「大荒北経」など篇名で示す。邦訳に高馬三良訳（平凡社ライブラリー）がある。"
+  },
+  {
+    "id": "huainanzi",
+    "title": "淮南子",
+    "originalTitle": "淮南子",
+    "author": "劉安（編）",
+    "type": "primary",
+    "publishedPeriod": "紀元前139年頃",
+    "url": "https://zh.wikisource.org/wiki/%E6%B7%AE%E5%8D%97%E5%AD%90",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "前漢の淮南王劉安が学者たちに編ませた思想書。女媧が天を補った話や、羿が十の太陽を射落とした話、姮娥（嫦娥）が月へ逃れた話など、中国神話の重要な断片を含む。箇所は「覧冥訓」など篇名で示す。"
+  },
+  {
+    "id": "shiji",
+    "title": "史記",
+    "originalTitle": "史記",
+    "author": "司馬遷",
+    "type": "primary",
+    "publishedPeriod": "紀元前91年頃",
+    "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "黄帝から前漢の武帝までを記した中国最初の通史。巻1「五帝本紀」は黄帝と蚩尤の戦いを、巻32「斉太公世家」は太公望呂尚の生涯を記す。邦訳に小竹文夫・小竹武夫訳（ちくま学芸文庫）などがある。"
+  },
+  {
+    "id": "yijing-xici",
+    "title": "易経 繋辞伝",
+    "originalTitle": "周易·繫辭傳",
+    "author": "作者不詳（伝統的に孔子の作とされた）",
+    "type": "primary",
+    "publishedPeriod": "戦国時代〜漢代（諸説あり）",
+    "url": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E7%B9%AB%E8%BE%AD%E4%B8%8B",
+    "urlLabel": "Wikisource（原文・繋辞下伝）",
+    "notes": "占いの書『易経』の解説部分「十翼」の一つ。繋辞下伝は、包犠氏（伏羲）が天地の姿を観察して八卦を作ったと語る。"
+  },
+  {
+    "id": "xiyouji",
+    "title": "西遊記",
+    "originalTitle": "西遊記",
+    "author": "呉承恩（とされる）",
+    "type": "primary",
+    "publishedPeriod": "16世紀後半（明代）",
+    "url": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "唐の僧玄奘のインドへの旅を題材に、孫悟空・猪八戒・沙悟浄が三蔵法師を守って天竺へ向かう長編小説。神話そのものではなく明代の創作文学だが、道教・仏教の神々や民間伝承を取り込み、のちの作品に大きな影響を与えた。箇所は回数で示す。邦訳に中野美代子訳（岩波文庫）がある。"
+  },
+  {
+    "id": "fengshen-yanyi",
+    "title": "封神演義",
+    "originalTitle": "封神演義",
+    "author": "許仲琳（または陸西星）とされる",
+    "type": "primary",
+    "publishedPeriod": "16世紀後半〜17世紀初め（明代）",
+    "url": "https://zh.wikisource.org/wiki/%E5%B0%81%E7%A5%9E%E6%BC%94%E7%BE%A9",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "殷の紂王が倒され周が興る易姓革命を、仙人たちの戦いとして描いた長編小説。作者には諸説がある。神話そのものではなく明代の創作文学だが、女媧・哪吒・太公望などの像に大きな影響を与えた。箇所は回数で示す。日本では安能務による翻案的な訳（講談社文庫）が広く読まれた。"
   }
 ]

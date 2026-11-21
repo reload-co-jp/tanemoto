@@ -1,0 +1,17 @@
+{
+  "id": "huangdi",
+  "slug": "huangdi",
+  "name": "黄帝",
+  "reading": "こうてい",
+  "originalName": "黃帝",
+  "romanized": "Huangdi",
+  "alternativeNames": ["軒轅"],
+  "type": "god",
+  "roles": ["中華の祖", "帝王"],
+  "mythologyIds": ["chinese"],
+  "description": "中国の伝説上の帝王で、名は軒轅。『史記』五帝本紀の筆頭に置かれる。炎帝を阪泉の野で破り、反乱を起こした蚩尤を涿鹿の野で討って天子となった。",
+  "relatedFigureIds": ["chiyou"],
+  "relatedStoryIds": ["huangdi-and-chiyou"],
+  "articleIds": [],
+  "sourceIds": ["shiji", "shanhaijing"]
+}

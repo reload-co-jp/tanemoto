@@ -1,0 +1,103 @@
+{
+  "id": "hoshin-engi-daji",
+  "slug": "hoshin-engi-daji",
+  "name": "妲己",
+  "reading": "だっき",
+  "alternativeNames": [],
+  "workId": "hoshin-engi",
+  "description": {
+    "text": "本作のヒロインにしてラスボス。金鰲島出身の仙女で殷の皇后。正体は1500年生きた狐の妖怪仙人で、宝貝「傾世元禳」による誘惑の術で紂王をたぶらかす。",
+    "claimIds": ["hs-dj-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "daji",
+      "label": "妲己（千年狐狸精）",
+      "inWork": {
+        "text": "他人の肉体を乗っ取る「借体形成の術」で、冀州侯の娘が紂王の后に召される際にその体を乗っ取った。",
+        "claimIds": ["hs-dj-work-body"]
+      },
+      "inMyth": {
+        "text": "『封神演義』では、紂王に献じられる途中の冀州侯蘇護の娘・妲己が、恩州の駅舎で千年狐狸精に魂を吸われて死に、狐がその体を借りて紂王を惑わした。",
+        "claimIds": ["hs-dj-myth-fox"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "nuwa",
+      "label": "女媧の命",
+      "inWork": {
+        "text": "夏王朝の末喜の時代に女媧と出会って配下となり、その指示通りに王朝を衰退させていた。",
+        "claimIds": ["hs-dj-work-nuwa"]
+      },
+      "inMyth": {
+        "text": "『封神演義』第1回で、紂王に侮辱された女媧は軒轅墳の三妖（千年狐狸精・九頭雉雞精・玉石琵琶精）を呼び、紂王を惑わして殷を滅ぼすよう命じた。",
+        "claimIds": ["hs-dj-myth-nuwa"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「狐が冀州侯の娘の体を借りる」「女媧の命で王朝を傾ける」という骨格は原典『封神演義』と共通している。一方、作品の妲己は女媧に従うふりをして力を奪おうとし、最後は女媧の体を乗っ取るなど、原典にはない独自の展開をたどる。",
+      "claimIds": [
+        "hs-dj-myth-fox",
+        "hs-dj-myth-nuwa",
+        "hs-dj-work-body",
+        "hs-dj-work-nuwa",
+        "hs-dj-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hs-dj-work",
+      "text": "妲己は本作のヒロインかつラスボスで、金鰲島出身の仙女であり殷の皇后。正体は1500年生きた狐の妖怪仙人。宝貝「傾世元禳」による誘惑の術で紂王を誑かす。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-dj-work-body",
+      "text": "妲己は魂魄だけで移動し他人の肉体を乗っ取る「借体形成の術」を使い、現在の体は冀州侯の娘が紂王の后に召される際に乗っ取ったもの。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-dj-work-nuwa",
+      "text": "妲己は末喜時代に女媧と出会って配下となり、その指示通りに時の王朝を衰退させていた。のちに女媧の肉体を乗っ取る。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-dj-myth-fox",
+      "text": "冀州侯蘇護の娘妲己は恩州の駅舎で千年狐狸に魂魄を吸われて死に、狐がその体を借りて形を成し、紂王を惑わした。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第4回"
+    },
+    {
+      "id": "hs-dj-myth-nuwa",
+      "text": "紂王に詩で辱められた女媧は軒轅墳の三妖（千年狐狸精・九頭雉雞精・玉石琵琶精）を呼び、紂王の心を惑わして殷を滅ぼすよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第1回"
+    },
+    {
+      "id": "hs-dj-cmp",
+      "text": "狐が娘の体を借りる点、女媧の命で王朝を傾ける点は原典と共通し、女媧の体を乗っ取る展開は作品独自である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hoshin-engi", "fengshen-yanyi"],
+  "articleIds": []
+}

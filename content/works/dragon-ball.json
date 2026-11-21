@@ -1,0 +1,14 @@
+{
+  "id": "dragon-ball",
+  "slug": "dragon-ball",
+  "title": "ドラゴンボール",
+  "reading": "どらごんぼーる",
+  "type": "manga",
+  "mediaTypes": ["anime", "game", "film"],
+  "author": "鳥山明",
+  "period": "1984〜1995年（『週刊少年ジャンプ』連載）",
+  "description": "七つ集めるとどんな願いも叶うドラゴンボールをめぐり、尻尾のある少年・孫悟空が仲間とともに冒険し、強敵と戦いながら成長していく漫画。1986年にアニメ化。主人公の名や如意棒・筋斗雲は、明代の小説『西遊記』の孫悟空に由来する。",
+  "mythologyIds": ["chinese"],
+  "articleIds": [],
+  "sourceIds": ["work-dragon-ball"]
+}

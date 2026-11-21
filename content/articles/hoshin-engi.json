@@ -1,0 +1,275 @@
+{
+  "id": "hoshin-engi",
+  "slug": "hoshin-engi",
+  "title": "藤崎竜『封神演義』の元ネタ｜太公望・妲己・哪吒と、明代の小説『封神演義』・『史記』を解説",
+  "shortTitle": "藤崎竜『封神演義』の元ネタ",
+  "eyecatchText": "封神演義",
+  "description": "藤崎竜の漫画『封神演義』の太公望、妲己、哪吒。その元となった明代の小説『封神演義』と、太公望の実像を伝える『史記』の記述から、女媧に遣わされた狐の妲己、蓮の化身としてよみがえった哪吒、渭水で釣りをしていた太公望を解説します。",
+  "lead": "ギャグとSFを大胆に取り入れた藤崎竜の『封神演義』。その骨格には、明代の小説『封神演義』と、さらにさかのぼる殷周革命の歴史があります。太公望・妲己・哪吒の三人を中心に、元ネタとなった物語をたどります。",
+  "category": "character-origins",
+  "tags": ["封神演義", "藤崎竜", "太公望", "妲己", "哪吒", "中国神話"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "jiang-ziya",
+    "daji",
+    "nezha",
+    "nuwa",
+    "fuxi",
+    "nine-tailed-fox"
+  ],
+  "mythologyIds": ["chinese"],
+  "storyIds": ["daji-and-the-fox", "nezha-lotus-body"],
+  "workIds": ["hoshin-engi"],
+  "characterIds": [
+    "hoshin-engi-taikobo",
+    "hoshin-engi-daji",
+    "hoshin-engi-nataku"
+  ],
+  "topicIds": ["divine-items", "transformation"],
+  "sourceIds": [
+    "work-hoshin-engi",
+    "fengshen-yanyi",
+    "shiji",
+    "yijing-xici",
+    "shanhaijing"
+  ],
+  "relatedArticleIds": ["nuwa", "chinese-mythology-overview", "sun-wukong"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三つの層",
+      "anchor": "layers"
+    },
+    {
+      "type": "paragraph",
+      "text": "藤崎竜の『封神演義』は、明代の小説『封神演義』を、安能務の訳（講談社文庫）にもとづいて漫画化した作品です。小説『封神演義』自体も、殷の紂王が周の武王に滅ぼされた歴史上の易姓革命を、仙人たちの戦いとして大胆に脚色した物語でした。",
+      "claimIds": ["hs-layers"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "歴史：殷の滅亡と周の建国（紀元前11世紀頃）。『史記』などに記される",
+        "明代の小説『封神演義』：歴史を仙人と妖怪の戦いとして描いた神魔小説",
+        "藤崎竜の漫画：小説をもとに、ギャグやSF的な設定を加えた作品"
+      ],
+      "claimIds": ["hs-layers"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "太公望——渭水の釣り人",
+      "anchor": "taikobo"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品の太公望は、元始天尊の直弟子で周の軍師。うつけ者を装いながら崑崙一の頭脳をもつ策士で、時には味方からブーイングを受けるほど卑怯な手も使います。",
+      "claimIds": ["hs-a-tk-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その元になった人物・呂尚について、『史記』は次のように伝えます。年老いて貧しかった呂尚は、釣りをしながら周の西伯（のちの文王）に近づきました。狩りに出る前の占いで「得るものは竜でも虎でもなく、覇王の補佐である」と出た西伯は、渭水の北で呂尚に出会い、語り合って大いに喜びます。",
+      "claimIds": ["hs-a-tk-shiji"]
+    },
+    {
+      "type": "quote",
+      "text": "吾が先君太公より曰く「当に聖人有りて周に適くべし、周以て興らん」と。子は真に是れなるか。吾が太公、子を望むこと久し。",
+      "sourceId": "shiji",
+      "location": "巻32 斉太公世家",
+      "claimIds": ["hs-a-tk-shiji"],
+      "translationNote": "原文の書き下し（編集部）"
+    },
+    {
+      "type": "paragraph",
+      "text": "こうして呂尚は「太公望」と号され、文王・武王の師となりました。『史記』は、二人がめぐらした殷を傾ける謀略には兵権と奇計が多かったため、後世に兵法を語る者はみな太公を祖としたと記しています。作品の「策士」太公望は、この兵法の祖としての伝承をギャグを交えて誇張したものといえるでしょう。",
+      "claimIds": ["hs-a-tk-strategy", "hs-a-cmp-tk"]
+    },
+    {
+      "type": "note",
+      "classification": "creative",
+      "title": "太公望の正体",
+      "text": "作品の終盤では、太公望の正体が「始まりの人」の一人・伏羲であることが明かされます。原典の伏羲は、八卦を作ったとされる太古の神です。詳しくは[女媧と伏羲](/articles/nuwa/)で解説しています。",
+      "claimIds": ["hs-a-tk-fuxi"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "妲己——女媧が遣わした狐",
+      "anchor": "daji"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品の妲己は、1500年生きた狐の妖怪仙人で、殷の皇后。他人の体を乗っ取る術で、冀州侯の娘の体を奪っています。",
+      "claimIds": ["hs-a-dj-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "小説『封神演義』では、紂王が女媧宮で女神の像をみだらな詩で辱めたことが発端です。怒った女媧は軒轅墳の三妖——千年狐狸精・九頭雉雞精・玉石琵琶精——を呼び、紂王を惑わして殷を滅ぼすよう命じます。そして紂王のもとへ献じられる途中の冀州侯蘇護の娘・妲己は、恩州の駅舎で千年狐狸精に魂を吸われて死に、狐がその体を借りて紂王の妃となりました。",
+      "claimIds": ["hs-a-dj-nuwa", "hs-a-dj-fox"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "九尾の狐",
+      "text": "小説では「千年狐狸精」と呼ばれる妲己の正体は、日本では九尾の狐として語られることが多くあります。九尾の狐そのものは、古代の地理書『山海経』に、青丘の山に住む人食いの獣として登場します。",
+      "claimIds": ["hs-a-fox9"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "哪吒——蓮の化身",
+      "anchor": "nataku"
+    },
+    {
+      "type": "paragraph",
+      "text": "作品の哪吒は、太乙真人が作った宝貝「霊珠」を本体とする宝貝人間です。一度体を失ったのち、蓮の花を新しい宿主として蓮の化身としてよみがえりました。",
+      "claimIds": ["hs-a-nz-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "小説の哪吒は、霊珠子の化身として生まれ、右手に金の腕輪「乾坤圏」、腹に赤い綾「混天綾」を巻いていました。海で水浴びをして竜宮を揺るがし、東海竜王の三太子敖丙を殺してしまった哪吒は、父母に累が及ぶのを避けるため、腹を裂いて骨肉を父母に返して死にます。師の太乙真人は、蓮の花と荷葉で体を作って哪吒の魂を宿らせ、火尖鎗と風火輪を授けました。",
+      "claimIds": ["hs-a-nz-birth", "hs-a-nz-lotus"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "哪吒の読み方",
+      "text": "作品では哪吒を「なたく」と読みます。これは安能務訳の読みに従ったもので、一般には「なた」と読まれます。",
+      "claimIds": ["hs-a-nz-reading"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "藤崎竜『封神演義』は、明代の小説『封神演義』（安能務訳）をもとにした作品",
+        "太公望は『史記』で、渭水のほとりで文王に見いだされた兵法の祖として語られる",
+        "小説の妲己は、女媧の命を受けた千年狐狸精が娘の体を借りた姿",
+        "小説の哪吒は、骨肉を父母に返して死んだのち、蓮の化身としてよみがえった"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "hs-layers",
+      "text": "藤崎竜『封神演義』は中国の古典小説『封神演義』を原作とし、安能務訳の講談社文庫版にもとづく。原典にないギャグ・コメディや超古代文明の要素が加えられている。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-a-tk-work",
+      "text": "太公望は元始天尊の直弟子で周の軍師。うつけ者を装っているが崑崙一の頭脳を持つ策士で、時には味方からブーイングを受けるほどの卑怯な手も使う。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-a-tk-fuxi",
+      "text": "物語の終盤で、太公望の正体は伏羲であることが明かされる。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-a-tk-shiji",
+      "text": "呂尚は年老いて困窮し、釣りをして周の西伯に近づいた。西伯が狩りの前に占うと「得るのは竜でも虎でもなく覇王の輔である」と出た。西伯は渭水の北で太公に会い、語り合って喜び、「吾が太公、子を望むこと久し」と言って太公望と号し、師とした。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻32 斉太公世家"
+    },
+    {
+      "id": "hs-a-tk-strategy",
+      "text": "西伯は呂尚とひそかに徳を修めて殷を傾ける謀をめぐらし、それには兵権と奇計が多かったため、後世に兵法と周の陰謀を語る者はみな太公を本とした。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻32 斉太公世家"
+    },
+    {
+      "id": "hs-a-cmp-tk",
+      "text": "作品の策士太公望は、兵法の祖とされた伝承を誇張したものといえる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "hs-a-dj-work",
+      "text": "妲己は1500年生きた狐の妖怪仙人で殷の皇后。借体形成の術で、冀州侯の娘が紂王の后に召される際にその体を乗っ取った。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-a-dj-nuwa",
+      "text": "紂王は女媧宮の壁に詩を書いて女媧を辱めた。女媧は軒轅墳の三妖（千年狐狸精・九頭雉雞精・玉石琵琶精）に、紂王を惑わして殷を滅ぼすよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第1回"
+    },
+    {
+      "id": "hs-a-dj-fox",
+      "text": "冀州侯蘇護の娘妲己は恩州の駅舎で千年狐狸に魂魄を吸われて死に、狐がその体を借りて紂王を惑わした。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第4回"
+    },
+    {
+      "id": "hs-a-fox9",
+      "text": "青丘の山に、狐のような姿で九本の尾をもち、赤子のような声で鳴き人を食う獣がいる。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』南山経（青丘之山）"
+    },
+    {
+      "id": "hs-a-nz-work",
+      "text": "哪吒は崑崙山の道士で宝貝人間。本体は太乙真人が作った宝貝・霊珠で、一度宿主の肉体を失ったのち、蓮の花を新しい宿主として蓮の化身として生き返った。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "hs-a-nz-birth",
+      "text": "陳塘関に生まれた哪吒は霊珠子の化身で、右手に金の腕輪「乾坤圏」、腹に赤い綾「混天綾」を巻いていた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "hs-a-nz-lotus",
+      "text": "哪吒は竜王の三太子敖丙を殺した責めを負い、腹を裂き骨肉を父母に返して死んだ。太乙真人は蓮の花と荷葉で体を作って魂魄を宿らせ、火尖鎗と風火二輪を授けた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12–14回"
+    },
+    {
+      "id": "hs-a-nz-reading",
+      "text": "作品は哪吒を「なたく」と読み、これは安能務訳の読みに従ったものである。",
+      "classification": "creative",
+      "sourceIds": ["work-hoshin-engi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「封神演義 (漫画)」の記述で確認。"
+    }
+  ]
+}
