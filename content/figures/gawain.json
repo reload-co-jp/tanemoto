@@ -1,0 +1,17 @@
+{
+  "id": "gawain",
+  "slug": "gawain",
+  "name": "ガウェイン",
+  "reading": "がうぇいん",
+  "originalName": "Gawaine",
+  "romanized": "Gawain",
+  "alternativeNames": ["ガウェン", "ゴーヴァン"],
+  "type": "hero",
+  "roles": ["円卓の騎士", "アーサー王の甥"],
+  "mythologyIds": ["arthurian"],
+  "description": "円卓の騎士の一人で、アーサー王の甥。マロリーの『アーサー王の死』では、オークニーのロト王と王の姉マーゴースの子で、モードレッドの異父兄にあたる。王の結婚式の日に騎士に叙せられた。兄弟を殺されたことからランスロットを憎み、王にランスロットとの戦争を促した。",
+  "relatedFigureIds": ["arthur", "lancelot", "mordred"],
+  "relatedStoryIds": ["round-table"],
+  "articleIds": [],
+  "sourceIds": ["malory-morte-darthur"]
+}

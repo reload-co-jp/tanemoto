@@ -1,0 +1,17 @@
+{
+  "id": "cleopatra",
+  "slug": "cleopatra",
+  "name": "クレオパトラ",
+  "reading": "くれおぱとら",
+  "originalName": "Κλεοπάτρα",
+  "romanized": "Cleopatra",
+  "alternativeNames": ["クレオパトラ7世"],
+  "type": "historical",
+  "roles": ["エジプトの女王"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "プトレマイオス朝エジプト最後の女王（紀元前69〜前30年）。マケドニア系の王家の出身で、カエサル、のちにアントニウスと結んでエジプトの独立を保とうとした。紀元前30年、オクタウィアヌスに敗れて自ら命を絶つ。プルタルコスは、寝具袋に身を隠してカエサルのもとに運ばせた逸話や、毒蛇（アスプ）による最期を伝える。",
+  "relatedFigureIds": ["julius-caesar"],
+  "relatedStoryIds": ["cleopatra-and-caesar", "death-of-cleopatra"],
+  "articleIds": [],
+  "sourceIds": ["plutarch-lives"]
+}

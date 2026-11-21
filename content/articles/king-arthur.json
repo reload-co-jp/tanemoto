@@ -1,0 +1,328 @@
+{
+  "id": "king-arthur",
+  "slug": "king-arthur",
+  "title": "アーサー王とは？『Fate』セイバーの元ネタ、選定の剣とエクスカリバー、アヴァロンを原典で解説",
+  "shortTitle": "アーサー王とは？",
+  "eyecatchText": "アーサー王",
+  "description": "『Fate/stay night』のセイバーの真名はアーサー王。選定の剣カリバーン、聖剣エクスカリバー、鞘アヴァロンは、原典ではどう語られているのでしょうか。マロリー『アーサー王の死』から、元ネタの王の姿をたどります。",
+  "lead": "セイバーが「約束された勝利の剣」を振るったとき、その真名がアーサー王だと明かされます。石の剣、湖の剣、そして失われた鞘。作品に登場する三つの宝具をたどると、15世紀にマロリーが描いた王の生涯が見えてきます。",
+  "category": "character-origins",
+  "tags": [
+    "アーサー王",
+    "セイバー",
+    "Fate/stay night",
+    "エクスカリバー",
+    "アヴァロン",
+    "アーサー王伝説"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["arthur", "merlin", "morgan-le-fay", "mordred"],
+  "mythologyIds": ["arthurian"],
+  "storyIds": [
+    "sword-in-the-stone",
+    "excalibur-and-the-lady-of-the-lake",
+    "morgan-steals-the-scabbard",
+    "death-of-arthur"
+  ],
+  "workIds": ["fate-stay-night", "fate-zero"],
+  "characterIds": ["fate-stay-night-saber"],
+  "topicIds": ["divine-items"],
+  "sourceIds": ["work-fate-stay-night", "malory-morte-darthur"],
+  "relatedArticleIds": ["arthurian-legend-overview", "legendary-weapons"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『Fate/stay night』のセイバー",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『Fate/stay night』で主人公の衛宮士郎に召喚されるセイバーは、少女の姿をした騎士です。宝具「約束された勝利の剣（エクスカリバー）」を使ったことで、その真名がアルトリア・ペンドラゴン、つまりアーサー王であることが明かされます。作中では、選定の剣を岩から引き抜いた少女アルトリアが、性別を偽って「アーサー」を名乗り、王になったとされています。",
+      "claimIds": ["kar-work", "kar-work-name"]
+    },
+    {
+      "type": "paragraph",
+      "text": "セイバーには三つの剣と鞘が関わります。生前に折れた選定の剣「勝利すべき黄金の剣（カリバーン）」、光の斬撃を放つ「約束された勝利の剣（エクスカリバー）」、そして失われた鞘「全て遠き理想郷（アヴァロン）」です。",
+      "claimIds": ["kar-work-items"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "原典のアーサーは「王の息子」",
+      "anchor": "son"
+    },
+    {
+      "type": "paragraph",
+      "text": "マロリーの『アーサー王の死』では、アーサーはブリテン王ユーサー・ペンドラゴンと妃イグレインの息子です。魔術師マーリンの計略で生まれた赤子は、マーリンの手で騎士エクターに預けられ、自分の出自を知らずに育ちました。少女が王になるという『Fate』の設定は、作品独自の大胆なアレンジです。",
+      "claimIds": ["kar-birth", "kar-cmp-gender"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "選定の剣（石に刺さった剣）",
+      "anchor": "stone"
+    },
+    {
+      "type": "paragraph",
+      "text": "ユーサー王の死後、ロンドンの教会の庭に、剣の刺さった鉄床をのせた石が現れます。剣のまわりには金文字でこう記されていました。",
+      "claimIds": ["kar-stone"]
+    },
+    {
+      "type": "quote",
+      "text": "この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王である。",
+      "sourceId": "malory-morte-darthur",
+      "location": "第1巻第5章",
+      "claimIds": ["kar-stone"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "少年アーサーは、乳兄弟ケイの剣を取りに戻ったものの見つからず、代わりに教会の剣をなにげなく引き抜いて持っていきました。王を選ぶための剣を抜いたことで、アーサーは王となります。セイバーの「選定の剣」という呼び名は、この場面に対応しています。",
+      "claimIds": ["kar-stone"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その後、アーサーは泉のほとりの騎士ペリノアとの一騎打ちで剣を折られてしまいます。ただし、マロリーはこのとき折れたのが石から抜いた剣だったとは明記していません。石の剣を「カリバーン」と名づけ、それが折れたあとにエクスカリバーを得たという流れは、作品がはっきりさせた設定といえます。",
+      "claimIds": ["kar-broken", "kar-cmp-swords"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "湖の乙女のエクスカリバー",
+      "anchor": "excalibur"
+    },
+    {
+      "type": "paragraph",
+      "text": "剣を失ったアーサーを、マーリンは湖へ連れていきます。湖の中から白い絹の袖をまとった腕が剣を掲げており、王は湖の乙女からその剣を授かりました。これがエクスカリバーです。",
+      "claimIds": ["kar-lake"]
+    },
+    {
+      "type": "paragraph",
+      "text": "作品のエクスカリバーは、魔力を光に変えて放つ究極の斬撃として描かれます。マロリーのエクスカリバーには光を放つ力についての記述はありませんが、王の最期まで王とともにあり、最後は湖へ返される特別な剣です。",
+      "claimIds": ["kar-work-items", "kar-return-sword"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "剣より大事な鞘",
+      "anchor": "scabbard"
+    },
+    {
+      "type": "paragraph",
+      "text": "湖で剣を受け取った王に、マーリンは「剣と鞘のどちらが気に入ったか」と尋ねます。剣だと答えた王に、マーリンはこう告げました。",
+      "claimIds": ["kar-scabbard"]
+    },
+    {
+      "type": "quote",
+      "text": "鞘は剣の十倍の値打ちがあります。鞘を身につけているかぎり、どれほどひどく傷ついても、血を失うことはありません。",
+      "sourceId": "malory-morte-darthur",
+      "location": "第1巻第25章",
+      "claimIds": ["kar-scabbard"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "ところがこの鞘は、王の異父姉で魔術に通じたモルガン・ル・フェイに盗まれます。モルガンは眠る王のもとに忍び込み、剣は王が握っていたため、鞘だけを奪って逃げました。追いつかれそうになると「弟にこの鞘は渡さない」と言って、湖の深みに投げ込んでしまいます。",
+      "claimIds": ["kar-morgan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "セイバーの手元から鞘「アヴァロン」が失われているという設定は、この「失われた鞘」の物語と重なります。",
+      "claimIds": ["kar-work-avalon", "kar-cmp-avalon"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アヴィリオンへ",
+      "anchor": "avalon"
+    },
+    {
+      "type": "paragraph",
+      "text": "王国の最後の戦いで、アーサーは不義の子モードレッドを槍で貫きますが、自らも致命傷を負います。騎士ベディヴィアにエクスカリバーを湖へ返させた王は、女王たちの乗る小舟に乗せられ、こう言い残して去っていきました。",
+      "claimIds": ["kar-death", "kar-return-sword"]
+    },
+    {
+      "type": "quote",
+      "text": "わたしは、この重い傷を癒すため、アヴィリオンの谷へ行く。",
+      "sourceId": "malory-morte-darthur",
+      "location": "第21巻第5章",
+      "claimIds": ["kar-avilion"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "マロリーでは、血を失わずにすむ鞘と、王が最後に向かった「アヴィリオン」は別の話です。『Fate』はこの二つを結びつけ、鞘そのものに「全て遠き理想郷（アヴァロン）」という名を与えました。傷を癒す鞘と、傷を癒しに向かう島。二つの「癒し」が一つの宝具に重ねられています。",
+      "claimIds": ["kar-cmp-avalon"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「王の選定のやり直し」",
+      "text": "セイバーが聖杯に託す願いは「王の選定のやり直し」です。マロリーの物語で、石の剣を抜いて王となったアーサーの治世は、王妃と騎士の恋、甥たちの対立、息子の反逆によって崩れていきます。剣に選ばれた王の結末を知っているからこそ生まれた願い、と読むこともできるでしょう。",
+      "claimIds": ["kar-work-wish", "kar-cmp-wish"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "セイバーの真名はアーサー王。原典のアーサーはユーサー王の息子で、少女の王という設定は作品のアレンジ",
+        "選定の剣は、マロリーの「石と鉄床に刺さった剣」にあたる。原典は折れた剣が石の剣だったとは明記していない",
+        "エクスカリバーは湖の乙女から授かった剣で、王の最期に湖へ返された",
+        "鞘は血を失わずにすむ魔法の鞘で、モルガン・ル・フェイに盗まれた。王はのちに「アヴィリオン」へ去った"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "kar-work",
+      "text": "セイバーは衛宮士郎に召喚された少女の姿の騎士で、宝具「約束された勝利の剣（エクスカリバー）」を使ったことで真名が明らかになる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "kar-work-name",
+      "text": "セイバーの真名はアルトリア・ペンドラゴン（アーサー王）。選定の剣を岩から引き抜いた少女アルトリアが性別を偽ってアーサーを名乗り、王になったとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "kar-work-items",
+      "text": "セイバーには、生前に折れた選定の剣「勝利すべき黄金の剣（カリバーン）」、魔力を光に変えて放つ「約束された勝利の剣（エクスカリバー）」、エクスカリバーの鞘「全て遠き理想郷（アヴァロン）」が関わる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "kar-work-avalon",
+      "text": "鞘「全て遠き理想郷（アヴァロン）」は、生前のセイバーの手元からは失われている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "kar-work-wish",
+      "text": "セイバーが聖杯に託す願いは「王の選定のやり直し」である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "kar-birth",
+      "text": "アーサーはユーサー・ペンドラゴン王とイグレインの子で、マーリンの手で騎士エクターに預けられて育った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第2〜3章"
+    },
+    {
+      "id": "kar-cmp-gender",
+      "text": "アーサーを少女とする設定は、作品独自のアレンジと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "kar-stone",
+      "text": "ロンドンの教会の庭の石と鉄床に刺さった剣には「この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王」と記されていた。アーサーは乳兄弟ケイの剣の代わりにこれを抜き、王となった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第5〜7章"
+    },
+    {
+      "id": "kar-broken",
+      "text": "アーサーは騎士ペリノアとの一騎打ちで剣を二つに折られた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第23〜24章"
+    },
+    {
+      "id": "kar-cmp-swords",
+      "text": "マロリーは折れた剣が石の剣だったと明記しておらず、その流れをはっきりさせたのは作品の設定と読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "kar-lake",
+      "text": "アーサーはマーリンに導かれた湖で、腕が掲げる剣を湖の乙女から授かった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第25章"
+    },
+    {
+      "id": "kar-scabbard",
+      "text": "マーリンは、剣より鞘の方が十倍の値打ちがあり、鞘を身につけているかぎり血を失わないと告げた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第25章"
+    },
+    {
+      "id": "kar-morgan",
+      "text": "モルガン・ル・フェイは眠るアーサーから鞘を盗み、「弟にこの鞘は渡さない」と言って湖の深みに投げ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第14章"
+    },
+    {
+      "id": "kar-cmp-avalon",
+      "text": "マロリーでは鞘とアヴィリオンは別の話であり、両者を結びつけたのは作品の設定と読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "kar-death",
+      "text": "最後の戦いでアーサーはモードレッドを槍で貫き、自らも頭に致命傷を負った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第4章"
+    },
+    {
+      "id": "kar-return-sword",
+      "text": "アーサーの命でベディヴィアがエクスカリバーを湖に投げると、水中から腕が現れて剣をつかみ、沈んでいった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第5章"
+    },
+    {
+      "id": "kar-avilion",
+      "text": "アーサーは傷を癒すためアヴィリオンの谷へ行くと言い、女王たちの小舟で去った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第5章"
+    },
+    {
+      "id": "kar-cmp-wish",
+      "text": "セイバーの願いは、原典の王国の崩壊を踏まえたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mordred",
+  "slug": "mordred",
+  "name": "モードレッド",
+  "reading": "もーどれっど",
+  "originalName": "Mordred",
+  "romanized": "Mordred",
+  "alternativeNames": ["モルドレッド"],
+  "type": "human",
+  "roles": ["裏切りの騎士", "アーサー王の子"],
+  "mythologyIds": ["arthurian"],
+  "description": "アーサー王が、それと知らずに異父姉（オークニーのロト王の妃）とのあいだにもうけた子。マロリーの『アーサー王の死』では、マーリンがこの子が王と王国を滅ぼすと予言する。王の留守中に王位を奪い、最後の戦いでアーサーの槍に貫かれながら、王に致命傷を負わせた。",
+  "relatedFigureIds": ["arthur", "gawain"],
+  "relatedStoryIds": ["death-of-arthur"],
+  "articleIds": [],
+  "sourceIds": ["malory-morte-darthur"]
+}

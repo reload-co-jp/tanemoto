@@ -18,6 +18,12 @@ import { JsonLd } from "@/components/seo/JsonLd"
 import { buildMetadata, metaDescription, mythologyJsonLd } from "@/lib/seo"
 import { paths } from "@/lib/site"
 
+const kindEyebrow = {
+  myth: "Mythology",
+  legend: "Legend",
+  history: "History",
+} as const
+
 type Props = { params: Promise<{ slug: string }> }
 
 export const dynamicParams = false
@@ -30,7 +36,7 @@ export const generateMetadata = async ({ params }: Props) => {
   const myth = getMythology((await params).slug)
   if (!myth) return {}
   return buildMetadata({
-    title: `${myth.name}とは？主な神々・物語と解説記事`,
+    title: `${myth.name}とは？${myth.kind === "myth" ? "主な神々" : "主な人物"}・物語と解説記事`,
     description: metaDescription(myth.description),
     path: paths.mythology(myth.slug),
   })
@@ -52,7 +58,7 @@ const Page = async ({ params }: Props) => {
         ]}
       />
       <PageHeader
-        eyebrow="Mythology"
+        eyebrow={kindEyebrow[myth.kind]}
         title={myth.name}
         description={myth.description}
       />
@@ -76,7 +82,7 @@ const Page = async ({ params }: Props) => {
         )}
       </Section>
       <Section
-        title="主な神々・英雄・怪物"
+        title={myth.kind === "myth" ? "主な神々・英雄・怪物" : "主な人物"}
         en="Figures"
         id="figures"
         more={{ href: paths.figures(), label: "すべて見る" }}

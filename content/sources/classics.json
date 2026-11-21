@@ -426,5 +426,40 @@
     "url": "https://archive.org/details/hawaiianlegends00westgoog",
     "urlLabel": "Internet Archive",
     "notes": "ハワイの宣教師・研究者ウェスターヴェルトが、19世紀のハワイ語新聞などに掲載された伝承をもとに英語で再話した伝説集。火山の女神ペレがハワイへやって来た経緯や、妹ヒイアカの冒険を収める。逐語訳ではなく再話であり、著者自身も異伝の信頼性について注記している。箇所は章で示す。"
+  },
+  {
+    "id": "malory-morte-darthur",
+    "title": "アーサー王の死",
+    "originalTitle": "Le Morte Darthur",
+    "author": "トマス・マロリー",
+    "type": "primary",
+    "publishedPeriod": "1485年（ウィリアム・キャクストン刊）",
+    "url": "https://en.wikisource.org/wiki/Le_Morte_d%27Arthur",
+    "urlLabel": "Wikisource（第1巻）・Internet Archive（第2巻）",
+    "notes": "15世紀イングランドの騎士マロリーが、フランス語と英語のアーサー王物語を一つにまとめた散文物語。1485年にキャクストンが21巻の形で印刷した。本文はキャクストン版を現代綴りに改めた版（第1巻はWikisource、第2巻は1894年刊のリース編・ビアズリー挿絵版、Internet Archive）で確認した。箇所はキャクストン版の「巻.章」で示す。邦訳に井村君江訳（筑摩書房）などがある。"
+  },
+  {
+    "id": "plutarch-lives",
+    "title": "英雄伝（対比列伝）",
+    "originalTitle": "Bioi Paralleloi（Βίοι Παράλληλοι）",
+    "author": "プルタルコス",
+    "translator": "B. ペラン英訳（ローブ古典叢書, 1914–1926）",
+    "type": "primary",
+    "publishedPeriod": "紀元後100年頃",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/home.html",
+    "urlLabel": "LacusCurtius（Perrin 英訳）",
+    "notes": "ギリシャ人の著述家プルタルコスが、ギリシャとローマの著名人を一人ずつ組にして書いた伝記集。歴史書ではなく人物の性格を描く伝記であり、本人も逸話や異説をしばしば並べて記している。アレクサンドロス大王とカエサルは対になった伝記。箇所は「伝記名 章.節」で示す。邦訳に村川堅太郎編（ちくま学芸文庫）などがある。"
+  },
+  {
+    "id": "suetonius-julius",
+    "title": "ローマ皇帝伝 神君ユリウス伝",
+    "originalTitle": "De Vita Caesarum: Divus Iulius",
+    "author": "スエトニウス",
+    "translator": "J. C. ロルフ英訳（ローブ古典叢書, 1914）",
+    "type": "primary",
+    "publishedPeriod": "紀元後121年頃",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html",
+    "urlLabel": "LacusCurtius（Rolfe 英訳）",
+    "notes": "ローマの伝記作家スエトニウスによる、カエサルからドミティアヌスまで12人の伝記の第1巻。箇所は章番号で示す。邦訳に国原吉之助訳（岩波文庫）がある。"
   }
 ]

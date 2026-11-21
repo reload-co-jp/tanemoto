@@ -1,0 +1,31 @@
+{
+  "id": "arthur",
+  "slug": "arthur",
+  "name": "アーサー王",
+  "reading": "あーさーおう",
+  "originalName": "Arthur",
+  "romanized": "King Arthur",
+  "alternativeNames": ["アーサー・ペンドラゴン"],
+  "type": "hero",
+  "roles": ["ブリテンの王", "円卓の主"],
+  "mythologyIds": ["arthurian"],
+  "description": "ブリテンの伝説の王。マロリーの『アーサー王の死』では、ユーサー・ペンドラゴン王とイグレインの子として生まれ、魔術師マーリンの手で騎士エクターに預けられて育つ。石に刺さった剣を抜いて王となり、湖の乙女から名剣エクスカリバーを授かった。最後は不義の子モードレッドと相討ちになり、小舟でアヴィリオン（アヴァロン）へ運ばれていった。",
+  "relatedFigureIds": [
+    "merlin",
+    "guinevere",
+    "lancelot",
+    "morgan-le-fay",
+    "mordred",
+    "gawain"
+  ],
+  "relatedStoryIds": [
+    "birth-of-arthur",
+    "sword-in-the-stone",
+    "excalibur-and-the-lady-of-the-lake",
+    "round-table",
+    "morgan-steals-the-scabbard",
+    "death-of-arthur"
+  ],
+  "articleIds": [],
+  "sourceIds": ["malory-morte-darthur"]
+}

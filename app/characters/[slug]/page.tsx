@@ -11,6 +11,7 @@ import {
   motifAspects,
   figureTypes,
   type Character,
+  type Figure,
   type Work,
 } from "@/lib/content/schema"
 import {
@@ -21,6 +22,7 @@ import {
   getCharactersWithSameMotif,
   getFiguresByIds,
   getMotifFigures,
+  getMythologies,
   getOriginArticlesForCharacter,
   getSourcesByIds,
   getStoriesForFigure,
@@ -50,15 +52,29 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!character) return {}
   const work = getWorksByIds([character.workId])[0]
   return buildMetadata({
-    title: `${character.name}（${work ? `${work.title}` : "作品"}）の元ネタは？${character.motifs[0].label}の神話`,
+    title: `${character.name}（${work ? `${work.title}` : "作品"}）の元ネタは？${character.motifs[0].label}の${mainOriginNoun(character)}`,
     description: characterDescription(character, work),
     path: paths.character(character.slug),
   })
 }
 
+/** 元ネタの人物が属する体系に応じた呼び方（神話・伝説・逸話） */
+const originNoun = (figure?: Figure) => {
+  const kind =
+    getMythologies().find((m) => figure?.mythologyIds.includes(m.id))?.kind ??
+    "myth"
+  return { myth: "神話", legend: "伝説", history: "逸話" }[kind]
+}
+
+const mainOriginNoun = (character: Character) => {
+  const figureId = character.motifs[0].figureId
+  return originNoun(figureId ? getFiguresByIds([figureId])[0] : undefined)
+}
+
 const characterDescription = (character: Character, work?: Work) => {
+  const noun = mainOriginNoun(character)
   const labels = character.motifs.map((m) => m.label).join("・")
-  return `『${work?.title ?? ""}』の${character.name}の元ネタ・モチーフ（${labels}）を、名前の由来から原典の神話まで解説。作品の設定と神話の内容を区別して紹介します。`.slice(
+  return `『${work?.title ?? ""}』の${character.name}の元ネタ・モチーフ（${labels}）を、名前の由来から原典の${noun}まで解説。作品の設定と${noun}の内容を区別して紹介します。`.slice(
     0,
     160
   )
@@ -226,7 +242,7 @@ const Page = async ({ params }: Props) => {
                     </div>
                     {motif.inMyth && (
                       <div className="t-motif__col">
-                        <h4>原典の神話では</h4>
+                        <h4>原典の{originNoun(figure)}では</h4>
                         <p>
                           <EvidenceText value={motif.inMyth} claims={claims} />
                         </p>
@@ -263,7 +279,11 @@ const Page = async ({ params }: Props) => {
           )}
 
           {stories.length > 0 && (
-            <Section title="元ネタの神話・物語" en="Myths" id="myths">
+            <Section
+              title={`元ネタの${mainOriginNoun(character)}・物語`}
+              en="Myths"
+              id="myths"
+            >
               <StoryList stories={stories} />
             </Section>
           )}

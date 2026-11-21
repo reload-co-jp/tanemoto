@@ -1,0 +1,14 @@
+{
+  "id": "fate-zero",
+  "slug": "fate-zero",
+  "title": "Fate/Zero",
+  "reading": "ふぇいと ぜろ",
+  "type": "novel",
+  "mediaTypes": ["anime"],
+  "author": "虚淵玄（ニトロプラス）・TYPE-MOON",
+  "period": "2006年〜2007年（小説）",
+  "description": "『Fate/stay night』の10年前に起きた第四次聖杯戦争を描く前日譚。衛宮切嗣ら7人のマスターが、アーサー王、アレクサンドロス大王（イスカンダル）、ギルガメッシュなど、伝説や歴史上の英雄をサーヴァントとして召喚して戦う。",
+  "mythologyIds": ["classical-antiquity", "arthurian", "mesopotamian"],
+  "articleIds": [],
+  "sourceIds": ["work-fate-zero"]
+}

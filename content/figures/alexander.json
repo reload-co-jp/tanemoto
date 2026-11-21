@@ -1,0 +1,25 @@
+{
+  "id": "alexander",
+  "slug": "alexander",
+  "name": "アレクサンドロス大王",
+  "reading": "あれくさんどろすだいおう",
+  "originalName": "Ἀλέξανδρος",
+  "romanized": "Alexander the Great",
+  "alternativeNames": [
+    "アレクサンドロス3世",
+    "アレキサンダー大王",
+    "イスカンダル"
+  ],
+  "type": "historical",
+  "roles": ["マケドニア王", "征服者"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "マケドニアの王（在位 紀元前336〜前323年）。父フィリッポス2世の跡を継ぐと、ペルシア帝国を倒し、ギリシャからエジプト、インド北西部に及ぶ大帝国を築いた。プルタルコスの伝記は、暴れ馬ブケファラスを乗りこなした少年時代や、アリストテレスに学び『イリアス』を枕元に置いていたこと、ゴルディオンの結び目を断ち切った逸話などを伝える。",
+  "relatedFigureIds": ["leonidas", "julius-caesar"],
+  "relatedStoryIds": [
+    "taming-of-bucephalas",
+    "alexander-and-diogenes",
+    "gordian-knot"
+  ],
+  "articleIds": [],
+  "sourceIds": ["plutarch-lives"]
+}
