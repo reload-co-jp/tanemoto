@@ -1,0 +1,38 @@
+[
+  {
+    "id": "second-battle-of-mag-tuired",
+    "title": "第二のマグ・トゥレドの戦い",
+    "mythologyIds": ["celtic"],
+    "figureIds": ["lugh", "balor", "nuada"],
+    "summary": "フォウォレの圧政に苦しむトゥアタ・デー・ダナンのもとに、あらゆる技芸に通じた若者ルーが現れ、王ヌアザに迎えられて戦いの指揮をとる。決戦で銀の腕のヌアザはバロールに討たれるが、バロールが邪眼のまぶたを持ち上げさせた瞬間、ルーの投石が眼を頭の後ろまで突き抜け、眼はフォウォレ自身の軍勢をにらんだ。",
+    "sourceIds": ["cath-maige-tuired"],
+    "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 75–79頁・101頁"
+  },
+  {
+    "id": "naming-of-cu-chulainn",
+    "title": "クランの猛犬",
+    "mythologyIds": ["celtic"],
+    "figureIds": ["cu-chulainn"],
+    "summary": "鍛冶師クランの宴に遅れて向かった少年セタンタは、放たれていた獰猛な番犬に襲われ、素手で番犬を石柱に叩きつけて殺した。番犬を失って嘆くクランに、少年は代わりの犬が育つまで自分が番犬になると申し出て、ドルイドのカトバドに「クー・フーリン（クランの猛犬）」と名づけられた。",
+    "sourceIds": ["tain-bo-cuailnge"],
+    "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 140–142頁"
+  },
+  {
+    "id": "death-of-ferdiad",
+    "title": "フェル・ディアドとの一騎討ち",
+    "mythologyIds": ["celtic"],
+    "figureIds": ["cu-chulainn", "scathach"],
+    "summary": "コナハト側は、クー・フーリンとともにスカアハのもとで学んだ乳兄弟フェル・ディアドを浅瀬の一騎討ちに送り出す。二人の技は互角だったが、クー・フーリンだけがもつ技ゲイ・ボルグを御者が流れに放つと、クー・フーリンはそれを足の指でつかんで投げ、フェル・ディアドを倒した。",
+    "sourceIds": ["tain-bo-cuailnge"],
+    "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 196頁・206–207頁"
+  },
+  {
+    "id": "death-of-cu-chulainn",
+    "title": "クー・フーリンの最期",
+    "mythologyIds": ["celtic"],
+    "figureIds": ["cu-chulainn", "medb"],
+    "summary": "宿敵たちとの戦いに向かう途上、クー・フーリンは犬の肉を焼く三人の老婆に出会う。かまどに立ち寄ってその食べ物を口にしてはならず、自分の名にちなむ犬の肉を食べてはならないという禁忌があったが、「小さなものを受け取らぬのはみっともない」と責められて肉を口にし、半身の力を失った。致命傷を負った彼は、立ったまま死ぬために石柱に体を結びつけ、鳥が肩に止まるまで敵は近づけなかった。",
+    "sourceIds": ["aided-con-culainn"],
+    "sourceLocation": "「クー・フーリンの最期」Stokes 英訳 Revue Celtique 3, 175–185頁"
+  }
+]

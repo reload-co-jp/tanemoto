@@ -1,0 +1,15 @@
+{
+  "id": "yamata-no-orochi",
+  "slug": "yamata-no-orochi",
+  "name": "ヤマタノオロチ",
+  "reading": "やまたのおろち",
+  "alternativeNames": ["八俣遠呂智", "八岐大蛇"],
+  "type": "monster",
+  "roles": ["大蛇", "八つの頭"],
+  "mythologyIds": ["japanese"],
+  "description": "一つの体に八つの頭と八つの尾をもつ巨大な大蛇。『古事記』では八俣遠呂智、『日本書紀』では八岐大蛇と書く。目はほおずきのように赤く、体には苔や檜・杉が生え、八つの谷と八つの峰にわたる長さがあった。スサノオに酒で酔わされて斬られ、尾から草薙剣が見つかった。",
+  "relatedFigureIds": ["susanoo", "kushinadahime"],
+  "relatedStoryIds": ["yamata-no-orochi-slaying"],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

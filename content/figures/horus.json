@@ -1,0 +1,21 @@
+{
+  "id": "horus",
+  "slug": "horus",
+  "name": "ホルス",
+  "reading": "ほるす",
+  "originalName": "Ḥr",
+  "romanized": "Horus",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["天空", "王権", "隼"],
+  "mythologyIds": ["egyptian"],
+  "description": "オシリスとイシスの息子で、隼の姿や隼の頭をもつ姿で表される。父を殺した叔父セトと王位をめぐって争い、勝利してエジプトの王となった。地上の王（ファラオ）はホルスの化身とみなされた。ヘロドトスは、エジプトを治めた最後の神がホルスだったと記す。",
+  "relatedFigureIds": ["osiris", "isis", "set"],
+  "relatedStoryIds": ["death-of-osiris", "contendings-of-horus-and-set"],
+  "articleIds": [],
+  "sourceIds": [
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "contendings-horus-seth"
+  ]
+}

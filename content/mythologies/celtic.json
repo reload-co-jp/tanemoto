@@ -1,0 +1,28 @@
+{
+  "id": "celtic",
+  "slug": "celtic",
+  "name": "ケルト神話",
+  "reading": "けるとしんわ",
+  "region": "アイルランド・ウェールズなど",
+  "period": "現存する主な文献は中世アイルランドの写本（11世紀以降）",
+  "description": "光の神ルーと邪眼のバロール、銀の腕のヌアザ、アルスターの英雄クー・フーリンなど、主に中世アイルランドの写本に書き留められた神々と英雄の物語。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "「ケルト神話」と呼ばれる物語の多くは、キリスト教化したのちのアイルランドで修道士たちが書き留めた写本によって伝わっています。古代のケルト人自身は神話を文字に残しておらず、ガリアなど大陸のケルトの神々については、ローマ人の記録や碑文からわずかに知られるだけです。"
+    },
+    {
+      "type": "paragraph",
+      "text": "アイルランドの物語は、神々の一族トゥアタ・デー・ダナンを描く「神話物語群」、クー・フーリンらが活躍する「アルスター物語群」などに分けられます。トモタネでは、どの写本・どの物語に拠るかを明示して紹介します。概要は[ケルト神話とは？](/articles/celtic-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": ["cu-chulainn", "lugh", "balor", "nuada", "scathach", "medb"],
+  "storyIds": [
+    "second-battle-of-mag-tuired",
+    "naming-of-cu-chulainn",
+    "death-of-ferdiad",
+    "death-of-cu-chulainn"
+  ],
+  "sourceIds": ["cath-maige-tuired", "tain-bo-cuailnge", "aided-con-culainn"],
+  "order": 5
+}

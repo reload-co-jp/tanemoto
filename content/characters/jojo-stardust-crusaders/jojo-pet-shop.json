@@ -1,0 +1,93 @@
+{
+  "id": "jojo-pet-shop",
+  "slug": "jojo-pet-shop",
+  "name": "ペット・ショップ",
+  "reading": "ぺっと・しょっぷ",
+  "alternativeNames": [],
+  "workId": "jojo-stardust-crusaders",
+  "description": {
+    "text": "DIOの館を守る「番鳥」で、スタンド使いのハヤブサ。館に近寄る者を容赦なく襲い、一度敵と見なした相手は殺すまで追い続ける。",
+    "claimIds": ["jj-petshop-work", "jj-petshop-work-nine"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "horus",
+      "label": "ホルス",
+      "inWork": {
+        "text": "スタンド「ホルス神」は冷気と氷を操り、つららのミサイルを撃ち出す。名前の由来は天空の神ホルス。",
+        "claimIds": ["jj-petshop-work-horus"]
+      },
+      "inMyth": {
+        "text": "ホルスは隼の頭をもつ姿で表される神。父オシリスを殺したセトと戦って勝利し、エジプトの王位を継いだ。",
+        "claimIds": ["jj-petshop-myth-horus", "jj-petshop-myth-falcon"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "本体がハヤブサであることは、隼の姿で表されるホルスと共通している。一方で、冷気と氷を操る能力は原典のホルスには見られない、作品独自のものである。",
+      "claimIds": [
+        "jj-petshop-myth-falcon",
+        "jj-petshop-work-horus",
+        "jj-petshop-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jj-petshop-work",
+      "text": "ペット・ショップはDIOの館の番犬ならぬ番鳥で、館への侵入者に襲い掛かるスタンド使いのハヤブサ。一度敵と判断した者は殺すまで追跡し続ける。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-petshop-work-nine",
+      "text": "エジプト上陸後の刺客は「エジプト9栄神」のカードの暗示をもつスタンド使いとされる。実際のエジプト神話に「9栄神」という区分はなく、作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-petshop-work-horus",
+      "text": "スタンド「ホルス神」は冷気と氷を操り、ツララ状の氷をミサイルとして撃ち出す。名前の由来は天空の神ホルス。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-petshop-myth-horus",
+      "text": "ホルスは長い戦いの末にテュポン（セト）に勝利した。ヘロドトスは、エジプトを治めた最後の神はオシリスの子ホルスで、テュポンを退けたと記す。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris", "herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』19章、ヘロドトス『歴史』2.144"
+    },
+    {
+      "id": "jj-petshop-myth-falcon",
+      "text": "「死者の書」の挿絵では、ホルスは隼の頭をもつ姿で描かれ、心臓の計量を終えた死者をオシリスの前に導く。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "jj-petshop-cmp",
+      "text": "本体がハヤブサである点はホルスと共通するが、氷の能力は作品独自のもの。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-jojo-stardust-crusaders",
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "book-of-the-dead"
+  ],
+  "articleIds": []
+}

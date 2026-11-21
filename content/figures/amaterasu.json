@@ -1,0 +1,15 @@
+{
+  "id": "amaterasu",
+  "slug": "amaterasu",
+  "name": "天照大御神",
+  "reading": "あまてらすおおみかみ",
+  "alternativeNames": ["アマテラス", "天照大神"],
+  "type": "god",
+  "roles": ["太陽", "高天原の主神"],
+  "mythologyIds": ["japanese"],
+  "description": "イザナギが禊で左の目を洗ったときに生まれた女神で、高天原を治める。弟スサノオの乱暴を恐れて天の岩屋戸にこもり、世界が闇に包まれた神話で知られる。皇室の祖神とされる。",
+  "relatedFigureIds": ["izanagi", "tsukuyomi", "susanoo"],
+  "relatedStoryIds": ["birth-of-three-noble-children", "amano-iwato"],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

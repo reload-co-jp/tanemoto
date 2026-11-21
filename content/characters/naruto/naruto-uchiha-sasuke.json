@@ -1,0 +1,167 @@
+{
+  "id": "naruto-uchiha-sasuke",
+  "slug": "naruto-uchiha-sasuke",
+  "name": "うちはサスケ",
+  "reading": "うちはさすけ",
+  "alternativeNames": [],
+  "workId": "naruto",
+  "description": {
+    "text": "うずまきナルトの親友でありライバル。写輪眼をもつうちは一族の末裔で、兄イタチへの復讐を誓い、第二部では里を抜けた抜け忍となる。",
+    "claimIds": ["n-sasuke-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "amaterasu",
+      "label": "天照大御神",
+      "inWork": {
+        "text": "サスケの万華鏡写輪眼は、左目に強力な黒炎を生む瞳術「天照」、右目に黒炎を操る「炎遁・加具土命」が宿る。",
+        "claimIds": ["n-sasuke-work-eyes"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、イザナギが左の目を洗ったときに天照大御神が生まれた。",
+        "claimIds": ["n-sasuke-myth-left"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "kagutsuchi",
+      "label": "カグツチ（火の神）",
+      "inWork": {
+        "text": "右目の「炎遁・加具土命」は、天照の黒炎を制御する術とされている。",
+        "claimIds": ["n-sasuke-work-eyes"]
+      },
+      "inMyth": {
+        "text": "火之迦具土神はイザナミが最後に生んだ火の神で、その炎で母イザナミを焼き、死に至らしめた。",
+        "claimIds": ["n-sasuke-myth-kagutsuchi"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "susanoo",
+      "label": "須佐之男命",
+      "inWork": {
+        "text": "第三の力として巨大な武者のような「須佐能乎」を身につけ、肋骨だけの姿から「完成体須佐能乎」へと進化させていった。",
+        "claimIds": ["n-sasuke-work-susanoo"]
+      },
+      "inMyth": {
+        "text": "建速須佐之男命は、イザナギが鼻を洗ったときに生まれた荒ぶる神で、高天原を追われたのち出雲でヤマタノオロチを退治した。",
+        "claimIds": ["n-sasuke-myth-left", "n-sasuke-myth-orochi"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "yamato-takeru",
+      "label": "草薙剣",
+      "inWork": {
+        "text": "第二部からは大蛇丸と同じ「草薙の剣」をもつ。サスケの剣は大蛇丸のものとは拵えが異なり、刀身は直刀である。",
+        "claimIds": ["n-sasuke-work-kusanagi"]
+      },
+      "inMyth": {
+        "text": "草薙剣は、スサノオが斬ったヤマタノオロチの尾から出てきた大刀で、のちにヤマトタケルが野火の難を切り抜けるのに用いた。",
+        "claimIds": ["n-sasuke-myth-orochi", "n-sasuke-myth-yamatotakeru"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "左目に「天照」が宿るという設定は、天照大御神がイザナギの左目から生まれたという『古事記』の記述と一致する。",
+      "claimIds": [
+        "n-sasuke-work-eyes",
+        "n-sasuke-myth-left",
+        "n-sasuke-cmp-left"
+      ]
+    },
+    {
+      "text": "原典の火の神カグツチは、生まれたことで母を焼いてしまう、制御できない火の象徴として描かれる。作品の「加具土命」がむしろ黒炎を制御する術とされているのは、原典のイメージとは逆の使い方といえる。",
+      "claimIds": [
+        "n-sasuke-work-eyes",
+        "n-sasuke-myth-kagutsuchi",
+        "n-sasuke-cmp-kagutsuchi"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "n-sasuke-work",
+      "text": "サスケはナルトの親友でライバル。写輪眼を有するうちは一族の末裔で、第二部以降は抜け忍となる。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「NARUTO -ナルト-」の記述で確認。"
+    },
+    {
+      "id": "n-sasuke-work-eyes",
+      "text": "サスケの万華鏡写輪眼は、左目に強力無比な黒炎を発生させる瞳術「天照」、右目に黒炎を制御する「炎遁・加具土命」が覚醒した。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。"
+    },
+    {
+      "id": "n-sasuke-work-susanoo",
+      "text": "サスケは第三の力「須佐能乎」を身につけ、当初は肋骨の形状しか出せなかったが戦いを経て進化し、「完成体須佐能乎」を顕現させた。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。"
+    },
+    {
+      "id": "n-sasuke-work-kusanagi",
+      "text": "第二部からサスケは大蛇丸と同じ「草薙の剣」を有する。サスケの剣は鞘や拵えが異なり、刀身は直刀である。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。「NARUTO -ナルト-」も参照。"
+    },
+    {
+      "id": "n-sasuke-myth-left",
+      "text": "イザナギが左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊）"
+    },
+    {
+      "id": "n-sasuke-myth-kagutsuchi",
+      "text": "イザナミは火之迦具土神を生んだために陰部を焼かれて病み、亡くなった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（神生み〜伊耶那美命の神避り）"
+    },
+    {
+      "id": "n-sasuke-myth-orochi",
+      "text": "須佐之男命はヤマタノオロチを斬り、中の尾から出てきた大刀を天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "n-sasuke-myth-yamatotakeru",
+      "text": "ヤマトタケルは叔母ヤマトヒメから草那芸剣を授かり、相武国で野火に囲まれた際に剣で草を刈り払って難を逃れた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の東征）"
+    },
+    {
+      "id": "n-sasuke-cmp-left",
+      "text": "左目に天照が宿る設定は、天照大御神が左目から生まれたという記述と一致する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、一致の指摘にとどめる。"
+    },
+    {
+      "id": "n-sasuke-cmp-kagutsuchi",
+      "text": "原典のカグツチは母を焼く火の神であり、黒炎を制御する術という作品の位置づけは原典のイメージと対照的である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-naruto", "kojiki"],
+  "articleIds": []
+}

@@ -1,0 +1,223 @@
+{
+  "id": "egyptian-mythology-overview",
+  "slug": "egyptian-mythology-overview",
+  "title": "エジプト神話とは？資料の特徴と主な神々、オシリス神話のあらすじをわかりやすく解説",
+  "shortTitle": "エジプト神話とは？",
+  "eyecatchText": "エジプト神話",
+  "description": "エジプト神話はどんな資料から知られているのか。ピラミッド・テキストや「死者の書」、パピルスの物語、ギリシャ人ヘロドトスやプルタルコスの記録まで、資料の特徴を整理し、ラー・オシリス・イシス・ホルス・セト・アヌビスなどの主な神々を紹介します。",
+  "lead": "動物の頭をもつ神々、ミイラ、ピラミッド——古代エジプトの神々は、ゲームや漫画でもおなじみの存在です。ところが、エジプト神話にはギリシャ神話のような「まとまった神話の本」がありません。神々の物語はどこから知られているのか。基本から整理します。",
+  "category": "basics",
+  "tags": ["エジプト神話", "オシリス", "死者の書", "プルタルコス", "基礎知識"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "ra",
+    "osiris",
+    "isis",
+    "horus",
+    "set",
+    "anubis",
+    "thoth",
+    "bastet"
+  ],
+  "mythologyIds": ["egyptian"],
+  "storyIds": [
+    "death-of-osiris",
+    "contendings-of-horus-and-set",
+    "weighing-of-the-heart",
+    "destruction-of-mankind"
+  ],
+  "workIds": ["jojo-stardust-crusaders"],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": [
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "book-of-the-dead",
+    "contendings-horus-seth",
+    "book-of-heavenly-cow",
+    "work-jojo-stardust-crusaders"
+  ],
+  "relatedArticleIds": ["osiris", "anubis", "jojo-egyptian-gods"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「神話の本」がない神話",
+      "anchor": "sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "ギリシャ神話にはヘシオドスの『神統記』、北欧神話には二つの『エッダ』があります。ところがエジプト神話には、神々の物語を体系的にまとめた古代エジプト人自身の書物が残っていません。神話は、さまざまな目的で書かれた資料の中に断片的に現れます。",
+      "claimIds": []
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "王墓や棺に記された呪文（ピラミッド・テキスト、コフィン・テキスト）",
+        "死者とともに葬られた呪文集「死者の書」",
+        "パピルスに書かれた物語（「ホルスとセトの争い」など）",
+        "王墓の壁に刻まれた宗教文書（「天の牝牛の書」など）",
+        "ギリシャ人による記録（ヘロドトス『歴史』、プルタルコス『イシスとオシリスについて』）"
+      ],
+      "claimIds": ["eo-bd", "eo-ch", "eo-hc"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ギリシャ人の目を通した記録",
+      "anchor": "greek"
+    },
+    {
+      "type": "paragraph",
+      "text": "最も有名なオシリス神話を、始まりから終わりまで一続きの物語として伝えているのは、紀元後100年頃のギリシャ人プルタルコスの『イシスとオシリスについて』です。ただしプルタルコスは、エジプトの神々をギリシャの神の名に置き換えて語っています。",
+      "claimIds": ["eo-plutarch"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "セト → テュポン（ギリシャ神話の怪物）",
+        "トト → ヘルメス",
+        "オシリス → ディオニュソスと同一視",
+        "ホルス → アポロンと同一視",
+        "バステト → アルテミスと同一視（ヘロドトス）"
+      ],
+      "claimIds": ["eo-plutarch", "eo-herodotus"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "トモタネの方針",
+      "text": "ギリシャ人の記録は貴重な資料ですが、エジプト人自身の信仰をそのまま写したものとは限りません。トモタネでは、エジプト人自身が残した資料と、ギリシャ人による記録を区別して紹介します。",
+      "claimIds": ["eo-policy"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "主な神々",
+      "anchor": "gods"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ラー：太陽神。昼は船で天を渡り、夜は冥界をめぐる",
+        "オシリス：弟セトに殺され、復活して冥界の王となる",
+        "イシス：オシリスの妻、ホルスの母。夫の遺体を探し集めた",
+        "ホルス：オシリスの息子。隼の頭をもつ王権の神",
+        "セト：オシリスの弟。兄を謀殺し、ホルスと王位を争う",
+        "アヌビス：ジャッカルの頭をもつ、墓とミイラづくりの神",
+        "トト：トキの頭をもつ知恵と文字の神、神々の書記",
+        "バステト：猫の女神。ブバスティスで崇拝された"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "オシリス神話のあらすじ",
+      "anchor": "osiris"
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコスによれば、エジプトの王オシリスは人々に農耕と法を授けましたが、弟セト（テュポン）が72人の仲間と謀り、オシリスの体の寸法に合わせた箱に閉じ込めてナイル川に流しました。妻イシスは箱を探してビブロスまで旅をし、持ち帰りますが、セトに見つかった遺体は十四に切り分けられて各地にまかれます。イシスは遺体を探し集め、のちにオシリスは冥界から息子ホルスを鍛え、ホルスはセトとの戦いに勝利しました。詳しくは[オシリス神話](/articles/osiris/)で解説しています。",
+      "claimIds": ["eo-osiris"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品の中のエジプトの神々",
+      "anchor": "works"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ジョジョの奇妙な冒険 第3部 スターダストクルセイダース』では、エジプトに上陸した主人公たちを、オシリス・ホルス・アヌビス・セトなどエジプトの神々の名をもつスタンド使いが襲います。作中ではこれらを「エジプト9栄神」と呼びますが、実際のエジプト神話にこの区分はありません。詳しくは[『ジョジョ』エジプト9栄神の元ネタ](/articles/jojo-egyptian-gods/)で解説しています。",
+      "claimIds": ["eo-work-jojo"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "エジプト神話には、神話を体系的にまとめた古代エジプト人自身の書物がない",
+        "神話は呪文集やパピルスの物語、ギリシャ人の記録などに断片的に残る",
+        "オシリス神話を一続きに伝えるのはプルタルコスで、神々の名はギリシャ風に置き換えられている"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "eo-bd",
+      "text": "「死者の書」は死者が冥界を通り抜けるための呪文集で、第125章に死者の裁判と心臓の計量の場面がある。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章"
+    },
+    {
+      "id": "eo-ch",
+      "text": "「ホルスとセトの争い」は第20王朝のチェスター・ビーティー・パピルス第1に記された物語で、オシリスの後継をめぐるホルスとセトの争いを描く。",
+      "classification": "fact",
+      "sourceIds": ["contendings-horus-seth"],
+      "verificationStatus": "verified",
+      "sourceLocation": "チェスター・ビーティー・パピルス第1"
+    },
+    {
+      "id": "eo-hc",
+      "text": "「天の牝牛の書」はツタンカーメン王墓の厨子やセティ1世などの王墓に記され、人類の反逆と太陽神ラーが天へ去る経緯を語る。",
+      "classification": "fact",
+      "sourceIds": ["book-of-heavenly-cow"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「天の牝牛の書」"
+    },
+    {
+      "id": "eo-plutarch",
+      "text": "プルタルコスはオシリス神話を一続きの物語として語り、セトをテュポン、トトをヘルメスの名で呼ぶ。オシリスがディオニュソスと同一視されたことにも触れる。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12–13章"
+    },
+    {
+      "id": "eo-herodotus",
+      "text": "ヘロドトスはオシリスをディオニュソス、ホルスをアポロン、ブバスティスで祀られる女神をアルテミスにあたるとする。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』2.59、2.144"
+    },
+    {
+      "id": "eo-policy",
+      "text": "エジプト人自身の資料とギリシャ人の記録を区別して紹介する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "eo-osiris",
+      "text": "オシリスは人々に農耕と法を授けた。テュポン（セト）は72人の共謀者とともに、オシリスの寸法に合わせた箱に彼を閉じ込めてナイル川に流した。イシスは箱をビブロスで見つけて持ち帰ったが、テュポンに見つかった遺体は十四に切り分けられた。イシスは遺体を探し集め、オシリスは冥界からホルスを鍛え、ホルスは戦いに勝利した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』13–19章"
+    },
+    {
+      "id": "eo-work-jojo",
+      "text": "『ジョジョの奇妙な冒険 第3部』のエジプト上陸後の刺客は「エジプト9栄神」のカードの暗示をもつスタンド使いとされるが、実際のエジプト神話に「9栄神」という区分はなく、作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    }
+  ]
+}

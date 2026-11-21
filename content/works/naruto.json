@@ -1,0 +1,14 @@
+{
+  "id": "naruto",
+  "slug": "naruto",
+  "title": "NARUTO -ナルト-",
+  "reading": "なると",
+  "type": "manga",
+  "mediaTypes": ["anime"],
+  "author": "岸本斉史",
+  "period": "1999〜2014年（『週刊少年ジャンプ』連載）",
+  "description": "忍の里・木ノ葉隠れを舞台に、落ちこぼれの少年うずまきナルトが里の長「火影」を目指して成長していく忍者漫画。2002年にアニメ化。うちは一族の瞳術「天照」「月読」「須佐能乎」や、大蛇丸・サスケが振るう「草薙の剣」など、日本神話に由来する名前の術や武具が登場する。",
+  "mythologyIds": ["japanese"],
+  "articleIds": [],
+  "sourceIds": ["work-naruto"]
+}

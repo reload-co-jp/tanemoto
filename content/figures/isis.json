@@ -1,0 +1,17 @@
+{
+  "id": "isis",
+  "slug": "isis",
+  "name": "イシス",
+  "reading": "いしす",
+  "originalName": "ꜣst",
+  "romanized": "Isis",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["魔術", "母神", "王権"],
+  "mythologyIds": ["egyptian"],
+  "description": "オシリスの妻で、ホルスの母。殺された夫の棺を求めてビブロスまで旅し、セトに切り刻まれた遺体を集めてまわった。夫を失った妻、子を守る母として広く崇拝され、その信仰はのちにギリシャ・ローマ世界にも広まった。",
+  "relatedFigureIds": ["osiris", "horus", "set", "anubis"],
+  "relatedStoryIds": ["death-of-osiris", "contendings-of-horus-and-set"],
+  "articleIds": [],
+  "sourceIds": ["plutarch-isis-osiris", "herodotus-histories"]
+}

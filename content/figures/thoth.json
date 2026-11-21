@@ -1,0 +1,21 @@
+{
+  "id": "thoth",
+  "slug": "thoth",
+  "name": "トト",
+  "reading": "とと",
+  "originalName": "Ḏḥwtj",
+  "romanized": "Thoth",
+  "alternativeNames": ["トート"],
+  "type": "god",
+  "roles": ["知恵", "文字", "書記", "月"],
+  "mythologyIds": ["egyptian"],
+  "description": "トキ（鳥）やヒヒの姿で表される知恵と文字の神。神々の書記として、死者の裁判では心臓の計量の結果を記録する。ギリシャ人はヘルメスと同一視し、プルタルコスの伝える神話ではヘルメスの名で登場する。",
+  "relatedFigureIds": ["osiris", "isis", "horus", "anubis"],
+  "relatedStoryIds": ["weighing-of-the-heart", "death-of-osiris"],
+  "articleIds": [],
+  "sourceIds": [
+    "plutarch-isis-osiris",
+    "book-of-the-dead",
+    "herodotus-histories"
+  ]
+}

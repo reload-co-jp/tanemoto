@@ -1,0 +1,263 @@
+{
+  "id": "cu-chulainn",
+  "slug": "cu-chulainn",
+  "title": "クー・フーリンとは？『Fate』ランサーの元ネタ、ゲイ・ボルグとゲシュ（禁忌）をケルト神話の原典から解説",
+  "shortTitle": "クー・フーリンの元ネタ",
+  "eyecatchText": "クー・フーリン",
+  "description": "『Fate/stay night』のランサーの真名クー・フーリン。「クランの猛犬」という名の由来、師スカアハ、親友フェル・ディアドを倒した槍ゲイ・ボルグ、犬の肉の禁忌を破って迎えた最期まで、アイルランドの原典から解説します。",
+  "lead": "『Fate/stay night』で紅い魔槍を振るうランサー。その真名は、アイルランドの英雄クー・フーリンです。「必ず心臓を貫く」槍ゲイ・ボルグは、原典ではどのような武器だったのか。犬にまつわる名前と禁忌、そして壮絶な最期を、中世アイルランドの物語からたどります。",
+  "category": "character-origins",
+  "tags": [
+    "クー・フーリン",
+    "Fate/stay night",
+    "ランサー",
+    "ゲイ・ボルグ",
+    "ケルト神話",
+    "スカアハ"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["cu-chulainn", "scathach", "medb", "lugh"],
+  "mythologyIds": ["celtic"],
+  "storyIds": [
+    "naming-of-cu-chulainn",
+    "death-of-ferdiad",
+    "death-of-cu-chulainn"
+  ],
+  "workIds": ["fate-stay-night"],
+  "characterIds": ["fate-stay-night-lancer"],
+  "topicIds": ["divine-items", "heroic-quest", "taboo"],
+  "sourceIds": [
+    "work-fate-stay-night",
+    "tain-bo-cuailnge",
+    "aided-con-culainn"
+  ],
+  "relatedArticleIds": [
+    "celtic-mythology-overview",
+    "lugh-and-balor",
+    "serpent-slayers"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『Fate/stay night』のランサー",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『Fate/stay night』のランサーは、紅い魔槍を持つ槍兵のサーヴァントです。真名はケルト神話の大英雄でアイルランドの「光の皇子」クー・フーリン。宝具「刺し穿つ死棘の槍（ゲイ・ボルク）」は、「敵の心臓に命中している」という結果を先に作ってから攻撃を放つ、因果を逆転させる呪いの槍とされています。",
+      "claimIds": ["cc-work", "cc-work-gaebolg"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「クランの猛犬」——名前の由来",
+      "anchor": "name"
+    },
+    {
+      "type": "paragraph",
+      "text": "クー・フーリンの幼名はセタンタといいます。『クアルンゲの牛捕り』によれば、7歳のとき、アルスターの王コンホヴァルが鍛冶師クランの宴に招かれました。少年は遊びを終えてから後を追うと言い、王もそれを忘れてしまいます。",
+      "claimIds": ["cc-name-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "クランは客がそろったと思い、三本の鎖でつながれ、それぞれを三人がかりで押さえるほどの獰猛な番犬を放ちました。そこへやって来た少年は、襲いかかる犬ののどと頭をつかみ、そばの石柱に叩きつけて殺してしまいます。",
+      "claimIds": ["cc-name-2"]
+    },
+    {
+      "type": "quote",
+      "text": "「同じ血筋の子犬を、私があなたのために育てましょう。その犬が育って役目を果たせるようになるまでは、私自身が番犬となって、あなたの家畜とあなた自身を守ります」。「それならお前の名はクー・フーリン（クランの猛犬）だ」とカトバドは言った。",
+      "sourceId": "tain-bo-cuailnge",
+      "location": "第1校訂本 O'Rahilly 英訳 142頁",
+      "claimIds": ["cc-name-3"],
+      "translationNote": "O'Rahilly の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "師スカアハと乳兄弟フェル・ディアド",
+      "anchor": "scathach"
+    },
+    {
+      "type": "paragraph",
+      "text": "クー・フーリンは、女戦士スカアハのもとで武芸を学びました。『クアルンゲの牛捕り』は、彼が6歳でスカアハのもとへ武芸を学びに行ったと語ります。同じくスカアハに学んだのが、コナハトの勇士フェル・ディアドでした。二人は同じ師から同じ戦いの技を学んだ乳兄弟だったのです。",
+      "claimIds": ["cc-scathach"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "原典のゲイ・ボルグ",
+      "anchor": "gaebolg"
+    },
+    {
+      "type": "paragraph",
+      "text": "コナハトの女王メドヴの軍勢と戦うクー・フーリンのもとに、メドヴはついにフェル・ディアドを送り出します。原典は、クー・フーリンにはフェル・ディアドのもたない技はただ一つ、ゲイ・ボルグ以外になかったと語ります。",
+      "claimIds": ["cc-unique"]
+    },
+    {
+      "type": "paragraph",
+      "text": "浅瀬での一騎討ちは互角でした。フェル・ディアドに三度浅瀬へ投げ落とされたクー・フーリンの体が膨れ上がったとき、御者が「ゲイ・ボルグに気をつけろ」と叫んで槍を流れに放ちます。クー・フーリンはそれを足の指でつかんで投げ、一つの穂先で入った槍はフェル・ディアドの体内で二十四に分かれました。フェル・ディアドは盾を下げ、クー・フーリンは盾の上から槍で心臓を貫きました。",
+      "claimIds": ["cc-ferdiad"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "原典と作品のゲイ・ボルグ",
+      "text": "原典のゲイ・ボルグは、体内で穂先が分かれる恐るべき槍として語られます。足で投げるという特異な使い方も印象的です。一方、作品の「因果を逆転させて必ず心臓を貫く」という性質は、原典に見られない作品独自の解釈です。",
+      "claimIds": ["cc-ferdiad", "cc-work-gaebolg", "cc-cmp-spear"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ゲシュ（禁忌）と最期",
+      "anchor": "death"
+    },
+    {
+      "type": "paragraph",
+      "text": "アイルランドの英雄には、ゲシュ（geis）と呼ばれる個人的な禁忌が課されていることがあります。12世紀の『レンスターの書』に伝わる「クー・フーリンの最期」によれば、クー・フーリンには、かまどに立ち寄ってその食べ物を口にしてはならないこと、そして自分の名のもとになった犬の肉を食べてはならないことという禁忌がありました。",
+      "claimIds": ["cc-geis"]
+    },
+    {
+      "type": "paragraph",
+      "text": "宿敵たちとの戦いに向かう道で、クー・フーリンは左目の見えない三人の老婆が、ナナカマドの串で犬の肉を焼いているのに出会います。自分のためにならない者たちだと知って通り過ぎようとする彼に、老婆は「ここにあるのがささやかなものだから寄らないのか。大いなる者が小さなものを受け取らぬのはみっともない」と言います。クー・フーリンが近づいて左手で受け取った犬の肉を食べると、その手と腿から力が失われました。",
+      "claimIds": ["cc-geis"]
+    },
+    {
+      "type": "paragraph",
+      "text": "戦いで致命傷を負ったクー・フーリンは、座ったままでも横たわったままでもなく、立ったまま死ぬために、石柱に胸帯を巻きつけて体を結びつけました。敵は彼が生きていると思って近づけず、鳥が肩に止まって初めて、その死を知ったといいます。",
+      "claimIds": ["cc-death"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "戦い続ける英雄",
+      "text": "作品のランサーは「戦闘続行」のスキルをもち、勝つよりも生き残ることに特化したサーヴァントともいわれます。最後まで立ったまま敵をひるませ続けた原典の最期と重ねて読むこともできるでしょう。",
+      "claimIds": ["cc-death", "cc-work-survive", "cc-cmp-death"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "クー・フーリンの名は、鍛冶師クランの番犬の代わりを申し出たことに由来する",
+        "スカアハのもとで、乳兄弟フェル・ディアドとともに武芸を学んだ",
+        "原典のゲイ・ボルグは、足で投げ、体内で二十四に分かれる槍",
+        "犬の肉を食べてはならない禁忌を破らされ、石柱に体を結んで立ったまま死んだ"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "cc-work",
+      "text": "ランサーは槍兵のサーヴァントで紅い魔槍を持つ。真名はケルト神話の大英雄でアイルランドの光の皇子クー・フーリン。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "cc-work-gaebolg",
+      "text": "宝具「刺し穿つ死棘の槍（ゲイ・ボルク）」は、呪いの槍で因果を逆転し、「敵の心臓に命中している」という結果を作ったのちに攻撃を放つ。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "cc-work-survive",
+      "text": "ランサーは「戦闘続行」スキルの恩恵により、勝つよりも生き残ることに特化したサーヴァントとも称される。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "cc-name-1",
+      "text": "鍛冶師クランが宴を設けてコンホヴァルを招いた。コンホヴァルは遊んでいた少年に一緒に来るよう誘ったが、少年はあとから追うと答え、コンホヴァルはそのことを忘れた。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 140–141頁"
+    },
+    {
+      "id": "cc-name-2",
+      "text": "クランは三本の鎖につながれ、それぞれの鎖を三人が押さえる番犬を放った。少年は犬ののどと頭をつかみ、そばの石柱に叩きつけて殺した。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 141頁"
+    },
+    {
+      "id": "cc-name-3",
+      "text": "少年は、同じ血筋の子犬を育てて渡し、それが育つまで自分が番犬となってクランの家畜と本人を守ると申し出た。カトバドは「それならお前の名はクー・フーリン（クランの猛犬）だ」と言った。このとき少年は7歳だった。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 141–142頁"
+    },
+    {
+      "id": "cc-scathach",
+      "text": "クー・フーリンは6歳でスカアハのもとへ武芸を学びに行った。フェル・ディアドとクー・フーリンは、ともにスカアハのもとで同じ戦いの技を学んだ。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 134頁・174頁"
+    },
+    {
+      "id": "cc-unique",
+      "text": "クー・フーリンにはフェル・ディアドのもたない技は、ゲイ・ボルグの技以外になかった。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 196頁"
+    },
+    {
+      "id": "cc-ferdiad",
+      "text": "フェル・ディアドはクー・フーリンを三度浅瀬に投げ落とした。クー・フーリンの体が膨れ上がると、御者が「ゲイ・ボルグに気をつけろ」と叫んで流れに放ち、クー・フーリンは足の指でつかんで投げた。一つの穂先で入った槍は体内で二十四に分かれ、フェル・ディアドが盾を下げたところを、クー・フーリンは槍で心臓を貫いた。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 207頁"
+    },
+    {
+      "id": "cc-cmp-spear",
+      "text": "因果を逆転させて必ず心臓を貫くという性質は、原典に見られない作品独自の解釈である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "cc-geis",
+      "text": "クー・フーリンには、かまどに立ち寄ってその食べ物を口にしないことと、自分の名のもとになった犬の肉を食べないことという禁忌があった。左目の見えない三人の老婆がナナカマドの串で犬を焼いており、通り過ぎようとする彼を「小さなものを受け取らぬのはみっともない」と責めた。クー・フーリンは左手で受け取った肉を食べ、その手と腿から力が失われた。",
+      "classification": "fact",
+      "sourceIds": ["aided-con-culainn"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「クー・フーリンの最期」Stokes 英訳 Revue Celtique 3, 176–177頁"
+    },
+    {
+      "id": "cc-death",
+      "text": "クー・フーリンは座ったままでも横たわったままでもなく立ったまま死ぬため、平原の石柱に胸帯を巻きつけた。敵は彼が生きていると思って近づかず、鳥が肩に止まってはじめて近づいた。",
+      "classification": "fact",
+      "sourceIds": ["aided-con-culainn"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「クー・フーリンの最期」Stokes 英訳 Revue Celtique 3, 175–185頁"
+    },
+    {
+      "id": "cc-cmp-death",
+      "text": "戦闘続行のスキルは、立ったまま敵をひるませ続けた最期と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、筆者の読みとして示す。"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "lugh-and-balor",
+  "slug": "lugh-and-balor",
+  "title": "ルーとバロール——邪眼の魔王を討った光の神、第二のマグ・トゥレドの戦いを解説",
+  "shortTitle": "ルーとバロール",
+  "eyecatchText": "ルーとバロール",
+  "description": "あらゆる技芸に通じた光の神ルーと、見た軍勢を無力にする邪眼の王バロール。祖父と孫が戦う第二のマグ・トゥレドの戦いを、銀の腕のヌアザやトゥアタ・デー・ダナンの四つの宝とあわせて、中世アイルランドの原典から解説します。",
+  "lead": "ゲームや漫画で「邪眼」「魔眼」の使い手として名前を見かけるバロール。そして、その邪眼を投石で射抜いた光の神ルー。アイルランドの神々の一族トゥアタ・デー・ダナンと魔族フォウォレの決戦を描く『マグ・トゥレドの戦い』を、原典に沿ってたどります。",
+  "category": "myths",
+  "tags": [
+    "ルー",
+    "バロール",
+    "ヌアザ",
+    "トゥアタ・デー・ダナン",
+    "ケルト神話",
+    "邪眼"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["lugh", "balor", "nuada"],
+  "mythologyIds": ["celtic"],
+  "storyIds": ["second-battle-of-mag-tuired"],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": ["monsters", "divine-items"],
+  "sourceIds": ["cath-maige-tuired"],
+  "relatedArticleIds": ["celtic-mythology-overview", "cu-chulainn", "medusa"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "トゥアタ・デー・ダナンとフォウォレ",
+      "anchor": "peoples"
+    },
+    {
+      "type": "paragraph",
+      "text": "『マグ・トゥレドの戦い』の主役は、アイルランドの神々の一族トゥアタ・デー・ダナンです。彼らは北方の島々の四つの都で学問と魔術を身につけ、ルーの槍、ヌアザの剣、ダグザの大釜、ファールの石という四つの宝をアイルランドにもたらしました。",
+      "claimIds": ["lb-treasures"]
+    },
+    {
+      "type": "paragraph",
+      "text": "物語の冒頭で、トゥアタ・デー・ダナンと魔族フォウォレは同盟を結び、フォウォレのバロールは娘エトネを、医神ディアン・ケーフトの子キアンに嫁がせます。こうして生まれたのがルーでした。のちに戦うルーとバロールは、孫と祖父の関係にあたります。",
+      "claimIds": ["lb-birth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "銀の腕のヌアザ",
+      "anchor": "nuada"
+    },
+    {
+      "type": "paragraph",
+      "text": "トゥアタ・デー・ダナンはアイルランドに渡り、先住のフィル・ヴォルグと戦って勝利します（第一のマグ・トゥレドの戦い）。しかしこの戦いで王ヌアザは片腕を切り落とされ、ディアン・ケーフトが「どの手とも同じように動く」銀の腕をつけました。",
+      "claimIds": ["lb-nuada"]
+    },
+    {
+      "type": "paragraph",
+      "text": "体に欠損のある者は王にふさわしくないとされ、王位はフォウォレの血を引くブレスに渡ります。ところがブレスはもてなしを惜しむ悪しき王で、トゥアタ・デー・ダナンはフォウォレに貢ぎ物を納め、勇士オグマは薪を運び、ダグザは砦を築かされる屈辱を味わいました。",
+      "claimIds": ["lb-bres"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「サウィルダーナハ」——すべての技をもつ者",
+      "anchor": "samildanach"
+    },
+    {
+      "type": "paragraph",
+      "text": "ブレスののちヌアザが王に戻り、タラで大宴会を催していたとき、一人の若い戦士が門に現れました。門番は「技をもたない者はタラに入れない」と言います。",
+      "claimIds": ["lb-door"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "「私は大工だ」——「大工ならもういる」",
+        "「私は鍛冶師だ」——「鍛冶師ならもういる」",
+        "「私は勇士だ」——「勇士オグマがいる」",
+        "竪琴弾き、英雄、詩人と歴史家、魔術師、医師、酌人、銅細工師……と名のるたびに、門番は「もういる」と答える"
+      ],
+      "claimIds": ["lb-door"]
+    },
+    {
+      "type": "paragraph",
+      "text": "そこで若者は言いました。「これらの技をすべてひとりでもつ者が王のもとにいるか、聞いてきてほしい。いるなら私はタラに入らない」。門番から「すべての技をひとりでもつ者」と聞いた王は、若者を迎え入れました。これがルーで、彼は「サウィルダーナハ（多芸の者）」と呼ばれます。",
+      "claimIds": ["lb-samildanach"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "邪眼のバロール",
+      "anchor": "balor"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがて第二のマグ・トゥレドの戦いが始まります。銀の腕のヌアザは、バロールに討たれました。そしてルーとバロールが相まみえます。",
+      "claimIds": ["lb-nuada-death"]
+    },
+    {
+      "type": "quote",
+      "text": "バロールには邪眼があった。その眼は戦場でしか開かれることはなかった。四人の男が、まぶたを貫く磨かれた柄でそのまぶたを持ち上げた。その眼を見た軍勢は、何千人いようとも、わずかな戦士にさえ抗えなくなった。",
+      "sourceId": "cath-maige-tuired",
+      "location": "Stokes 英訳 Revue Celtique 12, 101頁",
+      "claimIds": ["lb-eye"],
+      "translationNote": "Stokes の英訳をもとにした編集部訳"
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "邪眼の由来",
+      "text": "原典は、バロールの眼がこの毒の力をもつようになった理由も語っています。父のドルイドたちが呪文の薬を煮ていたとき、バロールが窓からのぞき込み、その煙が眼にかかって、薬の毒が眼に宿ったのだといいます。",
+      "claimIds": ["lb-eye-origin"]
+    },
+    {
+      "type": "paragraph",
+      "text": "「わしのまぶたを上げよ。おしゃべりしている者を見てやろう」とバロールが言い、まぶたが持ち上げられた瞬間、ルーは投石器で石を放ちました。石は眼を頭の後ろまで突き抜けさせ、眼はフォウォレ自身の軍勢をにらむことになりました。眼が落ちた先では、フォウォレの兵が二十七人死んだといいます。",
+      "claimIds": ["lb-sling"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "その後",
+      "anchor": "after"
+    },
+    {
+      "type": "paragraph",
+      "text": "戦いはトゥアタ・デー・ダナンの勝利に終わり、フォウォレは海へと追い払われました。",
+      "claimIds": ["lb-rout"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「見る力」の怪物",
+      "text": "見るだけで相手を無力にするバロールの邪眼は、見た者を石に変えるギリシャ神話のメデューサの首とよく比較されます。どちらも、その力が最後には持ち主の側に向けられる（バロールの眼は自軍をにらみ、メデューサの首は英雄の武器となる）点でも共通しています。メデューサについては[メデューサとは？](/articles/medusa/)で解説しています。",
+      "claimIds": ["lb-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ルーはフォウォレの王バロールの孫で、あらゆる技芸に通じた「サウィルダーナハ」",
+        "ヌアザは片腕を失って銀の腕をつけ、のちにバロールに討たれた",
+        "バロールの邪眼は四人がかりでまぶたを持ち上げ、見た軍勢を無力にした",
+        "ルーの投石は邪眼を頭の後ろまで突き抜けさせ、眼はフォウォレ自身をにらんだ"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "lb-treasures",
+      "text": "トゥアタ・デー・ダナンは北方の島々の四つの都で学問と魔術を学び、ファールの石、ルーの槍、ヌアザの剣、ダグザの大釜をもたらした。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 57–59頁"
+    },
+    {
+      "id": "lb-birth",
+      "text": "トゥアタ・デー・ダナンはフォウォレと同盟を結び、バロールは娘エトネをディアン・ケーフトの子キアンに与え、エトネはルーを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 59頁"
+    },
+    {
+      "id": "lb-nuada",
+      "text": "第一のマグ・トゥレドの戦いでトゥアタ・デー・ダナンはフィル・ヴォルグに勝ったが、ヌアザはスレングに片腕を切り落とされ、ディアン・ケーフトがどの手とも同じように動く銀の腕をつけた。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 59頁"
+    },
+    {
+      "id": "lb-bres",
+      "text": "片腕を失ったヌアザは王にふさわしくないとされ、王位はブレスに与えられた。ブレスの治世でトゥアタ・デー・ダナンはフォウォレに貢納させられ、オグマは薪を運び、ダグザは砦を築かされた。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 61–69頁"
+    },
+    {
+      "id": "lb-door",
+      "text": "ヌアザがタラで宴を開いていたとき、サウィルダーナハという戦士が門に来た。門番は技をもたない者はタラに入れないと言い、戦士が大工、鍛冶師、勇士、竪琴弾き、英雄、詩人・歴史家、魔術師、医師、酌人、銅細工師と名のるたびに、すでにいると答えた。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 75–79頁"
+    },
+    {
+      "id": "lb-samildanach",
+      "text": "戦士は、これらの技をすべてもつ者が一人でも王のもとにいるか尋ねさせた。門番は王に「すべての技をひとりでもつ者」が来たと告げ、ヌアザは彼を迎え入れた。彼はキアンとエトネの子ルーである。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 75–79頁"
+    },
+    {
+      "id": "lb-nuada-death",
+      "text": "銀の腕のヌアザとマハはバロールに討たれた。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101頁"
+    },
+    {
+      "id": "lb-eye",
+      "text": "バロールの邪眼は戦場でしか開かれず、四人の男がまぶたを貫く柄でまぶたを持ち上げた。その眼を見た軍勢は、何千人いようとわずかな戦士にも抗えなかった。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101頁"
+    },
+    {
+      "id": "lb-eye-origin",
+      "text": "父のドルイドたちが呪文の薬を煮ているとき、バロールが窓からのぞき、その煙が眼にかかって薬の毒が眼に宿った。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101頁"
+    },
+    {
+      "id": "lb-sling",
+      "text": "バロールのまぶたが上げられると、ルーは投石器で石を放ち、石は眼を頭の後ろまで突き抜けさせた。眼は自軍のほうを向き、フォウォレの軍勢の上に落ちて、そのうち二十七人が死んだ。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101頁"
+    },
+    {
+      "id": "lb-rout",
+      "text": "戦いは潰走となり、フォウォレは海へと追い払われた。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101–103頁"
+    },
+    {
+      "id": "lb-cmp",
+      "text": "見るだけで相手を無力にする邪眼は、メデューサの首としばしば比較される。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "jojo-anubis",
+  "slug": "jojo-anubis",
+  "name": "アヌビス神",
+  "reading": "あぬびすしん",
+  "alternativeNames": [],
+  "workId": "jojo-stardust-crusaders",
+  "description": {
+    "text": "自我をもつ三日月刀に宿った特殊なスタンド。本体は500年前の刀鍛冶ですでに故人。刀を抜いた者を「新しい本体」として操り、戦うほど相手の動きを覚えて強くなる。",
+    "claimIds": ["jj-anubis-work", "jj-anubis-work-nine"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "anubis",
+      "label": "アヌビス",
+      "inWork": {
+        "text": "刀には半人半獣のアヌビスそのものの像をもつスタンドが宿る。牛飼いの青年チャカや床屋の店主カーン、さらにポルナレフを次々に操って襲いかかる。",
+        "claimIds": ["jj-anubis-work-blade"]
+      },
+      "inMyth": {
+        "text": "アヌビスはジャッカルの頭をもつ姿で表される、墓とミイラづくりの神。「死者の書」では死者の心臓を量る天秤に立ち会う。",
+        "claimIds": ["jj-anubis-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のアヌビスは、死者を守り冥界へ導く神であり、剣をとって戦う神ではない。名前と半獣の姿は受け継ぎつつ、「持ち主を乗り換えていく妖刀」という性格は作品独自の設定といえる。",
+      "claimIds": ["jj-anubis-myth", "jj-anubis-work-blade", "jj-anubis-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jj-anubis-work",
+      "text": "アヌビス神は自我を備えた特殊なスタンドで、本体は500年前のエジプトの刀鍛冶で故人。刀を鞘から抜いた者を新しい本体として操り、一度受けた攻撃を憶えて見切る。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-anubis-work-nine",
+      "text": "エジプト上陸後の刺客は「エジプト9栄神」のカードの暗示をもつスタンド使いとされる。実際のエジプト神話に「9栄神」という区分はなく、作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-anubis-work-blade",
+      "text": "アヌビス神は三日月刀に宿り、半人半獣のアヌビスそのものの像をもつ。チャカ、カーン、ポルナレフに憑依して戦った。名前の由来は冥界の神アヌビス。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-anubis-myth",
+      "text": "「死者の書」第125章の挿絵では、ジャッカルの頭をもつアヌビスが、死者の心臓を真理の女神マアトの羽根と比べる天秤に立ち会っている。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "jj-anubis-cmp",
+      "text": "持ち主を乗り換えていく妖刀という性格は作品独自のもので、原典のアヌビスは戦う神ではない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-jojo-stardust-crusaders", "book-of-the-dead"],
+  "articleIds": []
+}

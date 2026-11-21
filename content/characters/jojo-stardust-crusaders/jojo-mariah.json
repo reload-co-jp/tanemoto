@@ -1,0 +1,76 @@
+{
+  "id": "jojo-mariah",
+  "slug": "jojo-mariah",
+  "name": "マライア",
+  "reading": "まらいあ",
+  "alternativeNames": [],
+  "workId": "jojo-stardust-crusaders",
+  "description": {
+    "text": "ルクソールでジョースター一行を迎え撃ったスタンド使いの女性。相手を磁石にして自滅に追い込む戦法をとる。",
+    "claimIds": ["jj-mariah-work", "jj-mariah-work-nine"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "bastet",
+      "label": "バステト",
+      "inWork": {
+        "text": "スタンド「バステト女神」はコンセントの姿をしており、触れた相手を磁石にする。磁力は時間とともに強くなっていく。",
+        "claimIds": ["jj-mariah-work-bastet"]
+      },
+      "inMyth": {
+        "text": "バステトは下エジプトの町ブバスティスで崇拝された猫の女神。ヘロドトスはこの女神をギリシャのアルテミスにあたるとし、死んだ猫はブバスティスに運ばれてミイラにされたと記す。",
+        "claimIds": ["jj-mariah-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のバステトは猫と結びついた女神であり、磁力やコンセントとの関係は見られない。名前のみを借りた設定と考えられる。",
+      "claimIds": ["jj-mariah-myth", "jj-mariah-work-bastet", "jj-mariah-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jj-mariah-work",
+      "text": "マライアはルクソールでジョースター一行を迎え撃ったスタンド使い。相手を磁石化させて不利な状況に追い込み自滅させる戦法をとる。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-mariah-work-nine",
+      "text": "エジプト上陸後の刺客は「エジプト9栄神」のカードの暗示をもつスタンド使いとされる。実際のエジプト神話に「9栄神」という区分はなく、作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-mariah-work-bastet",
+      "text": "スタンド「バステト女神」はコンセントの像をしており、触れた相手を磁石化させる。磁力は時間とともに強くなる。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-mariah-myth",
+      "text": "エジプトで最も盛大な祭りはブバスティスのアルテミス（バステト）の祭りである。死んだ猫はブバスティスの聖所に運ばれ、ミイラにされて葬られる。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』2.59、2.67"
+    },
+    {
+      "id": "jj-mariah-cmp",
+      "text": "原典のバステトに磁力との関係は見られず、名前のみを借りた設定と考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-jojo-stardust-crusaders", "herodotus-histories"],
+  "articleIds": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "balor",
+  "slug": "balor",
+  "name": "バロール",
+  "reading": "ばろーる",
+  "originalName": "Balor",
+  "romanized": "Balor",
+  "alternativeNames": ["邪眼のバロール"],
+  "type": "giant",
+  "roles": ["邪眼", "フォウォレの王"],
+  "mythologyIds": ["celtic"],
+  "description": "アイルランドを支配した魔族フォウォレの王。見た軍勢を無力にする邪眼をもち、そのまぶたは四人がかりで柄を使って持ち上げた。第二のマグ・トゥレドの戦いで、孫にあたるルーの投石に眼を射抜かれて倒れた。",
+  "relatedFigureIds": ["lugh", "nuada"],
+  "relatedStoryIds": ["second-battle-of-mag-tuired"],
+  "articleIds": [],
+  "sourceIds": ["cath-maige-tuired"]
+}

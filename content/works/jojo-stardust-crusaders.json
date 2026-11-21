@@ -1,0 +1,14 @@
+{
+  "id": "jojo-stardust-crusaders",
+  "slug": "jojo-stardust-crusaders",
+  "title": "ジョジョの奇妙な冒険 第3部 スターダストクルセイダース",
+  "reading": "じょじょのきみょうなぼうけん すたーだすとくるせいだーす",
+  "type": "manga",
+  "mediaTypes": ["anime", "game"],
+  "author": "荒木飛呂彦",
+  "period": "1989〜1992年（『週刊少年ジャンプ』連載）",
+  "description": "空条承太郎たちが、宿敵DIOを倒すために日本からエジプトのカイロを目指して旅をする漫画。超能力「スタンド」が初めて登場した部で、2014年にアニメ化。エジプト上陸後の刺客たちは、オシリス・ホルス・アヌビス・セトなど、エジプトの神々の名をもつスタンドを使う。",
+  "mythologyIds": ["egyptian"],
+  "articleIds": [],
+  "sourceIds": ["work-jojo-stardust-crusaders"]
+}

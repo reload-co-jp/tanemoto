@@ -1,0 +1,92 @@
+{
+  "id": "jojo-daniel-j-darby",
+  "slug": "jojo-daniel-j-darby",
+  "name": "ダニエル・J・ダービー",
+  "reading": "だにえる・じぇい・だーびー",
+  "alternativeNames": ["ダービー兄"],
+  "workId": "jojo-stardust-crusaders",
+  "description": {
+    "text": "ギャンブル勝負に敗れた者の魂を奪うスタンド使い。生まれついてのギャンブラーを自称するイカサマの達人で、スタンド「オシリス神」を使う。",
+    "claimIds": ["jj-darby-work", "jj-darby-work-nine"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "osiris",
+      "label": "オシリス",
+      "inWork": {
+        "text": "スタンド「オシリス神」は、勝負の前に魂を賭けると宣言させ、敗北を認めた相手の魂を奪ってコインに変える。",
+        "claimIds": ["jj-darby-work-osiris"]
+      },
+      "inMyth": {
+        "text": "オシリスは弟セトに殺されたのち、冥界から息子ホルスのもとに現れる。「死者の書」では冥界の玉座にあって、死者の裁判を主宰する王として描かれる。",
+        "claimIds": ["jj-darby-myth-osiris", "jj-darby-myth-judge"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のオシリスは、死者の心臓を天秤にかけて生前の行いを裁く冥界の王。作品の「オシリス神」が、勝負の結果によって魂を取り立てる能力として描かれているのは、死者の魂の行方を決める神というイメージと重なる。",
+      "claimIds": [
+        "jj-darby-myth-judge",
+        "jj-darby-work-osiris",
+        "jj-darby-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jj-darby-work",
+      "text": "ダニエル・J・ダービーは、ギャンブル勝負に敗れた者の魂を奪うスタンド使い。生まれついてのギャンブラーを自称し、イカサマの達人でもある。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-darby-work-nine",
+      "text": "エジプト上陸後の刺客は「エジプト9栄神」のカードの暗示をもつスタンド使いとされる。実際のエジプト神話に「9栄神」という区分はなく、作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-darby-work-osiris",
+      "text": "スタンド「オシリス神」は、勝負前に魂を賭けると宣言させ、敗北を認めた相手の魂を無条件で奪い、コインとして実体化させる。名前の由来は冥界の神オシリス。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-darby-myth-osiris",
+      "text": "オシリスはテュポン（セト）の策略で箱に閉じ込められて殺され、のちに冥界からホルスのもとに来て、戦いに備えて鍛えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』13・19章"
+    },
+    {
+      "id": "jj-darby-myth-judge",
+      "text": "「死者の書」第125章の挿絵では、死者の心臓が天秤で量られたのち、死者は玉座のオシリスの前に導かれる。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "jj-darby-cmp",
+      "text": "魂を取り立てる「オシリス神」の能力は、死者の魂の行方を決める冥界の王のイメージと重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-jojo-stardust-crusaders",
+    "plutarch-isis-osiris",
+    "book-of-the-dead"
+  ],
+  "articleIds": []
+}

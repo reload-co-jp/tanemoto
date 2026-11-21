@@ -1,0 +1,80 @@
+{
+  "id": "persona-4-izanami",
+  "slug": "persona-4-izanami",
+  "name": "イザナミ",
+  "reading": "いざなみ",
+  "alternativeNames": ["伊耶那美大神"],
+  "workId": "persona-4",
+  "description": {
+    "text": "一連の事件のきっかけを作った「すべての元凶」。ふだんはガソリンスタンドの店員の姿で正体を隠しており、主人公たちにテレビの中に入る力を与えた。",
+    "claimIds": ["p4-izanami-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "izanami",
+      "label": "イザナミ（伊耶那美命）",
+      "inWork": {
+        "text": "最終決戦の地・黄泉比良坂で、真の姿「伊耶那美大神」を現す。仲間たちを虚無に引きずり込むが、主人公の伊邪那岐大神に倒される。",
+        "claimIds": ["p4-izanami-work-final"]
+      },
+      "inMyth": {
+        "text": "イザナミは火の神を生んで亡くなり、黄泉国の住人となった。追ってきたイザナギと黄泉比良坂で決別したのち、「黄泉津大神」と呼ばれるようになった。",
+        "claimIds": ["p4-izanami-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のイザナミは、イザナギに「あなたの国の人を一日に千人絞め殺す」と告げ、イザナギは「それなら一日に千五百の産屋を建てる」と応じた。人の死の起源を語るこの場面のイザナミは、作品で人々を虚無に引きずり込む黒幕としての姿と重なる。",
+      "claimIds": [
+        "p4-izanami-myth-curse",
+        "p4-izanami-work-final",
+        "p4-izanami-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p4-izanami-work",
+      "text": "イザナミは一連の事件のきっかけを作った元凶で、ガソリンスタンドの店員の姿で正体を隠し、主人公・足立・生田目にテレビに入る力を与えた。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-izanami-work-final",
+      "text": "最後の決戦の地・黄泉比良坂で、イザナミは真の姿である伊耶那美大神を現し、主人公以外の仲間を虚無に引きずり込むが、主人公の伊邪那岐大神に撃破された。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-izanami-myth",
+      "text": "イザナミは黄泉戸喫（黄泉国の食べ物を口にすること）をしてしまっていた。黄泉比良坂でイザナギと離別したのち、黄泉津大神と呼ばれた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4-izanami-myth-curse",
+      "text": "イザナミは「あなたの国の人草を一日に千人絞め殺す」と言い、イザナギは「それなら一日に千五百の産屋を建てる」と答えた。こうして一日に必ず千人が死に、千五百人が生まれるようになった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4-izanami-cmp",
+      "text": "人の死の起源を語るイザナミの姿は、人々を虚無に引きずり込む作品の黒幕像と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-4", "kojiki"],
+  "articleIds": []
+}

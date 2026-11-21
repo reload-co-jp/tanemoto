@@ -1,0 +1,25 @@
+{
+  "id": "susanoo",
+  "slug": "susanoo",
+  "name": "スサノオ",
+  "reading": "すさのお",
+  "alternativeNames": ["須佐之男命", "素戔嗚尊", "スサノヲ"],
+  "type": "god",
+  "roles": ["嵐", "怪物退治"],
+  "mythologyIds": ["japanese"],
+  "description": "イザナギが禊で鼻を洗ったときに生まれた神。『古事記』では建速須佐之男命、『日本書紀』では素戔嗚尊と書く。高天原で乱暴を働いて追放されたのち、出雲でヤマタノオロチを退治してクシナダヒメを救い、大蛇の尾から草薙剣を得た。",
+  "relatedFigureIds": [
+    "izanagi",
+    "amaterasu",
+    "tsukuyomi",
+    "yamata-no-orochi",
+    "kushinadahime"
+  ],
+  "relatedStoryIds": [
+    "birth-of-three-noble-children",
+    "amano-iwato",
+    "yamata-no-orochi-slaying"
+  ],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

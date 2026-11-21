@@ -3,18 +3,38 @@
     "id": "underworld",
     "slug": "underworld",
     "name": "冥界",
-    "description": "死者の魂が向かう地下の世界。ギリシャ神話では「ハデスの館」と呼ばれ、冥王ハデスと女王ペルセポネが治める。",
-    "figureIds": ["hades", "persephone", "cerberus"],
-    "storyIds": ["abduction-of-persephone", "heracles-cerberus"],
+    "description": "死者の魂が向かう世界。ギリシャ神話のハデスの館、日本神話の黄泉国、エジプト神話でオシリスが治める冥界など、多くの神話が死者の国とその支配者を語っている。",
+    "figureIds": [
+      "hades",
+      "persephone",
+      "cerberus",
+      "izanami",
+      "osiris",
+      "anubis"
+    ],
+    "storyIds": [
+      "abduction-of-persephone",
+      "heracles-cerberus",
+      "izanagi-yomi",
+      "weighing-of-the-heart"
+    ],
     "order": 1
   },
   {
     "id": "monsters",
     "slug": "monsters",
     "name": "怪物",
-    "description": "英雄に退治される怪物たち。ギリシャ神話の怪物の多くは、エキドナやポルキュスとケトの子孫として系譜に位置づけられている。",
-    "figureIds": ["medusa", "cerberus", "chimera", "echidna", "typhon"],
-    "storyIds": [],
+    "description": "英雄に退治される怪物たち。ギリシャ神話のメデューサやケルベロス、日本神話のヤマタノオロチ、ケルト神話の邪眼のバロールなど、神話の怪物の系譜と伝承をたどる。",
+    "figureIds": [
+      "medusa",
+      "cerberus",
+      "chimera",
+      "echidna",
+      "typhon",
+      "yamata-no-orochi",
+      "balor"
+    ],
+    "storyIds": ["yamata-no-orochi-slaying", "second-battle-of-mag-tuired"],
     "order": 2
   },
   {
@@ -30,9 +50,23 @@
     "id": "divine-items",
     "slug": "divine-items",
     "name": "神器・伝説の道具",
-    "description": "姿を隠すハデスの帽子、ゴルゴンの首を据えたアイギス、天馬を御する黄金の手綱など、神々が授ける特別な道具。",
-    "figureIds": ["athena", "hermes"],
-    "storyIds": ["perseus-medusa", "bellerophon-chimera"],
+    "description": "姿を隠すハデスの帽子、ゴルゴンの首を据えたアイギス、ヤマタノオロチの尾から出た草薙剣、クー・フーリンの槍ゲイ・ボルグなど、神々や英雄が手にする特別な道具。",
+    "figureIds": [
+      "athena",
+      "hermes",
+      "susanoo",
+      "yamato-takeru",
+      "cu-chulainn",
+      "lugh",
+      "nuada"
+    ],
+    "storyIds": [
+      "perseus-medusa",
+      "bellerophon-chimera",
+      "yamata-no-orochi-slaying",
+      "yamato-takeru-kusanagi",
+      "death-of-ferdiad"
+    ],
     "order": 4
   },
   {
@@ -40,8 +74,20 @@
     "slug": "heroic-quest",
     "name": "英雄の冒険",
     "description": "王や神々から課された難題に挑む英雄たちの物語。神々の助力を得て怪物を退治する筋立てが多い。",
-    "figureIds": ["perseus", "heracles", "bellerophon"],
-    "storyIds": ["perseus-medusa", "heracles-cerberus", "bellerophon-chimera"],
+    "figureIds": [
+      "perseus",
+      "heracles",
+      "bellerophon",
+      "yamato-takeru",
+      "cu-chulainn"
+    ],
+    "storyIds": [
+      "perseus-medusa",
+      "heracles-cerberus",
+      "bellerophon-chimera",
+      "yamato-takeru-kusanagi",
+      "naming-of-cu-chulainn"
+    ],
     "order": 5
   },
   {
@@ -52,5 +98,23 @@
     "figureIds": ["medusa"],
     "storyIds": [],
     "order": 6
+  },
+  {
+    "id": "dragon-slaying",
+    "slug": "dragon-slaying",
+    "name": "大蛇・竜退治",
+    "description": "神や英雄が巨大な蛇や竜を倒す物語。日本神話のスサノオとヤマタノオロチ、北欧神話のトールとミズガルズの大蛇、エジプト神話で太陽神の船を襲う大蛇など、世界の神話に繰り返し現れるモチーフ。",
+    "figureIds": ["susanoo", "yamata-no-orochi", "thor", "heracles"],
+    "storyIds": ["yamata-no-orochi-slaying", "ragnarok"],
+    "order": 7
+  },
+  {
+    "id": "taboo",
+    "slug": "taboo",
+    "name": "禁忌（タブー）",
+    "description": "「見てはならない」「食べてはならない」といった禁を破ったことで、取り返しのつかない結果を招く物語。イザナギの黄泉国訪問や、禁忌（ゲシュ）を破って力を失ったクー・フーリンの最期などがある。",
+    "figureIds": ["izanagi", "izanami", "cu-chulainn"],
+    "storyIds": ["izanagi-yomi", "death-of-cu-chulainn"],
+    "order": 8
   }
 ]

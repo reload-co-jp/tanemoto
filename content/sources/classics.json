@@ -132,5 +132,114 @@
     "url": "https://en.wikisource.org/wiki/The_Poetic_Edda_(tr._Bellows)",
     "urlLabel": "Wikisource（H. A. Bellows 英訳, 1923）",
     "notes": "神々や英雄をうたった古ノルド語の詩を集めたもの。『巫女の予言』などの神話詩と、シグルズやブリュンヒルドなどの英雄詩を含む。スノッリの『散文エッダ』も多くをこれらの詩に拠っている。"
+  },
+  {
+    "id": "kojiki",
+    "title": "古事記",
+    "author": "太安万侶（編）",
+    "type": "primary",
+    "publishedPeriod": "712年（和銅5年）",
+    "url": "https://zh.wikisource.org/wiki/%E5%8F%A4%E4%BA%8B%E8%A8%98/%E4%B8%8A%E5%8D%B7",
+    "urlLabel": "Wikisource（原文・上巻）",
+    "notes": "現存する日本最古の歴史書。序によれば稗田阿礼が誦み習った内容を太安万侶が筆録し、元明天皇に献上した。上巻は神代の物語、中巻・下巻は神武天皇から推古天皇までを記す。箇所は「上巻（伊耶那岐命の禊）」のように巻と通称の段名で示す。邦訳・注釈に倉野憲司校注『古事記』（岩波文庫）などがある。"
+  },
+  {
+    "id": "nihon-shoki",
+    "title": "日本書紀",
+    "author": "舎人親王ら（編）",
+    "type": "primary",
+    "publishedPeriod": "720年（養老4年）",
+    "url": "https://zh.wikisource.org/wiki/%E6%97%A5%E6%9C%AC%E6%9B%B8%E7%B4%80/%E5%8D%B7%E7%AC%AC%E4%B8%80",
+    "urlLabel": "Wikisource（原文・巻第一）",
+    "notes": "朝廷が編纂した最初の正史（六国史の第一）。漢文で書かれ、神代の巻では本文のほかに「一書に曰く」として多数の異伝を併記する。箇所は「神代上 第五段 一書第十一」のように段と一書の番号で示す。邦訳・注釈に坂本太郎ほか校注『日本書紀』（岩波文庫）などがある。"
+  },
+  {
+    "id": "plutarch-isis-osiris",
+    "title": "イシスとオシリスについて",
+    "originalTitle": "De Iside et Osiride（Περὶ Ἴσιδος καὶ Ὀσίριδος）",
+    "author": "プルタルコス",
+    "translator": "F. C. Babbitt 英訳（ローブ古典叢書, 1936）",
+    "type": "primary",
+    "publishedPeriod": "紀元後100年頃",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*/A.html",
+    "urlLabel": "LacusCurtius（Babbitt 英訳）",
+    "notes": "ギリシャ人の著述家プルタルコスが、オシリス神話を一続きの物語として伝える唯一の古典資料。神々の名はギリシャ風（セト＝テュポン、トト＝ヘルメスなど）に置き換えられている。箇所は章番号で示す。"
+  },
+  {
+    "id": "herodotus-histories",
+    "title": "歴史",
+    "originalTitle": "Historiai（Ἱστορίαι）",
+    "author": "ヘロドトス",
+    "type": "primary",
+    "publishedPeriod": "紀元前5世紀後半",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126",
+    "urlLabel": "Perseus Digital Library（A. D. Godley 英訳）",
+    "notes": "第2巻でエジプトの風俗と信仰を詳しく記録している。エジプトの神々はギリシャの神の名に置き換えて呼ばれる（オシリス＝ディオニュソス、ホルス＝アポロン、バステト＝アルテミスなど）。「巻.章」で箇所を示す。邦訳に松平千秋訳（岩波文庫）がある。"
+  },
+  {
+    "id": "book-of-the-dead",
+    "title": "死者の書（アニのパピルス）",
+    "originalTitle": "Book of the Dead（Papyrus of Ani, British Museum EA 10470）",
+    "author": "作者不詳",
+    "translator": "E. A. W. Budge 英訳（1895年）",
+    "type": "primary",
+    "publishedPeriod": "新王国時代・紀元前1250年頃（アニのパピルス）",
+    "url": "https://archive.org/details/papyrus-of-ani-e.-a.-wallis-budge",
+    "urlLabel": "Internet Archive（Budge 英訳）",
+    "notes": "死者が冥界を無事に通り抜けるための呪文集。「死者の書」は近代の呼び名で、写本ごとに収録される呪文は異なる。第125章（呪文125）に死者の裁判と「心臓の計量」の場面がある。内容の確認には英語版Wikipediaの関連項目（Anubis, Ammit など）とその参考文献も参照した。"
+  },
+  {
+    "id": "contendings-horus-seth",
+    "title": "ホルスとセトの争い（チェスター・ビーティー・パピルス第1）",
+    "originalTitle": "The Contendings of Horus and Seth（Papyrus Chester Beatty I）",
+    "author": "作者不詳",
+    "type": "primary",
+    "publishedPeriod": "第20王朝・紀元前1150年頃",
+    "notes": "オシリスの王位をめぐってホルスとセトが神々の法廷で争う物語。ダブリンのチェスター・ビーティー図書館所蔵のパピルスに記され、1931年に A. H. ガーディナーが刊行した。内容の確認には英語版Wikipediaの関連項目（The Contendings of Horus and Seth, Eye of Horus）とその参考文献を参照した。"
+  },
+  {
+    "id": "book-of-heavenly-cow",
+    "title": "天の牝牛の書",
+    "originalTitle": "Book of the Heavenly Cow",
+    "author": "作者不詳",
+    "type": "primary",
+    "publishedPeriod": "新王国時代（ツタンカーメン王墓の厨子、セティ1世王墓などに記される）",
+    "notes": "人類の反逆に怒った太陽神ラーが、女神ハトホルを送って罰を下し、のちに天の牝牛の背に乗って天へ去る経緯を語る。内容の確認には英語版Wikipediaの関連項目（Book of the Heavenly Cow, Ra）とその参考文献を参照した。"
+  },
+  {
+    "id": "cath-maige-tuired",
+    "title": "マグ・トゥレドの戦い（第二の戦い）",
+    "originalTitle": "Cath Maige Tuired",
+    "author": "作者不詳",
+    "translator": "Whitley Stokes 英訳（Revue Celtique 12, 1891）",
+    "type": "primary",
+    "publishedPeriod": "写本は16世紀（大英図書館 Harleian MS 5280）。物語の成立は9〜12世紀頃（諸説あり）",
+    "url": "https://celt.ucc.ie/published/T300011.html",
+    "urlLabel": "CELT（Stokes 英訳）",
+    "notes": "アイルランドの神々の一族トゥアタ・デー・ダナンと、魔族フォウォレの戦いを語る物語。箇所は Stokes 英訳の掲載ページ（Revue Celtique 12 の頁）で示す。"
+  },
+  {
+    "id": "tain-bo-cuailnge",
+    "title": "クアルンゲの牛捕り（第1校訂本）",
+    "originalTitle": "Táin Bó Cúailnge, Recension I",
+    "author": "作者不詳",
+    "translator": "Cecile O'Rahilly 英訳（1976年）",
+    "type": "primary",
+    "publishedPeriod": "写本は11〜12世紀（『赤牛の書』など）。物語の原型はそれ以前",
+    "url": "https://celt.ucc.ie/published/T301012.html",
+    "urlLabel": "CELT（O'Rahilly 英訳）",
+    "notes": "アルスター物語群の中心となる叙事物語。コナハトの女王メドヴの軍勢を、少年英雄クー・フーリンがただ一人で食い止める。箇所は O'Rahilly 英訳の頁で示す。"
+  },
+  {
+    "id": "aided-con-culainn",
+    "title": "クー・フーリンの最期",
+    "originalTitle": "Aided Con Culainn（Brislech Mór Maige Muirthemni）",
+    "author": "作者不詳",
+    "translator": "Whitley Stokes 英訳「Cuchulainn's Death」（Revue Celtique 3, 1877, 175–185頁）",
+    "type": "primary",
+    "publishedPeriod": "写本は12世紀（『レンスターの書』）",
+    "url": "https://archive.org/details/revueceltique03pari",
+    "urlLabel": "Internet Archive（Revue Celtique 第3巻）",
+    "notes": "クー・フーリンが禁忌（ゲシュ）を破り、宿敵たちに討たれるまでを語る物語。Stokes は『レンスターの書』の本文を抄訳している。"
   }
 ]

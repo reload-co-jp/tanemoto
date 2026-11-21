@@ -1,0 +1,17 @@
+{
+  "id": "medb",
+  "slug": "medb",
+  "name": "メドヴ",
+  "reading": "めどぶ",
+  "originalName": "Medb",
+  "romanized": "Medb",
+  "alternativeNames": ["メイヴ", "メイブ"],
+  "type": "human",
+  "roles": ["コナハトの女王"],
+  "mythologyIds": ["celtic"],
+  "description": "コナハトの女王。夫アリルとの財産比べに勝つため、アルスターの名牛ドン・クアルンゲを奪おうと軍を起こし、『クアルンゲの牛捕り』の発端をつくった。のちにクー・フーリンの宿敵たちと結んで、彼を死に追いやる。",
+  "relatedFigureIds": ["cu-chulainn"],
+  "relatedStoryIds": ["death-of-cu-chulainn"],
+  "articleIds": [],
+  "sourceIds": ["tain-bo-cuailnge", "aided-con-culainn"]
+}

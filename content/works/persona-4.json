@@ -1,0 +1,14 @@
+{
+  "id": "persona-4",
+  "slug": "persona-4",
+  "title": "ペルソナ4",
+  "reading": "ぺるそなふぉー",
+  "type": "game",
+  "mediaTypes": ["anime", "manga"],
+  "author": "アトラス",
+  "period": "2008年（PlayStation 2用ゲーム。2012年に『ペルソナ4 ザ・ゴールデン』）",
+  "description": "田舎町・八十稲羽で起きる連続殺人事件の謎を、高校生たちがテレビの中の世界に入って追うロールプレイングゲーム。2011年にアニメ化。主人公たちが心の力「ペルソナ」として呼び出すイザナギ・スサノオ・アマテラス・ヤマトタケルなど、日本神話の神々が物語の核に置かれている。",
+  "mythologyIds": ["japanese"],
+  "articleIds": [],
+  "sourceIds": ["work-persona-4"]
+}

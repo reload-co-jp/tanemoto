@@ -1,0 +1,77 @@
+{
+  "id": "persona-4-yukiko-amagi",
+  "slug": "persona-4-yukiko-amagi",
+  "name": "天城雪子",
+  "reading": "あまぎゆきこ",
+  "alternativeNames": [],
+  "workId": "persona-4",
+  "description": {
+    "text": "主人公のクラスメート。全国的に有名な老舗旅館「天城屋旅館」の一人娘で、次期女将。",
+    "claimIds": ["p4-yukiko-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "amaterasu",
+      "label": "天照大御神",
+      "inWork": {
+        "text": "雪子のペルソナはコノハナサクヤから、アマテラス、さらにスメオオミカミへと進化する。",
+        "claimIds": ["p4-yukiko-work-persona"]
+      },
+      "inMyth": {
+        "text": "天照大御神は高天原を治める太陽の女神。弟スサノオの乱暴を恐れて天の石屋にこもり、世界は闇に包まれた。",
+        "claimIds": ["p4-yukiko-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "雪子の心を映したテレビの中の世界には、「生まれつき運命が決められて束縛されている」という苦悩が反映されている。閉じこもった石屋の戸を開いて外へ出ることで世界に光を取り戻す天照大御神の神話と、重ねて読むこともできる。",
+      "claimIds": ["p4-yukiko-work-castle", "p4-yukiko-myth", "p4-yukiko-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p4-yukiko-work",
+      "text": "天城雪子は主人公のクラスメートで、老舗高級旅館「天城屋旅館」の一人娘、次期女将。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-yukiko-work-persona",
+      "text": "天城雪子のペルソナは、コノハナサクヤ → アマテラス → スメオオミカミと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-yukiko-work-castle",
+      "text": "雪子の心を反映した世界は、「生まれつき運命が決められて束縛されている」という苦悩と、そこから誰かに連れ出してほしいという願望が歪められたものとして描かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-yukiko-myth",
+      "text": "天照大御神はスサノオの乱暴を恐れて天の石屋戸を閉じてこもり、高天原も葦原中国も暗闇になった。神々の計らいで戸を開いて出てくると、世界は再び明るくなった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "p4-yukiko-cmp",
+      "text": "雪子の人物像を岩屋戸の神話と重ねて読むことができる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品が岩屋戸神話を意図して設定したかは確認できないため、筆者の読みとして示す。"
+    }
+  ],
+  "sourceIds": ["work-persona-4", "kojiki"],
+  "articleIds": []
+}

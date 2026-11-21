@@ -1,0 +1,155 @@
+{
+  "id": "naruto-uchiha-itachi",
+  "slug": "naruto-uchiha-itachi",
+  "name": "うちはイタチ",
+  "reading": "うちはいたち",
+  "alternativeNames": [],
+  "workId": "naruto",
+  "description": {
+    "text": "木ノ葉隠れの抜け忍で、うちはサスケの兄。一族を滅ぼして里を抜け「暁」に加わったが、それは里とサスケを守るための任務だった。万華鏡写輪眼の開眼者で、作中最強クラスの忍の一人。",
+    "claimIds": ["n-itachi-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "tsukuyomi",
+      "label": "月読命（ツクヨミ）",
+      "inWork": {
+        "text": "イタチは万華鏡写輪眼の幻術「月読」を操る。その効力は、同じ万華鏡写輪眼をもつサスケの幻術とは比べものにならないほど強い。",
+        "claimIds": ["n-itachi-work-tsukuyomi"]
+      },
+      "inMyth": {
+        "text": "月読命は、イザナギが禊で右の目を洗ったときに生まれた神で、「夜の食国」を治めるよう命じられた。",
+        "claimIds": ["n-itachi-myth-tsukuyomi"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "amaterasu",
+      "label": "天照大御神",
+      "inWork": {
+        "text": "イタチは黒い炎を生む瞳術「天照」も使い、自分の死後に備えてサスケの目に「天照」を仕込んでいた。",
+        "claimIds": ["n-itachi-work-amaterasu"]
+      },
+      "inMyth": {
+        "text": "天照大御神は、イザナギが左の目を洗ったときに生まれた神で、高天原を治めるよう命じられた。",
+        "claimIds": ["n-itachi-myth-three"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "susanoo",
+      "label": "須佐之男命と十拳剣",
+      "inWork": {
+        "text": "イタチの「須佐能乎」は、実体をもたない霊剣・十拳剣を備える。サスケに取りついていた大蛇丸や、穢土転生された長門を、この剣で封印した。",
+        "claimIds": ["n-itachi-work-totsuka"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、須佐之男命が腰に帯びていた十拳剣でヤマタノオロチを斬り散らした。",
+        "claimIds": ["n-itachi-myth-orochi"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「月読」「天照」「須佐能乎」という三つの術の名は、イザナギの禊から同時に生まれた三貴子（天照大御神・月読命・須佐之男命）にそろって対応している。",
+      "claimIds": [
+        "n-itachi-myth-three",
+        "n-itachi-myth-tsukuyomi",
+        "n-itachi-cmp-three"
+      ]
+    },
+    {
+      "text": "十拳剣で「大蛇丸」を封じる場面は、スサノオが十拳剣で大蛇（ヤマタノオロチ）を斬った神話と重なる。ただし原典の十拳剣は特定の一振りの名ではなく、「拳十個分の長さの剣」を指す一般的な呼び方で、イザナギがカグツチを斬った剣も十拳剣と呼ばれている。",
+      "claimIds": [
+        "n-itachi-work-totsuka",
+        "n-itachi-myth-orochi",
+        "n-itachi-myth-kagutsuchi",
+        "n-itachi-cmp-orochi"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "n-itachi-work",
+      "text": "うちはイタチはサスケの兄で、一族を滅ぼして里を抜け暁に加わったが、それは里とサスケを守るための任務だった。万華鏡写輪眼の開眼者で、作中最強クラスの術者の一人。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「暁 (NARUTO)」の記述で確認。"
+    },
+    {
+      "id": "n-itachi-work-tsukuyomi",
+      "text": "イタチは万華鏡写輪眼による幻術「月読」を操り、その効力はサスケの幻術よりはるかに大きい。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。"
+    },
+    {
+      "id": "n-itachi-work-amaterasu",
+      "text": "イタチはトビとの遭遇に備え、口封じのためにサスケの目に「天照」を仕込んでいた。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「暁 (NARUTO)」の記述で確認。"
+    },
+    {
+      "id": "n-itachi-work-totsuka",
+      "text": "イタチは草薙の剣の一種で実体をもたない霊剣を所有し、サスケに取りついていた大蛇丸を封印した。また須佐能乎の十拳剣で長門を封印した。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「NARUTO -ナルト-」の記述で確認。「暁 (NARUTO)」も参照。"
+    },
+    {
+      "id": "n-itachi-myth-tsukuyomi",
+      "text": "イザナギが右の目を洗ったときに月読命が生まれ、イザナギは月読命に夜の食国を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊）"
+    },
+    {
+      "id": "n-itachi-myth-three",
+      "text": "イザナギが左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。イザナギは天照大御神に高天原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊）"
+    },
+    {
+      "id": "n-itachi-myth-orochi",
+      "text": "須佐之男命は八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "n-itachi-myth-kagutsuchi",
+      "text": "イザナギは腰に帯びた十拳剣で、火の神カグツチの首を斬った。その剣の名は天之尾羽張、またの名を伊都之尾羽張という。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（迦具土神の殺害）"
+    },
+    {
+      "id": "n-itachi-cmp-three",
+      "text": "イタチの三つの術の名は、禊から生まれた三貴子にそろって対応している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "n-itachi-cmp-orochi",
+      "text": "十拳剣で大蛇丸を封じる場面は、スサノオの大蛇退治と重ねて読める。原典の十拳剣は固有名ではなく長い剣を指す呼び方である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-naruto", "kojiki"],
+  "articleIds": []
+}

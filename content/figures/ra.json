@@ -1,0 +1,17 @@
+{
+  "id": "ra",
+  "slug": "ra",
+  "name": "ラー",
+  "reading": "らー",
+  "originalName": "Rꜥ",
+  "romanized": "Ra",
+  "alternativeNames": ["レー"],
+  "type": "god",
+  "roles": ["太陽", "創造", "神々の王"],
+  "mythologyIds": ["egyptian"],
+  "description": "古代エジプトの太陽神。昼は船に乗って天空を渡り、夜は冥界をめぐると考えられた。ヘリオポリスを中心に崇拝され、のちにアメン神と習合してアメン・ラーとなった。「天の牝牛の書」では、反逆した人類に罰を下したのち天へ去る神として描かれる。",
+  "relatedFigureIds": ["osiris", "bastet", "thoth"],
+  "relatedStoryIds": ["destruction-of-mankind"],
+  "articleIds": [],
+  "sourceIds": ["book-of-heavenly-cow", "herodotus-histories"]
+}

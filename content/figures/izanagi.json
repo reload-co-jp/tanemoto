@@ -1,0 +1,21 @@
+{
+  "id": "izanagi",
+  "slug": "izanagi",
+  "name": "イザナギ",
+  "reading": "いざなぎ",
+  "alternativeNames": ["伊耶那岐命", "伊弉諾尊"],
+  "type": "god",
+  "roles": ["国生み", "創造"],
+  "mythologyIds": ["japanese"],
+  "description": "イザナミとともに国土と多くの神々を生んだ男神。『古事記』では伊耶那岐命、『日本書紀』では伊弉諾尊と書く。亡き妻を追って黄泉国を訪れ、逃げ帰ったのち禊をして天照大御神・月読命・須佐之男命の「三貴子」を生んだ。",
+  "relatedFigureIds": [
+    "izanami",
+    "amaterasu",
+    "tsukuyomi",
+    "susanoo",
+    "kagutsuchi"
+  ],
+  "relatedStoryIds": ["izanagi-yomi", "birth-of-three-noble-children"],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

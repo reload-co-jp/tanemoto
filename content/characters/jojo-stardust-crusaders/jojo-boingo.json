@@ -1,0 +1,76 @@
+{
+  "id": "jojo-boingo",
+  "slug": "jojo-boingo",
+  "name": "ボインゴ",
+  "reading": "ぼいんご",
+  "alternativeNames": [],
+  "workId": "jojo-stardust-crusaders",
+  "description": {
+    "text": "オインゴボインゴ兄弟の弟。兄以外とは口もきけないほど内気だが、スタンド「トト神」の予言は絶対だという点だけは確信をもって語る。",
+    "claimIds": ["jj-boingo-work", "jj-boingo-work-nine"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "thoth",
+      "label": "トト（トート）",
+      "inWork": {
+        "text": "スタンド「トト神」は、本に浮かび上がる漫画を通して、ごく近い未来を予知する。漫画の内容は絶対に覆らない。名前の由来は書物の神トト。",
+        "claimIds": ["jj-boingo-work-thoth"]
+      },
+      "inMyth": {
+        "text": "トトは文字と知恵の神で、死者の裁判では心臓の計量の結果を書き記す神々の書記をつとめる。",
+        "claimIds": ["jj-boingo-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のトトは、裁きの結果を「書き記す」神。本に描かれた漫画が未来を確定させるという「トト神」の能力は、書かれたことが動かぬ記録になるという書記の神のイメージと結びつけて読める。",
+      "claimIds": ["jj-boingo-myth", "jj-boingo-work-thoth", "jj-boingo-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jj-boingo-work",
+      "text": "ボインゴはオインゴボインゴ兄弟の弟で、兄以外の人間とは口もきけないほど内気だが、トト神の予言は絶対であるという点だけは確信的に語る。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-boingo-work-nine",
+      "text": "エジプト上陸後の刺客は「エジプト9栄神」のカードの暗示をもつスタンド使いとされる。実際のエジプト神話に「9栄神」という区分はなく、作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-boingo-work-thoth",
+      "text": "スタンド「トト神」は本に描かれた漫画を通し、ごく近い未来を予知する。漫画の内容は絶対に覆らない。名前の由来は書物の神トート。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-boingo-myth",
+      "text": "「死者の書」第125章の挿絵では、トキの頭をもつトトが、心臓の計量の結果を記録している。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "jj-boingo-cmp",
+      "text": "書かれた漫画が未来を確定させる能力は、記録をつかさどる書記の神のイメージと結びつけて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-jojo-stardust-crusaders", "book-of-the-dead"],
+  "articleIds": []
+}

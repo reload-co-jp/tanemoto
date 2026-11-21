@@ -1,0 +1,15 @@
+{
+  "id": "izanami",
+  "slug": "izanami",
+  "name": "イザナミ",
+  "reading": "いざなみ",
+  "alternativeNames": ["伊耶那美命", "伊弉冉尊", "黄泉津大神"],
+  "type": "god",
+  "roles": ["国生み", "黄泉"],
+  "mythologyIds": ["japanese"],
+  "description": "イザナギとともに国土と神々を生んだ女神。『古事記』では伊耶那美命と書く。火の神カグツチを生んだために焼かれて亡くなり、黄泉国へ去った。追ってきたイザナギと黄泉比良坂で別れ、黄泉津大神と呼ばれるようになった。",
+  "relatedFigureIds": ["izanagi", "kagutsuchi"],
+  "relatedStoryIds": ["izanagi-yomi"],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

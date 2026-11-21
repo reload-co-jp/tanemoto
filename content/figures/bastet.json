@@ -1,0 +1,17 @@
+{
+  "id": "bastet",
+  "slug": "bastet",
+  "name": "バステト",
+  "reading": "ばすてと",
+  "originalName": "Bꜣstt",
+  "romanized": "Bastet",
+  "alternativeNames": ["バスト"],
+  "type": "god",
+  "roles": ["猫", "守護", "家庭"],
+  "mythologyIds": ["egyptian"],
+  "description": "猫、または猫の頭をもつ女性の姿で表される女神。下エジプトの町ブバスティスで崇拝された。ヘロドトスはギリシャのアルテミスにあたる女神とし、ブバスティスの祭りがエジプトで最も盛大だったこと、死んだ猫がブバスティスに運ばれてミイラにされたことを記している。",
+  "relatedFigureIds": ["ra"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["herodotus-histories"]
+}

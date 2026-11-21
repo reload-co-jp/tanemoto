@@ -1,0 +1,47 @@
+[
+  {
+    "id": "izanagi-yomi",
+    "title": "イザナギの黄泉国訪問",
+    "mythologyIds": ["japanese"],
+    "figureIds": ["izanagi", "izanami", "kagutsuchi"],
+    "summary": "火の神カグツチを生んで亡くなったイザナミを追い、イザナギは黄泉国を訪れる。「見ないで」という言いつけを破って火をともすと、妻の体には蛆がわき八柱の雷神が宿っていた。恥をかかされたイザナミは黄泉の軍勢に夫を追わせ、イザナギは黄泉比良坂を千引の石でふさいで逃れた。",
+    "sourceIds": ["kojiki"],
+    "sourceLocation": "『古事記』上巻（伊耶那美命の神避り〜黄泉国）"
+  },
+  {
+    "id": "birth-of-three-noble-children",
+    "title": "三貴子の誕生",
+    "mythologyIds": ["japanese"],
+    "figureIds": ["izanagi", "amaterasu", "tsukuyomi", "susanoo"],
+    "summary": "黄泉国から戻ったイザナギが筑紫の日向の阿波岐原で禊をすると、左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。イザナギは三柱にそれぞれ高天原・夜の食国・海原を治めるよう命じた。",
+    "sourceIds": ["kojiki"],
+    "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+  },
+  {
+    "id": "amano-iwato",
+    "title": "天の岩屋戸",
+    "mythologyIds": ["japanese"],
+    "figureIds": ["amaterasu", "susanoo"],
+    "summary": "スサノオの乱暴に恐れをなした天照大御神は天の石屋にこもり、高天原も地上も闇に包まれた。八百万の神々は相談し、鏡と玉を作って榊にかけ、天宇受売命が踊って神々が笑った。不思議に思って戸を少し開けた天照大御神を天手力男神が引き出し、世界に光が戻った。",
+    "sourceIds": ["kojiki"],
+    "sourceLocation": "『古事記』上巻（天の石屋戸）"
+  },
+  {
+    "id": "yamata-no-orochi-slaying",
+    "title": "ヤマタノオロチ退治",
+    "mythologyIds": ["japanese"],
+    "figureIds": ["susanoo", "yamata-no-orochi", "kushinadahime"],
+    "summary": "高天原を追われて出雲の肥の河上に降りたスサノオは、ヤマタノオロチに娘を食われ続けてきた老夫婦に出会う。末娘クシナダヒメを櫛に変えて髪に挿し、八塩折の酒で大蛇を酔わせて十拳剣で斬った。中の尾から出てきた大刀が草那芸之大刀（草薙剣）で、スサノオはこれを天照大御神に献上した。",
+    "sourceIds": ["kojiki", "nihon-shoki"],
+    "sourceLocation": "『古事記』上巻（八俣の大蛇）、『日本書紀』神代上 第八段"
+  },
+  {
+    "id": "yamato-takeru-kusanagi",
+    "title": "ヤマトタケルと草薙剣",
+    "mythologyIds": ["japanese"],
+    "figureIds": ["yamato-takeru"],
+    "summary": "東国への遠征を命じられたヤマトタケルは、伊勢で叔母ヤマトヒメから草那芸剣と袋を授かる。相武国で国造にだまされて野に火を放たれると、剣で草を刈り払い、袋の中の火打石で向かい火をつけて難を逃れた。その地は焼津と呼ばれるようになった。",
+    "sourceIds": ["kojiki"],
+    "sourceLocation": "『古事記』中巻（景行天皇・倭建命の東征）"
+  }
+]

@@ -1,0 +1,258 @@
+{
+  "id": "serpent-slayers",
+  "slug": "serpent-slayers",
+  "title": "大蛇退治の神話を比べる——スサノオとヤマタノオロチ、ヘラクレスとヒュドラ、トールとミズガルズの大蛇",
+  "shortTitle": "大蛇退治の神話を比べる",
+  "eyecatchText": "大蛇退治",
+  "description": "八つの頭のヤマタノオロチ、九つの頭のヒュドラ、世界を取り巻くミズガルズの大蛇。日本・ギリシャ・北欧の神話で神や英雄が大蛇に挑む物語を原典で読み比べ、退治の方法や「大蛇から得たもの」の共通点と違いを整理します。",
+  "lead": "巨大な蛇や竜を倒す物語は、世界中の神話に見られます。日本のスサノオ、ギリシャのヘラクレス、北欧のトール。三柱の神と英雄が、それぞれどのように大蛇に挑み、何を得て、あるいは失ったのか。原典の記述を並べて比べます。",
+  "category": "comparison",
+  "tags": [
+    "ヤマタノオロチ",
+    "ヒュドラ",
+    "ミズガルズの大蛇",
+    "スサノオ",
+    "ヘラクレス",
+    "トール",
+    "比較神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["susanoo", "yamata-no-orochi", "heracles", "thor"],
+  "mythologyIds": ["japanese", "greek", "norse"],
+  "storyIds": ["yamata-no-orochi-slaying", "ragnarok"],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": ["dragon-slaying", "monsters", "heroic-quest"],
+  "sourceIds": ["kojiki", "apollodorus-library", "snorri-edda", "poetic-edda"],
+  "relatedArticleIds": ["yamata-no-orochi", "heracles", "thor"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三つの大蛇",
+      "anchor": "overview"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ヤマタノオロチ（日本）：八つの頭と八つの尾。体に木が生え、八つの谷と峰にわたる",
+        "レルネのヒュドラ（ギリシャ）：九つの頭のうち八つは死すべきもの、中央の一つは不死",
+        "ミズガルズの大蛇（北欧）：ロキの子で、世界を取り巻く海に横たわる"
+      ],
+      "claimIds": ["ss-orochi-shape", "ss-hydra-shape", "ss-serpent"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "スサノオとヤマタノオロチ",
+      "anchor": "susanoo"
+    },
+    {
+      "type": "paragraph",
+      "text": "出雲に降ったスサノオは、八つの頭と八つの尾をもつヤマタノオロチに毎年娘を食われてきた老夫婦に出会います。スサノオは娘クシナダヒメを櫛に変えて髪に挿し、八つの門ごとに強い酒「八塩折の酒」を置かせました。大蛇は八つの頭を酒船に垂れ入れて飲み、酔って眠ったところを十拳剣で斬り散らされます。中の尾からは大刀が出てきて、これが草薙剣となりました。",
+      "claimIds": ["ss-orochi-shape", "ss-orochi-slay"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ヘラクレスとヒュドラ",
+      "anchor": "heracles"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘラクレスの第二の功業は、レルネの沼に棲むヒュドラ退治でした。ヒュドラには九つの頭があり、八つは死すべきもの、中央の一つは不死でした。棍棒で頭を砕いても、一つ砕くたびに二つの頭が生えてきます。",
+      "claimIds": ["ss-hydra-shape", "ss-hydra-fight"]
+    },
+    {
+      "type": "paragraph",
+      "text": "そこでヘラクレスは甥のイオラオスに助けを求めました。イオラオスが近くの森に火をつけ、燃える木で頭の切り口を焼くと、頭はもう生えてこなくなります。ヘラクレスは最後に不死の頭を切り落として道ばたに埋め、重い岩をのせました。そしてヒュドラの体を裂き、その胆汁に矢を浸しました。",
+      "claimIds": ["ss-hydra-iolaus"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "功業に数えられなかった理由",
+      "text": "エウリュステウスは、ヘラクレスが一人ではなくイオラオスの助けを借りて勝ったことを理由に、この功業を十の功業の一つとは認めなかったといいます。",
+      "claimIds": ["ss-hydra-count"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "トールとミズガルズの大蛇",
+      "anchor": "thor"
+    },
+    {
+      "type": "paragraph",
+      "text": "北欧神話のトールは、巨人ヒュミルと海に出て、牛の頭を餌にミズガルズの大蛇を釣り上げます。しかし槌を振り上げた瞬間、恐れたヒュミルが釣り糸を切ってしまい、大蛇は海に沈みました。",
+      "claimIds": ["ss-thor-fishing"]
+    },
+    {
+      "type": "paragraph",
+      "text": "決着はラグナロクでつきます。トールはついに大蛇を倒しますが、その吹きかけた毒を浴び、九歩進んだところで倒れて死にます。",
+      "claimIds": ["ss-thor-ragnarok", "ss-thor-voluspa"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "比べてみると",
+      "anchor": "compare"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "多頭の大蛇と「助け」",
+      "anchor": "help"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヤマタノオロチとヒュドラは、どちらも複数の頭をもつ大蛇です。そして、どちらの退治でも英雄は正面からの力押しだけに頼っていません。スサノオは酒で大蛇を酔わせ、ヘラクレスはイオラオスの火の助けを借りて、再生する頭を封じました。",
+      "claimIds": ["ss-orochi-slay", "ss-hydra-iolaus", "ss-cmp-help"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "大蛇から得たもの",
+      "anchor": "gain"
+    },
+    {
+      "type": "paragraph",
+      "text": "スサノオは大蛇の尾から草薙剣を得、ヘラクレスは大蛇の胆汁に浸した矢を得ました。倒した怪物の体から、のちの物語で重要な役割を果たす武器が生まれる点は、二つの神話の興味深い共通点です。",
+      "claimIds": ["ss-orochi-slay", "ss-hydra-iolaus", "ss-cmp-gain"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "相討ちの結末",
+      "anchor": "fate"
+    },
+    {
+      "type": "paragraph",
+      "text": "一方トールの物語は、大蛇を倒した神自身も毒で倒れるという相討ちの結末を迎えます。英雄の勝利で終わる前の二つとは異なり、世界の終末を語るラグナロクの一場面として描かれている点が大きな違いです。",
+      "claimIds": ["ss-thor-ragnarok", "ss-cmp-fate"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ヤマタノオロチは八つ、ヒュドラは九つの頭をもつ多頭の大蛇",
+        "スサノオは酒で、ヘラクレスはイオラオスの火の助けで大蛇を退治した",
+        "スサノオは草薙剣を、ヘラクレスは毒矢を、倒した大蛇の体から得た",
+        "トールはミズガルズの大蛇を倒すが、自らも毒を浴びて倒れる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ss-orochi-shape",
+      "text": "八俣遠呂智は一つの体に八つの頭と八つの尾があり、体には苔と檜・杉が生え、長さは八つの谷と八つの峰にわたる。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "ss-orochi-slay",
+      "text": "須佐之男命は八塩折の酒を満たした酒船を八つの門ごとに置かせ、酔って寝た大蛇を十拳剣で斬り散らした。中の尾から出た大刀が草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "ss-hydra-shape",
+      "text": "レルネの沼に育ったヒュドラは巨大な体に九つの頭をもち、八つは死すべきもの、中央の一つは不死であった。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.2"
+    },
+    {
+      "id": "ss-hydra-fight",
+      "text": "ヘラクレスが棍棒で頭を砕いても、一つ砕くと二つの頭が生えてきた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.2"
+    },
+    {
+      "id": "ss-hydra-iolaus",
+      "text": "イオラオスが森の木に火をつけ、燃え木で頭の根元を焼いて再生を防いだ。ヘラクレスは不死の頭を切り落として埋め、重い岩をのせた。ヒュドラの体を裂き、その胆汁に矢を浸した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.2"
+    },
+    {
+      "id": "ss-hydra-count",
+      "text": "エウリュステウスは、ヘラクレスがイオラオスの助けを借りたため、この功業を十の功業に数えないと言った。",
+      "classification": "variant",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.2"
+    },
+    {
+      "id": "ss-serpent",
+      "text": "ミズガルズの大蛇はロキと女巨人アングルボザの子で、オーディンによって海に投げ込まれ、陸地を取り巻くほどに大きくなった。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 34章"
+    },
+    {
+      "id": "ss-thor-fishing",
+      "text": "トールは巨人ヒュミルと海に出て、牛の頭を餌にミズガルズの大蛇を釣り上げたが、槌を振り上げたときヒュミルが釣り糸を切り、大蛇は海に沈んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 48章"
+    },
+    {
+      "id": "ss-thor-ragnarok",
+      "text": "ラグナロクでトールはミズガルズの大蛇を倒すが、その毒を浴びて九歩進んで倒れる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ss-thor-voluspa",
+      "text": "トールは大蛇を打ち、九歩進んで大蛇に倒される。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「巫女の予言」56節"
+    },
+    {
+      "id": "ss-cmp-help",
+      "text": "ヤマタノオロチ退治とヒュドラ退治は、どちらも力押しではなく酒や火の助けを用いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-cmp-gain",
+      "text": "倒した大蛇の体から、のちに重要な武器（草薙剣、毒矢）が生まれる点が共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ss-cmp-fate",
+      "text": "トールと大蛇の相討ちは、終末を語るラグナロクの一場面として描かれる点で前の二つと異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

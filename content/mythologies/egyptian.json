@@ -1,0 +1,43 @@
+{
+  "id": "egyptian",
+  "slug": "egyptian",
+  "name": "エジプト神話",
+  "reading": "えじぷとしんわ",
+  "region": "古代エジプト（ナイル川流域）",
+  "period": "資料は紀元前3千年紀のピラミッド・テキストから、ギリシャ・ローマ時代の著述まで",
+  "description": "太陽神ラー、冥界の王オシリス、その妻イシスと息子ホルス、オシリスを殺した弟セト、ミイラづくりの神アヌビスなど、動物の頭をもつ姿でも知られる古代エジプトの神々の物語。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "エジプト神話には、ギリシャ神話のヘシオドスや北欧神話のエッダにあたる「まとまった神話の本」がありません。神々の物語は、王墓や神殿の壁に刻まれた呪文、棺や副葬品に記された「死者の書」、パピルスに書かれた物語などに断片的に残されています。"
+    },
+    {
+      "type": "paragraph",
+      "text": "なかでも有名なオシリス神話を一続きの物語として伝えているのは、紀元後100年頃のギリシャ人プルタルコスの『イシスとオシリスについて』です。ただしこれはギリシャ人の目を通した記録で、神々の名もギリシャ風に置き換えられています。トモタネでは、エジプト人自身が残した資料と、ギリシャ人による記録を区別して紹介します。概要は[エジプト神話とは？](/articles/egyptian-mythology-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": [
+    "ra",
+    "osiris",
+    "isis",
+    "horus",
+    "set",
+    "anubis",
+    "thoth",
+    "bastet"
+  ],
+  "storyIds": [
+    "death-of-osiris",
+    "contendings-of-horus-and-set",
+    "weighing-of-the-heart",
+    "destruction-of-mankind"
+  ],
+  "sourceIds": [
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "book-of-the-dead",
+    "contendings-horus-seth",
+    "book-of-heavenly-cow"
+  ],
+  "order": 4
+}

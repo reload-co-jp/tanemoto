@@ -1,0 +1,157 @@
+{
+  "id": "fate-stay-night-lancer",
+  "slug": "fate-stay-night-lancer",
+  "name": "ランサー",
+  "reading": "らんさー",
+  "alternativeNames": ["クー・フーリン"],
+  "workId": "fate-stay-night",
+  "description": {
+    "text": "槍兵のサーヴァント。紅い魔槍を持ち、高い瞬発力と白兵戦の能力を備える。真名はケルト神話の大英雄クー・フーリン。死力を尽くした戦いを求めて召喚に応じた。",
+    "claimIds": ["fsn-lancer-work"]
+  },
+  "nameOrigin": {
+    "text": "真名はアイルランドの英雄クー・フーリン。「クランの猛犬」を意味する名で、少年時代に鍛冶師クランの番犬を殺し、代わりに自分が番犬になると申し出たことに由来する。",
+    "claimIds": ["fsn-lancer-work", "fsn-lancer-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "weapon",
+      "figureId": "cu-chulainn",
+      "label": "ゲイ・ボルグ",
+      "inWork": {
+        "text": "宝具「刺し穿つ死棘の槍（ゲイ・ボルク）」は、「敵の心臓に命中している」という結果を先に作ってから攻撃を放つ、因果を逆転させる呪いの槍とされる。",
+        "claimIds": ["fsn-lancer-work-gaebolg"]
+      },
+      "inMyth": {
+        "text": "『クアルンゲの牛捕り』では、ゲイ・ボルグはクー・フーリンだけがもつ技とされる。乳兄弟フェル・ディアドとの一騎討ちで、御者が流れに放ったこの槍を足の指でつかんで投げると、一つの穂先で入った槍が体内で二十四に分かれ、フェル・ディアドは倒れた。",
+        "claimIds": ["fsn-lancer-myth-unique", "fsn-lancer-myth-ferdiad"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "scathach",
+      "label": "師スカアハ",
+      "inWork": {
+        "text": "ランサーは18の原初のルーンを習得しており、魔術にも秀でている。",
+        "claimIds": ["fsn-lancer-work-rune"]
+      },
+      "inMyth": {
+        "text": "クー・フーリンとフェル・ディアドは、ともに女戦士スカアハのもとで戦いの技を学んだ。",
+        "claimIds": ["fsn-lancer-myth-scathach"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のゲイ・ボルグは「投げれば体内で穂先が二十四に分かれる」恐るべき槍として語られるが、「因果を逆転させて必ず心臓を貫く」という性質は作品独自の設定である。必殺の槍というイメージを、作品が独自に解釈して発展させたものといえる。",
+      "claimIds": [
+        "fsn-lancer-myth-ferdiad",
+        "fsn-lancer-work-gaebolg",
+        "fsn-lancer-cmp-spear"
+      ]
+    },
+    {
+      "text": "原典のクー・フーリンは、禁忌（ゲシュ）を破ったことで力を失い、最期は立ったまま死ぬために石柱に体を結びつけた。作品のランサーが「戦闘続行」のスキルをもち、生き残ることに特化したサーヴァントとされているのは、倒れるまで戦い続けた英雄の最期と重ねて読める。",
+      "claimIds": [
+        "fsn-lancer-myth-death",
+        "fsn-lancer-work-survive",
+        "fsn-lancer-cmp-death"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsn-lancer-work",
+      "text": "ランサーは槍兵のサーヴァントで、紅い魔槍を持つ。真名はケルト神話の大英雄でアイルランドの光の皇子クー・フーリン。死力を尽くした戦いを求めて召喚に応じた。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-lancer-work-gaebolg",
+      "text": "宝具「刺し穿つ死棘の槍（ゲイ・ボルク）」は、呪いの槍で因果を逆転し、「敵の心臓に命中している」という結果を作ったのちに攻撃を放つ。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-lancer-work-rune",
+      "text": "ランサーは18の原初のルーンを習得しており、魔術にも秀でている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-lancer-work-survive",
+      "text": "ランサーは「戦闘続行」スキルの恩恵により、勝つよりも生き残ることに特化したサーヴァントとも称される。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-lancer-myth-name",
+      "text": "少年は鍛冶師クランの番犬を殺し、代わりの犬が育つまで自分が番犬になると申し出た。カトバドは「それならお前の名はクー・フーリン（クランの猛犬）だ」と言った。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 140–142頁"
+    },
+    {
+      "id": "fsn-lancer-myth-unique",
+      "text": "クー・フーリンには、フェル・ディアドのもたない技はゲイ・ボルグ以外になかった。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 196頁"
+    },
+    {
+      "id": "fsn-lancer-myth-ferdiad",
+      "text": "御者が「ゲイ・ボルグに気をつけろ」と叫んで流れに放った槍を、クー・フーリンは足の指でつかんでフェル・ディアドに投げた。一つの穂先で入った槍は体内で二十四に分かれた。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 207頁"
+    },
+    {
+      "id": "fsn-lancer-myth-scathach",
+      "text": "クー・フーリンとフェル・ディアドは、ともにスカアハのもとで同じ戦いの技を学んだ。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 174頁・207頁"
+    },
+    {
+      "id": "fsn-lancer-myth-death",
+      "text": "クー・フーリンには、かまどに立ち寄ってその食べ物を口にしないことと、自分の名のもとになった犬の肉を食べないことという禁忌があった。老婆に責められて犬の肉を口にし、半身の力を失った。致命傷を負うと、座ったり横たわったりせず立ったまま死ぬため、石柱に胸帯を巻きつけて体を結んだ。",
+      "classification": "fact",
+      "sourceIds": ["aided-con-culainn"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「クー・フーリンの最期」Stokes 英訳 Revue Celtique 3, 176–177頁ほか"
+    },
+    {
+      "id": "fsn-lancer-cmp-spear",
+      "text": "因果を逆転させて必ず心臓を貫くという性質は作品独自の設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-lancer-cmp-death",
+      "text": "戦闘続行のスキルは、倒れるまで戦い続けた英雄の最期と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、筆者の読みとして示す。"
+    }
+  ],
+  "sourceIds": [
+    "work-fate-stay-night",
+    "tain-bo-cuailnge",
+    "aided-con-culainn"
+  ],
+  "articleIds": []
+}

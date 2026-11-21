@@ -1,0 +1,17 @@
+{
+  "id": "anubis",
+  "slug": "anubis",
+  "name": "アヌビス",
+  "reading": "あぬびす",
+  "originalName": "Jnpw",
+  "romanized": "Anubis",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["ミイラづくり", "墓の守護", "死者の導き手"],
+  "mythologyIds": ["egyptian"],
+  "description": "ジャッカル（イヌ科の動物）の頭をもつ姿で表される、墓と死者の守護神。ミイラづくりの神として「防腐処理の場にいる者」とも呼ばれた。「死者の書」では死者の心臓を天秤にかける儀式に立ち会う。プルタルコスはオシリスとネフティスの子とする伝承を伝える。",
+  "relatedFigureIds": ["osiris", "isis", "thoth"],
+  "relatedStoryIds": ["death-of-osiris", "weighing-of-the-heart"],
+  "articleIds": [],
+  "sourceIds": ["plutarch-isis-osiris", "book-of-the-dead"]
+}

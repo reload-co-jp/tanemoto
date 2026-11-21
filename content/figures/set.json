@@ -1,0 +1,21 @@
+{
+  "id": "set",
+  "slug": "set",
+  "name": "セト",
+  "reading": "せと",
+  "originalName": "Stẖ",
+  "romanized": "Set",
+  "alternativeNames": ["テュポン"],
+  "type": "god",
+  "roles": ["砂漠", "嵐", "混沌"],
+  "mythologyIds": ["egyptian"],
+  "description": "オシリスの弟で、兄を謀殺して王位を奪った神。プルタルコスはギリシャの怪物テュポンの名で呼ぶ。王位を継ぐべきホルスと長く争った末に敗れた。ヘロドトスも、ホルスがテュポン（セト）を退けてエジプト最後の神の王になったと伝えている。",
+  "relatedFigureIds": ["osiris", "isis", "horus"],
+  "relatedStoryIds": ["death-of-osiris", "contendings-of-horus-and-set"],
+  "articleIds": [],
+  "sourceIds": [
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "contendings-horus-seth"
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "id": "naruto-japanese-mythology",
+  "slug": "naruto-japanese-mythology",
+  "title": "『NARUTO』うちは一族の術の元ネタ｜天照・月読・須佐能乎・加具土命と日本神話",
+  "shortTitle": "『NARUTO』うちは一族の術の元ネタ",
+  "eyecatchText": "NARUTO",
+  "description": "うちはイタチとサスケの万華鏡写輪眼の術「天照」「月読」「須佐能乎」「加具土命」、そして十拳剣と草薙の剣。その名の由来となった日本神話の三貴子と火の神カグツチを、『古事記』『日本書紀』の記述から解説します。",
+  "lead": "『NARUTO -ナルト-』で、うちは一族の万華鏡写輪眼に宿る術の名前は、日本神話の神々の名そのものです。イタチの「月読」、サスケの「天照」と「加具土命」、二人が操る「須佐能乎」。それぞれの神は、原典でどのように語られているのでしょうか。",
+  "category": "character-origins",
+  "tags": [
+    "NARUTO",
+    "うちはイタチ",
+    "うちはサスケ",
+    "天照",
+    "月読",
+    "須佐能乎",
+    "日本神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "amaterasu",
+    "tsukuyomi",
+    "susanoo",
+    "kagutsuchi",
+    "izanagi",
+    "izanami",
+    "yamata-no-orochi",
+    "yamato-takeru"
+  ],
+  "mythologyIds": ["japanese"],
+  "storyIds": [
+    "birth-of-three-noble-children",
+    "izanagi-yomi",
+    "yamata-no-orochi-slaying",
+    "yamato-takeru-kusanagi"
+  ],
+  "workIds": ["naruto"],
+  "characterIds": ["naruto-uchiha-itachi", "naruto-uchiha-sasuke"],
+  "topicIds": ["divine-items"],
+  "sourceIds": ["work-naruto", "kojiki", "nihon-shoki"],
+  "relatedArticleIds": [
+    "yamata-no-orochi",
+    "amaterasu",
+    "japanese-mythology-overview"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "元ネタ早見表",
+      "anchor": "overview"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "天照（サスケ・イタチ）→ 天照大御神：イザナギの左目から生まれた太陽の女神",
+        "月読（イタチ）→ 月読命：イザナギの右目から生まれ、夜を治める神",
+        "須佐能乎（サスケ・イタチ）→ 須佐之男命：イザナギの鼻から生まれ、ヤマタノオロチを退治した神",
+        "炎遁・加具土命（サスケ）→ 火之迦具土神：生まれたときに母イザナミを焼いた火の神",
+        "十拳剣・草薙の剣 → スサノオが大蛇を斬った剣と、大蛇の尾から出た剣"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三つの術と「三貴子」",
+      "anchor": "three"
+    },
+    {
+      "type": "paragraph",
+      "text": "『NARUTO』のうちはイタチは、万華鏡写輪眼の幻術「月読」、黒炎の瞳術「天照」、そして巨大な霊体「須佐能乎」を使います。弟のサスケも「天照」と「須佐能乎」を身につけ、右目には黒炎を制御する「炎遁・加具土命」が宿りました。",
+      "claimIds": ["nj-work-itachi", "nj-work-sasuke"]
+    },
+    {
+      "type": "paragraph",
+      "text": "これらの名の元となった三柱の神は、『古事記』では同じ場面で同時に生まれます。黄泉国から戻ったイザナギが禊をしたとき、左の目を洗うと天照大御神、右の目を洗うと月読命、鼻を洗うと建速須佐之男命が生まれました。イザナギはこの三柱を「三貴子」と呼んで喜び、それぞれに高天原・夜の食国・海原を治めるよう命じます。",
+      "claimIds": ["nj-three", "nj-rule"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "左目の天照",
+      "text": "サスケの「天照」は左目に宿るとされています。天照大御神がイザナギの左目から生まれたという『古事記』の記述と一致する点は興味深いところです。",
+      "claimIds": ["nj-work-sasuke", "nj-three", "nj-cmp-left"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "月読——物語の少ない月の神",
+      "anchor": "tsukuyomi"
+    },
+    {
+      "type": "paragraph",
+      "text": "イタチの「月読」は、相手を幻術の世界に閉じ込める術として描かれ、その効力はサスケの幻術とは比べものにならないほど強いとされます。",
+      "claimIds": ["nj-work-itachi"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ところが原典の月読命は、三貴子のなかで最も物語の少ない神です。『古事記』は誕生と「夜の食国を治めよ」という命令を記すだけで、その後まったく登場しません。",
+      "claimIds": ["nj-rule"]
+    },
+    {
+      "type": "paragraph",
+      "text": "唯一まとまった物語を伝えるのは、『日本書紀』の一書です。天照大神の命で葦原中国の保食神を訪ねた月夜見尊は、保食神が口から飯や魚や獣を出してもてなしたのを「汚らわしい」と怒り、剣で斬り殺してしまいます。これを聞いた天照大神は「お前は悪い神だ、もう会いたくない」と言い、それ以来、日と月は一日一夜を隔てて住むようになったといいます。",
+      "claimIds": ["nj-ukemochi"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "昼と夜が分かれた由来",
+      "text": "この話は『日本書紀』神代上第五段の十一番目の一書（一書第十一）だけに見える異伝です。『古事記』では、似た話がスサノオと大気都比売の物語として語られます。",
+      "claimIds": ["nj-ukemochi", "nj-ogetsu"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "須佐能乎と十拳剣",
+      "anchor": "susanoo"
+    },
+    {
+      "type": "paragraph",
+      "text": "須佐能乎は、使い手の周囲に巨大な武者のような霊体を出現させる術です。サスケの須佐能乎は肋骨だけの姿から始まり、戦いを経て「完成体須佐能乎」へと進化しました。",
+      "claimIds": ["nj-work-susanoo"]
+    },
+    {
+      "type": "paragraph",
+      "text": "イタチの須佐能乎は、実体をもたない霊剣・十拳剣を備えています。作中ではこの剣は草薙の剣の一種とされ、サスケに取りついていた大蛇丸を封印し、穢土転生された長門も封印しました。",
+      "claimIds": ["nj-work-totsuka"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典の須佐之男命は、出雲で八つの頭をもつ大蛇ヤマタノオロチを、八塩折の酒で酔わせて十拳剣で斬り散らしました。十拳剣で「大蛇」の名をもつ忍を封じる場面は、この神話と重ねて読むことができます。",
+      "claimIds": ["nj-orochi", "nj-cmp-orochi"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "加具土命——母を焼いた火の神",
+      "anchor": "kagutsuchi"
+    },
+    {
+      "type": "paragraph",
+      "text": "サスケの右目に宿る「炎遁・加具土命」は、天照の黒炎を制御する術とされています。",
+      "claimIds": ["nj-work-sasuke"]
+    },
+    {
+      "type": "paragraph",
+      "text": "元となった火之迦具土神は、イザナギとイザナミが最後に生んだ火の神です。イザナミはこの子を生んだために焼かれて病み、亡くなってしまいました。嘆いたイザナギは腰の十拳剣でカグツチの首を斬り、その剣についた血から建御雷之男神などの神々が生まれます。",
+      "claimIds": ["nj-kagutsuchi", "nj-kagutsuchi-slain"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "制御する火と、制御できない火",
+      "text": "原典のカグツチは、生まれただけで母を焼いてしまう、人の手に負えない火の象徴として描かれます。作品の「加具土命」が黒炎を制御する術とされているのは、原典とは対照的な使い方といえます。",
+      "claimIds": ["nj-kagutsuchi", "nj-cmp-kagutsuchi"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "サスケの「建御雷神」",
+      "text": "サスケの雷遁の術には「建御雷神」という名のものもあります。原典の建御雷之男神は、イザナギがカグツチを斬った剣の根元についた血から生まれた神です。",
+      "claimIds": ["nj-work-takemikazuchi", "nj-kagutsuchi-slain"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "草薙の剣",
+      "anchor": "kusanagi"
+    },
+    {
+      "type": "paragraph",
+      "text": "作中の草薙の剣は、いくつか存在する刀の総称です。大蛇丸が所有するものは頑強な日本刀で、第二部のサスケはそれとは拵えの異なる直刀の草薙の剣を使います。",
+      "claimIds": ["nj-work-kusanagi"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典の草薙剣は、スサノオが斬ったヤマタノオロチの中の尾から出てきた大刀で、天照大御神に献上されたのち、ヤマトタケルが叔母ヤマトヒメから授かりました。ヤマトタケルは相武国で野火に囲まれた際、この剣で草を刈り払って難を逃れています。「大蛇」の名をもつ大蛇丸がこの剣を持っていることは、大蛇の尾から剣が出てきたという神話を思い起こさせます。",
+      "claimIds": ["nj-kusanagi", "nj-yamatotakeru", "nj-cmp-kusanagi"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "「天照」「月読」「須佐能乎」は、イザナギの禊から同時に生まれた三貴子の名に由来する",
+        "サスケの「天照」が左目に宿るのは、天照大御神が左目から生まれた記述と一致する",
+        "「加具土命」の元は、母イザナミを焼いて死なせた火の神カグツチ",
+        "十拳剣と草薙剣は、スサノオのヤマタノオロチ退治にまつわる剣"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "nj-work-itachi",
+      "text": "うちはイタチは万華鏡写輪眼の幻術「月読」を操り、その効力はサスケの幻術よりはるかに大きい。また瞳術「天照」を使い、須佐能乎を発現させる。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。「暁 (NARUTO)」も参照。"
+    },
+    {
+      "id": "nj-work-sasuke",
+      "text": "サスケの万華鏡写輪眼には、左目に強力無比な黒炎を発生させる瞳術「天照」、右目に黒炎を制御する「炎遁・加具土命」が覚醒し、第三の力「須佐能乎」も身につけた。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。"
+    },
+    {
+      "id": "nj-work-susanoo",
+      "text": "サスケの須佐能乎は当初は肋骨の形状しか出せなかったが、戦いを経て進化し、マダラ戦で「完成体須佐能乎」を顕現させた。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。"
+    },
+    {
+      "id": "nj-work-totsuka",
+      "text": "イタチは草薙の剣の一種で実体をもたない霊剣を所有し、サスケに取りついていた大蛇丸を封印した。須佐能乎の十拳剣で長門も封印している。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「NARUTO -ナルト-」の記述で確認。「暁 (NARUTO)」も参照。"
+    },
+    {
+      "id": "nj-work-kusanagi",
+      "text": "作中の草薙の剣はいくつか存在する刀の総称で、大蛇丸の所有するものは頑強な日本刀、サスケの剣は鞘や拵えが異なる直刀である。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「NARUTO -ナルト-」の記述で確認。"
+    },
+    {
+      "id": "nj-work-takemikazuchi",
+      "text": "サスケの雷遁の術には「建御雷神」がある。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。"
+    },
+    {
+      "id": "nj-three",
+      "text": "伊耶那岐命が禊で左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊）"
+    },
+    {
+      "id": "nj-rule",
+      "text": "伊耶那岐命は「生み生みて、生みの終に三はしらの貴き子を得つ」と喜び、天照大御神に高天原、月読命に夜の食国、建速須佐之男命に海原を治めるよう命じた。『古事記』に月読命の事績はこれ以外に見えない。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の分治）"
+    },
+    {
+      "id": "nj-ukemochi",
+      "text": "天照大神の命で葦原中国の保食神のもとに降った月夜見尊は、保食神が口から飯・魚・獣を出してもてなしたのを汚らわしいと怒り、剣で撃ち殺した。天照大神は怒って「汝は悪しき神なり、相見じ」と言い、月夜見尊と一日一夜を隔てて住むようになった。",
+      "classification": "variant",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』神代上 第五段 一書第十一"
+    },
+    {
+      "id": "nj-ogetsu",
+      "text": "『古事記』では、須佐之男命が鼻・口・尻から食物を出してもてなした大気都比売神を汚らわしいとして殺し、その体から蚕や稲などの種が生じたと語る。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（大気都比売神の殺害）"
+    },
+    {
+      "id": "nj-orochi",
+      "text": "須佐之男命は八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "nj-kagutsuchi",
+      "text": "伊耶那美命は火之夜藝速男神（またの名を火之炫毗古神・火之迦具土神）を生んだために陰部を焼かれて病み、のちに亡くなった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（神生み〜伊耶那美命の神避り）"
+    },
+    {
+      "id": "nj-kagutsuchi-slain",
+      "text": "伊耶那岐命は腰の十拳剣で迦具土神の首を斬った。剣の先や根元についた血から石拆神、建御雷之男神などが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（迦具土神の殺害）"
+    },
+    {
+      "id": "nj-kusanagi",
+      "text": "須佐之男命は大蛇の中の尾から出た大刀を天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "nj-yamatotakeru",
+      "text": "倭建命は伊勢で倭比売命から草那芸剣を授かり、相武国で野火に囲まれると剣で草を刈り払って逃れた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の東征）"
+    },
+    {
+      "id": "nj-cmp-left",
+      "text": "サスケの「天照」が左目に宿る設定は、天照大御神が左目から生まれた記述と一致する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、一致の指摘にとどめる。"
+    },
+    {
+      "id": "nj-cmp-orochi",
+      "text": "十拳剣で大蛇丸を封じる場面は、スサノオの大蛇退治と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "nj-cmp-kagutsuchi",
+      "text": "母を焼く制御できない火の神と、黒炎を制御する術という位置づけは対照的である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "nj-cmp-kusanagi",
+      "text": "大蛇丸が草薙の剣を持つことは、大蛇の尾から剣が出た神話を思い起こさせる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ]
+}

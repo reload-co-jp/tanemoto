@@ -1,0 +1,214 @@
+{
+  "id": "japanese-mythology-overview",
+  "slug": "japanese-mythology-overview",
+  "title": "日本神話とは？『古事記』と『日本書紀』の違いと神々の物語をわかりやすく解説",
+  "shortTitle": "日本神話とは？",
+  "eyecatchText": "日本神話",
+  "description": "日本神話の主な資料『古事記』と『日本書紀』はどう違うのか。成立の経緯、書き方の違い、『日本書紀』の「一書」とは何かを整理し、国生みからヤマタノオロチ退治までの主な神話の流れを原典にもとづいて紹介します。",
+  "lead": "アニメやゲームでおなじみのアマテラス、ツクヨミ、スサノオ、ヤマタノオロチ。その出典として必ず名前が挙がるのが『古事記』と『日本書紀』です。二つの書物はどう違い、神話はどんな順序で語られているのか。日本神話を読むための基本を整理します。",
+  "category": "basics",
+  "tags": ["日本神話", "古事記", "日本書紀", "基礎知識"],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "izanagi",
+    "izanami",
+    "amaterasu",
+    "tsukuyomi",
+    "susanoo",
+    "yamata-no-orochi"
+  ],
+  "mythologyIds": ["japanese"],
+  "storyIds": [
+    "izanagi-yomi",
+    "birth-of-three-noble-children",
+    "amano-iwato",
+    "yamata-no-orochi-slaying"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"],
+  "relatedArticleIds": ["yamata-no-orochi", "amaterasu", "izanagi-and-orpheus"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「記紀」——日本神話の二大資料",
+      "anchor": "kiki"
+    },
+    {
+      "type": "paragraph",
+      "text": "日本神話を伝える主な資料は、712年に成立した『古事記』と、720年に成立した『日本書紀』です。どちらも奈良時代のはじめに朝廷のもとで編まれ、天地の始まりから天皇の時代へと続く歴史の冒頭に、神々の物語を置いています。二つを合わせて「記紀」と呼びます。",
+      "claimIds": ["ov-kojiki", "ov-shoki"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『古事記』の序によれば、天武天皇の命で稗田阿礼が誦み習った帝紀・旧辞を、太安万侶が筆録して元明天皇に献上しました。一方『日本書紀』は舎人親王らが編纂した最初の正史で、のちに続く「六国史」の第一にあたります。",
+      "claimIds": ["ov-kojiki", "ov-shoki"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "書き方の違い",
+      "anchor": "style"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『古事記』：漢字の音を借りて日本語の語句や歌を書き表す工夫を交えた、一続きの物語。全3巻で、上巻が神代",
+        "『日本書紀』：漢文で書かれた正史。全30巻で、巻第一・第二が神代",
+        "『日本書紀』の神代の巻は、本文のあとに「一書に曰く」として異伝を並べる",
+        "神の名の表記も異なる（須佐之男命／素戔嗚尊、八俣遠呂智／八岐大蛇など）"
+      ],
+      "claimIds": ["ov-style", "ov-issho"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "『日本書紀』の「一書」",
+      "text": "『日本書紀』の神代の巻は、段ごとに本文を置いたあと、「一書に曰く」として別の伝承をいくつも並べています。たとえば月の神が食物の神を斬って日と月が離れて住むようになった話は、本文ではなく第五段の十一番目の一書（一書第十一）にだけ見える伝承です。",
+      "claimIds": ["ov-issho", "ov-tsukuyomi"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神話の流れ",
+      "anchor": "flow"
+    },
+    {
+      "type": "paragraph",
+      "text": "『古事記』上巻の神話は、おおよそ次の順に進みます。",
+      "claimIds": ["ov-flow"]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "天地のはじめに神々が現れ、イザナギとイザナミが国土と神々を生む（国生み・神生み）",
+        "火の神カグツチを生んだイザナミが亡くなり、イザナギは黄泉国まで追うが逃げ帰る",
+        "イザナギの禊から天照大御神・月読命・須佐之男命の「三貴子」が生まれる",
+        "スサノオの乱暴に天照大御神が天の石屋にこもり、神々が知恵を絞って連れ出す",
+        "追放されたスサノオが出雲でヤマタノオロチを退治し、草薙剣を得る",
+        "大国主神の国づくりと国譲りを経て、天照大御神の孫が地上に降る（天孫降臨）"
+      ],
+      "claimIds": ["ov-flow"]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは[イザナギの黄泉国訪問とオルフェウス](/articles/izanagi-and-orpheus/)、[天照大御神と天の岩屋戸](/articles/amaterasu/)、[ヤマタノオロチ退治](/articles/yamata-no-orochi/)の各記事で解説しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "同じ場面でも資料で異なる",
+      "anchor": "variants"
+    },
+    {
+      "type": "paragraph",
+      "text": "記紀はしばしば同じ場面を違うかたちで語ります。たとえばヤマタノオロチの尾から出た剣は、『古事記』では草那芸之大刀と呼ばれるだけですが、『日本書紀』本文の注に引く一書は、もとの名を天叢雲剣といい、大蛇の上につねに雲気があったためその名がついた、のちにヤマトタケルが草薙剣と改めた、と説明しています。",
+      "claimIds": ["ov-kusanagi-kj", "ov-kusanagi-ns"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "トモタネの方針",
+      "text": "作品のキャラクターの元ネタを紹介するときは、どちらの資料のどの段に拠るかを明記し、資料による違いがある場合は区別して示します。",
+      "claimIds": ["ov-policy"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "日本神話の主な資料は『古事記』（712年）と『日本書紀』（720年）",
+        "『古事記』は一続きの物語、『日本書紀』は漢文の正史で異伝（一書）を多く併記する",
+        "神の名の表記や筋が資料によって異なることがある"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ov-kojiki",
+      "text": "『古事記』は和銅5年（712年）、天武天皇の命で稗田阿礼が誦み習った内容を太安万侶が撰録し、元明天皇に献上したと序に記される。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』序"
+    },
+    {
+      "id": "ov-shoki",
+      "text": "『日本書紀』は養老4年（720年）に舎人親王らによって撰上された正史で、六国史の第一にあたる。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』（成立は『続日本紀』養老4年5月条に記録される）",
+      "note": "成立年は『続日本紀』の記事による。"
+    },
+    {
+      "id": "ov-style",
+      "text": "『古事記』は漢字の音訓を交えて日本語を書き表す工夫をした3巻本で、上巻が神代。『日本書紀』は漢文の30巻本で、巻第一・第二が神代にあたる。",
+      "classification": "fact",
+      "sourceIds": ["kojiki", "nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "kojiki: 序・上巻; nihon-shoki: 巻第一・第二"
+    },
+    {
+      "id": "ov-issho",
+      "text": "『日本書紀』の神代の巻は、本文のあとに「一書曰」として複数の異伝を併記する。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』巻第一 神代上"
+    },
+    {
+      "id": "ov-tsukuyomi",
+      "text": "月夜見尊が保食神を斬り、天照大神が怒って月夜見尊と一日一夜隔てて住むようになった話は、第五段の一書第十一に見える。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』神代上 第五段 一書第十一"
+    },
+    {
+      "id": "ov-flow",
+      "text": "『古事記』上巻は、天地の始まり、伊耶那岐・伊耶那美の国生みと神生み、黄泉国、禊と三貴子の誕生、天の石屋戸、八俣の大蛇、大国主神の国づくり、国譲り、天孫降臨の順に語る。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻"
+    },
+    {
+      "id": "ov-kusanagi-kj",
+      "text": "『古事記』では、須佐之男命が大蛇の中の尾から得た大刀を「草那芸之大刀」とする。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "ov-kusanagi-ns",
+      "text": "『日本書紀』本文の注に引く一書は、草薙剣の本の名を天叢雲剣とし、大蛇の上につねに雲気があったことから名づけたか、とする。日本武皇子のときに草薙剣と改めたという。",
+      "classification": "variant",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』神代上 第八段 本文注"
+    },
+    {
+      "id": "ov-policy",
+      "text": "作品の元ネタを紹介する際は、拠った資料と段を明記し、資料間の違いを区別して示す。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

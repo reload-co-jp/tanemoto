@@ -1,0 +1,15 @@
+{
+  "id": "yamato-takeru",
+  "slug": "yamato-takeru",
+  "name": "ヤマトタケル",
+  "reading": "やまとたける",
+  "alternativeNames": ["倭建命", "日本武尊", "小碓命"],
+  "type": "hero",
+  "roles": ["征討", "草薙剣"],
+  "mythologyIds": ["japanese"],
+  "description": "景行天皇の皇子で、本名は小碓命。西の熊曾や東国の神々・人々を平定する遠征に送られた。叔母ヤマトヒメから授かった草薙剣と火打石で、相模の野火の罠を切り抜けた。伊吹山の神に敗れて病み、能煩野で亡くなると白い鳥となって飛び去ったと伝えられる。",
+  "relatedFigureIds": ["susanoo"],
+  "relatedStoryIds": ["yamato-takeru-kusanagi"],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

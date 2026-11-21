@@ -1,0 +1,249 @@
+{
+  "id": "amaterasu",
+  "slug": "amaterasu",
+  "title": "天照大御神とは？天の岩屋戸の神話と三貴子の誕生を『古事記』から解説",
+  "shortTitle": "天照大御神とは？",
+  "eyecatchText": "天照大御神",
+  "description": "高天原を治める太陽の女神・天照大御神。イザナギの左目から生まれた誕生の場面、弟スサノオとの誓約、天の岩屋戸に隠れて世界が闇に包まれた神話を『古事記』に沿って解説し、『ペルソナ4』などの作品も紹介します。",
+  "lead": "「アマテラス」の名は、ゲームや漫画で太陽や炎の力を象徴する名前としてよく使われます。元となった天照大御神は、『古事記』でどのように生まれ、なぜ岩屋にこもったのでしょうか。日本神話の中心となる女神の物語をたどります。",
+  "category": "gods-heroes",
+  "tags": [
+    "天照大御神",
+    "アマテラス",
+    "天の岩屋戸",
+    "日本神話",
+    "古事記",
+    "ペルソナ4"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["amaterasu", "izanagi", "susanoo", "tsukuyomi"],
+  "mythologyIds": ["japanese"],
+  "storyIds": ["birth-of-three-noble-children", "amano-iwato"],
+  "workIds": ["persona-4", "naruto"],
+  "characterIds": ["persona-4-yukiko-amagi"],
+  "topicIds": [],
+  "sourceIds": ["kojiki", "work-persona-4", "work-naruto"],
+  "relatedArticleIds": [
+    "naruto-japanese-mythology",
+    "persona-4-japanese-mythology",
+    "japanese-mythology-overview"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "イザナギの左目から生まれた女神",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "黄泉国から逃げ帰ったイザナギは、「穢れた国に行ってしまった」として、筑紫の日向の橘の小門の阿波岐原で禊をしました。身につけていたものを投げ捨て、水に入って体を洗うたびに神々が生まれ、最後に左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれました。",
+      "claimIds": ["am-birth"]
+    },
+    {
+      "type": "paragraph",
+      "text": "イザナギは「子を生み続けて、最後に三柱の貴い子を得た」と大いに喜び、首にかけていた玉の緒を天照大御神に授けて高天原を治めるよう命じました。月読命には夜の食国を、須佐之男命には海原を治めるよう命じています。",
+      "claimIds": ["am-rule"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "スサノオの来訪と誓約",
+      "anchor": "ukei"
+    },
+    {
+      "type": "paragraph",
+      "text": "海原を治めずに泣きわめいて追放されたスサノオは、姉に別れを告げようと高天原へ上ります。山も川もことごとく揺れ動いたため、天照大御神は「弟が来るのは良い心からではない、国を奪おうとしているのだ」と考え、髪をみずらに結い、千本の矢を入れた靫を背負い、武装して待ち構えました。",
+      "claimIds": ["am-arm"]
+    },
+    {
+      "type": "paragraph",
+      "text": "潔白を示すため、二柱は天の安の河をはさんで誓約（うけい）を行い、互いの持ち物から神々を生みました。スサノオの剣からは三柱の女神が、天照大御神の玉からは五柱の男神が生まれます。スサノオは「自分の心が清いから、手弱女を得た」と勝ちを宣言しました。",
+      "claimIds": ["am-ukei"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "天の岩屋戸",
+      "anchor": "iwato"
+    },
+    {
+      "type": "paragraph",
+      "text": "勝ちに乗じたスサノオは、田の畔を壊し、大嘗の御殿に糞をまき散らすなどの乱暴を働きます。天照大御神ははじめかばっていましたが、機屋の屋根に穴をあけて皮を剝いだ馬を落とし入れ、驚いた機織女が死んでしまうに及んで、恐れて天の石屋の戸を閉ざしてこもりました。",
+      "claimIds": ["am-ranbou"]
+    },
+    {
+      "type": "paragraph",
+      "text": "すると高天原も地上もすっかり暗くなり、夜ばかりが続き、あらゆる災いが起こりました。",
+      "claimIds": ["am-dark"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神々の知恵",
+      "anchor": "plan"
+    },
+    {
+      "type": "paragraph",
+      "text": "八百万の神々は天の安の河原に集まって相談し、思金神の考えに従って準備を進めます。",
+      "claimIds": ["am-plan"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "常世の長鳴鳥を集めて鳴かせる",
+        "伊斯許理度売命に鏡を、玉祖命に八尺の勾玉の玉飾りを作らせる",
+        "天の香具山の榊を根こそぎ掘り取り、上の枝に玉、中の枝に八尺鏡、下の枝に白い布と青い布をかける",
+        "天児屋命が祝詞をあげ、天手力男神が戸のわきに隠れて立つ",
+        "天宇受売命が伏せた桶の上で踏み鳴らして神がかりし、神々がどっと笑う"
+      ],
+      "claimIds": ["am-plan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "騒ぎを不思議に思った天照大御神が戸を少し開けて「私が隠れて暗いはずなのに、なぜ笑っているのか」と尋ねると、天宇受売命は「あなたより貴い神がいらっしゃるので喜んでいるのです」と答えました。そのすきに鏡が差し出され、ますます不思議に思って少し身を乗り出したところを、天手力男神が手を取って引き出しました。布刀玉命が後ろに注連縄を張って「ここから内には戻れません」と言い、高天原も地上も再び明るくなりました。",
+      "claimIds": ["am-out"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "鏡のその後",
+      "text": "このとき作られた八尺鏡は、のちに天孫降臨の際、八尺の勾玉・草那芸剣とともに天照大御神の孫に授けられます。天照大御神は「この鏡を私の御魂として、私を拝むように祀りなさい」と命じました。",
+      "claimIds": ["am-mirror"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品の中のアマテラス",
+      "anchor": "works"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ペルソナ4』では、天城雪子のペルソナがコノハナサクヤからアマテラスへと進化します。雪子の心を映した世界には「生まれつき運命が決められて束縛されている」という苦悩が描かれており、閉じこもった石屋の戸を開いて光を取り戻す神話と重ねて読むこともできます。詳しくは[『ペルソナ4』の元ネタ](/articles/persona-4-japanese-mythology/)で解説しています。",
+      "claimIds": ["am-work-p4", "am-cmp-p4"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『NARUTO -ナルト-』のうちはサスケは、左目に黒炎の瞳術「天照」を宿しています。天照大御神がイザナギの左目から生まれたという『古事記』の記述と一致する設定です。",
+      "claimIds": ["am-work-naruto", "am-birth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "天照大御神はイザナギが禊で左目を洗ったときに生まれ、高天原を治めるよう命じられた",
+        "スサノオの乱暴を恐れて天の石屋にこもり、世界は闇に包まれた",
+        "神々は鏡と玉を榊にかけ、天宇受売命の踊りと笑いで天照大御神を誘い出した"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "am-birth",
+      "text": "伊耶那岐命は筑紫の日向の橘の小門の阿波岐原で禊をし、左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊）"
+    },
+    {
+      "id": "am-rule",
+      "text": "伊耶那岐命は三貴子を得たことを喜び、首飾りの玉の緒を天照大御神に授けて高天原を、月読命に夜の食国を、建速須佐之男命に海原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の分治）"
+    },
+    {
+      "id": "am-arm",
+      "text": "須佐之男命が高天原に上ると山川が揺れ動き、天照大御神は国を奪いに来たと考えて、髪をみずらに結い千本の矢の靫を背負うなどして武装した。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の安の河の誓約）"
+    },
+    {
+      "id": "am-ukei",
+      "text": "天照大御神と須佐之男命は天の安の河をはさんで誓約を行った。須佐之男命の十拳剣から三柱の女神、天照大御神の玉から五柱の男神が生まれ、須佐之男命は自分の心が清いから手弱女を得たとして勝ちを宣言した。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の安の河の誓約〜須佐之男命の勝さび）"
+    },
+    {
+      "id": "am-ranbou",
+      "text": "須佐之男命は田の畔を壊し、大嘗の殿に糞をまき散らした。さらに機屋の屋根に穴をあけて逆剝ぎにした馬を落とし入れ、驚いた天の服織女が死んだ。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（須佐之男命の勝さび）"
+    },
+    {
+      "id": "am-dark",
+      "text": "天照大御神が天の石屋戸を閉じてこもると、高天原も葦原中国もことごとく暗くなり、常夜が続き、あらゆる災いが起こった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "am-plan",
+      "text": "八百万の神々は天の安の河原に集まり、思金神に考えさせた。長鳴鳥を鳴かせ、伊斯許理度売命に鏡、玉祖命に八尺の勾玉の玉飾りを作らせ、天の香具山の榊の上枝に玉、中枝に八尺鏡、下枝に白和幣・青和幣をかけた。天手力男神が戸のわきに隠れて立ち、天宇受売命が桶を踏み鳴らして神がかりすると、八百万の神々が笑った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "am-out",
+      "text": "天照大御神が戸を細く開けて問うと、天宇受売命は「あなたより貴い神がいるので喜んでいる」と答えた。鏡が差し出され、天照大御神が少し戸から出たところを天手力男神が手を取って引き出し、布刀玉命が尻久米縄を張った。こうして高天原と葦原中国は明るくなった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "am-mirror",
+      "text": "天孫降臨の際、八尺の勾玉・鏡・草那芸剣が授けられ、天照大御神は「この鏡を我が御魂として、我が前を拝むように祀れ」と命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天孫降臨）"
+    },
+    {
+      "id": "am-work-p4",
+      "text": "『ペルソナ4』の天城雪子のペルソナはコノハナサクヤ → アマテラス → スメオオミカミと変化する。雪子の心を反映した世界は「生まれつき運命が決められて束縛されている」という苦悩を映している。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "am-cmp-p4",
+      "text": "雪子の人物像を、岩屋戸の神話と重ねて読むことができる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品が岩屋戸神話を意図したかは確認できないため、筆者の読みとして示す。"
+    },
+    {
+      "id": "am-work-naruto",
+      "text": "『NARUTO』のうちはサスケの万華鏡写輪眼は、左目に黒炎を発生させる瞳術「天照」が宿る。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「うちはサスケ」の記述で確認。"
+    }
+  ]
+}

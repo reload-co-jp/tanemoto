@@ -1,0 +1,68 @@
+{
+  "id": "persona-4-yosuke-hanamura",
+  "slug": "persona-4-yosuke-hanamura",
+  "name": "花村陽介",
+  "reading": "はなむらようすけ",
+  "alternativeNames": [],
+  "workId": "persona-4",
+  "description": {
+    "text": "主人公のクラスメートで、デパート「ジュネス」八十稲羽店の店長の息子。陽気で面倒見のよいムードメーカー。",
+    "claimIds": ["p4-yosuke-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "susanoo",
+      "label": "スサノオ",
+      "inWork": {
+        "text": "陽介のペルソナはジライヤから、スサノオ、さらにタケハヤスサノオへと進化する。",
+        "claimIds": ["p4-yosuke-work-persona"]
+      },
+      "inMyth": {
+        "text": "『古事記』では建速須佐之男命（たけはやすさのおのみこと）と呼ばれる。イザナギに海原を治めるよう命じられたが従わず泣きわめき、のちに高天原で乱暴を働いて追放された。",
+        "claimIds": ["p4-yosuke-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "最終形の名「タケハヤスサノオ」は、『古事記』での正式な神名「建速須佐之男命」に由来する。",
+      "claimIds": ["p4-yosuke-work-persona", "p4-yosuke-myth", "p4-yosuke-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p4-yosuke-work",
+      "text": "花村陽介は主人公のクラスメートで、デパート「ジュネス」八十稲羽店店長の息子。陽気で社交性のあるムードメーカー。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-yosuke-work-persona",
+      "text": "花村陽介のペルソナは、ジライヤ → スサノオ → タケハヤスサノオと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-yosuke-myth",
+      "text": "『古事記』は須佐之男命を建速須佐之男命・速須佐之男命と記す。海原を治めるよう命じられたが従わず、「母の国、根の堅州国に行きたい」と泣き続けて追放された。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+    },
+    {
+      "id": "p4-yosuke-cmp",
+      "text": "タケハヤスサノオの名は『古事記』の神名「建速須佐之男命」に由来する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-4", "kojiki"],
+  "articleIds": []
+}

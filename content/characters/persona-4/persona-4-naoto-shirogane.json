@@ -1,0 +1,77 @@
+{
+  "id": "persona-4-naoto-shirogane",
+  "slug": "persona-4-naoto-shirogane",
+  "name": "白鐘直斗",
+  "reading": "しろがねなおと",
+  "alternativeNames": [],
+  "workId": "persona-4",
+  "description": {
+    "text": "主人公の一学年下の後輩。警察組織に深く関わる探偵一族の五代目で、「探偵王子」の愛称でメディアにも知られる。",
+    "claimIds": ["p4-naoto-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "yamato-takeru",
+      "label": "ヤマトタケル",
+      "inWork": {
+        "text": "直斗のペルソナはスクナヒコナから、ヤマトタケル、さらにヤマトスメラミコトへと進化する。",
+        "claimIds": ["p4-naoto-work-persona"]
+      },
+      "inMyth": {
+        "text": "ヤマトタケルは景行天皇の皇子・小碓命。『古事記』では、九州の熊曾建を討つ際に少女の姿に装って宴にまぎれこみ、兄弟を討ち取った。",
+        "claimIds": ["p4-naoto-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヤマトタケルは、少女の装いで敵の宴に入り込んで熊曾建を討った。作品の直斗は、男性として振る舞いながら事件に挑む女性として描かれており、性別を装うという点でヤマトタケルの逸話と通じるものがある。",
+      "claimIds": ["p4-naoto-myth", "p4-naoto-work-male", "p4-naoto-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p4-naoto-work",
+      "text": "白鐘直斗は主人公の一つ下の後輩にあたる転校生で、警察組織に深く関わりのある探偵一族の五代目。「探偵王子」という愛称で知られる。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-naoto-work-persona",
+      "text": "白鐘直斗のペルソナは、スクナヒコナ → ヤマトタケル → ヤマトスメラミコトと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-naoto-work-male",
+      "text": "白鐘直斗は、男性として振る舞っていた女性である。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-naoto-myth",
+      "text": "小碓命は、熊曾建の兄弟を討つため、叔母ヤマトヒメから授かった衣装で少女の姿に装って新築祝いの宴にまぎれこみ、二人を討った。このとき熊曾建から「倭建」の名を献じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の西征）"
+    },
+    {
+      "id": "p4-naoto-cmp",
+      "text": "変装して敵を欺くヤマトタケルの逸話と、直斗の物語には通じるものがある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品の意図は確認できないため、共通点の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-persona-4", "kojiki"],
+  "articleIds": []
+}

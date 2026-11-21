@@ -1,0 +1,76 @@
+{
+  "id": "persona-4-protagonist",
+  "slug": "persona-4-protagonist",
+  "name": "主人公（鳴上悠）",
+  "reading": "なるかみゆう",
+  "alternativeNames": ["鳴上悠", "瀬多総司"],
+  "workId": "persona-4",
+  "description": {
+    "text": "八十神高校に転入してきた高校2年生。名前はプレイヤーが自由に付けられ、アニメ版では鳴上悠という名前が設定されている。複数のペルソナを付け替えられる「ワイルド」の能力をもつ。",
+    "claimIds": ["p4-hero-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "izanagi",
+      "label": "イザナギ",
+      "inWork": {
+        "text": "主人公が最初に覚醒したペルソナはイザナギ。物語の最後には伊邪那岐大神へと転生し、黒幕である伊耶那美大神を倒す。",
+        "claimIds": ["p4-hero-work-izanagi"]
+      },
+      "inMyth": {
+        "text": "イザナギは妻イザナミとともに国土と神々を生んだ男神。亡き妻を追って黄泉国を訪れたが、変わり果てた姿を見て逃げ帰り、黄泉比良坂を千引の石でふさいで妻と別れた。",
+        "claimIds": ["p4-hero-myth-izanagi", "p4-hero-myth-yomi"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でイザナギが黄泉比良坂でイザナミと決別するように、作品でも主人公は黄泉比良坂を決戦の地としてイザナミと対峙する。夫婦神の別れの場面が、作品では最終決戦の構図に置き換えられている。",
+      "claimIds": ["p4-hero-myth-yomi", "p4-hero-work-izanagi", "p4-hero-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p4-hero-work",
+      "text": "主人公は八十神高校に転入してきた高校2年生。名前は自由に付けられ、アニメ版では鳴上悠。アルカナを問わず様々なペルソナを付け替えられるワイルドのペルソナ使い。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-hero-work-izanagi",
+      "text": "主人公が最初に覚醒したペルソナはイザナギで、最終決戦の地・黄泉比良坂でイザナギを伊邪那岐大神へと転生させ、伊耶那美大神を撃破した。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4-hero-myth-izanagi",
+      "text": "イザナギはイザナミとともに国を生み、イザナミが亡くなると黄泉国まで追って行った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4-hero-myth-yomi",
+      "text": "イザナギは黄泉国で妻の変わり果てた姿を見て逃げ帰り、黄泉比良坂を千引の石でふさいで、石を挟んでイザナミと離別の言葉を交わした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4-hero-cmp",
+      "text": "黄泉比良坂での夫婦神の別れが、作品では最終決戦の構図に置き換えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-4", "kojiki"],
+  "articleIds": []
+}

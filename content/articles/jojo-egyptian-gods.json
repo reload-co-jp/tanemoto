@@ -1,0 +1,331 @@
+{
+  "id": "jojo-egyptian-gods",
+  "slug": "jojo-egyptian-gods",
+  "title": "『ジョジョ』第3部エジプト9栄神の元ネタ｜オシリス・ホルス・アヌビス・セトなどエジプトの神々を解説",
+  "shortTitle": "『ジョジョ』エジプト9栄神の元ネタ",
+  "eyecatchText": "エジプト9栄神",
+  "description": "『ジョジョの奇妙な冒険 スターダストクルセイダース』の「エジプト9栄神」のスタンド。オシリス神、ホルス神、アヌビス神、セト神、トト神、バステト女神の元ネタとなったエジプトの神々を、原典資料にもとづいて解説します。",
+  "lead": "DIOのもとを目指してエジプトに上陸した承太郎たちを襲う、「エジプト9栄神」の名を冠するスタンド使いたち。そのスタンド名は、エジプト神話の神々に由来しています。元ネタの神々は原典でどのように語られ、スタンドの能力とどこが重なるのでしょうか。",
+  "category": "character-origins",
+  "tags": [
+    "ジョジョの奇妙な冒険",
+    "スターダストクルセイダース",
+    "エジプト9栄神",
+    "オシリス",
+    "アヌビス",
+    "エジプト神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["osiris", "horus", "anubis", "set", "thoth", "bastet", "isis"],
+  "mythologyIds": ["egyptian"],
+  "storyIds": [
+    "death-of-osiris",
+    "weighing-of-the-heart",
+    "contendings-of-horus-and-set"
+  ],
+  "workIds": ["jojo-stardust-crusaders"],
+  "characterIds": [
+    "jojo-daniel-j-darby",
+    "jojo-pet-shop",
+    "jojo-anubis",
+    "jojo-alessi",
+    "jojo-boingo",
+    "jojo-mariah"
+  ],
+  "topicIds": [],
+  "sourceIds": [
+    "work-jojo-stardust-crusaders",
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "book-of-the-dead",
+    "contendings-horus-seth"
+  ],
+  "relatedArticleIds": ["osiris", "anubis", "egyptian-mythology-overview"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「エジプト9栄神」は作品独自の設定",
+      "anchor": "nine"
+    },
+    {
+      "type": "paragraph",
+      "text": "作中では、エジプト上陸後の刺客は「タロットカードの起源である神々のカード」の暗示をもつスタンド使いとされ、「エジプト9栄神」と呼ばれます。しかし実際のエジプト神話には「9栄神」という区分はありません。",
+      "claimIds": ["jg-nine"]
+    },
+    {
+      "type": "note",
+      "classification": "creative",
+      "title": "実在する「九柱神」との違い",
+      "text": "エジプト神話には、創造神アトゥムとその子孫からなる「九柱神（エネアド）」と呼ばれる神々の一団が実在します。作中の「9栄神」はこの九柱神とも構成が一致せず、名前を借りた作品独自の設定です。",
+      "claimIds": ["jg-nine"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "元ネタ早見表",
+      "anchor": "overview"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "オシリス神（ダニエル・J・ダービー）→ 冥界の王オシリス",
+        "ホルス神（ペット・ショップ）→ 隼の頭をもつ天空の神ホルス",
+        "アヌビス神（三日月刀）→ ジャッカルの頭をもつミイラづくりの神アヌビス",
+        "セト神（アレッシー）→ オシリスを殺した弟セト",
+        "トト神（ボインゴ）→ 知恵と文字の神トト",
+        "バステト女神（マライア）→ 猫の女神バステト"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "オシリス神——魂を奪う冥界の王",
+      "anchor": "osiris"
+    },
+    {
+      "type": "paragraph",
+      "text": "ダニエル・J・ダービーのスタンド「オシリス神」は、勝負の前に魂を賭けると宣言させ、敗北を認めた相手の魂を奪ってコインに変えます。",
+      "claimIds": ["jg-darby"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のオシリスは、弟セトに殺されたのち冥界の王となった神です。「死者の書」では、心臓の計量を終えた死者が玉座のオシリスの前に導かれます。勝負の結果で魂を取り立てる能力は、死者の魂の行方を決める冥界の王のイメージと重なります。",
+      "claimIds": ["jg-osiris", "jg-cmp-osiris"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ホルス神——隼と氷",
+      "anchor": "horus"
+    },
+    {
+      "type": "paragraph",
+      "text": "DIOの館を守る隼ペット・ショップのスタンド「ホルス神」は、冷気と氷を操り、つららのミサイルを撃ち出します。",
+      "claimIds": ["jg-petshop"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のホルスは隼の頭をもつ姿で描かれる神で、父の仇セトに勝利してエジプトの王位を継ぎました。本体が隼である点は原典と一致しますが、氷の能力は作品独自のものです。",
+      "claimIds": ["jg-horus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アヌビス神——持ち主を乗り換える妖刀",
+      "anchor": "anubis"
+    },
+    {
+      "type": "paragraph",
+      "text": "「アヌビス神」は、500年前の刀鍛冶を本体とする、自我をもつ三日月刀のスタンドです。刀を抜いた者を新しい本体として操り、一度受けた攻撃を覚えて見切ります。",
+      "claimIds": ["jg-anubis-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のアヌビスは、死者の心臓を量る天秤に立ち会う、墓とミイラづくりの神です。戦う神ではなく、妖刀という性格は作品独自の設定です。詳しくは[アヌビスとは？](/articles/anubis/)で解説しています。",
+      "claimIds": ["jg-anubis-myth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "セト神——若返りの影",
+      "anchor": "set"
+    },
+    {
+      "type": "paragraph",
+      "text": "弱い者をいじめることに快楽を覚えるアレッシーのスタンド「セト神」は、影に触れた相手を若返らせ、記憶や知性、スタンド能力もその年齢に戻してしまいます。",
+      "claimIds": ["jg-alessi"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のセトはオシリスの弟で、兄を箱に閉じ込めて殺し、遺体を十四に切り分けた神です。オシリスの子ホルスと王位を争い、パピルスの物語ではホルスの目を奪ったとも語られます。子どもに戻した相手を襲う能力には、若きホルスを脅かすセトのイメージを重ねて読むこともできます。",
+      "claimIds": ["jg-set", "jg-cmp-set"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "トト神——予言の漫画",
+      "anchor": "thoth"
+    },
+    {
+      "type": "paragraph",
+      "text": "ボインゴのスタンド「トト神」は、本に浮かび上がる漫画で近い未来を予知し、その内容は絶対に覆りません。",
+      "claimIds": ["jg-boingo"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のトトは文字と知恵の神で、死者の裁判では心臓の計量の結果を書き記します。プルタルコスの伝える神話では、ヘルメスの名で登場し、月との双六に勝って一年に5日を加えました。書かれたことが動かぬ記録になる書記の神のイメージは、「書かれた未来が覆らない」能力と結びつけて読めます。",
+      "claimIds": ["jg-thoth", "jg-thoth-days"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "バステト女神——猫の女神と磁力",
+      "anchor": "bastet"
+    },
+    {
+      "type": "paragraph",
+      "text": "マライアのスタンド「バステト女神」はコンセントの姿をしており、触れた相手を磁石に変えます。",
+      "claimIds": ["jg-mariah"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のバステトは、下エジプトのブバスティスで崇拝された猫の女神です。ヘロドトスは、ブバスティスの祭りがエジプトで最も盛大だったこと、死んだ猫はブバスティスに運ばれてミイラにされたことを記しています。磁力との関係は原典には見られません。",
+      "claimIds": ["jg-bastet"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "「エジプト9栄神」は作品独自の区分で、エジプト神話の九柱神とも一致しない",
+        "本体が隼のホルス神、魂を奪うオシリス神など、原典の神の性格と重なる設定もある",
+        "アヌビス神の妖刀、バステト女神の磁力などは作品独自の発想"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "jg-nine",
+      "text": "エジプト上陸後の刺客は「タロットカードの起源である神々のカード」の暗示をもつスタンド使いとされる。実際のエジプト神話に「9栄神」という区分はなく、実際の九柱神とも構成は一致しない。作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jg-darby",
+      "text": "スタンド「オシリス神」は、勝負前に魂を賭けると宣言させ、敗北を認めた相手の魂を無条件で奪い、コインとして実体化させる。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jg-osiris",
+      "text": "オシリスはテュポン（セト）の策略で殺された。「死者の書」第125章の挿絵では、心臓の計量を終えた死者が玉座のオシリスの前へ導かれる。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris", "book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "plutarch-isis-osiris: 13章; book-of-the-dead: 第125章とその挿絵"
+    },
+    {
+      "id": "jg-cmp-osiris",
+      "text": "魂を取り立てる能力は、死者の魂の行方を決める冥界の王のイメージと重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "jg-petshop",
+      "text": "ペット・ショップはDIOの館の番鳥で、スタンド使いのハヤブサ。スタンド「ホルス神」は冷気と氷を操り、ツララ状の氷をミサイルとして撃ち出す。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jg-horus",
+      "text": "「死者の書」の挿絵でホルスは隼の頭の姿で描かれる。ホルスはテュポン（セト）との戦いに勝利し、エジプトを治めた最後の神となった。",
+      "classification": "fact",
+      "sourceIds": [
+        "book-of-the-dead",
+        "plutarch-isis-osiris",
+        "herodotus-histories"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "book-of-the-dead: 第125章の挿絵; plutarch-isis-osiris: 19章; herodotus-histories: 2.144"
+    },
+    {
+      "id": "jg-anubis-work",
+      "text": "アヌビス神は自我を備えた特殊なスタンドで、本体は500年前のエジプトの刀鍛冶で故人。刀を抜いた者を新しい本体として操り、一度受けた攻撃を憶えて見切る。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jg-anubis-myth",
+      "text": "「死者の書」第125章の挿絵では、ジャッカルの頭のアヌビスが死者の心臓を量る天秤に立ち会う。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵"
+    },
+    {
+      "id": "jg-alessi",
+      "text": "アレッシーは弱者をいじめることで快楽を得る性格で、スタンド「セト神」は影に触れた相手を若返らせ、記憶力や知性、スタンド能力もその当時の状態に戻す。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jg-set",
+      "text": "テュポン（セト）はオシリスを箱に閉じ込めて殺し、のちに遺体を十四に切り分けた。「ホルスとセトの争い」では、王位をめぐる争いの中でセトがホルスの目を奪う。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris", "contendings-horus-seth"],
+      "verificationStatus": "verified",
+      "sourceLocation": "plutarch-isis-osiris: 13・18章; contendings-horus-seth: チェスター・ビーティー・パピルス第1"
+    },
+    {
+      "id": "jg-cmp-set",
+      "text": "子どもに戻した相手を襲う能力には、若きホルスを脅かすセトのイメージを重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、筆者の読みとして示す。"
+    },
+    {
+      "id": "jg-boingo",
+      "text": "ボインゴのスタンド「トト神」は、本に描かれた漫画を通してごく近い未来を予知し、その内容は絶対に覆らない。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jg-thoth",
+      "text": "「死者の書」第125章の挿絵では、トキの頭のトトが心臓の計量の結果を記録する。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵"
+    },
+    {
+      "id": "jg-thoth-days",
+      "text": "ヘルメス（トト）は月と双六をして光の七十分の一を得、5日をつくって一年の360日に加えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12章"
+    },
+    {
+      "id": "jg-mariah",
+      "text": "マライアのスタンド「バステト女神」はコンセントの像をしており、触れた相手を磁石化させる。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jg-bastet",
+      "text": "エジプトで最も盛大な祭りはブバスティスのアルテミス（バステト）の祭りで、死んだ猫はブバスティスの聖所に運ばれてミイラにされる。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』2.59、2.67"
+    }
+  ]
+}

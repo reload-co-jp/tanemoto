@@ -61,5 +61,32 @@
     "publishedPeriod": "2009〜2021年（『別冊少年マガジン』連載）",
     "publisher": "講談社",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「進撃の巨人」「進撃の巨人の登場人物」の記述でも確認している。"
+  },
+  {
+    "id": "work-naruto",
+    "title": "NARUTO -ナルト-",
+    "author": "岸本斉史",
+    "type": "work",
+    "publishedPeriod": "1999〜2014年（『週刊少年ジャンプ』連載）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版の関連項目（「NARUTO -ナルト-」「うちはサスケ」「暁 (NARUTO)」）でも確認している。"
+  },
+  {
+    "id": "work-persona-4",
+    "title": "ペルソナ4",
+    "author": "アトラス",
+    "type": "work",
+    "publishedPeriod": "2008年（PlayStation 2用ゲーム）",
+    "publisher": "アトラス",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ペルソナ4」でも確認している。"
+  },
+  {
+    "id": "work-jojo-stardust-crusaders",
+    "title": "ジョジョの奇妙な冒険 第3部 スターダストクルセイダース",
+    "author": "荒木飛呂彦",
+    "type": "work",
+    "publishedPeriod": "1989〜1992年（『週刊少年ジャンプ』連載）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「スターダストクルセイダース」でも確認している。"
   }
 ]

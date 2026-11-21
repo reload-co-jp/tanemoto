@@ -1,0 +1,15 @@
+{
+  "id": "kagutsuchi",
+  "slug": "kagutsuchi",
+  "name": "カグツチ",
+  "reading": "かぐつち",
+  "alternativeNames": ["火之迦具土神", "軻遇突智"],
+  "type": "god",
+  "roles": ["火"],
+  "mythologyIds": ["japanese"],
+  "description": "イザナミが最後に生んだ火の神。『古事記』では火之夜藝速男神・火之炫毗古神・火之迦具土神の三つの名で呼ばれる。出産でイザナミを死なせたため、イザナギに十拳剣で首を斬られ、その血や体から多くの神々が生まれた。",
+  "relatedFigureIds": ["izanagi", "izanami"],
+  "relatedStoryIds": ["izanagi-yomi"],
+  "articleIds": [],
+  "sourceIds": ["kojiki"]
+}

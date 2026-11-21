@@ -1,0 +1,261 @@
+{
+  "id": "yamata-no-orochi",
+  "slug": "yamata-no-orochi",
+  "title": "ヤマタノオロチとは？スサノオの大蛇退治と草薙剣の由来を『古事記』から解説",
+  "shortTitle": "ヤマタノオロチとは？",
+  "eyecatchText": "ヤマタノオロチ",
+  "description": "八つの頭と八つの尾をもつ大蛇ヤマタノオロチ。スサノオはどうやって退治したのか。八塩折の酒、十拳剣、尾から出た草薙剣まで、『古事記』『日本書紀』の記述を読み比べ、『NARUTO』などの作品とのつながりも紹介します。",
+  "lead": "ゲームのボスやアニメの必殺技として、たびたび登場するヤマタノオロチ。日本神話の中で最も有名な怪物は、原典ではどのような姿で語られているのでしょうか。スサノオの大蛇退治を『古事記』の本文に沿ってたどります。",
+  "category": "monsters",
+  "tags": [
+    "ヤマタノオロチ",
+    "スサノオ",
+    "草薙剣",
+    "日本神話",
+    "古事記",
+    "NARUTO"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "yamata-no-orochi",
+    "susanoo",
+    "kushinadahime",
+    "yamato-takeru",
+    "amaterasu"
+  ],
+  "mythologyIds": ["japanese"],
+  "storyIds": ["yamata-no-orochi-slaying", "yamato-takeru-kusanagi"],
+  "workIds": ["naruto"],
+  "characterIds": ["naruto-uchiha-itachi"],
+  "topicIds": ["monsters", "divine-items", "dragon-slaying"],
+  "sourceIds": ["kojiki", "nihon-shoki", "work-naruto"],
+  "relatedArticleIds": [
+    "naruto-japanese-mythology",
+    "japanese-mythology-overview",
+    "serpent-slayers"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "高天原を追われたスサノオ",
+      "anchor": "exile"
+    },
+    {
+      "type": "paragraph",
+      "text": "天の石屋戸の騒動ののち、神々はスサノオに罪のつぐないの品を負わせ、ひげと手足の爪を切って高天原から追放しました。地上に降りたスサノオがたどり着いたのは、出雲国の肥の河（斐伊川）の上流、鳥髪という地でした。",
+      "claimIds": ["or-exile"]
+    },
+    {
+      "type": "paragraph",
+      "text": "川上から箸が流れてきたのを見て、人が住んでいると考えたスサノオが上っていくと、老夫婦が娘を間において泣いていました。",
+      "claimIds": ["or-meet"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "八つの頭と八つの尾",
+      "anchor": "shape"
+    },
+    {
+      "type": "paragraph",
+      "text": "老人は国つ神オオヤマツミの子でアシナヅチ、妻はテナヅチ、娘はクシナダヒメと名のりました。もとは八人の娘がいたが、高志のヤマタノオロチが毎年やって来て食べてしまい、今年もその時期が来たので泣いているのだといいます。",
+      "claimIds": ["or-meet"]
+    },
+    {
+      "type": "quote",
+      "text": "その目は赤かがち（ほおずき）のようで、一つの体に八つの頭と八つの尾がある。体には苔や檜・杉が生え、長さは八つの谷と八つの峰にわたり、腹を見ればいつも血がにじんでただれている。",
+      "sourceId": "kojiki",
+      "location": "上巻（八俣の大蛇）",
+      "claimIds": ["or-shape"],
+      "translationNote": "原文（漢文）からの編集部訳"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "八塩折の酒と十拳剣",
+      "anchor": "slaying"
+    },
+    {
+      "type": "paragraph",
+      "text": "スサノオは自分が天照大御神の弟であると名のり、娘をもらい受けると、クシナダヒメを湯津爪櫛に変えて自分の髪に挿しました。そして老夫婦に、何度も繰り返し醸した強い酒「八塩折の酒」を造らせ、垣を巡らせて八つの門を作り、門ごとに酒を満たした槽を置いて待たせました。",
+      "claimIds": ["or-plan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "やって来た大蛇は八つの頭をそれぞれの槽に垂れ入れて酒を飲み、酔って寝てしまいます。スサノオが腰に帯びた十拳剣で大蛇を斬り散らすと、肥の河は血に変わって流れました。",
+      "claimIds": ["or-slay"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "尾から出てきた草薙剣",
+      "anchor": "kusanagi"
+    },
+    {
+      "type": "paragraph",
+      "text": "中ほどの尾を斬ったとき、剣の刃が欠けました。不思議に思って剣の先で尾を裂いてみると、中から都牟羽の大刀が出てきました。スサノオはこれを特別なものと考え、天照大御神に献上しました。これが草那芸之大刀（草薙剣）です。",
+      "claimIds": ["or-sword"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "『日本書紀』での名前",
+      "text": "『日本書紀』本文の注に引く一書は、この剣のもとの名を天叢雲剣とし、大蛇の上にいつも雲気がかかっていたことによる名かと記しています。",
+      "claimIds": ["or-murakumo"]
+    },
+    {
+      "type": "paragraph",
+      "text": "草薙剣はのちに、伊勢でヤマトヒメから甥のヤマトタケルに授けられます。相武国で野に火を放たれたヤマトタケルは、この剣で草を刈り払い、袋の火打石で向かい火をつけて難を逃れました。",
+      "claimIds": ["or-yamatotakeru"]
+    },
+    {
+      "type": "paragraph",
+      "text": "大蛇を退治したスサノオは出雲の須賀に宮を造り、「八雲立つ　出雲八重垣　妻籠みに　八重垣作る　その八重垣を」と歌いました。これは日本で最初の和歌として知られています。",
+      "claimIds": ["or-suga"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品の中のヤマタノオロチと草薙剣",
+      "anchor": "works"
+    },
+    {
+      "type": "paragraph",
+      "text": "『NARUTO -ナルト-』では、うちはイタチの須佐能乎が、草薙の剣の一種とされる霊剣・十拳剣を備え、サスケに取りついていた大蛇丸を封印しました。十拳剣で「大蛇」を封じる場面は、スサノオが十拳剣で大蛇を斬った神話と重ねて読めます。詳しくは[『NARUTO』うちは一族の術の元ネタ](/articles/naruto-japanese-mythology/)で解説しています。",
+      "claimIds": ["or-work-naruto", "or-slay", "or-cmp-naruto"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「十拳剣」は固有名ではない",
+      "text": "原典の十拳剣（とつかのつるぎ）は、拳十個分ほどの長さの剣を指す一般的な呼び方です。『古事記』ではイザナギが火の神カグツチを斬った剣も十拳剣と呼ばれ、こちらには天之尾羽張という固有の名が添えられています。",
+      "claimIds": ["or-totsuka", "or-cmp-totsuka"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ヤマタノオロチは八つの頭と八つの尾をもち、体に木が生え、八つの谷と峰にわたる大蛇",
+        "スサノオはクシナダヒメを櫛に変えて髪に挿し、八塩折の酒で大蛇を酔わせて十拳剣で斬った",
+        "尾から出た大刀が草薙剣で、天照大御神に献上され、のちにヤマトタケルの手に渡った"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "or-exile",
+      "text": "八百万の神々は須佐之男命に千位置戸を負わせ、ひげと手足の爪を切って追放した。須佐之男命は出雲国の肥の河上、鳥髪の地に降った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸〜八俣の大蛇）"
+    },
+    {
+      "id": "or-meet",
+      "text": "須佐之男命は川を流れてくる箸を見て川上に上り、娘を間において泣く老夫婦に出会った。老人は大山津見神の子の足名椎、妻は手名椎、娘は櫛名田比売と名のり、八人いた娘が毎年高志の八俣遠呂智に食われてきたと語った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "or-shape",
+      "text": "八俣遠呂智は目が赤かがちのようで、一つの体に八つの頭と八つの尾があり、体には苔と檜・杉が生え、長さは八つの谷と八つの峰にわたり、腹はいつも血にただれている。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "or-plan",
+      "text": "須佐之男命は天照大御神の弟と名のって娘をもらい受け、櫛名田比売を湯津爪櫛に変えて髪に挿した。足名椎・手名椎に八塩折の酒を醸させ、垣に八つの門を作り、門ごとに酒を盛った船を置かせた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "or-slay",
+      "text": "大蛇は八つの頭をそれぞれの酒船に垂れ入れて酒を飲み、酔って伏して寝た。須佐之男命は腰に帯びた十拳剣で大蛇を斬り散らし、肥の河は血に変わって流れた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "or-sword",
+      "text": "中の尾を斬ったとき刀の刃が欠け、尾を裂くと都牟羽の大刀があった。須佐之男命はこれを天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "or-murakumo",
+      "text": "『日本書紀』本文の注に引く一書は、草薙剣の本の名を天叢雲剣とし、大蛇の居る上につねに雲気があったためかとする。",
+      "classification": "variant",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』神代上 第八段 本文注"
+    },
+    {
+      "id": "or-yamatotakeru",
+      "text": "倭建命は伊勢で倭比売命から草那芸剣と袋を授かった。相武国で野火に囲まれると、剣で草を刈り払い、袋の火打石で向かい火をつけて逃れた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の東征）"
+    },
+    {
+      "id": "or-suga",
+      "text": "須佐之男命は出雲の須賀に宮を造り、「八雲立つ出雲八重垣妻籠みに八重垣作るその八重垣を」と歌った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（須賀の宮）"
+    },
+    {
+      "id": "or-work-naruto",
+      "text": "『NARUTO』のうちはイタチは、草薙の剣の一種で実体をもたない霊剣を所有し、サスケに取りついていた大蛇丸を封印した。須佐能乎の十拳剣で長門も封印している。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「NARUTO -ナルト-」「暁 (NARUTO)」の記述で確認。"
+    },
+    {
+      "id": "or-cmp-naruto",
+      "text": "十拳剣で大蛇丸を封じる場面は、スサノオの大蛇退治と重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    },
+    {
+      "id": "or-totsuka",
+      "text": "伊耶那岐命は腰に帯びた十拳剣で迦具土神の首を斬った。その刀の名は天之尾羽張、またの名を伊都之尾羽張という。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（迦具土神の殺害）"
+    },
+    {
+      "id": "or-cmp-totsuka",
+      "text": "十拳剣は拳十個分ほどの長さの剣を指す一般的な呼称で、特定の一振りの固有名ではない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "同じ『古事記』の中で、伊耶那岐命・須佐之男命それぞれの剣が十拳剣と呼ばれていることにもとづく。"
+    }
+  ]
+}

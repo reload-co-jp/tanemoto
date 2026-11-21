@@ -1,0 +1,17 @@
+{
+  "id": "nuada",
+  "slug": "nuada",
+  "name": "ヌアザ",
+  "reading": "ぬあざ",
+  "originalName": "Nuadu",
+  "romanized": "Nuada",
+  "alternativeNames": ["ヌアダ", "銀の腕のヌアザ"],
+  "type": "god",
+  "roles": ["王", "銀の腕"],
+  "mythologyIds": ["celtic"],
+  "description": "トゥアタ・デー・ダナンの王。第一のマグ・トゥレドの戦いで片腕を失い、体に欠損のある者は王になれないとして王位を退いた。医神ディアン・ケーフトに銀の腕をつけてもらい「銀の腕のヌアザ」と呼ばれる。のちに王に復位したが、第二の戦いでバロールに討たれた。",
+  "relatedFigureIds": ["lugh", "balor"],
+  "relatedStoryIds": ["second-battle-of-mag-tuired"],
+  "articleIds": [],
+  "sourceIds": ["cath-maige-tuired"]
+}

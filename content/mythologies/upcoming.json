@@ -1,29 +1,29 @@
 [
   {
-    "id": "japanese",
-    "slug": "japanese",
-    "name": "日本神話",
-    "region": "日本",
-    "description": "『古事記』『日本書紀』などに伝えられる神々の物語。準備中です。",
+    "id": "indian",
+    "slug": "indian",
+    "name": "インド神話",
+    "region": "インド",
+    "description": "『リグ・ヴェーダ』や二大叙事詩『マハーバーラタ』『ラーマーヤナ』に伝えられる神々と英雄の物語。準備中です。",
     "comingSoon": true,
-    "order": 3
+    "order": 6
   },
   {
-    "id": "egyptian",
-    "slug": "egyptian",
-    "name": "エジプト神話",
-    "region": "古代エジプト",
-    "description": "太陽神ラーやオシリスなど、古代エジプトの神々の物語。準備中です。",
+    "id": "mesopotamian",
+    "slug": "mesopotamian",
+    "name": "メソポタミア神話",
+    "region": "古代メソポタミア（現在のイラク周辺）",
+    "description": "『ギルガメシュ叙事詩』や『エヌマ・エリシュ』など、粘土板に楔形文字で記された世界最古級の神話。準備中です。",
     "comingSoon": true,
-    "order": 4
+    "order": 7
   },
   {
-    "id": "celtic",
-    "slug": "celtic",
-    "name": "ケルト神話",
-    "region": "アイルランド・ウェールズなど",
-    "description": "アイルランドやウェールズの中世写本に伝わる神々と英雄の物語。準備中です。",
+    "id": "chinese",
+    "slug": "chinese",
+    "name": "中国神話",
+    "region": "中国",
+    "description": "『山海経』や『淮南子』などに断片的に伝えられる神々と怪異の物語。準備中です。",
     "comingSoon": true,
-    "order": 5
+    "order": 8
   }
 ]

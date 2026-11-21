@@ -1,0 +1,207 @@
+{
+  "id": "izanagi-and-orpheus",
+  "slug": "izanagi-and-orpheus",
+  "title": "振り返ってはいけない——イザナギの黄泉国訪問とオルフェウスの冥界下りを比べる",
+  "shortTitle": "イザナギとオルフェウス",
+  "eyecatchText": "見るなの禁忌",
+  "description": "亡き妻を連れ戻しに死者の国へ向かったイザナギとオルフェウス。どちらも「見てはいけない」という禁を破って妻を失います。『古事記』とオウィディウス『変身物語』を読み比べ、二つの神話の共通点と違いを整理します。",
+  "lead": "日本神話のイザナギとギリシャ神話のオルフェウスは、遠く離れた土地の物語でありながら、驚くほど似た筋をもっています。亡き妻を追って冥界へ下り、「見てはいけない」という禁を破って、妻を永遠に失う——。二つの神話を原典で読み比べます。",
+  "category": "comparison",
+  "tags": [
+    "イザナギ",
+    "イザナミ",
+    "オルフェウス",
+    "エウリュディケ",
+    "黄泉",
+    "冥界",
+    "比較神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["izanagi", "izanami", "kagutsuchi", "hades", "persephone"],
+  "mythologyIds": ["japanese", "greek"],
+  "storyIds": ["izanagi-yomi"],
+  "workIds": ["persona-4"],
+  "characterIds": [],
+  "topicIds": ["underworld", "taboo"],
+  "sourceIds": ["kojiki", "ovid-metamorphoses", "work-persona-4"],
+  "relatedArticleIds": ["persona-4-japanese-mythology", "hades", "persephone"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "二つの冥界下り",
+      "anchor": "intro"
+    },
+    {
+      "type": "paragraph",
+      "text": "妻を失った夫が死者の国へ迎えに行き、禁を破ったために連れ戻せない——この筋をもつ物語は世界各地に見られます。日本では『古事記』のイザナギ、ギリシャ・ローマでは竪琴の名手オルフェウスの物語が代表例です。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "イザナギの場合",
+      "anchor": "izanagi"
+    },
+    {
+      "type": "paragraph",
+      "text": "火の神カグツチを生んだために亡くなったイザナミを追って、イザナギは黄泉国を訪れます。イザナミは「もう黄泉の国の食べ物を食べてしまったが、帰れるよう黄泉の神と相談してみる。その間、私を見ないで」と頼みました。",
+      "claimIds": ["io-izanagi-ask"]
+    },
+    {
+      "type": "paragraph",
+      "text": "しかし待ちきれなくなったイザナギは、櫛の歯に火をともして御殿の中をのぞいてしまいます。そこにあったのは、蛆がわき、八柱の雷神が宿った妻の姿でした。恐れて逃げるイザナギを、イザナミは「恥をかかせた」と黄泉の軍勢に追わせ、最後は黄泉比良坂を千引の石でふさいで、二柱は決別します。",
+      "claimIds": ["io-izanagi-look", "io-izanagi-end"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "オルフェウスの場合",
+      "anchor": "orpheus"
+    },
+    {
+      "type": "paragraph",
+      "text": "オウィディウス『変身物語』によれば、オルフェウスの妻エウリュディケは、婚礼ののち草原を歩いていて毒蛇にかかとを嚙まれ、亡くなりました。オルフェウスは冥界に下り、冥王プルート（ハデス）と王妃ペルセポネの前で竪琴を奏でて妻を返してほしいと歌います。亡霊たちは涙を流し、復讐の女神たちの頬も初めて濡れたといいます。",
+      "claimIds": ["io-orpheus-descent"]
+    },
+    {
+      "type": "paragraph",
+      "text": "冥界の王と王妃は願いを聞き入れますが、条件を一つつけました。地上に出るまで、振り返って妻を見てはならない。ところが地上まであと少しのところで、妻を見失うことを恐れたオルフェウスは振り返ってしまい、エウリュディケは再び冥界へ引き戻されました。",
+      "claimIds": ["io-orpheus-look"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "共通点",
+      "anchor": "common"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "亡くなった妻を連れ戻すために、夫が自ら死者の国へ下る",
+        "冥界から戻るにあたって「見てはならない」という禁が課される",
+        "夫が禁を破り、妻は二度と戻らない"
+      ],
+      "claimIds": ["io-izanagi-ask", "io-orpheus-look"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "違い",
+      "anchor": "difference"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "禁を課したのは、イザナギの場合は妻自身、オルフェウスの場合は冥界の王",
+        "イザナギが見たのは変わり果てた妻の姿で、妻は怒って夫を追う。エウリュディケは夫を責める言葉もなく、「さようなら」とだけ言って消える",
+        "イザナギの物語は、人の生と死の数が定まる起源譚として結ばれる"
+      ],
+      "claimIds": ["io-izanagi-end", "io-orpheus-look", "io-orpheus-farewell"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「見るなの禁忌」",
+      "text": "禁じられたものを見てしまうことで取り返しのつかない結果を招く物語は、民俗学で「見るなの禁忌（タブー）」と呼ばれる型の一つにも数えられます。イザナギとオルフェウスの物語は、その型を冥界からの帰還という場面に置いている点で共通しています。",
+      "claimIds": ["io-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品の中の黄泉比良坂",
+      "anchor": "works"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ペルソナ4』では、主人公のペルソナがイザナギ、黒幕がイザナミとされ、最終決戦の地は黄泉比良坂です。詳しくは[『ペルソナ4』の元ネタ](/articles/persona-4-japanese-mythology/)で解説しています。",
+      "claimIds": ["io-work-p4"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "イザナギもオルフェウスも、亡き妻を連れ戻すため死者の国へ下った",
+        "どちらも「見てはならない」という禁を破って妻を失う",
+        "イザナギの物語は、一日に千人が死に千五百人が生まれる起源譚として結ばれる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "io-izanagi-ask",
+      "text": "伊耶那美命は「黄泉戸喫をしてしまったが、帰れるよう黄泉神と相談するので、その間私を見ないで」と言った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "io-izanagi-look",
+      "text": "伊耶那岐命は櫛の男柱を折って火をともし、殿の中をのぞいた。伊耶那美命の体には蛆がわき、八柱の雷神が生じていた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "io-izanagi-end",
+      "text": "伊耶那美命は「吾に辱見せつ」と言って黄泉の軍勢に追わせた。伊耶那岐命は黄泉比良坂を千引石でふさぎ、二柱は石をはさんで離別の言葉を交わした。伊耶那美命の「一日に千人絞り殺す」に対し、伊耶那岐命は「一日に千五百の産屋を立てる」と答え、一日に千人が死に千五百人が生まれるようになった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "io-orpheus-descent",
+      "text": "エウリュディケは婚礼ののち草原でナイアスたちと歩いていて毒蛇にかかとを嚙まれて死んだ。オルフェウスはタイナロンの門から冥界に下り、ペルセポネとプルートの前で竪琴に合わせて歌い、亡霊たちは涙を流した。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』10.1–49"
+    },
+    {
+      "id": "io-orpheus-look",
+      "text": "プルートは、アウェルヌスの谷を出るまで振り返って妻を見れば贈り物は失われると告げた。地上まであとわずかのところで、オルフェウスは妻を見失うことを恐れて振り返り、エウリュディケはたちまち引き戻された。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』10.50–59"
+    },
+    {
+      "id": "io-orpheus-farewell",
+      "text": "二度目の死を迎えたエウリュディケは夫を責めることなく、「さようなら」という最後の言葉を残した。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』10.60–63"
+    },
+    {
+      "id": "io-cmp",
+      "text": "禁じられたものを見て取り返しのつかない結果を招く型（見るなの禁忌）を、冥界からの帰還の場面に置いている点で二つの物語は共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "io-work-p4",
+      "text": "『ペルソナ4』では主人公のペルソナがイザナギ、事件の元凶がイザナミで、最後の決戦の地は黄泉比良坂である。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    }
+  ]
+}

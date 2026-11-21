@@ -1,0 +1,219 @@
+{
+  "id": "anubis",
+  "slug": "anubis",
+  "title": "アヌビスとは？ジャッカルの頭をもつミイラづくりの神と「心臓の計量」を解説",
+  "shortTitle": "アヌビスとは？",
+  "eyecatchText": "アヌビス",
+  "description": "黒いジャッカルの頭をもつエジプトの神アヌビス。墓の守護者、ミイラづくりの神として何を担ったのか。「死者の書」に描かれた心臓の計量の場面や、プルタルコスが伝える誕生の伝承を解説し、『ジョジョ』のアヌビス神とも比べます。",
+  "lead": "ゲームでは冥界の番人や死神として描かれることの多いアヌビス。古代エジプトでは、死者を守り、ミイラにして来世へ送り出す神として広く崇拝されていました。原典に描かれたアヌビスの姿を紹介します。",
+  "category": "gods-heroes",
+  "tags": [
+    "アヌビス",
+    "エジプト神話",
+    "死者の書",
+    "心臓の計量",
+    "ジョジョの奇妙な冒険"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["anubis", "osiris", "thoth", "isis", "horus"],
+  "mythologyIds": ["egyptian"],
+  "storyIds": ["weighing-of-the-heart", "death-of-osiris"],
+  "workIds": ["jojo-stardust-crusaders"],
+  "characterIds": ["jojo-anubis"],
+  "topicIds": ["underworld"],
+  "sourceIds": [
+    "book-of-the-dead",
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "work-jojo-stardust-crusaders"
+  ],
+  "relatedArticleIds": [
+    "osiris",
+    "jojo-egyptian-gods",
+    "egyptian-mythology-overview"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "墓とミイラの守護神",
+      "anchor": "role"
+    },
+    {
+      "type": "paragraph",
+      "text": "アヌビスは、ジャッカル（イヌ科の動物）の姿、またはジャッカルの頭をもつ人の姿で表される神です。墓地をうろつくイヌ科の動物の姿は、逆に死者を守る神のイメージと結びつけられました。",
+      "claimIds": ["an-jackal"]
+    },
+    {
+      "type": "paragraph",
+      "text": "アヌビスはミイラづくりの神でもあり、「防腐処理の場にいる者」「聖なる地の主」「西方の者たちの第一人者」などの称号で呼ばれました。",
+      "claimIds": ["an-titles"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「死者の書」の心臓の計量",
+      "anchor": "weighing"
+    },
+    {
+      "type": "paragraph",
+      "text": "アヌビスの最も有名な姿は、「死者の書」第125章に描かれた死者の裁判の場面でしょう。死者の心臓が天秤にかけられ、真理の女神マアトの羽根と重さを比べられます。",
+      "claimIds": ["an-weighing"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "アヌビス：天秤のそばにひざまずき、計量に立ち会う",
+        "トト：トキの頭をもつ書記の神として、結果を記録する",
+        "アメミト：ワニの頭、ライオン（またはヒョウ）の上半身、カバの下半身をもつ「死者を食らうもの」。罪で重くなった心臓を食べる",
+        "ホルス：裁きを終えた死者を、玉座のオシリスの前へ導く"
+      ],
+      "claimIds": ["an-weighing", "an-ammit", "an-horus"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "アニのパピルス",
+      "text": "この場面を描いた写本として特に名高いのが、大英博物館所蔵の「アニのパピルス」（紀元前1250年頃）です。書記アニの心臓が天秤にかけられ、アヌビスが天秤を調べ、トトが記録をとるようすが色鮮やかに描かれています。",
+      "claimIds": ["an-ani"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "プルタルコスが伝える誕生",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "アヌビスの親については複数の伝承がありますが、プルタルコスは次のような話を伝えています。オシリスはイシスと思い違えて、その妹ネフティスと交わってしまいました。ネフティスはセトを恐れて生まれた子を捨てましたが、イシスは犬たちに導かれてその子を見つけ出し、育てました。その子がアヌビスで、犬が人を守るように神々を守る存在になったといいます。",
+      "claimIds": ["an-birth"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "ギリシャ人の見方",
+      "text": "この伝承はギリシャ人プルタルコスの記録によるもので、エジプトの資料ではアヌビスの親を別の神とするものもあります。",
+      "claimIds": ["an-variant"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『ジョジョ』のアヌビス神",
+      "anchor": "jojo"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ジョジョの奇妙な冒険 第3部』のアヌビス神は、自我をもつ三日月刀に宿ったスタンドです。半人半獣のアヌビスそのものの像をもち、刀を抜いた者を新しい本体として操り、戦うほど相手の動きを覚えて強くなります。",
+      "claimIds": ["an-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のアヌビスは、死者を守り冥界へ送り出す神で、剣をとって戦う神ではありません。名前と半獣の姿を受け継ぎつつ、「持ち主を乗り換えていく妖刀」という性格は作品独自の設定といえます。",
+      "claimIds": ["an-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "アヌビスはジャッカルの頭をもつ、墓とミイラづくりの神",
+        "「死者の書」第125章では、死者の心臓を量る天秤に立ち会う",
+        "プルタルコスは、オシリスとネフティスの子でイシスに育てられたという伝承を記す"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "an-jackal",
+      "text": "アヌビスはジャッカル（イヌ科の動物）の姿、またはジャッカルの頭をもつ人の姿で表される墓の守護神である。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章の挿絵（アニのパピルス）ほか",
+      "note": "墓地のイヌ科動物との結びつきについては英語版Wikipedia「Anubis」とその参考文献を参照。"
+    },
+    {
+      "id": "an-titles",
+      "text": "アヌビスは防腐処理の神で、「防腐処理の場にいる者」「聖なる地の主」「西方の者たちの第一人者」などの称号をもつ。",
+      "classification": "scholarship",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」ほか",
+      "note": "称号は英語版Wikipedia「Anubis」とその参考文献（Wilkinson 2003 ほか）で確認。"
+    },
+    {
+      "id": "an-weighing",
+      "text": "「死者の書」第125章の挿絵では、死者の心臓が天秤で真理の女神マアトの羽根と比べられ、アヌビスが天秤に立ち会い、トトが結果を記録する。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "an-ammit",
+      "text": "アメミトはワニの頭、ライオンまたはヒョウの上半身、カバの下半身をもつ女神で、名は「死者を食らうもの」を意味する。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章の挿絵",
+      "note": "英語版Wikipedia「Ammit」とその参考文献で確認。"
+    },
+    {
+      "id": "an-horus",
+      "text": "アニのパピルスでは、計量を終えた死者を隼の頭のホルスが玉座のオシリスの前へ導く。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "an-ani",
+      "text": "アニのパピルスは大英博物館所蔵（EA 10470）の「死者の書」の写本で、紀元前1250年頃のもの。書記アニの心臓の計量の場面が描かれている。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アニのパピルス（大英博物館 EA 10470）"
+    },
+    {
+      "id": "an-birth",
+      "text": "オシリスはイシスと思い違えてその妹（ネフティス）と交わった。母はテュポンを恐れて子を捨てたが、イシスは犬の助けで見つけて育て、アヌビスと名づけられたその子は、犬が人を守るように神々を守るという。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』14章"
+    },
+    {
+      "id": "an-variant",
+      "text": "アヌビスの親については、プルタルコスの伝承以外にも諸説がある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "エジプトの資料ではラーやバステト、セトなどを親とする伝承も知られる（英語版Wikipedia「Anubis」による）。"
+    },
+    {
+      "id": "an-work",
+      "text": "『ジョジョ』第3部のアヌビス神は自我を備えたスタンドで、三日月刀に宿り、半人半獣のアヌビスの像をもつ。刀を抜いた者を新しい本体として操り、一度受けた攻撃を憶えて見切る。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "an-cmp",
+      "text": "持ち主を乗り換える妖刀という性格は作品独自のもので、原典のアヌビスは戦う神ではない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

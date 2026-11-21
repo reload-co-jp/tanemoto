@@ -1,0 +1,299 @@
+{
+  "id": "osiris",
+  "slug": "osiris",
+  "title": "オシリス神話とは？セトの陰謀、イシスの旅、ホルスの仇討ちをプルタルコスの記録から解説",
+  "shortTitle": "オシリス神話とは？",
+  "eyecatchText": "オシリス",
+  "description": "弟セトの策略で棺に閉じ込められ、ばらばらにされた王オシリス。妻イシスはビブロスまで夫を探し、息子ホルスは父の仇を討つ。エジプト神話で最も有名な物語を、プルタルコス『イシスとオシリスについて』の章を追って解説します。",
+  "lead": "死んで冥界の王となった神オシリス。その死と再生の物語は、古代エジプトの王権と死生観の中心にありました。物語の全体像を伝えるプルタルコスの記録に沿って、セトの陰謀からホルスの勝利までをたどります。",
+  "category": "myths",
+  "tags": [
+    "オシリス",
+    "イシス",
+    "セト",
+    "ホルス",
+    "エジプト神話",
+    "プルタルコス"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["osiris", "isis", "set", "horus", "anubis", "thoth"],
+  "mythologyIds": ["egyptian"],
+  "storyIds": ["death-of-osiris", "contendings-of-horus-and-set"],
+  "workIds": ["jojo-stardust-crusaders"],
+  "characterIds": ["jojo-daniel-j-darby", "jojo-alessi"],
+  "topicIds": ["underworld"],
+  "sourceIds": [
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "contendings-horus-seth",
+    "work-jojo-stardust-crusaders"
+  ],
+  "relatedArticleIds": [
+    "egyptian-mythology-overview",
+    "anubis",
+    "jojo-egyptian-gods"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "五つの神々の誕生",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコスによれば、天空の女神（ギリシャ名でレア）が大地の神（クロノス）とひそかに交わったことを知った太陽は、彼女がどの月にもどの年にも子を産めないよう呪いをかけました。そこでヘルメス（トト）が月との双六に勝って光の七十分の一を手に入れ、一年の360日に加える5日間を作りました。",
+      "claimIds": ["os-days"]
+    },
+    {
+      "type": "paragraph",
+      "text": "この5日間に、一日目にオシリス、二日目にアルエリス（大ホルス）、三日目にテュポン（セト）、四日目にイシス、五日目にネフティスが生まれました。セトは月満ちて正しく生まれたのではなく、母の脇腹を破って飛び出したといいます。",
+      "claimIds": ["os-birth"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "ギリシャ名に注意",
+      "text": "プルタルコスはエジプトの神々をギリシャ風の名で呼んでいます。セトは怪物テュポン、トトはヘルメスの名で登場します。",
+      "claimIds": ["os-names"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "セトの陰謀",
+      "anchor": "plot"
+    },
+    {
+      "type": "paragraph",
+      "text": "王となったオシリスは、エジプトの人々に作物の育て方と法を教え、神々を敬うことを教えました。さらに武器を使わず、言葉と歌と音楽で世界中を教化して回ったため、ギリシャ人は彼をディオニュソスと同一視したといいます。",
+      "claimIds": ["os-king"]
+    },
+    {
+      "type": "paragraph",
+      "text": "オシリスが戻ると、セトは72人の仲間と陰謀をめぐらせます。ひそかにオシリスの体の寸法を測り、それに合わせた美しい箱を作らせて宴の席に運び込み、「横たわってぴったり合った者にこの箱を贈ろう」と冗談めかして言いました。皆が順に試しても合わず、最後にオシリスが中に横たわると、仲間たちが駆け寄ってふたを閉め、釘を打ち、溶かした鉛で封じました。箱はナイル川のタニスの河口から海へ流されました。",
+      "claimIds": ["os-plot"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "イシスの旅",
+      "anchor": "isis"
+    },
+    {
+      "type": "paragraph",
+      "text": "知らせを聞いたイシスは髪を一房切り、喪服をまとって夫を探してさまよいました。子どもたちから箱が流された河口を教わり、さらに箱がビブロスの海岸に打ち上げられて、一本の木の幹の中に包み込まれていることを知ります。その木は王の目にとまって切り取られ、王宮の屋根を支える柱になっていました。",
+      "claimIds": ["os-search"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ビブロスに着いたイシスは王妃の侍女たちと親しくなり、王子の乳母として王宮に迎えられます。夜には王子の体の死すべき部分を火で焼いて不死にしようとし、自らはツバメに姿を変えて柱のまわりを嘆きながら飛びまわりました。やがて正体を明かしたイシスは柱を譲り受け、箱を取り出して持ち帰りました。",
+      "claimIds": ["os-byblos"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "アヌビスの誕生",
+      "text": "プルタルコスは、オシリスがイシスと思い違えて妹ネフティスと交わったという伝承を記しています。ネフティスはセトを恐れて生まれた子を捨てましたが、イシスは犬の助けで見つけ出して育て、その子はアヌビスと名づけられ、イシスの守り手となりました。",
+      "claimIds": ["os-anubis"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "十四に切り分けられた遺体",
+      "anchor": "dismember"
+    },
+    {
+      "type": "paragraph",
+      "text": "イシスが息子ホルスの育つブトへ向かうあいだ、箱は人目につかない場所に置かれていました。ところが月夜に狩りをしていたセトがこれを見つけ、遺体を十四に切り分けて各地にまき散らします。イシスはパピルスの舟で沼地をめぐり、遺体を探し集めました。",
+      "claimIds": ["os-dismember"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "オシリスの墓がたくさんある理由",
+      "text": "エジプトに「オシリスの墓」とされる場所が数多くあるのは、イシスが遺体の部分を見つけるたびにその場で葬儀を行ったからだといいます。一方で、イシスが遺体の像を作って各地の町に配り、セトに本当の墓を見つけられないようにしたのだという伝承もあります。",
+      "claimIds": ["os-tombs"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ホルスの仇討ち",
+      "anchor": "horus"
+    },
+    {
+      "type": "paragraph",
+      "text": "のちにオシリスは冥界からホルスのもとを訪れ、戦いに備えて鍛えました。「最も気高いことは何か」と問われたホルスは「父と母の受けた悪に報いること」と答え、オシリスを満足させます。",
+      "claimIds": ["os-train"]
+    },
+    {
+      "type": "paragraph",
+      "text": "戦いは何日も続き、ホルスが勝利しました。しかし鎖につながれて引き渡されたセトを、イシスは殺さずに解き放ってしまいます。怒ったホルスは母の頭から王冠をもぎ取りましたが、ヘルメス（トト）が代わりに牝牛の頭の形をした兜をイシスにかぶせたといいます。",
+      "claimIds": ["os-victory"]
+    },
+    {
+      "type": "note",
+      "classification": "variant",
+      "title": "エジプトのパピルスが伝える争い",
+      "text": "エジプトの第20王朝のパピルスに記された「ホルスとセトの争い」では、王位をめぐる争いが神々の法廷を舞台に語られます。二柱はさまざまな勝負を重ね、その中でセトがホルスの目を奪い、女神ハトホルがガゼルの乳で癒やしたといいます。最後にホルスが勝利して父の王位を継ぎました。",
+      "claimIds": ["os-contendings"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘロドトスも、エジプトを治めた神々の最後の王はオシリスの子ホルスで、テュポン（セト）を退けたと記しています。",
+      "claimIds": ["os-herodotus"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "作品の中のオシリスとセト",
+      "anchor": "works"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ジョジョの奇妙な冒険 第3部』では、ダニエル・J・ダービーのスタンド「オシリス神」が賭けに負けた者の魂をコインに変え、アレッシーのスタンド「セト神」が影に触れた相手を幼児に戻します。詳しくは[『ジョジョ』エジプト9栄神の元ネタ](/articles/jojo-egyptian-gods/)で解説しています。",
+      "claimIds": ["os-work-jojo"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "オシリスは弟セトの策略で箱に閉じ込められ、ナイル川に流された",
+        "イシスはビブロスで箱を見つけて持ち帰ったが、遺体はセトに十四に切り分けられた",
+        "オシリスは冥界からホルスを鍛え、ホルスはセトに勝利した",
+        "物語の全体像はギリシャ人プルタルコスの記録に拠る"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "os-days",
+      "text": "太陽はレアがどの月にもどの年にも出産できないよう呪った。ヘルメスは月と双六をして光の七十分の一を得、5日をつくって360日に加えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12章"
+    },
+    {
+      "id": "os-birth",
+      "text": "5日間の一日目にオシリス、二日目にアルエリス（大ホルス）、三日目にテュポン、四日目にイシス、五日目にネフティスが生まれた。テュポンは月満ちて正しく生まれず、母の脇腹を破って飛び出した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12章"
+    },
+    {
+      "id": "os-names",
+      "text": "プルタルコスはセトをテュポン、トトをヘルメスの名で呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12–13章"
+    },
+    {
+      "id": "os-king",
+      "text": "オシリスはエジプト人に作物の栽培と法と神々への崇敬を教え、武器を使わず言葉と歌と音楽で世界を教化した。ギリシャ人は彼をディオニュソスと同一視した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』13章"
+    },
+    {
+      "id": "os-plot",
+      "text": "テュポンは72人の共謀者を集め、オシリスの寸法に合わせた箱を宴に運ばせて、ぴったり合う者に贈ると言った。オシリスが横たわるとふたを閉めて釘と溶かした鉛で封じ、タニスの河口から海へ流した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』13章"
+    },
+    {
+      "id": "os-search",
+      "text": "イシスは髪を一房切って喪服をまとい、箱を探してさまよった。子どもたちから河口を教わり、箱がビブロスに打ち上げられてエリカの木の幹に包まれ、王宮の屋根を支える柱にされていることを知った。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』14–15章"
+    },
+    {
+      "id": "os-byblos",
+      "text": "イシスは王妃の侍女たちと親しくなって王子の乳母となり、夜には王子の死すべき部分を焼き、自らはツバメに変じて柱のまわりを飛びながら嘆いた。正体を明かしたのち柱を譲り受け、箱を取り出した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』15–16章"
+    },
+    {
+      "id": "os-anubis",
+      "text": "オシリスはイシスと思い違えてその妹と交わった。母はテュポンを恐れて子を捨てたが、イシスは犬の助けで見つけて育て、その子はアヌビスと名づけられてイシスの守り手となった。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』14章"
+    },
+    {
+      "id": "os-dismember",
+      "text": "イシスがブトで育つ息子ホルスのもとへ向かうあいだ、月夜に狩りをしていたテュポンが箱を見つけ、遺体を十四に切り分けてまき散らした。イシスはパピルスの舟で沼地をめぐって探した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』18章"
+    },
+    {
+      "id": "os-tombs",
+      "text": "オシリスの墓が多いのは、イシスが部分を見つけるたびに葬儀を行ったためとされる。一方、イシスが像を作って各地に配り、テュポンに本当の墓を見つけられないようにしたという説もある。",
+      "classification": "variant",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』18章"
+    },
+    {
+      "id": "os-train",
+      "text": "オシリスは冥界からホルスのもとに来て戦いに備えて鍛えた。最も気高いことを問われたホルスは「父と母の受けた悪に報いること」と答えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』19章"
+    },
+    {
+      "id": "os-victory",
+      "text": "戦いは何日も続きホルスが勝ったが、イシスは鎖につながれたテュポンを殺さずに解き放った。ホルスは母の頭から王冠をもぎ取り、ヘルメスが牝牛の頭の形の兜をイシスにかぶせた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』19章"
+    },
+    {
+      "id": "os-contendings",
+      "text": "「ホルスとセトの争い」では、ホルスとセトが神々の法廷で王位を争い、さまざまな勝負の末にホルスが勝利して王位を継ぐ。その過程でセトがホルスの目を奪い、ハトホルがガゼルの乳で癒やす。",
+      "classification": "variant",
+      "sourceIds": ["contendings-horus-seth"],
+      "verificationStatus": "verified",
+      "sourceLocation": "チェスター・ビーティー・パピルス第1「ホルスとセトの争い」"
+    },
+    {
+      "id": "os-herodotus",
+      "text": "エジプトを治めた最後の神はオシリスの子ホルスで、テュポンを退けた。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』2.144"
+    },
+    {
+      "id": "os-work-jojo",
+      "text": "『ジョジョ』第3部のダニエル・J・ダービーのスタンド「オシリス神」は敗北を認めた相手の魂をコインに変え、アレッシーのスタンド「セト神」は影に触れた相手を若返らせる。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    }
+  ]
+}

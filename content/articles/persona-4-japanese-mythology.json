@@ -1,0 +1,288 @@
+{
+  "id": "persona-4-japanese-mythology",
+  "slug": "persona-4-japanese-mythology",
+  "title": "『ペルソナ4』の元ネタ｜イザナギ・イザナミと黄泉比良坂、仲間たちのペルソナと日本神話",
+  "shortTitle": "『ペルソナ4』の元ネタ",
+  "eyecatchText": "ペルソナ4",
+  "description": "『ペルソナ4』の主人公のペルソナ・イザナギと、黒幕イザナミ、最終決戦の地・黄泉比良坂。陽介のスサノオ、雪子のアマテラス、直斗のヤマトタケルまで、物語の核にある日本神話を『古事記』の記述から解説します。",
+  "lead": "『ペルソナ4』は、主人公が最初に呼び出すペルソナがイザナギで、最後に対峙する黒幕がイザナミ、決戦の地が黄泉比良坂という、日本神話の夫婦神の物語を骨格にした作品です。原典のイザナギとイザナミはどのような神で、黄泉比良坂では何が起きたのでしょうか。",
+  "category": "character-origins",
+  "tags": [
+    "ペルソナ4",
+    "イザナギ",
+    "イザナミ",
+    "黄泉比良坂",
+    "スサノオ",
+    "日本神話"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "izanagi",
+    "izanami",
+    "susanoo",
+    "amaterasu",
+    "yamato-takeru",
+    "kagutsuchi"
+  ],
+  "mythologyIds": ["japanese"],
+  "storyIds": ["izanagi-yomi", "birth-of-three-noble-children"],
+  "workIds": ["persona-4"],
+  "characterIds": [
+    "persona-4-protagonist",
+    "persona-4-izanami",
+    "persona-4-yosuke-hanamura",
+    "persona-4-yukiko-amagi",
+    "persona-4-naoto-shirogane"
+  ],
+  "topicIds": ["underworld", "taboo"],
+  "sourceIds": ["work-persona-4", "kojiki"],
+  "relatedArticleIds": [
+    "izanagi-and-orpheus",
+    "amaterasu",
+    "japanese-mythology-overview"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "元ネタ早見表",
+      "anchor": "overview"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "主人公（鳴上悠）のペルソナ → イザナギ：イザナミとともに国を生んだ男神",
+        "黒幕イザナミ → イザナミ：黄泉国の神となった女神",
+        "花村陽介のペルソナ → スサノオ（建速須佐之男命）",
+        "天城雪子のペルソナ → アマテラス（天照大御神）",
+        "白鐘直斗のペルソナ → ヤマトタケル（倭建命）"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "イザナギとイザナミ——物語の骨格",
+      "anchor": "couple"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ペルソナ4』の主人公が最初に覚醒したペルソナはイザナギです。そして一連の事件の「すべての元凶」は、ガソリンスタンドの店員の姿で正体を隠していたイザナミでした。最終決戦の地・黄泉比良坂で、イザナミは真の姿「伊耶那美大神」を現し、主人公はイザナギを伊邪那岐大神へと転生させてこれを倒します。",
+      "claimIds": ["p4a-work-final"]
+    },
+    {
+      "type": "paragraph",
+      "text": "原典のイザナギとイザナミは、国土と多くの神々を生んだ夫婦神です。しかしイザナミは火の神カグツチを生んだときに焼かれて亡くなり、黄泉国へ去ってしまいました。",
+      "claimIds": ["p4a-myth-death"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "黄泉比良坂で起きたこと",
+      "anchor": "yomotsu"
+    },
+    {
+      "type": "paragraph",
+      "text": "妻に会いたいと黄泉国を訪れたイザナギに、イザナミは「もう黄泉の国の食べ物を食べてしまった。でも帰れるよう黄泉の神と相談してみるので、その間私を見ないで」と言って御殿の奥へ入ります。待ちきれなくなったイザナギが櫛の歯に火をともして中をのぞくと、イザナミの体には蛆がわき、頭や胸など八か所に雷神が宿っていました。",
+      "claimIds": ["p4a-myth-look"]
+    },
+    {
+      "type": "paragraph",
+      "text": "恐れて逃げ出したイザナギを、イザナミは「私に恥をかかせた」と、黄泉の醜女や雷神、千五百の黄泉の軍勢に追わせます。イザナギは黄泉比良坂のふもとで桃の実を投げて追っ手を退け、最後に自ら追ってきたイザナミとの間を、千人がかりで動かすほどの大岩「千引の石」でふさぎました。",
+      "claimIds": ["p4a-myth-flee"]
+    },
+    {
+      "type": "quote",
+      "text": "「愛しい夫よ、あなたがこのようなことをするなら、あなたの国の人を一日に千人絞め殺しましょう」。イザナギは答えた。「愛しい妻よ、あなたがそうするなら、私は一日に千五百の産屋を建てよう」。",
+      "sourceId": "kojiki",
+      "location": "上巻（黄泉国）",
+      "claimIds": ["p4a-myth-curse"],
+      "translationNote": "原文（漢文）からの編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "こうして、一日に必ず千人が死に、千五百人が生まれるようになったと『古事記』は語ります。イザナミはこののち黄泉津大神と呼ばれ、黄泉比良坂は「今の出雲国の伊賦夜坂である」と記されています。",
+      "claimIds": ["p4a-myth-curse", "p4a-myth-place"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "別れの坂から決戦の坂へ",
+      "text": "原典の黄泉比良坂は、夫婦神が石をはさんで決別し、人の生と死の数が定まった場所です。『ペルソナ4』はこの坂を、主人公（イザナギ）と黒幕（イザナミ）が最後に対峙する舞台に置き換えています。",
+      "claimIds": ["p4a-myth-curse", "p4a-work-final", "p4a-cmp-final"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "仲間たちのペルソナ",
+      "anchor": "party"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "花村陽介——タケハヤスサノオ",
+      "anchor": "yosuke"
+    },
+    {
+      "type": "paragraph",
+      "text": "陽介のペルソナはジライヤから、スサノオ、タケハヤスサノオへと変化します。「タケハヤスサノオ」は、『古事記』での正式な神名「建速須佐之男命」に由来します。",
+      "claimIds": ["p4a-work-yosuke", "p4a-myth-susanoo"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "天城雪子——アマテラス",
+      "anchor": "yukiko"
+    },
+    {
+      "type": "paragraph",
+      "text": "雪子のペルソナはコノハナサクヤから、アマテラス、スメオオミカミへと変化します。天照大御神は、イザナギの禊から生まれた太陽の女神で、高天原を治めます。詳しくは[天照大御神とは？](/articles/amaterasu/)で解説しています。",
+      "claimIds": ["p4a-work-yukiko", "p4a-myth-amaterasu"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "白鐘直斗——ヤマトタケル",
+      "anchor": "naoto"
+    },
+    {
+      "type": "paragraph",
+      "text": "直斗のペルソナはスクナヒコナから、ヤマトタケル、ヤマトスメラミコトへと変化します。『古事記』のヤマトタケル（小碓命）は、熊曾建を討つために少女の姿に装って宴にまぎれこみました。男性として振る舞う女性として描かれる直斗の物語と、性別を装って敵を欺くヤマトタケルの逸話には通じるものがあります。",
+      "claimIds": ["p4a-work-naoto", "p4a-myth-yamatotakeru", "p4a-cmp-naoto"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "主人公のペルソナ・イザナギと黒幕イザナミは、国を生んだ夫婦神に由来する",
+        "原典の黄泉比良坂は、イザナギとイザナミが千引の石をはさんで決別した場所",
+        "作品はこの坂を最終決戦の舞台に置き換えている",
+        "陽介のタケハヤスサノオは『古事記』の神名「建速須佐之男命」に由来する"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "p4a-work-final",
+      "text": "主人公が最初に覚醒したペルソナはイザナギ。事件の元凶イザナミはガソリンスタンドの店員の姿で正体を隠していた。最後の決戦の地・黄泉比良坂で伊耶那美大神が真の姿を現し、主人公はイザナギを伊邪那岐大神へ転生させて撃破した。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4a-work-yosuke",
+      "text": "花村陽介のペルソナはジライヤ → スサノオ → タケハヤスサノオと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4a-work-yukiko",
+      "text": "天城雪子のペルソナはコノハナサクヤ → アマテラス → スメオオミカミと変化する。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4a-work-naoto",
+      "text": "白鐘直斗のペルソナはスクナヒコナ → ヤマトタケル → ヤマトスメラミコトと変化する。直斗は男性として振る舞っていた女性である。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-4"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ4」の記述で確認。"
+    },
+    {
+      "id": "p4a-myth-death",
+      "text": "伊耶那美命は火之迦具土神を生んだために焼かれて病み、亡くなった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（神生み〜伊耶那美命の神避り）"
+    },
+    {
+      "id": "p4a-myth-look",
+      "text": "伊耶那美命は「黄泉戸喫をしてしまったが、黄泉神と相談するので私を見ないで」と言った。待ちきれなくなった伊耶那岐命が湯津津間櫛の男柱を一本折って火をともして入ると、伊耶那美命の体には蛆がわき、頭・胸・腹・陰部・両手・両足に八柱の雷神が生じていた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4a-myth-flee",
+      "text": "伊耶那美命は「吾に辱見せつ」と言って予母都志許売を追わせ、さらに八柱の雷神に千五百の黄泉軍を添えて追わせた。伊耶那岐命は黄泉比良坂の坂本で桃の実三つを投げて追っ手を退け、最後に自ら追ってきた伊耶那美命との間を千引石でふさいだ。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4a-myth-curse",
+      "text": "伊耶那美命は「汝の国の人草を一日に千頭絞り殺さむ」と言い、伊耶那岐命は「吾一日に千五百の産屋立てむ」と答えた。こうして一日に必ず千人が死に、千五百人が生まれるようになった。伊耶那美命は黄泉津大神と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4a-myth-place",
+      "text": "『古事記』は黄泉比良坂を「今、出雲国の伊賦夜坂と謂ふ」と記す。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "p4a-myth-susanoo",
+      "text": "『古事記』は須佐之男命を「建速須佐之男命」と記す。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊）"
+    },
+    {
+      "id": "p4a-myth-amaterasu",
+      "text": "天照大御神は伊耶那岐命が禊で左の目を洗ったときに生まれ、高天原を治めるよう命じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+    },
+    {
+      "id": "p4a-myth-yamatotakeru",
+      "text": "小碓命は叔母倭比売命の衣装を着て童女の姿となり、熊曾建の新室の宴にまぎれこんで兄弟を討った。このとき熊曾建から倭建の名を献じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の西征）"
+    },
+    {
+      "id": "p4a-cmp-final",
+      "text": "原典で夫婦神が決別した黄泉比良坂が、作品では最終決戦の舞台に置き換えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "p4a-cmp-naoto",
+      "text": "性別を装って敵を欺くヤマトタケルの逸話と、直斗の物語には通じるものがある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作品の意図は確認できないため、共通点の指摘にとどめる。"
+    }
+  ]
+}

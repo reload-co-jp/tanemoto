@@ -1,5 +1,9 @@
 {
-  "featuredArticleIds": ["saint-seiya-greek-gods", "athena", "poseidon"],
+  "featuredArticleIds": [
+    "saint-seiya-greek-gods",
+    "naruto-japanese-mythology",
+    "cu-chulainn"
+  ],
   "popularArticleIds": [
     "saint-seiya-greek-gods",
     "medusa",

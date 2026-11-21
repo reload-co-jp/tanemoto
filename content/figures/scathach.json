@@ -1,0 +1,17 @@
+{
+  "id": "scathach",
+  "slug": "scathach",
+  "name": "スカアハ",
+  "reading": "すかあは",
+  "originalName": "Scáthach",
+  "romanized": "Scáthach",
+  "alternativeNames": [],
+  "type": "human",
+  "roles": ["女戦士", "武芸の師"],
+  "mythologyIds": ["celtic"],
+  "description": "クー・フーリンとフェル・ディアドに武芸を教えた女戦士。『クアルンゲの牛捕り』では、二人がともにスカアハのもとで同じ戦いの技を学んだ「乳兄弟」であったことが語られる。",
+  "relatedFigureIds": ["cu-chulainn"],
+  "relatedStoryIds": ["death-of-ferdiad"],
+  "articleIds": [],
+  "sourceIds": ["tain-bo-cuailnge"]
+}

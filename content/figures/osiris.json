@@ -1,0 +1,21 @@
+{
+  "id": "osiris",
+  "slug": "osiris",
+  "name": "オシリス",
+  "reading": "おしりす",
+  "originalName": "Wsjr",
+  "romanized": "Osiris",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["冥界の王", "豊穣", "死と再生"],
+  "mythologyIds": ["egyptian"],
+  "description": "エジプトの王として人々に農耕と法を授けたが、弟セトの策略で棺に閉じ込められて殺され、のちに体をばらばらにされた。妻イシスに集められて復活し、冥界の王となった。ヘロドトスやプルタルコスはギリシャのディオニュソスにあたる神とする。",
+  "relatedFigureIds": ["isis", "set", "horus", "anubis"],
+  "relatedStoryIds": ["death-of-osiris", "weighing-of-the-heart"],
+  "articleIds": [],
+  "sourceIds": [
+    "plutarch-isis-osiris",
+    "herodotus-histories",
+    "book-of-the-dead"
+  ]
+}

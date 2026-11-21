@@ -1,0 +1,89 @@
+{
+  "id": "jojo-alessi",
+  "slug": "jojo-alessi",
+  "name": "アレッシー",
+  "reading": "あれっしー",
+  "alternativeNames": [],
+  "workId": "jojo-stardust-crusaders",
+  "description": {
+    "text": "子どものような弱い者をいじめることに快楽を覚える陰湿なスタンド使い。スタンド「セト神」で相手を幼児に戻し、相対的に有利な立場をとる。",
+    "claimIds": ["jj-alessi-work", "jj-alessi-work-nine"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "set",
+      "label": "セト",
+      "inWork": {
+        "text": "スタンド「セト神」は本体の影と一体化しており、影に触れた相手をどこまでも若返らせる。若返った相手は記憶や知性、スタンド能力もその年齢の状態に戻る。",
+        "claimIds": ["jj-alessi-work-set"]
+      },
+      "inMyth": {
+        "text": "セトは兄オシリスを謀殺して王位を奪った神。オシリスの子ホルスと王位を争い、ホルスの目を奪ったと伝えられる。",
+        "claimIds": ["jj-alessi-myth", "jj-alessi-myth-eye"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のセトは、成長途上の甥ホルスを相手に王位を争った「年長者」の神。弱い者を狙うアレッシーの人物像と、子どもに戻した相手を襲う能力には、若きホルスを脅かすセトのイメージを重ねて読むこともできる。",
+      "claimIds": ["jj-alessi-myth", "jj-alessi-work-set", "jj-alessi-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jj-alessi-work",
+      "text": "アレッシーは子どものような弱者をいじめることで快楽を得る陰湿な性格のスタンド使い。「セト神」で相手を幼児化させ、相対的に有利となる。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-alessi-work-nine",
+      "text": "エジプト上陸後の刺客は「エジプト9栄神」のカードの暗示をもつスタンド使いとされる。実際のエジプト神話に「9栄神」という区分はなく、作品独自の設定である。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-alessi-work-set",
+      "text": "スタンド「セト神」は本体の影と一体化し、影に触れた相手を無制限に若返らせる。若返らせた相手の記憶力や知性、スタンド能力も当時の状態に戻る。名前の由来は嵐と暴力の神セト。",
+      "classification": "creative",
+      "sourceIds": ["work-jojo-stardust-crusaders"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「スターダストクルセイダース」の記述で確認。"
+    },
+    {
+      "id": "jj-alessi-myth",
+      "text": "テュポン（セト）は72人の共謀者と箱を用いてオシリスを殺し、のちにその遺体を14に切り分けた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』13・18章"
+    },
+    {
+      "id": "jj-alessi-myth-eye",
+      "text": "「ホルスとセトの争い」では、王位を争う中でセトがホルスの目を奪い、女神ハトホルがガゼルの乳でそれを癒やす。",
+      "classification": "fact",
+      "sourceIds": ["contendings-horus-seth"],
+      "verificationStatus": "verified",
+      "sourceLocation": "チェスター・ビーティー・パピルス第1「ホルスとセトの争い」"
+    },
+    {
+      "id": "jj-alessi-cmp",
+      "text": "子どもに戻した相手を襲う能力には、若きホルスを脅かすセトのイメージを重ねて読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、筆者の読みとして示す。"
+    }
+  ],
+  "sourceIds": [
+    "work-jojo-stardust-crusaders",
+    "plutarch-isis-osiris",
+    "contendings-horus-seth"
+  ],
+  "articleIds": []
+}

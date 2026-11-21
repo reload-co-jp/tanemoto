@@ -1,0 +1,15 @@
+{
+  "id": "kushinadahime",
+  "slug": "kushinadahime",
+  "name": "クシナダヒメ",
+  "reading": "くしなだひめ",
+  "alternativeNames": ["櫛名田比売", "奇稲田姫"],
+  "type": "god",
+  "roles": ["稲田", "大蛇の生贄"],
+  "mythologyIds": ["japanese"],
+  "description": "出雲の国つ神アシナヅチ・テナヅチの娘で、八人姉妹の末娘。姉たちは毎年ヤマタノオロチに食われていた。スサノオは彼女を櫛に変えて髪に挿し、大蛇を退治したのち妻とした。『古事記』では櫛名田比売、『日本書紀』では奇稲田姫と書く。",
+  "relatedFigureIds": ["susanoo", "yamata-no-orochi"],
+  "relatedStoryIds": ["yamata-no-orochi-slaying"],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

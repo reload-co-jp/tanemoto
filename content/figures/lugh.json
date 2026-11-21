@@ -1,0 +1,17 @@
+{
+  "id": "lugh",
+  "slug": "lugh",
+  "name": "ルー",
+  "reading": "るー",
+  "originalName": "Lug",
+  "romanized": "Lugh",
+  "alternativeNames": ["ルグ", "ルー・ラヴァーダ"],
+  "type": "god",
+  "roles": ["光", "あらゆる技芸", "槍"],
+  "mythologyIds": ["celtic"],
+  "description": "トゥアタ・デー・ダナンの神。父はディアン・ケーフトの子キアン、母はフォウォレの王バロールの娘エトネ。あらゆる技芸に通じる「サウィルダーナハ（多芸の者）」としてタラの王宮に迎えられ、マグ・トゥレドの戦いで祖父バロールを投石器で討った。",
+  "relatedFigureIds": ["balor", "nuada", "cu-chulainn"],
+  "relatedStoryIds": ["second-battle-of-mag-tuired"],
+  "articleIds": [],
+  "sourceIds": ["cath-maige-tuired"]
+}

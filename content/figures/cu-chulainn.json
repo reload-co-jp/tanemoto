@@ -1,0 +1,21 @@
+{
+  "id": "cu-chulainn",
+  "slug": "cu-chulainn",
+  "name": "クー・フーリン",
+  "reading": "くー・ふーりん",
+  "originalName": "Cú Chulainn",
+  "romanized": "Cú Chulainn",
+  "alternativeNames": ["クー・フリン", "クーフーリン", "セタンタ"],
+  "type": "hero",
+  "roles": ["アルスターの英雄", "槍ゲイ・ボルグ"],
+  "mythologyIds": ["celtic"],
+  "description": "アルスター物語群の主人公。幼名はセタンタ。鍛冶師クランの番犬を殺し、代わりに自分が番犬になると申し出たことから「クランの猛犬（クー・フーリン）」と名づけられた。影の国の女戦士スカアハに武芸を学び、『クアルンゲの牛捕り』ではコナハトの軍勢をただ一人で食い止めた。",
+  "relatedFigureIds": ["scathach", "medb", "lugh"],
+  "relatedStoryIds": [
+    "naming-of-cu-chulainn",
+    "death-of-ferdiad",
+    "death-of-cu-chulainn"
+  ],
+  "articleIds": [],
+  "sourceIds": ["tain-bo-cuailnge", "aided-con-culainn"]
+}

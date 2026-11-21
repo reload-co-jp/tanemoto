@@ -1,0 +1,38 @@
+[
+  {
+    "id": "death-of-osiris",
+    "title": "オシリスの死と復活",
+    "mythologyIds": ["egyptian"],
+    "figureIds": ["osiris", "isis", "set", "horus", "anubis"],
+    "summary": "セトは兄オシリスの体の寸法に合わせた美しい箱を作らせ、宴で「ぴったり合った者に与える」と言って兄を中に入れ、ふたを閉じてナイル川に流した。イシスは箱をビブロスで見つけて持ち帰ったが、セトに見つかり遺体は十四に切り分けられて各地にまかれた。イシスは遺体を探し集め、オシリスは冥界からホルスを鍛えて仇討ちに備えさせた。",
+    "sourceIds": ["plutarch-isis-osiris"],
+    "sourceLocation": "プルタルコス『イシスとオシリスについて』13–19章"
+  },
+  {
+    "id": "contendings-of-horus-and-set",
+    "title": "ホルスとセトの争い",
+    "mythologyIds": ["egyptian"],
+    "figureIds": ["horus", "set", "isis"],
+    "summary": "オシリスの死後、息子ホルスと弟セトが王位を争い、神々の法廷で裁きが続けられる。二柱はさまざまな勝負や戦いを繰り返し、その中でホルスはセトに目を奪われるが、女神ハトホルがガゼルの乳で癒やした。最後にホルスが勝利し、父の王位を継いだ。",
+    "sourceIds": ["contendings-horus-seth", "plutarch-isis-osiris"],
+    "sourceLocation": "チェスター・ビーティー・パピルス第1「ホルスとセトの争い」、プルタルコス『イシスとオシリスについて』19章"
+  },
+  {
+    "id": "weighing-of-the-heart",
+    "title": "心臓の計量（死者の裁判）",
+    "mythologyIds": ["egyptian"],
+    "figureIds": ["anubis", "thoth", "osiris"],
+    "summary": "死者は冥界でオシリスの前に引き出され、その心臓が天秤にかけられて真理の女神マアトの羽根と比べられる。アヌビスが天秤に立ち会い、トトが結果を記録する。罪で重くなった心臓は、ワニの頭・ライオンの上半身・カバの下半身をもつ「死者を食らうもの」アメミトに食べられてしまう。",
+    "sourceIds": ["book-of-the-dead"],
+    "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+  },
+  {
+    "id": "destruction-of-mankind",
+    "title": "人類の滅亡",
+    "mythologyIds": ["egyptian"],
+    "figureIds": ["ra"],
+    "summary": "老いた太陽神ラーに対して人間たちが反逆を企てる。ラーは神々と相談して女神ハトホルを「ラーの目」として送り、反逆者たちを殺させた。人類が滅ぼし尽くされる前に、ラーは血のように赤く染めたビールでハトホルを酔わせて殺戮を止め、その後、天の牝牛の背に乗って天へ去った。",
+    "sourceIds": ["book-of-heavenly-cow"],
+    "sourceLocation": "「天の牝牛の書」前半"
+  }
+]

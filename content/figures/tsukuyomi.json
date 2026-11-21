@@ -1,0 +1,15 @@
+{
+  "id": "tsukuyomi",
+  "slug": "tsukuyomi",
+  "name": "月読命",
+  "reading": "つくよみのみこと",
+  "alternativeNames": ["ツクヨミ", "月夜見尊"],
+  "type": "god",
+  "roles": ["月", "夜"],
+  "mythologyIds": ["japanese"],
+  "description": "イザナギが禊で右の目を洗ったときに生まれた神で、夜の世界を治めるよう命じられた。『古事記』にはほとんど物語がないが、『日本書紀』の一書では保食神を斬ったことで天照大神の怒りを買い、日と月が離れて住むようになった由来が語られる。",
+  "relatedFigureIds": ["izanagi", "amaterasu", "susanoo"],
+  "relatedStoryIds": ["birth-of-three-noble-children"],
+  "articleIds": [],
+  "sourceIds": ["kojiki", "nihon-shoki"]
+}

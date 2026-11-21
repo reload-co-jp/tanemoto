@@ -1,0 +1,171 @@
+{
+  "id": "celtic-mythology-overview",
+  "slug": "celtic-mythology-overview",
+  "title": "ケルト神話とは？アイルランドの写本に残る神々と英雄の物語をわかりやすく解説",
+  "shortTitle": "ケルト神話とは？",
+  "eyecatchText": "ケルト神話",
+  "description": "ケルト神話はどんな資料から知られているのか。中世アイルランドの写本に書き留められた「神話物語群」と「アルスター物語群」を中心に、神々の一族トゥアタ・デー・ダナン、光の神ルー、英雄クー・フーリンなどを原典にもとづいて紹介します。",
+  "lead": "『Fate』シリーズのクー・フーリンやスカアハ、ゲームに登場する邪眼のバロールや銀の腕のヌアザ。これらの名はケルト神話に由来します。といっても、その物語の大半は古代のケルト人ではなく、中世アイルランドの修道士たちが書き留めたものです。ケルト神話を読むための基本を整理します。",
+  "category": "basics",
+  "tags": [
+    "ケルト神話",
+    "アイルランド",
+    "トゥアタ・デー・ダナン",
+    "クー・フーリン",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["lugh", "nuada", "balor", "cu-chulainn", "scathach", "medb"],
+  "mythologyIds": ["celtic"],
+  "storyIds": [
+    "second-battle-of-mag-tuired",
+    "naming-of-cu-chulainn",
+    "death-of-ferdiad",
+    "death-of-cu-chulainn"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["cath-maige-tuired", "tain-bo-cuailnge", "aided-con-culainn"],
+  "relatedArticleIds": ["cu-chulainn", "lugh-and-balor"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "文字を残さなかったケルト人",
+      "anchor": "sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "古代のケルト人は、ヨーロッパの広い地域に暮らしていましたが、自分たちの神話を文字に残しませんでした。大陸のケルトの神々については、ローマ人の記録や碑文からわずかに知られるだけです。",
+      "claimIds": []
+    },
+    {
+      "type": "paragraph",
+      "text": "今日「ケルト神話」として知られる物語の多くは、キリスト教化したのちのアイルランドで修道士たちが書き留めた写本によって伝わっています。たとえば『マグ・トゥレドの戦い』は16世紀の写本（大英図書館 Harleian MS 5280）に、『クアルンゲの牛捕り』は11〜12世紀の『赤牛の書』などに記されています。",
+      "claimIds": ["co-mss"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "物語群の分類",
+      "anchor": "cycles"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "神話物語群：神々の一族トゥアタ・デー・ダナンと魔族フォウォレの戦いなどを語る（『マグ・トゥレドの戦い』など）",
+        "アルスター物語群：アルスターの王コンホヴァルと英雄クー・フーリンの時代を語る（『クアルンゲの牛捕り』など）",
+        "フィン物語群：英雄フィン・マックールと戦士団フィアナの物語",
+        "王の物語群：歴史上・伝説上のアイルランド王たちの物語"
+      ],
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神話物語群——トゥアタ・デー・ダナン",
+      "anchor": "tuatha"
+    },
+    {
+      "type": "paragraph",
+      "text": "『マグ・トゥレドの戦い』は、トゥアタ・デー・ダナンが北方の島々の四つの都で学問と魔術を身につけ、四つの宝をアイルランドにもたらしたと語ります。",
+      "claimIds": ["co-treasures"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ファリアスの「ファールの石」：アイルランドの王となる者の下で叫んだ",
+        "ゴリアスの「ルーの槍」：これを手にした者に勝てる戦はなかった",
+        "フィンディアスの「ヌアザの剣」：鞘から抜かれれば、逃れられる者はいなかった",
+        "ムリアスの「ダグザの大釜」：これから食べて満たされずに去る者はいなかった"
+      ],
+      "claimIds": ["co-treasures"]
+    },
+    {
+      "type": "paragraph",
+      "text": "トゥアタ・デー・ダナンの王ヌアザは戦いで片腕を失って王位を退き、銀の腕をつけて「銀の腕のヌアザ」と呼ばれます。のちに、あらゆる技芸に通じた若者ルーが現れ、フォウォレの王バロールを討ちました。詳しくは[ルーとバロール](/articles/lugh-and-balor/)で解説しています。",
+      "claimIds": ["co-nuada"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アルスター物語群——クー・フーリン",
+      "anchor": "ulster"
+    },
+    {
+      "type": "paragraph",
+      "text": "アルスター物語群の主人公クー・フーリンは、少年時代に鍛冶師クランの番犬を殺し、代わりに自分が番犬になると申し出たことから「クランの猛犬」と名づけられました。『クアルンゲの牛捕り』では、コナハトの女王メドヴの大軍を、17歳のクー・フーリンがただ一人で食い止めます。詳しくは[クー・フーリンとは？](/articles/cu-chulainn/)で解説しています。",
+      "claimIds": ["co-cuchulainn"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "表記について",
+      "text": "アイルランド語の名前は日本語での表記がゆれやすく、クー・フーリンは「クー・フリン」、メドヴは「メイヴ」とも書かれます。トモタネでは、作品で広く使われている表記を見出しに用い、別表記を併記します。",
+      "claimIds": ["co-names"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ケルト神話の多くは、中世アイルランドの写本によって伝わる",
+        "神々を語る「神話物語群」と、クー・フーリンらの「アルスター物語群」などに分けられる",
+        "トゥアタ・デー・ダナンの四つの宝には、ルーの槍やヌアザの剣、ダグザの大釜がある"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "co-mss",
+      "text": "『マグ・トゥレドの戦い』は大英図書館 Harleian MS 5280 に伝わる。『クアルンゲの牛捕り』第1校訂本は『赤牛の書』などの写本に伝わる。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired", "tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "cath-maige-tuired: CELT 書誌情報; tain-bo-cuailnge: CELT 書誌情報"
+    },
+    {
+      "id": "co-treasures",
+      "text": "トゥアタ・デー・ダナンは北方の島々のファリアス、ゴリアス、ムリアス、フィンディアスの四つの都で学問と魔術を学んだ。ファリアスからはタラにあって王となる者の下で叫んだファールの石、ゴリアスからはルーの槍、フィンディアスからはヌアザの剣、ムリアスからはダグザの大釜がもたらされた。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 57–59頁"
+    },
+    {
+      "id": "co-nuada",
+      "text": "第一のマグ・トゥレドの戦いでヌアザは片腕を切り落とされ、医神ディアン・ケーフトが銀の腕をつけた。片腕を失ったヌアザは王にふさわしくないとされた。",
+      "classification": "fact",
+      "sourceIds": ["cath-maige-tuired"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 59–61頁"
+    },
+    {
+      "id": "co-cuchulainn",
+      "text": "少年は鍛冶師クランの番犬を殺し、代わりの犬が育つまで自分が番犬になると申し出て、クー・フーリン（クランの猛犬）と名づけられた。17歳のとき、メドヴの軍勢に立ち向かった。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 134頁・140–142頁"
+    },
+    {
+      "id": "co-names",
+      "text": "アイルランド語の固有名は日本語表記がゆれやすく、作品で広く使われる表記を見出しに用いる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}
