@@ -35,13 +35,17 @@ const styles = css`
     }
   }
   .t-hero__art {
-    display: none;
-    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+    margin: -8px auto 20px;
     pointer-events: none;
   }
   @media ${bp.lg} {
     .t-hero__art {
-      display: block;
+      position: absolute;
+      margin: 0;
       right: 28px;
       top: 50%;
       transform: translateY(-50%);
