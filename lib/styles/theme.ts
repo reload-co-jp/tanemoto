@@ -1,49 +1,60 @@
 /**
  * デザイントークン。色・書体・余白はすべてここから参照する。
- * アニメ公式サイトのような、パステル（ピンク×ミント×イエロー）の
- * ゆめかわ系ポップデザインを基調とする。
+ * マスコット（フェレットの旅人）のキャラクターシートのカラーパレット
+ * 「深緑 #324b4a／セージ #7c8d67／金 #edb24d／クリーム #f9e0c2／茶 #664c43」を基調とする。
+ * 冒険の書のような、生成り紙×深緑のマント×金の羅針盤のトーン。
  * （方眼の背景・斜めストライプの枠・レトロOS風ウィンドウ・吹き出し）
  */
-export const color = {
-  /** 見出し・濃色テキスト（くすみプラム） */
-  ink: "#4b3552",
-  inkDeep: "#3a2840",
-  charcoal: "#55475e",
-  /** 背景 */
-  cream: "#fff8fb",
-  paper: "#ffffff",
-  /** アクセント：パステルピンク（装飾用） */
-  accent: "#ff78a6",
-  /** アクセント：本文中で使う濃いピンク（コントラスト確保用） */
-  accentDeep: "#cf2f6a",
-  accentPale: "#ffe4ee",
-  /** サブアクセント */
-  mint: "#63d8dd",
-  mintDeep: "#0b7a84",
-  mintPale: "#dcf6f6",
-  yellow: "#ffe27a",
-  yellowPale: "#fff6d2",
-  sky: "#8cc8ff",
-  violet: "#b79cff",
-  violetPale: "#f1eaff",
-  /** 本文 */
-  text: "#4a3f55",
-  muted: "#77697f",
-  /** 罫線（ピンク系） */
-  border: "#ffd3e2",
-  borderStrong: "#ff9dc0",
-  /** パネルの輪郭線 */
-  line: "#ff9dc0",
-  /** パネルの影（ミント） */
-  glow: "rgba(99, 216, 221, 0.55)",
-  link: "#0b7a84",
+export const palette = {
+  green: "#324b4a",
+  sage: "#7c8d67",
+  gold: "#edb24d",
+  cream: "#f9e0c2",
+  brown: "#664c43",
 } as const
 
-/** パネルのずらし影（パステル） */
+export const color = {
+  /** 見出し・濃色テキスト（深緑） */
+  ink: "#2c4241",
+  inkDeep: "#1f3130",
+  charcoal: "#4a4540",
+  /** 背景（生成り） */
+  cream: "#fbf6ec",
+  paper: "#fffdf8",
+  /** アクセント：マントの深緑（装飾・見出し） */
+  accent: palette.green,
+  /** アクセント：本文中で使う濃い深緑（コントラスト確保用） */
+  accentDeep: "#243837",
+  accentPale: "#e7ece6",
+  /** サブアクセント：セージ */
+  mint: palette.sage,
+  mintDeep: "#4d5e3a",
+  mintPale: "#eef0e4",
+  /** 金（羅針盤） */
+  yellow: palette.gold,
+  yellowPale: "#fbeed2",
+  /** 空・茶 */
+  sky: "#9db8c4",
+  violet: "#a3806e",
+  violetPale: "#f6e9dc",
+  /** 本文 */
+  text: "#3d3a36",
+  muted: "#6b645c",
+  /** 罫線（生成りの縁） */
+  border: "#ecdcc0",
+  borderStrong: "#c9ad7f",
+  /** パネルの輪郭線 */
+  line: "#c9ad7f",
+  /** パネルの影（金） */
+  glow: "rgba(237, 178, 77, 0.5)",
+  link: "#4d5e3a",
+} as const
+
+/** パネルのずらし影（金） */
 export const shadow = {
-  sm: "3px 3px 0 rgba(99, 216, 221, 0.55)",
-  md: "5px 5px 0 rgba(99, 216, 221, 0.55)",
-  lg: "8px 8px 0 rgba(99, 216, 221, 0.55)",
+  sm: "3px 3px 0 rgba(237, 178, 77, 0.5)",
+  md: "5px 5px 0 rgba(237, 178, 77, 0.5)",
+  lg: "8px 8px 0 rgba(237, 178, 77, 0.5)",
 } as const
 
 export const radius = {
@@ -55,10 +66,10 @@ export const radius = {
 /** 背景パターン */
 export const pattern = {
   /** 方眼 */
-  grid: (line = "rgba(255, 157, 192, 0.18)", size = 24) =>
+  grid: (line = "rgba(124, 141, 103, 0.14)", size = 24) =>
     `linear-gradient(${line} 1px, transparent 1px) 0 0 / ${size}px ${size}px, linear-gradient(90deg, ${line} 1px, transparent 1px) 0 0 / ${size}px ${size}px`,
   /** 斜めストライプ */
-  stripe: (a = "#ff8db5", b = "#ffa9c8", w = 8) =>
+  stripe: (a = "#324b4a", b = "#3e5a58", w = 8) =>
     `repeating-linear-gradient(-45deg, ${a} 0 ${w}px, ${b} ${w}px ${w * 2}px)`,
 } as const
 

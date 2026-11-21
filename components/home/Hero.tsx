@@ -12,8 +12,8 @@ const styles = css`
       ${pattern.grid("rgba(255, 255, 255, 0.55)", 22)},
       linear-gradient(
         160deg,
-        #ffd9e7 0%,
-        #ffeaf2 40%,
+        #f9e0c2 0%,
+        #fbf0dc 40%,
         ${color.mintPale} 75%,
         ${color.yellowPale} 100%
       );
@@ -35,17 +35,23 @@ const styles = css`
     }
   }
   .t-hero__art {
-    display: none;
-    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+    margin: -8px auto 20px;
     pointer-events: none;
   }
   @media ${bp.lg} {
     .t-hero__art {
-      display: block;
+      position: absolute;
+      margin: 0;
       right: 28px;
       top: 50%;
       transform: translateY(-50%);
-      width: 400px;
+      width: 440px;
+      height: auto;
+      animation: t-hero-float 5s ease-in-out infinite;
     }
   }
   .t-hero__inner {
@@ -166,10 +172,10 @@ const styles = css`
     border-top: 2px solid ${color.line};
     background: linear-gradient(
       90deg,
-      #ffd0e1,
+      #f9e0c2,
       ${color.mintPale},
       ${color.yellowPale},
-      #ffd0e1
+      #f9e0c2
     );
     font-family: ${font.pop};
     font-size: 1.15rem;
@@ -190,178 +196,26 @@ const styles = css`
   @keyframes t-hero-float {
     0%,
     100% {
-      transform: translateY(0);
+      transform: translateY(-50%);
     }
     50% {
-      transform: translateY(-6px);
+      transform: translateY(calc(-50% - 6px));
     }
-  }
-  .t-hero__float {
-    animation: t-hero-float 4s ease-in-out infinite;
-    transform-box: fill-box;
-    transform-origin: center;
-  }
-  .t-hero__float--2 {
-    animation-delay: -1.3s;
-  }
-  .t-hero__float--3 {
-    animation-delay: -2.6s;
   }
 `
 
-const line = color.accentDeep
-
-const Star = ({
-  x,
-  y,
-  r,
-  fill,
-}: {
-  x: number
-  y: number
-  r: number
-  fill: string
-}) => {
-  const p = Array.from({ length: 10 }, (_, i) => {
-    const a = (Math.PI / 5) * i - Math.PI / 2
-    const rr = i % 2 === 0 ? r : r * 0.48
-    return `${(x + rr * Math.cos(a)).toFixed(1)},${(y + rr * Math.sin(a)).toFixed(1)}`
-  }).join(" ")
-  return (
-    <polygon
-      points={p}
-      fill={fill}
-      stroke="#fff"
-      strokeWidth="5"
-      strokeLinejoin="round"
-      paintOrder="stroke"
-    />
-  )
-}
-
-const Bubble = ({
-  x,
-  y,
-  w,
-  text,
-  tail = "left",
-}: {
-  x: number
-  y: number
-  w: number
-  text: string
-  tail?: "left" | "right"
-}) => {
-  const tx = tail === "left" ? x + 20 : x + w - 20
-  const dir = tail === "left" ? -1 : 1
-  return (
-    <g>
-      <rect
-        x={x}
-        y={y}
-        width={w}
-        height="44"
-        rx="22"
-        fill="#fff"
-        stroke={color.accent}
-        strokeWidth="3"
-      />
-      <path
-        d={`M${tx - 8 * dir} ${y + 42} L ${tx + 6 * dir} ${y + 60} L ${tx + 10 * dir} ${y + 40}`}
-        fill="#fff"
-        stroke={color.accent}
-        strokeWidth="3"
-        strokeLinejoin="round"
-      />
-      <path
-        d={`M${tx - 6 * dir} ${y + 41.5} H ${tx + 9 * dir}`}
-        stroke="#fff"
-        strokeWidth="4"
-      />
-      <text
-        x={x + w / 2}
-        y={y + 29}
-        textAnchor="middle"
-        fontSize="17"
-        fontWeight="800"
-        fill={color.accentDeep}
-        fontFamily='"M PLUS 1", sans-serif'
-      >
-        {text}
-      </text>
-    </g>
-  )
-}
-
-/** 種から芽が伸び、星（物語）や吹き出しへとつながるメインビジュアル */
+/** フェレットの旅人と仲間たちが、物語の遺跡へと指し示すメインビジュアル */
 const HeroArt = () => (
-  <svg
+  <img
     className="t-hero__art"
-    viewBox="0 0 400 400"
+    src={assetPath("/images/hero-scene.webp")}
+    width={862}
+    height={558}
+    alt=""
     aria-hidden="true"
-    focusable="false"
-  >
-    <g
-      fill="none"
-      stroke={color.accent}
-      strokeWidth="3"
-      strokeLinecap="round"
-      strokeDasharray="1 9"
-    >
-      <path d="M200 300 C 200 250, 150 210, 100 130" />
-      <path d="M200 300 C 210 240, 260 200, 300 140" />
-      <path d="M200 300 C 240 290, 300 270, 340 236" />
-    </g>
-    <g className="t-hero__float">
-      <Star x={98} y={118} r={36} fill={color.yellow} />
-    </g>
-    <g className="t-hero__float t-hero__float--2">
-      <Bubble x={236} y={60} w={140} text="元ネタは…!?" tail="left" />
-    </g>
-    <g className="t-hero__float t-hero__float--3">
-      <Star x={344} y={228} r={22} fill={color.mint} />
-    </g>
-    <circle
-      cx="200"
-      cy="320"
-      r="62"
-      fill="#fff"
-      stroke={color.accent}
-      strokeWidth="3"
-    />
-    <circle cx="200" cy="320" r="52" fill={color.accentPale} />
-    <path
-      d="M200 360 C 178 346, 175 312, 200 284 C 225 312, 222 346, 200 360 Z"
-      fill={color.accent}
-      stroke={line}
-      strokeWidth="2.5"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M200 300 C 196 278, 180 268, 166 270 C 168 286, 182 296, 200 300 Z M200 300 C 204 276, 222 264, 238 266 C 236 284, 220 296, 200 300 Z"
-      fill={color.mint}
-      stroke={color.mintDeep}
-      strokeWidth="2.5"
-      strokeLinejoin="round"
-    />
-    <circle cx="190" cy="332" r="3.5" fill={line} />
-    <circle cx="210" cy="332" r="3.5" fill={line} />
-    <ellipse cx="184" cy="342" rx="5" ry="3" fill="#ffc2d6" />
-    <ellipse cx="216" cy="342" rx="5" ry="3" fill="#ffc2d6" />
-    <path
-      d="M195 342 Q 200 347 205 342"
-      fill="none"
-      stroke={line}
-      strokeWidth="2.5"
-      strokeLinecap="round"
-    />
-    <g fill={color.yellow} stroke="#fff" strokeWidth="2">
-      <path d="M60 250 l5 -12 l5 12 l12 5 l-12 5 l-5 12 l-5 -12 l-12 -5 Z" />
-      <path d="M318 318 l3.5 -8 l3.5 8 l8 3.5 l-8 3.5 l-3.5 8 l-3.5 -8 l-8 -3.5 Z" />
-    </g>
-    <circle cx="150" cy="210" r="6" fill={color.violet} />
-    <circle cx="270" cy="190" r="5" fill={color.sky} />
-  </svg>
+    decoding="async"
+    fetchPriority="high"
+  />
 )
 
 export const Hero = () => (

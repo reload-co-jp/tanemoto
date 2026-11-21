@@ -1,39 +1,17 @@
 import { color, font } from "@/lib/styles/theme"
+import { assetPath } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 
-/** 種子（タネ）と、そこから伸びる芽をモチーフにしたポップなシンボル */
-export const LogoMark = ({ size = 32 }: { size?: number }) => (
-  <svg
+/** マスコット（フェレットの旅人）の顔をあしらったシンボル */
+export const LogoMark = ({ size = 40 }: { size?: number }) => (
+  <img
+    className="t-logo__mark"
+    src={assetPath("/images/logo-mark.png")}
     width={size}
     height={size}
-    viewBox="0 0 32 32"
+    alt=""
     aria-hidden="true"
-    focusable="false"
-  >
-    <circle
-      cx="16"
-      cy="16"
-      r="14.5"
-      fill={color.mintPale}
-      stroke={color.accentDeep}
-      strokeWidth="2"
-    />
-    <path
-      d="M16 26 C 10.5 22.5, 10 15, 16 8.5 C 22 15, 21.5 22.5, 16 26 Z"
-      fill={color.accent}
-      stroke={color.accentDeep}
-      strokeWidth="1.8"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M16 24 V 13 M16 19 L 13.2 16.2 M16 16 L 18.6 13.4"
-      stroke={color.accentDeep}
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      fill="none"
-    />
-    <circle cx="11.6" cy="20" r="1" fill="#fff" />
-  </svg>
+  />
 )
 
 const styles = css`
@@ -47,10 +25,11 @@ const styles = css`
   .t-logo:hover {
     color: inherit;
   }
-  .t-logo:hover svg {
+  .t-logo:hover .t-logo__mark {
     transform: rotate(-12deg) scale(1.06);
   }
-  .t-logo svg {
+  .t-logo__mark {
+    display: block;
     transition: transform 0.2s;
   }
   .t-logo__text {

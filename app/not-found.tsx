@@ -1,4 +1,5 @@
 import { Link } from "@/components/common/Link"
+import { MascotTalk } from "@/components/common/Mascot"
 import { PageHeader } from "@/components/common/PageParts"
 import { paths } from "@/lib/site"
 
@@ -14,6 +15,13 @@ const NotFound = () => (
       title="ページが見つかりません"
       description="お探しのページは移動または削除された可能性があります。"
     />
+    <div style={{ margin: "8px 0 28px" }}>
+      <MascotTalk name="ferret-puzzled" height={110}>
+        あれれ、道に迷っちゃったみたい…。
+        <br />
+        下のページから、もう一度たどってみよう！
+      </MascotTalk>
+    </div>
     <ul
       className="t-prose"
       style={{ paddingLeft: "1.4em", display: "grid", gap: 8 }}

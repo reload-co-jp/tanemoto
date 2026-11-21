@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
+import { MascotTalk } from "@/components/common/Mascot"
 import { excerpt, search } from "@/lib/search"
 import type { SearchEntry, SearchKind } from "@/lib/searchIndex"
 
@@ -81,6 +82,16 @@ export const SearchClient = ({ indexUrl, basePath }: Props) => {
       )}
       {!entries && !error && <p className="t-meta">読み込み中…</p>}
 
+      {entries && !query.trim() && (
+        <div style={{ marginTop: 24 }}>
+          <MascotTalk name="ferret-curious" height={96}>
+            キャラクター名・作品名・神話の神さまの名前など、
+            <br />
+            気になることばを入れてみてね。
+          </MascotTalk>
+        </div>
+      )}
+
       {entries && query.trim() && (
         <>
           <div
@@ -138,9 +149,13 @@ export const SearchClient = ({ indexUrl, basePath }: Props) => {
             })}
           </ul>
           {visible.length === 0 && (
-            <p className="t-empty">
-              該当する結果が見つかりませんでした。別のキーワード（別名・ひらがな表記など）でもお試しください。
-            </p>
+            <div className="t-empty">
+              <MascotTalk name="ferret-puzzled" height={96} center>
+                該当する結果が見つかりませんでした。
+                <br />
+                別のキーワード（別名・ひらがな表記など）でもお試しください。
+              </MascotTalk>
+            </div>
           )}
         </>
       )}

@@ -2,6 +2,7 @@ import { Link } from "@/components/common/Link"
 import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { bp, color, font, pattern } from "@/lib/styles/theme"
+import { Mascot } from "@/components/common/Mascot"
 import { LogoMark } from "./Logo"
 
 const styles = css`
@@ -12,8 +13,8 @@ const styles = css`
     font-size: 0.875rem;
     color: ${color.text};
     background:
-      ${pattern.grid("rgba(255, 157, 192, 0.22)", 22)},
-      linear-gradient(180deg, #ffe4ee, ${color.mintPale});
+      ${pattern.grid("rgba(124, 141, 103, 0.16)", 22)},
+      linear-gradient(180deg, #f9e0c2, ${color.mintPale});
     border-top: 2px solid ${color.line};
   }
   .t-footer::before {
@@ -25,7 +26,7 @@ const styles = css`
     height: 16px;
     background: radial-gradient(
         circle at 14px 16px,
-        #ffe4ee 12px,
+        #f9e0c2 12px,
         ${color.line} 12px 14px,
         transparent 14.5px
       )
@@ -75,6 +76,19 @@ const styles = css`
     max-width: 28em;
     line-height: 1.8;
   }
+  .t-footer__crew {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    margin-top: 18px;
+  }
+  .t-footer__crew .t-mascot {
+    transform-origin: 50% 100%;
+    transition: transform 0.2s;
+  }
+  .t-footer__crew .t-mascot:hover {
+    transform: translateY(-4px) rotate(-3deg);
+  }
   .t-footer__heading {
     font-family: ${font.pop};
     letter-spacing: 0.06em;
@@ -113,11 +127,17 @@ export const SiteFooter = () => (
       <div className="t-footer__grid">
         <div>
           <p className="t-footer__name">
-            <LogoMark size={24} />
+            <LogoMark size={32} />
             {site.name}
           </p>
           <p className="t-footer__tagline">{site.tagline}</p>
           <p className="t-footer__desc">{site.description}</p>
+          <div className="t-footer__crew" aria-hidden="true">
+            <Mascot name="owl" height={64} />
+            <Mascot name="ferret-run" height={72} />
+            <Mascot name="cat" height={64} />
+            <Mascot name="mouse" height={54} />
+          </div>
         </div>
         <div>
           <p className="t-footer__heading">Explore</p>

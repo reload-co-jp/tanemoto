@@ -46,7 +46,7 @@ const styles = css`
       ${pattern.grid("rgba(255, 255, 255, 0.7)", 16)},
       linear-gradient(
         150deg,
-        var(--t-eye-a, #ffd6e5),
+        var(--t-eye-a, #f9e0c2),
         var(--t-eye-b, ${color.yellowPale})
       );
   }
@@ -57,7 +57,7 @@ const styles = css`
     color: #fff;
     font-size: 1.6em;
     line-height: 1;
-    text-shadow: 0 0 6px rgba(255, 120, 166, 0.5);
+    text-shadow: 0 0 6px rgba(237, 178, 77, 0.6);
   }
   .t-eyecatch__type::before {
     left: 10%;
@@ -78,7 +78,7 @@ const styles = css`
     font-size: 0.9em;
     letter-spacing: 0.06em;
     color: #fff;
-    text-shadow: ${outline(1.5, "var(--t-eye-c, #0b7a84)")};
+    text-shadow: ${outline(1.5, "var(--t-eye-c, #324b4a)")};
   }
   .t-eyecatch__word {
     font-family: ${font.display};
@@ -90,21 +90,21 @@ const styles = css`
     color: ${color.accent};
     text-shadow:
       ${outline(3, "#fff")},
-      5px 5px 0 rgba(99, 216, 221, 0.45);
+      5px 5px 0 rgba(237, 178, 77, 0.45);
   }
   .t-eyecatch__orn {
     width: 3.4em;
     height: 0.55em;
     margin-top: 0.5em;
     background: url("data:image/svg+xml,${encodeURIComponent(
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 12"><path d="M0 6h22l3-5 4 10 3-8 2 3h26" fill="none" stroke="#ff78a6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>'
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 12"><path d="M0 6h22l3-5 4 10 3-8 2 3h26" fill="none" stroke="#edb24d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>'
       )}")
       no-repeat center / contain;
   }
   .t-cards > li:nth-child(3n + 2) .t-eyecatch,
   .t-rows > li:nth-child(3n + 2) .t-eyecatch {
     --t-eye-a: ${color.mintPale};
-    --t-eye-b: #ffe4ee;
+    --t-eye-b: #f9e0c2;
   }
   .t-cards > li:nth-child(3n + 3) .t-eyecatch,
   .t-rows > li:nth-child(3n + 3) .t-eyecatch {

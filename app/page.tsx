@@ -4,6 +4,7 @@ import {
   classificationInfo,
 } from "@/components/common/ClassificationLabel"
 import { Link } from "@/components/common/Link"
+import { Mascot } from "@/components/common/Mascot"
 import { ChipList, Section, TileList } from "@/components/common/PageParts"
 import { Hero } from "@/components/home/Hero"
 import { PopularList } from "@/components/home/PopularList"
@@ -57,6 +58,12 @@ const styles = css`
       padding: 60px 40px 36px;
       gap: 40px;
     }
+  }
+  .t-policy__mascot {
+    float: right;
+    width: auto;
+    height: 80px;
+    margin: -8px 0 8px 12px;
   }
   .t-policy__title {
     font-size: 1.3rem;
@@ -114,6 +121,7 @@ const Page = () => {
 
       <Section
         title="キャラクターから元ネタを探す"
+        mascot="ferret-front"
         en="Characters"
         id="characters"
         more={{ href: paths.characters(), label: "すべてのキャラクター" }}
@@ -170,6 +178,7 @@ const Page = () => {
           )}
           <Section
             title="神話から探す"
+            mascot="owl"
             en="Mythologies"
             id="mythologies"
             more={{ href: paths.mythologies(), label: "一覧" }}
@@ -190,6 +199,7 @@ const Page = () => {
 
       <Section
         title="元ネタ（神々・怪物）から探す"
+        mascot="mouse"
         en="Figures"
         id="figures"
         more={{ href: paths.figures(), label: "すべての人物・怪物" }}
@@ -205,6 +215,7 @@ const Page = () => {
 
       <Section
         title="テーマから探す"
+        mascot="cat"
         en="Topics"
         id="topics"
         more={{ href: paths.topics(), label: "すべてのテーマ" }}
@@ -225,6 +236,11 @@ const Page = () => {
         aria-labelledby="policy-title"
       >
         <div>
+          <Mascot
+            name="ferret-determined"
+            height={96}
+            className="t-policy__mascot"
+          />
           <p className="t-policy__en">Editorial Policy</p>
           <h2 className="t-policy__title" id="policy-title">
             事実と解釈を、区別して伝える。
