@@ -17,7 +17,7 @@ export const Analytics = () => {
   )
 }
 
-/** AdSense の自動広告スクリプト。NEXT_PUBLIC_ADSENSE_CLIENT が設定されている場合のみ出力 */
+/** AdSense の自動広告スクリプト。NEXT_PUBLIC_ADSENSE_CLIENT 未設定時は lib/site.ts の既定 ID */
 export const AdSenseScript = () => {
   if (!site.adsenseClient) return null
   return (
