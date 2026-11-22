@@ -1,0 +1,16 @@
+{
+  "id": "guan-yu",
+  "slug": "guan-yu",
+  "name": "関羽",
+  "reading": "かんう",
+  "originalName": "關羽",
+  "alternativeNames": ["関雲長", "関帝"],
+  "type": "historical",
+  "roles": ["劉備の義弟", "蜀の武将"],
+  "mythologyIds": ["three-kingdoms"],
+  "description": "字は雲長。劉備に仕えた武将。『三国志演義』では身の丈九尺、二尺の長いひげをたくわえ、熟したナツメのような赤ら顔の偉丈夫で、重さ八十二斤の青龍偃月刀を振るう。義に厚い武人として、のちに関帝として神にまつられた。",
+  "relatedFigureIds": ["liu-bei", "zhang-fei"],
+  "relatedStoryIds": ["peach-garden-oath", "three-heroes-against-lu-bu"],
+  "articleIds": [],
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+}

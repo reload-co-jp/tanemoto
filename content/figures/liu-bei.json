@@ -1,0 +1,27 @@
+{
+  "id": "liu-bei",
+  "slug": "liu-bei",
+  "name": "劉備",
+  "reading": "りゅうび",
+  "originalName": "劉備",
+  "alternativeNames": ["劉玄徳"],
+  "type": "historical",
+  "roles": ["蜀漢の初代皇帝", "義兄弟の長兄"],
+  "mythologyIds": ["three-kingdoms"],
+  "description": "字は玄徳。三国の一つ蜀（蜀漢）を建てた。『三国志演義』では漢の皇族の末裔ながら、わらじを売り、むしろを織って暮らす貧しい青年として登場し、関羽・張飛と桃園で義兄弟の契りを結ぶ。仁徳の人として描かれ、三度の訪問で諸葛亮を軍師に迎えた。",
+  "relatedFigureIds": [
+    "guan-yu",
+    "zhang-fei",
+    "zhuge-liang",
+    "zhao-yun",
+    "cao-cao"
+  ],
+  "relatedStoryIds": [
+    "peach-garden-oath",
+    "three-heroes-against-lu-bu",
+    "three-visits-to-the-thatched-cottage",
+    "battle-of-changban"
+  ],
+  "articleIds": [],
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+}

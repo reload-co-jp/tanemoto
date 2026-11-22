@@ -461,5 +461,88 @@
     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius*.html",
     "urlLabel": "LacusCurtius（Rolfe 英訳）",
     "notes": "ローマの伝記作家スエトニウスによる、カエサルからドミティアヌスまで12人の伝記の第1巻。箇所は章番号で示す。邦訳に国原吉之助訳（岩波文庫）がある。"
+  },
+  {
+    "id": "gikeiki",
+    "title": "義経記",
+    "author": "作者未詳",
+    "type": "primary",
+    "publishedPeriod": "南北朝時代〜室町時代初期（14〜15世紀）",
+    "url": "https://ja.wikisource.org/wiki/%E7%BE%A9%E7%B5%8C%E8%A8%98",
+    "urlLabel": "ウィキソース",
+    "notes": "源義経とその家来たちの生涯を語る軍記物語。平家との合戦よりも、幼い牛若の日々や、兄頼朝と対立したあとの逃避行に多くの筆を割く。弁慶の千本の太刀、如意の渡、衣川での最期など、後世の能・歌舞伎に受け継がれた場面の多くがここに見える。箇所は「巻・章題」で示す。"
+  },
+  {
+    "id": "okagami",
+    "title": "大鏡",
+    "author": "作者未詳",
+    "type": "primary",
+    "publishedPeriod": "平安時代後期（11世紀末〜12世紀初め頃）",
+    "url": "https://ja.wikisource.org/wiki/%E5%A4%A7%E9%8F%A1_(%E5%9C%8B%E6%96%87%E5%A4%A7%E8%A7%80)",
+    "urlLabel": "ウィキソース（國文大觀本）",
+    "notes": "百歳を超える老人たちが昔語りをするという形で、藤原道長に至る摂関家の歴史を描いた歴史物語。本文は『国文大観』（明治36年）所収本で確認した。箇所は天皇・大臣ごとの段の名で示す。"
+  },
+  {
+    "id": "kojidan",
+    "title": "古事談",
+    "author": "源顕兼 編",
+    "type": "primary",
+    "publishedPeriod": "鎌倉時代初期（1212〜1215年頃）",
+    "url": "https://ja.wikisource.org/wiki/%E5%8F%A4%E4%BA%8B%E8%AB%87/%E7%AC%AC%E5%85%AD",
+    "urlLabel": "ウィキソース（第六）",
+    "notes": "王朝時代の貴族や僧、芸能者などの逸話を集めた説話集。全6巻。第六「亭宅諸道」に陰陽師安倍晴明の逸話が収められている。漢文と仮名の混じった文体で書かれる。"
+  },
+  {
+    "id": "taketori-monogatari",
+    "title": "竹取物語",
+    "author": "作者未詳",
+    "type": "primary",
+    "publishedPeriod": "平安時代前期（9世紀後半〜10世紀前半頃）",
+    "url": "https://ja.wikisource.org/wiki/%E7%AB%B9%E5%8F%96%E7%89%A9%E8%AA%9E_(%E5%9C%8B%E6%B0%91%E6%96%87%E5%BA%AB)",
+    "urlLabel": "ウィキソース（國民文庫本）",
+    "notes": "竹の中から見つかった少女かぐや姫の物語。『源氏物語』に「物語の出で来はじめの祖」と呼ばれる、現存する日本最古の物語とされる。箇所は場面の名で示す。"
+  },
+  {
+    "id": "taiheiki",
+    "title": "太平記",
+    "author": "作者未詳",
+    "type": "primary",
+    "publishedPeriod": "14世紀後半",
+    "url": "https://ja.wikisource.org/wiki/%E5%A4%AA%E5%B9%B3%E8%A8%98/%E5%B7%BB%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C",
+    "urlLabel": "ウィキソース（巻第三十二）",
+    "notes": "鎌倉幕府の滅亡から南北朝の動乱までを描く軍記物語。全40巻。巻第三十二「直冬上洛事付鬼丸鬼切事」で、源氏と平氏に伝わった名刀鬼丸・鬼切の由来を語る中に、源頼光と渡辺綱の鬼退治が出てくる。"
+  },
+  {
+    "id": "sanguo-yanyi",
+    "title": "三国志演義",
+    "originalTitle": "三國演義",
+    "author": "羅貫中（伝）・毛宗崗 改訂",
+    "type": "primary",
+    "publishedPeriod": "14世紀（明代初め）に成立。現在広く読まれる120回本は17世紀（清代）の毛宗崗による改訂本",
+    "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9",
+    "urlLabel": "維基文庫（毛宗崗本）",
+    "notes": "後漢末から三国時代の戦乱を描いた長編歴史小説。正史『三国志』をもとにしながら、民間の語り物の要素を取り入れ、劉備・関羽・張飛と諸葛亮を中心に大きく脚色している。本文は毛宗崗本で確認し、箇所は「第◯回」で示す。邦訳に立間祥介訳（平凡社・徳間文庫）などがある。"
+  },
+  {
+    "id": "sanguozhi",
+    "title": "三国志（正史）",
+    "originalTitle": "三國志",
+    "author": "陳寿（裴松之 注）",
+    "type": "primary",
+    "publishedPeriod": "3世紀末（裴松之の注は429年）",
+    "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97",
+    "urlLabel": "維基文庫",
+    "notes": "西晋の陳寿がまとめた、魏・蜀・呉三国の歴史書。中国の正史の一つ。南朝宋の裴松之が多くの書物を引いて注を加えた。小説『三国志演義』と区別するため「正史」と呼ばれる。箇所は「巻・伝の名」で示す。邦訳に今鷹真・井波律子ほか訳（ちくま学芸文庫）がある。"
+  },
+  {
+    "id": "shuihu-zhuan",
+    "title": "水滸伝",
+    "originalTitle": "水滸傳（忠義水滸全傳）",
+    "author": "施耐庵（伝）・羅貫中（伝）",
+    "type": "primary",
+    "publishedPeriod": "14世紀（元末〜明初）ごろに原型が成立。本文は17世紀初めに刊行された120回本（袁無涯本）",
+    "url": "https://zh.wikisource.org/wiki/%E6%B0%B4%E6%BB%B8%E5%82%B3_(120%E5%9B%9E%E6%9C%AC)",
+    "urlLabel": "維基文庫（120回本）",
+    "notes": "北宋末、梁山泊に集まった百八人の豪傑（好漢）の活躍を描く長編小説。70回本・100回本・120回本など複数の版があり、結末が異なる。本文は120回本で確認し、箇所は「第◯回」で示す。邦訳に吉川幸次郎・清水茂訳（岩波文庫）などがある。"
   }
 ]

@@ -1,0 +1,47 @@
+{
+  "id": "japanese-legends",
+  "slug": "japanese-legends",
+  "name": "日本の伝説",
+  "reading": "にほんのでんせつ",
+  "region": "日本",
+  "period": "平安時代〜室町時代の物語・説話・軍記物語に記された",
+  "description": "竹の中から生まれ月へ帰ったかぐや姫、千本の太刀を狙った弁慶と牛若の出会い、立ったまま息絶えた弁慶、式神を使う陰陽師安倍晴明、鬼の腕を斬った渡辺綱。古典の物語や説話、軍記物語に語られた日本の伝説の人物たち。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "日本の神話が『古事記』『日本書紀』にまとめられているのに対し、伝説の人物たちの物語は、平安時代から室町時代にかけて書かれたさまざまな作品に散らばっています。かぐや姫は『竹取物語』、安倍晴明は『大鏡』や『古事談』などの説話、源義経と弁慶は軍記物語『義経記』、源頼光と渡辺綱の鬼退治は『太平記』に語られています。"
+    },
+    {
+      "type": "paragraph",
+      "text": "源義経や安倍晴明のように実在した人物も、こうした物語の中で超人的な姿に脚色され、のちの能・歌舞伎、そして現代の漫画やゲームへと受け継がれていきました。トモタネでは、原典にどう書かれているかを、作品名と巻・場面を示して紹介します。概要は[日本の伝説とは？](/articles/japanese-legends-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": [
+    "minamoto-no-yoshitsune",
+    "benkei",
+    "abe-no-seimei",
+    "minamoto-no-yorimitsu",
+    "watanabe-no-tsuna",
+    "kaguya-hime"
+  ],
+  "storyIds": [
+    "ushiwaka-at-sojo-ga-tani",
+    "benkei-and-the-thousand-swords",
+    "nyoi-crossing",
+    "benkei-standing-death",
+    "seimei-and-emperor-kazan",
+    "seimei-and-doma",
+    "onikiri-sword",
+    "kaguya-hime-and-the-five-suitors",
+    "kaguya-hime-returns-to-the-moon"
+  ],
+  "sourceIds": [
+    "gikeiki",
+    "okagami",
+    "kojidan",
+    "taiheiki",
+    "taketori-monogatari"
+  ],
+  "kind": "legend",
+  "order": 15
+}

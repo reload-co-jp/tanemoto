@@ -1,0 +1,15 @@
+{
+  "id": "abe-no-seimei",
+  "slug": "abe-no-seimei",
+  "name": "安倍晴明",
+  "reading": "あべのせいめい",
+  "alternativeNames": ["晴明"],
+  "type": "historical",
+  "roles": ["陰陽師"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "平安時代中期の陰陽師。天文や占いで国家の吉凶を判断する陰陽寮に仕えた実在の人物で、のちの説話で不思議な術を使う名人として語られるようになった。『大鏡』では、天の異変から花山天皇の退位を知り、目に見えない式神を内裏へ走らせる。『古事談』では、藤原道長にかけられた呪いを見抜き、紙で折った鳥を白鷺に変えて術者の道摩法師を突き止めた。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["seimei-and-emperor-kazan", "seimei-and-doma"],
+  "articleIds": [],
+  "sourceIds": ["okagami", "kojidan"]
+}

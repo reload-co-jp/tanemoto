@@ -1,0 +1,20 @@
+{
+  "id": "lu-zhishen",
+  "slug": "lu-zhishen",
+  "name": "魯智深",
+  "reading": "ろちしん",
+  "originalName": "魯智深",
+  "alternativeNames": ["花和尚", "魯達"],
+  "type": "hero",
+  "roles": ["花和尚"],
+  "mythologyIds": ["water-margin"],
+  "description": "あだ名は「花和尚」。天孤星の生まれ変わり。もとは魯達という軍の役人（提轄）で、困っていた父娘を救うため、悪徳の肉屋「鎮関西」を三発の拳で殴り殺してしまい、出家して智深と名乗った。酒と肉を好む破天荒な僧で、柳の木を根こそぎ引き抜くほどの怪力をもつ。",
+  "relatedFigureIds": ["lin-chong", "wu-song"],
+  "relatedStoryIds": [
+    "three-punches-at-zhen-guanxi",
+    "lin-chong-and-the-white-tiger-hall",
+    "stone-tablet-of-the-108-stars"
+  ],
+  "articleIds": [],
+  "sourceIds": ["shuihu-zhuan"]
+}

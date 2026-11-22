@@ -1,0 +1,18 @@
+{
+  "id": "kaguya-hime",
+  "slug": "kaguya-hime",
+  "name": "かぐや姫",
+  "reading": "かぐやひめ",
+  "alternativeNames": ["なよ竹のかぐや姫"],
+  "type": "human",
+  "roles": ["月の都の人"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "『竹取物語』の主人公。竹取の翁が光る竹の中で見つけた、三寸ほどの小さな女の子で、わずか三か月ほどで美しい娘に成長した。五人の貴公子と帝から求婚されるが、誰とも結ばれない。実は月の都の人で、八月十五夜、天から迎えに来た天人たちとともに月へ帰っていった。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [
+    "kaguya-hime-and-the-five-suitors",
+    "kaguya-hime-returns-to-the-moon"
+  ],
+  "articleIds": [],
+  "sourceIds": ["taketori-monogatari"]
+}

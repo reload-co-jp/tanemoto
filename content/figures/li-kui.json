@@ -1,0 +1,20 @@
+{
+  "id": "li-kui",
+  "slug": "li-kui",
+  "name": "李逵",
+  "reading": "りき",
+  "originalName": "李逵",
+  "alternativeNames": ["黒旋風", "李鉄牛"],
+  "type": "hero",
+  "roles": ["宋江の弟分"],
+  "mythologyIds": ["water-margin"],
+  "description": "あだ名は「黒旋風」。天殺星の生まれ変わり。全身真っ黒の大男で、二丁の板斧を振るって暴れ回る。乱暴で酒と博打を好むが、宋江を兄と慕って生涯ついていった。最後は宋江に毒酒を飲まされ、ともに蓼児洼に葬られた。",
+  "relatedFigureIds": ["song-jiang"],
+  "relatedStoryIds": [
+    "song-jiang-meets-li-kui",
+    "stone-tablet-of-the-108-stars",
+    "death-at-liaoerwa"
+  ],
+  "articleIds": [],
+  "sourceIds": ["shuihu-zhuan"]
+}

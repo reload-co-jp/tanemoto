@@ -1,0 +1,19 @@
+{
+  "id": "benkei",
+  "slug": "benkei",
+  "name": "武蔵坊弁慶",
+  "reading": "むさしぼうべんけい",
+  "alternativeNames": ["弁慶"],
+  "type": "hero",
+  "roles": ["比叡山の法師", "義経の家来"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "源義経に仕えた怪力の法師。『義経記』では比叡山の西塔で学んだ荒法師として登場する。人の太刀を千本集めようと夜な夜な京の町で太刀を奪い、九百九十九本目までたどり着いたところで牛若に敗れ、家来となった。義経の逃避行を知恵と度胸で支え、最後は衣川の合戦で無数の矢を受けながら、薙刀を杖に立ったまま息絶えた。",
+  "relatedFigureIds": ["minamoto-no-yoshitsune"],
+  "relatedStoryIds": [
+    "benkei-and-the-thousand-swords",
+    "nyoi-crossing",
+    "benkei-standing-death"
+  ],
+  "articleIds": [],
+  "sourceIds": ["gikeiki"]
+}

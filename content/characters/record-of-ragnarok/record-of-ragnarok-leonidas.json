@@ -1,0 +1,133 @@
+{
+  "id": "record-of-ragnarok-leonidas",
+  "slug": "record-of-ragnarok-leonidas",
+  "name": "レオニダス",
+  "reading": "れおにだす",
+  "alternativeNames": ["レオニダス王"],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "「人類史上最強の反逆者」と呼ばれるスパルタ王。ラグナロク第9回戦でアポロンと戦い、敗れて消滅した。",
+    "claimIds": ["ror-le-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は、テルモピュライの戦いで戦死したスパルタ王レオニダスそのもの。",
+    "claimIds": ["ror-le-work", "ror-le-myth-300"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "leonidas",
+      "label": "レオニダス（スパルタ王）",
+      "inWork": {
+        "text": "生前はテルモピュライの戦いに参戦し、ついてきたスパルタ兵三百人とともに戦死した。",
+        "claimIds": ["ror-le-work-past"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスによれば、レオニダスは二人の兄が亡くなったため王位に就いた。テルモピュライへは、法の定める三百人を、息子のいる市民の中から自ら選んで率いていった。",
+        "claimIds": ["ror-le-myth-300"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "leonidas",
+      "label": "カルネイア祭と出陣",
+      "inWork": {
+        "text": "戦いが始まったのはアポロンの栄光をたたえるカルネイア祭の最中で、祭りの間は一切の軍事行動を禁じる決まりがあった。レオニダスは議会にあったアポロン像を壊し、単身で出陣する。三百人の兵は死を覚悟して自らついていった。",
+        "claimIds": ["ror-le-work-past"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスによれば、スパルタ人はカルネイア祭のために国にとどまっており、祭りが済んだら守備兵を残して全軍で駆けつけるつもりで、同盟軍を励ますためにレオニダスの部隊を先に送り出した。",
+        "claimIds": ["ror-le-myth-carneia"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "leonidas",
+      "label": "アポロンの神託",
+      "inWork": {
+        "text": "レオニダスがアポロンを憎んでいるのは、かつてアポロンがスパルタに告げた神託が原因とされる。",
+        "claimIds": ["ror-le-work-past"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスによれば、開戦のときデルポイの巫女はスパルタに「スパルタが蛮族に滅ぼされるか、王の一人が死ぬか」と告げていた。レオニダスはこの神託を知っていたので、自分が残れば栄光が得られ、スパルタの繁栄も失われないと考えて、同盟軍を帰し自らは踏みとどまったという。",
+        "claimIds": ["ror-le-myth-oracle"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ヘロドトスでは、レオニダスの部隊はスパルタの方針として本隊に先立って送り出された先遣隊である。作品は、神の祭りの禁を破った王の単身出陣と、それを追う三百人という形に描き直し、「神への反逆者」という人物像をつくっている。",
+      "claimIds": [
+        "ror-le-myth-carneia",
+        "ror-le-work-past",
+        "ror-le-cmp-revolt"
+      ]
+    },
+    {
+      "text": "ヘロドトスの伝える神託は、レオニダスが死を覚悟してテルモピュライに踏みとどまった理由として語られる。作品は同じ神託を、神託を下したアポロンへの憎しみの理由へと読みかえている。",
+      "claimIds": [
+        "ror-le-myth-oracle",
+        "ror-le-work-past",
+        "ror-le-cmp-oracle"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-le-work",
+      "text": "レオニダス王は「人類史上最強の反逆者」と呼ばれる人類側の闘士で、第9回戦でアポロンと戦い、神器の盾が砕けて消滅した。神器は戦乙女ゲイレルルが錬成した盾である。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-le-work-past",
+      "text": "作中では、テルモピュライの戦いはアポロンの栄光を讃えるカルネイア祭の最中に起こり、祭りの期間は軍事行動が禁じられていた。アポロンの神託を憎むレオニダスは議会にあったアポロン像を壊して単身で出陣し、死を覚悟してついてきたスパルタ兵300人とともに戦死したとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-le-myth-300",
+      "text": "ヘロドトスによれば、レオニダスは兄クレオメネスとドリエウスが亡くなったために王位に就き、法の定める300人を、息子のいる市民の中から自ら選んでテルモピュライへ率いていった。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.205"
+    },
+    {
+      "id": "ror-le-myth-carneia",
+      "text": "ヘロドトスによれば、スパルタ人はカルネイア祭のため国にとどまり、祭りが済んだら守備兵を残して全軍で駆けつけるつもりで、同盟軍を励ますためにレオニダスの部隊を本隊に先立って送り出した。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.206"
+    },
+    {
+      "id": "ror-le-myth-oracle",
+      "text": "ヘロドトスによれば、開戦時にデルポイの巫女はスパルタに「スパルタが蛮族に滅ぼされるか、王の一人が死ぬか」と答えていた。レオニダスは、自分が残れば栄光が得られスパルタの繁栄も失われないと考え、同盟軍を帰して踏みとどまったという。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.220"
+    },
+    {
+      "id": "ror-le-cmp-revolt",
+      "text": "作品は、スパルタの方針として送られた先遣隊を、神の禁を破った王の単身出陣として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-le-cmp-oracle",
+      "text": "作品は、踏みとどまる理由だった神託を、アポロンを憎む理由へと読みかえている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "herodotus-histories"],
+  "articleIds": []
+}
