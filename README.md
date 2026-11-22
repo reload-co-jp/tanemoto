@@ -235,15 +235,16 @@ Claim の ID は全記事で一意にします（`<記事slug>-<名前>` を推�
 
 GitHub Actions（`.github/workflows/deploy.yml`）で `main` への push 時に GitHub Pages へデプロイします。Settings → Pages の Source を「GitHub Actions」にしてください。以下はリポジトリの Actions Variables で設定できます（未設定なら既定値）。
 
-| 変数                                            | 既定値 / 説明                                              |
-| ----------------------------------------------- | ---------------------------------------------------------- |
-| `NEXT_PUBLIC_SITE_URL`                          | `https://tanetomo.reload.co.jp`（canonical・OGP・sitemap） |
-| `NEXT_PUBLIC_BASE_PATH`                         | 空（ルート直下）。サブパスで公開する場合のみ指定           |
-| `NEXT_PUBLIC_GA_ID`                             | GA4 測定 ID。未設定なら計測タグを出力しない                |
-| `NEXT_PUBLIC_ADSENSE_CLIENT`                    | AdSense の `ca-pub-...`。未設定なら広告を出力しない        |
-| `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` / `_SIDEBAR` | 記事末尾・サイドバーの広告ユニット ID                      |
-| `NEXT_PUBLIC_ADSENSE_SLOT_COMMON`               | 全ページ下部の共通広告ユニット ID（既定 `4829146611`）     |
-| `NEXT_PUBLIC_GSC_VERIFICATION`                  | Search Console の所有権確認トークン                        |
+| 変数                                            | 既定値 / 説明                                                      |
+| ----------------------------------------------- | ------------------------------------------------------------------ |
+| `NEXT_PUBLIC_SITE_URL`                          | `https://tanetomo.reload.co.jp`（canonical・OGP・sitemap）         |
+| `NEXT_PUBLIC_BASE_PATH`                         | 空（ルート直下）。サブパスで公開する場合のみ指定                   |
+| `NEXT_PUBLIC_GA_ID`                             | GA4 測定 ID。未設定なら計測タグを出力しない                        |
+| `NEXT_PUBLIC_ADSENSE_CLIENT`                    | AdSense の `ca-pub-...`。未設定なら広告を出力しない                |
+| `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` / `_SIDEBAR` | 記事末尾・サイドバーの広告ユニット ID                              |
+| `NEXT_PUBLIC_ADSENSE_SLOT_IN_ARTICLE`           | 本文中（2・4番目の大見出し前）の記事内広告 ID（既定 `4625326006`） |
+| `NEXT_PUBLIC_ADSENSE_SLOT_COMMON`               | 全ページ下部の共通広告ユニット ID（既定 `4829146611`）             |
+| `NEXT_PUBLIC_GSC_VERIFICATION`                  | Search Console の所有権確認トークン                                |
 
 > 独自ドメイン `tanetomo.reload.co.jp` は `public/CNAME` で設定。DNS に `reload-co-jp.github.io` への CNAME レコードを追加し、Settings → Pages の Custom domain に同じドメインを設定してください。
 

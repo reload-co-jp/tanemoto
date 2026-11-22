@@ -6,6 +6,7 @@
  *   NEXT_PUBLIC_GA_ID          GA4 測定ID（G-XXXX）。未設定なら計測タグを出力しない
  *   NEXT_PUBLIC_ADSENSE_CLIENT AdSense クライアントID（ca-pub-XXXX）。未設定なら既定 ID を使う
  *   NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE / NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR 広告ユニットID
+ *   NEXT_PUBLIC_ADSENSE_SLOT_IN_ARTICLE 本文中の記事内広告ユニットID（未設定なら既定 ID）
  *   NEXT_PUBLIC_ADSENSE_SLOT_COMMON 全ページ下部の共通ディスプレイ広告ユニットID（未設定なら既定 ID）
  *   NEXT_PUBLIC_GSC_VERIFICATION Google Search Console の所有権確認トークン
  */
@@ -31,6 +32,8 @@ export const site = {
   adSlots: {
     articleBottom: process.env.NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE ?? "",
     sidebar: process.env.NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR ?? "",
+    /** 本文中（見出し前）の記事内広告 */
+    inArticle: process.env.NEXT_PUBLIC_ADSENSE_SLOT_IN_ARTICLE || "4625326006",
     /** 全ページ下部（フッター直前）の共通ディスプレイ広告 */
     common: process.env.NEXT_PUBLIC_ADSENSE_SLOT_COMMON || "4829146611",
   },
