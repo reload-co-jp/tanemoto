@@ -242,6 +242,7 @@ GitHub Actions（`.github/workflows/deploy.yml`）で `main` への push 時に 
 | `NEXT_PUBLIC_GA_ID`                             | GA4 測定 ID。未設定なら計測タグを出力しない                |
 | `NEXT_PUBLIC_ADSENSE_CLIENT`                    | AdSense の `ca-pub-...`。未設定なら広告を出力しない        |
 | `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` / `_SIDEBAR` | 記事末尾・サイドバーの広告ユニット ID                      |
+| `NEXT_PUBLIC_ADSENSE_SLOT_COMMON`               | 全ページ下部の共通広告ユニット ID（既定 `4829146611`）     |
 | `NEXT_PUBLIC_GSC_VERIFICATION`                  | Search Console の所有権確認トークン                        |
 
 > 独自ドメイン `tanetomo.reload.co.jp` は `public/CNAME` で設定。DNS に `reload-co-jp.github.io` への CNAME レコードを追加し、Settings → Pages の Custom domain に同じドメインを設定してください。
