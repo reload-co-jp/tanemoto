@@ -19,22 +19,39 @@ const styles = css`
 
 /**
  * 広告枠。NEXT_PUBLIC_ADSENSE_CLIENT と slot ID が揃っている場合のみ表示する。
- * 表示位置は記事本文の途中を避け、本文末尾・サイドバーに限定する。
+ * variant="in-article" は本文中の見出し前に挟む記事内広告（fluid）。
  */
-export const AdSlot = ({ slot }: { slot?: string }) => {
+export const AdSlot = ({
+  slot,
+  variant = "display",
+}: {
+  slot?: string
+  variant?: "display" | "in-article"
+}) => {
   if (!site.adsenseClient || !slot) return null
   return (
     <aside className="t-ad" aria-label="広告">
       <Style id="ad">{styles}</Style>
       <p className="t-ad__label">スポンサーリンク</p>
-      <ins
-        className="adsbygoogle"
-        style={{ display: "block" }}
-        data-ad-client={site.adsenseClient}
-        data-ad-slot={slot}
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
+      {variant === "in-article" ? (
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block", textAlign: "center" }}
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client={site.adsenseClient}
+          data-ad-slot={slot}
+        />
+      ) : (
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client={site.adsenseClient}
+          data-ad-slot={slot}
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+      )}
       <AdSlotPush />
     </aside>
   )

@@ -1,10 +1,12 @@
+import { Fragment } from "react"
+import { AdSlot } from "@/components/common/AdSlot"
 import {
   ClassificationLabel,
   classificationInfo,
 } from "@/components/common/ClassificationLabel"
 import type { Block, Claim, Image, Source } from "@/lib/content/schema"
 import { headingAnchors } from "@/lib/content/text"
-import { assetPath } from "@/lib/site"
+import { assetPath, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import {
   bp,
@@ -141,6 +143,22 @@ const styles = css`
   }
 `
 
+/** 記事内広告を挟む h2 の順番（1始まり）。冒頭を避け、2番目・4番目の大見出しの直前に入れる */
+const IN_ARTICLE_AD_BEFORE_H2 = new Set([2, 4])
+
+/** 記事内広告を直前に挟むブロックの index 集合 */
+const inArticleAdPositions = (blocks: Block[]) => {
+  const positions = new Set<number>()
+  let h2Count = 0
+  blocks.forEach((block, i) => {
+    if (block.type === "heading" && block.level === 2) {
+      h2Count += 1
+      if (IN_ARTICLE_AD_BEFORE_H2.has(h2Count)) positions.add(i)
+    }
+  })
+  return positions
+}
+
 export const ArticleBody = ({
   blocks,
   claims,
@@ -153,113 +171,119 @@ export const ArticleBody = ({
   images: Image[]
 }) => {
   const anchors = headingAnchors(blocks)
+  const adPositions = inArticleAdPositions(blocks)
+  const renderBlock = (block: Block, i: number) => {
+    switch (block.type) {
+      case "heading": {
+        const H = block.level === 2 ? "h2" : "h3"
+        return (
+          <H key={i} id={anchors.get(i)}>
+            <Inline text={block.text} />
+          </H>
+        )
+      }
+      case "paragraph":
+        return (
+          <p key={i}>
+            <Inline text={block.text} />
+            <ClaimMarks claimIds={block.claimIds} claims={claims} />
+          </p>
+        )
+      case "list": {
+        const L = block.ordered ? "ol" : "ul"
+        return (
+          <div key={i}>
+            <L>
+              {block.items.map((item, j) => (
+                <li key={j}>
+                  <Inline text={item} />
+                </li>
+              ))}
+            </L>
+            {block.claimIds.length > 0 && (
+              <p className="t-meta">
+                根拠：
+                <ClaimMarks claimIds={block.claimIds} claims={claims} />
+              </p>
+            )}
+          </div>
+        )
+      }
+      case "quote": {
+        const source = sources.find((s) => s.id === block.sourceId)
+        return (
+          <blockquote key={i} className="t-quote">
+            <p>
+              <Inline text={block.text} />
+            </p>
+            <footer>
+              ——
+              {source ? `${source.author}『${source.title}』` : block.sourceId}
+              {block.location && ` ${block.location}`}
+              {block.translationNote && `（${block.translationNote}）`}
+              <ClaimMarks claimIds={block.claimIds} claims={claims} />
+            </footer>
+          </blockquote>
+        )
+      }
+      case "note":
+        return (
+          <aside
+            key={i}
+            className={`t-note t-note--${block.classification}`}
+            aria-label={
+              block.title ?? classificationInfo[block.classification].ja
+            }
+          >
+            <p className="t-note__head">
+              <ClassificationLabel classification={block.classification} />
+              {block.title ?? classificationInfo[block.classification].ja}
+            </p>
+            <p>
+              <Inline text={block.text} />
+              <ClaimMarks claimIds={block.claimIds} claims={claims} />
+            </p>
+          </aside>
+        )
+      case "image": {
+        const image = images.find((img) => img.id === block.imageId)
+        if (!image) return null
+        return (
+          <figure key={i} className="t-figure">
+            <img
+              src={assetPath(image.src)}
+              alt={image.alt}
+              width={image.width}
+              height={image.height}
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>
+              {block.caption && (
+                <>
+                  {block.caption}
+                  <br />
+                </>
+              )}
+              {image.aiGenerated && "【AI生成画像・実在の史料ではありません】"}
+              出典：{image.credit}（{image.license}）
+            </figcaption>
+          </figure>
+        )
+      }
+    }
+  }
   return (
     <div className="t-body">
       <Style id="body">{styles}</Style>
-      {blocks.map((block, i) => {
-        switch (block.type) {
-          case "heading": {
-            const H = block.level === 2 ? "h2" : "h3"
-            return (
-              <H key={i} id={anchors.get(i)}>
-                <Inline text={block.text} />
-              </H>
-            )
-          }
-          case "paragraph":
-            return (
-              <p key={i}>
-                <Inline text={block.text} />
-                <ClaimMarks claimIds={block.claimIds} claims={claims} />
-              </p>
-            )
-          case "list": {
-            const L = block.ordered ? "ol" : "ul"
-            return (
-              <div key={i}>
-                <L>
-                  {block.items.map((item, j) => (
-                    <li key={j}>
-                      <Inline text={item} />
-                    </li>
-                  ))}
-                </L>
-                {block.claimIds.length > 0 && (
-                  <p className="t-meta">
-                    根拠：
-                    <ClaimMarks claimIds={block.claimIds} claims={claims} />
-                  </p>
-                )}
-              </div>
-            )
-          }
-          case "quote": {
-            const source = sources.find((s) => s.id === block.sourceId)
-            return (
-              <blockquote key={i} className="t-quote">
-                <p>
-                  <Inline text={block.text} />
-                </p>
-                <footer>
-                  ——
-                  {source
-                    ? `${source.author}『${source.title}』`
-                    : block.sourceId}
-                  {block.location && ` ${block.location}`}
-                  {block.translationNote && `（${block.translationNote}）`}
-                  <ClaimMarks claimIds={block.claimIds} claims={claims} />
-                </footer>
-              </blockquote>
-            )
-          }
-          case "note":
-            return (
-              <aside
-                key={i}
-                className={`t-note t-note--${block.classification}`}
-                aria-label={
-                  block.title ?? classificationInfo[block.classification].ja
-                }
-              >
-                <p className="t-note__head">
-                  <ClassificationLabel classification={block.classification} />
-                  {block.title ?? classificationInfo[block.classification].ja}
-                </p>
-                <p>
-                  <Inline text={block.text} />
-                  <ClaimMarks claimIds={block.claimIds} claims={claims} />
-                </p>
-              </aside>
-            )
-          case "image": {
-            const image = images.find((img) => img.id === block.imageId)
-            if (!image) return null
-            return (
-              <figure key={i} className="t-figure">
-                <img
-                  src={assetPath(image.src)}
-                  alt={image.alt}
-                  width={image.width}
-                  height={image.height}
-                  loading="lazy"
-                  decoding="async"
-                />
-                <figcaption>
-                  {block.caption && (
-                    <>
-                      {block.caption}
-                      <br />
-                    </>
-                  )}
-                  {image.aiGenerated &&
-                    "【AI生成画像・実在の史料ではありません】"}
-                  出典：{image.credit}（{image.license}）
-                </figcaption>
-              </figure>
-            )
-          }
-        }
-      })}
+      {blocks.map((block, i) => (
+        <Fragment key={i}>
+          {adPositions.has(i) && (
+            <AdSlot slot={site.adSlots.inArticle} variant="in-article" />
+          )}
+          {renderBlock(block, i)}
+        </Fragment>
+      ))}
     </div>
   )
 }

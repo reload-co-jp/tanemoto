@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next"
 import { ReactNode } from "react"
+import { AdSlot } from "@/components/common/AdSlot"
 import { SiteFooter } from "@/components/layout/SiteFooter"
 import { SiteHeader } from "@/components/layout/SiteHeader"
 import { AdSenseScript, Analytics } from "@/components/seo/Analytics"
@@ -65,6 +66,10 @@ const RootLayout = ({ children }: { children: ReactNode }) => (
       <main id="main" className="t-main">
         <div className="t-container">{children}</div>
       </main>
+      {/* 全ページ共通のディスプレイ広告（フッター直前） */}
+      <div className="t-container">
+        <AdSlot slot={site.adSlots.common} />
+      </div>
       <SiteFooter />
       <Analytics />
       <AdSenseScript />
