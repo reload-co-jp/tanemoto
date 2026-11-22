@@ -1,0 +1,17 @@
+{
+  "id": "morgan-le-fay",
+  "slug": "morgan-le-fay",
+  "name": "モルガン・ル・フェイ",
+  "reading": "もるがん・る・ふぇい",
+  "originalName": "Morgan le Fay",
+  "romanized": "Morgan le Fay",
+  "alternativeNames": ["モーガン・ル・フェイ", "妖精モルガン"],
+  "type": "human",
+  "roles": ["魔女", "アーサー王の姉"],
+  "mythologyIds": ["arthurian"],
+  "description": "アーサー王の異父姉にあたる魔女。マロリーの『アーサー王の死』では、イグレインの娘で、尼僧院で学んで魔術（ネクロマンシー）に通じた。アーサーからエクスカリバーの鞘を盗み、湖に投げ捨てる。それでも物語の最後では、致命傷を負った王を小舟で迎えに来る三人の女王の一人として登場する。",
+  "relatedFigureIds": ["arthur", "merlin"],
+  "relatedStoryIds": ["morgan-steals-the-scabbard", "death-of-arthur"],
+  "articleIds": [],
+  "sourceIds": ["malory-morte-darthur"]
+}

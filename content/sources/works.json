@@ -190,5 +190,23 @@
     "publishedPeriod": "2014年（日本公開は2015年）",
     "publisher": "サミット・エンターテインメント",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ジョン・ウィック」、英語版「John Wick (film)」でも確認している。"
+  },
+  {
+    "id": "work-fate-zero",
+    "title": "Fate/Zero",
+    "author": "虚淵玄（ニトロプラス）・TYPE-MOON",
+    "type": "work",
+    "publishedPeriod": "2006年〜2007年（小説）、2011年〜2012年（テレビアニメ）",
+    "publisher": "TYPE-MOON / 星海社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「Fate/Zero」、英語版「Fate/Zero」でも確認している。"
+  },
+  {
+    "id": "work-paripi-koumei",
+    "title": "パリピ孔明",
+    "author": "四葉夕卜（原作）・小川亮（漫画）",
+    "type": "work",
+    "publishedPeriod": "2019年〜（漫画）、2022年（テレビアニメ）、2023年（テレビドラマ）",
+    "publisher": "講談社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「パリピ孔明」の記述でも確認している。"
   }
 ]

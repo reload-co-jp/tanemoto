@@ -1,0 +1,20 @@
+{
+  "id": "zhang-fei",
+  "slug": "zhang-fei",
+  "name": "張飛",
+  "reading": "ちょうひ",
+  "originalName": "張飛",
+  "alternativeNames": ["張翼徳"],
+  "type": "historical",
+  "roles": ["劉備の義弟", "蜀の武将"],
+  "mythologyIds": ["three-kingdoms"],
+  "description": "字は翼徳（正史では益徳）。劉備に仕えた武将。『三国志演義』では身の丈八尺、豹のような頭にどんぐり眼、雷のような大声の豪傑で、一丈八尺の蛇矛を使う。長坂の戦いでは、橋の上でただ一騎、曹操の大軍をにらみつけて退かせた。",
+  "relatedFigureIds": ["liu-bei", "guan-yu"],
+  "relatedStoryIds": [
+    "peach-garden-oath",
+    "three-heroes-against-lu-bu",
+    "battle-of-changban"
+  ],
+  "articleIds": [],
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+}

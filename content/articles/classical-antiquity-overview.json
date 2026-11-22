@@ -1,0 +1,377 @@
+{
+  "id": "classical-antiquity-overview",
+  "slug": "classical-antiquity-overview",
+  "title": "古代ギリシャ・ローマの偉人とは？レオニダス、アレクサンドロス、カエサル、クレオパトラの逸話を原典で解説",
+  "shortTitle": "古代ギリシャ・ローマの偉人とは？",
+  "eyecatchText": "カエサル",
+  "description": "テルモピュライのレオニダス、東方遠征のアレクサンドロス大王、ルビコン川を渡ったカエサル、エジプト最後の女王クレオパトラ。誰もが知る逸話は、ヘロドトスやプルタルコスなど古代の書き手によって伝えられたものです。原典の章とともに紹介します。",
+  "lead": "「賽は投げられた」「来た、見た、勝った」。古代の偉人の名言や逸話は、今でもよく引用されます。でも、それらは誰が、いつ書き残したものなのでしょうか。神話ではなく歴史上の人物だからこそ、出典を確かめながら読んでみましょう。",
+  "category": "basics",
+  "tags": [
+    "古代ギリシャ",
+    "古代ローマ",
+    "アレクサンドロス大王",
+    "カエサル",
+    "クレオパトラ",
+    "レオニダス",
+    "プルタルコス",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["leonidas", "alexander", "julius-caesar", "cleopatra"],
+  "mythologyIds": ["classical-antiquity"],
+  "storyIds": [
+    "thermopylae",
+    "taming-of-bucephalas",
+    "alexander-and-diogenes",
+    "gordian-knot",
+    "crossing-the-rubicon",
+    "cleopatra-and-caesar",
+    "ides-of-march",
+    "death-of-cleopatra"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["herodotus-histories", "plutarch-lives", "suetonius-julius"],
+  "relatedArticleIds": ["alexander-the-great", "what-is-mythology"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "偉人の逸話はどこから来たのか",
+      "anchor": "sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "ここで取り上げる4人は、いずれも実在が確かめられている歴史上の人物です。ただし、彼らについてよく知られた逸話の多くは、古代の歴史家や伝記作家が書き残したものに由来します。主な書き手は次の3人です。",
+      "claimIds": ["cla-real"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ヘロドトス『歴史』（紀元前5世紀）：ペルシア戦争を描いた歴史書。テルモピュライの戦いを伝える",
+        "プルタルコス『英雄伝』（紀元後100年頃）：ギリシャとローマの著名人を一人ずつ組にした伝記集。アレクサンドロスとカエサルは対になっている",
+        "スエトニウス『ローマ皇帝伝』（紀元後121年頃）：カエサルから始まるローマの支配者12人の伝記"
+      ],
+      "claimIds": ["cla-authors"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "伝記は「歴史」そのものではない",
+      "text": "プルタルコスがアレクサンドロスの伝記を書いたのは、大王の死からおよそ400年後のことです。プルタルコス自身、伝記の冒頭で「わたしが書くのは歴史ではなく伝記だ」と述べ、人物の性格を表す小さな出来事を重んじると断っています。逸話は史実の記録というより、古代の人々が語り継いだ偉人像として読むのがよいでしょう。",
+      "claimIds": ["cla-caution", "cla-not-history"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "レオニダスとテルモピュライ",
+      "anchor": "leonidas"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元前480年、ペルシア王クセルクセスの大軍がギリシャに攻め寄せました。スパルタ王レオニダスの率いるギリシャ連合軍は、山と海に挟まれた隘路テルモピュライで敵を食い止めます。ヘロドトスは、レオニダスの家系をヘラクレスまで20代にわたってさかのぼって記しています。",
+      "claimIds": ["cla-leonidas-line"]
+    },
+    {
+      "type": "paragraph",
+      "text": "しかし土地の男エピアルテスが山越えの抜け道をペルシア王に教えたため、ギリシャ軍は背後を突かれることになります。スパルタには「スパルタが滅びるか、ヘラクレスの血を引く王が死ぬか」という神託が下っていました。レオニダスは同盟軍の多くを帰し、自らは残って戦死します。",
+      "claimIds": ["cla-ephialtes", "cla-oracle"]
+    },
+    {
+      "type": "quote",
+      "text": "矢で太陽が隠れるなら、日陰で戦えるというものだ。",
+      "sourceId": "herodotus-histories",
+      "location": "7.226",
+      "claimIds": ["cla-shade"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "これは決戦の前、ペルシア軍の矢が多すぎて太陽が隠れるほどだと聞いたスパルタ兵ディエネケスの言葉として、ヘロドトスが伝えるものです。",
+      "claimIds": ["cla-shade"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "アレクサンドロス大王",
+      "anchor": "alexander"
+    },
+    {
+      "type": "paragraph",
+      "text": "マケドニア王アレクサンドロスは、ペルシア帝国を倒し、エジプトからインド北西部に及ぶ大帝国を築きました。プルタルコスの伝記には、印象的な逸話がいくつも収められています。",
+      "claimIds": ["cla-alexander"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "誰も乗れない暴れ馬ブケファラスが自分の影におびえていると見抜き、太陽に向けて乗りこなした（6章）",
+        "日なたで寝そべっていた哲学者ディオゲネスに望みを聞くと、「日陰をつくらないでくれ」と言われた（14章）",
+        "解いた者が世界の王になるという「ゴルディオンの結び目」を剣で断ち切った（18章）"
+      ],
+      "claimIds": ["cla-bucephalas", "cla-diogenes", "cla-gordian"]
+    },
+    {
+      "type": "paragraph",
+      "text": "詳しくは「アレクサンドロス大王とは？」の記事で紹介しています。",
+      "claimIds": []
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "カエサルとルビコン川",
+      "anchor": "caesar"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元前49年、ガリアを征服したカエサルは、属州とイタリア本土の境であるルビコン川のほとりで、長いあいだ迷いました。軍を率いて川を渡れば、ローマとの内戦が始まるからです。プルタルコスによれば、彼はやがて、運を天に任せる人々が口にする言葉とともに川を渡りました。",
+      "claimIds": ["cla-rubicon"]
+    },
+    {
+      "type": "quote",
+      "text": "賽は投げられよ。",
+      "sourceId": "plutarch-lives",
+      "location": "カエサル伝 32",
+      "claimIds": ["cla-rubicon"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "同じ場面をスエトニウスは少し違う形で伝えています。川辺に不思議な姿の者が現れ、兵士からラッパを奪って吹き鳴らし、対岸へ渡っていくのを見たカエサルが、「神々のしるしの示す方へ進もう。賽は投げられた」と言ったというのです。",
+      "claimIds": ["cla-rubicon-suet"]
+    },
+    {
+      "type": "paragraph",
+      "text": "「来た、見た、勝った」の三語も有名です。プルタルコスは、小アジアのゼラでの勝利を知らせる手紙にカエサルがこう書いたと伝え、スエトニウスは、この戦いの凱旋式でこの三語を記した掲示が掲げられたと伝えています。",
+      "claimIds": ["cla-veni"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "クレオパトラ",
+      "anchor": "cleopatra"
+    },
+    {
+      "type": "paragraph",
+      "text": "エジプトの女王クレオパトラは、マケドニア系のプトレマイオス王家の出身です。プルタルコスは、弟と王位を争っていた彼女が、寝具袋に身を隠して宮殿のカエサルのもとへ運び込ませ、その大胆さでカエサルの心をつかんだと伝えています。",
+      "claimIds": ["cla-sack"]
+    },
+    {
+      "type": "paragraph",
+      "text": "のちにアントニウスと結んだクレオパトラは、オクタウィアヌスに敗れて自ら命を絶ちました。いちじくの籠に毒蛇（アスプ）を隠して運ばせたという話が有名ですが、プルタルコスは別の説もいくつか並べ、「本当のことは誰にもわからない」と書いています。",
+      "claimIds": ["cla-asp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3月15日",
+      "anchor": "ides"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元前44年、カエサルは元老院の会議の場で暗殺されます。占い師は3月のイドゥス（15日）に気をつけるよう警告していました。スエトニウスは、カエサルは最初の一撃でうめいただけで一言も発しなかったと書きつつ、ブルトゥスが襲いかかったとき、ギリシャ語で「おまえもか、わが子よ」と言ったと記す者もいると伝えています。有名な「ブルータス、おまえもか」は、この話がもとになっています。",
+      "claimIds": ["cla-ides", "cla-et-tu"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「ブルータス、おまえもか」",
+      "text": "「ブルータス、おまえもか」というラテン語のせりふ（Et tu, Brute?）が広く知られるようになったのは、シェイクスピアの戯曲『ジュリアス・シーザー』によってです。古代の伝記作家たちは、カエサルの最期の言葉を確かなこととしては伝えていません。",
+      "claimIds": ["cla-et-tu", "cla-shakespeare"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "古代の偉人の有名な逸話の多くは、ヘロドトス、プルタルコス、スエトニウスなど古代の書き手に由来する",
+        "レオニダスは神託を知りながらテルモピュライに残り、戦死した",
+        "アレクサンドロスの逸話（ブケファラス、ディオゲネス、ゴルディオンの結び目）はプルタルコスが伝える",
+        "カエサルの「賽は投げられた」、クレオパトラの毒蛇の最期も、書き手によって伝え方が異なる"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "cla-real",
+      "text": "レオニダス、アレクサンドロス、カエサル、クレオパトラはいずれも実在した人物で、よく知られた逸話の多くは古代の歴史家・伝記作家の著作に由来する。",
+      "classification": "scholarship",
+      "sourceIds": [
+        "herodotus-histories",
+        "plutarch-lives",
+        "suetonius-julius"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』第7巻、プルタルコス『英雄伝』、スエトニウス『神君ユリウス伝』"
+    },
+    {
+      "id": "cla-authors",
+      "text": "ヘロドトス『歴史』はペルシア戦争を描く歴史書、プルタルコス『英雄伝』はギリシャとローマの著名人を組にした伝記集、スエトニウス『ローマ皇帝伝』はカエサルから始まる12人の伝記である。",
+      "classification": "fact",
+      "sourceIds": [
+        "herodotus-histories",
+        "plutarch-lives",
+        "suetonius-julius"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "各書の構成"
+    },
+    {
+      "id": "cla-caution",
+      "text": "古代の伝記の逸話は、史実の記録というより古代の人々が語り継いだ偉人像として読むべきである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "cla-not-history",
+      "text": "プルタルコスは、自分が書くのは歴史ではなく伝記であり、人物の性格を表す小さな出来事を重んじると述べている。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 1"
+    },
+    {
+      "id": "cla-leonidas-line",
+      "text": "ヘロドトスは、ギリシャ軍の指揮官レオニダスの家系をヘラクレスまでさかのぼって列挙している。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.204"
+    },
+    {
+      "id": "cla-ephialtes",
+      "text": "マリス人エピアルテスが報酬を期待してクセルクセスに山越えの道を教え、テルモピュライのギリシャ軍を破滅に導いた。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.213"
+    },
+    {
+      "id": "cla-oracle",
+      "text": "スパルタには、町が滅ぼされるか、ヘラクレスの血を引く王が死ぬかという神託が下っていた。レオニダスは同盟軍を帰し、自らは残った。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.220"
+    },
+    {
+      "id": "cla-shade",
+      "text": "スパルタ兵ディエネケスは、ペルシア軍の矢で太陽が隠れると聞くと、それなら日陰で戦えると言った。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.226"
+    },
+    {
+      "id": "cla-alexander",
+      "text": "アレクサンドロスはペルシア王ダレイオスを破り、東方へ遠征してインドに至った。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 33、62"
+    },
+    {
+      "id": "cla-bucephalas",
+      "text": "少年アレクサンドロスは、暴れ馬ブケファラスが自分の影におびえていると見抜いて太陽の方へ向け、乗りこなした。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 6"
+    },
+    {
+      "id": "cla-diogenes",
+      "text": "日なたで寝そべっていたディオゲネスは、望みを尋ねたアレクサンドロスに「少し日陰をつくらないでくれ」と答えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 14"
+    },
+    {
+      "id": "cla-gordian",
+      "text": "アレクサンドロスは、解いた者が全世界の王になると言われたゴルディオンの結び目を剣で断ち切ったと、多くの著述家が伝える。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 18",
+      "note": "アリストブロスは、留め釘を抜いてくびきを外したと伝える。"
+    },
+    {
+      "id": "cla-rubicon",
+      "text": "カエサルはルビコン川のほとりで長く迷ったのち、「賽は投げられよ」という言葉とともに川を渡った。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』カエサル伝 32"
+    },
+    {
+      "id": "cla-rubicon-suet",
+      "text": "スエトニウスによれば、ルビコン川で不思議な姿の者がラッパを吹いて対岸に渡るのを見たカエサルは、「神々のしるしの示す方へ進もう。賽は投げられた」と言った。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-julius"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『神君ユリウス伝』32"
+    },
+    {
+      "id": "cla-veni",
+      "text": "プルタルコスによれば、カエサルはゼラでの勝利を友人への手紙で「来た、見た、勝った」の三語で知らせた。スエトニウスによれば、ポントス戦勝の凱旋式でこの三語を記した掲示が掲げられた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives", "suetonius-julius"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』カエサル伝 50、スエトニウス『神君ユリウス伝』37"
+    },
+    {
+      "id": "cla-sack",
+      "text": "クレオパトラは寝具袋に身を隠し、アポロドロスにカエサルのもとへ運び込ませた。この策でカエサルは心をつかまれたという。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』カエサル伝 49"
+    },
+    {
+      "id": "cla-asp",
+      "text": "クレオパトラの死について、プルタルコスはいちじくの籠に隠した毒蛇の説のほか、水瓶の蛇や髪の櫛に隠した毒の説を挙げ、真相は誰にもわからないと記す。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アントニウス伝 85–86"
+    },
+    {
+      "id": "cla-ides",
+      "text": "占い師はカエサルに3月のイドゥスの危険を警告していた。カエサルは元老院で刺客に取り囲まれ、ブルトゥスが短剣を抜いたのを見ると、トガで顔を覆った。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives", "suetonius-julius"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』カエサル伝 63、66、スエトニウス『神君ユリウス伝』81–82"
+    },
+    {
+      "id": "cla-et-tu",
+      "text": "スエトニウスは、カエサルは最初の一撃でうめいただけで何も言わなかったとしつつ、マルクス・ブルトゥスが襲いかかったとき、ギリシャ語で「おまえもか、わが子よ」と言ったと記す者もいると伝える。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-julius"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『神君ユリウス伝』82"
+    },
+    {
+      "id": "cla-shakespeare",
+      "text": "ラテン語の「Et tu, Brute?」が広く知られるようになったのはシェイクスピアの戯曲『ジュリアス・シーザー』による。",
+      "classification": "scholarship",
+      "sourceIds": ["suetonius-julius"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『神君ユリウス伝』82（後世の受容について）",
+      "note": "シェイクスピア『ジュリアス・シーザー』第3幕第1場。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "julius-caesar",
+  "slug": "julius-caesar",
+  "name": "ユリウス・カエサル",
+  "reading": "ゆりうす・かえさる",
+  "originalName": "Gaius Iulius Caesar",
+  "romanized": "Julius Caesar",
+  "alternativeNames": ["ガイウス・ユリウス・カエサル", "ジュリアス・シーザー"],
+  "type": "historical",
+  "roles": ["ローマの将軍", "独裁官"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "共和政末期のローマの将軍・政治家（紀元前100年頃〜前44年）。ガリア（現在のフランス一帯）を征服したのち、紀元前49年にルビコン川を渡ってローマに進軍し、内戦に勝って独裁官となった。紀元前44年3月15日、元老院の会議の場でブルトゥスらに暗殺された。プルタルコスやスエトニウスが、その劇的な逸話を伝えている。",
+  "relatedFigureIds": ["alexander", "cleopatra"],
+  "relatedStoryIds": [
+    "crossing-the-rubicon",
+    "cleopatra-and-caesar",
+    "ides-of-march"
+  ],
+  "articleIds": [],
+  "sourceIds": ["plutarch-lives", "suetonius-julius"]
+}

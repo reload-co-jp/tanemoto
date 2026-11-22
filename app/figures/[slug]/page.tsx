@@ -99,7 +99,7 @@ const Page = async ({ params }: Props) => {
                 ["別名・表記ゆれ", figure.alternativeNames.join("、")],
                 ["分類", figureTypes[figure.type]],
                 [
-                  "神話体系",
+                  "神話・伝説",
                   mythologies.length > 0 && (
                     <>
                       {mythologies.map((m, i) => (

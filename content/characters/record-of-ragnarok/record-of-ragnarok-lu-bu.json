@@ -1,0 +1,215 @@
+{
+  "id": "record-of-ragnarok-lu-bu",
+  "slug": "record-of-ragnarok-lu-bu",
+  "name": "呂布奉先",
+  "reading": "りょふほうせん",
+  "alternativeNames": ["呂布"],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "個の強さでは三國時代最強とうたわれる「中華最強の英雄」。人類側の第1回戦の闘士としてトールと戦い、敗れた。",
+    "claimIds": ["ror-lb-work", "ror-lb-work-round"]
+  },
+  "nameOrigin": {
+    "text": "名前は後漢末の武将、呂布（字は奉先）そのもの。",
+    "claimIds": ["ror-lb-work", "ror-lb-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "lu-bu",
+      "label": "呂布（三国志最強の武人）",
+      "inWork": {
+        "text": "幼いころから最強を求めて強者と戦い続け、やがて自分の時代で自分が最強になったと悟って、生きることに退屈してしまう。",
+        "claimIds": ["ror-lb-work", "ror-lb-work-past"]
+      },
+      "inMyth": {
+        "text": "『三国志演義』は「人中に呂布あり、馬中に赤兎あり」とうたい、虎牢関では劉備・関羽・張飛の三人がかりでも呂布を倒せなかったと語る。正史『三国志』も、呂布は弓馬にすぐれ腕力が人並み外れ、「飛将」と呼ばれたと記す。",
+        "claimIds": ["ror-lb-myth-tiger", "ror-lb-myth-name"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "lu-bu",
+      "label": "方天画戟",
+      "inWork": {
+        "text": "武器は、戦乙女ランドグリーズが神器錬成した方天戟。",
+        "claimIds": ["ror-lb-work-weapon"]
+      },
+      "inMyth": {
+        "text": "演義の呂布は、初登場の場面から方天画戟を手にしている。処刑の場面にも「むなしく方天戟一本が残った」と詠む詩が添えられる。",
+        "claimIds": ["ror-lb-myth-halberd"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "lu-bu",
+      "label": "赤兎馬",
+      "inWork": {
+        "text": "トールに両脚を砕かれた呂布のもとへ、愛馬の赤兎馬が闘技場に乱入し、呂布はその背にまたがって最後の一撃に臨む。",
+        "claimIds": ["ror-lb-work-round"]
+      },
+      "inMyth": {
+        "text": "演義では、赤兎は董卓が呂布を寝返らせるために贈った一日千里を走る名馬で、呂布はこの馬と金銀に心を動かされて養父の丁原を殺した。最後は部下の侯成にこの赤兎を盗まれ、曹操に寝返られる。",
+        "claimIds": ["ror-lb-myth-redhare", "ror-lb-myth-capture"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "lu-bu",
+      "label": "白門楼での最期",
+      "inWork": {
+        "text": "生前は、退屈になった人生に終止符を打つために曹操に敗れ、処刑されたとされる。ラグナロクでは首を斬られ、光となって散った。",
+        "claimIds": ["ror-lb-work-past", "ror-lb-work-round"]
+      },
+      "inMyth": {
+        "text": "演義では、呂布は門楼でうたた寝をしているところを部下に縛り上げられ、白門楼で曹操に縄をゆるめてくれと頼み、仕えたいと申し出る。劉備の一言で曹操は呂布を絞め殺させ、首をさらした。",
+        "claimIds": ["ror-lb-myth-capture", "ror-lb-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "演義の呂布は、最期に縄をゆるめてくれと頼み、曹操の配下になることで生き延びようとする。作品はこれを、最強ゆえに退屈した呂布が自ら敗北を受け入れたという、孤高の武人の物語に読みかえている。",
+      "claimIds": ["ror-lb-myth-death", "ror-lb-work-past", "ror-lb-cmp-death"]
+    },
+    {
+      "text": "演義の赤兎は、呂布が養父を裏切る代価として受け取った馬で、最後は部下に盗まれて呂布の破滅のきっかけになる。作品では、死後も主のもとへ駆けつける相棒として描かれ、人馬の絆が強調されている。なお正史は、呂布が董卓から赤兎をもらったとは書いておらず、袁紹のもとで戦っていたころの愛馬として赤兎の名を挙げている。",
+      "claimIds": [
+        "ror-lb-myth-redhare",
+        "ror-lb-myth-capture",
+        "ror-lb-work-round",
+        "ror-lb-myth-sz-redhare",
+        "ror-lb-cmp-redhare"
+      ]
+    },
+    {
+      "text": "呂布を主人公にしたスピンオフの題名『終末のワルキューレ異聞 呂布奉先飛将伝』にある「飛将」は、正史が伝える呂布の呼び名と同じである。",
+      "claimIds": [
+        "ror-lb-work-spinoff",
+        "ror-lb-myth-name",
+        "ror-lb-cmp-spinoff"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-lb-work",
+      "text": "呂布奉先は、個の強さでは三國時代最強とうたわれる「中華最強の英雄」で、人類側の闘士として登場する。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-lb-work-past",
+      "text": "作中の呂布は、幼少期から最強を求めて強者と戦い続け、己の時代で己が最強になったと悟って退屈し、その人生に終止符を打つため曹操に敗れて処刑されたとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-lb-work-weapon",
+      "text": "呂布の武器は、戦乙女ランドグリーズが神器錬成した方天戟である。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-lb-work-round",
+      "text": "ラグナロク第1回戦で呂布はトールと戦い、両脚を破壊されたのちに乱入した愛馬の赤兎馬に跨がって最後の一撃に挑むが敗れ、首を切られて消滅した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-lb-work-spinoff",
+      "text": "呂布を主人公にしたスピンオフ『終末のワルキューレ異聞 呂布奉先飛将伝』が連載された。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-lb-myth-name",
+      "text": "正史『三国志』呂布伝は、呂布（字は奉先）が弓馬に巧みで膂力が人に過ぎ、「飛将」と号したと記す。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』魏書 呂布伝"
+    },
+    {
+      "id": "ror-lb-myth-tiger",
+      "text": "『三国志演義』第5回は、赤兎馬にまたがる呂布を「人中呂布、馬中赤兔」と称え、張飛・関羽・劉備の三人に囲まれても呂布を倒せなかったと語る。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第5回"
+    },
+    {
+      "id": "ror-lb-myth-halberd",
+      "text": "『三国志演義』の呂布は方天画戟を手にして登場し、白門楼の処刑の場面には「漫有方天戟一枝（むなしく方天戟一本が残る）」と詠む詩が添えられている。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第3回・第19回"
+    },
+    {
+      "id": "ror-lb-myth-redhare",
+      "text": "『三国志演義』第3回では、董卓の部下李粛が、一日に千里を行く名馬赤兎と金銀を呂布に贈り、呂布は養父丁原を殺して董卓に降った。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第3回"
+    },
+    {
+      "id": "ror-lb-myth-capture",
+      "text": "『三国志演義』第19回では、侯成が呂布の赤兎馬を盗んで曹操に降り、門楼でうたた寝をしていた呂布を宋憲・魏続が縛り上げた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第19回"
+    },
+    {
+      "id": "ror-lb-myth-death",
+      "text": "『三国志演義』第19回では、白門楼で呂布が「縛りがきつい、ゆるめてくれ」と求め、曹操に仕えたいと申し出るが、劉備の進言を受けた曹操は呂布を縊り殺させ、首をさらした。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第19回"
+    },
+    {
+      "id": "ror-lb-myth-sz-redhare",
+      "text": "正史『三国志』呂布伝は、呂布が董卓を殺したのち袁紹のもとで張燕と戦った箇所で「布に良馬あり、赤兔と曰う」と記す。董卓が赤兎を贈ったという話は見えない。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』魏書 呂布伝"
+    },
+    {
+      "id": "ror-lb-cmp-death",
+      "text": "作品は、命乞いをする演義の呂布を、自ら敗北を選んだ孤高の武人として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-lb-cmp-redhare",
+      "text": "作品の赤兎馬は、裏切りの代価や破滅のきっかけではなく、死後も主に駆けつける相棒として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-lb-cmp-spinoff",
+      "text": "スピンオフの題名にある「飛将」は、正史が伝える呂布の呼び名と一致する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "sanguo-yanyi", "sanguozhi"],
+  "articleIds": []
+}

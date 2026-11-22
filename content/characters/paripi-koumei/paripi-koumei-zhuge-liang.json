@@ -1,0 +1,222 @@
+{
+  "id": "paripi-koumei-zhuge-liang",
+  "slug": "paripi-koumei-zhuge-liang",
+  "name": "諸葛孔明",
+  "reading": "しょかつこうめい",
+  "alternativeNames": ["諸葛亮孔明", "孔明"],
+  "workId": "paripi-koumei",
+  "description": {
+    "text": "五丈原で病死した蜀の軍師諸葛亮が、若い姿でハロウィンの渋谷に転生した姿。歌手を目指す月見英子の歌に心を打たれ、彼女の軍師（マネージャー）になる。",
+    "claimIds": ["pk-zl-work"]
+  },
+  "nameOrigin": {
+    "text": "モデルは三国時代に蜀の丞相を務めた諸葛亮。拱手の姿勢で「姓は諸葛、名は亮、字は孔明」と名乗る。",
+    "claimIds": ["pk-zl-work-name", "pk-zl-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "zhuge-liang",
+      "label": "諸葛亮（蜀の丞相）",
+      "inWork": {
+        "text": "拱手して「姓は諸葛、名は亮、字は孔明」と名乗るため、三国志を知る人からはコスプレイヤーだと思われている。",
+        "claimIds": ["pk-zl-work-name"]
+      },
+      "inMyth": {
+        "text": "正史『三国志』によれば、諸葛亮は字を孔明といい、劉備に推薦した徐庶は「諸葛孔明は臥龍です」と言った。",
+        "claimIds": ["pk-zl-myth-name"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "zhuge-liang",
+      "label": "綸巾・鶴氅・羽扇",
+      "inWork": {
+        "text": "ふだんから鶴氅・綸巾・羽扇の姿をしている。",
+        "claimIds": ["pk-zl-work-name"]
+      },
+      "inMyth": {
+        "text": "『三国志演義』で劉備が初めて会った孔明は、身の丈八尺、綸巾をかぶり鶴氅をまとった、仙人のような姿だった。五丈原の場面でも、車の上の孔明は「綸巾羽扇」の姿で描かれる。",
+        "claimIds": ["pk-zl-myth-appearance"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "zhuge-liang",
+      "label": "五丈原での死",
+      "inWork": {
+        "text": "234年、五丈原の戦いの最中に病に倒れ、「次の生があるならば、戦のない平和な時代に生まれたい」と願いながら息を引き取る。渋谷で目覚めた翌朝、酔いの残る孔明が口にしたのは司馬懿の名だった。",
+        "claimIds": ["pk-zl-work", "pk-zl-work-sima"]
+      },
+      "inMyth": {
+        "text": "正史では、司馬懿と百日あまり対峙したのち、孔明は陣中で病没した。五十四歳。演義では、死後に自分の木像を車に乗せて押し出させ、追撃してきた司馬懿を逃げ帰らせる。",
+        "claimIds": ["pk-zl-myth-death", "pk-zl-myth-statue"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "zhuge-liang",
+      "label": "主君劉備と三顧の礼",
+      "inWork": {
+        "text": "かつての主君劉備が、幻のように孔明の前に現れて進む道を示す。孔明は、自分を拾ってくれた英子の恩に報いるため、自ら軍師になることを申し出る。",
+        "claimIds": ["pk-zl-work", "pk-zl-work-liubei"]
+      },
+      "inMyth": {
+        "text": "正史・演義ともに、劉備が孔明の草庵を三度訪ねてようやく対面し、孔明は天下を三分する計を説いて劉備に仕えた。",
+        "claimIds": ["pk-zl-myth-threevisits"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "zhuge-liang",
+      "label": "計略（空城の計・奇門遁甲）",
+      "inWork": {
+        "text": "渋谷に転生した直後には「奇門遁甲」を口走るが、そこに転生の術は載っていない。作中では空城の計など三国志ゆかりの計略を現代に応用し、幼稚園を守る作戦でも空城の計を使う。",
+        "claimIds": ["pk-zl-work-tactics"]
+      },
+      "inMyth": {
+        "text": "演義の孔明は「奇門遁甲の天書を授かったので風を呼べる」と言って七星壇で東南の風を祈り、また西城では城門を開け放ち、城楼で琴を弾いて司馬懿の大軍を退かせた（空城の計）。",
+        "claimIds": ["pk-zl-myth-wind", "pk-zl-myth-emptyfort"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "三国志の三顧の礼は、主君の劉備が三度足を運んで軍師を迎える話である。作品では、孔明の方が英子の歌に心を打たれ、自分から軍師を買って出る。主従の出会い方を逆にして、孔明が「仕えたい相手」を自ら見つける物語にしている。",
+      "claimIds": ["pk-zl-myth-threevisits", "pk-zl-work", "pk-zl-cmp-visits"]
+    },
+    {
+      "text": "演義では、孔明は死んだあとまで木像で司馬懿を退かせる。作品で転生した孔明が最初に口にする名が司馬懿なのは、五丈原で対峙したまま死んだ宿敵との因縁を受けたものと読める。",
+      "claimIds": ["pk-zl-myth-statue", "pk-zl-work-sima", "pk-zl-cmp-sima"]
+    },
+    {
+      "text": "鶴氅・綸巾・羽扇という孔明の姿は、演義の描写と一致する。作品はこの「いかにも孔明」な装いをそのまま現代の渋谷に持ち込み、周囲からコスプレと思われるという笑いに使っている。",
+      "claimIds": [
+        "pk-zl-myth-appearance",
+        "pk-zl-work-name",
+        "pk-zl-cmp-appearance"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "pk-zl-work",
+      "text": "諸葛亮孔明は、234年に五丈原で「次の生があるならば、戦のない平和な時代に生まれたい」と願いながら病没し、2019年のハロウィンの渋谷に若き日の姿で転生する。月見英子の歌に感銘を受け、恩義に報いるため軍師（マネージャー）になることを申し出る。",
+      "classification": "creative",
+      "sourceIds": ["work-paripi-koumei"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パリピ孔明」の記述で確認。"
+    },
+    {
+      "id": "pk-zl-work-name",
+      "text": "作中の孔明はふだんから鶴氅・綸巾・羽扇の姿で、拱手の姿勢を取りながら「姓は諸葛、名は亮、字は孔明」と名乗るため、三国志を知る者にはコスプレイヤーと思われている。モデルは蜀の丞相諸葛亮。",
+      "classification": "creative",
+      "sourceIds": ["work-paripi-koumei"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パリピ孔明」の記述で確認。"
+    },
+    {
+      "id": "pk-zl-work-sima",
+      "text": "孔明が転生したハロウィンの翌朝、酔いが冷めずに口にした名前が司馬懿である（第1話）。",
+      "classification": "creative",
+      "sourceIds": ["work-paripi-koumei"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パリピ孔明」の記述で確認。"
+    },
+    {
+      "id": "pk-zl-work-liubei",
+      "text": "かつての主君劉備が、幻影のように孔明の前に姿を現し、進む道を示唆する（第6話）。",
+      "classification": "creative",
+      "sourceIds": ["work-paripi-koumei"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パリピ孔明」の記述で確認。"
+    },
+    {
+      "id": "pk-zl-work-tactics",
+      "text": "転生した孔明は「奇門遁甲」を口走るが、転生の術は載っていない（第1話）。作中では幼稚園を舞台にした作戦で空城の計が使われる。",
+      "classification": "creative",
+      "sourceIds": ["work-paripi-koumei"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パリピ孔明」の記述で確認。"
+    },
+    {
+      "id": "pk-zl-myth-name",
+      "text": "正史『三国志』諸葛亮伝によれば、諸葛亮は字を孔明といい、徐庶は劉備に「諸葛孔明は臥龍です」と推薦した。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "pk-zl-myth-appearance",
+      "text": "『三国志演義』第38回では、劉備が見た孔明は身の丈八尺、顔は冠の玉のようで、綸巾をかぶり鶴氅をまとい、仙人のような風格があった。第104回でも車上の孔明は「綸巾羽扇」と描かれる。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第38回・第104回"
+    },
+    {
+      "id": "pk-zl-myth-death",
+      "text": "正史『三国志』諸葛亮伝によれば、孔明は司馬懿と百日あまり対峙したのち、その年の八月に病にかかり陣中で没した。時に五十四歳。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "pk-zl-myth-statue",
+      "text": "『三国志演義』第104回では、孔明は死を伏せて退却し、司馬懿が追ってきたら自分の木像を車に乗せて押し出すよう遺言した。木像を見た司馬懿は逃げ帰り、「死せる諸葛、よく生ける仲達を走らす」ということわざが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第104回"
+    },
+    {
+      "id": "pk-zl-myth-threevisits",
+      "text": "正史『三国志』諸葛亮伝は、劉備が諸葛亮のもとへ「凡そ三たび往きて、乃ち見る」と記し、『三国志演義』第37–38回もこの三度の訪問と、孔明が天下三分の計を説く場面を描く。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi", "sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝、『三国志演義』第37–38回"
+    },
+    {
+      "id": "pk-zl-myth-wind",
+      "text": "『三国志演義』第49回で、孔明は「奇門遁甲の天書を授かったので風雨を呼べる」と周瑜に言い、南屏山に七星壇を築かせて三日三晩の東南の風を祈った。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第49回"
+    },
+    {
+      "id": "pk-zl-myth-emptyfort",
+      "text": "『三国志演義』第95回で、司馬懿の大軍が西城に迫ると、孔明は四つの城門を開け放って兵に道を掃かせ、自らは城楼で香をたき琴を弾いた。司馬懿は伏兵を疑って退却した。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第95回"
+    },
+    {
+      "id": "pk-zl-cmp-visits",
+      "text": "作品は三顧の礼の主客を逆にし、孔明が自ら仕える相手を選ぶ物語にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pk-zl-cmp-sima",
+      "text": "転生した孔明が最初に司馬懿の名を口にするのは、五丈原で対峙した宿敵との因縁を受けたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pk-zl-cmp-appearance",
+      "text": "作品は演義どおりの孔明の装いを現代の渋谷に持ち込み、コスプレと間違われる笑いにしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-paripi-koumei", "sanguo-yanyi", "sanguozhi"],
+  "articleIds": []
+}

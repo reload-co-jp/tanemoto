@@ -1,0 +1,333 @@
+{
+  "id": "japanese-legends-overview",
+  "slug": "japanese-legends-overview",
+  "title": "日本の伝説とは？源義経と弁慶、安倍晴明、かぐや姫を古典の原文でわかりやすく解説",
+  "shortTitle": "日本の伝説とは？",
+  "eyecatchText": "日本の伝説",
+  "description": "日本の伝説の人物たちは、どの古典にどう書かれているのか。牛若と弁慶の出会い、弁慶の立往生、式神を使う安倍晴明、鬼の腕を斬った渡辺綱、月へ帰るかぐや姫を、『義経記』『大鏡』『古事談』『太平記』『竹取物語』の原文でたどります。",
+  "lead": "源義経と弁慶、陰陽師の安倍晴明、かぐや姫。誰もが知る日本の伝説の人物ですが、その物語は一冊の本にまとまっているわけではありません。平安時代から室町時代にかけて書かれた物語や説話、軍記物語のなかに散らばっています。それぞれの原典に何が書かれているのかを見ていきましょう。",
+  "category": "basics",
+  "tags": [
+    "日本の伝説",
+    "源義経",
+    "弁慶",
+    "安倍晴明",
+    "かぐや姫",
+    "渡辺綱",
+    "義経記",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "minamoto-no-yoshitsune",
+    "benkei",
+    "abe-no-seimei",
+    "minamoto-no-yorimitsu",
+    "watanabe-no-tsuna",
+    "kaguya-hime"
+  ],
+  "mythologyIds": ["japanese-legends"],
+  "storyIds": [
+    "ushiwaka-at-sojo-ga-tani",
+    "benkei-and-the-thousand-swords",
+    "nyoi-crossing",
+    "benkei-standing-death",
+    "seimei-and-emperor-kazan",
+    "seimei-and-doma",
+    "onikiri-sword",
+    "kaguya-hime-returns-to-the-moon"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": [
+    "gikeiki",
+    "okagami",
+    "kojidan",
+    "taiheiki",
+    "taketori-monogatari"
+  ],
+  "relatedArticleIds": ["japanese-mythology-overview", "what-is-mythology"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "神話と伝説のちがい",
+      "anchor": "myth-and-legend"
+    },
+    {
+      "type": "paragraph",
+      "text": "日本の神話は、8世紀の『古事記』『日本書紀』に、神々の時代から天皇の時代へと続く一つの流れとして記されています。これに対して、ここで紹介する伝説の人物たちは、時代も作品もばらばらです。かぐや姫は平安時代前期の『竹取物語』、安倍晴明は『大鏡』や『古事談』といった歴史物語・説話集、源義経と弁慶は室町時代の軍記物語『義経記』に登場します。",
+      "claimIds": ["jpl-sources"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "実在の人物と伝説",
+      "text": "源義経・安倍晴明・源頼光・渡辺綱は実在した人物です。ただし、ここで紹介する逸話は、後の時代の物語や説話が語るもので、歴史的な事実とは区別して読む必要があります。",
+      "claimIds": ["jpl-historical"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "牛若と弁慶の出会い",
+      "anchor": "benkei"
+    },
+    {
+      "type": "paragraph",
+      "text": "『義経記』によれば、源義朝の末子牛若は鞍馬寺に預けられ、自分が源氏の子だと知ると、天狗の住みかといわれる僧正が谷で夜ごとひとり武芸を磨きました。草木を平家の一門に、大木を清盛に見立てて太刀で斬りつけたといいます。",
+      "claimIds": ["jpl-sojo"]
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、比叡山の荒法師弁慶は、人の太刀を千本集めて宝にしようと、夜な夜な京の町で太刀を奪っていました。九百九十九本を集めた夜、五条の天神で笛を吹いて通りかかった若者に挑みますが、若者は九尺の築地にひらりと飛び上がり、弁慶は太刀を取り上げられてしまいます。翌晩、清水寺で再び敗れた弁慶は、この若者、義経の家来になりました。",
+      "claimIds": ["jpl-thousand"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "五条大橋ではなく五条の天神",
+      "text": "弁慶と牛若の出会いは「五条大橋」の場面として知られています。『義経記』では、最初の対決は五条の天神（五条天神社）の近く、二度目は清水寺で、橋の上の決闘ではありません。",
+      "claimIds": ["jpl-thousand", "jpl-gojo"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "如意の渡と弁慶の立往生",
+      "anchor": "benkei-death"
+    },
+    {
+      "type": "paragraph",
+      "text": "兄頼朝と対立した義経は、山伏に姿を変えて奥州へ逃れます。越中の如意の渡しで渡し守に正体を怪しまれたとき、弁慶は主君を浜に投げ出して扇で打ちすえ、「この山伏のせいで疑われる」と怒ってみせました。主君を打つほどだから判官ではあるまい、と渡し守は一行を通します。この場面は、のちに能『安宅』や歌舞伎『勧進帳』で関所の物語として演じられるようになりました。",
+      "claimIds": ["jpl-nyoi", "jpl-ataka"]
+    },
+    {
+      "type": "paragraph",
+      "text": "最後は、奥州の衣川の館が大軍に囲まれます。弁慶は鎧に刺さった無数の矢を折りながら戦い続け、やがて薙刀を逆さに杖にして仁王立ちのまま動かなくなりました。",
+      "claimIds": ["jpl-standing"]
+    },
+    {
+      "type": "quote",
+      "text": "立ちながらすくみたる事は、君の御自害の程、人を寄せじとて守護の為かと覚えて、人々いよいよ感じけり。",
+      "sourceId": "gikeiki",
+      "location": "巻第八「衣河合戦の事」",
+      "claimIds": ["jpl-standing"]
+    },
+    {
+      "type": "paragraph",
+      "text": "立ったまま死んでいたのは、主君が自害を終えるまで敵を近づけないためだったのだろう、と人々は感じ入った、というのです。",
+      "claimIds": ["jpl-standing"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "陰陽師・安倍晴明",
+      "anchor": "seimei"
+    },
+    {
+      "type": "paragraph",
+      "text": "安倍晴明は平安時代中期の陰陽師です。『大鏡』は、寛和二年（986年）、花山天皇がひそかに内裏を出て出家しようとした夜のことを語ります。晴明の家の前を通ると、中から晴明の声がしました。",
+      "claimIds": ["jpl-kazan"]
+    },
+    {
+      "type": "quote",
+      "text": "御門おりさせ給ふと見ゆる天變ありつるが、旣になりにけりと見ゆるかな。參りて奏せむ。",
+      "sourceId": "okagami",
+      "location": "花山院",
+      "claimIds": ["jpl-kazan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "「帝が退位なさると見える天の異変があったが、もう事は成ってしまったようだ。参内して申し上げよう」。晴明が「式神一人、内裏へ参れ」と命じると、目に見えない者が戸を開けて出てきたといいます。",
+      "claimIds": ["jpl-kazan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "鎌倉時代初めの説話集『古事談』には、藤原道長にかけられた呪いを晴明が見破る話があります。道長の白い犬が吠えて主人を引き止めたことから、晴明は道に埋められた呪物を見つけ出し、紙で作った鳥を白鷺に変えて飛ばし、術者の道摩法師の居場所を突き止めました。",
+      "claimIds": ["jpl-doma"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "源頼光と渡辺綱の鬼退治",
+      "anchor": "onikiri"
+    },
+    {
+      "type": "paragraph",
+      "text": "源頼光とその家来たちは、のちに大江山の酒呑童子退治などで知られる鬼退治の英雄です。南北朝時代の『太平記』は、源氏に伝わった名刀「鬼切」の由来として、こんな話を語ります。頼光の命で大和国宇多郡の森に向かった渡辺綱は、空から髪をつかまれ、太刀で毛の生えた三本指の腕を斬り落としました。七日の物忌みの最後の夜、頼光の母が訪ねてきて腕を見せてほしいと言い、手に取るや「これは私の手だ」と牛鬼の姿に変わります。頼光はその首を太刀で斬り落としました。",
+      "claimIds": ["jpl-onikiri"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "酒呑童子の物語",
+      "text": "頼光と四天王による大江山の酒呑童子退治は、室町時代の『御伽草子』などで広まった物語です。トモタネでは、現時点で原文を確認できた『太平記』の鬼切の話を紹介しています。",
+      "claimIds": ["jpl-shuten"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "月へ帰ったかぐや姫",
+      "anchor": "kaguya"
+    },
+    {
+      "type": "paragraph",
+      "text": "『竹取物語』は、竹取の翁が光る竹の中で見つけた三寸ほどの女の子の物語です。成長したかぐや姫は、五人の貴公子に「仏の御石の鉢」「蓬莱の玉の枝」などの難題を出して求婚を退け、帝の求めにも応じません。実は月の都の人で、八月十五夜、帝が送った二千人の兵も力を奪われて戦えず、姫は天の羽衣を着て月へ帰っていきました。",
+      "claimIds": ["jpl-suitors", "jpl-moon"]
+    },
+    {
+      "type": "paragraph",
+      "text": "物語の最後で、帝は姫が残した不死の薬を、天に最も近い駿河の山の頂で焼かせます。その山を「ふじの山」と名づけ、煙はいまも雲の中へ立ち昇っている、と物語は結ばれます。",
+      "claimIds": ["jpl-fuji"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "日本の伝説の人物の物語は、『竹取物語』『大鏡』『古事談』『義経記』『太平記』など、時代も種類も異なる古典に散らばっている",
+        "『義経記』では、弁慶と牛若の出会いは五条の天神と清水寺。弁慶は衣川の合戦で立ったまま死んだ",
+        "安倍晴明は『大鏡』で花山天皇の退位を天の異変から知り、『古事談』では紙の鳥を白鷺に変えて呪いの術者を突き止める",
+        "『太平記』では、渡辺綱が鬼の腕を斬り、頼光が母に化けた鬼の首を斬った太刀が「鬼切」と呼ばれる",
+        "かぐや姫は月の都の人で、帝が不死の薬を焼かせた山が「ふじの山」と名づけられた"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "jpl-sources",
+      "text": "かぐや姫は『竹取物語』、安倍晴明は『大鏡』『古事談』などの歴史物語・説話集、源義経と弁慶は軍記物語『義経記』、源頼光と渡辺綱の鬼切の話は『太平記』に語られている。",
+      "classification": "fact",
+      "sourceIds": [
+        "taketori-monogatari",
+        "okagami",
+        "kojidan",
+        "gikeiki",
+        "taiheiki"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "各作品の該当箇所（本記事の各節を参照）"
+    },
+    {
+      "id": "jpl-historical",
+      "text": "源義経・安倍晴明・源頼光・渡辺綱は実在の人物だが、ここで紹介する逸話は後代の物語や説話が伝えるもので、史実とは区別される。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "jpl-sojo",
+      "text": "『義経記』によれば、牛若は鞍馬の奥の、天狗の住みかとなった僧正が谷へ夜ごとひとりで通い、草木を平家の一類、大木を清盛と名づけて太刀で斬り、早業を習った。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第一「牛若貴船詣の事」"
+    },
+    {
+      "id": "jpl-thousand",
+      "text": "『義経記』によれば、弁慶は人の太刀を千本取って宝にしようと夜な夜な京中で太刀を奪い、九百九十九本を集めた六月十七日の夜、五条の天神で笛を吹いて通る御曹司に挑んで敗れた。翌十八日、清水寺で再び挑んで敗れ、家来となった。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第三「弁慶洛中にて人の太刀を奪ひ取る事」「弁慶義経に君臣の契約申す事」"
+    },
+    {
+      "id": "jpl-gojo",
+      "text": "弁慶と牛若の出会いは「五条大橋」の場面として広く知られているが、『義経記』の舞台は五条の天神と清水寺である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "jpl-nyoi",
+      "text": "『義経記』によれば、越中の如意の渡しで渡し守に義経を怪しまれた弁慶は、義経を浜に投げ出して扇で散々に打ちすえ、渡し守はそのむごさに疑いを解いた。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第七「如意の渡にて義経を弁慶打ち奉る事」"
+    },
+    {
+      "id": "jpl-ataka",
+      "text": "弁慶が主君を打って危機を逃れる筋は、のちに能『安宅』や歌舞伎『勧進帳』で、安宅の関を舞台にした物語として演じられた。",
+      "classification": "scholarship",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第七（後代の芸能への影響について）",
+      "note": "『義経記』と能『安宅』・歌舞伎『勧進帳』の関係は、芸能史の通説にもとづく。"
+    },
+    {
+      "id": "jpl-standing",
+      "text": "『義経記』によれば、衣川の合戦で弁慶は鎧に無数の矢を受けながら戦い、薙刀を逆さに杖にして仁王立ちのまま死んだ。人々は、主君の自害のあいだ敵を寄せつけないためかと感じ入った。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第八「衣河合戦の事」"
+    },
+    {
+      "id": "jpl-kazan",
+      "text": "『大鏡』によれば、寛和二年六月、花山天皇がひそかに出家に向かう途中で安倍晴明の家の前を通ると、晴明は帝の退位を示す天変があったと言い、式神一人に内裏へ参るよう命じた。目に見えない者が戸を開けて出てきて、帝がちょうど通り過ぎていくと答えた。",
+      "classification": "fact",
+      "sourceIds": ["okagami"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『大鏡』花山院"
+    },
+    {
+      "id": "jpl-doma",
+      "text": "『古事談』によれば、藤原道長の白犬が吠えて道長を引き止めたため、晴明が呪物を見つけ出し、懐紙で鳥の形を作って投げると白鷺となって飛び、その降りた所で術者の道摩法師が捕らえられた。",
+      "classification": "fact",
+      "sourceIds": ["kojidan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事談』第六"
+    },
+    {
+      "id": "jpl-onikiri",
+      "text": "『太平記』によれば、源頼光の太刀を授かった渡辺綱が大和国宇多郡の森で妖怪の腕を斬り落とし、のちに頼光の母に化けて腕を取り返しに来た牛鬼の首を頼光がこの太刀で斬った。太刀はのちに鬼切と呼ばれた。",
+      "classification": "fact",
+      "sourceIds": ["taiheiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『太平記』巻第三十二「直冬上洛事付鬼丸鬼切事」"
+    },
+    {
+      "id": "jpl-shuten",
+      "text": "頼光と四天王による大江山の酒呑童子退治は、室町時代の『御伽草子』などで広まった物語である。",
+      "classification": "scholarship",
+      "sourceIds": ["taiheiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "（酒呑童子説話の成立について）",
+      "note": "酒呑童子説話の成立は文学史の通説にもとづく。トモタネでは『御伽草子』の本文は未確認。"
+    },
+    {
+      "id": "jpl-suitors",
+      "text": "『竹取物語』によれば、竹取の翁は光る竹の中に三寸ばかりの人を見つけ、育ったかぐや姫は五人の貴公子に仏の御石の鉢、蓬莱の玉の枝、火鼠の皮衣、龍の首の玉、燕の子安貝を求めた。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の生い立ち・五人の貴公子の求婚"
+    },
+    {
+      "id": "jpl-moon",
+      "text": "『竹取物語』によれば、かぐや姫は月の都の人で、八月十五日の夜、帝が遣わした二千人の兵も戦う心を失い、姫は天の羽衣を着て月へ昇った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の昇天"
+    },
+    {
+      "id": "jpl-fuji",
+      "text": "『竹取物語』によれば、帝はかぐや姫の手紙と不死の薬を駿河の国の天に近い山の頂で焼かせ、その山を「ふじの山」と名づけた。その煙はいまも雲の中へ立ち昇るという。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』ふじの山"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "water-margin",
+  "slug": "water-margin",
+  "name": "水滸伝",
+  "reading": "すいこでん",
+  "region": "中国",
+  "period": "北宋末（12世紀初め）を舞台に、元末〜明初の小説として成立した",
+  "description": "封印を解かれた百八の魔星の生まれ変わりたちが、悪い役人に追われて梁山泊に集まる。三発の拳で悪人を倒した花和尚魯智深、雪の夜に仇を討った豹子頭林冲、素手で虎を倒した武松、二丁の斧を振るう黒旋風李逵。中国の長編小説『水滸伝』の好漢たち。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "『水滸伝』は、北宋の末に山東の湖沼地帯「梁山泊」に立てこもった盗賊たちの物語です。史書にも宋江という盗賊の名が見えますが、小説は語り物として膨らんだ話をもとに、百八人の豪傑（好漢）一人ひとりの物語をつないだ壮大な群像劇になっています。"
+    },
+    {
+      "type": "paragraph",
+      "text": "物語は、天界の魔星百八個が地上に解き放たれる場面から始まります。好漢たちは無実の罪を着せられたり、悪人を懲らしめて追われる身となったりして、一人また一人と梁山泊に集まり、やがて天から下された石碑によって、全員が魔星の生まれ変わりであったことが明かされます。トモタネでは120回本の回数を示して紹介します。概要は[水滸伝とは？](/articles/water-margin-overview/)で解説しています。"
+    }
+  ],
+  "figureIds": ["song-jiang", "lin-chong", "lu-zhishen", "wu-song", "li-kui"],
+  "storyIds": [
+    "release-of-the-108-demons",
+    "three-punches-at-zhen-guanxi",
+    "lin-chong-and-the-white-tiger-hall",
+    "snow-at-the-mountain-god-temple",
+    "wu-song-fights-the-tiger",
+    "song-jiang-meets-li-kui",
+    "stone-tablet-of-the-108-stars",
+    "death-at-liaoerwa"
+  ],
+  "sourceIds": ["shuihu-zhuan"],
+  "kind": "legend",
+  "order": 17
+}

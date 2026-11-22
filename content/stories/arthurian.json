@@ -1,0 +1,65 @@
+[
+  {
+    "id": "birth-of-arthur",
+    "title": "アーサーの誕生",
+    "mythologyIds": ["arthurian"],
+    "figureIds": ["arthur", "merlin", "morgan-le-fay"],
+    "summary": "ブリテン王ユーサー・ペンドラゴンは、コーンウォール公の妻イグレインに恋をする。マーリンは、生まれる子を自分に引き渡すことを条件に、王を公の姿に変えてティンタジェル城へ送り込んだ。こうして生まれたアーサーは、マーリンの手で騎士エクターに預けられ、その子として育てられる。",
+    "sourceIds": ["malory-morte-darthur"],
+    "sourceLocation": "マロリー『アーサー王の死』第1巻第1〜3章"
+  },
+  {
+    "id": "sword-in-the-stone",
+    "title": "石に刺さった剣",
+    "mythologyIds": ["arthurian"],
+    "figureIds": ["arthur", "merlin"],
+    "summary": "ユーサー王の死後、王位をめぐって国が乱れると、マーリンの助言でロンドンの教会に諸侯が集められた。教会の庭に現れた石の上の鉄床には剣が刺さり、「この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王」と金文字で記されていた。誰も抜けなかった剣を、少年アーサーは乳兄弟ケイのために軽々と引き抜き、王となる。",
+    "sourceIds": ["malory-morte-darthur"],
+    "sourceLocation": "マロリー『アーサー王の死』第1巻第5〜7章"
+  },
+  {
+    "id": "excalibur-and-the-lady-of-the-lake",
+    "title": "湖の乙女とエクスカリバー",
+    "mythologyIds": ["arthurian"],
+    "figureIds": ["arthur", "merlin"],
+    "summary": "泉のほとりの騎士ペリノアとの一騎打ちで、アーサーの剣は二つに折れた。剣を失った王をマーリンが湖へ案内すると、湖の中から白い絹の袖をまとった腕が剣を掲げていた。湖の乙女から剣を授かった王に、マーリンは「鞘は剣の十倍の値打ちがある。身につけているかぎり、どれほど傷ついても血を失うことはない」と告げる。",
+    "sourceIds": ["malory-morte-darthur"],
+    "sourceLocation": "マロリー『アーサー王の死』第1巻第23〜25章"
+  },
+  {
+    "id": "round-table",
+    "title": "円卓の騎士",
+    "mythologyIds": ["arthurian"],
+    "figureIds": ["arthur", "guinevere", "merlin", "gawain", "lancelot"],
+    "summary": "アーサーはカメリアードのレオデグランス王の娘グィネヴィアを妃に望む。マーリンは、のちにランスロットが彼女を愛し、彼女もまた彼を愛するようになると警告したが、王の心は変わらなかった。レオデグランス王は、かつてユーサー王から贈られた円卓を嫁入りの品として贈り、円卓の席には騎士たちの名が金文字で現れた。",
+    "sourceIds": ["malory-morte-darthur"],
+    "sourceLocation": "マロリー『アーサー王の死』第3巻第1〜2章"
+  },
+  {
+    "id": "merlin-and-nimue",
+    "title": "マーリンの最期",
+    "mythologyIds": ["arthurian"],
+    "figureIds": ["merlin", "arthur", "lancelot"],
+    "summary": "マーリンは湖の乙女の一人ニミュエに恋をし、片時も離れなくなる。彼は自分がやがて生きたまま地に埋められると知っており、王には剣と鞘が最も信頼する女に盗まれると警告して去った。魔法を学び尽くしたニミュエは、不思議を見せようと岩の下へ入ったマーリンを、二度と出られないように封じ込めた。",
+    "sourceIds": ["malory-morte-darthur"],
+    "sourceLocation": "マロリー『アーサー王の死』第4巻第1章"
+  },
+  {
+    "id": "morgan-steals-the-scabbard",
+    "title": "盗まれた鞘",
+    "mythologyIds": ["arthurian"],
+    "figureIds": ["morgan-le-fay", "arthur"],
+    "summary": "愛人アコロンを失った魔女モルガン・ル・フェイは、眠る弟アーサーのもとに忍び込む。王はエクスカリバーを握ったまま眠っていたため、彼女は鞘だけを奪って逃げた。追いつかれそうになると「弟にこの鞘は渡さない」と湖の深みに投げ込み、自分と家来たちを魔法で大きな石に変えて逃れた。",
+    "sourceIds": ["malory-morte-darthur"],
+    "sourceLocation": "マロリー『アーサー王の死』第4巻第14章"
+  },
+  {
+    "id": "death-of-arthur",
+    "title": "アーサー王の最期",
+    "mythologyIds": ["arthurian"],
+    "figureIds": ["arthur", "mordred", "morgan-le-fay", "guinevere"],
+    "summary": "王位を奪ったモードレッドと和議の場で向き合ったとき、草むらから出た蛇を斬ろうと騎士が剣を抜いたことから戦いが始まった。アーサーはモードレッドを槍で貫くが、自らも頭に致命傷を負う。王の命でベディヴィアがエクスカリバーを湖に投げると、水の中から腕が現れて剣をつかみ、三度振って沈んでいった。王は女王たちの小舟に乗せられ、傷を癒すためアヴィリオンの谷へ去っていった。",
+    "sourceIds": ["malory-morte-darthur"],
+    "sourceLocation": "マロリー『アーサー王の死』第21巻第4〜7章"
+  }
+]

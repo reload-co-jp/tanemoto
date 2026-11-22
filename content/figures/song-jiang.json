@@ -1,0 +1,20 @@
+{
+  "id": "song-jiang",
+  "slug": "song-jiang",
+  "name": "宋江",
+  "reading": "そうこう",
+  "originalName": "宋江",
+  "alternativeNames": ["及時雨", "呼保義", "宋公明"],
+  "type": "hero",
+  "roles": ["梁山泊の首領"],
+  "mythologyIds": ["water-margin"],
+  "description": "あだ名は「及時雨」「呼保義」。百八星の筆頭・天魁星の生まれ変わり。困った人に惜しまず金を与える義侠の人として江湖に名高く、色黒で小柄な小役人だった。罪を得て流されたのち梁山泊の首領となり、のちに朝廷に帰順する。最後は奸臣に毒酒を賜って死んだ。",
+  "relatedFigureIds": ["li-kui", "lin-chong", "wu-song", "lu-zhishen"],
+  "relatedStoryIds": [
+    "song-jiang-meets-li-kui",
+    "stone-tablet-of-the-108-stars",
+    "death-at-liaoerwa"
+  ],
+  "articleIds": [],
+  "sourceIds": ["shuihu-zhuan"]
+}

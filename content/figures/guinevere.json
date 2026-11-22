@@ -1,0 +1,17 @@
+{
+  "id": "guinevere",
+  "slug": "guinevere",
+  "name": "グィネヴィア",
+  "reading": "ぐぃねゔぃあ",
+  "originalName": "Guenever",
+  "romanized": "Guinevere",
+  "alternativeNames": ["グウィネヴィア", "ギネヴィア"],
+  "type": "human",
+  "roles": ["アーサー王の王妃"],
+  "mythologyIds": ["arthurian"],
+  "description": "アーサー王の王妃。マロリーの『アーサー王の死』では、カメリアードのレオデグランス王の娘で、嫁入りの際に父から円卓（ラウンド・テーブル）が贈られた。マーリンは結婚の前に、ランスロットが彼女を愛し、彼女もまた彼を愛するようになると警告していた。王の死後は尼僧となった。",
+  "relatedFigureIds": ["arthur", "lancelot"],
+  "relatedStoryIds": ["round-table", "death-of-arthur"],
+  "articleIds": [],
+  "sourceIds": ["malory-morte-darthur"]
+}

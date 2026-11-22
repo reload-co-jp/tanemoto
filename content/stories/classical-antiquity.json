@@ -1,0 +1,74 @@
+[
+  {
+    "id": "thermopylae",
+    "title": "テルモピュライの戦い",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["leonidas"],
+    "summary": "紀元前480年、ペルシア王クセルクセスの大軍を、スパルタ王レオニダスの率いるギリシャ連合軍が狭い隘路テルモピュライで食い止めた。土地の男エピアルテスが山越えの抜け道を教えたため、ギリシャ軍は包囲される。レオニダスは同盟軍の多くを帰し、スパルタの三百人らとともに残って戦死した。",
+    "sourceIds": ["herodotus-histories"],
+    "sourceLocation": "ヘロドトス『歴史』7.204–228"
+  },
+  {
+    "id": "taming-of-bucephalas",
+    "title": "ブケファラスを乗りこなす",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["alexander"],
+    "summary": "誰も乗せようとしない暴れ馬ブケファラスを、父フィリッポスは連れ帰らせようとした。少年アレクサンドロスは、馬が自分の影におびえていることに気づき、太陽の方に向けて落ち着かせてから乗りこなす。父は涙を流して喜び、「息子よ、お前にふさわしい王国を探せ。マケドニアはお前には小さすぎる」と言った。",
+    "sourceIds": ["plutarch-lives"],
+    "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 6"
+  },
+  {
+    "id": "alexander-and-diogenes",
+    "title": "アレクサンドロスとディオゲネス",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["alexander"],
+    "summary": "ギリシャ中の人々が祝いに訪れる中、哲学者ディオゲネスだけはアレクサンドロスに会いに来なかった。王が自ら訪ねて「何か望みはないか」と尋ねると、日なたぼっこをしていたディオゲネスは「少し日陰をつくらないでくれ」と答えた。王は「もし私がアレクサンドロスでなかったら、ディオゲネスでありたい」と言ったという。",
+    "sourceIds": ["plutarch-lives"],
+    "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 14"
+  },
+  {
+    "id": "gordian-knot",
+    "title": "ゴルディオンの結び目",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["alexander"],
+    "summary": "小アジアの町ゴルディオンには、ミダス王の古い荷車が、くびきに固く結びつけられていた。この結び目を解いた者は全世界の王になると言い伝えられていた。多くの著述家によれば、アレクサンドロスは結び目を剣で断ち切ったという。ただしアリストブロスは、轅（ながえ）の留め釘を抜いてくびきを外したと伝えている。",
+    "sourceIds": ["plutarch-lives"],
+    "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 18"
+  },
+  {
+    "id": "crossing-the-rubicon",
+    "title": "ルビコン川を渡る",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["julius-caesar"],
+    "summary": "紀元前49年、カエサルは属州ガリアとイタリア本土の境であるルビコン川のほとりで立ち止まり、長いあいだ迷った。渡れば内戦が始まる。やがて彼は、運を天に任せる人々が口にする「賽は投げられよ」という言葉とともに川を渡り、夜明け前にアリミヌムを占領した。",
+    "sourceIds": ["plutarch-lives", "suetonius-julius"],
+    "sourceLocation": "プルタルコス『英雄伝』カエサル伝 32、スエトニウス『神君ユリウス伝』31–33"
+  },
+  {
+    "id": "cleopatra-and-caesar",
+    "title": "寝具袋の女王",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["cleopatra", "julius-caesar"],
+    "summary": "アレクサンドリアに入ったカエサルは、弟と王位を争っていたクレオパトラを、都の外からひそかに呼び寄せた。人目を避けるため、彼女は寝具袋の中に身を横たえ、従者アポロドロスが袋を縛って宮殿のカエサルのもとへ運び込んだ。この大胆な策にカエサルは心を奪われたという。",
+    "sourceIds": ["plutarch-lives"],
+    "sourceLocation": "プルタルコス『英雄伝』カエサル伝 48–49"
+  },
+  {
+    "id": "ides-of-march",
+    "title": "3月15日の暗殺",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["julius-caesar"],
+    "summary": "ある占い師はカエサルに、3月のイドゥス（15日）に大きな危険があると警告していた。当日、元老院に向かうカエサルが「3月のイドゥスが来たぞ」とからかうと、占い師は「来ました。しかしまだ過ぎてはいません」と答えた。議場でカエサルは刺客たちに取り囲まれ、ブルトゥスまでもが短剣を抜いたのを見ると、トガで顔を覆って倒れた。",
+    "sourceIds": ["plutarch-lives", "suetonius-julius"],
+    "sourceLocation": "プルタルコス『英雄伝』カエサル伝 63、66、スエトニウス『神君ユリウス伝』81–82"
+  },
+  {
+    "id": "death-of-cleopatra",
+    "title": "クレオパトラの最期",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["cleopatra"],
+    "summary": "アントニウスの死後、オクタウィアヌスに捕らえられたクレオパトラは、いちじくの籠に毒蛇（アスプ）を隠して運ばせ、自ら命を絶った。使者が扉を開けたとき、女王は王の装いで金の寝台に横たわっていた。ただしプルタルコスは、蛇は水瓶に入れられていたという話や、髪に隠した櫛の毒を使ったという話も並べ、本当のことは誰にもわからないと記している。",
+    "sourceIds": ["plutarch-lives"],
+    "sourceLocation": "プルタルコス『英雄伝』アントニウス伝 85–86"
+  }
+]

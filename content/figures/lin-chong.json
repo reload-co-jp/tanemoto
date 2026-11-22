@@ -1,0 +1,20 @@
+{
+  "id": "lin-chong",
+  "slug": "lin-chong",
+  "name": "林冲",
+  "reading": "りんちゅう",
+  "originalName": "林沖",
+  "alternativeNames": ["豹子頭"],
+  "type": "hero",
+  "roles": ["八十万禁軍の槍棒師範"],
+  "mythologyIds": ["water-margin"],
+  "description": "あだ名は「豹子頭」。天雄星の生まれ変わり。都の八十万禁軍で槍と棒を教える師範だったが、上官の高俅（高太尉）の養子が妻に横恋慕したことから罠にはめられ、流罪になる。流刑先でも命を狙われ、雪の夜に仇を討って梁山泊へ身を投じた。",
+  "relatedFigureIds": ["lu-zhishen"],
+  "relatedStoryIds": [
+    "lin-chong-and-the-white-tiger-hall",
+    "snow-at-the-mountain-god-temple",
+    "stone-tablet-of-the-108-stars"
+  ],
+  "articleIds": [],
+  "sourceIds": ["shuihu-zhuan"]
+}

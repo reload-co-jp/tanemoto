@@ -1,0 +1,83 @@
+[
+  {
+    "id": "peach-garden-oath",
+    "title": "桃園の誓い",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["liu-bei", "guan-yu", "zhang-fei"],
+    "summary": "黄巾の乱が起こり、義勇兵を募る高札の前でため息をついていた劉備に、張飛が声をかける。酒場でさらに関羽と出会った三人は意気投合し、張飛の屋敷の裏の桃園で天地をまつり、義兄弟の契りを結んだ。誓いの言葉は「同年同月同日に生まれることは求めないが、同年同月同日に死ぬことを願う」。劉備が長兄、関羽が次兄、張飛が末弟となった。",
+    "sourceIds": ["sanguo-yanyi"],
+    "sourceLocation": "『三国志演義』第1回"
+  },
+  {
+    "id": "red-hare",
+    "title": "赤兎馬と丁原殺し",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["lu-bu"],
+    "summary": "朝廷の実権を握ろうとする董卓の前に、丁原の養子で方天画戟を手にした呂布が立ちはだかる。董卓の部下李粛は、一日に千里を走る名馬「赤兎」と金銀を贈って呂布を寝返らせる策を進言した。全身が炭火のように赤い赤兎を見た呂布は大喜びし、その夜、養父丁原の首をはねて董卓のもとへ走り、董卓の養子となった。",
+    "sourceIds": ["sanguo-yanyi"],
+    "sourceLocation": "『三国志演義』第3回"
+  },
+  {
+    "id": "three-heroes-against-lu-bu",
+    "title": "虎牢関の三英戦呂布",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["lu-bu", "liu-bei", "guan-yu", "zhang-fei"],
+    "summary": "董卓討伐の連合軍の前に、赤兎馬にまたがった呂布が現れ、名だたる武将を次々に討ち取る。「人中に呂布あり、馬中に赤兎あり」とうたわれた。張飛が呂布に挑んで五十合打ち合っても勝負がつかず、関羽が加わり、さらに劉備も双股剣を手に加わる。三人に囲まれても呂布は倒れず、劉備の顔をめがけて戟で突くふりをして囲みを破り、虎牢関へ引き上げた。",
+    "sourceIds": ["sanguo-yanyi"],
+    "sourceLocation": "『三国志演義』第5回"
+  },
+  {
+    "id": "lu-bu-at-white-gate-tower",
+    "title": "白門楼の呂布",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["lu-bu", "cao-cao", "liu-bei"],
+    "summary": "曹操に下邳城を水攻めにされた呂布は、酒色にふけって部下に厳しく当たったため、侯成に赤兎馬を盗まれ、門楼でうたた寝をしているところを宋憲・魏続に縛り上げられた。白門楼で曹操の前に引き出された呂布は「縛りがきつすぎる、ゆるめてくれ」と頼み、曹操に仕えたいと申し出る。しかし劉備が「丁原と董卓のことをお忘れか」と言うと、曹操は呂布を絞め殺させ、首をさらした。呂布は最後に劉備を「この大耳め」とののしった。",
+    "sourceIds": ["sanguo-yanyi"],
+    "sourceLocation": "『三国志演義』第19回"
+  },
+  {
+    "id": "three-visits-to-the-thatched-cottage",
+    "title": "三顧の礼",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["liu-bei", "zhuge-liang", "guan-yu", "zhang-fei"],
+    "summary": "劉備は、「臥龍」と呼ばれる隠者諸葛亮のうわさを聞き、隆中の草庵を訪ねる。二度訪ねて会えず、三度目に行くと諸葛亮は昼寝の最中だった。劉備は目覚めるまで階段の下に立って待ち続ける。対面した諸葛亮は地図を示し、北は曹操に天の時を、南は孫権に地の利を譲り、劉備は荊州と益州を取って人の和を得れば、三国が鼎のように並び立つ形をつくれると説いた。",
+    "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+    "sourceLocation": "『三国志演義』第37–38回、正史『三国志』蜀書 諸葛亮伝"
+  },
+  {
+    "id": "battle-of-changban",
+    "title": "長坂の戦い",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["zhao-yun", "zhang-fei", "liu-bei"],
+    "summary": "曹操の大軍に追われ、劉備の一行は長坂で散り散りになる。趙雲は劉備の夫人と幼い阿斗を探して敵中を駆け回り、深手を負った糜夫人から阿斗を託される。夫人は足手まといになるまいと井戸に身を投げた。趙雲は阿斗を鎧の胸元に抱いて敵陣を突破する。殿の張飛は長坂橋の上でただ一騎、「我こそは燕人張翼徳なり、死を決して戦う者はおらぬか」と大喝し、曹操の軍を退かせた。",
+    "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+    "sourceLocation": "『三国志演義』第41–42回、正史『三国志』蜀書 張飛伝・趙雲伝"
+  },
+  {
+    "id": "borrowing-the-east-wind",
+    "title": "赤壁の東南の風",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["zhuge-liang", "cao-cao"],
+    "summary": "赤壁で曹操の大軍と向き合った呉の周瑜は、火攻めを考えていたが、風向きが火攻めに合わないことに気づいて、血を吐いて倒れてしまう。諸葛亮は「曹公を破るには火攻めがよい。万事そろったが、ただ東風だけが欠けている」と書いて見せ、「奇門遁甲の天書を授かったので風を呼べる」と言って、南屏山に七星壇を築かせて祈った。約束の日に東南の風が吹き、呉軍の火攻めで曹操の船団は焼き払われた。",
+    "sourceIds": ["sanguo-yanyi"],
+    "sourceLocation": "『三国志演義』第49回"
+  },
+  {
+    "id": "empty-fort-strategy",
+    "title": "空城の計",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["zhuge-liang"],
+    "summary": "馬謖が街亭を失ったため、諸葛亮のいる西城に司馬懿の大軍十五万が迫る。城内には文官と二千五百の兵しかいない。諸葛亮は旗を隠させ、四つの城門を開け放って兵に民の姿で道を掃かせると、自らは鶴氅をまとい綸巾をかぶって城楼に座り、香をたいて琴を弾いた。慎重な諸葛亮が危険を冒すはずがない、伏兵があるに違いないと考えた司馬懿は、軍を引き返させた。",
+    "sourceIds": ["sanguo-yanyi"],
+    "sourceLocation": "『三国志演義』第95回"
+  },
+  {
+    "id": "death-at-wuzhang-plains",
+    "title": "死せる孔明、生ける仲達を走らす",
+    "mythologyIds": ["three-kingdoms"],
+    "figureIds": ["zhuge-liang"],
+    "summary": "五丈原で司馬懿と対峙していた諸葛亮は、陣中で病に倒れ、五十四歳で世を去った。死の前に、自分の死を伏せたまま軍を退かせ、司馬懿が追ってきたら、あらかじめ彫らせておいた自分の木像を車に乗せて押し出すよう言い残す。追撃してきた司馬懿は、車の上に綸巾羽扇の孔明を見て仰天し、逃げ帰った。のちに真相を知った司馬懿は「生きている者のことは推し量れても、死んだ者のことは推し量れない」と嘆き、人々は「死せる諸葛、よく生ける仲達を走らす」と言い合った。",
+    "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+    "sourceLocation": "『三国志演義』第104回、正史『三国志』蜀書 諸葛亮伝"
+  }
+]

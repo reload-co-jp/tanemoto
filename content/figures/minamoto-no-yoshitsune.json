@@ -1,0 +1,20 @@
+{
+  "id": "minamoto-no-yoshitsune",
+  "slug": "minamoto-no-yoshitsune",
+  "name": "源義経",
+  "reading": "みなもとのよしつね",
+  "alternativeNames": ["牛若", "遮那王", "九郎判官"],
+  "type": "historical",
+  "roles": ["源氏の武将", "判官"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "平安時代末期の武将。『義経記』では源義朝の末子として生まれ、幼名を牛若といった。鞍馬寺に預けられて遮那王と名乗り、天狗の住みかといわれた僧正が谷でひそかに武芸を磨く。奥州の藤原秀衡を頼ったのち、兄頼朝の挙兵に加わって平家を討つが、やがて兄と対立し、山伏姿で奥州へ落ちのびて衣川の館で自害した。",
+  "relatedFigureIds": ["benkei"],
+  "relatedStoryIds": [
+    "ushiwaka-at-sojo-ga-tani",
+    "benkei-and-the-thousand-swords",
+    "nyoi-crossing",
+    "benkei-standing-death"
+  ],
+  "articleIds": [],
+  "sourceIds": ["gikeiki"]
+}

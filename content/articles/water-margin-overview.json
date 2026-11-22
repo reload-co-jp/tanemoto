@@ -1,0 +1,247 @@
+{
+  "id": "water-margin-overview",
+  "slug": "water-margin-overview",
+  "title": "水滸伝とは？梁山泊に集う百八人の好漢を、魯智深・林冲・武松・李逵の名場面でわかりやすく解説",
+  "shortTitle": "水滸伝とは？",
+  "eyecatchText": "水滸伝",
+  "description": "水滸伝は、北宋末に梁山泊へ集まった百八人の好漢の物語。封印を解かれた百八の魔星、三発の拳で悪人を倒す魯智深、雪の山神廟の林冲、景陽岡で虎を倒す武松、宋江と李逵の最期まで、120回本の原文で名場面をたどります。",
+  "lead": "無実の罪を着せられた者、悪人を懲らしめて追われる身となった者。さまざまな事情を抱えた豪傑たちが、一人また一人と山東の湖沼地帯「梁山泊」に集まっていく。中国の長編小説『水滸伝』は、百八人の好漢の物語をつないだ壮大な群像劇です。",
+  "category": "basics",
+  "tags": [
+    "水滸伝",
+    "梁山泊",
+    "百八星",
+    "魯智深",
+    "林冲",
+    "武松",
+    "李逵",
+    "宋江",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["song-jiang", "lin-chong", "lu-zhishen", "wu-song", "li-kui"],
+  "mythologyIds": ["water-margin"],
+  "storyIds": [
+    "release-of-the-108-demons",
+    "three-punches-at-zhen-guanxi",
+    "lin-chong-and-the-white-tiger-hall",
+    "snow-at-the-mountain-god-temple",
+    "wu-song-fights-the-tiger",
+    "song-jiang-meets-li-kui",
+    "stone-tablet-of-the-108-stars",
+    "death-at-liaoerwa"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["shuihu-zhuan"],
+  "relatedArticleIds": [
+    "three-kingdoms-overview",
+    "chinese-mythology-overview"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "梁山泊の物語",
+      "anchor": "origin"
+    },
+    {
+      "type": "paragraph",
+      "text": "『水滸伝』は、北宋の末、山東の湖沼地帯「梁山泊」に立てこもった豪傑たちの物語です。元末から明初にかけて、講談などで語られてきた話をもとに長編小説としてまとめられ、作者は施耐庵、あるいは羅貫中と伝えられています。70回本、100回本、120回本など複数の版があり、版によって結末が異なります。トモタネでは120回本で紹介します。",
+      "claimIds": ["wm-versions"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "解き放たれた百八の魔星",
+      "anchor": "demons"
+    },
+    {
+      "type": "paragraph",
+      "text": "物語は、疫病をしずめるため龍虎山へ遣わされた洪太尉が、何重にも封印された「伏魔之殿」を無理やり開けさせる場面から始まります。石碑の下を掘らせると、穴から黒い気が噴き出し、百筋あまりの金色の光となって四方へ飛び散りました。",
+      "claimIds": ["wm-demons"]
+    },
+    {
+      "type": "quote",
+      "text": "この殿には、三十六の天罡星と七十二の地煞星、合わせて百八の魔王が封じ込められていたのです。",
+      "sourceId": "shuihu-zhuan",
+      "location": "第2回",
+      "claimIds": ["wm-demons"],
+      "translationNote": "原文（漢文・白話）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "この百八の魔星の生まれ変わりが、のちに梁山泊に集まる好漢たちです。",
+      "claimIds": ["wm-demons", "wm-tablet"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "好漢たちの名場面",
+      "anchor": "heroes"
+    },
+    {
+      "type": "paragraph",
+      "text": "軍の役人だった魯達は、悪徳の肉屋「鎮関西」にだまされた父娘を救うため、肉屋に乗り込んで鼻、目、こめかみと三発の拳を見舞い、本当に殴り殺してしまいます（第3回）。逃げた魯達は出家して智深と名乗り、酒も肉もやめない破天荒な「花和尚」になりました。柳の木を根こそぎ引き抜くほどの怪力の持ち主です（第7回）。",
+      "claimIds": ["wm-luda", "wm-willow"]
+    },
+    {
+      "type": "paragraph",
+      "text": "八十万禁軍の槍棒師範だった林冲は、上官の高太尉の養子に妻を狙われ、無断で入れば罪になる軍の評定所「白虎節堂」に誘い込まれて流罪になります（第7回）。流刑先でも命を狙われますが、大雪で小屋がつぶれ、山神廟に泊まったおかげで焼き討ちを逃れ、刺客を討ち取りました（第10回）。",
+      "claimIds": ["wm-linchong"]
+    },
+    {
+      "type": "paragraph",
+      "text": "武松は「三杯飲めば岡を越えられない」という酒を十五杯飲み干して景陽岡に登り、現れた虎に棒で打ちかかります。棒は枯れ木に当たって折れてしまいますが、武松は虎の頭を押さえつけ、五、六十発の拳で打ち殺しました（第23回）。",
+      "claimIds": ["wm-tiger"]
+    },
+    {
+      "type": "paragraph",
+      "text": "二丁の板斧を振るう全身真っ黒の大男「黒旋風」李逵は、江州で宋江に出会い、相手が憧れの「及時雨」だと知って大喜びでひれ伏します（第38回）。以来、李逵は宋江を兄と慕い続けました。",
+      "claimIds": ["wm-likui"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "天から降った石碑",
+      "anchor": "tablet"
+    },
+    {
+      "type": "paragraph",
+      "text": "百八人の頭領がそろうと、宋江は天に感謝する祭りを行います。七日目の夜、天の門が開いて火の塊が転がり落ち、地中にもぐりこみました。掘り出された石碑には、表に天罡星三十六人、裏に地煞星七十二人の名が刻まれ、側面には「替天行道（天に替わりて道を行う）」の文字がありました（第71回）。",
+      "claimIds": ["wm-tablet"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "天魁星「呼保義」宋江",
+        "天雄星「豹子頭」林冲",
+        "天孤星「花和尚」魯智深",
+        "天傷星「行者」武松",
+        "天殺星「黒旋風」李逵"
+      ],
+      "claimIds": ["wm-tablet"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "好漢たちの最期",
+      "anchor": "end"
+    },
+    {
+      "type": "paragraph",
+      "text": "120回本では、梁山泊の好漢たちはやがて朝廷に帰順し、各地の戦いで多くが命を落とします。最後に残った宋江は、奸臣たちのたくらみで毒入りの御酒を賜りました。自分の死後に李逵が反乱を起こして「替天行道」の名を汚すことを恐れた宋江は、李逵にも同じ毒を飲ませます。",
+      "claimIds": ["wm-death"]
+    },
+    {
+      "type": "quote",
+      "text": "生きているときは兄貴に仕え、死んでも兄貴の手下の小鬼になるだけだ。",
+      "sourceId": "shuihu-zhuan",
+      "location": "第120回",
+      "claimIds": ["wm-death"],
+      "translationNote": "原文（漢文・白話）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "二人は、梁山泊によく似た楚州の蓼児洼に並んで葬られました。",
+      "claimIds": ["wm-death"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『水滸伝』は北宋末の梁山泊を舞台に、百八人の好漢の物語をつないだ長編小説で、版によって結末が異なる",
+        "好漢たちは、洪太尉が解き放った百八の魔星（天罡星三十六・地煞星七十二）の生まれ変わりとされる",
+        "魯智深の三発の拳、林冲の雪の山神廟、武松の虎退治、宋江と李逵の出会いなどが名場面として知られる",
+        "120回本では、宋江は毒酒を賜り、李逵とともに蓼児洼に葬られた"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "wm-versions",
+      "text": "『水滸伝』は北宋末の梁山泊を舞台にした長編小説で、作者は施耐庵・羅貫中と伝えられる。70回本・100回本・120回本などの版があり、結末が異なる。",
+      "classification": "scholarship",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "（成立と諸版について）",
+      "note": "成立と作者については諸説ある。"
+    },
+    {
+      "id": "wm-demons",
+      "text": "『水滸伝』第1〜2回では、洪太尉が伏魔之殿を開けさせて石碑の下を掘らせ、穴から黒い気が百十筋の金光となって四方へ散った。そこには三十六員の天罡星と七十二座の地煞星、合わせて百八の魔君が封じられていた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第1〜2回"
+    },
+    {
+      "id": "wm-luda",
+      "text": "『水滸伝』第3回では、提轄の魯達が、金翠蓮父娘を苦しめる肉屋の鄭（鎮関西）を三発の拳で殴り殺し、逃亡した。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第3回"
+    },
+    {
+      "id": "wm-willow",
+      "text": "『水滸伝』第7回では、魯智深が緑楊樹を根こそぎ引き抜き、林冲と出会って義兄弟となる。魯智深は、殺した人が多いので僧になったと名乗っている。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第7回"
+    },
+    {
+      "id": "wm-linchong",
+      "text": "『水滸伝』第7回では、八十万禁軍鎗棒教頭の林冲が、高太尉の養子高衙内に妻を狙われたうえ白虎節堂に誘い込まれて罪に問われる。第10回では、大雪で草庁がつぶれて山神廟に泊まったため、草料場の焼き討ちを逃れ、陸謙らを討ち取った。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第7回・第10回"
+    },
+    {
+      "id": "wm-tiger",
+      "text": "『水滸伝』第23回では、武松が「三碗不過岡」の酒屋で十五杯を飲み、景陽岡で虎に遭う。哨棒は枯れ木に当たって折れ、武松は素手で五、六十発殴って虎を打ち殺した。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第23回"
+    },
+    {
+      "id": "wm-likui",
+      "text": "『水滸伝』第38回では、江州で戴宗が宋江に「黒旋風」李逵を引き合わせ、相手が宋公明と知った李逵は喜んで拝礼した。李逵は二丁の板斧を使う。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第38回"
+    },
+    {
+      "id": "wm-tablet",
+      "text": "『水滸伝』第71回では、宋江らの祭りの七日目の夜に天から火の塊が落ち、地中から掘り出された石碣の表に天罡星三十六員、裏に地煞星七十二員の名が刻まれ、側面に「替天行道」「忠義双全」とあった。宋江は天魁星、林冲は天雄星、魯智深は天孤星、武松は天傷星、李逵は天殺星とされる。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第71回"
+    },
+    {
+      "id": "wm-death",
+      "text": "『水滸伝』第120回では、奸臣の計略で毒入りの御酒を賜った宋江が、李逵にも同じ毒を飲ませる。李逵は「生時伏侍哥哥，死了也只是哥哥部下一個小鬼」と言い、二人は楚州の蓼児洼に葬られた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第120回"
+    }
+  ]
+}

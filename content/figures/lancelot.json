@@ -1,0 +1,17 @@
+{
+  "id": "lancelot",
+  "slug": "lancelot",
+  "name": "ランスロット",
+  "reading": "らんすろっと",
+  "originalName": "Launcelot du Lake",
+  "romanized": "Lancelot",
+  "alternativeNames": ["湖のランスロット", "ラーンスロット"],
+  "type": "hero",
+  "roles": ["円卓の騎士", "最強の騎士"],
+  "mythologyIds": ["arthurian"],
+  "description": "円卓の騎士の中で最も優れた騎士。マロリーの『アーサー王の死』では、ベンウィックのバン王の子で、最初の名はガラハッドだったとされる。王妃グィネヴィアと愛し合い、その関係が明るみに出たことで円卓の騎士たちは二つに割れ、アーサー王の王国が崩壊するきっかけとなった。",
+  "relatedFigureIds": ["arthur", "guinevere", "gawain"],
+  "relatedStoryIds": ["round-table"],
+  "articleIds": [],
+  "sourceIds": ["malory-morte-darthur"]
+}

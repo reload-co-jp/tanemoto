@@ -148,6 +148,7 @@ export const figureTypes = {
   personification: "擬人化された存在",
   valkyrie: "戦乙女（ワルキューレ）",
   giant: "巨人",
+  historical: "歴史上の人物",
 } as const
 export const figureSchema = z.object({
   id,
@@ -179,6 +180,12 @@ export type Figure = z.infer<typeof figureSchema>
 // 神話体系
 // ---------------------------------------------------------------------------
 
+/** 体系の種類（神話・伝説・歴史上の人物の伝承） */
+export const mythologyKinds = {
+  myth: "神話",
+  legend: "伝説",
+  history: "歴史",
+} as const
 export const mythologySchema = z.object({
   id,
   slug: id,
@@ -191,6 +198,9 @@ export const mythologySchema = z.object({
   figureIds: ids,
   storyIds: ids,
   sourceIds: ids,
+  kind: z
+    .enum(Object.keys(mythologyKinds) as [keyof typeof mythologyKinds])
+    .default("myth"),
   /** 準備中（記事なし）の神話体系 */
   comingSoon: z.boolean().default(false),
   order: z.number().default(100),

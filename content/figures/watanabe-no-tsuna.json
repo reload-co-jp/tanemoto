@@ -1,0 +1,15 @@
+{
+  "id": "watanabe-no-tsuna",
+  "slug": "watanabe-no-tsuna",
+  "name": "渡辺綱",
+  "reading": "わたなべのつな",
+  "alternativeNames": ["渡辺源五綱"],
+  "type": "historical",
+  "roles": ["源頼光の家来"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "源頼光に仕えた武士で、渡辺党の祖とされる。『太平記』では、頼光から秘蔵の太刀を授かって大和国宇多郡の森にひそむ妖怪を討ちに行き、女の姿に化けて誘い出したところ、空から髪をつかまれる。綱は太刀で虚空を払い、毛の生えた三本指の腕を斬り落とした。",
+  "relatedFigureIds": ["minamoto-no-yorimitsu"],
+  "relatedStoryIds": ["onikiri-sword"],
+  "articleIds": [],
+  "sourceIds": ["taiheiki"]
+}

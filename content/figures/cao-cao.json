@@ -1,0 +1,16 @@
+{
+  "id": "cao-cao",
+  "slug": "cao-cao",
+  "name": "曹操",
+  "reading": "そうそう",
+  "originalName": "曹操",
+  "alternativeNames": ["曹孟徳"],
+  "type": "historical",
+  "roles": ["魏の基礎を築いた丞相"],
+  "mythologyIds": ["three-kingdoms"],
+  "description": "字は孟徳。後漢の丞相として華北を統一し、魏の基礎を築いた。『三国志演義』では、劉備と対立する知略にすぐれた敵役として描かれる。呂布を下邳に追いつめて捕らえ、白門楼で処刑した。赤壁の戦いでは、孫権と劉備の連合軍の火攻めにあって大敗する。",
+  "relatedFigureIds": ["liu-bei", "lu-bu", "zhuge-liang"],
+  "relatedStoryIds": ["lu-bu-at-white-gate-tower", "borrowing-the-east-wind"],
+  "articleIds": [],
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+}

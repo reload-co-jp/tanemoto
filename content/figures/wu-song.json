@@ -1,0 +1,19 @@
+{
+  "id": "wu-song",
+  "slug": "wu-song",
+  "name": "武松",
+  "reading": "ぶしょう",
+  "originalName": "武松",
+  "alternativeNames": ["行者"],
+  "type": "hero",
+  "roles": ["行者"],
+  "mythologyIds": ["water-margin"],
+  "description": "あだ名は「行者」。天傷星の生まれ変わり。景陽岡で、人を食う虎を素手で殴り殺したことで一躍名をあげた。のちに兄の仇を討って罪人となり、行者（修行者）の姿に身をやつして梁山泊に加わる。",
+  "relatedFigureIds": ["song-jiang", "lu-zhishen"],
+  "relatedStoryIds": [
+    "wu-song-fights-the-tiger",
+    "stone-tablet-of-the-108-stars"
+  ],
+  "articleIds": [],
+  "sourceIds": ["shuihu-zhuan"]
+}

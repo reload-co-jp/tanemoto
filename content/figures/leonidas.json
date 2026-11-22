@@ -1,0 +1,17 @@
+{
+  "id": "leonidas",
+  "slug": "leonidas",
+  "name": "レオニダス",
+  "reading": "れおにだす",
+  "originalName": "Λεωνίδας",
+  "romanized": "Leonidas",
+  "alternativeNames": ["レオニダス1世"],
+  "type": "historical",
+  "roles": ["スパルタ王"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "紀元前5世紀のスパルタ王。紀元前480年、ペルシア王クセルクセスの大軍をテルモピュライの隘路で迎え撃ち、戦死した。ヘロドトスは、彼の家系をヘラクレスまでさかのぼって記し、スパルタが滅びるか、ヘラクレスの血を引く王が死ぬかという神託を知りながら、残って戦ったと伝える。",
+  "relatedFigureIds": ["alexander"],
+  "relatedStoryIds": ["thermopylae"],
+  "articleIds": [],
+  "sourceIds": ["herodotus-histories"]
+}

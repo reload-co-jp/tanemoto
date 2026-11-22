@@ -1,0 +1,308 @@
+{
+  "id": "three-kingdoms-overview",
+  "slug": "three-kingdoms-overview",
+  "title": "三国志とは？桃園の誓いから五丈原まで、『三国志演義』と正史の違いもわかりやすく解説",
+  "shortTitle": "三国志とは？",
+  "eyecatchText": "三国志",
+  "description": "三国志は、後漢末から魏・呉・蜀の三国が争った時代の物語。桃園の誓い、赤兎馬と呂布、三顧の礼、赤壁の東南の風、空城の計、五丈原まで、小説『三国志演義』の名場面を回数つきでたどり、歴史書『三国志』（正史）との違いも紹介します。",
+  "lead": "劉備・関羽・張飛の桃園の誓い、諸葛孔明の神算鬼謀、最強の武人呂布。日本で「三国志」として親しまれている物語の多くは、じつは歴史書ではなく、明代の小説『三国志演義』にもとづいています。名場面を原典の回数で追いながら、正史との違いにも触れていきます。",
+  "category": "basics",
+  "tags": [
+    "三国志",
+    "三国志演義",
+    "劉備",
+    "関羽",
+    "張飛",
+    "諸葛亮",
+    "呂布",
+    "曹操",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "liu-bei",
+    "guan-yu",
+    "zhang-fei",
+    "zhuge-liang",
+    "cao-cao",
+    "lu-bu",
+    "zhao-yun"
+  ],
+  "mythologyIds": ["three-kingdoms"],
+  "storyIds": [
+    "peach-garden-oath",
+    "red-hare",
+    "three-heroes-against-lu-bu",
+    "lu-bu-at-white-gate-tower",
+    "three-visits-to-the-thatched-cottage",
+    "battle-of-changban",
+    "borrowing-the-east-wind",
+    "death-at-wuzhang-plains"
+  ],
+  "workIds": ["paripi-koumei", "record-of-ragnarok"],
+  "characterIds": ["record-of-ragnarok-lu-bu", "paripi-koumei-zhuge-liang"],
+  "topicIds": [],
+  "sourceIds": [
+    "sanguo-yanyi",
+    "sanguozhi",
+    "work-record-of-ragnarok",
+    "work-paripi-koumei"
+  ],
+  "relatedArticleIds": ["zhuge-liang", "water-margin-overview", "hoshin-engi"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "正史『三国志』と小説『三国志演義』",
+      "anchor": "two-books"
+    },
+    {
+      "type": "paragraph",
+      "text": "2世紀の終わり、後漢王朝が衰えると、各地の群雄が争う戦乱の時代が始まりました。やがて曹操の魏、孫権の呉、劉備の蜀の三国が並び立ちます。この時代の歴史を記録したのが、3世紀末に陳寿がまとめた歴史書『三国志』で、のちに裴松之が多くの書物を引いて注を加えました。",
+      "claimIds": ["tk-sanguozhi"]
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、明代に成立した小説『三国志演義』は、正史を下敷きにしながら、民間で語られてきた話を取り入れて大胆に脚色しています。現在広く読まれているのは、清代に毛宗崗が手を入れた全120回の本です。",
+      "claimIds": ["tk-yanyi"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "「七分の事実、三分の虚構」",
+      "text": "演義は歴史の大きな流れは正史に従いつつ、場面や人物像には多くの創作を加えています。以下では、演義の名場面を紹介しながら、正史と違う点にも注目します。",
+      "claimIds": ["tk-fiction"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "桃園の誓い",
+      "anchor": "peach-garden"
+    },
+    {
+      "type": "paragraph",
+      "text": "演義の第1回、黄巾の乱が起こると、漢の皇族の末裔でありながら、わらじやむしろを売って暮らす劉備が、張飛、関羽と出会います。三人は張飛の屋敷の裏の桃園で天地をまつり、義兄弟の契りを結びました。",
+      "claimIds": ["tk-peach"]
+    },
+    {
+      "type": "quote",
+      "text": "同年同月同日に生まれることは求めない。ただ同年同月同日に死ぬことを願う。",
+      "sourceId": "sanguo-yanyi",
+      "location": "第1回",
+      "claimIds": ["tk-peach"],
+      "translationNote": "原文（漢文・白話）をもとにした編集部訳"
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "正史では",
+      "text": "正史には桃園の誓いの場面はありません。関羽伝に、劉備は関羽・張飛と「寝るときは同じ寝床で、恩愛は兄弟のようだった」と記されているのが、三人の絆を伝える記述です。",
+      "claimIds": ["tk-peach-sz"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "赤兎馬と呂布",
+      "anchor": "lu-bu"
+    },
+    {
+      "type": "paragraph",
+      "text": "演義で最強の武人として描かれるのが呂布です。第3回、董卓は一日に千里を走る名馬「赤兎」と金銀を贈って、丁原の養子だった呂布を寝返らせます。呂布は養父の首をはねて董卓の養子となりました。第5回の虎牢関では、赤兎にまたがる呂布の姿が「人中に呂布あり、馬中に赤兎あり」とうたわれ、張飛・関羽・劉備の三人がかりでも倒せません。",
+      "claimIds": ["tk-redhare", "tk-tiger"]
+    },
+    {
+      "type": "paragraph",
+      "text": "しかし第19回、下邳城を曹操に囲まれた呂布は、部下に赤兎を盗まれ、うたた寝しているところを縛り上げられます。白門楼で命乞いをしますが、劉備の一言で処刑されました。",
+      "claimIds": ["tk-whitegate"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "正史の呂布と赤兎",
+      "text": "正史も呂布を弓馬に優れた「飛将」と記し、愛馬赤兎の名を挙げています。ただし赤兎の名が出てくるのは董卓を殺したあと、袁紹のもとで戦っていた箇所で、董卓が贈ったという話はありません。「人中に呂布あり、馬中に赤兎あり」という言葉は、裴松之の注が引く『曹瞞伝』に見えます。",
+      "claimIds": ["tk-lubu-sz"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三顧の礼",
+      "anchor": "three-visits"
+    },
+    {
+      "type": "paragraph",
+      "text": "劉備は、「臥龍」と呼ばれる隠者諸葛亮を迎えるため、その草庵を三度訪ねます。三度目、昼寝から覚めた諸葛亮は地図を広げ、北は曹操に天の時を、南は孫権に地の利を譲り、劉備は荊州と益州を取って三国が鼎のように並び立つ形をつくるべきだと説きました（演義第37〜38回）。この三度の訪問は正史にも「凡そ三たび往きて、乃ち見る」と記されています。",
+      "claimIds": ["tk-visits"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "長坂の戦いと赤壁の東南の風",
+      "anchor": "chibi"
+    },
+    {
+      "type": "paragraph",
+      "text": "曹操の大軍に追われた長坂の戦いでは、趙雲が劉備の幼い息子阿斗を鎧の胸元に抱いて敵中を突破し、張飛が橋の上でただ一騎、大喝して曹操の軍を退かせます（演義第41〜42回）。正史にも、張飛が川を背に橋を断って敵をにらみつけたこと、趙雲が幼い後主を抱いて救ったことが記されています。",
+      "claimIds": ["tk-changban"]
+    },
+    {
+      "type": "paragraph",
+      "text": "続く赤壁の戦いでは、呉の周瑜が火攻めをはかります。演義の諸葛亮は「万事そろったが、ただ東風だけが欠けている」と見抜き、七星壇を築いて東南の風を祈りました。風が吹くと呉軍の火攻めが成功し、曹操の船団は焼き払われます（演義第49回）。風を祈る場面は演義の創作です。",
+      "claimIds": ["tk-wind"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "五丈原",
+      "anchor": "wuzhang"
+    },
+    {
+      "type": "paragraph",
+      "text": "劉備の死後、諸葛亮は魏との戦いを続け、五丈原で司馬懿と対峙したまま陣中で病没しました。正史は「時に年五十四」と記します。演義第104回では、死を伏せて退く蜀軍を司馬懿が追うと、車の上に孔明の木像が押し出され、司馬懿は驚いて逃げ帰ります。人々は「死せる諸葛、よく生ける仲達を走らす」と言い合いました。",
+      "claimIds": ["tk-wuzhang"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "現代の作品の中の三国志",
+      "anchor": "works"
+    },
+    {
+      "type": "paragraph",
+      "text": "三国志の英雄たちは、漫画やアニメにも数多く登場します。『終末のワルキューレ』の呂布奉先は、赤兎馬とともに神々に挑む最強の武人として描かれ、『パリピ孔明』では、五丈原で亡くなった諸葛孔明が現代の渋谷に転生して、歌手を目指す女性の軍師になります。",
+      "claimIds": ["tk-works"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "三国志には、陳寿の歴史書『三国志』（正史）と、明代の小説『三国志演義』がある",
+        "桃園の誓いや東南の風を祈る場面は演義の創作で、正史には見えない",
+        "呂布は演義で赤兎馬にまたがる最強の武人として描かれ、白門楼で処刑された",
+        "三顧の礼は正史にも記され、諸葛亮は五丈原の陣中で五十四歳で没した"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "tk-sanguozhi",
+      "text": "後漢末から三国時代の歴史は、3世紀末に陳寿が歴史書『三国志』にまとめ、のちに裴松之が注を加えた。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』（成立と裴松之注について）"
+    },
+    {
+      "id": "tk-yanyi",
+      "text": "『三国志演義』は明代に成立した長編小説で、現在広く読まれるのは清代に毛宗崗が改訂した120回本である。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』毛宗崗本（成立と諸本について）"
+    },
+    {
+      "id": "tk-fiction",
+      "text": "『三国志演義』は歴史の大筋を正史に従いつつ、場面や人物像に多くの創作を加えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "tk-peach",
+      "text": "『三国志演義』第1回では、劉備・関羽・張飛が張飛の屋敷の裏の桃園で天地をまつり、「同年同月同日に生まれることは求めず、ただ同年同月同日に死ぬことを願う」と誓って義兄弟となった。劉備は漢の皇族の末裔ながら、わらじやむしろを売って暮らしていた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第1回"
+    },
+    {
+      "id": "tk-peach-sz",
+      "text": "正史『三国志』関羽伝は、劉備が関羽・張飛と「寝則同床、恩若兄弟（寝るときは寝床を同じくし、恩愛は兄弟のようだった）」と記す。桃園の誓いの場面は正史にない。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 関羽伝"
+    },
+    {
+      "id": "tk-redhare",
+      "text": "『三国志演義』第3回では、董卓が名馬赤兎と金銀を贈って呂布を寝返らせ、呂布は養父丁原を殺して董卓を義父とした。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第3回"
+    },
+    {
+      "id": "tk-tiger",
+      "text": "『三国志演義』第5回は、虎牢関で赤兎にまたがる呂布を「人中呂布、馬中赤兔」と称え、張飛・関羽・劉備の三人に囲まれても呂布は倒れなかったと語る。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第5回"
+    },
+    {
+      "id": "tk-whitegate",
+      "text": "『三国志演義』第19回では、呂布は侯成に赤兎を盗まれ、門楼でうたた寝しているところを縛られて曹操に捕らえられ、白門楼で縊り殺された。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第19回"
+    },
+    {
+      "id": "tk-lubu-sz",
+      "text": "正史『三国志』呂布伝は、呂布が「飛将」と号したこと、袁紹のもとで張燕と戦ったころに良馬赤兎をもっていたことを記す。「人中有呂布、馬中有赤兔」の語は裴松之注が引く『曹瞞伝』に見える。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』魏書 呂布伝とその裴松之注"
+    },
+    {
+      "id": "tk-visits",
+      "text": "正史『三国志』諸葛亮伝は、劉備が諸葛亮のもとへ「凡三往、乃見（およそ三たび往きて、乃ち見る）」と記す。『三国志演義』第37〜38回はこの三度の訪問と、孔明が天下を三分する計を説く場面を描く。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi", "sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝、『三国志演義』第37〜38回"
+    },
+    {
+      "id": "tk-changban",
+      "text": "『三国志演義』第41〜42回では、長坂で趙雲が阿斗を懐に抱いて敵中を突破し、張飛が長坂橋で大喝して曹操軍を退かせた。正史の張飛伝・趙雲伝にも、張飛が橋を断って敵を拒み、趙雲が幼い後主を抱いて救ったことが記される。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第41〜42回、正史『三国志』蜀書 張飛伝・趙雲伝"
+    },
+    {
+      "id": "tk-wind",
+      "text": "『三国志演義』第49回で、孔明は「欲破曹公、宜用火攻。万事俱備、只欠東風」と書いて周瑜に示し、七星壇を築いて東南の風を祈った。孔明が風を祈る場面は正史にはない。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第49回、正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "tk-wuzhang",
+      "text": "正史『三国志』諸葛亮伝によれば、諸葛亮は五丈原で司馬懿と対峙中に陣中で没し、時に五十四歳だった。『三国志演義』第104回では、孔明の木像を見た司馬懿が逃げ帰り、「死せる諸葛、よく生ける仲達を走らす」という言葉が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi", "sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝、『三国志演義』第104回"
+    },
+    {
+      "id": "tk-works",
+      "text": "『終末のワルキューレ』には呂布奉先が人類側の闘士として登場し、『パリピ孔明』では五丈原で病死した諸葛孔明が現代の渋谷に転生する。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok", "work-paripi-koumei"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」「パリピ孔明」の記述で確認。"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": "arthurian-legend-overview",
+  "slug": "arthurian-legend-overview",
+  "title": "アーサー王伝説とは？石に刺さった剣、エクスカリバー、円卓の騎士をマロリーの原典でわかりやすく解説",
+  "shortTitle": "アーサー王伝説とは？",
+  "eyecatchText": "アーサー王",
+  "description": "アーサー王伝説は、ブリテンの伝説の王アーサーと円卓の騎士たちの物語。石に刺さった剣、湖の乙女のエクスカリバー、魔術師マーリン、ランスロットとグィネヴィアの恋、そして王の最期まで、マロリー『アーサー王の死』に沿ってたどります。",
+  "lead": "アーサー王の物語は、もともと一冊の本ではなく、何百年もかけて語り継がれ、書き足されてきた伝説の集まりです。そのなかで最もよく知られているのが、15世紀にマロリーがまとめた『アーサー王の死』。王の誕生から最期まで、物語の流れを原典の巻と章で追ってみましょう。",
+  "category": "basics",
+  "tags": [
+    "アーサー王伝説",
+    "アーサー王",
+    "エクスカリバー",
+    "マーリン",
+    "円卓の騎士",
+    "マロリー",
+    "基礎知識"
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "status": "published",
+  "featured": false,
+  "figureIds": [
+    "arthur",
+    "merlin",
+    "lancelot",
+    "guinevere",
+    "morgan-le-fay",
+    "mordred",
+    "gawain"
+  ],
+  "mythologyIds": ["arthurian"],
+  "storyIds": [
+    "birth-of-arthur",
+    "sword-in-the-stone",
+    "excalibur-and-the-lady-of-the-lake",
+    "round-table",
+    "merlin-and-nimue",
+    "death-of-arthur"
+  ],
+  "workIds": [],
+  "characterIds": [],
+  "topicIds": [],
+  "sourceIds": ["malory-morte-darthur"],
+  "relatedArticleIds": ["king-arthur", "what-is-mythology"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "伝説の王アーサー",
+      "anchor": "origin"
+    },
+    {
+      "type": "paragraph",
+      "text": "アーサー王は、5〜6世紀ごろのブリテン島で戦ったとされる伝説の王です。実在の人物をもとにしているのかどうかは、はっきりしていません。12世紀にジェフリー・オブ・モンマスが『ブリタニア列王史』でアーサーの生涯を語ると、物語はフランスなどにも広まり、騎士ランスロットの恋や聖杯探求の物語が書き足されていきました。",
+      "claimIds": ["arl-history"]
+    },
+    {
+      "type": "paragraph",
+      "text": "15世紀のイングランドで、騎士トマス・マロリーはこうした物語を英語の散文で一つにまとめました。1485年にウィリアム・キャクストンが『アーサー王の死』として印刷したこの本が、現在よく知られるアーサー王物語のもとになっています。",
+      "claimIds": ["arl-malory"]
+    },
+    {
+      "type": "note",
+      "classification": "scholarship",
+      "title": "「伝説」と「神話」",
+      "text": "アーサー王伝説は、神々の世界を語る神話とは違い、人間の王と騎士たちの物語です。ただし、魔術師や湖の乙女、妖精の島アヴァロンなど、ケルトの伝承に由来すると考えられる不思議な要素も多く含まれています。",
+      "claimIds": ["arl-celtic"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "マーリンの計略とアーサーの誕生",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "ブリテン王ユーサー・ペンドラゴンは、コーンウォール公の妻イグレインに恋をします。魔術師マーリンは、生まれる子を自分に引き渡すことを条件に、王を公そっくりの姿に変えてティンタジェル城へ送り込みました。その夜に生まれる子として宿ったのがアーサーです。赤子はマーリンの手で騎士エクターに預けられ、自分の出自を知らずに育ちました。",
+      "claimIds": ["arl-birth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "石に刺さった剣",
+      "anchor": "sword"
+    },
+    {
+      "type": "paragraph",
+      "text": "ユーサー王が亡くなると、王位をめぐって国は乱れます。マーリンの助言で諸侯がロンドンの教会に集められると、教会の庭に、剣の刺さった鉄床をのせた石が現れました。",
+      "claimIds": ["arl-stone"]
+    },
+    {
+      "type": "quote",
+      "text": "この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王である。",
+      "sourceId": "malory-morte-darthur",
+      "location": "第1巻第5章",
+      "claimIds": ["arl-stone"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "諸侯の誰も抜けなかった剣を、乳兄弟ケイの剣を取りに戻った少年アーサーが、なにげなく引き抜きます。何度試しても剣を抜けるのはアーサーだけで、ついに人々は彼を王と認めました。",
+      "claimIds": ["arl-stone", "arl-crown"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "湖の乙女とエクスカリバー",
+      "anchor": "excalibur"
+    },
+    {
+      "type": "paragraph",
+      "text": "のちにアーサーは、泉のほとりで出会った騎士ペリノアと一騎打ちをし、剣を折られてしまいます。剣を失った王をマーリンが湖へ連れていくと、湖の中から白い絹の袖をまとった腕が、一振りの剣を掲げていました。王は湖の乙女からその剣、エクスカリバーを授かります。",
+      "claimIds": ["arl-broken", "arl-lake"]
+    },
+    {
+      "type": "quote",
+      "text": "鞘は剣の十倍の値打ちがあります。鞘を身につけているかぎり、どれほどひどく傷ついても、血を失うことはありません。",
+      "sourceId": "malory-morte-darthur",
+      "location": "第1巻第25章",
+      "claimIds": ["arl-lake"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "二本の剣",
+      "text": "マロリーでは、石から抜いた剣とエクスカリバーは別々の場面に登場します。一方で、石の剣とエクスカリバーを同じ剣として描く作品も多く、二本の剣の関係は作品によって異なります。",
+      "claimIds": ["arl-two-swords"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "円卓の騎士たち",
+      "anchor": "round-table"
+    },
+    {
+      "type": "paragraph",
+      "text": "アーサーはカメリアードのレオデグランス王の娘グィネヴィアを妃に迎えます。このとき嫁入りの品として贈られたのが、かつてユーサー王がレオデグランス王に与えた円卓でした。円卓の席に騎士たちが着くと、それぞれの席に騎士の名が金文字で現れたといいます。",
+      "claimIds": ["arl-round-table"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ランスロット：円卓で最も優れた騎士。王妃グィネヴィアと愛し合う",
+        "ガウェイン：アーサーの甥。王の結婚式の日に騎士に叙せられた",
+        "モードレッド：アーサーがそれと知らずに異父姉とのあいだにもうけた子",
+        "モルガン・ル・フェイ：アーサーの異父姉。魔術に通じ、エクスカリバーの鞘を盗む"
+      ],
+      "claimIds": ["arl-lancelot", "arl-mordred", "arl-morgan"]
+    },
+    {
+      "type": "paragraph",
+      "text": "じつはマーリンは、結婚の前から、ランスロットがグィネヴィアを愛し、彼女もまた彼を愛するようになると警告していました。そのマーリン自身も、やがて湖の乙女ニミュエに恋をし、魔法を教えた彼女の手で岩の下に封じ込められてしまいます。",
+      "claimIds": ["arl-warning", "arl-nimue"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "王国の終わり",
+      "anchor": "end"
+    },
+    {
+      "type": "paragraph",
+      "text": "ランスロットとグィネヴィアの関係が明るみに出ると、円卓の騎士たちは二つに割れ、アーサーはランスロットとの戦争に踏み切ります。その留守中に王位を奪ったのが、モードレッドでした。",
+      "claimIds": ["arl-fall"]
+    },
+    {
+      "type": "paragraph",
+      "text": "最後の戦いで、アーサーはモードレッドを槍で貫きますが、モードレッドも死に際に王の頭に致命傷を与えます。王の命を受けた騎士ベディヴィアがエクスカリバーを湖に投げ入れると、水の中から腕が現れて剣をつかみ、三度振りかざして沈んでいきました。",
+      "claimIds": ["arl-death", "arl-return-sword"]
+    },
+    {
+      "type": "quote",
+      "text": "わたしは、この重い傷を癒すため、アヴィリオンの谷へ行く。",
+      "sourceId": "malory-morte-darthur",
+      "location": "第21巻第5章",
+      "claimIds": ["arl-avilion"],
+      "translationNote": "原文（英訳）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "王は女王たちの乗る小舟で去っていきました。マロリーは、王は死んでおらず、いつか戻ってくると言う人々がいることを伝えつつ、自分はそうとは言わないと書いています。",
+      "claimIds": ["arl-avilion", "arl-return"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "アーサー王伝説は中世に書き足されてきた物語群で、15世紀のマロリー『アーサー王の死』が集大成となった",
+        "アーサーは石に刺さった剣を抜いて王となり、湖の乙女からエクスカリバーを授かった",
+        "円卓はグィネヴィアの嫁入りの品として、レオデグランス王から贈られた",
+        "ランスロットとグィネヴィアの恋とモードレッドの反逆によって王国は崩れ、王はアヴィリオンへ去った"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "arl-history",
+      "text": "アーサー王の物語は、12世紀のジェフリー・オブ・モンマス『ブリタニア列王史』を経て広まり、フランスなどでランスロットや聖杯探求の物語が加えられた。アーサーの実在ははっきりしていない。",
+      "classification": "scholarship",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』（成立の背景について）",
+      "note": "伝説の成立史は研究上の通説として示す。"
+    },
+    {
+      "id": "arl-malory",
+      "text": "マロリーはアーサー王物語を英語の散文でまとめ、1485年にキャクストンが『アーサー王の死』として印刷した。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "キャクストン版の序文・奥付"
+    },
+    {
+      "id": "arl-celtic",
+      "text": "魔術師や湖の乙女、アヴァロンなど、アーサー王伝説の不思議な要素の一部はケルトの伝承に由来すると考えられている。",
+      "classification": "scholarship",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』（伝承の背景について）",
+      "note": "ケルト起源説は研究上の通説の一つで、要素ごとに議論がある。"
+    },
+    {
+      "id": "arl-birth",
+      "text": "マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子を自分に引き渡させた。アーサーはマーリンの手で騎士エクターに預けられた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第1〜3章"
+    },
+    {
+      "id": "arl-stone",
+      "text": "ロンドンの教会の庭に、剣の刺さった鉄床をのせた石が現れ、「この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王」と金文字で記されていた。アーサーは乳兄弟ケイのためにこれを抜いた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第5章"
+    },
+    {
+      "id": "arl-crown",
+      "text": "剣を抜けるのはアーサーだけで、聖霊降臨祭に人々は彼を王と認め、アーサーは戴冠した。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第6〜7章"
+    },
+    {
+      "id": "arl-broken",
+      "text": "アーサーは泉のほとりの騎士ペリノアとの一騎打ちで、剣を二つに折られた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第23〜24章"
+    },
+    {
+      "id": "arl-lake",
+      "text": "アーサーはマーリンに導かれた湖で、白い絹の袖をまとった腕が掲げる剣を湖の乙女から授かった。マーリンは鞘は剣の十倍の値打ちがあり、身につけているかぎり血を失わないと言った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第25章"
+    },
+    {
+      "id": "arl-two-swords",
+      "text": "マロリーでは石の剣とエクスカリバーは別の場面で語られるが、両者を同じ剣とする作品も多い。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "arl-round-table",
+      "text": "レオデグランス王は、ユーサー王から与えられた円卓をグィネヴィアの嫁入りの品として贈った。円卓の席には騎士の名が金文字で現れた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第3巻第1〜2章"
+    },
+    {
+      "id": "arl-lancelot",
+      "text": "ガウェインはアーサーの姉の子で、王の結婚の日に騎士に叙せられた。ランスロットはベンウィックのバン王の子である。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第3巻第2章、第4巻第1章"
+    },
+    {
+      "id": "arl-mordred",
+      "text": "アーサーはそれと知らずに異父姉（ロト王の妃）とのあいだにモードレッドをもうけた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第19章"
+    },
+    {
+      "id": "arl-morgan",
+      "text": "モルガン・ル・フェイはイグレインの娘で、魔術に通じ、のちにアーサーからエクスカリバーの鞘を盗んだ。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第2章、第4巻第14章"
+    },
+    {
+      "id": "arl-warning",
+      "text": "マーリンは結婚の前に、ランスロットがグィネヴィアを愛し、彼女もまた彼を愛するようになるとひそかに警告した。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第3巻第1章"
+    },
+    {
+      "id": "arl-nimue",
+      "text": "マーリンは湖の乙女ニミュエに恋をし、魔法を学び尽くした彼女によって岩の下に封じ込められた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第1章"
+    },
+    {
+      "id": "arl-fall",
+      "text": "ランスロットと王妃の関係が明かされたことからアーサーはランスロットと戦い、その留守中にモードレッドが王位を奪った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第20巻第1〜2章・第10章、第21巻第1章"
+    },
+    {
+      "id": "arl-death",
+      "text": "最後の戦いでアーサーはモードレッドを槍で貫き、モードレッドは死に際にアーサーの頭に致命傷を与えた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第4章"
+    },
+    {
+      "id": "arl-return-sword",
+      "text": "ベディヴィアは二度ためらったのち、エクスカリバーを湖に投げ入れた。水中から腕が現れて剣をつかみ、三度振って沈んだ。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第5章"
+    },
+    {
+      "id": "arl-avilion",
+      "text": "アーサーは、傷を癒すためアヴィリオンの谷へ行くと言い、女王たちの乗る小舟で去った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第5章"
+    },
+    {
+      "id": "arl-return",
+      "text": "マロリーは、アーサーは死んでおらず再び戻ってくると言う人々がいることを伝えつつ、自分はそうとは言わないと記している。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第7章"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "zhao-yun",
+  "slug": "zhao-yun",
+  "name": "趙雲",
+  "reading": "ちょううん",
+  "originalName": "趙雲",
+  "alternativeNames": ["趙子龍"],
+  "type": "historical",
+  "roles": ["蜀の武将"],
+  "mythologyIds": ["three-kingdoms"],
+  "description": "字は子龍。劉備に仕えた武将。長坂の戦いで、曹操の大軍の中に取り残された劉備の幼い息子阿斗（のちの後主劉禅）を救い出したことで知られる。『三国志演義』では、阿斗を鎧の胸元に抱いて単騎で敵陣を駆け抜ける場面が名高い。",
+  "relatedFigureIds": ["liu-bei", "zhuge-liang"],
+  "relatedStoryIds": ["battle-of-changban"],
+  "articleIds": [],
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+}

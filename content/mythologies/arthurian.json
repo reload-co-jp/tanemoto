@@ -1,0 +1,40 @@
+{
+  "id": "arthurian",
+  "slug": "arthurian",
+  "name": "アーサー王伝説",
+  "reading": "あーさーおうでんせつ",
+  "region": "ブリテン（イングランド・ウェールズ）",
+  "period": "中世に語り継がれ、15世紀にマロリー『アーサー王の死』（1485年刊）として集大成された",
+  "description": "石に刺さった剣を抜いて王となったアーサー、魔術師マーリン、湖の乙女から授かった名剣エクスカリバー、そして円卓の騎士ランスロットと王妃グィネヴィアの恋。中世ヨーロッパで語り継がれた、ブリテンの伝説の王と騎士たちの物語。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "アーサー王は、5〜6世紀ごろのブリテン島で侵入者と戦ったとされる伝説の王です。実在の人物をもとにしているのかどうかは、はっきりしていません。12世紀にジェフリー・オブ・モンマスが『ブリタニア列王史』でアーサーの生涯を語ると、その物語はフランスなどにも広まり、騎士ランスロットや聖杯探求の物語が次々に加えられていきました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "15世紀のイングランドの騎士トマス・マロリーは、こうした物語を英語の散文で一つにまとめ、1485年にウィリアム・キャクストンが『アーサー王の死』として印刷しました。現代の小説やゲームに登場するアーサー王の物語の多くは、このマロリー版を下敷きにしています。トモタネでは、キャクストン版の巻と章を示して紹介します。"
+    }
+  ],
+  "figureIds": [
+    "arthur",
+    "merlin",
+    "lancelot",
+    "guinevere",
+    "morgan-le-fay",
+    "mordred",
+    "gawain"
+  ],
+  "storyIds": [
+    "birth-of-arthur",
+    "sword-in-the-stone",
+    "excalibur-and-the-lady-of-the-lake",
+    "round-table",
+    "merlin-and-nimue",
+    "morgan-steals-the-scabbard",
+    "death-of-arthur"
+  ],
+  "sourceIds": ["malory-morte-darthur"],
+  "kind": "legend",
+  "order": 13
+}

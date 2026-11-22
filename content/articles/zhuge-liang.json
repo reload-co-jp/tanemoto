@@ -1,0 +1,243 @@
+{
+  "id": "zhuge-liang",
+  "slug": "zhuge-liang",
+  "title": "諸葛孔明とは？三顧の礼、赤壁の東南の風、空城の計、五丈原を演義と正史でたどる",
+  "shortTitle": "諸葛孔明とは？",
+  "eyecatchText": "諸葛孔明",
+  "description": "諸葛孔明（諸葛亮）は、劉備に仕えた蜀の軍師。三顧の礼、天下三分の計、赤壁の東南の風、空城の計、五丈原の木像まで、『三国志演義』と正史の記述を比べながら、その実像と伝説をたどります。『パリピ孔明』の孔明との比較も。",
+  "lead": "羽扇を手に、風を呼び、敵の心を読む天才軍師。諸葛孔明ほど「軍師」のイメージを決定づけた人物はいません。ただし、私たちが思い浮かべる神がかった孔明の姿の多くは、小説『三国志演義』がつくったものです。歴史書の孔明と比べながら、その伝説をたどってみましょう。",
+  "category": "character-origins",
+  "tags": [
+    "諸葛孔明",
+    "諸葛亮",
+    "三国志",
+    "三顧の礼",
+    "赤壁の戦い",
+    "空城の計",
+    "五丈原",
+    "パリピ孔明"
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["zhuge-liang", "liu-bei", "cao-cao"],
+  "mythologyIds": ["three-kingdoms"],
+  "storyIds": [
+    "three-visits-to-the-thatched-cottage",
+    "borrowing-the-east-wind",
+    "empty-fort-strategy",
+    "death-at-wuzhang-plains"
+  ],
+  "workIds": ["paripi-koumei"],
+  "characterIds": ["paripi-koumei-zhuge-liang"],
+  "topicIds": [],
+  "sourceIds": ["sanguo-yanyi", "sanguozhi", "work-paripi-koumei"],
+  "relatedArticleIds": ["three-kingdoms-overview"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "臥龍と呼ばれた男",
+      "anchor": "garyo"
+    },
+    {
+      "type": "paragraph",
+      "text": "諸葛亮は字を孔明といい、若いころは隆中で畑を耕しながら暮らしていました。劉備に彼を推薦した徐庶は「諸葛孔明は臥龍です」と言ったと、正史『三国志』は記しています。まだ天に昇っていない龍、という意味です。",
+      "claimIds": ["zgl-garyo"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "三顧の礼と天下三分の計",
+      "anchor": "three-visits"
+    },
+    {
+      "type": "paragraph",
+      "text": "徐庶は「この人は会いに行くべきで、呼びつけてはいけません」と言い、劉備は自ら孔明のもとへ足を運びました。正史は「凡そ三たび往きて、乃ち見る」と記します。これが「三顧の礼」です。",
+      "claimIds": ["zgl-visits"]
+    },
+    {
+      "type": "paragraph",
+      "text": "演義第38回では、三度目に訪ねると孔明は昼寝の最中で、劉備は目覚めるまで立って待ち続けます。現れた孔明は身の丈八尺、綸巾をかぶり鶴氅をまとった仙人のような姿でした。孔明は地図を示し、曹操と孫権に対抗して荊州と益州を取り、三国が鼎のように並ぶ形をつくる計を説きます。",
+      "claimIds": ["zgl-visits", "zgl-appearance"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "赤壁の東南の風",
+      "anchor": "wind"
+    },
+    {
+      "type": "paragraph",
+      "text": "赤壁の戦いで、呉の周瑜は火攻めを計画しますが、風向きが合わないと悟って倒れてしまいます。演義第49回の孔明は、周瑜の病の原因を見抜いて、こう書いて見せました。",
+      "claimIds": ["zgl-wind"]
+    },
+    {
+      "type": "quote",
+      "text": "曹公を破るには、火攻めがよい。万事そろったが、ただ東風だけが欠けている。",
+      "sourceId": "sanguo-yanyi",
+      "location": "第49回",
+      "claimIds": ["zgl-wind"],
+      "translationNote": "原文（漢文・白話）をもとにした編集部訳"
+    },
+    {
+      "type": "paragraph",
+      "text": "孔明は「奇門遁甲の天書を授かったので風を呼べる」と言い、南屏山に七星壇を築いて祈ります。約束の夜、旗が北西へなびき、東南の風が吹き始めました。",
+      "claimIds": ["zgl-wind"]
+    },
+    {
+      "type": "note",
+      "classification": "fact",
+      "title": "正史では",
+      "text": "正史の諸葛亮伝は、孔明が孫権のもとへ使いして同盟を結んだことを記しますが、風を祈る話はありません。東南の風の場面は演義の創作です。",
+      "claimIds": ["zgl-wind-sz"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "空城の計",
+      "anchor": "empty-fort"
+    },
+    {
+      "type": "paragraph",
+      "text": "演義第95回、馬謖が街亭を失うと、孔明のいる西城に司馬懿の大軍十五万が迫ります。城にいる兵は二千五百。孔明は旗を隠し、四つの城門を開け放って兵に道を掃かせ、自らは城楼で香をたいて琴を弾きました。「孔明は慎重な男で危険は冒さない。伏兵があるに違いない」と考えた司馬懿は、軍を引き返させます。",
+      "claimIds": ["zgl-emptyfort"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "五丈原に落ちた星",
+      "anchor": "wuzhang"
+    },
+    {
+      "type": "paragraph",
+      "text": "北伐を続けた孔明は、五丈原で司馬懿と百日あまり対峙したのち、陣中で病没しました。正史は「時に年五十四」と記します。",
+      "claimIds": ["zgl-death"]
+    },
+    {
+      "type": "paragraph",
+      "text": "演義第104回の孔明は、死を伏せたまま軍を退かせ、追ってきた司馬懿に自分の木像を車に乗せて押し出させます。綸巾羽扇の孔明が車の上にいるのを見た司馬懿は、生きていると思って逃げ帰りました。真相を知った司馬懿は「生きている者のことは推し量れても、死んだ者のことは推し量れない」と嘆いたといいます。",
+      "claimIds": ["zgl-statue"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『パリピ孔明』の孔明",
+      "anchor": "paripi"
+    },
+    {
+      "type": "paragraph",
+      "text": "漫画『パリピ孔明』の孔明は、五丈原で「次の生があるならば、戦のない平和な時代に生まれたい」と願いながら亡くなり、ハロウィンの渋谷に若い姿で転生します。歌手を目指す月見英子の歌に心を打たれた孔明は、恩に報いるため、自ら彼女の軍師（マネージャー）になることを申し出ました。",
+      "claimIds": ["zgl-paripi"]
+    },
+    {
+      "type": "paragraph",
+      "text": "三国志の三顧の礼は、主君が三度訪ねて軍師を迎える物語でした。『パリピ孔明』はこの関係を逆にして、孔明の方から仕える相手を選ぶ物語にしています。ふだんの鶴氅・綸巾・羽扇の姿は演義の孔明そのもので、現代の渋谷ではコスプレと間違われる、というのも作品の楽しいところです。",
+      "claimIds": [
+        "zgl-visits",
+        "zgl-appearance",
+        "zgl-paripi",
+        "zgl-paripi-cmp"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "諸葛亮（字は孔明）は「臥龍」と呼ばれ、劉備が三度訪ねて迎えた（正史にも記される）",
+        "綸巾・鶴氅・羽扇の姿や、東南の風を祈る場面、空城の計は『三国志演義』が描いた孔明の姿",
+        "孔明は五丈原の陣中で五十四歳で没し、演義では死後も木像で司馬懿を退かせた",
+        "『パリピ孔明』は、三顧の礼の主客を逆にし、孔明が自ら仕える相手を選ぶ物語になっている"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "zgl-garyo",
+      "text": "正史『三国志』諸葛亮伝によれば、諸葛亮は字を孔明といい、畑を耕して暮らしていた（裴松之注の引く『漢晋春秋』によれば、住まいは隆中と呼ばれた）。徐庶は劉備に「諸葛孔明者，臥龍也」と推薦した。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "zgl-visits",
+      "text": "正史『三国志』諸葛亮伝によれば、徐庶は孔明を呼びつけず自ら訪ねるよう勧め、劉備は「凡三往、乃見」。『三国志演義』第37〜38回は、三度目の訪問で孔明が昼寝から覚めるまで劉備が待ち、孔明が天下を三分する計を説く場面を描く。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi", "sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝、『三国志演義』第37〜38回"
+    },
+    {
+      "id": "zgl-appearance",
+      "text": "『三国志演義』第38回では、孔明は身の丈八尺、綸巾をかぶり鶴氅をまとった仙人のような姿で描かれ、第104回でも車上の孔明は「綸巾羽扇」とされる。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第38回・第104回"
+    },
+    {
+      "id": "zgl-wind",
+      "text": "『三国志演義』第49回では、孔明が「欲破曹公、宜用火攻。万事俱備、只欠東風」と書いて周瑜に示し、奇門遁甲の天書を授かったと言って七星壇で東南の風を祈ると、夜に旗が西北へなびき東南の風が起こった。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第49回"
+    },
+    {
+      "id": "zgl-wind-sz",
+      "text": "正史『三国志』諸葛亮伝は、孔明が孫権のもとへ使いして同盟を結んだことを記すが、風を祈る話は見えない。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "zgl-emptyfort",
+      "text": "『三国志演義』第95回では、街亭を失ったのち司馬懿の大軍十五万が西城に迫り、兵二千五百しかいない孔明は城門を開け放って道を掃かせ、城楼で香をたき琴を弾いた。司馬懿は伏兵を疑って退いた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第95回"
+    },
+    {
+      "id": "zgl-death",
+      "text": "正史『三国志』諸葛亮伝によれば、孔明は司馬懿と百日あまり対峙したのち陣中で病没した。時に五十四歳。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "zgl-statue",
+      "text": "『三国志演義』第104回では、孔明は死を伏せて退却させ、追ってきた司馬懿に自分の木像を車に乗せて見せた。司馬懿は逃げ帰り、のちに「吾能料其生，不能料其死也」と嘆いた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第104回"
+    },
+    {
+      "id": "zgl-paripi",
+      "text": "『パリピ孔明』の孔明は、五丈原で「次の生があるならば、戦のない平和な時代に生まれたい」と願いながら病没し、ハロウィンの渋谷に若き日の姿で転生する。月見英子の歌に感銘を受け、軍師（マネージャー）になることを申し出る。ふだんは鶴氅・綸巾・羽扇の姿で、コスプレイヤーと思われている。",
+      "classification": "creative",
+      "sourceIds": ["work-paripi-koumei"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パリピ孔明」の記述で確認。"
+    },
+    {
+      "id": "zgl-paripi-cmp",
+      "text": "『パリピ孔明』は三顧の礼の主客を逆にし、孔明が自ら仕える相手を選ぶ物語にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

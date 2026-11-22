@@ -1,0 +1,203 @@
+{
+  "id": "fate-zero-rider",
+  "slug": "fate-zero-rider",
+  "name": "ライダー",
+  "reading": "らいだー",
+  "alternativeNames": ["イスカンダル", "征服王"],
+  "workId": "fate-zero",
+  "description": {
+    "text": "第四次聖杯戦争で、魔術師見習いのウェイバー・ベルベットに召喚された騎兵（ライダー）のクラスのサーヴァント。豪放磊落な大男で、初戦で自ら真名を名乗り、ほかのサーヴァントを自分の軍門に誘う。",
+    "claimIds": ["fz-ri-work"]
+  },
+  "nameOrigin": {
+    "text": "真名はイスカンダル。紀元前4世紀に東方遠征で大帝国を築いたマケドニア王、アレクサンドロス大王のこと。",
+    "claimIds": ["fz-ri-work-name", "fz-ri-myth-king"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "alexander",
+      "label": "アレクサンドロス大王（マケドニア王）",
+      "inWork": {
+        "text": "聖杯に託す願いは受肉で、そのあとは自らの力で再び世界を征服することを望んでいる。",
+        "claimIds": ["fz-ri-work-wish"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、少年アレクサンドロスが暴れ馬を乗りこなしたとき、父フィリッポスは「お前にふさわしい王国を探せ。マケドニアはお前には小さすぎる」と言った。",
+        "claimIds": ["fz-ri-myth-bucephalas"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "alexander",
+      "label": "ゴルディオンの結び目",
+      "inWork": {
+        "text": "宝具は、二頭の神牛が引く大型戦車「神威の車輪（ゴルディアス・ホイール）」。",
+        "claimIds": ["fz-ri-work-chariot"]
+      },
+      "inMyth": {
+        "text": "ゴルディオンの町には、ミダス王の荷車がくびきに固く結びつけられており、この結び目を解いた者は全世界の王になると言い伝えられていた。多くの著述家によれば、アレクサンドロスはそれを剣で断ち切った。",
+        "claimIds": ["fz-ri-myth-gordian"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "alexander",
+      "label": "ヘタイロイ（王の仲間たち）",
+      "inWork": {
+        "text": "もう一つの宝具「王の軍勢（アイオニオン・ヘタイロイ）」は、生前の遠征軍の豪傑たちをサーヴァントとして呼び出す固有結界。愛馬ブケファラスもその一員とされる。",
+        "claimIds": ["fz-ri-work-army"]
+      },
+      "inMyth": {
+        "text": "プルタルコスの伝記には、王のそばで戦い、酒を酌み交わす「仲間たち」がたびたび登場する。愛馬ブケファラスは、少年時代の王が、自分の影におびえていることを見抜いて乗りこなした馬だった。",
+        "claimIds": ["fz-ri-myth-companions", "fz-ri-myth-bucephalas"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "alexander",
+      "label": "『イリアス』の愛読者",
+      "inWork": {
+        "text": "ホメロスを尊敬し、『イリアス』を肌身離さず持ち歩いている。",
+        "claimIds": ["fz-ri-work-iliad"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、アレクサンドロスは『イリアス』を「戦いの術の糧」と呼び、アリストテレスが校訂した写本を、短剣とともにいつも枕の下に置いていた。トロイアの地ではアキレウスの墓に香油を注ぎ、彼をたたえた。",
+        "claimIds": ["fz-ri-myth-iliad", "fz-ri-myth-achilles"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "宝具の名「ゴルディアス・ホイール」は、ゴルディオンの結び目の逸話から取られていると読める。プルタルコスの伝える逸話では、結び目が結ばれていたのも荷車だった。",
+      "claimIds": ["fz-ri-myth-gordian", "fz-ri-cmp-gordian"]
+    },
+    {
+      "text": "作品のイスカンダルは、再び世界を征服する夢を語る。プルタルコスの伝える大王は、インドのガンジス川を前に兵士たちから進軍を拒まれ、引き返すことになった。征服の夢を断たれた王が、聖杯戦争でもう一度その夢を追う、という構図とも読める。",
+      "claimIds": ["fz-ri-work-wish", "fz-ri-myth-ganges", "fz-ri-cmp-dream"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fz-ri-work",
+      "text": "ライダーは第四次聖杯戦争でウェイバー・ベルベットに召喚されたサーヴァントで、豪放磊落な大男。初戦で真名を公に名乗り、ほかのサーヴァントを自らの軍門に勧誘する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Zero」の記述で確認。"
+    },
+    {
+      "id": "fz-ri-work-name",
+      "text": "ライダーの真名はイスカンダル。彼の宝具「王の軍勢」で呼び出されるのは、かつて彼とともにユーラシア大陸を駆け巡ったマケドニアの将兵たちである。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Zero」の記述で確認。"
+    },
+    {
+      "id": "fz-ri-work-wish",
+      "text": "ライダーが聖杯に託す願いは受肉で、その後は自らの力で再び世界を征服することを望んでいる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Zero」の記述で確認。"
+    },
+    {
+      "id": "fz-ri-work-chariot",
+      "text": "ライダーの宝具の一つは、2匹の神牛が牽引する大型戦車「神威の車輪（ゴルディアス・ホイール）」である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Zero」の記述で確認。"
+    },
+    {
+      "id": "fz-ri-work-army",
+      "text": "宝具「王の軍勢（アイオニオン・ヘタイロイ）」は、生前の遠征軍の豪傑たちをサーヴァントとして独立召喚する固有結界で、愛馬ブケファラスもその一員とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Zero」の記述で確認。"
+    },
+    {
+      "id": "fz-ri-work-iliad",
+      "text": "ライダーはホメロスを尊敬し、『イリアス』を肌身離さず持ち歩いている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Zero」の記述で確認。"
+    },
+    {
+      "id": "fz-ri-myth-king",
+      "text": "アレクサンドロスは、マケドニア王フィリッポスの子で、ペルシア王ダレイオスを破ってアジアに進出した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 2、33"
+    },
+    {
+      "id": "fz-ri-myth-bucephalas",
+      "text": "少年アレクサンドロスは、暴れ馬ブケファラスが自分の影におびえていると見抜いて太陽の方へ向け、乗りこなした。父フィリッポスは「息子よ、お前にふさわしい王国を探せ。マケドニアはお前には小さすぎる」と言った。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 6"
+    },
+    {
+      "id": "fz-ri-myth-gordian",
+      "text": "ゴルディオンのミダス王の荷車の結び目を解いた者は全世界の王になると言い伝えられていた。多くの著述家はアレクサンドロスが剣で断ち切ったと言うが、アリストブロスは轅の留め釘を抜いてくびきを外したと伝える。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 18"
+    },
+    {
+      "id": "fz-ri-myth-companions",
+      "text": "プルタルコスの伝記では、王の側近たちが「仲間（companions）」と呼ばれ、戦いや宴の場面にたびたび登場する。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 15、20ほか",
+      "note": "ローブ版英訳の companions は、ギリシャ語のヘタイロイ（仲間）にあたる。"
+    },
+    {
+      "id": "fz-ri-myth-iliad",
+      "text": "アレクサンドロスは『イリアス』を戦いの術の糧と呼び、アリストテレスが校訂した「小箱のイリアス」を、短剣とともにいつも枕の下に置いていた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 8"
+    },
+    {
+      "id": "fz-ri-myth-achilles",
+      "text": "アレクサンドロスはトロイアでアキレウスの墓石に香油を注ぎ、生前には忠実な友を、死後には名声を伝える偉大な詩人を得たアキレウスを幸いだとたたえた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 15"
+    },
+    {
+      "id": "fz-ri-myth-ganges",
+      "text": "インドでポロスと戦ったのち、マケドニア兵たちはガンジス川を渡ることに激しく反対し、アレクサンドロスはついに引き返した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 62"
+    },
+    {
+      "id": "fz-ri-cmp-gordian",
+      "text": "宝具名「ゴルディアス・ホイール」は、ゴルディオンの結び目の逸話にちなむと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fz-ri-cmp-dream",
+      "text": "断たれた征服の夢を聖杯戦争で追うという構図として読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-zero", "plutarch-lives"],
+  "articleIds": []
+}

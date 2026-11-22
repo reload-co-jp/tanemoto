@@ -1,0 +1,207 @@
+{
+  "id": "fate-stay-night-saber",
+  "slug": "fate-stay-night-saber",
+  "name": "セイバー",
+  "reading": "せいばー",
+  "alternativeNames": ["アルトリア・ペンドラゴン"],
+  "workId": "fate-stay-night",
+  "description": {
+    "text": "聖杯戦争で主人公・衛宮士郎に召喚された、剣士（セイバー）のクラスのサーヴァント。少女の姿をした騎士で、王としてふるまう。",
+    "claimIds": ["fsn-sa-work"]
+  },
+  "nameOrigin": {
+    "text": "真名はアルトリア・ペンドラゴン、つまりアーサー王。作中では、選定の剣を岩から引き抜いた少女アルトリアが、性別を偽って「アーサー」を名乗り王になったとされる。",
+    "claimIds": ["fsn-sa-work-name", "fsn-sa-myth-stone"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "arthur",
+      "label": "アーサー王（ブリテンの王）",
+      "inWork": {
+        "text": "宝具「約束された勝利の剣（エクスカリバー）」を使ったことで、真名がアーサー王であると明らかになる。選定の剣を抜いた時から成長が止まり、少女の身のまま男性として振る舞ってきた。",
+        "claimIds": ["fsn-sa-work-name", "fsn-sa-work-excalibur"]
+      },
+      "inMyth": {
+        "text": "マロリーの『アーサー王の死』では、アーサーはユーサー・ペンドラゴン王とイグレインの子。マーリンの手で騎士エクターに預けられ、その子として育てられた。",
+        "claimIds": ["fsn-sa-myth-birth"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "arthur",
+      "label": "石に刺さった剣（選定の剣）",
+      "inWork": {
+        "text": "王の選定の剣「勝利すべき黄金の剣（カリバーン）」は、生前に折れてしまっている。",
+        "claimIds": ["fsn-sa-work-caliburn"]
+      },
+      "inMyth": {
+        "text": "マロリーでは、教会の庭の石と鉄床に刺さった剣に「この剣を抜く者こそ、生まれながらのイングランドの正しき王」と記されていた。のちにアーサーの剣は、騎士ペリノアとの一騎打ちで二つに折れる。",
+        "claimIds": ["fsn-sa-myth-stone", "fsn-sa-myth-broken"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "arthur",
+      "label": "エクスカリバー（湖の乙女の剣）",
+      "inWork": {
+        "text": "「約束された勝利の剣（エクスカリバー）」は、使い手の魔力を光に変えて究極の斬撃として放つ宝具。",
+        "claimIds": ["fsn-sa-work-excalibur"]
+      },
+      "inMyth": {
+        "text": "マロリーでは、剣を失ったアーサーを、マーリンが湖へ案内する。湖の中から腕が剣を掲げており、アーサーは湖の乙女からその剣、エクスカリバーを授かった。",
+        "claimIds": ["fsn-sa-myth-lake"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "morgan-le-fay",
+      "label": "エクスカリバーの鞘とアヴァロン",
+      "inWork": {
+        "text": "エクスカリバーの鞘「全て遠き理想郷（アヴァロン）」は、アーサー王が死後にたどり着いた妖精郷と同じ名を持つ宝具。傷を癒し、老化を止める。生前のセイバーの手元からは失われている。",
+        "claimIds": ["fsn-sa-work-avalon"]
+      },
+      "inMyth": {
+        "text": "マロリーのマーリンは「鞘は剣の十倍の値打ちがある。身につけているかぎり血を失うことはない」と言う。この鞘は王の姉モルガン・ル・フェイに盗まれ、湖に投げ捨てられた。致命傷を負った王は、傷を癒すため「アヴィリオンの谷」へ行くと言い残して小舟で去る。",
+        "claimIds": [
+          "fsn-sa-myth-lake",
+          "fsn-sa-myth-morgan",
+          "fsn-sa-myth-avilion"
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "マロリーのアーサーは、ユーサー王の「息子」として生まれた男性の王である。少女が性別を偽って王になったという設定は、作品独自の大胆なアレンジといえる。",
+      "claimIds": ["fsn-sa-myth-birth", "fsn-sa-cmp-gender"]
+    },
+    {
+      "text": "マロリーも、石から抜いた剣と、湖の乙女から授かったエクスカリバーを別々の場面として語っている。ただし、ペリノアとの戦いで折れた剣が石の剣だったとは明記していない。作品は石の剣に「カリバーン」という名を与え、それが折れたあとにエクスカリバーを得たという流れを、はっきりした設定にしている。",
+      "claimIds": [
+        "fsn-sa-myth-stone",
+        "fsn-sa-myth-broken",
+        "fsn-sa-myth-lake",
+        "fsn-sa-cmp-swords"
+      ]
+    },
+    {
+      "text": "マロリーでは、血を失わずにすむ魔法の鞘と、王が最後に向かった「アヴィリオン」は別の話として出てくる。作品はこの二つを結びつけ、鞘そのものに「アヴァロン」の名を与えている。",
+      "claimIds": ["fsn-sa-myth-avilion", "fsn-sa-cmp-avalon"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsn-sa-work",
+      "text": "セイバーは、衛宮士郎に召喚された剣士（セイバー）のクラスのサーヴァントで、少女の姿をした騎士である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-sa-work-name",
+      "text": "セイバーの真名はアルトリア・ペンドラゴン（アーサー王）。作中では、選定の剣を岩から引き抜いた少女アルトリアが性別を偽ってアーサーを名乗り王になったとされ、肉体の成長はその瞬間から止まった。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-sa-work-excalibur",
+      "text": "宝具「約束された勝利の剣（エクスカリバー）」は、使い手の魔力を光に変換し斬撃として放つ。セイバーがこれを使ったことで真名が明らかになる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-sa-work-caliburn",
+      "text": "選定の剣「勝利すべき黄金の剣（カリバーン）」は、生前の時点で折れている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-sa-work-avalon",
+      "text": "「全て遠き理想郷（アヴァロン）」は、アーサー王が死後にたどり着いた妖精郷と同じ名を持つエクスカリバーの鞘で、治癒や老化の停滞をもたらす。生前のセイバーの手元からは失われている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-sa-myth-birth",
+      "text": "アーサーはユーサー・ペンドラゴン王とイグレインの子として生まれ、マーリンの手で騎士エクターに預けられ、エクターの妻に育てられた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第2〜3章"
+    },
+    {
+      "id": "fsn-sa-myth-stone",
+      "text": "教会の庭の石と鉄床に刺さった剣には「この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王」と金文字で記されており、アーサーがそれを抜いた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第5章"
+    },
+    {
+      "id": "fsn-sa-myth-broken",
+      "text": "アーサーは泉のほとりの騎士（ペリノア）と戦い、相手の剣に打たれて自分の剣が二つに折れた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第23〜24章"
+    },
+    {
+      "id": "fsn-sa-myth-lake",
+      "text": "アーサーはマーリンに導かれた湖で、湖の乙女から剣（エクスカリバー）を授かった。マーリンは、鞘は剣の十倍の値打ちがあり、身につけているかぎりどれほど傷ついても血を失わないと告げた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第25章"
+    },
+    {
+      "id": "fsn-sa-myth-morgan",
+      "text": "モルガン・ル・フェイは眠るアーサーから鞘を盗み、追われると湖の深みに投げ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第14章"
+    },
+    {
+      "id": "fsn-sa-myth-avilion",
+      "text": "致命傷を負ったアーサーは、傷を癒すためアヴィリオンの谷へ行くと言い、女王たちの乗る小舟で去った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第5章"
+    },
+    {
+      "id": "fsn-sa-cmp-gender",
+      "text": "アーサーを少女とする設定は、作品独自のアレンジと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsn-sa-cmp-swords",
+      "text": "マロリーは折れた剣が石の剣だったと明記しておらず、石の剣とエクスカリバーの関係をはっきりさせたのは作品の設定と読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "石の剣とエクスカリバーを同じ剣とする作品も多く、伝承や作品によって扱いが分かれる。"
+    },
+    {
+      "id": "fsn-sa-cmp-avalon",
+      "text": "鞘と「アヴァロン」を結びつけたのは、作品の設定と読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-stay-night", "malory-morte-darthur"],
+  "articleIds": []
+}

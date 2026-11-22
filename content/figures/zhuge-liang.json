@@ -1,0 +1,21 @@
+{
+  "id": "zhuge-liang",
+  "slug": "zhuge-liang",
+  "name": "諸葛亮",
+  "reading": "しょかつりょう",
+  "originalName": "諸葛亮",
+  "alternativeNames": ["諸葛孔明", "孔明", "臥龍"],
+  "type": "historical",
+  "roles": ["蜀の丞相", "軍師"],
+  "mythologyIds": ["three-kingdoms"],
+  "description": "字は孔明。蜀の丞相。「臥龍」と呼ばれた隠者で、劉備に三度訪ねられて仕え、天下を三つに分ける計を説いた。『三国志演義』では、綸巾をかぶり鶴氅をまとった仙人のような軍師として描かれ、七星壇で東南の風を祈ったり、城門を開け放って敵を退かせたりと、神がかった知略をふるう。五丈原の陣中で没した。",
+  "relatedFigureIds": ["liu-bei", "cao-cao", "zhao-yun"],
+  "relatedStoryIds": [
+    "three-visits-to-the-thatched-cottage",
+    "borrowing-the-east-wind",
+    "empty-fort-strategy",
+    "death-at-wuzhang-plains"
+  ],
+  "articleIds": [],
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+}

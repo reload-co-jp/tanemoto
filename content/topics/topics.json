@@ -48,7 +48,8 @@
       "yamata-no-orochi-slaying",
       "second-battle-of-mag-tuired",
       "vasilisa-and-baba-yaga",
-      "death-of-koschei"
+      "death-of-koschei",
+      "onikiri-sword"
     ],
     "order": 2
   },
@@ -81,7 +82,9 @@
       "nezha",
       "vainamoinen",
       "ilmarinen",
-      "maui"
+      "maui",
+      "arthur",
+      "morgan-le-fay"
     ],
     "storyIds": [
       "perseus-medusa",
@@ -95,7 +98,12 @@
       "nezha-lotus-body",
       "forging-of-the-sampo",
       "birth-of-the-kantele",
-      "maui-fishes-up-the-land"
+      "maui-fishes-up-the-land",
+      "sword-in-the-stone",
+      "excalibur-and-the-lady-of-the-lake",
+      "morgan-steals-the-scabbard",
+      "death-of-arthur",
+      "onikiri-sword"
     ],
     "order": 4
   },
@@ -115,7 +123,11 @@
       "arjuna",
       "karna",
       "hou-yi",
-      "maui"
+      "maui",
+      "arthur",
+      "lancelot",
+      "alexander",
+      "leonidas"
     ],
     "storyIds": [
       "perseus-medusa",
@@ -128,7 +140,10 @@
       "arjuna-and-the-kirata",
       "yi-shoots-the-suns",
       "maui-snares-the-sun",
-      "maui-and-mahuika"
+      "maui-and-mahuika",
+      "sword-in-the-stone",
+      "gordian-knot",
+      "thermopylae"
     ],
     "order": 5
   },
