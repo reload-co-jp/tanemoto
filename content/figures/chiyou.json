@@ -10,7 +10,7 @@
   "roles": ["戦い", "兵器"],
   "mythologyIds": ["chinese"],
   "description": "黄帝と戦った神。『史記』は最も暴虐な諸侯とし、黄帝が涿鹿の野で討ったと記す。『山海経』では、兵器を作って黄帝を攻め、風伯と雨師を呼んで大風雨を起こしたが、黄帝が天女の魃を下して雨を止め、殺されたと語られる。",
-  "relatedFigureIds": ["huangdi"],
+  "relatedFigureIds": ["huangdi", "qin-shi-huang"],
   "relatedStoryIds": ["huangdi-and-chiyou"],
   "articleIds": [],
   "sourceIds": ["shiji", "shanhaijing"]

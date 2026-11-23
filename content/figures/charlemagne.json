@@ -1,0 +1,21 @@
+{
+  "id": "charlemagne",
+  "slug": "charlemagne",
+  "name": "カール大帝",
+  "reading": "かーるたいてい",
+  "originalName": "Karolus Magnus",
+  "romanized": "Charlemagne",
+  "alternativeNames": ["シャルルマーニュ", "カール1世"],
+  "type": "historical",
+  "roles": ["フランク王", "西ローマ皇帝"],
+  "mythologyIds": ["medieval-europe"],
+  "description": "フランク王国の王（在位 768〜814年）。西ヨーロッパの大半を支配下に収め、800年のクリスマスに教皇レオ3世からローマ皇帝の冠を受けた。宮廷に学者を集めて学問を復興させたことでも知られる。のちの騎士物語『ローランの歌』では、十二勇士（パラディン）を率いる王「シャルルマーニュ」として語られる。",
+  "relatedFigureIds": ["jeanne-d-arc", "arthur"],
+  "relatedStoryIds": [
+    "battle-of-roncevaux",
+    "coronation-of-charlemagne",
+    "charlemagne-learns-to-write"
+  ],
+  "articleIds": [],
+  "sourceIds": ["einhard-life-of-charlemagne"]
+}

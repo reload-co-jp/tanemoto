@@ -544,5 +544,111 @@
     "url": "https://zh.wikisource.org/wiki/%E6%B0%B4%E6%BB%B8%E5%82%B3_(120%E5%9B%9E%E6%9C%AC)",
     "urlLabel": "維基文庫（120回本）",
     "notes": "北宋末、梁山泊に集まった百八人の豪傑（好漢）の活躍を描く長編小説。70回本・100回本・120回本など複数の版があり、結末が異なる。本文は120回本で確認し、箇所は「第◯回」で示す。邦訳に吉川幸次郎・清水茂訳（岩波文庫）などがある。"
+  },
+  {
+    "id": "polybius-histories",
+    "title": "歴史",
+    "originalTitle": "Historiai（Ἱστορίαι）",
+    "author": "ポリュビオス",
+    "translator": "W. R. パトン英訳（ローブ古典叢書, 1922–1927）",
+    "type": "primary",
+    "publishedPeriod": "紀元前2世紀後半",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html",
+    "urlLabel": "LacusCurtius（Paton 英訳）",
+    "notes": "ローマに人質として暮らしたギリシャ人の歴史家ポリュビオスが、第二次ポエニ戦争を中心にローマの興隆を記した歴史書。ハンニバルと同時代に近い著者による記録として重視される。箇所は「巻.章」で示す。"
+  },
+  {
+    "id": "livy-history-of-rome",
+    "title": "ローマ建国以来の歴史",
+    "originalTitle": "Ab Urbe Condita",
+    "author": "リウィウス",
+    "translator": "B. O. フォスター英訳（ローブ古典叢書, 1919–1929）",
+    "type": "primary",
+    "publishedPeriod": "紀元前1世紀末〜紀元後1世紀初め",
+    "notes": "アウグストゥス時代のローマの歴史家リウィウスによるローマ通史。第21〜30巻が第二次ポエニ戦争（ハンニバル戦争）を扱う。ポリュビオスより劇的な描写や伝聞を多く含む。箇所は「巻.章」で示す。"
+  },
+  {
+    "id": "appian-civil-wars",
+    "title": "ローマ史 内乱記",
+    "originalTitle": "Rhōmaika: Emphylia",
+    "author": "アッピアノス",
+    "translator": "H. ホワイト英訳（ローブ古典叢書, 1913）",
+    "type": "primary",
+    "publishedPeriod": "紀元後2世紀中ごろ",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/1*.html",
+    "urlLabel": "LacusCurtius（White 英訳）",
+    "notes": "アレクサンドリア出身のギリシャ人歴史家アッピアノスによる、共和政末期ローマの内乱の歴史。第1巻116〜120章がスパルタクスの反乱を記す。箇所は「巻.章」で示す。"
+  },
+  {
+    "id": "suetonius-nero",
+    "title": "ローマ皇帝伝 ネロ伝",
+    "originalTitle": "De Vita Caesarum: Nero",
+    "author": "スエトニウス",
+    "translator": "J. C. ロルフ英訳（ローブ古典叢書, 1914）",
+    "type": "primary",
+    "publishedPeriod": "紀元後121年頃",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Nero*.html",
+    "urlLabel": "LacusCurtius（Rolfe 英訳）",
+    "notes": "スエトニウス『ローマ皇帝伝』第6巻。ネロに敵対的な伝承をそのまま伝える箇所も多い。箇所は章番号で示す。邦訳に国原吉之助訳（岩波文庫）がある。"
+  },
+  {
+    "id": "tacitus-annals",
+    "title": "年代記",
+    "originalTitle": "Annales",
+    "author": "タキトゥス",
+    "translator": "J. ジャクソン英訳（ローブ古典叢書, 1931–1937）",
+    "type": "primary",
+    "publishedPeriod": "紀元後2世紀初め",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B*.html",
+    "urlLabel": "LacusCurtius（Jackson 英訳・第14巻後半）",
+    "notes": "ローマの歴史家タキトゥスが、ティベリウスからネロまでの時代を記した歴史書。第14巻31〜37章がブーディカの反乱、第15巻38〜44章がローマの大火を記す。箇所は「巻.章」で示す。邦訳に国原吉之助訳（岩波文庫）がある。"
+  },
+  {
+    "id": "cassius-dio-roman-history",
+    "title": "ローマ史",
+    "originalTitle": "Rhōmaikē Historia",
+    "author": "カッシウス・ディオ",
+    "translator": "E. ケアリー英訳（ローブ古典叢書, 1914–1927）",
+    "type": "primary",
+    "publishedPeriod": "紀元後3世紀初め",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html",
+    "urlLabel": "LacusCurtius（Cary 英訳）",
+    "notes": "ローマの元老院議員カッシウス・ディオがギリシャ語で書いたローマ通史。第62巻（抜粋で伝わる）がブーディカの反乱を記し、その容姿を描写する。箇所は「巻.章」で示す。"
+  },
+  {
+    "id": "vitruvius-architecture",
+    "title": "建築について（建築十書）",
+    "originalTitle": "De Architectura",
+    "author": "ウィトルウィウス",
+    "translator": "M. H. モーガン英訳（1914）",
+    "type": "primary",
+    "publishedPeriod": "紀元前1世紀後半",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/home.html",
+    "urlLabel": "LacusCurtius",
+    "notes": "ローマの建築家ウィトルウィウスが書いた現存最古の建築書。第9巻の序文で、アルキメデスが王冠の謎を解いた逸話を伝える。箇所は「巻 序文.節」で示す。"
+  },
+  {
+    "id": "einhard-life-of-charlemagne",
+    "title": "カール大帝伝",
+    "originalTitle": "Vita Karoli Magni",
+    "author": "アインハルト",
+    "translator": "S. E. ターナー英訳（1880）",
+    "type": "primary",
+    "publishedPeriod": "9世紀前半（830年頃までに成立）",
+    "url": "https://sourcebooks.fordham.edu/basis/einhard.asp",
+    "urlLabel": "Internet Medieval Sourcebook（Turner 英訳）",
+    "notes": "カール大帝の宮廷に仕えた学者アインハルトが、大帝の死後に書いた伝記。スエトニウス『ローマ皇帝伝』を手本にしている。箇所は章番号で示す。邦訳に國原吉之助訳（筑摩書房）がある。"
+  },
+  {
+    "id": "joan-condemnation-trial",
+    "title": "ジャンヌ・ダルク処刑裁判記録",
+    "originalTitle": "Procès de condamnation de Jeanne d'Arc",
+    "author": "ルーアンの異端審問法廷（記録）",
+    "translator": "W. P. バレット英訳（1932）",
+    "type": "primary",
+    "publishedPeriod": "1431年",
+    "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp",
+    "urlLabel": "Internet Medieval Sourcebook（Barrett 英訳）",
+    "notes": "1431年、イングランド側のルーアンで行われた異端裁判の公式記録。ジャンヌ本人の受け答えが書き留められており、彼女の言葉を伝えるもっとも重要な史料。箇所は尋問の日付で示す。"
   }
 ]

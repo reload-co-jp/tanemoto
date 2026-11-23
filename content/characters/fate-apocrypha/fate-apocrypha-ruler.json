@@ -1,0 +1,154 @@
+{
+  "id": "fate-apocrypha-ruler",
+  "slug": "fate-apocrypha-ruler",
+  "name": "ルーラー",
+  "reading": "るーらー",
+  "alternativeNames": ["ジャンヌ・ダルク"],
+  "workId": "fate-apocrypha",
+  "description": {
+    "text": "聖杯大戦の審判として大聖杯に召喚された15体目のサーヴァント。真名は「オルレアンの乙女」ジャンヌ・ダルク。フランス人の少女レティシアの体に憑依する形で現界した。",
+    "claimIds": ["fapo-jeanne-work"]
+  },
+  "nameOrigin": {
+    "text": "真名は、百年戦争でフランスを救った少女ジャンヌ・ダルク。",
+    "claimIds": ["fapo-jeanne-work", "fapo-jeanne-myth-voices"]
+  },
+  "motifs": [
+    {
+      "aspect": "weapon",
+      "figureId": "jeanne-d-arc",
+      "label": "白い旗",
+      "inWork": {
+        "text": "旗の宝具「我が神はここにありて（リュミノジテ・エテルネッル）」を普段は武器として扱い、真名解放で聖なる守りを展開する。",
+        "claimIds": ["fapo-jeanne-work-flag"]
+      },
+      "inMyth": {
+        "text": "裁判記録によれば、ジャンヌの旗は百合の花を散らした白地に、世界と二人の天使、「イエス・マリア」の名を描いたもの。剣よりも旗のほうがずっと好きで、敵を攻めるときは誰も殺さないよう自ら旗を掲げたと語っている。",
+        "claimIds": ["fapo-jeanne-myth-banner"]
+      }
+    },
+    {
+      "aspect": "title",
+      "figureId": "jeanne-d-arc",
+      "label": "ラ・ピュセル（乙女）",
+      "inWork": {
+        "text": "一度発動すれば自らを滅ぼす第二の宝具「紅蓮の聖女（ラ・ピュセル）」をもつ。",
+        "claimIds": ["fapo-jeanne-work-pucelle"]
+      },
+      "inMyth": {
+        "text": "ジャンヌは「乙女（ラ・ピュセル）」と呼ばれた。1431年、異端裁判で有罪とされ、ルーアンで火刑に処された。",
+        "claimIds": ["fapo-jeanne-myth-pucelle", "fapo-jeanne-myth-death"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "jeanne-d-arc",
+      "label": "神の声を聞く少女",
+      "inWork": {
+        "text": "どの陣営にも属さない審判役として召喚され、すべてのサーヴァントの真名を把握するなどの特別な能力をもつ。",
+        "claimIds": ["fapo-jeanne-work"]
+      },
+      "inMyth": {
+        "text": "ジャンヌは13歳のころから神の声を聞くようになり、その声にオルレアンの包囲を解くよう告げられたと裁判で語った。",
+        "claimIds": ["fapo-jeanne-myth-voices"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "旗を普段の武器とし、守りの力を宿した宝具とする設定は、「剣よりも旗を好み、誰も殺さないように旗を掲げた」という裁判記録のジャンヌ自身の言葉と重なる。",
+      "claimIds": [
+        "fapo-jeanne-work-flag",
+        "fapo-jeanne-myth-banner",
+        "fapo-jeanne-cmp-flag"
+      ]
+    },
+    {
+      "text": "自らを滅ぼす「紅蓮の聖女」は、火刑による最期を宝具に変えたものと読める。史実のジャンヌは焼かれた側であり、炎を武器にする点は作品の創作である。",
+      "claimIds": [
+        "fapo-jeanne-work-pucelle",
+        "fapo-jeanne-myth-death",
+        "fapo-jeanne-cmp-fire"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fapo-jeanne-work",
+      "text": "ルーラーの真名は「オルレアンの乙女」と呼ばれたフランスの英雄ジャンヌ・ダルク。聖杯大戦の審判として大聖杯に召喚された15体目のサーヴァントで、全サーヴァントの真名の把握などの能力をもつ。肉体・霊格が一致するレティシアに憑依する形で現界した。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-jeanne-work-flag",
+      "text": "旗の宝具「我が神はここにありて（リュミノジテ・エテルネッル）」は普段は武器として扱い、真名解放によって聖なる守りを展開する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-jeanne-work-pucelle",
+      "text": "ルーラーは第二の宝具として、一度発動すれば自らを滅ぼす概念結晶武装「紅蓮の聖女（ラ・ピュセル）」をもつ。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-jeanne-myth-voices",
+      "text": "ジャンヌは、13歳のころ夏の正午に父の庭で初めて神からの声を聞き、ひどく恐れた。その声はのちに、フランスへ行ってオルレアンの包囲を解くよう告げた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月22日の尋問"
+    },
+    {
+      "id": "fapo-jeanne-myth-banner",
+      "text": "ジャンヌの旗は、百合の花を散らした白い亜麻布に、世界と両側の二人の天使を描き、「イエス・マリア」の名を記したもの。剣と旗のどちらが好きかと問われ、旗のほうがずっと好きだと答えた。敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月27日の尋問"
+    },
+    {
+      "id": "fapo-jeanne-myth-pucelle",
+      "text": "ジャンヌは同時代に「乙女（la Pucelle）」と呼ばれ、裁判記録でも「乙女と呼ばれるジャンヌ」（英訳 Jeanne the Maid）と記されている。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial", "pernoud-joan-of-arc"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録（冒頭の記録）"
+    },
+    {
+      "id": "fapo-jeanne-myth-death",
+      "text": "ジャンヌは戻り異端とされ、1431年5月30日にルーアンの旧市場広場で火刑に処された。",
+      "classification": "fact",
+      "sourceIds": ["pernoud-joan-of-arc"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Pernoud & Clin, Joan of Arc: Her Story, 第8章"
+    },
+    {
+      "id": "fapo-jeanne-cmp-flag",
+      "text": "旗を守りの宝具とする設定は、剣より旗を好み、人を殺さないために旗を掲げたというジャンヌ自身の証言と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fapo-jeanne-cmp-fire",
+      "text": "「紅蓮の聖女」は火刑による最期を宝具化したものと読めるが、炎を武器とする点は作品の創作である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": [
+    "work-fate-apocrypha",
+    "joan-condemnation-trial",
+    "pernoud-joan-of-arc"
+  ],
+  "articleIds": []
+}

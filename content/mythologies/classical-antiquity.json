@@ -3,20 +3,30 @@
   "slug": "classical-antiquity",
   "name": "古代ギリシャ・ローマの偉人",
   "reading": "こだいぎりしゃ・ろーまのいじん",
-  "region": "ギリシャ・マケドニア・ローマ・エジプト",
-  "period": "紀元前5世紀〜紀元前1世紀の人物。伝記は紀元前5世紀〜紀元後2世紀に書かれた",
-  "description": "テルモピュライで散ったスパルタ王レオニダス、東方遠征で大帝国を築いたアレクサンドロス大王、ルビコン川を渡ったカエサル、エジプト最後の女王クレオパトラ。実在した人物でありながら、その姿の多くは古代の歴史家や伝記作家が書き残した逸話によって伝えられている。",
+  "region": "ギリシャ・マケドニア・ローマ・カルタゴ・エジプト・ブリタンニア",
+  "period": "紀元前5世紀〜紀元後1世紀の人物。伝記・歴史書は紀元前5世紀〜紀元後3世紀に書かれた",
+  "description": "テルモピュライで散ったスパルタ王レオニダス、東方遠征で大帝国を築いたアレクサンドロス大王、象を連れてアルプスを越えたハンニバル、反乱を率いた剣闘士スパルタクス、ルビコン川を渡ったカエサル、エジプト最後の女王クレオパトラ、芸術家を自任した皇帝ネロ、ローマに立ち向かったブリタンニアの女王ブーディカ。実在した人物でありながら、その姿の多くは古代の歴史家や伝記作家が書き残した逸話によって伝えられている。",
   "body": [
     {
       "type": "paragraph",
-      "text": "ここで紹介する人物は、神話の神々や英雄とは違い、実在が確かめられている歴史上の人物です。ただし、彼らについてよく知られた逸話の多くは、ヘロドトスの『歴史』や、紀元後100年ごろにプルタルコスが書いた『英雄伝』、スエトニウスの『ローマ皇帝伝』などの古代の書物に由来しています。"
+      "text": "ここで紹介する人物は、神話の神々や英雄とは違い、実在が確かめられている歴史上の人物です。ただし、彼らについてよく知られた逸話の多くは、ヘロドトスの『歴史』、ポリュビオスやリウィウスの歴史書、紀元後100年ごろにプルタルコスが書いた『英雄伝』、スエトニウスの『ローマ皇帝伝』、タキトゥスの『年代記』などの古代の書物に由来しています。"
     },
     {
       "type": "paragraph",
       "text": "たとえばプルタルコスがアレクサンドロス大王の伝記を書いたのは、大王の死からおよそ400年後のことです。著者たちは失われた記録や言い伝えをもとに書いており、異なる言い伝えを並べて記すことも少なくありません。トモタネでは、こうした逸話を「古代の伝記作家がこう伝えている」という形で、出典の章を示して紹介します。"
     }
   ],
-  "figureIds": ["leonidas", "alexander", "julius-caesar", "cleopatra"],
+  "figureIds": [
+    "leonidas",
+    "alexander",
+    "julius-caesar",
+    "cleopatra",
+    "hannibal",
+    "spartacus",
+    "nero",
+    "boudica",
+    "archimedes"
+  ],
   "storyIds": [
     "thermopylae",
     "taming-of-bucephalas",
@@ -25,9 +35,29 @@
     "crossing-the-rubicon",
     "cleopatra-and-caesar",
     "ides-of-march",
-    "death-of-cleopatra"
+    "death-of-cleopatra",
+    "hannibals-oath",
+    "hannibal-crosses-the-alps",
+    "spartacus-revolt",
+    "death-of-spartacus",
+    "great-fire-of-rome",
+    "death-of-nero",
+    "boudica-revolt",
+    "eureka",
+    "death-of-archimedes"
   ],
-  "sourceIds": ["herodotus-histories", "plutarch-lives", "suetonius-julius"],
+  "sourceIds": [
+    "herodotus-histories",
+    "plutarch-lives",
+    "suetonius-julius",
+    "polybius-histories",
+    "livy-history-of-rome",
+    "appian-civil-wars",
+    "suetonius-nero",
+    "tacitus-annals",
+    "cassius-dio-roman-history",
+    "vitruvius-architecture"
+  ],
   "kind": "history",
   "order": 14
 }

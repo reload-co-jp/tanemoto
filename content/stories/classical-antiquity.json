@@ -70,5 +70,86 @@
     "summary": "アントニウスの死後、オクタウィアヌスに捕らえられたクレオパトラは、いちじくの籠に毒蛇（アスプ）を隠して運ばせ、自ら命を絶った。使者が扉を開けたとき、女王は王の装いで金の寝台に横たわっていた。ただしプルタルコスは、蛇は水瓶に入れられていたという話や、髪に隠した櫛の毒を使ったという話も並べ、本当のことは誰にもわからないと記している。",
     "sourceIds": ["plutarch-lives"],
     "sourceLocation": "プルタルコス『英雄伝』アントニウス伝 85–86"
+  },
+  {
+    "id": "hannibals-oath",
+    "title": "ハンニバルの誓い",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["hannibal"],
+    "summary": "カルタゴの将軍ハミルカルは、イベリア半島への遠征に出る前に神々に犠牲を捧げた。そのとき9歳の息子ハンニバルに一緒に来たいかと尋ね、喜んでうなずいた息子を祭壇の前に連れて行き、決してローマ人の味方にはならないと誓わせた。ハンニバルは後年、この話をシリア王アンティオコスに語ったという。",
+    "sourceIds": ["polybius-histories"],
+    "sourceLocation": "ポリュビオス『歴史』3.11"
+  },
+  {
+    "id": "hannibal-crosses-the-alps",
+    "title": "アルプス越え",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["hannibal"],
+    "summary": "紀元前218年、ハンニバルは象を含む大軍を率いてアルプスを越え、イタリアに攻め込んだ。雪と崖に阻まれ、多くの兵と駄獣を失う。リウィウスによれば、道をふさぐ大岩に木を積んで火を放ち、熱した岩に酢を注いで砕き、道を切り開いたという。",
+    "sourceIds": ["livy-history-of-rome", "polybius-histories"],
+    "sourceLocation": "リウィウス『ローマ建国以来の歴史』21.35–37／ポリュビオス『歴史』3.50–56"
+  },
+  {
+    "id": "spartacus-revolt",
+    "title": "剣闘士たちの脱走",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["spartacus"],
+    "summary": "カプアのレントゥルス・バティアトゥスの養成所では、多くがガリア人とトラキア人の剣闘士が、不当に閉じ込められて戦いを強いられていた。脱走を企てた二百人のうち、計画が漏れる前に動けた七十八人が、調理場の包丁や串を奪って逃げ出した。その指導者の一人がトラキア人スパルタクスだった。",
+    "sourceIds": ["plutarch-lives"],
+    "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 8"
+  },
+  {
+    "id": "death-of-spartacus",
+    "title": "スパルタクスの最期",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["spartacus"],
+    "summary": "紀元前71年、クラッススの軍との決戦の前、スパルタクスは引かれてきた馬を剣で刺し殺し、「勝てば敵の良い馬がたくさん手に入る。負ければ馬はいらない」と言った。そしてクラッスス本人を目指して突き進み、包囲されて最後まで戦って倒れた。アッピアノスによれば、捕らえられた六千人はカプアからローマへの道沿いで十字架にかけられた。",
+    "sourceIds": ["plutarch-lives", "appian-civil-wars"],
+    "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 11／アッピアノス『内乱記』1.120"
+  },
+  {
+    "id": "great-fire-of-rome",
+    "title": "ローマの大火",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["nero"],
+    "summary": "紀元後64年、ローマで大火が起こり、町の大部分が焼けた。ネロが燃える都を見ながら、私邸の舞台でトロイアの陥落を歌ったという噂が広まった。タキトゥスによれば、ネロはこの噂を打ち消すため、キリスト教徒に罪を着せて残酷に処刑した。スエトニウスは、ネロ自身が火をつけさせたと記している。",
+    "sourceIds": ["tacitus-annals", "suetonius-nero"],
+    "sourceLocation": "タキトゥス『年代記』15.38–44／スエトニウス『ネロ伝』38"
+  },
+  {
+    "id": "death-of-nero",
+    "title": "ネロの最期",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["nero"],
+    "summary": "各地の反乱に追い詰められたネロは、元老院から国家の敵とされた。郊外の解放奴隷の別荘に逃れたネロは、自分の墓を用意させながら「なんという芸術家がわたしとともに死ぬことか」と何度も繰り返したという。追っ手の騎兵が近づく音を聞くと、秘書の手を借りて自らの喉を刺した。",
+    "sourceIds": ["suetonius-nero"],
+    "sourceLocation": "スエトニウス『ネロ伝』47–49"
+  },
+  {
+    "id": "boudica-revolt",
+    "title": "ブーディカの反乱",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["boudica"],
+    "summary": "イケニ族の王プラスタグスは、ローマ皇帝と二人の娘を相続人に指定して死んだ。しかしローマの役人たちは王国を略奪し、王妃ブーディカを鞭打ち、娘たちを辱めた。ブーディカは諸部族とともに蜂起してローマの植民市を焼いたが、最後は総督スエトニウス・パウリヌスの軍に敗れ、毒を飲んで命を絶った。カッシウス・ディオは、彼女が背が高く、腰まで届く黄褐色の髪をもち、金の首飾りをつけていたと描く。",
+    "sourceIds": ["tacitus-annals", "cassius-dio-roman-history"],
+    "sourceLocation": "タキトゥス『年代記』14.31–37／カッシウス・ディオ『ローマ史』62.2"
+  },
+  {
+    "id": "eureka",
+    "title": "「エウレカ！」",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["archimedes"],
+    "summary": "シュラクサイの王ヒエロンは、職人に作らせた金の冠に銀が混ぜられていないか、アルキメデスに調べさせた。アルキメデスは浴槽に入ったとき、体が沈むほど湯があふれ出ることに気づき、解決法を見つけた喜びのあまり、裸のまま「エウレカ（わかった）！」と叫びながら家へ走って帰ったという。",
+    "sourceIds": ["vitruvius-architecture"],
+    "sourceLocation": "ウィトルウィウス『建築について』第9巻 序文 9–12"
+  },
+  {
+    "id": "death-of-archimedes",
+    "title": "アルキメデスの死",
+    "mythologyIds": ["classical-antiquity"],
+    "figureIds": ["archimedes"],
+    "summary": "ローマの将軍マルケルスがシュラクサイを包囲すると、アルキメデスの考案した機械が城壁の上から船をつり上げて投げ落とし、ローマ兵は城壁から縄や木切れが突き出しただけで逃げ出すほどになった。しかし町が陥落したとき、アルキメデスは図形の問題に没頭していて、やって来たローマ兵に殺された。マルケルスはその死を深く悲しんだという。",
+    "sourceIds": ["plutarch-lives"],
+    "sourceLocation": "プルタルコス『英雄伝』マルケルス伝 14–19"
   }
 ]

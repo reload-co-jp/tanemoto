@@ -1,0 +1,17 @@
+{
+  "id": "boudica",
+  "slug": "boudica",
+  "name": "ブーディカ",
+  "reading": "ぶーでぃか",
+  "originalName": "Boudica",
+  "romanized": "Boudica",
+  "alternativeNames": ["ボアディケア", "ブーディッカ"],
+  "type": "historical",
+  "roles": ["イケニ族の女王", "反乱の指導者"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "ブリタンニア（現在のイングランド東部）のイケニ族の女王（？〜紀元後60/61年頃）。夫の王プラスタグスの死後、ローマに領地を奪われ、自身は鞭打たれ、娘たちは辱められた。これに怒って諸部族とともに蜂起し、カムロドゥヌム（コルチェスター）やロンディニウム（ロンドン）を焼いた。最後はローマ軍に敗れ、毒を飲んで死んだとタキトゥスは伝える。",
+  "relatedFigureIds": ["nero", "medb"],
+  "relatedStoryIds": ["boudica-revolt"],
+  "articleIds": [],
+  "sourceIds": ["tacitus-annals", "cassius-dio-roman-history"]
+}

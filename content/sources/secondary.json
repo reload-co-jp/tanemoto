@@ -20,5 +20,15 @@
     "url": "http://www.perseus.tufts.edu/hopper/",
     "urlLabel": "Perseus Digital Library",
     "notes": "ギリシャ・ラテン古典の原文と英訳を公開するデジタルライブラリ。トモタネでは原典の該当箇所の確認に使用している。"
+  },
+  {
+    "id": "pernoud-joan-of-arc",
+    "title": "Joan of Arc: Her Story",
+    "author": "レジーヌ・ペルヌー、マリ＝ヴェロニク・クラン",
+    "translator": "J. D. アダムズ英訳",
+    "type": "secondary",
+    "publishedPeriod": "1986年（原著）、1998年（英訳）",
+    "publisher": "St. Martin's Press",
+    "notes": "ジャンヌ・ダルク研究の第一人者ペルヌーらによる評伝。処刑裁判と復権裁判の記録にもとづいて生涯をたどる。"
   }
 ]

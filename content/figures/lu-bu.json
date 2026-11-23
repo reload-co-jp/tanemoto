@@ -9,7 +9,13 @@
   "roles": ["後漢末の武将"],
   "mythologyIds": ["three-kingdoms"],
   "description": "字は奉先。後漢末の武将。正史には弓馬にすぐれ「飛将」と呼ばれたとある。『三国志演義』では、名馬赤兎と金銀に釣られて養父の丁原を殺し、董卓の養子となる。「人中に呂布あり、馬中に赤兎あり」とうたわれ、虎牢関では劉備・関羽・張飛の三人を相手に渡り合った。最後は部下に裏切られて曹操に捕らえられ、白門楼で処刑された。",
-  "relatedFigureIds": ["cao-cao", "liu-bei", "guan-yu", "zhang-fei"],
+  "relatedFigureIds": [
+    "cao-cao",
+    "liu-bei",
+    "guan-yu",
+    "zhang-fei",
+    "xiang-yu"
+  ],
   "relatedStoryIds": [
     "red-hare",
     "three-heroes-against-lu-bu",

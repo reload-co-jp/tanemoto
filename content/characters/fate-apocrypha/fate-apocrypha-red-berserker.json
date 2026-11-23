@@ -1,0 +1,146 @@
+{
+  "id": "fate-apocrypha-red-berserker",
+  "slug": "fate-apocrypha-red-berserker",
+  "name": "赤のバーサーカー",
+  "reading": "あかのばーさーかー",
+  "alternativeNames": ["スパルタクス"],
+  "workId": "fate-apocrypha",
+  "description": {
+    "text": "赤の陣営のバーサーカー。全身に数え切れないほどの傷跡をもつ巨漢の戦士で、常に微笑みを浮かべ、敵の攻撃をあえて受けてから反撃する。「圧政者に立ち向かう」という本能だけで動く狂戦士。",
+    "claimIds": ["fapo-spa-work", "fapo-spa-work-tyrant"]
+  },
+  "nameOrigin": {
+    "text": "真名は、ローマに反乱を起こしたトラキア出身の剣闘士スパルタクス。",
+    "claimIds": ["fapo-spa-work", "fapo-spa-myth-revolt"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "spartacus",
+      "label": "剣闘士の反乱",
+      "inWork": {
+        "text": "「圧政者に立ち向かう」という本能のみを行動原理とし、味方の制止にも耳を貸さない。",
+        "claimIds": ["fapo-spa-work-tyrant"]
+      },
+      "inMyth": {
+        "text": "スパルタクスは、不当に閉じ込められて戦わされていたカプアの剣闘士たちとともに脱走し、反乱を率いた。最後の決戦では、ローマ軍の将クラッスス本人を目指して突き進んだ。",
+        "claimIds": ["fapo-spa-myth-revolt", "fapo-spa-myth-death"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "spartacus",
+      "label": "剣闘士の剣と格闘",
+      "inWork": {
+        "text": "グラディウスで衝撃波を生むほどの斬撃を放ち、パンクラチオンそのものの戦い方で、ゴーレムを素手で砕く怪力をもつ。",
+        "claimIds": ["fapo-spa-work-weapon"]
+      },
+      "inMyth": {
+        "text": "脱走した剣闘士たちは、初め調理場の包丁や串を武器にしていたが、やがて剣闘士の武器を手に入れて喜んだとプルタルコスは記す。",
+        "claimIds": ["fapo-spa-myth-revolt"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "spartacus",
+      "label": "スパルタクスの人柄",
+      "inWork": {
+        "text": "狂化スキルのランクはEXで、言葉は話せても意思の疎通はほぼ成り立たない真の狂人とされる。",
+        "claimIds": ["fapo-spa-work-tyrant"]
+      },
+      "inMyth": {
+        "text": "プルタルコスは、スパルタクスを大きな勇気と力をもつだけでなく、境遇に似合わず賢明で穏やかで、トラキア人というよりギリシャ人らしい人物だったと描く。",
+        "claimIds": ["fapo-spa-myth-character"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "プルタルコスが描くスパルタクスは、知恵と穏やかさを備えた指導者でもある。作品は「圧政への反抗」という一点を極端に押し広げ、話の通じない狂戦士として描いている。",
+      "claimIds": [
+        "fapo-spa-myth-character",
+        "fapo-spa-work-tyrant",
+        "fapo-spa-cmp-character"
+      ]
+    },
+    {
+      "text": "受けた傷を力に変える宝具「疵獣の咆吼」は、全身の傷跡とあわせて、闘技場で傷を負いながら戦い続けた剣闘士という出自を強調した、作品独自の能力といえる。",
+      "claimIds": ["fapo-spa-work-np", "fapo-spa-cmp-np"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fapo-spa-work",
+      "text": "赤のバーサーカーは全身に数え切れないほどの傷跡を持つ筋骨隆々とした巨漢の戦士で、真名はトラキアの剣闘士であり第三次奴隷戦争の指導者スパルタクス。常に微笑を浮かべ、敵の攻撃をあえて受けながら敵を殺戮する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-spa-work-tyrant",
+      "text": "赤のバーサーカーは味方の制止をものともせず「圧政者に立ち向かう」という本能のみを行動原理とする。言葉を話せるが狂化スキルのランクはEXで、意思の疎通は基本的に成立しない。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-spa-work-weapon",
+      "text": "赤のバーサーカーはグラディウスで強烈な衝撃波を生むほどの斬撃を放ち、パンクラチオンそのものの戦い方も行う。3メートル近いゴーレムを素手で砕くほどの怪力をもつ。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-spa-work-np",
+      "text": "赤のバーサーカーの宝具「疵獣の咆吼（クライング・ウォーモンガー）」は、受けたダメージの一部を魔力に変換して体内に蓄積する常時発動型の宝具。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-spa-myth-revolt",
+      "text": "カプアのレントゥルス・バティアトゥスの養成所で不当に閉じ込められていた剣闘士のうち78人が、調理場の包丁や串を奪って脱走した。途中で剣闘士の武器を積んだ荷車に出会い、それを奪って武装した。指導者の一人がトラキア人スパルタクスだった。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 8–9"
+    },
+    {
+      "id": "fapo-spa-myth-character",
+      "text": "スパルタクスは遊牧のトラキア人の出身で、大きな勇気と力をもつだけでなく、境遇に似合わず賢明で穏やかであり、トラキア人というよりギリシャ人らしい人物だった。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 8"
+    },
+    {
+      "id": "fapo-spa-myth-death",
+      "text": "最後の決戦の前、スパルタクスは自分の馬を殺し、勝てば敵の馬が手に入り、負ければ馬はいらないと言った。そしてクラッスス本人を目指して進み、包囲されて最後まで戦って倒れた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 11"
+    },
+    {
+      "id": "fapo-spa-cmp-character",
+      "text": "作品は、史料が伝える賢明で穏やかな指導者像よりも、圧政への反抗という一面を極端に強調している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fapo-spa-cmp-np",
+      "text": "傷を力に変える宝具は、傷を負いながら戦い続けた剣闘士という出自を強調した作品独自の能力である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-fate-apocrypha", "plutarch-lives"],
+  "articleIds": []
+}

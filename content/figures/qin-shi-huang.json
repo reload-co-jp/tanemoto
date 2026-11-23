@@ -1,0 +1,21 @@
+{
+  "id": "qin-shi-huang",
+  "slug": "qin-shi-huang",
+  "name": "始皇帝",
+  "reading": "しこうてい",
+  "originalName": "秦始皇帝",
+  "romanized": "Qin Shi Huang",
+  "alternativeNames": ["嬴政", "秦王政"],
+  "type": "historical",
+  "roles": ["秦の王", "中国最初の皇帝"],
+  "mythologyIds": ["ancient-china"],
+  "description": "秦の王（在位 紀元前247〜前221年）、のち中国最初の皇帝（在位 前221〜前210年）。名は政。人質の子として趙の都・邯鄲で生まれた。六国を滅ぼして中国を統一すると「皇帝」の称号をつくり、自らを始皇帝と称した。文字・度量衡の統一や焚書で知られ、司馬遷『史記』秦始皇本紀がその生涯を記す。",
+  "relatedFigureIds": ["xiang-yu", "chiyou", "huangdi"],
+  "relatedStoryIds": [
+    "qin-unification",
+    "jing-ke-assassination",
+    "burning-of-books"
+  ],
+  "articleIds": [],
+  "sourceIds": ["shiji"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hannibal",
+  "slug": "hannibal",
+  "name": "ハンニバル",
+  "reading": "はんにばる",
+  "originalName": "Hannibal",
+  "romanized": "Hannibal Barca",
+  "alternativeNames": ["ハンニバル・バルカ"],
+  "type": "historical",
+  "roles": ["カルタゴの将軍"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "北アフリカの都市国家カルタゴの将軍（紀元前247〜前183年頃）。第二次ポエニ戦争で、象を連れてアルプスを越えてイタリアに攻め込み、紀元前216年のカンナエの戦いでローマ軍を包囲して壊滅させた。ポリュビオスは、9歳のときに父ハミルカルの前で「ローマの味方には決してならない」と誓ったと伝える。",
+  "relatedFigureIds": ["alexander", "spartacus"],
+  "relatedStoryIds": ["hannibals-oath", "hannibal-crosses-the-alps"],
+  "articleIds": [],
+  "sourceIds": ["polybius-histories", "livy-history-of-rome"]
+}
