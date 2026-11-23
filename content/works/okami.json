@@ -1,0 +1,14 @@
+{
+  "id": "okami",
+  "slug": "okami",
+  "title": "大神",
+  "reading": "おおかみ",
+  "type": "game",
+  "mediaTypes": [],
+  "author": "クローバースタジオ（企画・開発）・カプコン（発売）",
+  "period": "2006年（PlayStation 2）、のちWii版・絶景版",
+  "description": "百年ぶりに復活した怪物ヤマタノオロチによって闇に包まれた国を、白い狼の姿をした太陽神アマテラスが、筆で描いて奇跡を起こす「筆しらべ」の力で救っていくアクションアドベンチャーゲーム。タイトルの「大神」には、主人公が「天照大神」であることと「狼」であることの二つの意味がこめられている。",
+  "mythologyIds": ["japanese"],
+  "articleIds": [],
+  "sourceIds": ["work-okami"]
+}

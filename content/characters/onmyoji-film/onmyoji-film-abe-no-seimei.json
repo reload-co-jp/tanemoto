@@ -1,0 +1,149 @@
+{
+  "id": "onmyoji-film-abe-no-seimei",
+  "slug": "onmyoji-film-abe-no-seimei",
+  "name": "安倍晴明",
+  "reading": "あべのせいめい",
+  "alternativeNames": ["晴明"],
+  "workId": "onmyoji-film",
+  "description": {
+    "text": "平安京の陰陽師。源博雅の依頼を受け、都を滅ぼそうとする陰陽頭・道尊の呪詛を打ち破る。続編『陰陽師II』では、スサノオを蘇らせようとする出雲族の長・幻角と対決する。",
+    "claimIds": ["onm-sm-work", "onm-sm-work2"]
+  },
+  "nameOrigin": {
+    "text": "平安時代中期に実在した陰陽師、安倍晴明そのもの。のちの説話で、式神を使い呪いを見破る名人として語られた。",
+    "claimIds": ["onm-sm-work", "onm-sm-myth-kazan"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "abe-no-seimei",
+      "label": "式神",
+      "inWork": {
+        "text": "晴明の屋敷には式神の女たちが仕えている。",
+        "claimIds": ["onm-sm-work-shiki"]
+      },
+      "inMyth": {
+        "text": "『大鏡』によれば、花山天皇が出家に向かった夜、晴明は天の異変から帝の退位を知り、「式神一人、内裏へ参れ」と命じた。すると目に見えない者が戸を開けて出てきた。",
+        "claimIds": ["onm-sm-myth-kazan"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "abe-no-seimei",
+      "label": "呪詛を見破り、返す",
+      "inWork": {
+        "text": "陰陽頭・道尊が敦平親王にかけた呪詛を、晴明は博雅の依頼で阻止する。のちに道尊が祐姫を操るために使った札を逆に利用して呪返しをかけ、最後は道尊を結界の中に封じ込めて力を奪う。",
+        "claimIds": ["onm-sm-work"]
+      },
+      "inMyth": {
+        "text": "『古事談』によれば、藤原道長の白犬が吠えて道長を引き止めたため、晴明は道に埋められた呪物を見つけ出し、懐紙で作った鳥を白鷺に変えて飛ばし、術者の道摩法師の居場所を突き止めた。",
+        "claimIds": ["onm-sm-myth-doma"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "amaterasu",
+      "label": "天岩戸を開く",
+      "inWork": {
+        "text": "『陰陽師II』で晴明は、スサノオの力を鎮めるため、博雅とともに天岩戸を開いて天照大神（日美子）を呼び戻そうとする。幻角に天叢雲剣で刺されるが、その血を浴びたことで天岩戸が開き、日美子が現れる。",
+        "claimIds": ["onm-sm-work2"]
+      },
+      "inMyth": {
+        "text": "『古事記』によれば、天照大御神が天の石屋戸にこもると世界は闇に包まれた。神々が鏡や勾玉を榊に掛け、天宇受売命が舞って神々が笑うと、戸を細く開けた天照大御神を天手力男神が引き出した。",
+        "claimIds": ["onm-sm-myth-iwato"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の晴明は、目に見えない式神を内裏へ走らせ、紙の鳥を白鷺に変えて術者を突き止める。映画の晴明も、屋敷に式神を仕えさせ、呪詛の札を逆用して術者に返す。説話で語られた「式神を使い、呪いを見破る陰陽師」という晴明像を、映画はそのまま物語の軸にしている。",
+      "claimIds": [
+        "onm-sm-myth-kazan",
+        "onm-sm-myth-doma",
+        "onm-sm-work",
+        "onm-sm-cmp-image"
+      ]
+    },
+    {
+      "text": "『古事談』の晴明は、道長を呪った道摩法師を突き止める。映画で晴明と対決するのも、呪詛を操る陰陽頭・道尊である。ただし、道尊が道摩法師をモデルにしたかどうかは、作品の記述からは確認できない。",
+      "claimIds": ["onm-sm-myth-doma", "onm-sm-work", "onm-sm-cmp-rival"]
+    },
+    {
+      "text": "原典の天の石屋戸では、天照大御神を外へ導くのは神々の祭りと天宇受売命の舞である。『陰陽師II』では、陰陽師の晴明が血を流すことで岩戸が開くという、原典にない筋に組み替えられている。",
+      "claimIds": ["onm-sm-myth-iwato", "onm-sm-work2", "onm-sm-cmp-iwato"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "onm-sm-work",
+      "text": "映画『陰陽師』（2001年）で、源博雅の依頼を受けた安倍晴明は、陰陽頭・道尊が敦平親王にかけた呪詛を阻止する。道尊が祐姫を操るために用いた札を逆に利用して呪返しをかけ、最後は道尊を結界の中に封じ込めて力を奪う。",
+      "classification": "creative",
+      "sourceIds": ["work-onmyoji-film"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「陰陽師 (映画)」の記述で確認。"
+    },
+    {
+      "id": "onm-sm-work2",
+      "text": "『陰陽師II』（2003年）で晴明は、スサノオを蘇らせて朝廷を滅ぼそうとする出雲族の長・幻角と対決する。スサノオを鎮めるため博雅とともに天岩戸を開こうとし、幻角に天叢雲剣で刺されて重傷を負うが、その血を浴びたことで天岩戸が開き、天照大神（日美子）が現れる。",
+      "classification": "creative",
+      "sourceIds": ["work-onmyoji-film"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「陰陽師 (映画)」の記述で確認。"
+    },
+    {
+      "id": "onm-sm-work-shiki",
+      "text": "映画『陰陽師』の配役には「晴明邸の式神の女」があり、晴明の屋敷には式神の女たちが仕えている。",
+      "classification": "creative",
+      "sourceIds": ["work-onmyoji-film"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「陰陽師 (映画)」の記述で確認。"
+    },
+    {
+      "id": "onm-sm-myth-kazan",
+      "text": "『大鏡』によれば、寛和二年六月、花山天皇がひそかに出家に向かう途中で安倍晴明の家の前を通ると、晴明は帝の退位を示す天変があったと言い、式神一人に内裏へ参るよう命じた。目に見えない者が戸を開けて出てきて、帝がちょうど通り過ぎていくと答えた。",
+      "classification": "fact",
+      "sourceIds": ["okagami"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『大鏡』花山院"
+    },
+    {
+      "id": "onm-sm-myth-doma",
+      "text": "『古事談』によれば、藤原道長の白犬が吠えて道長を引き止めたため、晴明が呪物を見つけ出し、懐紙で鳥の形を作って投げると白鷺となって飛び、その降りた所で術者の道摩法師が捕らえられた。",
+      "classification": "fact",
+      "sourceIds": ["kojidan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事談』第六"
+    },
+    {
+      "id": "onm-sm-myth-iwato",
+      "text": "『古事記』によれば、天照大御神が天の石屋戸にこもると高天原も葦原中国も暗くなった。神々は八尺の勾玉と八尺の鏡を榊に掛け、天宇受売命が舞って神々が笑うと、戸を細く開けた天照大御神を天手力男神が引き出した。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "onm-sm-cmp-image",
+      "text": "説話で語られた「式神を使い、呪いを見破る陰陽師」という晴明像を、映画は物語の軸にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "onm-sm-cmp-rival",
+      "text": "映画の道尊が『古事談』の道摩法師をモデルにしたかどうかは、作品の記述からは確認できない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "onm-sm-cmp-iwato",
+      "text": "原典で天照大御神を外へ導くのは神々の祭りと天宇受売命の舞だが、『陰陽師II』では晴明の血で岩戸が開く筋に組み替えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-onmyoji-film", "okagami", "kojidan", "kojiki"],
+  "articleIds": []
+}

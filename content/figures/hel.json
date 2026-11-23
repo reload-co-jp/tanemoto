@@ -1,0 +1,17 @@
+{
+  "id": "hel",
+  "slug": "hel",
+  "name": "ヘル",
+  "reading": "へる",
+  "originalName": "Hel",
+  "romanized": "Hel",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["死者の国の女王"],
+  "mythologyIds": ["norse"],
+  "description": "ロキと巨人の女アングルボザの娘で、フェンリル狼とミズガルズの大蛇のきょうだい。オーディンにニヴルヘイムへ投げ込まれ、病や老いで死んだ者たちを迎える九つの世界の支配を任された。体の半分は青黒く、半分は肌の色をしている。",
+  "relatedFigureIds": ["loki", "odin"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["snorri-edda"]
+}

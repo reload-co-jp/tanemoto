@@ -1,0 +1,125 @@
+{
+  "id": "mighty-thor-loki",
+  "slug": "mighty-thor-loki",
+  "name": "ロキ",
+  "reading": "ろき",
+  "alternativeNames": ["ロキ・ラウフェイソン"],
+  "workId": "mighty-thor",
+  "description": {
+    "text": "アスガルドの第二王子でソーの弟。実は氷の巨人の長ラウフェイの息子で、赤子のころオーディンに拾われ、出自を知らずに育てられた。兄への嫉妬から王位を狙い、嘘と幻術でたびたび事件をかき乱す。",
+    "claimIds": ["mt-lo-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話の悪戯の神ロキがモデル。フルネームの「ロキ・ラウフェイソン」は「ラウフェイの息子」の意で、原典にも「ロキ・ラウフェイヤルソン」の呼び名がある。",
+    "claimIds": ["mt-lo-work", "mt-lo-myth-origin"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "loki",
+      "label": "ラウフェイの子ロキ",
+      "inWork": {
+        "text": "実の父は氷の巨人の長ラウフェイ。赤子のころ、巨人にしては体が小さすぎるとして寺院に捨てられていたところをオーディンに拾われ、魔法で肌の色を変えられて育った。",
+        "claimIds": ["mt-lo-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』では、ロキは巨人ファールバウティの子で、母はラウフェイまたはナール。巨人の血を引きながらアース神族に数えられる。",
+        "claimIds": ["mt-lo-myth-origin"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "loki",
+      "label": "嘘と悪戯",
+      "inWork": {
+        "text": "幼いころから嘘や悪戯を繰り返し、口八丁を得意とする。第1作では、兄の戴冠式を中止させるため氷の巨人を宮殿の武器庫に忍び込ませた。",
+        "claimIds": ["mt-lo-work", "mt-lo-work-thor1"]
+      },
+      "inMyth": {
+        "text": "ロキは「アース神族の悪だくみの張本人」「偽りの祖」と呼ばれ、見た目は美しいが心は邪悪で移り気。狡知にたけ、神々を窮地に陥れては策で救い出す。",
+        "claimIds": ["mt-lo-myth-origin"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "loki",
+      "label": "変身と幻術",
+      "inWork": {
+        "text": "母フリッガから習った魔法の使い手で、自分や他者の服装や人相をまったく別のものに見せる術を多用する。『ダーク・ワールド』では兵士やオーディンに化けた。",
+        "claimIds": ["mt-lo-work-magic"]
+      },
+      "inMyth": {
+        "text": "原典のロキは姿を変えるのが得意で、城壁を築く巨人の馬を誘い出すために牝馬に化け、神々から逃れるときは鮭に姿を変えて滝に隠れた。",
+        "claimIds": ["mt-lo-myth-shape"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でラウフェイはロキの「母」の名だが、MCU では氷の巨人の長であるロキの「父」の名になっている。巨人の血を引く神という原典の出自を、オーディンの養子という設定に組み替えている。",
+      "claimIds": ["mt-lo-myth-origin", "mt-lo-work", "mt-lo-cmp-laufey"]
+    },
+    {
+      "text": "原典のロキは巨人の血を引くアース神族の一員で、トールの弟ではない。MCU はロキをソーの義弟とし、兄への嫉妬と愛情が入り混じった兄弟の物語にしている。",
+      "claimIds": ["mt-lo-myth-origin", "mt-lo-work", "mt-lo-cmp-brother"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "mt-lo-work",
+      "text": "MCU のロキは北欧神話の悪戯の神ロキをモデルにしたアスガルドの第二王子で、ソーの弟。実はヨトゥンヘイムの氷の巨人の長ラウフェイの実の息子で、フルネームはロキ・ラウフェイソン。赤子のころ巨人にしては小さすぎるとして寺院に捨てられていたところをオーディンに拾われ、魔法で肌の色を変えられて出自を知らぬまま育てられた。幼少期から嘘や悪戯を繰り返し、兄ソーに嫉妬と劣等感を抱いている。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-lo-work-thor1",
+      "text": "第1作『マイティ・ソー』で、ロキは兄の戴冠式を中止させるため、氷の巨人と密約して宮殿の武器庫に侵入させた。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-lo-work-magic",
+      "text": "ロキはフリッガから習った魔法の使い手で、自分や他者の服装や人相をまったく別のものに見せる術を多用する。『マイティ・ソー／ダーク・ワールド』ではエインヘリャルの兵士やオーディンに擬態した。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-lo-myth-origin",
+      "text": "『散文エッダ』によれば、ロキ（ロプト）は巨人ファールバウティの子で、母はラウフェイまたはナール。アース神族に数えられ、「アース神族の悪だくみの張本人」「偽りの祖」と呼ばれる。見た目は美しいが心は邪悪で移り気、狡知にたけ、神々を窮地に陥れては策で救い出す。別の箇所では「ロキ・ラウフェイヤルソン（ラウフェイの子ロキ）」と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章・42章"
+    },
+    {
+      "id": "mt-lo-myth-shape",
+      "text": "『散文エッダ』によれば、ロキは城壁を築く巨人の馬スヴァジルファリを誘い出すために牝馬に化け、のちには神々から逃れるため鮭に姿を変えてフラーナングの滝に隠れた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 42章・50章"
+    },
+    {
+      "id": "mt-lo-cmp-laufey",
+      "text": "原典でラウフェイはロキの母の名だが、MCU では氷の巨人の長であるロキの父の名になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "mt-lo-cmp-brother",
+      "text": "原典のロキはトールの弟ではないが、MCU はロキをソーの義弟とし、兄弟の物語にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-mighty-thor", "snorri-edda"],
+  "articleIds": []
+}

@@ -1,0 +1,211 @@
+{
+  "id": "okami-susano",
+  "slug": "okami-susano",
+  "name": "スサノオ",
+  "reading": "すさのお",
+  "alternativeNames": ["大剣士スサノオ"],
+  "workId": "okami",
+  "description": {
+    "text": "伝説の英雄イザナギの子孫を名乗る大剣士。才能はあるが修業をせず、酒を飲んでは昼寝をする怠け者で、ヤマタノオロチを封じていた宝剣「月呼」を抜いてしまった張本人。最後は自らの意思でオロチに立ち向かい、退治する。",
+    "claimIds": ["okm-su-work"]
+  },
+  "nameOrigin": {
+    "text": "名前はヤマタノオロチを退治した須佐之男命から。作中ではオロチを封じた英雄イザナギの子孫とされる。",
+    "claimIds": ["okm-su-work", "okm-su-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "susanoo",
+      "label": "須佐之男命",
+      "inWork": {
+        "text": "伝説の英雄イザナギの子孫を名乗る大剣士。",
+        "claimIds": ["okm-su-work"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、伊耶那岐命が禊で鼻を洗ったときに建速須佐之男命が生まれた。須佐之男命はイザナギの子にあたる。",
+        "claimIds": ["okm-su-myth-birth"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "susanoo",
+      "label": "命じられた務めを果たさない",
+      "inWork": {
+        "text": "才能はあるのに修業をせず、酒を飲んでは昼寝をするぐうたら生活を送り、見栄を張って根拠のない大口を叩く。",
+        "claimIds": ["okm-su-work", "okm-su-work-lazy"]
+      },
+      "inMyth": {
+        "text": "『古事記』の須佐之男命は、父から海原を治めるよう命じられたのに治めず、ひげが胸に届くまで泣きわめいた。その泣き声で青山は枯れ、川や海は干上がった。",
+        "claimIds": ["okm-su-myth-weep"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "yamata-no-orochi",
+      "label": "ヤマタノオロチ退治とクシナダ",
+      "inWork": {
+        "text": "酒職人クシナダの酒にはオロチを酔わせる力があり、スサノオは彼女に思いを寄せている。オロチとの決戦では、アマテラスの力を借りながらも最後は自力でオロチを退治する。",
+        "claimIds": ["okm-su-work", "okm-su-work-kushinada"]
+      },
+      "inMyth": {
+        "text": "『古事記』の須佐之男命は、毎年娘を食べに来るヤマタノオロチから櫛名田比売を救うため、八塩折の酒を用意させて大蛇を酔わせ、十拳剣で斬り散らした。櫛名田比売は湯津爪櫛に変えて自分の髪に挿した。",
+        "claimIds": ["okm-su-myth-orochi"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "susanoo",
+      "label": "木刀から霊剣へ",
+      "inWork": {
+        "text": "愛用の木刀「闘片撲（とうへんぼく）」は、オロチ退治の際に月の光を宿して金色になり、霊剣「凄乃桜（すさのお）」と名を改めた。",
+        "claimIds": ["okm-su-work-sword"]
+      },
+      "inMyth": {
+        "text": "須佐之男命がオロチの中の尾を斬ったとき、十拳剣の刃が欠けた。尾を裂いてみると中から大刀が現れ、これが草那芸之大刀とされる。",
+        "claimIds": ["okm-su-myth-sword"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "amaterasu",
+      "label": "アマテラスとの「兄弟」",
+      "inWork": {
+        "text": "最初からアマテラスの本当の姿が見えていたことが後に語られ、スサノオは一方的にアマテラスと兄弟の契りを交わす。",
+        "claimIds": ["okm-su-work-brother"]
+      },
+      "inMyth": {
+        "text": "『古事記』で須佐之男命は天照大御神の弟で、出雲で足名椎に名を問われると「天照大御神の伊呂勢（同母の兄弟）である」と名乗った。",
+        "claimIds": ["okm-su-myth-brother"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の須佐之男命はイザナギの子だが、本作のスサノオはオロチを封じた英雄イザナギの「子孫」とされる。原典でオロチを斬るのは須佐之男命自身なのに対し、本作では百年前にオロチを封じたのがイザナギで、スサノオはその封印を解いてしまう側から物語に入る。",
+      "claimIds": [
+        "okm-su-myth-birth",
+        "okm-su-myth-orochi",
+        "okm-su-work",
+        "okm-su-cmp-lineage"
+      ]
+    },
+    {
+      "text": "命じられた国を治めずに泣きわめいた原典の須佐之男命と、修業をせず酒と昼寝に明け暮れる本作のスサノオは、どちらも「務めを果たさない者」が最後に大蛇を退治する英雄になるという筋をたどる。",
+      "claimIds": ["okm-su-myth-weep", "okm-su-work-lazy", "okm-su-cmp-lazy"]
+    },
+    {
+      "text": "原典で須佐之男命と天照大御神は実のきょうだいだが、本作のスサノオは狼の姿のアマテラスと一方的に「兄弟の契り」を交わす。原典の姉弟関係を、ひとりの剣士と神獣の友情に置き換えたものと読める。",
+      "claimIds": [
+        "okm-su-myth-brother",
+        "okm-su-work-brother",
+        "okm-su-cmp-brother"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "okm-su-work",
+      "text": "大剣士スサノオは伝説の英雄イザナギの子孫で、怠け者ですぐに見栄を張る。ヤマタノオロチを封印していた宝剣「月呼」を抜いた張本人だが、最後には自らの生まれと向き合い、アマテラスの力を借りながらも自力でオロチを退治する。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-su-work-lazy",
+      "text": "イザナギの子孫を自称するスサノオは、秘めた才能はあるものの修業することなく、酒を飲んでは昼寝をするぐうたら生活を送っていた。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-su-work-kushinada",
+      "text": "酒職人クシナダは酒造りの名手で、スサノオは彼女に思いを寄せている。クシナダの雷撃酒にはヤマタノオロチを酔わせるほどの力がある。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-su-work-sword",
+      "text": "スサノオの愛剣である木刀「闘片撲」は、ヤマタノオロチ退治の際に月の光を宿して金色になり、霊剣「凄乃桜」と銘を改めた。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-su-work-brother",
+      "text": "スサノオには最初からアマテラスの本当の姿が見えていたことが後に語られ、一方的にアマテラスと兄弟の契りを交わす。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-su-myth-birth",
+      "text": "『古事記』によれば、伊耶那岐命が禊で鼻を洗ったときに建速須佐之男命が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の誕生）"
+    },
+    {
+      "id": "okm-su-myth-weep",
+      "text": "『古事記』によれば、須佐之男命は伊耶那岐命から海原を治めるよう命じられたが治めず、長いひげが胸に届くまで泣きわめいた。その泣くさまに青山は枯れ山となり、川や海はことごとく干上がった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の分治）"
+    },
+    {
+      "id": "okm-su-myth-orochi",
+      "text": "『古事記』によれば、須佐之男命は毎年娘を食べに来るヤマタノオロチから櫛名田比売を救うため、比売を湯津爪櫛に変えて髪に挿し、足名椎・手名椎に八塩折の酒を用意させた。酒を飲んで酔い伏した大蛇を、十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "okm-su-myth-sword",
+      "text": "『古事記』によれば、須佐之男命がオロチの中の尾を斬ったとき十拳剣の刃が欠け、尾を裂くと中から都牟刈の大刀が現れた。これを天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "okm-su-myth-brother",
+      "text": "『古事記』によれば、須佐之男命は足名椎に名を問われ、自分は天照大御神の伊呂勢（同母の兄弟）で、いま天から降ってきたところだと名乗った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "okm-su-cmp-lineage",
+      "text": "原典の須佐之男命はイザナギの子で自らオロチを斬るが、本作のスサノオはオロチを封じた英雄イザナギの子孫で、その封印を解いてしまう側から物語に入る。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "okm-su-cmp-lazy",
+      "text": "命じられた務めを果たさずに泣きわめいた原典の須佐之男命と、修業をしない本作のスサノオは、どちらも務めを果たさない者が大蛇退治の英雄になる筋をたどる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "okm-su-cmp-brother",
+      "text": "原典の天照大御神と須佐之男命の姉弟関係を、本作は剣士スサノオと狼アマテラスの一方的な「兄弟の契り」に置き換えていると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-okami", "kojiki"],
+  "articleIds": []
+}

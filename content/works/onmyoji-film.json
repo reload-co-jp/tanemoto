@@ -1,0 +1,14 @@
+{
+  "id": "onmyoji-film",
+  "slug": "onmyoji-film",
+  "title": "陰陽師（映画）",
+  "reading": "おんみょうじ",
+  "type": "film",
+  "mediaTypes": [],
+  "author": "滝田洋二郎（監督）・夢枕獏（原作）",
+  "period": "2001年（『陰陽師』）、2003年（『陰陽師II』）",
+  "description": "夢枕獏の小説『陰陽師』を原作に、野村萬斎が安倍晴明を演じた映画。晴明と源博雅が、平安京を滅ぼそうとする陰陽頭・道尊の呪詛に立ち向かう。続編『陰陽師II』では、スサノオの復活をたくらむ出雲族の長と対決し、晴明は天岩戸を開いて天照大神を呼び戻す。",
+  "mythologyIds": ["japanese-legends", "japanese"],
+  "articleIds": [],
+  "sourceIds": ["work-onmyoji-film"]
+}

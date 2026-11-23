@@ -1,0 +1,130 @@
+{
+  "id": "mighty-thor-hela",
+  "slug": "mighty-thor-hela",
+  "name": "ヘラ",
+  "reading": "へら",
+  "alternativeNames": ["死の女神ヘラ"],
+  "workId": "mighty-thor",
+  "description": {
+    "text": "オーディンの第一子でソーの姉にあたる死の女神。かつてオーディンとともに九つの世界を征服したが、平和な統治に転じた父に反抗してヘルへ封印された。オーディンの死で封印が解け、アスガルドを奪いに戻ってくる。",
+    "claimIds": ["mt-he-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話で死者の国を支配する女神ヘルがモデル。",
+    "claimIds": ["mt-he-work", "mt-he-myth-hel"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hel",
+      "label": "死者の国の女王ヘル",
+      "inWork": {
+        "text": "北欧神話の女神ヘルをモデルにした死の女神。父オーディンに反抗して「ヘル」へ追放され、さらに封印された。",
+        "claimIds": ["mt-he-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』では、ヘルはロキと巨人の女アングルボザの娘。神々は災いを予言されたこのきょうだいを恐れ、オーディンはヘルをニヴルヘイムに投げ込み、病や老いで死んだ者たちを迎える九つの世界の支配を任せた。",
+        "claimIds": ["mt-he-myth-hel"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "hel",
+      "label": "際立つ姿",
+      "inWork": {
+        "text": "黒を基調に緑のラインと「死のエネルギー」がめぐる衣装と闇のマント、際立つアイメイクという禍々しい外見をしている。",
+        "claimIds": ["mt-he-work"]
+      },
+      "inMyth": {
+        "text": "原典のヘルは、体の半分が青黒く半分が肌の色をしているので、すぐに見分けがつく。顔つきは陰気で恐ろしい。",
+        "claimIds": ["mt-he-myth-hel"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "hel",
+      "label": "ラグナロクとスルト",
+      "inWork": {
+        "text": "ヘラは圧倒的な力でソーを追い詰めるが、アスガルドに固執したことが仇となり、復活したスルトがラグナロクを引き起こしてアスガルドを滅ぼす一撃に巻き込まれて滅びる。",
+        "claimIds": ["mt-he-work-ragnarok"]
+      },
+      "inMyth": {
+        "text": "原典のラグナロクでは、ヘルの勇士たちはみなロキに従って神々と戦う。スルトは炎の剣をもって先頭に立ち、最後には大地に火を放って全世界を焼き尽くす。",
+        "claimIds": ["mt-he-myth-ragnarok"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヘルはロキの娘で、マーベル・コミックのヘラも父ロキと母アングルボーダの娘とされる。ところが MCU 版ではオーディンの第一子、つまりソーの姉に変えられた。悪戯の神の子という出自を、父の征服の歴史を背負う王家の長女という設定に置き換えている。",
+      "claimIds": [
+        "mt-he-myth-hel",
+        "mt-he-work-comics",
+        "mt-he-work",
+        "mt-he-cmp-parent"
+      ]
+    },
+    {
+      "text": "原典ではオーディンがヘルを死者の国へ投げ込み、その支配を任せる。MCU でもオーディンがヘラをヘルへ追放・封印しており、「父なる神によって死者の国へ送られた女神」という骨組みは原典と共通している。",
+      "claimIds": ["mt-he-myth-hel", "mt-he-work", "mt-he-cmp-exile"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "mt-he-work",
+      "text": "MCU のヘラは北欧神話の死者の国を支配する女神ヘルをモデルにした、オーディンの第一子でソーの実姉にあたる死の女神。黒を基調に緑のラインと死のエネルギーがめぐる衣装と闇のマント、際立つアイメイクの外見をもつ。かつてオーディンの死刑執行人として九つの世界の征服に加わったが、平和な統治を決めたオーディンに反抗してヘルへ追放され、のちに再び封印された。オーディンの死によって封印が解けて復活する。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-he-work-ragnarok",
+      "text": "『マイティ・ソー バトルロイヤル』で、ヘラは圧倒的な力でソーたちと戦うが、アスガルドに固執したことが仇となり、復活したスルトによってラグナロクを引き起こされ、アスガルドを滅亡させる一撃を受けて滅びる。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-he-work-comics",
+      "text": "マーベル・コミックのヘラは、巨人の国ヨトゥンヘイムで父ロキと巨人の魔女である母アングルボーダの娘として生まれ、オーディンから死者の国を統治する女神に任命された。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヘラ (マーベル・コミック)」の記述で確認。"
+    },
+    {
+      "id": "mt-he-myth-hel",
+      "text": "『散文エッダ』によれば、ロキは巨人の女アングルボザとのあいだにフェンリル狼、ミズガルズの大蛇、ヘルの三人の子をもうけた。神々はこの一族から災いが来ると予言で知り、オーディンはヘルをニヴルヘイムに投げ込んで、病や老いで死んだ者たちに住まいを割り当てる九つの世界の支配を任せた。ヘルは体の半分が青黒く半分が肌の色で、陰気で恐ろしい顔つきをしている。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 34章"
+    },
+    {
+      "id": "mt-he-myth-ragnarok",
+      "text": "『散文エッダ』によれば、ラグナロクではムスペルの子らを率いるスルトが炎に包まれ、太陽よりも輝く剣をもって先頭を進む。ヘルの勇士たちはみなロキに従う。最後にスルトは大地に火を放ち、全世界を焼き尽くす。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "mt-he-cmp-parent",
+      "text": "原典とコミックではロキの娘であるヘル（ヘラ）を、MCU はオーディンの第一子でソーの姉に変えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "mt-he-cmp-exile",
+      "text": "オーディンによって死者の国へ送られた女神という骨組みは、原典と MCU で共通している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-mighty-thor", "snorri-edda"],
+  "articleIds": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mighty-thor",
+  "slug": "mighty-thor",
+  "title": "マイティ・ソー（MCU）",
+  "reading": "まいてぃ・そー",
+  "type": "film",
+  "mediaTypes": [],
+  "author": "マーベル・スタジオ",
+  "period": "2011年『マイティ・ソー』、2013年『ダーク・ワールド』、2017年『バトルロイヤル』ほか",
+  "description": "マーベル・コミックのヒーロー、ソーを主人公とするマーベル・シネマティック・ユニバース（MCU）の映画シリーズ。北欧神話の雷神トールをモデルにしたアスガルドの王子ソーと、義弟ロキ、姉の死の女神ヘラらが登場する。第3作の原題は「Thor: Ragnarok」。",
+  "mythologyIds": ["norse"],
+  "articleIds": [],
+  "sourceIds": ["work-mighty-thor"]
+}

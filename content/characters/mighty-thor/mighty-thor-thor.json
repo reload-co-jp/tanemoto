@@ -1,0 +1,186 @@
+{
+  "id": "mighty-thor-thor",
+  "slug": "mighty-thor-thor",
+  "name": "ソー",
+  "reading": "そー",
+  "alternativeNames": ["ソー・オーディンソン", "雷神ソー"],
+  "workId": "mighty-thor",
+  "description": {
+    "text": "アスガルドの第一王子で、オーディンとフリッガの実子。傲慢さから父の怒りを買って力とハンマー「ムジョルニア」を奪われ、地球に追放されるが、そこでの経験を経て成長していく。",
+    "claimIds": ["mt-th-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話の雷神トールがモデル。フルネームは「ソー・オーディンソン（オーディンの息子）」。",
+    "claimIds": ["mt-th-work", "mt-th-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "thor",
+      "label": "雷神トール",
+      "inWork": {
+        "text": "北欧神話の雷神トールをモデルにしたアスガルドの王子で、父はオーディン、母はフリッガ。稲妻を召喚し、操る力をもつ。",
+        "claimIds": ["mt-th-work", "mt-th-work-thunder"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、トールはオーディンが大地（ヨルズ）とのあいだにもうけた最初の息子で、あらゆる生き物にまさる力をもつ。",
+        "claimIds": ["mt-th-myth-birth"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "thor",
+      "label": "ハンマー（ムジョルニア）",
+      "inWork": {
+        "text": "ムジョルニアはドワーフが金属ウルから作った鉄鎚で、ふさわしい者でなければ持ち上げることもできない。『バトルロイヤル』では、復活した姉ヘラに片手で受け止められ、粉砕されてしまう。",
+        "claimIds": ["mt-th-work-hammer", "mt-th-work-ragnarok"]
+      },
+      "inMyth": {
+        "text": "トールは三つの宝をもつ。霜の巨人や山の巨人がそれと知る槌ミョルニル、締めると神の力が半分増す力帯、槌の柄を扱うのに欠かせない鉄の手袋である。原典ではミョルニルが壊されることはなく、ラグナロクののちはトールの息子モージとマグニが受け継ぐ。",
+        "claimIds": ["mt-th-myth-treasures", "mt-th-myth-after"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "odin",
+      "label": "片目を失う",
+      "inWork": {
+        "text": "ヘラとの決戦で、父オーディンと同じく右目を失う。",
+        "claimIds": ["mt-th-work-ragnarok"]
+      },
+      "inMyth": {
+        "text": "原典で片目なのは父オーディンの方で、ミーミルの泉の水を一口飲むために片目を担保に差し出した。",
+        "claimIds": ["mt-th-myth-eye"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "thor",
+      "label": "ラグナロク",
+      "inWork": {
+        "text": "『マイティ・ソー バトルロイヤル』（原題 Thor: Ragnarok）では、ヘラを自力で倒しきれず、炎の巨人スルトを復活させてラグナロクを起こし、アスガルドを滅ぼさせる。",
+        "claimIds": ["mt-th-work-ragnarok"]
+      },
+      "inMyth": {
+        "text": "原典のラグナロクでは、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。スルトは大地に火を放ち、全世界を焼き尽くす。",
+        "claimIds": ["mt-th-myth-ragnarok"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のトールの母は大地（ヨルズ）だが、MCU のソーはオーディンとフリッガの実子とされる。フリッガは原典ではオーディンの妻だが、トールの母ではない。",
+      "claimIds": ["mt-th-myth-birth", "mt-th-work", "mt-th-cmp-mother"]
+    },
+    {
+      "text": "原典のミョルニルは最後まで壊れず、ラグナロクの後もトールの息子たちが持つ。MCU はこれを姉ヘラに粉砕させ、ソーがハンマーなしで雷の力に目覚める物語にした。",
+      "claimIds": [
+        "mt-th-myth-after",
+        "mt-th-work-ragnarok",
+        "mt-th-work-thunder",
+        "mt-th-cmp-hammer"
+      ]
+    },
+    {
+      "text": "原典で片目を差し出すのはオーディンだが、MCU のソーもヘラとの戦いで右目を失い、父と同じ姿になる。王位を継ぐ者として父の姿に近づいていくことを示す改変と読める。",
+      "claimIds": ["mt-th-myth-eye", "mt-th-work-ragnarok", "mt-th-cmp-eye"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "mt-th-work",
+      "text": "MCU のソーは北欧神話の雷神トールをモデルにした、アスガルドの第一王子で、オーディンとフリッガの実子。フルネームはソー・オーディンソン。第1作『マイティ・ソー』では、オーディンの反対を押し切ってヨトゥンヘイムに攻め込み、反抗したためムジョルニアと超人的な力を奪われて地球に追放される。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-th-work-thunder",
+      "text": "ソーは稲妻を召喚・蓄積・放出する力をもち、その源はムジョルニアにあると長年信じていたが、姉ヘラとの決戦でムジョルニアなしでも稲妻を操れるように覚醒した。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-th-work-hammer",
+      "text": "ムジョルニアはドワーフたちが金属ウルを材料にして作った鉄鎚で、高潔な魂の持ち主にしか扱えず、それに値しない者には持ち上げることも動かすこともできない。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-th-work-ragnarok",
+      "text": "『マイティ・ソー バトルロイヤル』で、ムジョルニアは復活したヘラに片手で受け止められ粉砕される。ソーはヘラとの決戦でオーディンと同じく右目を失い、自力でヘラを倒しきれずにスルトを復活させてラグナロクを実行させた。",
+      "classification": "creative",
+      "sourceIds": ["work-mighty-thor"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述で確認。"
+    },
+    {
+      "id": "mt-th-myth-birth",
+      "text": "『散文エッダ』によれば、大地（ヨルズ）はオーディンの娘であり妻で、オーディンは彼女とのあいだに最初の息子アーサ・トールをもうけた。トールにはあらゆる生き物にまさる力と武勇がそなわる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 9章"
+    },
+    {
+      "id": "mt-th-myth-treasures",
+      "text": "トールは槌ミョルニル、締めると神の力が半分増す力帯、槌の柄を扱うのに欠かせない鉄の手袋の三つの宝をもつ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "mt-th-myth-after",
+      "text": "『散文エッダ』によれば、ラグナロクののち大地が再び海から現れると、トールの息子モージとマグニがやって来て、ミョルニルを持つ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 53章"
+    },
+    {
+      "id": "mt-th-myth-eye",
+      "text": "『散文エッダ』によれば、オーディンはミーミルの泉の水を一口飲むことを求め、片目を担保に差し出してようやく許された。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15章"
+    },
+    {
+      "id": "mt-th-myth-ragnarok",
+      "text": "『散文エッダ』によれば、ラグナロクでトールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。その後スルトが大地に火を放ち、全世界を焼き尽くす。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "mt-th-cmp-mother",
+      "text": "原典のトールの母は大地（ヨルズ）で、フリッガはオーディンの妻だがトールの母ではない。MCU ではソーはオーディンとフリッガの実子とされる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "mt-th-cmp-hammer",
+      "text": "原典のミョルニルは最後まで壊れないが、MCU はこれを粉砕させ、ソーがハンマーなしで雷の力に目覚める物語にした。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "mt-th-cmp-eye",
+      "text": "片目を失ったソーが父オーディンと同じ姿になるのは、王位を継ぐ者として父に近づくことを示す改変と読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-mighty-thor", "snorri-edda"],
+  "articleIds": []
+}

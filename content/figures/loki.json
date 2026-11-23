@@ -10,7 +10,7 @@
   "roles": ["狡知", "いたずら", "変身"],
   "mythologyIds": ["norse"],
   "description": "巨人ファールバウティの子でありながらアース神族に数えられる神。見た目は美しいが心は邪悪で、狡知にたけ、神々を窮地に陥れては策で救い出す。フェンリル狼、ミズガルズの大蛇、ヘルの父。ラグナロクでは巨人側に立ち、ヘイムダルと相討ちになる。",
-  "relatedFigureIds": ["odin", "thor"],
+  "relatedFigureIds": ["odin", "thor", "hel"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],
   "sourceIds": ["snorri-edda"]
