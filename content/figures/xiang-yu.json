@@ -1,0 +1,17 @@
+{
+  "id": "xiang-yu",
+  "slug": "xiang-yu",
+  "name": "項羽",
+  "reading": "こうう",
+  "originalName": "項籍",
+  "romanized": "Xiang Yu",
+  "alternativeNames": ["項籍", "西楚の覇王"],
+  "type": "historical",
+  "roles": ["楚の武将", "西楚の覇王"],
+  "mythologyIds": ["ancient-china"],
+  "description": "秦末の楚の武将（紀元前232〜前202年）。名は籍、字が羽。始皇帝の死後に起こった反乱の中で秦を滅ぼし、「西楚の覇王」を名乗った。のちに漢の劉邦と天下を争って敗れる。『史記』項羽本紀は、垓下で四方から楚の歌が聞こえる「四面楚歌」の場面や、愛する虞美人に別れを告げる歌を伝える。",
+  "relatedFigureIds": ["qin-shi-huang", "lu-bu"],
+  "relatedStoryIds": ["feast-at-hongmen", "surrounded-on-all-sides"],
+  "articleIds": [],
+  "sourceIds": ["shiji"]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ancient-china",
+  "slug": "ancient-china",
+  "name": "古代中国の偉人",
+  "reading": "こだいちゅうごくのいじん",
+  "region": "中国",
+  "period": "戦国時代末〜秦・楚漢戦争期（紀元前3世紀）の人物。紀元前1世紀初めに司馬遷が『史記』に記した",
+  "description": "六国を滅ぼして中国を初めて統一し、「皇帝」の称号をつくった始皇帝。その死後に秦を滅ぼし、四面楚歌の中で散った西楚の覇王・項羽。司馬遷の『史記』が描いた、古代中国の英雄たち。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "ここで紹介する人物は、神話の神々とは違い、実在した歴史上の人物です。その生涯の多くは、前漢の司馬遷が紀元前91年ごろに完成させた歴史書『史記』によって伝えられています。"
+    },
+    {
+      "type": "paragraph",
+      "text": "『史記』は正式な歴史書でありながら、荊軻の暗殺未遂や鴻門の会、四面楚歌など、まるで物語のように生き生きとした場面を数多く含んでいます。トモタネでは、こうした逸話を巻名を示して紹介します。中国神話の黄帝や蚩尤については[中国神話](/mythologies/chinese/)、後漢末の英雄については[三国志](/mythologies/three-kingdoms/)を参照してください。"
+    }
+  ],
+  "figureIds": ["qin-shi-huang", "xiang-yu"],
+  "storyIds": [
+    "qin-unification",
+    "jing-ke-assassination",
+    "burning-of-books",
+    "feast-at-hongmen",
+    "surrounded-on-all-sides"
+  ],
+  "sourceIds": ["shiji"],
+  "kind": "history",
+  "order": 18
+}

@@ -1,0 +1,17 @@
+{
+  "id": "spartacus",
+  "slug": "spartacus",
+  "name": "スパルタクス",
+  "reading": "すぱるたくす",
+  "originalName": "Spartacus",
+  "romanized": "Spartacus",
+  "alternativeNames": [],
+  "type": "historical",
+  "roles": ["剣闘士", "反乱の指導者"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "トラキア出身の剣闘士（？〜紀元前71年）。紀元前73年、カプアの剣闘士養成所から仲間とともに脱走し、逃亡奴隷を集めてローマ軍を何度も破った（第三次奴隷戦争）。プルタルコスは、彼が強い勇気と力をもつだけでなく、境遇に似合わず賢明で穏やかな人物だったと記す。紀元前71年、クラッススの軍との決戦で戦死した。",
+  "relatedFigureIds": ["julius-caesar", "hannibal"],
+  "relatedStoryIds": ["spartacus-revolt", "death-of-spartacus"],
+  "articleIds": [],
+  "sourceIds": ["plutarch-lives", "appian-civil-wars"]
+}

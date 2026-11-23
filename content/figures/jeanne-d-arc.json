@@ -1,0 +1,17 @@
+{
+  "id": "jeanne-d-arc",
+  "slug": "jeanne-d-arc",
+  "name": "ジャンヌ・ダルク",
+  "reading": "じゃんぬ・だるく",
+  "originalName": "Jeanne d'Arc",
+  "romanized": "Joan of Arc",
+  "alternativeNames": ["オルレアンの乙女", "ラ・ピュセル"],
+  "type": "historical",
+  "roles": ["フランスの救国の少女", "聖人"],
+  "mythologyIds": ["medieval-europe"],
+  "description": "百年戦争期のフランスの少女（1412年頃〜1431年）。ドンレミ村の農家に生まれ、聖ミカエルや聖カタリナ、聖マルガリタの「声」に導かれて王太子シャルルのもとへ赴いた。1429年にオルレアンの包囲を解き、シャルル7世をランスで戴冠させる。のちに捕らえられ、ルーアンの異端裁判で有罪とされて1431年に火刑に処された。1456年の復権裁判で判決は破棄され、1920年に聖人とされた。",
+  "relatedFigureIds": ["charlemagne"],
+  "relatedStoryIds": ["joans-voices", "sword-of-fierbois", "death-of-joan"],
+  "articleIds": [],
+  "sourceIds": ["joan-condemnation-trial", "pernoud-joan-of-arc"]
+}

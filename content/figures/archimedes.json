@@ -1,0 +1,17 @@
+{
+  "id": "archimedes",
+  "slug": "archimedes",
+  "name": "アルキメデス",
+  "reading": "あるきめです",
+  "originalName": "Ἀρχιμήδης",
+  "romanized": "Archimedes",
+  "alternativeNames": [],
+  "type": "historical",
+  "roles": ["数学者", "技術者"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "シチリア島シュラクサイの数学者・技術者（紀元前287年頃〜前212年）。円周率の近似や球の体積など数学で大きな業績を残した。第二次ポエニ戦争でローマ軍がシュラクサイを包囲すると、さまざまな兵器を考案して町を守ったとプルタルコスは伝える。町が陥落したとき、図形の問題に没頭しているところをローマ兵に殺されたという。",
+  "relatedFigureIds": ["hannibal"],
+  "relatedStoryIds": ["eureka", "death-of-archimedes"],
+  "articleIds": [],
+  "sourceIds": ["plutarch-lives", "vitruvius-architecture"]
+}

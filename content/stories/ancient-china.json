@@ -1,0 +1,47 @@
+[
+  {
+    "id": "qin-unification",
+    "title": "「皇帝」の誕生",
+    "mythologyIds": ["ancient-china"],
+    "figureIds": ["qin-shi-huang"],
+    "summary": "紀元前221年、秦王政は斉を滅ぼして天下を統一した。王の称号では功績にふさわしくないとして、伝説の三皇の「皇」と五帝の「帝」をあわせて「皇帝」と名乗り、自らを「始皇帝」、子孫を二世・三世と数えて万世に伝えるよう定めた。天子が自分を指す言葉を「朕」とすることも、このとき定められた。",
+    "sourceIds": ["shiji"],
+    "sourceLocation": "『史記』巻6 秦始皇本紀"
+  },
+  {
+    "id": "jing-ke-assassination",
+    "title": "荊軻の暗殺未遂",
+    "mythologyIds": ["ancient-china"],
+    "figureIds": ["qin-shi-huang"],
+    "summary": "燕の太子丹は、刺客の荊軻を秦に送った。荊軻は献上する地図の巻物に匕首を隠して秦王に近づき、地図を開ききったところで匕首をつかんで襲いかかる。秦王は柱の周りを逃げ回り、侍医の夏無且が薬袋を投げつけた隙に、「剣を背負え」という声に従って長剣を抜き、荊軻を斬った。",
+    "sourceIds": ["shiji"],
+    "sourceLocation": "『史記』巻86 刺客列伝"
+  },
+  {
+    "id": "burning-of-books",
+    "title": "焚書坑儒",
+    "mythologyIds": ["ancient-china"],
+    "figureIds": ["qin-shi-huang"],
+    "summary": "始皇帝34年（紀元前213年）、丞相李斯の進言により、秦の記録と医薬・占い・農業の書を除く書物が焼き捨てられた。翌年には、始皇帝を批判した学者ら四百六十人あまりが咸陽で穴に埋められたという。",
+    "sourceIds": ["shiji"],
+    "sourceLocation": "『史記』巻6 秦始皇本紀（始皇34年・35年条）"
+  },
+  {
+    "id": "feast-at-hongmen",
+    "title": "鴻門の会",
+    "mythologyIds": ["ancient-china"],
+    "figureIds": ["xiang-yu"],
+    "summary": "先に秦の都・咸陽に入った劉邦に怒った項羽は、劉邦を討とうとした。劉邦は鴻門の項羽の陣に出向いて謝罪し、宴が開かれる。項羽の軍師范増は劉邦を殺すよう合図を送り、項荘に剣舞をさせて機会をうかがったが、劉邦の部下樊噲が乱入して項羽に直言し、劉邦は厠に立つふりをして逃げ帰った。",
+    "sourceIds": ["shiji"],
+    "sourceLocation": "『史記』巻7 項羽本紀"
+  },
+  {
+    "id": "surrounded-on-all-sides",
+    "title": "四面楚歌",
+    "mythologyIds": ["ancient-china"],
+    "figureIds": ["xiang-yu"],
+    "summary": "垓下に追い詰められた項羽は、夜、四方の漢軍から楚の歌が聞こえてくるのを聞き、楚の地がすでに漢に奪われたのかと驚いた。項羽は「力は山を抜き、気は世を覆う」と歌い、愛する虞美人に「虞や虞や、若（なんじ）を奈何（いかん）せん」と呼びかけた。囲みを破って烏江までたどり着いたが、江東に渡ることを拒み、自ら首をはねて死んだ。",
+    "sourceIds": ["shiji"],
+    "sourceLocation": "『史記』巻7 項羽本紀"
+  }
+]

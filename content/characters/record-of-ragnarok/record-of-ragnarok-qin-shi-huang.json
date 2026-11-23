@@ -1,0 +1,160 @@
+{
+  "id": "record-of-ragnarok-qin-shi-huang",
+  "slug": "record-of-ragnarok-qin-shi-huang",
+  "name": "始皇帝",
+  "reading": "しこうてい",
+  "alternativeNames": ["嬴政"],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "春秋戦国時代の戦乱を終わらせ、中華を初めて統一した「始まりの王」。人類側の第7回戦の闘士として冥界の王ハデスと戦い、死闘の末に勝利した。",
+    "claimIds": ["ror-qsh-work", "ror-qsh-work-round"]
+  },
+  "nameOrigin": {
+    "text": "名前は秦の始皇帝そのもの。自ら「始皇帝」と号した。",
+    "claimIds": ["ror-qsh-work", "ror-qsh-myth-title"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "qin-shi-huang",
+      "label": "「皇帝」と「朕」",
+      "inWork": {
+        "text": "一人称は「朕」で、相手が神であっても尊大な態度を崩さない。自らを「始皇帝」と号した「始まりの王」とされる。",
+        "claimIds": ["ror-qsh-work"]
+      },
+      "inMyth": {
+        "text": "天下を統一した秦王政は、三皇の「皇」と五帝の「帝」をあわせて「皇帝」と名乗り、自らを始皇帝とした。天子が自分を「朕」と呼ぶことも、このとき定めた。",
+        "claimIds": ["ror-qsh-myth-title"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "qin-shi-huang",
+      "label": "趙での人質時代",
+      "inWork": {
+        "text": "趙で生まれ、2歳で父母と国に捨てられて人質として扱われた。長平の戦いでの投降兵の虐殺による憎悪を一身に受けて育ったとされる。",
+        "claimIds": ["ror-qsh-work-past"]
+      },
+      "inMyth": {
+        "text": "政は、秦の公子子楚が趙の人質だったときに邯鄲で生まれた。のちに子楚が秦へ逃げ帰ると、趙は残された妻子を殺そうとしたが、母子は身を隠して生き延びた。その数年前、長平の戦いで秦の将白起は降伏した趙兵四十万人あまりを生き埋めにしていた。",
+        "claimIds": ["ror-qsh-myth-birth", "ror-qsh-myth-changping"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "chiyou",
+      "label": "蚩尤",
+      "inWork": {
+        "text": "中華統一後、かつて中華を支配していた魔神・蚩尤を単身で討伐し、その闘いの中で五つの体系からなる究極の武術「蚩尤」を習得したとされる。",
+        "claimIds": ["ror-qsh-work-chiyou"]
+      },
+      "inMyth": {
+        "text": "『史記』五帝本紀では、蚩尤はもっとも暴虐な者として、黄帝に涿鹿の野で討たれた。始皇帝との関わりは語られない。",
+        "claimIds": ["ror-qsh-myth-chiyou"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "史実の政は、父が逃げ帰ったあと趙に残された人質の子であり、「捨てられた」という作品の設定には史実の裏づけがある。長平の戦いの虐殺も実際の出来事で、作品はこの二つを結びつけて少年時代の物語をつくっている。",
+      "claimIds": [
+        "ror-qsh-work-past",
+        "ror-qsh-myth-birth",
+        "ror-qsh-myth-changping",
+        "ror-qsh-cmp-past"
+      ]
+    },
+    {
+      "text": "原典で蚩尤を討ったのは伝説の帝王・黄帝であり、始皇帝が蚩尤を倒したという話は作品の創作。「皇帝」の称号が三皇五帝にちなむことを考えると、黄帝の功績を始皇帝に重ねた設定とも読める。",
+      "claimIds": [
+        "ror-qsh-work-chiyou",
+        "ror-qsh-myth-chiyou",
+        "ror-qsh-myth-title",
+        "ror-qsh-cmp-chiyou"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-qsh-work",
+      "text": "始皇帝は、550年にわたる春秋戦国時代に終止符を打って中華統一を初めて成し遂げた「始まりの王」で、自らを『始皇帝』と号した。一人称は『朕』で、相手が神であろうと構わず尊大な態度を取る。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-qsh-work-round",
+      "text": "始皇帝は人類側の第7回戦の闘士として冥界の王ハデスと戦い、左腕を失う重傷を負いながら勝利した。神器は戦乙女アルヴィトが神器錬成した『神羅鎧袖』で、戦いの中で『神羅鎧袖改・始皇勾践剣』に変化した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-qsh-work-past",
+      "text": "始皇帝は趙で生まれ、2歳で父と母と国から捨てられて人質として扱われ、長平の戦いで起こった投降兵の虐殺による憎悪を一身に受けながら暮らした。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-qsh-work-chiyou",
+      "text": "始皇帝は中華統一後、かつて中華を支配していた魔神・蚩尤を単身で討伐し、その闘いの中で5つの体系からなる究極の武術『蚩尤』を習得した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-qsh-myth-title",
+      "text": "天下を統一した秦王政は、三皇の「皇」と五帝の「帝」の位号をあわせて「皇帝」と号し、自らを始皇帝とした。天子の自称を「朕」とすることもこのとき定められた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇26年条）"
+    },
+    {
+      "id": "ror-qsh-myth-birth",
+      "text": "秦の公子子楚が趙に人質となっていたとき、邯鄲で子の政が生まれた。秦が邯鄲を包囲すると趙は子楚を殺そうとし、子楚は秦軍のもとへ逃れた。趙は残された子楚の妻子も殺そうとしたが、妻は趙の豪族の娘だったため身を隠すことができ、母子は生き延びた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻85 呂不韋列伝"
+    },
+    {
+      "id": "ror-qsh-myth-changping",
+      "text": "長平の戦い（紀元前260年）で、秦の将白起は降伏した趙の兵四十万人あまりを生き埋めにした。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻73 白起王翦列伝"
+    },
+    {
+      "id": "ror-qsh-myth-chiyou",
+      "text": "蚩尤はもっとも暴虐で、黄帝は諸侯の兵を集めて涿鹿の野で蚩尤と戦い、これを捕らえて殺した。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻1 五帝本紀"
+    },
+    {
+      "id": "ror-qsh-cmp-past",
+      "text": "人質の子として趙に残された史実と長平の虐殺を結びつけ、少年時代の物語に仕立てている点は作品の創作である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ror-qsh-cmp-chiyou",
+      "text": "始皇帝が蚩尤を討ったという設定は作品の創作で、原典で蚩尤を討った黄帝の功績を重ねたものとも読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "shiji"],
+  "articleIds": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "medieval-europe",
+  "slug": "medieval-europe",
+  "name": "中世ヨーロッパの偉人",
+  "reading": "ちゅうせいよーろっぱのいじん",
+  "region": "フランス・ドイツ・イタリア",
+  "period": "8〜15世紀の人物。同時代の伝記や裁判記録が残る",
+  "description": "ローマ皇帝の冠を受け、のちに騎士物語の王「シャルルマーニュ」として語られるカール大帝。神の声に導かれてオルレアンを救い、火刑に処されたジャンヌ・ダルク。伝説に彩られた中世ヨーロッパの偉人たち。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "ここで紹介する人物は、実在した歴史上の人物です。カール大帝については、宮廷に仕えたアインハルトが大帝の死後に書いた『カール大帝伝』が、ジャンヌ・ダルクについては、1431年の異端裁判の記録が、本人の姿を伝えるもっとも重要な史料です。"
+    },
+    {
+      "type": "paragraph",
+      "text": "どちらの人物も、のちの時代に多くの伝説や物語の題材になりました。カール大帝は武勲詩『ローランの歌』などで十二勇士を率いる王として描かれ、ジャンヌは救国の聖女として数多くの作品に登場します。トモタネでは、同時代の史料が伝える姿と、のちの物語や作品での姿を分けて紹介します。"
+    }
+  ],
+  "figureIds": ["charlemagne", "jeanne-d-arc"],
+  "storyIds": [
+    "joans-voices",
+    "sword-of-fierbois",
+    "death-of-joan",
+    "battle-of-roncevaux",
+    "coronation-of-charlemagne",
+    "charlemagne-learns-to-write"
+  ],
+  "sourceIds": [
+    "einhard-life-of-charlemagne",
+    "joan-condemnation-trial",
+    "pernoud-joan-of-arc"
+  ],
+  "kind": "history",
+  "order": 19
+}

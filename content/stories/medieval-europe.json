@@ -1,0 +1,56 @@
+[
+  {
+    "id": "joans-voices",
+    "title": "ジャンヌの「声」",
+    "mythologyIds": ["medieval-europe"],
+    "figureIds": ["jeanne-d-arc"],
+    "summary": "ジャンヌは裁判で、13歳のころ、父の庭で神からの声を初めて聞き、ひどく恐れたと語った。その声はのちに聖ミカエル、聖カタリナ、聖マルガリタのものだとわかり、彼女にフランスへ行ってオルレアンの包囲を解くよう告げたという。",
+    "sourceIds": ["joan-condemnation-trial"],
+    "sourceLocation": "処刑裁判記録 1431年2月22日・2月27日の尋問"
+  },
+  {
+    "id": "sword-of-fierbois",
+    "title": "フィエルボワの剣と白い旗",
+    "mythologyIds": ["medieval-europe"],
+    "figureIds": ["jeanne-d-arc"],
+    "summary": "ジャンヌは、声に教えられてサント＝カトリーヌ＝ド＝フィエルボワの教会の祭壇の裏から、五つの十字が刻まれた錆びた剣を掘り出させた。一方で、白地に百合の花を散らし、世界と二人の天使、「イエス・マリア」の名を描いた旗を持ち、剣よりも旗のほうがずっと好きだと語った。敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べている。",
+    "sourceIds": ["joan-condemnation-trial"],
+    "sourceLocation": "処刑裁判記録 1431年2月27日の尋問"
+  },
+  {
+    "id": "death-of-joan",
+    "title": "ルーアンの火刑",
+    "mythologyIds": ["medieval-europe"],
+    "figureIds": ["jeanne-d-arc"],
+    "summary": "1430年、コンピエーニュでブルゴーニュ派に捕らえられたジャンヌは、イングランド側に引き渡され、ルーアンで異端の裁判にかけられた。一度は誓絶したものの、再び男装したことなどから戻り異端とされ、1431年5月30日、ルーアンの旧市場広場で火刑に処された。",
+    "sourceIds": ["pernoud-joan-of-arc"],
+    "sourceLocation": "Pernoud & Clin, Joan of Arc: Her Story, 第7〜8章"
+  },
+  {
+    "id": "battle-of-roncevaux",
+    "title": "ロンスヴォーの戦い",
+    "mythologyIds": ["medieval-europe"],
+    "figureIds": ["charlemagne"],
+    "summary": "778年、スペイン遠征から帰るカールの軍がピレネー山脈を越えるとき、山頂に潜んでいたバスク人（ガスコーニュ人）が後衛と輜重隊を襲い、谷底に追い落として皆殺しにした。このときブルターニュ辺境伯ロランも戦死した。この事件が、のちの武勲詩『ローランの歌』の題材となった。",
+    "sourceIds": ["einhard-life-of-charlemagne"],
+    "sourceLocation": "アインハルト『カール大帝伝』9"
+  },
+  {
+    "id": "coronation-of-charlemagne",
+    "title": "皇帝戴冠",
+    "mythologyIds": ["medieval-europe"],
+    "figureIds": ["charlemagne"],
+    "summary": "800年、ローマの人々に襲われた教皇レオ3世を助けるため、カールはローマに赴いて冬を過ごした。そのクリスマスの日に「皇帝」と「アウグストゥス」の称号を受けたが、アインハルトによれば、カールは初めこの称号をひどく嫌い、教皇の意図を知っていたら大祭日であっても教会には足を踏み入れなかったと語ったという。",
+    "sourceIds": ["einhard-life-of-charlemagne"],
+    "sourceLocation": "アインハルト『カール大帝伝』28"
+  },
+  {
+    "id": "charlemagne-learns-to-write",
+    "title": "枕の下の書板",
+    "mythologyIds": ["medieval-europe"],
+    "figureIds": ["charlemagne"],
+    "summary": "カールは学者アルクインらに学び、修辞学や天文学を熱心に学んだ。字を書くことにも挑戦し、暇なときに手を慣らそうと、寝台の枕の下に書板と羊皮紙を置いていた。しかし始めたのが遅すぎたため、あまりうまくはならなかったとアインハルトは記す。",
+    "sourceIds": ["einhard-life-of-charlemagne"],
+    "sourceLocation": "アインハルト『カール大帝伝』25"
+  }
+]

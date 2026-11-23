@@ -1,0 +1,17 @@
+{
+  "id": "nero",
+  "slug": "nero",
+  "name": "ネロ",
+  "reading": "ねろ",
+  "originalName": "Nero Claudius Caesar Augustus Germanicus",
+  "romanized": "Nero",
+  "alternativeNames": ["ネロ・クラウディウス"],
+  "type": "historical",
+  "roles": ["ローマ皇帝"],
+  "mythologyIds": ["classical-antiquity"],
+  "description": "ローマ帝国の第5代皇帝（在位 紀元後54〜68年）。歌や竪琴、戦車競走に熱中し、自ら舞台に立った。紀元後64年のローマ大火では、火事を眺めながらトロイア陥落を歌ったという噂が広まった。母や妻を殺したことでも知られ、反乱で追い詰められて自害する。スエトニウスは最期の言葉を「なんという芸術家がわたしとともに死ぬことか」と伝える。",
+  "relatedFigureIds": ["julius-caesar", "boudica"],
+  "relatedStoryIds": ["great-fire-of-rome", "death-of-nero"],
+  "articleIds": [],
+  "sourceIds": ["suetonius-nero", "tacitus-annals"]
+}
