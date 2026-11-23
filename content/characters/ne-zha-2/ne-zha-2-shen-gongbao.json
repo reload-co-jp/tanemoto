@@ -1,0 +1,130 @@
+{
+  "id": "ne-zha-2-shen-gongbao",
+  "slug": "ne-zha-2-shen-gongbao",
+  "name": "申公豹",
+  "reading": "しんこうひょう",
+  "workId": "ne-zha-2",
+  "description": {
+    "text": "敖丙の師匠で、闡教の弟子。太乙真人の弟弟子にあたる。雷の鞭「裂空雷公鞭」の使い手。妖族の出身のため闡教で重用されず、前作では竜族と組んで悪事を働いたが、本作ではその知られざる一面が描かれる。",
+    "claimIds": ["nz2-sg-work"]
+  },
+  "nameOrigin": {
+    "text": "『封神演義』で元始天尊に学んだ道士、申公豹。",
+    "claimIds": ["nz2-sg-myth-tempt"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "shen-gongbao",
+      "label": "闡教の異端児",
+      "inWork": {
+        "text": "闡教の主要人物の一人だが、妖族の出身であるため太乙真人に比べて重用されない。",
+        "claimIds": ["nz2-sg-work"]
+      },
+      "inMyth": {
+        "text": "原典の申公豹は姜子牙の弟弟子だが、首を空に放って戻す術を見せて姜子牙に封神榜を焼かせようとし、のちも各地の仙人を誘って周に敵対させた。最後は北海の眼をふさがれる。",
+        "claimIds": ["nz2-sg-myth-tempt", "nz2-sg-myth-end"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "shen-gongbao",
+      "label": "竜族と東海",
+      "inWork": {
+        "text": "前作では竜族と協力して悪事を働き、本作でも東海竜王敖光の命を受けて陳塘関を守る。",
+        "claimIds": ["nz2-sg-work", "nz2-sg-work-guard"]
+      },
+      "inMyth": {
+        "text": "原典の最後で、申公豹は東海を司り、日の出を見守り天の川をめぐらせる「分水将軍」に封じられる。",
+        "claimIds": ["nz2-sg-myth-end"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "shen-gongbao",
+      "label": "南極仙翁と白鶴童子",
+      "inWork": {
+        "text": "闡教を取り仕切る兄弟子・無量仙翁と、その弟子の鶴童が敵として登場する。",
+        "claimIds": ["nz2-sg-work-wuliang"]
+      },
+      "inMyth": {
+        "text": "原典で申公豹の首をくわえ去らせたのは、南極仙翁とその命を受けた白鶴童子だった。",
+        "claimIds": ["nz2-sg-myth-tempt"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の申公豹は、周に敵対する仙人を次々と誘い出す悪役である。作品は彼を、出自のために差別される不遇の人物として描き直している。",
+      "claimIds": ["nz2-sg-myth-tempt", "nz2-sg-work", "nz2-sg-cmp-role"]
+    },
+    {
+      "text": "原典で申公豹と対立する南極仙翁と白鶴童子は、作品で無量仙翁と鶴童という闡教の敵役として登場する。原典の申公豹が東海の神に封じられる結末も、作品で竜族と結びつく彼の立場と響き合う。",
+      "claimIds": [
+        "nz2-sg-myth-tempt",
+        "nz2-sg-work-wuliang",
+        "nz2-sg-myth-end",
+        "nz2-sg-cmp-crane"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nz2-sg-work",
+      "text": "申公豹は敖丙の師匠で闡教の弟子、太乙真人の弟弟子。武器『裂空雷公鞭』の使い手。闡教の主要人物の1人だが、妖族の出身であるため太乙真人に比べて重用されず、前作では龍族と協力して悪事をした。本作では彼の知られざる一面が描かれている。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-sg-work-guard",
+      "text": "東海竜王敖光は申公豹に陳塘関の守りを任せる。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-sg-work-wuliang",
+      "text": "無量仙翁は太乙真人と申公豹の兄弟子で、不在中の元始天尊に代わって玉虚宮を管理する闡教の実質的な指導者。弟子の鶴童は鶴の羽根をかたどった飛び道具を武器とする。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-sg-myth-tempt",
+      "text": "申公豹は師兄の姜子牙を呼び止め、自分は首を取って空に放っても元に戻せると言い、封神榜を焼いて殷に仕えるよう迫った。申公豹が首を放つと、南極仙翁の命を受けた白鶴童子が仙鶴に化けて首をくわえ去った。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第37回"
+    },
+    {
+      "id": "nz2-sg-myth-end",
+      "text": "申公豹は闡教に属しながら逆賊を助けたとして北海に塞がれたが、修行の苦労を考慮され、東海を司り、朝に日の出を見て暮れに天河をめぐらせる分水将軍に封じられた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第99回"
+    },
+    {
+      "id": "nz2-sg-cmp-role",
+      "text": "原典の悪役である申公豹を、出自のために差別される人物として描き直している点は作品独自の解釈である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "nz2-sg-cmp-crane",
+      "text": "無量仙翁と鶴童は、原典で申公豹と対立する南極仙翁と白鶴童子を下敷きにしていると考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版は無量仙翁の項目を南極老人にリンクしているが、制作側の説明は確認できていない。"
+    }
+  ],
+  "sourceIds": ["work-ne-zha-2", "fengshen-yanyi"],
+  "articleIds": []
+}

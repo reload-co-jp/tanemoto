@@ -298,5 +298,23 @@
     "publishedPeriod": "2015年〜（小説）、2026年（テレビアニメ第1期）",
     "publisher": "KADOKAWA（電撃文庫）",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「Fate/strange Fake」の記述でも確認している。"
+  },
+  {
+    "id": "work-ne-zha-2",
+    "title": "ナタ 魔童の大暴れ（哪吒之魔童鬧海）",
+    "author": "餃子（監督・脚本）",
+    "type": "work",
+    "publishedPeriod": "2025年（中国公開1月、日本公開3月）",
+    "publisher": "北京光線影業ほか",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ナタ 魔童の大暴れ」、英語版「Ne Zha 2」の記述でも確認している。"
+  },
+  {
+    "id": "work-kaos",
+    "title": "KAOS／カオス",
+    "author": "チャーリー・カヴェル（企画・脚本）",
+    "type": "work",
+    "publishedPeriod": "2024年（全8話）",
+    "publisher": "Netflix",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Kaos (TV series)」のあらすじでも確認している。"
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "id": "shen-gongbao",
+  "slug": "shen-gongbao",
+  "name": "申公豹",
+  "reading": "しんこうひょう",
+  "originalName": "申公豹",
+  "romanized": "Shen Gongbao",
+  "alternativeNames": ["分水将軍"],
+  "type": "human",
+  "roles": ["道士", "闡教の裏切り者"],
+  "mythologyIds": ["chinese"],
+  "description": "『封神演義』で元始天尊に学んだ道士で、姜子牙（太公望）の弟弟子。自分の首を取って空に放り、また元に戻せるという術を見せて姜子牙に封神榜を焼かせようとするが、南極仙翁の命で白鶴童子に首をくわえ去られる。以後、各地の仙人を誘って周に敵対させ続けた。最後は北海の眼をふさがれ、のちに東海を司る分水将軍に封じられた。",
+  "relatedFigureIds": ["jiang-ziya", "nezha"],
+  "relatedStoryIds": ["shen-gongbao-tempts-jiang-ziya"],
+  "articleIds": [],
+  "sourceIds": ["fengshen-yanyi"]
+}

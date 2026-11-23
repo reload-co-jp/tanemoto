@@ -10,8 +10,8 @@
   "roles": ["軍師", "周の建国"],
   "mythologyIds": ["chinese"],
   "description": "周の文王・武王に仕えた軍師で、本名は呂尚。『史記』によれば、年老いて貧しいなか渭水のほとりで釣りをしていたところを文王に見いだされ、「わが祖父太公が待ち望んでいた人物」として太公望と号された。『封神演義』では崑崙山で修行した道士・姜子牙として、殷との戦いを指揮する。",
-  "relatedFigureIds": ["daji", "nezha"],
-  "relatedStoryIds": ["daji-and-the-fox"],
+  "relatedFigureIds": ["daji", "nezha", "shen-gongbao"],
+  "relatedStoryIds": ["daji-and-the-fox", "shen-gongbao-tempts-jiang-ziya"],
   "articleIds": [],
   "sourceIds": ["shiji", "fengshen-yanyi"]
 }

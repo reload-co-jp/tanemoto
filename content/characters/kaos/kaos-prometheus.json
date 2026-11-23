@@ -1,0 +1,101 @@
+{
+  "id": "kaos-prometheus",
+  "slug": "kaos-prometheus",
+  "name": "プロメテウス",
+  "reading": "ぷろめてうす",
+  "workId": "kaos",
+  "description": {
+    "text": "物語の語り手。ゼウスに逆らった罰で崖に鎖でつながれているティタン神。長い年月をかけて、予言と三人の人間を利用してゼウスを倒す計画を進めてきた。",
+    "claimIds": ["kaos-pr-work", "kaos-pr-work-plan"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "prometheus",
+      "label": "鎖につながれたティタン",
+      "inWork": {
+        "text": "ゼウスの専制に逆らった罰として崖に鎖でつながれているが、最終話で運命の女神たちによって鎖を解かれ、ゼウスの玉座に座る。",
+        "claimIds": ["kaos-pr-work", "kaos-pr-work-freed"]
+      },
+      "inMyth": {
+        "text": "『神統記』のプロメテウスは、ゼウスに鎖で縛られ鷲に肝臓を食われ続けたが、ヘラクレスによって解放された。",
+        "claimIds": ["kaos-pr2-myth-chain"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "prometheus",
+      "label": "ゼウスと知恵比べをする者",
+      "inWork": {
+        "text": "何年も時機を待ち、予言と人間たちを利用する周到な計画でゼウスを追い落とす。",
+        "claimIds": ["kaos-pr-work-plan", "kaos-pr-work-freed"]
+      },
+      "inMyth": {
+        "text": "プロメテウスは、メコネで牛を切り分けるときにゼウスを欺こうとし、のちには中空の茴香（ういきょう）の茎に火を隠して人間のもとへ盗み出した。",
+        "claimIds": ["kaos-pr-myth-trick"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のプロメテウスは、最後にはヘラクレスに救われ、ゼウスとの対立も収まる。作品では、知恵でゼウスを出し抜こうとする性格をさらに推し進め、自らゼウスの玉座を奪う反逆者として描いている。",
+      "claimIds": [
+        "kaos-pr2-myth-chain",
+        "kaos-pr-myth-trick",
+        "kaos-pr-work-freed",
+        "kaos-pr-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kaos-pr2-myth-chain",
+      "text": "ゼウスはプロメテウスを解けない鎖で縛り、鷲に不死の肝臓を食わせた。のちにヘラクレスがこの鷲を殺してプロメテウスを苦しみから解いた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』521–534行"
+    },
+    {
+      "id": "kaos-pr-work",
+      "text": "ゼウスは自らの支配に逆らったティタン神プロメテウスを崖に鎖でつないでいる。プロメテウスは物語全体の語り手を務める。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-pr-work-plan",
+      "text": "長年時機を待っていたプロメテウスは、予言と、それと知らずに関わる三人の人間エウリュディケ、カイネウス、アリアドネを利用して、ゼウスを倒す計画を始動させる。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-pr-work-freed",
+      "text": "最終話で、プロメテウスは運命の女神たちによって崖の鎖から解放され、オリュンポスに運ばれる。ゼウスが戻ると、プロメテウスが玉座に座っている。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-pr-myth-trick",
+      "text": "メコネで神々と人間が争ったとき、プロメテウスは骨を脂で包んでゼウスに差し出して欺こうとした。ゼウスが人間に火を与えずにいると、プロメテウスは中空の茴香の茎に火を隠して盗み出した。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』535–569行"
+    },
+    {
+      "id": "kaos-pr-cmp",
+      "text": "原典で救われゼウスと和解するプロメテウスを、作品はゼウスの玉座を奪う反逆者として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kaos", "hesiod-theogony"],
+  "articleIds": []
+}
