@@ -1,0 +1,159 @@
+{
+  "id": "black-myth-wukong-zhu-bajie",
+  "slug": "black-myth-wukong-zhu-bajie",
+  "name": "猪八戒",
+  "reading": "ちょはっかい",
+  "alternativeNames": ["八戒"],
+  "workId": "black-myth-wukong",
+  "description": {
+    "text": "孫悟空のかつての旅の仲間。黄眉に金のシンバル（金鐃）に閉じこめられていたが、天命人に助け出されて宝具集めの旅に加わる。蜘蛛の妖怪たちの住む地では、かつての恋人と再会する。",
+    "claimIds": ["bmw-zb-work"]
+  },
+  "nameOrigin": {
+    "text": "『西遊記』で三蔵法師に従った弟子、猪八戒そのもの。",
+    "claimIds": ["bmw-zb-work", "bmw-zb-myth-origin"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "zhu-bajie",
+      "label": "天蓬元帥",
+      "inWork": {
+        "text": "天命人とともに旅をする、孫悟空の旧友として登場する。",
+        "claimIds": ["bmw-zb-work"]
+      },
+      "inMyth": {
+        "text": "『西遊記』の猪八戒は、もとは天の川の天蓬元帥だった。酒に酔って嫦娥に戯れたため玉帝に二千回打たれて下界に落とされ、生まれ変わるときに道を誤って母豚の胎に入り、豚の姿になった。",
+        "claimIds": ["bmw-zb-myth-origin"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "zhu-bajie",
+      "label": "金鐃に閉じこめられる",
+      "inWork": {
+        "text": "黄眉の差し向けた亢金星との戦いの中で金鐃が壊れ、閉じこめられていた八戒が抜け出す。",
+        "claimIds": ["bmw-zb-work"]
+      },
+      "inMyth": {
+        "text": "原作で金鐃に閉じこめられるのは悟空の方である。如来を装った妖王・黄眉大王が空から金鐃を落とし、悟空を頭から足まで中に閉じこめた。",
+        "claimIds": ["bmw-zb-myth-cymbals"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "zhu-bajie",
+      "label": "盤糸洞の蜘蛛の妖怪",
+      "inWork": {
+        "text": "蜘蛛の妖怪の一族が住む盤糸嶺では、八戒がかつての恋人である紫蛛児（Violet Spider）と再会する。紫蛛児は百眼魔君に致命傷を負わされ、八戒は彼女と最後に目を交わしたのち、背を向けて立ち去る。",
+        "claimIds": ["bmw-zb-work-spider"]
+      },
+      "inMyth": {
+        "text": "原作の盤糸洞には七人の女の妖怪が住み、泉で水浴びをしていた。八戒は「一緒に洗わせてくれ」と水に飛びこみ、鯰の精に化けて女たちの足のあいだを泳ぎ回った。近くの黄花観の道士は、両脇の千の目から金色の光を放つ百眼魔君（多目怪）だった。",
+        "claimIds": ["bmw-zb-myth-spider", "bmw-zb-myth-hundred"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "zhu-bajie",
+      "label": "色情と食欲",
+      "inWork": {
+        "text": "かつての恋人との別れに背を向ける、情の深い人物として描かれる。",
+        "claimIds": ["bmw-zb-work-spider"]
+      },
+      "inMyth": {
+        "text": "原作の如来は旅の終わりに、八戒は「頑心があり、色情がまだ消えていない」とし、口が達者で体はものぐさ、食欲が大きいことから、浄壇使者に任じた。",
+        "claimIds": ["bmw-zb-myth-end"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作で黄眉大王の金鐃に閉じこめられるのは悟空だが、本作では八戒が閉じこめられている。悟空がいない後日談として、原作の場面を八戒に引き継がせている。",
+      "claimIds": ["bmw-zb-myth-cymbals", "bmw-zb-work", "bmw-zb-cmp-cymbals"]
+    },
+    {
+      "text": "原作の盤糸洞の蜘蛛の妖怪は、八戒をからかわれる相手であり、悟空に打ち倒される敵である。本作はこれを八戒のかつての恋人とその一族に変え、原作で「色情が消えていない」と言われた八戒の性格を、悲恋の物語として描き直している。",
+      "claimIds": [
+        "bmw-zb-myth-spider",
+        "bmw-zb-myth-end",
+        "bmw-zb-work-spider",
+        "bmw-zb-cmp-spider"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "bmw-zb-work",
+      "text": "新西の地で、弥勒に扮した黄眉は宝具を凍った湖に沈め、亢金星を天命人に差し向ける。その戦いの中で亢金星が金鐃にぶつかり、閉じこめられていた孫悟空の旧友・猪八戒が抜け出して、宝具集めの旅に加わる。",
+      "classification": "creative",
+      "sourceIds": ["work-black-myth-wukong"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「黒神話:悟空」、英語版「Black Myth: Wukong」の記述で確認。"
+    },
+    {
+      "id": "bmw-zb-work-spider",
+      "text": "盤糸嶺では、蜘蛛の妖怪一族の母である紫蛛児（Violet Spider）が、百眼魔君に宝具を奪い返されて致命傷を負う。八戒と紫蛛児はかつて恋人どうしで、二人は最後に目を交わすが、八戒は悲しげに背を向けて宝具の方へ歩いていく。",
+      "classification": "creative",
+      "sourceIds": ["work-black-myth-wukong"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「黒神話:悟空」、英語版「Black Myth: Wukong」の記述で確認。"
+    },
+    {
+      "id": "bmw-zb-myth-origin",
+      "text": "『西遊記』によれば、猪八戒はもとは天河の天蓬元帥で、酒に酔って嫦娥に戯れたため玉帝に二千回打たれて下界に落とされた。奪舎投胎しようとして道を誤り、母豚の胎に入ってこの姿になった。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第8回"
+    },
+    {
+      "id": "bmw-zb-myth-cymbals",
+      "text": "『西遊記』によれば、小雷音寺で如来を装った妖王が、空から一対の金鐃を落として孫悟空を頭から足まで閉じこめた。この妖王は黄眉老佛、黄眉大王と名乗った。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第65回"
+    },
+    {
+      "id": "bmw-zb-myth-spider",
+      "text": "『西遊記』によれば、盤糸嶺の盤糸洞には七人の女の妖怪が住み、濯垢泉で水浴びをしていた。八戒は一緒に洗わせてくれと水に飛びこみ、鯰の精に化けて女たちのあいだを泳ぎ回った。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第72回"
+    },
+    {
+      "id": "bmw-zb-myth-hundred",
+      "text": "『西遊記』によれば、黄花観の道士は、悟空との戦いで衣を脱ぐと両脇の下に千の目があり、そこから金色の光を放って悟空を閉じこめた。黎山老母はこの道士を百眼魔君、またの名を多目怪と教えた。悟空はすでに七人の女の妖怪を打ち殺していた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第73回"
+    },
+    {
+      "id": "bmw-zb-myth-end",
+      "text": "『西遊記』によれば、如来は旅の終わりに、八戒は道中も頑心があって色情がまだ消えていないが、荷を担いだ功があるとして浄壇使者に任じた。理由として、口が達者で体はものぐさ、食欲が大きいことを挙げた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第100回"
+    },
+    {
+      "id": "bmw-zb-cmp-cymbals",
+      "text": "原作で悟空が閉じこめられる黄眉大王の金鐃に、本作では八戒が閉じこめられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "bmw-zb-cmp-spider",
+      "text": "本作は、原作で悟空に打ち倒される盤糸洞の蜘蛛の妖怪を、八戒のかつての恋人とその一族に変えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-black-myth-wukong", "xiyouji"],
+  "articleIds": []
+}

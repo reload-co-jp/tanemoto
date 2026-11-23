@@ -262,5 +262,32 @@
     "publishedPeriod": "2005年〜2009年（原書）",
     "publisher": "ほるぷ出版（日本語版）",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「パーシー・ジャクソンとオリンポスの神々」、英語版「Percy Jackson」「The Lightning Thief」の記述でも確認している。"
+  },
+  {
+    "id": "work-black-myth-wukong",
+    "title": "黒神話：悟空",
+    "author": "Game Science",
+    "type": "work",
+    "publishedPeriod": "2024年",
+    "publisher": "Game Science",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「黒神話:悟空」、英語版「Black Myth: Wukong」の記述でも確認している。"
+  },
+  {
+    "id": "work-god-of-war-ragnarok",
+    "title": "ゴッド・オブ・ウォー ラグナロク",
+    "author": "サンタモニカスタジオ",
+    "type": "work",
+    "publishedPeriod": "2022年",
+    "publisher": "ソニー・インタラクティブエンタテインメント",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「God of War Ragnarök」、日本語版「ゴッド・オブ・ウォー ラグナロク」の記述でも確認している。"
+  },
+  {
+    "id": "work-hades-2",
+    "title": "Hades II",
+    "author": "Supergiant Games",
+    "type": "work",
+    "publishedPeriod": "2024年（早期アクセス）、2025年（正式版）",
+    "publisher": "Supergiant Games",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Hades II」の記述でも確認している。"
   }
 ]

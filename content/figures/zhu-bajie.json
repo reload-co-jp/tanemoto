@@ -1,0 +1,17 @@
+{
+  "id": "zhu-bajie",
+  "slug": "zhu-bajie",
+  "name": "猪八戒",
+  "reading": "ちょはっかい",
+  "originalName": "豬八戒",
+  "romanized": "Zhu Bajie",
+  "alternativeNames": ["猪悟能", "天蓬元帥"],
+  "type": "creature",
+  "roles": ["天蓬元帥", "三蔵の弟子"],
+  "mythologyIds": ["chinese"],
+  "description": "『西遊記』で三蔵法師に従う弟子の一人。法名は猪悟能。もとは天の川の水軍を率いる天蓬元帥だったが、酒に酔って嫦娥に戯れたため下界に落とされ、生まれ変わるときに道を誤って豚の胎に入り、豚の姿になった。九歯の釘鈀を武器にする。旅の終わりに浄壇使者に任じられた。",
+  "relatedFigureIds": ["sun-wukong"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["xiyouji"]
+}

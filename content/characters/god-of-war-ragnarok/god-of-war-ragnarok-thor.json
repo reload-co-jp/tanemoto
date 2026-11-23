@@ -1,0 +1,155 @@
+{
+  "id": "god-of-war-ragnarok-thor",
+  "slug": "god-of-war-ragnarok-thor",
+  "name": "トール",
+  "reading": "とーる",
+  "alternativeNames": ["雷神トール"],
+  "workId": "god-of-war-ragnarok",
+  "description": {
+    "text": "アース神族の雷神で、オーディンの長男。前作でクレイトスたちに殺されたバルドルの異母兄であり、モーディとマグニの父。槌ミョルニルで巨人を殺してきたが、父オーディンにはいつも見下されている。",
+    "claimIds": ["gwr-th-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話の雷神トールそのもの。",
+    "claimIds": ["gwr-th-work", "gwr-th-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "thor",
+      "label": "オーディンの長子トール",
+      "inWork": {
+        "text": "オーディンの長男で、自身も巨人の血を引いている。",
+        "claimIds": ["gwr-th-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』では、トールはオーディンが大地（ヨルズ）とのあいだにもうけた最初の息子である。ヨルズの母は、巨人ナルヴィの娘の夜（ノーット）とされる。",
+        "claimIds": ["gwr-th-myth-birth"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "thor",
+      "label": "槌ミョルニル",
+      "inWork": {
+        "text": "槌ミョルニルを振るい、自分も巨人の血を引きながら、巨人たちを殺してきた。",
+        "claimIds": ["gwr-th-work"]
+      },
+      "inMyth": {
+        "text": "トールの槌ミョルニルは、霜の巨人や山の巨人がそれと知るもので、巨人たちの父祖や親族の頭蓋を数多く砕いてきた。",
+        "claimIds": ["gwr-th-myth-treasures"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "thor",
+      "label": "ミズガルズの大蛇との戦い",
+      "inWork": {
+        "text": "アスガルド攻めの戦いで、トールはヨルムンガンドと戦い、大蛇を過去の時代へと打ち飛ばす。その後クレイトスに説かれて矛を収めるが、命令に背いたとしてオーディンに殺される。",
+        "claimIds": ["gwr-th-work-end"]
+      },
+      "inMyth": {
+        "text": "原典のラグナロクでは、トールはミズガルズの大蛇を倒したのち、九歩進んで大蛇の毒のために倒れて死ぬ。",
+        "claimIds": ["gwr-th-myth-ragnarok"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "thor",
+      "label": "息子たちとミョルニルの継承",
+      "inWork": {
+        "text": "息子モーディとマグニは前作でクレイトスたちに殺されている。トールの死後は、娘スルーズがトールをたたえてミョルニルを手にする。",
+        "claimIds": ["gwr-th-work", "gwr-th-work-end"]
+      },
+      "inMyth": {
+        "text": "原典では、ラグナロクののち大地が再び海から現れると、トールの息子モージとマグニがミョルニルを持つ。",
+        "claimIds": ["gwr-th-myth-after"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のトールはミズガルズの大蛇と相討ちになるが、本作のトールは大蛇を退けたのち、父オーディンの手で殺される。トールの死を、終末の怪物との戦いではなく、父と子の対立の結末として描いている。",
+      "claimIds": [
+        "gwr-th-myth-ragnarok",
+        "gwr-th-work-end",
+        "gwr-th-cmp-death"
+      ]
+    },
+    {
+      "text": "原典でミョルニルを受け継ぐのは息子のモージとマグニだが、本作では二人はすでに前作で死んでおり、娘のスルーズがミョルニルを手にする。",
+      "claimIds": [
+        "gwr-th-myth-after",
+        "gwr-th-work",
+        "gwr-th-work-end",
+        "gwr-th-cmp-heir"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gwr-th-work",
+      "text": "トールはアース神族の雷神でオーディンの長男。バルドルの異母兄で、モーディとマグニの父だが、三人とも前作でクレイトスとアトレウスに殺されている。自身も巨人の血を引きながら槌ミョルニルで巨人を殺してきた。父の命令に従っているが、いつも父に見下されている。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「God of War Ragnarök」、日本語版「ゴッド・オブ・ウォー ラグナロク」の記述で確認。"
+    },
+    {
+      "id": "gwr-th-work-end",
+      "text": "アスガルド攻めでは、トールはヨルムンガンドと戦い、大蛇を過去の時代へと打ち飛ばす。続いてクレイトスと戦うが、家族のために矛を収めるよう説かれて従い、命令に背いたとしてオーディンに殺される。戦いの後、娘スルーズがトールをたたえてミョルニルを手にする。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「God of War Ragnarök」、日本語版「ゴッド・オブ・ウォー ラグナロク」の記述で確認。"
+    },
+    {
+      "id": "gwr-th-myth-birth",
+      "text": "『散文エッダ』によれば、大地（ヨルズ）はオーディンの娘であり妻で、オーディンは彼女とのあいだに最初の息子アーサ・トールをもうけた。ヨルズは、巨人ナルヴィ（ノルヴィ）の娘である夜（ノーット）とアンナルの娘である。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 9章・10章"
+    },
+    {
+      "id": "gwr-th-myth-treasures",
+      "text": "『散文エッダ』によれば、トールの槌ミョルニルは、霜の巨人や山の巨人が、振り上げられるとそれと知るもので、彼らの父祖や親族の頭蓋を数多く砕いてきた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "gwr-th-myth-ragnarok",
+      "text": "『散文エッダ』によれば、ラグナロクでトールはミズガルズの大蛇を倒したのち、九歩進んで、大蛇が吹きかけた毒のために倒れて死ぬ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "gwr-th-myth-after",
+      "text": "『散文エッダ』によれば、ラグナロクののち大地が再び海から現れると、トールの息子モージとマグニがやって来て、ミョルニルを持つ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 53章"
+    },
+    {
+      "id": "gwr-th-cmp-death",
+      "text": "原典で大蛇と相討ちになるトールを、本作は父オーディンに殺される者として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gwr-th-cmp-heir",
+      "text": "原典でミョルニルを継ぐ息子たちに代わり、本作では娘スルーズがミョルニルを手にする。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-ragnarok", "snorri-edda"],
+  "articleIds": []
+}

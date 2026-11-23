@@ -1,0 +1,17 @@
+{
+  "id": "cronus",
+  "slug": "cronus",
+  "name": "クロノス",
+  "reading": "くろのす",
+  "originalName": "Κρόνος",
+  "romanized": "Kronos",
+  "alternativeNames": [],
+  "type": "titan",
+  "roles": ["ティタンの王"],
+  "mythologyIds": ["greek"],
+  "description": "ウラノスとガイアの子であるティタン。レアとのあいだにヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスをもうけたが、自分の子に王座を奪われると知って、生まれた子を次々に飲み込んだ。ゼウスの代わりに産着でくるんだ石を飲まされ、のちにゼウスに打ち倒された。",
+  "relatedFigureIds": ["zeus", "hades", "hestia", "demeter", "poseidon"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony"]
+}
