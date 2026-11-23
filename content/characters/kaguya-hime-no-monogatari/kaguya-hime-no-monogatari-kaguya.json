@@ -1,0 +1,218 @@
+{
+  "id": "kaguya-hime-no-monogatari-kaguya",
+  "slug": "kaguya-hime-no-monogatari-kaguya",
+  "name": "かぐや姫",
+  "reading": "かぐやひめ",
+  "alternativeNames": ["なよたけのかぐや姫", "タケノコ"],
+  "workId": "kaguya-hime-no-monogatari",
+  "description": {
+    "text": "光るタケノコの中から現れ、翁と媼に育てられた姫。山里で捨丸たち木地師の子どもと野山を駆けて育つが、都に移って高貴な姫君として暮らすことになる。実は月から地上におろされた者だった。",
+    "claimIds": ["kgy-kg-work", "kgy-kg-work-moon"]
+  },
+  "nameOrigin": {
+    "text": "『竹取物語』のかぐや姫そのもの。原作と同じく斎部秋田が「なよたけのかぐや姫」と名づける。",
+    "claimIds": ["kgy-kg-work-name", "kgy-kg-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "kaguya-hime",
+      "label": "なよ竹のかぐや姫",
+      "inWork": {
+        "text": "翁から名付けを頼まれた宮中の斎部秋田が、姫に「なよたけのかぐや姫」と名づける。山里の子どもたちからは、成長の早さから「タケノコ」と呼ばれていた。",
+        "claimIds": ["kgy-kg-work-name", "kgy-kg-work"]
+      },
+      "inMyth": {
+        "text": "『竹取物語』では、翁が三室戸斎部秋田を呼んで名をつけさせ、秋田は「なよ竹のかぐや姫」と名づけた。",
+        "claimIds": ["kgy-kg-myth-name"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "kaguya-hime",
+      "label": "竹から生まれ、すぐに育つ",
+      "inWork": {
+        "text": "翁は光るタケノコの中から手のひらに収まる大きさの姫を見つける。姫はその日のうちに赤子の姿になり、半年あまりで少女に成長した。翁はその後も光る竹から黄金や衣を授かる。",
+        "claimIds": ["kgy-kg-work"]
+      },
+      "inMyth": {
+        "text": "原典では、翁は光る竹の中に三寸ばかりの人を見つけた。その後、竹を取るたびに節のあいだに黄金の入った竹を見つけるようになり、子は三か月ほどで一人前の背丈の娘に育った。",
+        "claimIds": ["kgy-kg-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "kaguya-hime",
+      "label": "五人の公達の求婚",
+      "inWork": {
+        "text": "姫は求婚に来た五人の公達に、自分をたとえた宝物を持ってくるよう求める。宝物をめぐる顛末はほぼ原作どおりで、燕の子安貝を求めた石上中納言はツバメの巣から落ちて亡くなり、姫は自分を責める。",
+        "claimIds": ["kgy-kg-work-suitors"]
+      },
+      "inMyth": {
+        "text": "原典のかぐや姫は、五人の貴公子に仏の御石の鉢、蓬莱の玉の枝、火鼠の皮衣、龍の首の玉、燕の子安貝を求めた。",
+        "claimIds": ["kgy-kg-myth-suitors"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "kaguya-hime",
+      "label": "御門の前で消える",
+      "inWork": {
+        "text": "忍びで屋敷を訪れた御門が姫を抱きすくめて連れて行こうとすると、姫の姿はかき消える。御門が呼びかけると、姫は再び姿を現した。",
+        "claimIds": ["kgy-kg-work-mikado"]
+      },
+      "inMyth": {
+        "text": "原典でも、帝が輿を寄せて連れて行こうとすると、かぐや姫はふっと影になって消えた。帝が「もとの姿に戻ってくれ」と言うと、姫はもとの姿に戻った。",
+        "claimIds": ["kgy-kg-myth-mikado"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "kaguya-hime",
+      "label": "月への帰還と天の羽衣",
+      "inWork": {
+        "text": "八月十五日の満月の夜、天人たちが雲に乗って迎えに来る。姫は翁と媼に泣きながら別れを告げるが、天人に羽衣を着せられて去っていく。地球での記憶を失ったはずなのに、振り返った姫の目には涙が浮かんでいた。",
+        "claimIds": ["kgy-kg-work-moon"]
+      },
+      "inMyth": {
+        "text": "原典の天人は、かぐや姫は罪をつくったので、しばらく翁のもとにいたのだと告げる。天の羽衣を着せられると、翁を気の毒に悲しく思う心も消え、物思いのなくなった姫は百人ほどの天人とともに天へ昇った。",
+        "claimIds": ["kgy-kg-myth-moon"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の天の羽衣は、着た者から物思いを消してしまう。映画も羽衣で地上の記憶が消えるという筋を受け継いでいるが、最後に地球を振り返った姫の目に涙を浮かべさせ、消しきれない思いを描いている。",
+      "claimIds": ["kgy-kg-myth-moon", "kgy-kg-work-moon", "kgy-kg-cmp-tears"]
+    },
+    {
+      "text": "原典の終盤で、かぐや姫は帝に和歌と不死の薬を残し、帝はその薬を富士の山で焼かせる。映画にはこの場面がなく、物語は姫の視点で、地上の暮らしへの思いに焦点を絞っている。",
+      "claimIds": ["kgy-kg-myth-fuji", "kgy-kg-work-omit", "kgy-kg-cmp-fuji"]
+    },
+    {
+      "text": "奥ゆかしく過ごす深窓の令嬢として描かれる原作の姫に対して、映画の姫は野山を駆け回り、姫君の窮屈さを嫌うお転婆な一面をもつ。山里の子どもたちや捨丸との暮らしは、原作にない映画の創作である。",
+      "claimIds": ["kgy-kg-work-omit", "kgy-kg-work", "kgy-kg-cmp-character"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kgy-kg-work",
+      "text": "翁は光り輝くタケノコの中から手のひらに収まる大きさの姫を見つける。姫はその日のうちに人間の赤子の姿に変わり、半年あまりで少女へと成長した。捨丸ら木地師の子どもたちから「タケノコ」と呼ばれ、自然の中で天真爛漫に育つ。翁は光る竹から黄金や豪奢な衣を授かる体験を繰り返し、姫を高貴の姫君に育てようと都へ移り住む。",
+      "classification": "creative",
+      "sourceIds": ["work-kaguya-hime-no-monogatari"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「かぐや姫の物語」の記述で確認。"
+    },
+    {
+      "id": "kgy-kg-work-name",
+      "text": "宮中の祭祀を担当する斎部秋田が、翁から姫の名付けを頼まれ、姫に「なよたけのかぐや姫」と命名した。",
+      "classification": "creative",
+      "sourceIds": ["work-kaguya-hime-no-monogatari"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「かぐや姫の物語」の記述で確認。"
+    },
+    {
+      "id": "kgy-kg-work-suitors",
+      "text": "姫は五人の公達に、自分と比較された宝物をそれぞれ持参するよう求める。宝物のエピソードはほぼ原作どおりで、燕の子安貝を求められた石上中納言はツバメの巣から落ちて腰を強打し亡くなる。姫は自らを責めて悲嘆した。",
+      "classification": "creative",
+      "sourceIds": ["work-kaguya-hime-no-monogatari"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「かぐや姫の物語」の記述で確認。"
+    },
+    {
+      "id": "kgy-kg-work-mikado",
+      "text": "忍びで屋敷を訪れた御門が姫を抱きすくめて連れて行こうとすると、姫の姿はかき消える。御門の呼びかけで姫は姿を現し、御門は御所へ引き上げた。",
+      "classification": "creative",
+      "sourceIds": ["work-kaguya-hime-no-monogatari"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「かぐや姫の物語」の記述で確認。"
+    },
+    {
+      "id": "kgy-kg-work-moon",
+      "text": "姫は自分が月から地上におろされた者だと明かし、月には帰りたくないと泣き伏す。8月15日の満月の夜、天人たちが雲に乗って迎えに来て、姫は翁と媼に泣きながら別れを告げる。天人の女官に羽衣を着せられた姫は一行とともに去るが、地球での生活の記憶を失ったはずなのに、振り向いた姫の目には涙が浮かんでいた。",
+      "classification": "creative",
+      "sourceIds": ["work-kaguya-hime-no-monogatari"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「かぐや姫の物語」の記述で確認。"
+    },
+    {
+      "id": "kgy-kg-work-omit",
+      "text": "映画の姫は、奥ゆかしく過ごす深窓の令嬢的な原作の姫と違い、姫君であることの窮屈さを嫌うお転婆な面がたびたび描かれる。原作の最後にある、帝に和歌と不死の薬を残す場面はない。",
+      "classification": "creative",
+      "sourceIds": ["work-kaguya-hime-no-monogatari"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「かぐや姫の物語」の記述で確認。"
+    },
+    {
+      "id": "kgy-kg-myth-name",
+      "text": "『竹取物語』によれば、翁は三室戸斎部秋田を呼んで名をつけさせ、秋田は「なよ竹のかぐや姫」と名づけた。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の生い立ち"
+    },
+    {
+      "id": "kgy-kg-myth-birth",
+      "text": "『竹取物語』によれば、竹取の翁は光る竹の中に三寸ばかりの人を見つけて連れ帰った。その後、竹を取るたびに節のあいだに黄金のある竹を見つけるようになって豊かになり、子は三か月ほどで一人前の背丈の娘に育った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の生い立ち"
+    },
+    {
+      "id": "kgy-kg-myth-suitors",
+      "text": "『竹取物語』によれば、かぐや姫は五人の貴公子に、仏の御石の鉢、蓬莱の玉の枝、火鼠の皮衣、龍の首の玉、燕の子安貝を持ってくるよう求めた。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』五人の貴公子の求婚"
+    },
+    {
+      "id": "kgy-kg-myth-mikado",
+      "text": "『竹取物語』によれば、帝が輿を寄せてかぐや姫を連れて行こうとすると、姫はふっと影になって消えた。帝が「もとの姿に戻ってくれ、それを見て帰ろう」と言うと、姫はもとの姿に戻った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』帝の求婚"
+    },
+    {
+      "id": "kgy-kg-myth-moon",
+      "text": "『竹取物語』によれば、天人の王らしき者は、かぐや姫は罪をつくったので、しばらく翁のもとにいたのであり、罪の期限が終わったので迎えに来たと告げた。天の羽衣を着せられると、姫の翁を気の毒に悲しく思う心は消え、物思いのなくなった姫は百人ほどの天人とともに天へ昇った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の昇天"
+    },
+    {
+      "id": "kgy-kg-myth-fuji",
+      "text": "『竹取物語』によれば、かぐや姫は帝に手紙と和歌、不死の薬を残し、帝はそれを駿河の国の天に近い山の頂で焼かせた。その山は「ふじの山」と名づけられた。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の昇天・ふじの山"
+    },
+    {
+      "id": "kgy-kg-cmp-tears",
+      "text": "原典の羽衣は物思いを消すが、映画は振り返った姫の涙で、消しきれない地上への思いを描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "kgy-kg-cmp-fuji",
+      "text": "映画は帝に不死の薬を残す結末を省き、姫の地上の暮らしへの思いに焦点を絞っている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "kgy-kg-cmp-character",
+      "text": "山里の子どもたちや捨丸との暮らし、お転婆な姫の姿は、原作にない映画の創作である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kaguya-hime-no-monogatari", "taketori-monogatari"],
+  "articleIds": []
+}

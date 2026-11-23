@@ -1,0 +1,14 @@
+{
+  "id": "percy-jackson",
+  "slug": "percy-jackson",
+  "title": "パーシー・ジャクソンとオリンポスの神々",
+  "reading": "ぱーしー・じゃくそんとおりんぽすのかみがみ",
+  "type": "novel",
+  "mediaTypes": ["film"],
+  "author": "リック・リオーダン",
+  "period": "2005年〜2009年（原書）",
+  "description": "神と人間のあいだに生まれた「ハーフ（半神半人）」の少年パーシー・ジャクソンが、現代のアメリカによみがえったギリシャ神話の神々や怪物と戦うファンタジー小説のシリーズ。第1巻『盗まれた雷撃』は2010年に映画化された。",
+  "mythologyIds": ["greek"],
+  "articleIds": [],
+  "sourceIds": ["work-percy-jackson"]
+}

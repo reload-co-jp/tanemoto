@@ -1,0 +1,14 @@
+{
+  "id": "kaguya-hime-no-monogatari",
+  "slug": "kaguya-hime-no-monogatari",
+  "title": "かぐや姫の物語",
+  "reading": "かぐやひめのものがたり",
+  "type": "film",
+  "mediaTypes": ["anime"],
+  "author": "高畑勲（監督）・スタジオジブリ（制作）",
+  "period": "2013年",
+  "description": "『竹取物語』を原作とする、高畑勲監督のスタジオジブリ制作のアニメーション映画。光るタケノコから生まれた姫が、山里で木地師の子どもたちと育ったのち都へ移り、五人の公達や御門の求婚を退け、やがて月へ帰っていくまでを描く。",
+  "mythologyIds": ["japanese-legends"],
+  "articleIds": [],
+  "sourceIds": ["work-kaguya-hime-no-monogatari"]
+}

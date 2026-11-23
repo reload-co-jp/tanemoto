@@ -1,0 +1,185 @@
+{
+  "id": "300-leonidas",
+  "slug": "300-leonidas",
+  "name": "レオニダス",
+  "reading": "れおにだす",
+  "alternativeNames": ["レオニダス王", "レオニダス1世"],
+  "workId": "300",
+  "description": {
+    "text": "スパルタの王。ペルシアの使者を殺して服従を拒み、エフォロイに出兵を禁じられながらも300人の兵を率いて「灼熱の門（テルモピュライ）」でペルシア軍を迎え撃ち、全員で戦死する。",
+    "claimIds": ["s3-le-work", "s3-le-work-herald"]
+  },
+  "nameOrigin": {
+    "text": "紀元前480年のテルモピュライの戦いで戦死した、スパルタ王レオニダスそのもの。",
+    "claimIds": ["s3-le-work", "s3-le-myth-300"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "leonidas",
+      "label": "使者を穴に投げ込む",
+      "inWork": {
+        "text": "ペルシア王クセルクセスの使者が「土と水」を差し出して服従するよう求めると、レオニダスはこれを拒み、王妃ゴルゴを侮辱した使者を底なしの穴に投げ込んだ。",
+        "claimIds": ["s3-le-work-herald"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスによれば、使者を井戸に投げ込んだのはクセルクセスの父ダレイオスの代のことである。土と水を求めたダレイオスの使者を、アテナイでは処刑の穴に、スパルタでは井戸に投げ込み、そこから土と水を取って王に届けよと言った。このためクセルクセスはアテナイとスパルタには使者を送らなかった。",
+        "claimIds": ["s3-le-myth-herald"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "leonidas",
+      "label": "300人の兵",
+      "inWork": {
+        "text": "エフォロイはカルネイア祭の時期の戦争を認めず、神託もそれを支持した。レオニダスは軍の動員を禁じられたまま、跡継ぎの息子をもつ者を中心に300人の兵を集めて出陣する。",
+        "claimIds": ["s3-le-work"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスによれば、レオニダスは法の定める300人を、息子のいる市民の中から自ら選んで率いた。スパルタ人はカルネイア祭のため国にとどまり、祭りが済んだら全軍で駆けつけるつもりで、レオニダスの部隊を先に送り出した。",
+        "claimIds": ["s3-le-myth-300", "s3-le-myth-carneia"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "leonidas",
+      "label": "裏切り者エフィアルテス",
+      "inWork": {
+        "text": "エフィアルテスは、嬰児殺しを避けて両親がスパルタを逃れた、体に障害をもつスパルタ人として描かれる。盾を高く掲げられないため密集隊形を乱すとしてレオニダスに従軍を断られ、のちにペルシア側に山羊の山道（迂回路）を教えて、スパルタ軍は包囲される。",
+        "claimIds": ["s3-le-work-ephialtes"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスによれば、エフィアルテスはマリス人エウリュデモスの子で、王から多くの褒美をもらえると期待してクセルクセスに山越えの道を教えた。",
+        "claimIds": ["s3-le-myth-ephialtes"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "leonidas",
+      "label": "最期",
+      "inWork": {
+        "text": "包囲されたレオニダスは降伏を拒み、クセルクセスに槍を投げてその頬を傷つける。残ったスパルタ兵は最後まで戦い、矢の雨に倒れた。",
+        "claimIds": ["s3-le-work-death"]
+      },
+      "inMyth": {
+        "text": "ヘロドトスによれば、槍の大半が折れると兵たちは剣で戦い、レオニダスは奮戦して倒れた。クセルクセスは戦死者の中にレオニダスの遺体を見つけると、首を切って胴を磔にさせた。",
+        "claimIds": ["s3-le-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ヘロドトスでは、使者を井戸に投げ込んだのはダレイオスの代で、クセルクセスはスパルタに使者を送っていない。映画はこの逸話をレオニダス自身の行動として冒頭に置き、服従を拒む王の姿を印象づけている。",
+      "claimIds": ["s3-le-myth-herald", "s3-le-work-herald", "s3-le-cmp-herald"]
+    },
+    {
+      "text": "ヘロドトスのエフィアルテスはスパルタ人ではなくマリス人で、褒美目当てに道を教えた。映画は彼を、レオニダスに従軍を拒まれたスパルタ人に変え、裏切りの動機を個人的な恨みにしている。",
+      "claimIds": [
+        "s3-le-myth-ephialtes",
+        "s3-le-work-ephialtes",
+        "s3-le-cmp-ephialtes"
+      ]
+    },
+    {
+      "text": "カルネイア祭のために本隊が遅れたという点は原典と共通するが、ヘロドトスではレオニダスの部隊は本隊に先立って正式に送り出された先遣隊である。映画は、禁を押し切って出陣する王の物語に組み替えている。",
+      "claimIds": ["s3-le-myth-carneia", "s3-le-work", "s3-le-cmp-carneia"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "s3-le-work",
+      "text": "紀元前480年、スパルタ王レオニダスはスパルタ全軍でペルシア軍を迎え撃とうとするが、エフォロイはカルネイア祭の時期に戦争をすることを認めず、神託もその結論を支持した。軍の動員を禁じられたレオニダスは、跡継ぎの息子を残せる者を中心に300人の兵を集め、灼熱の門（テルモピュライ）へ向かう。",
+      "classification": "creative",
+      "sourceIds": ["work-300"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「300 〈スリーハンドレッド〉」、英語版「300 (film)」の記述で確認。"
+    },
+    {
+      "id": "s3-le-work-herald",
+      "text": "ペルシアの使者がクセルクセスへの服従のしるしとして「土と水」を差し出すよう求めると、レオニダスとスパルタ兵はこれを拒み、王妃ゴルゴを侮辱した使者とその一行を底なしの穴に投げ込んだ。",
+      "classification": "creative",
+      "sourceIds": ["work-300"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「300 〈スリーハンドレッド〉」、英語版「300 (film)」の記述で確認。"
+    },
+    {
+      "id": "s3-le-work-ephialtes",
+      "text": "エフィアルテスは、嬰児殺しを避けて両親がスパルタを逃れた、体に障害をもつスパルタ人として描かれる。盾を掲げられず密集隊形を乱すとしてレオニダスに従軍を断られたのち、富や女、軍服と引き換えにクセルクセスに秘密の山道を教える。",
+      "classification": "creative",
+      "sourceIds": ["work-300"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「300 〈スリーハンドレッド〉」、英語版「300 (film)」の記述で確認。 従軍を断られる経緯は英語版のあらすじによる。"
+    },
+    {
+      "id": "s3-le-work-death",
+      "text": "包囲されたレオニダスは降伏を拒み、クセルクセスに槍を投げて右頬を傷つける。残ったスパルタ兵は最後まで戦い、矢の一斉射撃に倒れた。",
+      "classification": "creative",
+      "sourceIds": ["work-300"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「300 〈スリーハンドレッド〉」、英語版「300 (film)」の記述で確認。"
+    },
+    {
+      "id": "s3-le-myth-herald",
+      "text": "ヘロドトスによれば、ダレイオスがかつて土と水を求めて使者を送ったとき、アテナイでは使者を処刑の穴に、スパルタでは井戸に投げ込み、そこから土と水を取って王に届けよと言った。このためクセルクセスはアテナイとスパルタには使者を送らなかった。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.32・7.133"
+    },
+    {
+      "id": "s3-le-myth-300",
+      "text": "ヘロドトスによれば、レオニダスは兄クレオメネスとドリエウスが亡くなったために王位に就き、法の定める300人を、息子のいる市民の中から自ら選んでテルモピュライへ率いていった。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.205"
+    },
+    {
+      "id": "s3-le-myth-carneia",
+      "text": "ヘロドトスによれば、スパルタ人はカルネイア祭のため国にとどまり、祭りが済んだら守備兵を残して全軍で駆けつけるつもりで、同盟軍を励ますためにレオニダスの部隊を本隊に先立って送り出した。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.206"
+    },
+    {
+      "id": "s3-le-myth-ephialtes",
+      "text": "ヘロドトスによれば、マリス人エウリュデモスの子エフィアルテスは、王から多くの褒美を受けられると期待してクセルクセスのもとを訪れ、山を越えてテルモピュライに出る道を教えた。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.213"
+    },
+    {
+      "id": "s3-le-myth-death",
+      "text": "ヘロドトスによれば、槍の大半が折れるとギリシア兵は剣でペルシア兵を斬り、レオニダスは奮戦して倒れた。クセルクセスは戦死者の中にレオニダスの遺体を見つけると、首を切り落として胴を磔にするよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.224・7.238"
+    },
+    {
+      "id": "s3-le-cmp-herald",
+      "text": "映画は、ダレイオスの代の使者の逸話を、レオニダス自身の行動として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "s3-le-cmp-ephialtes",
+      "text": "映画は、マリス人のエフィアルテスをレオニダスに従軍を拒まれたスパルタ人に変え、裏切りの動機を個人的な恨みにしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "s3-le-cmp-carneia",
+      "text": "ヘロドトスで正式な先遣隊だったレオニダスの部隊を、映画は禁を押し切った出陣として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-300", "herodotus-histories"],
+  "articleIds": []
+}

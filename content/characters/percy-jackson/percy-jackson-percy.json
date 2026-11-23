@@ -1,0 +1,145 @@
+{
+  "id": "percy-jackson-percy",
+  "slug": "percy-jackson-percy",
+  "name": "パーシー・ジャクソン",
+  "reading": "ぱーしー・じゃくそん",
+  "alternativeNames": ["ペルセウス・ジャクソン", "パーシー"],
+  "workId": "percy-jackson",
+  "description": {
+    "text": "シリーズの主人公で語り手。ニューヨーク生まれの問題児だったが、海の神ポセイドンの息子であるハーフ（半神半人）だと知る。盗まれたゼウスの雷撃を取り戻す旅をはじめ、神々や怪物との戦いに挑む。",
+    "claimIds": ["pj-pc-work"]
+  },
+  "nameOrigin": {
+    "text": "フルネームは「ペルセウス・ジャクソン」。名前の由来は、メドゥーサを退治したギリシャ神話の英雄ペルセウス。",
+    "claimIds": ["pj-pc-work", "pj-pc-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "perseus",
+      "label": "英雄ペルセウス",
+      "inWork": {
+        "text": "フルネームはペルセウス・ジャクソンで、名前の由来は英雄ペルセウス。父は海の神ポセイドンで、水を操る力をもち、馬やペガサスと話すこともできる。",
+        "claimIds": ["pj-pc-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ペルセウスはアルゴス王アクリシオスの娘ダナエと、黄金の雨に姿を変えたゼウスとのあいだに生まれた。アクリシオスは母子を箱に入れて海に流し、箱はセリポス島に流れ着いた。",
+        "claimIds": ["pj-pc-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "medusa",
+      "label": "メドゥーサ",
+      "inWork": {
+        "text": "第1巻の旅の途中、パーシーたちはメドゥーサに襲われる。物語の最後には、母サリーが切り落とされたメドゥーサの首を使って、義父ゲイブを石に変える。",
+        "claimIds": ["pj-pc-work-medusa"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ペルセウスはアテナに手を導かれ、青銅の盾に映るゴルゴンの姿を見ながら眠っているメドゥーサの首を切った。のちにセリポス島に戻ると、母ダナエに乱暴しようとした王ポリュデクテスとその仲間に首を見せ、石に変えた。",
+        "claimIds": ["pj-pc-myth-medusa", "pj-pc-myth-polydectes"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "perseus",
+      "label": "剣アナクルーズモス",
+      "inWork": {
+        "text": "キャップを取るとボールペンから剣に変わる魔法の剣アナクルーズモス（激流）を使う。もとはヘラクレスに与えられた武器で、長い年月を経てケイロンからパーシーの手に渡った。",
+        "claimIds": ["pj-pc-work-sword"]
+      },
+      "inMyth": {
+        "text": "原典のペルセウスは、ヘルメスから金剛の鎌を受け取り、ニンフたちから翼のあるサンダル、キビシスという袋、姿を隠すハデスの帽子を得てメドゥーサ退治に向かった。",
+        "claimIds": ["pj-pc-myth-items"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のペルセウスはゼウスの子だが、パーシーはポセイドンの子とされる。名前は英雄ペルセウスから取りながら、親の神を海の神に変えている。",
+      "claimIds": ["pj-pc-myth-birth", "pj-pc-work", "pj-pc-cmp-father"]
+    },
+    {
+      "text": "原典では、母ダナエに乱暴しようとしたポリュデクテスを、ペルセウスがメドゥーサの首で石に変える。作品では、母サリー自身がメドゥーサの首で暴力的な義父ゲイブを石に変える。母を苦しめる男が石になるという筋を受け継ぎながら、それを母の手による解放として描いている。",
+      "claimIds": [
+        "pj-pc-myth-polydectes",
+        "pj-pc-work-medusa",
+        "pj-pc-cmp-mother"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "pj-pc-work",
+      "text": "パーシー・ジャクソンはシリーズの主人公兼語り手で、ポセイドンの息子。フルネームはペルセウス・ジャクソンで、名前の由来は英雄ペルセウス。海の神の子であるため水を扱う特別な能力をもち、馬やペガサスと会話することもできる。第1巻では、盗まれたゼウスの雷撃を取り戻す旅に送り出される。",
+      "classification": "creative",
+      "sourceIds": ["work-percy-jackson"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パーシー・ジャクソンとオリンポスの神々」、英語版「Percy Jackson」「The Lightning Thief」の記述で確認。"
+    },
+    {
+      "id": "pj-pc-work-medusa",
+      "text": "第1巻『盗まれた雷撃』の旅の途中、パーシーたちはメドゥーサに襲われる。物語の最後には、パーシーの母サリーが切り落とされたメドゥーサの首を使って、再婚相手のゲイブを石に変える。",
+      "classification": "creative",
+      "sourceIds": ["work-percy-jackson"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パーシー・ジャクソンとオリンポスの神々」、英語版「Percy Jackson」「The Lightning Thief」の記述で確認。"
+    },
+    {
+      "id": "pj-pc-work-sword",
+      "text": "パーシーは、キャップを取るとボールペンから剣に変わる魔法のアイテム、アナクルーズモス（英語版では Riptide、「激流」の意）を使う。もとはゾーイがヘラクレスに与えた武器で、長い年月を経てケイロンからパーシーの手に渡った。",
+      "classification": "creative",
+      "sourceIds": ["work-percy-jackson"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「パーシー・ジャクソンとオリンポスの神々」、英語版「Percy Jackson」「The Lightning Thief」の記述で確認。"
+    },
+    {
+      "id": "pj-pc-myth-birth",
+      "text": "アポロドロスによれば、アルゴス王アクリシオスは娘ダナエを青銅の地下室に閉じこめたが、ゼウスが黄金の流れに姿を変えて屋根から注ぎ、ダナエはペルセウスを産んだ。アクリシオスは母子を箱に入れて海に流し、箱はセリポス島に流れ着いてディクテュスに拾われた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.1"
+    },
+    {
+      "id": "pj-pc-myth-medusa",
+      "text": "アポロドロスによれば、ペルセウスは眠っているゴルゴンたちのそばに立ち、アテナに手を導かれながら、青銅の盾に映るゴルゴンの姿を見て、メドゥーサの首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "pj-pc-myth-items",
+      "text": "アポロドロスによれば、ペルセウスはニンフたちから翼のあるサンダルとキビシス（袋）とハデスの帽子を得て、ヘルメスからは金剛の鎌を受け取った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "pj-pc-myth-polydectes",
+      "text": "アポロドロスによれば、セリポス島の王ポリュデクテスはダナエに恋したが近づけず、ペルセウスにゴルゴンの首を取ってくるよう命じた。ペルセウスが島に戻ると、母とディクテュスはポリュデクテスの乱暴を逃れて祭壇に避難していた。ペルセウスは宮殿に入り、顔をそむけてゴルゴンの首を見せ、ポリュデクテスとその仲間を石に変えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2・2.4.3"
+    },
+    {
+      "id": "pj-pc-cmp-father",
+      "text": "作品は、ゼウスの子である英雄ペルセウスの名を取りながら、主人公の親を海の神ポセイドンに変えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pj-pc-cmp-mother",
+      "text": "母を苦しめる男がメドゥーサの首で石になる筋は原典と共通するが、作品ではそれを母自身の手による解放として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-percy-jackson", "apollodorus-library"],
+  "articleIds": []
+}
