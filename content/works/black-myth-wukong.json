@@ -1,0 +1,14 @@
+{
+  "id": "black-myth-wukong",
+  "slug": "black-myth-wukong",
+  "title": "黒神話：悟空",
+  "reading": "くろしんわ ごくう",
+  "type": "game",
+  "mediaTypes": [],
+  "author": "Game Science",
+  "period": "2024年",
+  "description": "『西遊記』を題材にした中国のアクションRPG。取経の旅を終えて仏となった孫悟空は、天界と対立して二郎真君に敗れ、花果山の岩となった。名もなき猿「天命人」が、悟空の力が宿った宝具を集める旅に出る。",
+  "mythologyIds": ["chinese"],
+  "articleIds": [],
+  "sourceIds": ["work-black-myth-wukong"]
+}

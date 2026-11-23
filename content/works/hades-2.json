@@ -1,0 +1,14 @@
+{
+  "id": "hades-2",
+  "slug": "hades-2",
+  "title": "Hades II",
+  "reading": "はです つー",
+  "type": "game",
+  "mediaTypes": [],
+  "author": "Supergiant Games",
+  "period": "2024年（早期アクセス）、2025年（正式版）",
+  "description": "冥界の王ハデスの娘メリノエを主人公とするローグライク・アクションゲーム。『Hades』（2020年）の続編。冥界を乗っ取り家族を幽閉した時のティタン、クロノスを倒すため、メリノエは師の魔女ヘカテのもとで修行し、オリュンポスの神々の加護を受けて戦う。",
+  "mythologyIds": ["greek"],
+  "articleIds": [],
+  "sourceIds": ["work-hades-2"]
+}

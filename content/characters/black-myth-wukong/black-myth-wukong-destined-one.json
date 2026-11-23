@@ -1,0 +1,193 @@
+{
+  "id": "black-myth-wukong-destined-one",
+  "slug": "black-myth-wukong-destined-one",
+  "name": "天命人",
+  "reading": "てんめいじん",
+  "alternativeNames": ["Destined One"],
+  "workId": "black-myth-wukong",
+  "description": {
+    "text": "本作の主人公である名もなき若い猿。孫悟空の死後、花果山の長老猿に送り出され、悟空の力が宿った宝具を集める旅に出る。旅の終わりに、自分こそが悟空の「心」を受け継ぐ後継者だと知らされる。",
+    "claimIds": ["bmw-do-work", "bmw-do-work-end"]
+  },
+  "nameOrigin": {
+    "text": "モデルは『西遊記』の孫悟空。天命人は悟空そのものではなく、悟空の跡を継ぐ者として描かれる。",
+    "claimIds": ["bmw-do-work", "bmw-do-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "sun-wukong",
+      "label": "孫悟空の後継者",
+      "inWork": {
+        "text": "取経の旅を終えて闘戦勝仏となった孫悟空は、天界と対立して倒れ、花果山の大岩となった。天命人は、悟空の力を宿して三界に散った宝具を集めるため、長老猿に送り出される。",
+        "claimIds": ["bmw-do-work"]
+      },
+      "inMyth": {
+        "text": "『西遊記』の孫悟空は、花果山の頂の仙石が割れて生まれた石卵から、風にあたって石猿となった。取経の旅を終えると、如来から闘戦勝仏に任じられた。",
+        "claimIds": ["bmw-do-myth-birth", "bmw-do-myth-buddha"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "sun-wukong",
+      "label": "伸び縮みする棒",
+      "inWork": {
+        "text": "天命人の武器は、『西遊記』の如意金箍棒によく似た棒で、戦いの中で伸びたり縮んだりする。",
+        "claimIds": ["bmw-do-work-staff"]
+      },
+      "inMyth": {
+        "text": "悟空は東海竜王の海蔵で、両端に金の箍がはまった鉄の柱を見つけた。「もっと細く短く」と言うとそのとおりに縮み、箍のそばには「如意金箍棒、重さ一万三千五百斤」と刻まれていた。",
+        "claimIds": ["bmw-do-myth-staff"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "sun-wukong",
+      "label": "変化の術",
+      "inWork": {
+        "text": "術の一つ「変化」を使うと、天命人は別の姿に変身し、その姿ならではの技で戦える。",
+        "claimIds": ["bmw-do-work-staff"]
+      },
+      "inMyth": {
+        "text": "悟空は須菩提祖師から、地煞の数にあたる七十二般の変化の術を授かった。",
+        "claimIds": ["bmw-do-myth-72"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "sun-wukong",
+      "label": "二郎真君との戦い",
+      "inWork": {
+        "text": "天界に戻ることを拒んだ悟空は、二郎真君と死闘を繰り広げるが、頭に再び緊箍児が現れて苦しむ隙をつかれ、下界に落とされる。天命人は旅の終盤で二郎真君を破る。",
+        "claimIds": ["bmw-do-work", "bmw-do-work-end"]
+      },
+      "inMyth": {
+        "text": "『西遊記』で天界を荒らした悟空を捕らえたのは、玉帝の甥の二郎真君である。太上老君が天から投げた金鋼琢が悟空の頭に当たり、倒れたところを二郎の細犬がふくらはぎにかみつき、七聖が押さえつけた。",
+        "claimIds": ["bmw-do-myth-erlang"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "sun-wukong",
+      "label": "緊箍児",
+      "inWork": {
+        "text": "旅の終わりに悟空の抜け殻が消えると、その頭にあった緊箍児が水に落ちる。結末の一つでは長老猿が天命人に緊箍児をかぶせ、もう一つでは天命人は緊箍児をつけず自由なまま残る。",
+        "claimIds": ["bmw-do-work-end"]
+      },
+      "inMyth": {
+        "text": "観音菩薩は三蔵に「定心真言」、またの名を「緊箍児咒」を授け、悟空が言うことを聞かなければこれを唱えるよう教えた。旅の終わりに仏となった悟空が頭を探ると、金箍はすでになくなっていた。",
+        "claimIds": ["bmw-do-myth-circlet", "bmw-do-myth-buddha"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作では、悟空が仏になると緊箍児は自然に消える。本作では、仏となったはずの悟空の頭に緊箍児が再び現れ、天界との戦いで敗れる原因になる。結末で天命人が緊箍児をかぶるかどうかを選ばせる展開は、原作で悟空を縛っていた輪を「自由」の象徴として問い直している。",
+      "claimIds": [
+        "bmw-do-myth-buddha",
+        "bmw-do-work",
+        "bmw-do-work-end",
+        "bmw-do-cmp-circlet"
+      ]
+    },
+    {
+      "text": "原作で二郎真君は、天界で暴れた悟空を捕らえる役である。本作は取経の旅の後日談として、二郎真君と悟空の二度目の戦いを置き、天命人が二郎真君を破る筋に組み替えている。",
+      "claimIds": [
+        "bmw-do-myth-erlang",
+        "bmw-do-work",
+        "bmw-do-work-end",
+        "bmw-do-cmp-erlang"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "bmw-do-work",
+      "text": "取経の旅を終えて闘戦勝仏となった孫悟空は、天界に控えさせたい神仏と、故郷に戻りたい悟空とのあいだで対立が生じる。二郎真君と再び死闘を繰り広げる悟空は、頭に再び緊箍児が現れて苦しむ隙をつかれ、下界に落とされて花果山の大岩となる。悟空は死の間際に神力を宝具に宿して三界に散らせており、長老猿は名もなき若い猿「天命人」を宝具集めの旅に出す。",
+      "classification": "creative",
+      "sourceIds": ["work-black-myth-wukong"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「黒神話:悟空」、英語版「Black Myth: Wukong」の記述で確認。"
+    },
+    {
+      "id": "bmw-do-work-staff",
+      "text": "天命人は『西遊記』の孫悟空をモデルにした猿で、武器は如意金箍棒によく似た棒。戦いの中で伸び縮みする。術の一つ「変化」を使うと、別の存在に姿を変え、その姿固有の技で戦える。",
+      "classification": "creative",
+      "sourceIds": ["work-black-myth-wukong"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「黒神話:悟空」、英語版「Black Myth: Wukong」の記述で確認。"
+    },
+    {
+      "id": "bmw-do-work-end",
+      "text": "天命人は旅の終盤で二郎真君と四天王を破る。花果山で長老猿は、天命人こそが悟空の「心」であり、宇宙は悟空の後継者を生み出すのだと明かす。悟空の抜け殻を倒すと緊箍児が水に落ち、結末の一つでは長老猿が天命人に緊箍児をかぶせ、もう一つの結末では天命人は緊箍児をつけず自由なまま残る。",
+      "classification": "creative",
+      "sourceIds": ["work-black-myth-wukong"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「黒神話:悟空」、英語版「Black Myth: Wukong」の記述で確認。"
+    },
+    {
+      "id": "bmw-do-myth-birth",
+      "text": "『西遊記』によれば、花果山の頂にある仙石が天地の精気を受けて霊気を宿し、割れて石卵を生んだ。石卵は風にあたって石猿となった。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第1回"
+    },
+    {
+      "id": "bmw-do-myth-buddha",
+      "text": "『西遊記』によれば、取経の旅を終えた孫悟空は如来から闘戦勝仏に任じられた。悟空が三蔵に緊箍児を外す呪文を唱えるよう頼むと、三蔵は仏になったのだから自然に消えたはずだと答え、悟空が頭を探ると箍はなくなっていた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第100回"
+    },
+    {
+      "id": "bmw-do-myth-staff",
+      "text": "『西遊記』によれば、悟空は東海竜王の海蔵で金色に光る鉄の柱を見つけ、「もっと細く短く」と言うとそのとおりに縮んだ。両端に金の箍がはまり、そばに「如意金箍棒、重一万三千五百斤」と刻まれていた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第3回"
+    },
+    {
+      "id": "bmw-do-myth-72",
+      "text": "『西遊記』によれば、須菩提祖師は天罡の数の三十六般の変化と地煞の数の七十二般の変化があると言い、悟空は七十二般の変化を選んで、すべて習得した。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第2回"
+    },
+    {
+      "id": "bmw-do-myth-erlang",
+      "text": "『西遊記』によれば、観音菩薩の推薦で玉帝の甥の顕聖二郎真君が悟空討伐に向かった。太上老君が天から金鋼琢を投げて悟空の頭に当て、倒れた悟空に二郎の細犬がかみつき、梅山の七聖が押さえつけて捕らえた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第6回"
+    },
+    {
+      "id": "bmw-do-myth-circlet",
+      "text": "『西遊記』によれば、老母の姿をした観音菩薩は三蔵に「定心真言」、またの名を「緊箍児咒」を授け、悟空が言うことを聞かなければひそかに唱えるよう教えた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第14回"
+    },
+    {
+      "id": "bmw-do-cmp-circlet",
+      "text": "原作では仏になると消える緊箍児を、本作は悟空の敗北の原因とし、結末でそれをかぶるかどうかを天命人に選ばせている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "bmw-do-cmp-erlang",
+      "text": "本作は、原作で悟空を捕らえる二郎真君との戦いを、取経の旅の後日談として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-black-myth-wukong", "xiyouji"],
+  "articleIds": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "hades-2-prometheus",
+  "slug": "hades-2-prometheus",
+  "name": "プロメテウス",
+  "reading": "ぷろめてうす",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "クロノスの軍勢を率いてオリュンポス山を攻めるティタン。自分を幽閉したオリュンポスの神々への復讐を望んでいる。",
+    "claimIds": ["h2-pr-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話のティタン、プロメテウスがモデル。",
+    "claimIds": ["h2-pr-work", "h2-pr-myth-chain"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "prometheus",
+      "label": "ゼウスによる幽閉",
+      "inWork": {
+        "text": "かつて自分を幽閉したオリュンポスの神々に復讐するため、クロノスの軍勢を率いる。",
+        "claimIds": ["h2-pr-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、ゼウスはプロメテウスを解けない鎖で縛り、柱を胴に通して、翼の長い鷲に不死の肝臓を食わせた。肝臓は夜のあいだに、鷲が昼に食べた分だけ元に戻った。",
+        "claimIds": ["h2-pr-myth-chain"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "prometheus",
+      "label": "ゼウスと知恵を競う",
+      "inWork": {
+        "text": "オリュンポス山の領域のボスとしてメリノエの前に立ちはだかる。",
+        "claimIds": ["h2-pr-work"]
+      },
+      "inMyth": {
+        "text": "プロメテウスがゼウスの怒りを買ったのは、知恵でゼウスと張り合ったためである。メコネで牛を切り分けたとき、プロメテウスは肉と脂の多い内臓を皮と胃袋で隠し、ゼウスには白い骨を輝く脂で包んで差し出した。",
+        "claimIds": ["h2-pr-myth-mecone"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のプロメテウスは、ゼウスの許しのもとでヘラクレスに鷲を射殺されて解放され、ゼウスもかつての怒りを収める。本作のプロメテウスは、幽閉への恨みを抱き続け、クロノスの側についてオリュンポスに攻めこむ。原典の和解を描かず、ゼウスへの反逆者としての面を強めている。",
+      "claimIds": ["h2-pr-myth-chain", "h2-pr-work", "h2-pr-cmp-revenge"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-pr-work",
+      "text": "オリュンポス山がクロノスの軍勢に攻められており、その軍を率いるのは、自分を幽閉したオリュンポスの神々への復讐を望むティタンのプロメテウスである。プロメテウスはオリュンポス山の領域のボスとして登場する。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades II」の記述で確認。"
+    },
+    {
+      "id": "h2-pr-myth-chain",
+      "text": "ヘシオドス『神統記』によれば、ゼウスはプロメテウスを解けない鎖で縛り、柱を胴に通して、翼の長い鷲に不死の肝臓を食わせた。肝臓は夜のあいだに、鷲が昼に食べた分だけ元に戻った。のちにヘラクレスが、ゼウスの意に反することなくこの鷲を殺して解放し、ゼウスもかつての怒りを収めた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』521–534行"
+    },
+    {
+      "id": "h2-pr-myth-mecone",
+      "text": "ヘシオドス『神統記』によれば、ゼウスの怒りは、プロメテウスが知恵でゼウスと張り合ったためだった。メコネで神々と人間が争ったとき、プロメテウスは大きな牛を切り分け、肉と脂の多い内臓を皮の上に置いて胃袋で覆い、ゼウスには白い骨を巧みに輝く脂で包んで差し出した。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』533–541行"
+    },
+    {
+      "id": "h2-pr-cmp-revenge",
+      "text": "原典で解放されゼウスと和解するプロメテウスを、本作は幽閉の恨みを抱き続ける反逆者として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "hesiod-theogony"],
+  "articleIds": []
+}

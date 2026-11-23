@@ -1,0 +1,101 @@
+{
+  "id": "fate-strange-fake-alcides",
+  "slug": "fate-strange-fake-alcides",
+  "name": "アルケイデス",
+  "reading": "あるけいです",
+  "alternativeNames": ["真アーチャー", "アヴェンジャー"],
+  "workId": "fate-strange-fake",
+  "description": {
+    "text": "2人目の弓兵（真アーチャー）として召喚されたギリシャの大英雄。令呪と聖杯の呪いの「泥」によって復讐者（アヴェンジャー）の性質を与えられ、神々への復讐を望むようになった。",
+    "claimIds": ["fsf-al-work"]
+  },
+  "nameOrigin": {
+    "text": "ヘラクレスの幼名アルケイデスから。復讐者に変質したのち、大英雄として知られる名ではなく、人としての幼名を名乗る。",
+    "claimIds": ["fsf-al-work", "fsf-al-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "heracles",
+      "label": "幼名アルケイデス",
+      "inWork": {
+        "text": "変質した後に名乗る真名は、ギリシャの大英雄として知られる名ではなく、人としての幼名であるアルケイデス。",
+        "claimIds": ["fsf-al-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘラクレスはそれまでアルケイデスと呼ばれており、デルポイの巫女が初めて彼をヘラクレスと呼んだ。",
+        "claimIds": ["fsf-al-myth-name"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "heracles",
+      "label": "子殺しの罪",
+      "inWork": {
+        "text": "自身にとっての禁忌は「幼子を手にかける」こと。復讐者に変質したことで、その禁忌さえ犯せるようになっている。",
+        "claimIds": ["fsf-al-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘラクレスはヘラの嫉妬によって狂気に陥り、妻メガラとのあいだの自分の子どもたちと、兄弟イピクレスの子二人を火に投げこんだ。",
+        "claimIds": ["fsf-al-myth-name"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "heracles",
+      "label": "十二の功業",
+      "inWork": {
+        "text": "宝具の一つ「十二の栄光（キングス・オーダー）」は、生前の試練をねじ伏せた証の数々を具現化させるもの。",
+        "claimIds": ["fsf-al-work"]
+      },
+      "inMyth": {
+        "text": "子殺しののち、ヘラクレスは自らを追放して清めを受け、デルポイの神託に従ってティリュンスでエウリュステウスに十二年仕え、課された功業を果たすことになった。",
+        "claimIds": ["fsf-al-myth-name"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で「ヘラクレス」の名は、子殺しの罪を清めるために神託を求めたときに巫女から与えられた名である。作品のアルケイデスは、その名を捨てて罪以前の幼名に戻り、神々への復讐を望む。神々に与えられた名を拒む姿として、原典の名づけの場面を裏返している。",
+      "claimIds": ["fsf-al-myth-name", "fsf-al-work", "fsf-al-cmp-name"]
+    },
+    {
+      "text": "原典の子殺しは、ヘラが送りこんだ狂気によるもので、ヘラクレスの罪の始まりである。作品はこれを「幼子を手にかける」ことへの禁忌として受け継ぎ、それを破れるようになったことを変質の深さとして描いている。",
+      "claimIds": ["fsf-al-myth-name", "fsf-al-work", "fsf-al-cmp-taboo"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsf-al-work",
+      "text": "真アーチャーは2人目の弓兵のサーヴァントで、元々はアーチャーとして召喚されたが、3画の令呪と冬木の聖杯の呪いの「泥」、マスターの支配魔術の併用によって復讐者（アヴェンジャー）の性質を付与され、神々への復讐を聖杯に賭ける望みとするようになった。そのため自身にとっての禁忌である「幼子を手にかける」ことさえ可能になっている。変質した後は、ギリシャの大英雄として知られる名ではなく、人としての幼名であるアルケイデスを名乗る。宝具は生前の試練をねじ伏せた証の数々を具現化させる「十二の栄光（キングス・オーダー）」など。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-strange-fake"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/strange Fake」の記述で確認。"
+    },
+    {
+      "id": "fsf-al-myth-name",
+      "text": "アポロドロスによれば、ヘラクレスはミニュアイ人との戦いののち、ヘラの嫉妬によって狂気に陥り、メガラとのあいだの自分の子どもたちとイピクレスの子二人を火に投げこんだ。自らを追放してテスピオスに清められ、デルポイで住むべき地を問うと、巫女は初めて彼をヘラクレスと呼んだ。それまで彼はアルケイデスと呼ばれていた。巫女は、ティリュンスでエウリュステウスに十二年仕えて課された功業を果たせば不死になると告げた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "fsf-al-cmp-name",
+      "text": "原典で罪の清めのときに巫女から与えられた「ヘラクレス」の名を捨て、幼名に戻るところに、神々への反抗が表れている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsf-al-cmp-taboo",
+      "text": "作品は、原典の子殺しを「幼子を手にかける」ことへの禁忌として受け継いでいる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-strange-fake", "apollodorus-library"],
+  "articleIds": []
+}

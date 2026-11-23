@@ -1,0 +1,17 @@
+{
+  "id": "prometheus",
+  "slug": "prometheus",
+  "name": "プロメテウス",
+  "reading": "ぷろめてうす",
+  "originalName": "Προμηθεύς",
+  "romanized": "Prometheus",
+  "alternativeNames": [],
+  "type": "titan",
+  "roles": ["ティタン"],
+  "mythologyIds": ["greek"],
+  "description": "ティタンのイアペトスとクリュメネの子で、知恵にたけた神。メコネで牛の肉を分けるときにゼウスを欺こうとし、ゼウスの怒りを買った。ゼウスに鎖で縛られ、昼のあいだ鷲に肝臓を食われ、夜にはそれが元に戻る苦しみを受けたが、のちにヘラクレスが鷲を射殺して解放した。",
+  "relatedFigureIds": ["zeus", "heracles"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony"]
+}

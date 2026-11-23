@@ -1,0 +1,17 @@
+{
+  "id": "hecate",
+  "slug": "hecate",
+  "name": "ヘカテ",
+  "reading": "へかて",
+  "originalName": "Ἑκάτη",
+  "romanized": "Hekate",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["女神"],
+  "mythologyIds": ["greek"],
+  "description": "ティタンのペルセスとアステリアのひとり娘。ヘシオドス『神統記』では、ゼウスにあらゆる神々の上に敬われ、大地・海・天に分け前をもつ女神として讃えられる。祈りを聞き入れた者に富や勝利を与え、若者を養う者とされた。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony"]
+}

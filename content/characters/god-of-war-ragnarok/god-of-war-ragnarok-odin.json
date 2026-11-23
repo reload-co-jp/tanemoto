@@ -1,0 +1,165 @@
+{
+  "id": "god-of-war-ragnarok-odin",
+  "slug": "god-of-war-ragnarok-odin",
+  "name": "オーディン",
+  "reading": "おーでぃん",
+  "alternativeNames": ["全父オーディン"],
+  "workId": "god-of-war-ragnarok",
+  "description": {
+    "text": "アスガルドの王で、九つの世界の「全父」。本作の主な敵。病的な嘘つきで人を操り、ラグナロクで自分が死ぬ運命を避けるためなら手段を選ばない。",
+    "claimIds": ["gwr-od-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話の主神オーディンそのもの。",
+    "claimIds": ["gwr-od-work", "gwr-od-myth-eye"]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "odin",
+      "label": "片目",
+      "inWork": {
+        "text": "ラグナロクを防ぐ答えを求めて世界のあいだの裂け目をのぞきこんだとき、片目を失った。",
+        "claimIds": ["gwr-od-work"]
+      },
+      "inMyth": {
+        "text": "原典のオーディンは、知恵が蓄えられたミーミルの泉の水を一口飲むことを求め、片目を担保に差し出してようやく許された。",
+        "claimIds": ["gwr-od-myth-eye"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "odin",
+      "label": "ワタリガラス",
+      "inWork": {
+        "text": "フギンとムニンをはじめとするワタリガラスは、オーディンとアース神族が自由にどの世界にも移動できるようにし、オーディンの見張りの目にもなっている。",
+        "claimIds": ["gwr-od-work"]
+      },
+      "inMyth": {
+        "text": "原典では、オーディンの両肩にとまる二羽のワタリガラス、フギンとムニンが、毎朝世界中を飛び回り、見聞きした知らせを耳元でささやく。そのためオーディンは「鴉の神」と呼ばれる。",
+        "claimIds": ["gwr-od-myth-ravens"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "odin",
+      "label": "ラグナロク",
+      "inWork": {
+        "text": "本作のオーディンは、ラグナロクで自分が死ぬことを防ぐことに取りつかれている。最後はクレイトス、アトレウス、フレイヤに敗れ、魂を石に封じられて、その石を砕かれる。",
+        "claimIds": ["gwr-od-work", "gwr-od-work-end"]
+      },
+      "inMyth": {
+        "text": "原典のラグナロクでは、オーディンはミーミルの泉で助言を求めたのち、金の兜と槍グングニルを持って先頭を進み、フェンリル狼と戦って呑みこまれる。",
+        "claimIds": ["gwr-od-myth-ragnarok"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "odin",
+      "label": "フレイヤとの関係",
+      "inWork": {
+        "text": "ヴァン神族の女神フレイヤは、オーディンの元妻とされる。",
+        "claimIds": ["gwr-od-work-freya"]
+      },
+      "inMyth": {
+        "text": "原典でオーディンの妻はフリッグである。フレイヤはオーズという男の妻で、旅に出た夫を探して泣き、その涙は赤い黄金になる。",
+        "claimIds": ["gwr-od-myth-frigg"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のオーディンは、ラグナロクで自分の運命に向かって戦いに出て、フェンリル狼に呑まれる。本作のオーディンは、その死の運命を避けるために嘘と策略を重ねる人物として描かれる。終末をめぐる原典の予言を、悪役の動機に置き換えている。",
+      "claimIds": ["gwr-od-myth-ragnarok", "gwr-od-work", "gwr-od-cmp-fate"]
+    },
+    {
+      "text": "原典で片目を代償にするのは知恵を得るためのミーミルの泉だが、本作ではラグナロクを防ぐ答えを探して世界の裂け目をのぞいたことに変わっている。知恵を求めて代償を払う点は共通しているが、その目的が運命から逃れることに向けられている。",
+      "claimIds": ["gwr-od-myth-eye", "gwr-od-work", "gwr-od-cmp-eye"]
+    },
+    {
+      "text": "原典ではオーディンの妻はフリッグで、フレイヤは別の神（オーズ）の妻である。本作はフレイヤをオーディンの元妻とし、二柱の女神の役割を一人にまとめている。",
+      "claimIds": ["gwr-od-myth-frigg", "gwr-od-work-freya", "gwr-od-cmp-freya"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gwr-od-work",
+      "text": "本作の主な敵であるオーディンは、アスガルドの王で九つの世界の全父。病的な嘘つきで人を操り、ラグナロクで自分が死ぬことを防ぐことに取りつかれて、どんな手段もいとわない。ラグナロクを防ぐ答えを探して世界のあいだの裂け目をのぞきこんだときに片目を失った。フギンとムニンをはじめとするワタリガラスによって、オーディンとアース神族はどの世界にも自由に移動でき、ワタリガラスは彼らの見張りの目でもある。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「God of War Ragnarök」、日本語版「ゴッド・オブ・ウォー ラグナロク」の記述で確認。"
+    },
+    {
+      "id": "gwr-od-work-end",
+      "text": "オーディンはテュールに化けて一行に紛れこみ、ブロックを刺し殺す。最後の戦いでクレイトス、アトレウス、フレイヤに敗れ、アトレウスがオーディンの魂を石に封じ、シンドリがその石を砕く。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「God of War Ragnarök」、日本語版「ゴッド・オブ・ウォー ラグナロク」の記述で確認。"
+    },
+    {
+      "id": "gwr-od-work-freya",
+      "text": "本作でヴァン神族の女神フレイヤは、ヴァルキュリャの元女王で、オーディンの元妻とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「God of War Ragnarök」、日本語版「ゴッド・オブ・ウォー ラグナロク」の記述で確認。"
+    },
+    {
+      "id": "gwr-od-myth-eye",
+      "text": "『散文エッダ』によれば、知恵と理解が蓄えられたミーミルの泉に全父がやって来て一口飲むことを求め、片目を担保に差し出してようやく許された。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15章"
+    },
+    {
+      "id": "gwr-od-myth-ravens",
+      "text": "『散文エッダ』によれば、オーディンの両肩には二羽のワタリガラス、フギンとムニンがとまり、見聞きした知らせを耳元でささやく。オーディンは夜明けに二羽を世界中に飛ばし、二羽は朝の食事どきに戻ってくる。そのためオーディンは「鴉の神」と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 38章"
+    },
+    {
+      "id": "gwr-od-myth-ragnarok",
+      "text": "『散文エッダ』によれば、ラグナロクが始まるとオーディンはミーミルの泉に赴いて助言を求める。金の兜と美しい鎧を身につけ、槍グングニルを持って先頭を進み、フェンリル狼と戦うが、狼に呑みこまれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "gwr-od-myth-frigg",
+      "text": "『散文エッダ』によれば、オーディンの妻はフョルギュンの娘フリッグである。フレイヤはオーズという男の妻で、長い旅に出た夫を思って泣き、その涙は赤い黄金になる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 9章・35章"
+    },
+    {
+      "id": "gwr-od-cmp-fate",
+      "text": "原典で運命どおりにフェンリル狼に呑まれるオーディンを、本作は死の運命を避けようとする悪役として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gwr-od-cmp-eye",
+      "text": "片目を失う理由が、原典の知恵を得るためから、本作ではラグナロクを防ぐ答えを探すためへと変わっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gwr-od-cmp-freya",
+      "text": "本作はフレイヤをオーディンの元妻とし、原典のフリッグとフレイヤの役割を一人にまとめている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-ragnarok", "snorri-edda"],
+  "articleIds": []
+}

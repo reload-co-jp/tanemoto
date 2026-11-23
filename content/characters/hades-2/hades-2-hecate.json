@@ -1,0 +1,104 @@
+{
+  "id": "hades-2-hecate",
+  "slug": "hades-2-hecate",
+  "name": "ヘカテ",
+  "reading": "へかて",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "メリノエの師となる魔女の女神。クロノスが冥界を乗っ取ったとき、生まれたばかりのメリノエを連れてエレボスの十字路（クロスロード）へ逃れ、クロノスを倒せるよう育てあげる。",
+    "claimIds": ["h2-he-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話の女神ヘカテがモデル。",
+    "claimIds": ["h2-he-work", "h2-he-myth-honor"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hecate",
+      "label": "若者を育てる女神",
+      "inWork": {
+        "text": "赤子のメリノエを十字路で育て、クロノスに復讐できるよう修行をつける。",
+        "claimIds": ["h2-he-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、ゼウスはヘカテを、その日以来暁の光を目にするすべての若者を養う者とした。初めから彼女は若者の養い手であり、それが彼女の栄誉である。",
+        "claimIds": ["h2-he-myth-nurse"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "hecate",
+      "label": "大地・海・天にまたがる力",
+      "inWork": {
+        "text": "エレボスの最初の番人として、メリノエの前に立ちはだかる。",
+        "claimIds": ["h2-he-work-boss"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、ヘカテはペルセスとアステリアのひとり娘で、ゼウスにあらゆる神々の上に敬われ、大地と海と天に分け前をもつ。祈りを聞き入れた者に富を与え、戦いや競技では勝利と栄光を授ける。",
+        "claimIds": ["h2-he-myth-honor"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ヘシオドスのヘカテは、若者の養い手として讃えられる女神である。本作ではこの性格が、赤子のメリノエを育てる師という役どころに生かされている。",
+      "claimIds": ["h2-he-myth-nurse", "h2-he-work", "h2-he-cmp-nurse"]
+    },
+    {
+      "text": "本作のヘカテは魔術を教える魔女として描かれるが、『神統記』のヘカテ讃歌には魔術や十字路との結びつきは語られておらず、大地・海・天に分け前をもち、あらゆる人に恵みを与える女神として讃えられている。",
+      "claimIds": ["h2-he-myth-honor", "h2-he-work", "h2-he-cmp-witch"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-he-work",
+      "text": "クロノスが冥界を乗っ取ったとき、ヘカテは生まれたばかりのメリノエを連れてエレボスの十字路（クロスロード）へ逃れた。ヘカテはメリノエを育て、いつかクロノスに復讐できるよう修行をつける。メリノエは魔術とつながりのある存在として描かれ、ヘカテはその師となる。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades II」の記述で確認。"
+    },
+    {
+      "id": "h2-he-work-boss",
+      "text": "エレボスの領域の最後に待つボスはヘカテである。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades II」の記述で確認。"
+    },
+    {
+      "id": "h2-he-myth-honor",
+      "text": "ヘシオドス『神統記』によれば、ヘカテはペルセスとアステリアの娘で、ゼウスにあらゆるものの上に敬われ、大地と不毛の海に分け前をもち、星の輝く天でも栄誉を受けた。ひとり子であるが、ゼウスに敬われるためにかえって多くの栄誉をもつ。祈りを聞き入れた者には富を与え、戦いでは望む者に勝利と栄光を授け、競技者や騎手、漁師にも恵みを与える。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』409–449行"
+    },
+    {
+      "id": "h2-he-myth-nurse",
+      "text": "ヘシオドス『神統記』によれば、ゼウスはヘカテを、その日以来暁の光を目にする若者たちの養い手とした。こうして初めから彼女は若者の養い手であり、それが彼女の栄誉である。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』450–452行"
+    },
+    {
+      "id": "h2-he-cmp-nurse",
+      "text": "若者の養い手というヘシオドスのヘカテ像は、メリノエを育てる師という本作の役どころに生かされている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-he-cmp-witch",
+      "text": "『神統記』のヘカテには、魔術や十字路との結びつきは語られていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "hesiod-theogony"],
+  "articleIds": []
+}

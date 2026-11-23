@@ -1,0 +1,122 @@
+{
+  "id": "hades-2-chronos",
+  "slug": "hades-2-chronos",
+  "name": "クロノス",
+  "reading": "くろのす",
+  "alternativeNames": ["時のティタン"],
+  "workId": "hades-2",
+  "description": {
+    "text": "「時のティタン」。かつて自分の子どもたちに打ち倒されたが、復讐のためによみがえって冥界を乗っ取り、ハデス、ペルセポネ、ザグレウスを幽閉する。メリノエに何度倒されても、時を操る力で生き返る。",
+    "claimIds": ["h2-cr-work"]
+  },
+  "nameOrigin": {
+    "text": "モデルはゼウスたちの父であるティタン、クロノス。",
+    "claimIds": ["h2-cr-work", "h2-cr-myth-swallow"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "cronus",
+      "label": "子に王座を奪われた父",
+      "inWork": {
+        "text": "かつて自分の子どもたちに打ち倒されたクロノスは、よみがえって、自分に逆らった神々と人間に復讐しようとする。",
+        "claimIds": ["h2-cr-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、クロノスは自分の子に打ち倒される運命だと知り、レアが産んだヘスティア、デメテル、ヘラ、ハデス、ポセイドンを次々に飲みこんだ。末子ゼウスの代わりに産着でくるんだ石を飲まされ、のちにゼウスに力で打ち倒された。",
+        "claimIds": ["h2-cr-myth-swallow"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "cronus",
+      "label": "タルタロス",
+      "inWork": {
+        "text": "メリノエはタルタロスまで下ってクロノスと戦う。",
+        "claimIds": ["h2-cr-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、ティタンとの戦いに敗れたティタンたちは、大地の下、天が地から離れているのと同じだけ深いタルタロスに投げこまれ、鎖につながれた。",
+        "claimIds": ["h2-cr-myth-tartarus"]
+      }
+    },
+    {
+      "aspect": "title",
+      "figureId": "cronus",
+      "label": "時のティタン",
+      "inWork": {
+        "text": "本作のクロノスは「時のティタン」と呼ばれ、時を操る力で、倒されても生き返る。",
+        "claimIds": ["h2-cr-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスのクロノスは「狡猾なクロノス」「神々のかつての王」と呼ばれる王であり、時を司る神としては描かれていない。",
+        "claimIds": ["h2-cr-myth-swallow", "h2-cr-cmp-time"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のクロノスは子を飲みこみ、のちにゼウスに打ち倒される。本作ではハデスの父、メリノエの祖父として、子どもたちへの復讐のためによみがえる。最後には、孫たちと幸せに暮らす別の時間の流れを垣間見て悔い改める、原典にはない結末が用意されている。",
+      "claimIds": [
+        "h2-cr-myth-swallow",
+        "h2-cr-work",
+        "h2-cr-work-end",
+        "h2-cr-cmp-end"
+      ]
+    },
+    {
+      "text": "ヘシオドスのクロノスは天地の王座を争うティタンで、時の神とは書かれていない。本作の「時のティタン」という肩書きは、時を表すギリシャ語「クロノス（chronos）」と名前を重ねた設定と読める。",
+      "claimIds": ["h2-cr-myth-swallow", "h2-cr-work", "h2-cr-cmp-time"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-cr-work",
+      "text": "時のティタン、クロノスは、かつて自分の子どもたちに打ち倒されたが、自分に逆らった神々と人間に復讐するためによみがえり、冥界を乗っ取ってハデス、ペルセポネ、ザグレウスを幽閉する。メリノエはタルタロスまで下ってクロノスを倒すが、クロノスは時を操る力で生き返る。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades II」の記述で確認。"
+    },
+    {
+      "id": "h2-cr-work-end",
+      "text": "最後の戦いでメリノエは現在のクロノスを倒し、過去のザグレウスはクロノスを殺す代わりに説得する。クロノスは、メリノエたち家族と幸せに暮らす別の時間の流れを垣間見て悔い改め、ハデスたちを解放する。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades II」の記述で確認。"
+    },
+    {
+      "id": "h2-cr-myth-swallow",
+      "text": "ヘシオドス『神統記』によれば、レアはクロノスとのあいだにヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。クロノスは自分の子に打ち倒される運命だと大地と天から聞き、生まれた子を次々に飲みこんだ。レアは末子ゼウスをクレタで産んで隠し、クロノスには産着でくるんだ大石を渡して飲みこませた。ゼウスはやがて力でクロノスを打ち倒し、その位を奪う定めだった。この箇所でクロノスは「狡猾なクロノス」「神々のかつての王」と呼ばれている。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』453–491行"
+    },
+    {
+      "id": "h2-cr-myth-tartarus",
+      "text": "ヘシオドス『神統記』によれば、ティタンたちはコットス、ブリアレオス、ギュゲスに打ち負かされ、天が地から離れているのと同じだけ大地の下にあるタルタロスへ投げこまれて、鎖につながれた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』713–725行"
+    },
+    {
+      "id": "h2-cr-cmp-end",
+      "text": "原典で子に打ち倒されるクロノスに、本作は孫たちとの別の未来を見て悔い改める結末を与えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-cr-cmp-time",
+      "text": "「時のティタン」という肩書きは、時を表すギリシャ語「クロノス（chronos）」と名前を重ねた設定と読める。ヘシオドスのクロノスは時の神として描かれていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "hesiod-theogony"],
+  "articleIds": []
+}

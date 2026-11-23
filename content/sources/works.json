@@ -208,5 +208,95 @@
     "publishedPeriod": "2019年〜（漫画）、2022年（テレビアニメ）、2023年（テレビドラマ）",
     "publisher": "講談社",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「パリピ孔明」の記述でも確認している。"
+  },
+  {
+    "id": "work-okami",
+    "title": "大神",
+    "author": "クローバースタジオ（企画・開発）・カプコン（発売）",
+    "type": "work",
+    "publishedPeriod": "2006年（PlayStation 2）、2012年（絶景版）",
+    "publisher": "カプコン",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「大神 (ゲーム)」の記述でも確認している。"
+  },
+  {
+    "id": "work-onmyoji-film",
+    "title": "陰陽師（映画）",
+    "author": "滝田洋二郎（監督）・夢枕獏（原作）",
+    "type": "work",
+    "publishedPeriod": "2001年（『陰陽師』）、2003年（『陰陽師II』）",
+    "publisher": "東宝",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「陰陽師 (映画)」の記述でも確認している。"
+  },
+  {
+    "id": "work-mighty-thor",
+    "title": "マイティ・ソー（マーベル・シネマティック・ユニバース）",
+    "author": "マーベル・スタジオ",
+    "type": "work",
+    "publishedPeriod": "2011年（『マイティ・ソー』）、2013年（『マイティ・ソー／ダーク・ワールド』）、2017年（『マイティ・ソー バトルロイヤル』）ほか",
+    "publisher": "ウォルト・ディズニー・スタジオ",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「マイティ・ソー」「ロキ (マーベル・コミック)」「ヘラ (マーベル・コミック)」の MCU 版の記述でも確認している。"
+  },
+  {
+    "id": "work-kaguya-hime-no-monogatari",
+    "title": "かぐや姫の物語",
+    "author": "高畑勲（監督）・スタジオジブリ（制作）",
+    "type": "work",
+    "publishedPeriod": "2013年",
+    "publisher": "東宝",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「かぐや姫の物語」の記述でも確認している。"
+  },
+  {
+    "id": "work-300",
+    "title": "300〈スリーハンドレッド〉",
+    "author": "ザック・スナイダー（監督）・フランク・ミラー（原作コミック）",
+    "type": "work",
+    "publishedPeriod": "2007年",
+    "publisher": "ワーナー・ブラザース",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「300 〈スリーハンドレッド〉」、英語版「300 (film)」の記述でも確認している。"
+  },
+  {
+    "id": "work-percy-jackson",
+    "title": "パーシー・ジャクソンとオリンポスの神々",
+    "author": "リック・リオーダン",
+    "type": "work",
+    "publishedPeriod": "2005年〜2009年（原書）",
+    "publisher": "ほるぷ出版（日本語版）",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「パーシー・ジャクソンとオリンポスの神々」、英語版「Percy Jackson」「The Lightning Thief」の記述でも確認している。"
+  },
+  {
+    "id": "work-black-myth-wukong",
+    "title": "黒神話：悟空",
+    "author": "Game Science",
+    "type": "work",
+    "publishedPeriod": "2024年",
+    "publisher": "Game Science",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「黒神話:悟空」、英語版「Black Myth: Wukong」の記述でも確認している。"
+  },
+  {
+    "id": "work-god-of-war-ragnarok",
+    "title": "ゴッド・オブ・ウォー ラグナロク",
+    "author": "サンタモニカスタジオ",
+    "type": "work",
+    "publishedPeriod": "2022年",
+    "publisher": "ソニー・インタラクティブエンタテインメント",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「God of War Ragnarök」、日本語版「ゴッド・オブ・ウォー ラグナロク」の記述でも確認している。"
+  },
+  {
+    "id": "work-hades-2",
+    "title": "Hades II",
+    "author": "Supergiant Games",
+    "type": "work",
+    "publishedPeriod": "2024年（早期アクセス）、2025年（正式版）",
+    "publisher": "Supergiant Games",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Hades II」の記述でも確認している。"
+  },
+  {
+    "id": "work-fate-strange-fake",
+    "title": "Fate/strange Fake",
+    "author": "成田良悟（原作）・TYPE-MOON",
+    "type": "work",
+    "publishedPeriod": "2015年〜（小説）、2026年（テレビアニメ第1期）",
+    "publisher": "KADOKAWA（電撃文庫）",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「Fate/strange Fake」の記述でも確認している。"
   }
 ]

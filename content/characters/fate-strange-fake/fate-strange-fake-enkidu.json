@@ -1,0 +1,143 @@
+{
+  "id": "fate-strange-fake-enkidu",
+  "slug": "fate-strange-fake-enkidu",
+  "name": "エルキドゥ",
+  "reading": "えるきどぅ",
+  "alternativeNames": ["ランサー"],
+  "workId": "fate-strange-fake",
+  "description": {
+    "text": "偽りの聖杯戦争で銀狼の合成獣に召喚された槍兵（ランサー）のサーヴァント。男とも女とも取れる柔和な風貌で、獣の言葉を理解する。英雄王ギルガメッシュの唯一無二の友。",
+    "claimIds": ["fsf-en-work"]
+  },
+  "nameOrigin": {
+    "text": "『ギルガメシュ叙事詩』でギルガメシュの友となるエンキドゥがモデル。Fateシリーズでは「エルキドゥ」と表記される。",
+    "claimIds": ["fsf-en-work", "fsf-en-myth-creation"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "enkidu",
+      "label": "神々が造った者",
+      "inWork": {
+        "text": "かつてギルガメッシュの離反に危機感を覚えた神々によって造られた「神造兵器」とされる。",
+        "claimIds": ["fsf-en-work"]
+      },
+      "inMyth": {
+        "text": "『ギルガメシュ叙事詩』では、ギルガメシュの横暴を嘆くウルクの人々の訴えを聞いた天神アヌが、女神アルルに、ギルガメシュと張り合う者を造るよう命じた。アルルは手を洗い、粘土をつまんで荒野にエンキドゥを造った。",
+        "claimIds": ["fsf-en-myth-creation"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "enkidu",
+      "label": "獣とともに",
+      "inWork": {
+        "text": "「獣の言葉」を理解でき、銀狼の合成獣であるマスターと意思を通わせる。自然を大切に想う温和な性格。",
+        "claimIds": ["fsf-en-work"]
+      },
+      "inMyth": {
+        "text": "造られたばかりのエンキドゥは、人も国も知らず、ガゼルとともに草を食み、獣たちと水場で水を飲んで心を喜ばせていた。",
+        "claimIds": ["fsf-en-myth-beasts"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "enkidu",
+      "label": "シャムハトとの出会い",
+      "inWork": {
+        "text": "当初は泥人形の風貌だったが、聖娼シャムハトとの邂逅により、多くの力と引き換えに知性と人の形を得た。",
+        "claimIds": ["fsf-en-work"]
+      },
+      "inMyth": {
+        "text": "狩人が連れてきた神殿の女と交わったのち、エンキドゥが獣たちのもとへ戻ると、ガゼルも野の獣も彼から逃げ去った。エンキドゥは膝が萎えてかつてのようには走れなくなったが、知恵は広くなった。",
+        "claimIds": ["fsf-en-myth-woman"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "gilgamesh",
+      "label": "ギルガメシュとの決闘",
+      "inWork": {
+        "text": "古代ウルクの街の広場での決闘の果てに、ギルガメッシュと認め合った唯一無二の友となった。",
+        "claimIds": ["fsf-en-work"]
+      },
+      "inMyth": {
+        "text": "ウルクに来たエンキドゥはギルガメシュと牡牛のように組み合い、戸口の敷居は砕け、壁は揺れた。ギルガメシュが膝を地につけて怒りが静まると、エンキドゥはギルガメシュを讃え、二人は友となった。",
+        "claimIds": ["fsf-en-myth-wrestle"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で神々がエンキドゥを造ったのは、横暴な王ギルガメシュと張り合わせ、ウルクの人々に安らぎを与えるためだった。作品はこれを、天から離反しようとする王を引き戻すための「神造兵器」と言い換えている。",
+      "claimIds": ["fsf-en-myth-creation", "fsf-en-work", "fsf-en-cmp-weapon"]
+    },
+    {
+      "text": "原典では、女と交わったエンキドゥは獣に逃げられ、走る力を失う代わりに知恵を得る。作品の「多くの力と引き換えに知性と人の形を得た」という設定は、この場面をほぼそのまま受け継いでいる。一方で作品のエルキドゥは、なお獣の言葉を解し、獣のマスターに召喚される。原典で失われたはずの獣とのつながりを残しているのが特徴である。",
+      "claimIds": [
+        "fsf-en-myth-woman",
+        "fsf-en-myth-beasts",
+        "fsf-en-work",
+        "fsf-en-cmp-beasts"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsf-en-work",
+      "text": "ランサーは偽りの聖杯戦争における槍兵のサーヴァントで、真名はエルキドゥ。男とも女とも取れる柔和な風貌で、温和な性格でマスターや自然を大切に想う。「獣の言葉」を理解できるため、銀狼の合成獣であるマスターと意思疎通ができる。かつてギルガメッシュの離反に危機感を覚えた神々によって造られた神造兵器で、古代ウルクの街の広場での決闘の果てにギルガメッシュと認め合った唯一無二の友。当初は泥人形の風貌だったが、聖娼シャムハトとの邂逅により、多くの力と引き換えに知性と人の形を得た。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-strange-fake"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/strange Fake」の記述で確認。"
+    },
+    {
+      "id": "fsf-en-myth-creation",
+      "text": "『ギルガメシュ叙事詩』によれば、ウルクの人々の嘆きを聞いたアヌは女神アルルを呼び、ギルガメシュと張り合ってウルクに安らぎを与える者を造るよう命じた。アルルは手を洗って粘土をつまみ、荒野にエンキドゥを造った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板 第2欄"
+    },
+    {
+      "id": "fsf-en-myth-beasts",
+      "text": "『ギルガメシュ叙事詩』によれば、エンキドゥは人も国も知らず、ガゼルとともに草を食み、家畜とともに水を飲み、水場で獣たちと心を喜ばせていた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板 第2–4欄"
+    },
+    {
+      "id": "fsf-en-myth-woman",
+      "text": "『ギルガメシュ叙事詩』によれば、神殿の女に満ち足りたエンキドゥが獣たちのもとへ戻ると、ガゼルも野の獣も彼から逃げ去った。エンキドゥは膝が萎えてかつてのようには走れなくなったが、成熟して知恵を広げた。女は彼を、神のように美しいと言ってウルクへ誘った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板 第4欄"
+    },
+    {
+      "id": "fsf-en-myth-wrestle",
+      "text": "『ギルガメシュ叙事詩』によれば、ギルガメシュとエンキドゥは牡牛のように組み合い、敷居は砕け壁は揺れた。ギルガメシュが膝を地につけて怒りが静まると、エンキドゥは、母ニンスンがギルガメシュを英雄たちの上に高め、エンリルが王権を授けたと讃えた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第2粘土板"
+    },
+    {
+      "id": "fsf-en-cmp-weapon",
+      "text": "原典で王と張り合わせるために造られたエンキドゥを、作品は離反する王を引き戻す「神造兵器」と言い換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsf-en-cmp-beasts",
+      "text": "作品のエルキドゥは、原典で失われた獣とのつながりを、獣の言葉を解する力として残している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-strange-fake", "gilgamesh-epic"],
+  "articleIds": []
+}

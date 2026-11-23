@@ -1,0 +1,185 @@
+{
+  "id": "okami-amaterasu",
+  "slug": "okami-amaterasu",
+  "name": "アマテラス",
+  "reading": "あまてらす",
+  "alternativeNames": ["大神アマテラス", "白野威"],
+  "workId": "okami",
+  "description": {
+    "text": "本作の主人公である白い狼。百年前、英雄イザナギとともにヤマタノオロチと戦った白野威（しらぬい）の像に宿って復活し、失った十三の「筆しらべ」の力を集めながら旅をする。",
+    "claimIds": ["okm-am-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は太陽神・天照大神から。タイトルの「大神」は、天照大神であることと狼であることを掛けている。",
+    "claimIds": ["okm-am-work-name", "okm-am-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "amaterasu",
+      "label": "天照大神（太陽神）",
+      "inWork": {
+        "text": "名前の由来は天照大神で、物語中ではときに「慈母」と呼ばれる。姿は白い体に赤い隈取りの狼として描かれる。",
+        "claimIds": ["okm-am-work-name"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、イザナギが禊で左の目を洗ったときに天照大御神が生まれ、高天原を治めるよう命じられた。",
+        "claimIds": ["okm-am-myth-birth"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "amaterasu",
+      "label": "太陽を呼ぶ力（光明）",
+      "inWork": {
+        "text": "筆しらべの一つ「光明」は、太陽を出現させて夜を昼に変える力。太陽神アマテラスが死してもなお失わなかった唯一の力とされる。",
+        "claimIds": ["okm-am-work-sun"]
+      },
+      "inMyth": {
+        "text": "天照大御神が天の石屋戸にこもると、高天原も葦原中国もすっかり暗くなり、夜ばかりが続いた。神々の計らいで天照大御神が外へ出ると、世界は再び明るく照らされた。",
+        "claimIds": ["okm-am-myth-iwato"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "amaterasu",
+      "label": "三種の神器（鏡・勾玉・剣）",
+      "inWork": {
+        "text": "戦いでは鏡・勾玉・剣の三種の神器を武器にする。剣の一つは、ヤマタノオロチが飲み込んでいた宝剣「月呼」がオロチの尾から現れて変化したもの。",
+        "claimIds": ["okm-am-work-weapons"]
+      },
+      "inMyth": {
+        "text": "天の石屋戸の神話では、神々は八尺の勾玉と八尺の鏡を作って榊に掛けた。またスサノオがヤマタノオロチの中の尾から見つけた大刀を天照大御神に献上し、これが草那芸之大刀とされる。",
+        "claimIds": ["okm-am-myth-iwato", "okm-am-myth-sword"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "yamata-no-orochi",
+      "label": "ヤマタノオロチとの戦い",
+      "inWork": {
+        "text": "百年前、アマテラス（白野威）は英雄イザナギとともにヤマタノオロチの八本の首を斬り、宝剣「月呼」で封印した。その戦いで傷ついて命を落とし、神木村の守り神として祀られていた。",
+        "claimIds": ["okm-am-work", "okm-am-work-orochi"]
+      },
+      "inMyth": {
+        "text": "『古事記』でヤマタノオロチを退治するのは、天照大御神の弟の須佐之男命である。八塩折の酒で大蛇を酔わせ、十拳剣で斬り散らした。",
+        "claimIds": ["okm-am-myth-orochi"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の天照大御神は女神で、本作でも「慈母」と呼ばれるが、姿は白い狼である。神が獣の姿で現れるという点は原典にはなく、タイトルの「大神／狼」の掛け言葉から生まれた設定といえる。",
+      "claimIds": ["okm-am-work-name", "okm-am-myth-birth", "okm-am-cmp-wolf"]
+    },
+    {
+      "text": "天照大御神が隠れると世界が闇に包まれるという天の石屋戸の神話は、太陽を呼び出して夜を昼に変える筆しらべ「光明」と重なる。オロチの復活で闇に覆われた国を、太陽神が再び照らすという物語全体の骨組みにもなっている。",
+      "claimIds": ["okm-am-myth-iwato", "okm-am-work-sun", "okm-am-cmp-sun"]
+    },
+    {
+      "text": "原典でオロチを退治するのはスサノオひとりで、天照大御神は戦いに加わらない。本作では、アマテラス自身がイザナギやスサノオとともにオロチと戦う主役になっている。",
+      "claimIds": [
+        "okm-am-myth-orochi",
+        "okm-am-work-orochi",
+        "okm-am-cmp-orochi"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "okm-am-work",
+      "text": "主人公アマテラスは白い狼。百年前に英雄イザナギとともにヤマタノオロチと戦った白野威の像に、木精サクヤの力で宿って復活する。元々持っていた十三の筆しらべの力を失っており、それを取り戻す旅に出る。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-am-work-name",
+      "text": "タイトルの「大神」には、主人公が「天照大神」であることと「狼」であることの二つの意味がこめられている。元となった天照大神が女神であるため、アマテラスは物語中で時折「慈母」と呼ばれる。筆しらべを司る分神たちも、アマテラスと同じく白い体に赤い隈取りが施されている。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-am-work-sun",
+      "text": "筆しらべ「光明」は太陽を出現させて夜を昼に変える力で、太陽神であるアマテラスが死しても失わずに持っていた唯一の能力とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-am-work-weapons",
+      "text": "アマテラスは鏡・勾玉・剣の三種の神器を武器として戦う。剣の一つはヤマタノオロチが飲み込んでいた宝剣「月呼」が変化したもので、オロチの尾から現れる。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-am-work-orochi",
+      "text": "ヤマタノオロチは百年前、アマテラス（白野威）とイザナギによって八本の首を斬られ、宝剣「月呼」で封印された。白野威はその戦いで命を落とし、村の守り神として祀られた。",
+      "classification": "creative",
+      "sourceIds": ["work-okami"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「大神 (ゲーム)」の記述で確認。"
+    },
+    {
+      "id": "okm-am-myth-birth",
+      "text": "『古事記』によれば、伊耶那岐命が禊で左の目を洗ったときに天照大御神が生まれ、伊耶那岐命は天照大御神に高天原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の誕生）"
+    },
+    {
+      "id": "okm-am-myth-iwato",
+      "text": "『古事記』によれば、天照大御神が天の石屋戸にこもると高天原も葦原中国も暗くなり、常夜が続いた。神々は八尺の勾玉と八尺の鏡を榊に掛け、天宇受売命が舞って神々が笑うと、戸を細く開けた天照大御神を天手力男神が引き出し、世界は再び明るくなった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "okm-am-myth-sword",
+      "text": "『古事記』によれば、須佐之男命はヤマタノオロチの中の尾から見つけた大刀を天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "okm-am-myth-orochi",
+      "text": "『古事記』によれば、天照大御神の弟の須佐之男命が、八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "okm-am-cmp-wolf",
+      "text": "天照大御神を狼の姿で描く設定は原典にはなく、「大神」と「狼」の掛け言葉から生まれたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "okm-am-cmp-sun",
+      "text": "天照大御神が隠れると世界が闇に包まれる神話は、太陽を呼び出す筆しらべ「光明」や、闇に覆われた国を太陽神が救う物語の骨組みと重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "okm-am-cmp-orochi",
+      "text": "原典でオロチを退治するのはスサノオで天照大御神は加わらないが、本作ではアマテラス自身がオロチと戦う主役になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-okami", "kojiki"],
+  "articleIds": []
+}
