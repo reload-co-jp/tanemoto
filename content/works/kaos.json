@@ -1,0 +1,14 @@
+{
+  "id": "kaos",
+  "slug": "kaos",
+  "title": "KAOS／カオス",
+  "reading": "かおす",
+  "type": "drama",
+  "mediaTypes": [],
+  "author": "チャーリー・カヴェル（企画・脚本）",
+  "period": "2024年（Netflix配信、全8話）",
+  "description": "ギリシャ神話の神々が現代風の世界を支配するイギリスのブラックコメディ・ドラマ。老いの兆しにおびえる横暴な神ゼウスと、彼の転覆を狙う語り手プロメテウス、そしてある予言でつながった三人の人間エウリュディケ、カイネウス、アリアドネを描く。",
+  "mythologyIds": ["greek"],
+  "articleIds": [],
+  "sourceIds": ["work-kaos"]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "ne-zha-2-nezha",
+  "slug": "ne-zha-2-nezha",
+  "name": "哪吒",
+  "reading": "なた",
+  "alternativeNames": ["ナタ"],
+  "workId": "ne-zha-2",
+  "description": {
+    "text": "主人公。陳塘関の総兵・李靖の息子で、天地の気を凝縮した秘宝「混元珠」の片割れ「魔丸」の転生体。魔王になる宿命を背負い、前作の最後で天の雷に打たれて肉体を失ったが、師の太乙真人に魂を守られた。",
+    "claimIds": ["nz2-nezha-work", "nz2-nezha-work-lotus"]
+  },
+  "nameOrigin": {
+    "text": "『封神演義』で、李靖の三男として陳塘関に生まれた少年神・哪吒。",
+    "claimIds": ["nz2-nezha-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "nezha",
+      "label": "霊珠の化身",
+      "inWork": {
+        "text": "混元珠が元始天尊の力で「魔丸」と「霊珠」に分かれ、哪吒は魔丸の、敖丙は霊珠の生まれ変わりとされる。",
+        "claimIds": ["nz2-nezha-work", "nz2-nezha-work-pearl"]
+      },
+      "inMyth": {
+        "text": "『封神演義』の哪吒は、霊珠子の化身として生まれた。魔丸や混元珠は登場しない。",
+        "claimIds": ["nz2-nezha-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "nezha",
+      "label": "蓮の化身として再生",
+      "inWork": {
+        "text": "太乙真人は秘宝「七色宝蓮」の力を使い果たして、哪吒と敖丙の肉体を再構築する。",
+        "claimIds": ["nz2-nezha-work-lotus"]
+      },
+      "inMyth": {
+        "text": "敖丙を殺した責めを負った哪吒は、骨肉を父母に返して死んだ。太乙真人は蓮の花と荷葉で体を作り、魂魄を入れて蓮花の化身としてよみがえらせた。",
+        "claimIds": ["nz2-nezha-myth-lotus"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "ao-bing",
+      "label": "竜王の子・敖丙との関係",
+      "inWork": {
+        "text": "宿敵となる運命の敖丙と親友になり、天災に一緒に立ち向かった。復活できなかった敖丙のために、自分の体を七日間共有して仙人になる試練に挑む。",
+        "claimIds": ["nz2-nezha-work-friend", "nz2-nezha-work-share"]
+      },
+      "inMyth": {
+        "text": "原典の哪吒は、水晶宮を揺るがしたことをとがめに来た敖丙を乾坤圏で打ち殺し、その筋を抜き取った。",
+        "claimIds": ["nz2-nezha-myth-aobing"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で哪吒が殺してしまう竜王の息子・敖丙を、作品はもう一人の主人公で無二の親友として描き、原典の対立関係を正反対にしている。",
+      "claimIds": [
+        "nz2-nezha-myth-aobing",
+        "nz2-nezha-work-friend",
+        "nz2-nezha-cmp-friend"
+      ]
+    },
+    {
+      "text": "蓮によって新しい体を得るという筋や太乙真人の役割は原典を踏まえている。一方、原典では関係がよくない哪吒と両親の間に深い家族愛を描いている点は、作品の大きな改変である。",
+      "claimIds": [
+        "nz2-nezha-myth-lotus",
+        "nz2-nezha-work-lotus",
+        "nz2-nezha-work-family"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nz2-nezha-work",
+      "text": "哪吒は陳塘関の総兵・李靖の息子で、天地の気の凝縮した秘宝『混元珠』の一部『魔丸』の転生体。魔王になる宿命を背負い、前作の最後で天災に見舞われて死去したが、師匠の助けで魂が保存された。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-nezha-work-pearl",
+      "text": "混元珠は元始天尊の力で魔丸と霊珠の2つに分かれ、それぞれ哪吒と敖丙に生まれ変わった。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-nezha-work-lotus",
+      "text": "哪吒と敖丙は天の雷で肉体を失い、太乙真人は七色宝蓮を使い果たして二人の肉体を再生させた。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-nezha-work-friend",
+      "text": "敖丙は英雄になる宿命を背負いながら、運命の宿敵である哪吒と親友になり、前作では哪吒を助けて天の災難に抵抗し、一緒に死んだ。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-nezha-work-share",
+      "text": "敖丙の新しい体は崩れてしまい、敖丙と哪吒は哪吒の体を7日間共有して、仙人になるための三つの試練に挑む。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-nezha-work-family",
+      "text": "原作『封神演義』では哪吒と両親の関係は良いとは言えないが、本作では哪吒と両親の家族愛が表現されている。また、原作には霊珠の概念だけがあり、混元珠や魔丸は存在しない。",
+      "classification": "scholarship",
+      "sourceIds": ["work-ne-zha-2", "fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Wikipedia日本語版「ナタ 魔童の大暴れ」原作との相違点"
+    },
+    {
+      "id": "nz2-nezha-myth-birth",
+      "text": "陳塘関の総兵李靖と殷夫人の三男として生まれた哪吒は、霊珠子の化身であった。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "nz2-nezha-myth-aobing",
+      "text": "哪吒は九湾河で巡海夜叉李艮を乾坤圏で打ち殺し、続いて現れた東海竜王敖光の三太子敖丙を混天綾で包んで引きずり下ろし、乾坤圏で打って竜の正体を現させ、その筋を抜き取った。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "nz2-nezha-myth-lotus",
+      "text": "哪吒は敖丙を殺した責めを負い、腹を裂き骨肉を父母に返して死んだ。太乙真人は蓮の花と荷葉で体を作り、哪吒の魂魄を推し入れて蓮花の化身としてよみがえらせた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第13–14回"
+    },
+    {
+      "id": "nz2-nezha-cmp-friend",
+      "text": "原典で哪吒に殺される敖丙を親友として描く点は、原典の関係を反転させた作品独自の設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-ne-zha-2", "fengshen-yanyi"],
+  "articleIds": []
+}

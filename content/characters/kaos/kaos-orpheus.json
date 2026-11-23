@@ -1,0 +1,104 @@
+{
+  "id": "kaos-orpheus",
+  "slug": "kaos-orpheus",
+  "name": "オルフェウス",
+  "reading": "おるふぇうす",
+  "workId": "kaos",
+  "description": {
+    "text": "人間の歌い手で、エウリュディケ（リディ）の夫。事故で死んだ妻を取り戻すため、ゼウスの息子ディオニュソスの導きで冥界へ下る。",
+    "claimIds": ["kaos-or-work-death", "kaos-or-work-descent"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "orpheus",
+      "label": "冥界下り",
+      "inWork": {
+        "text": "妻リディがトラックにはねられて死ぬと、オルフェウスは冥界へ下って彼女のもとにたどり着く。しかしリディは彼との再会を喜ばず、地上に戻ると二人は別れる。",
+        "claimIds": [
+          "kaos-or-work-death",
+          "kaos-or-work-descent",
+          "kaos-or-work-end"
+        ]
+      },
+      "inMyth": {
+        "text": "妻エウリュディケが蛇にかまれて死ぬと、オルフェウスは冥界に下り、竪琴を奏でて歌い、ハデスとペルセポネに妻を返すよう願った。地上に出るまで振り返ってはならないという条件で許されたが、出口の手前で振り返ってしまい、妻は再び冥界へ消えた。",
+        "claimIds": ["kaos-or-myth-descent"]
+      }
+    },
+    {
+      "aspect": "role",
+      "label": "ディオニュソスとの関わり",
+      "inWork": {
+        "text": "絶望したオルフェウスに、ゼウスの息子ディオニュソスが妻と再会する方法を教える。",
+        "claimIds": ["kaos-or-work-death"]
+      },
+      "inMyth": {
+        "text": "『変身物語』では、オルフェウスはのちにバッコス（ディオニュソス）の信女たちに引き裂かれて死に、バッコスはその信女たちを木に変えて罰した。",
+        "claimIds": ["kaos-or-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、冥界から戻れなかった原因はオルフェウスが振り返ったことにある。作品では、妻の側がすでに夫への愛を失っており、二人の物語を「取り戻せなかった愛」ではなく「終わっていた愛」として描き直している。",
+      "claimIds": [
+        "kaos-or-myth-descent",
+        "kaos-or-work-death",
+        "kaos-or-work-end",
+        "kaos-or-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kaos-or-work-death",
+      "text": "エウリュディケ（リディ）は、愛情の冷めた夫オルフェウスのもとを今日去ることになるとカッサンドラに告げられた直後、トラックにはねられて死ぬ。悲嘆したオルフェウスのもとに、ゼウスの息子ディオニュソスが現れ、妻と再会する方法を教える。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-or-work-descent",
+      "text": "オルフェウスは冥界の川を渡り、燃える砂漠をさまよった末にリディのもとへたどり着くが、リディは彼との再会を喜ばない。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-or-work-end",
+      "text": "リディとオルフェウスは生者の世界に戻ると、別々の道を歩む。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-or-myth-descent",
+      "text": "エウリュディケは草地で蛇にかかとをかまれて死んだ。オルフェウスは冥界に下り、竪琴に合わせてハデスとペルセポネの前で歌い、妻を返すよう願った。アウェルヌスの谷を出るまで振り返らないという条件で許されたが、出口の手前で妻を見ようと振り返り、エウリュディケは再び冥界へ落ちていった。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』10.1–63"
+    },
+    {
+      "id": "kaos-or-myth-death",
+      "text": "オルフェウスはキコネス族のバッコスの信女たちに殺され、バッコスは秘儀の歌い手を失ったことを悲しんで、信女たちを木に変えた。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』11.1–84"
+    },
+    {
+      "id": "kaos-or-cmp",
+      "text": "作品は、振り返りによる喪失という原典の悲劇を、夫婦の愛がすでに終わっていたという物語に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kaos", "ovid-metamorphoses"],
+  "articleIds": []
+}

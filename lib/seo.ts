@@ -164,6 +164,7 @@ const workTypeSchema: Record<Work["type"], string> = {
   game: "VideoGame",
   novel: "Book",
   film: "Movie",
+  drama: "TVSeries",
 }
 
 /** 作品（アニメ・漫画など）を表すエンティティ */

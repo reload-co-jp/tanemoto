@@ -1,0 +1,17 @@
+{
+  "id": "ao-bing",
+  "slug": "ao-bing",
+  "name": "敖丙",
+  "reading": "ごうへい",
+  "originalName": "敖丙",
+  "romanized": "Ao Bing",
+  "alternativeNames": ["東海竜王の三太子"],
+  "type": "god",
+  "roles": ["竜王の子"],
+  "mythologyIds": ["chinese"],
+  "description": "『封神演義』に登場する東海竜王敖光の三男（三太子）。九湾河で水浴びをしていた幼い哪吒が水晶宮を揺るがしたため、避水獣に乗り画戟を手に討って出るが、混天綾で包まれ乾坤圏で打たれて竜の正体を現し、筋を抜かれて死んだ。この事件が、哪吒が自ら命を絶ち蓮の化身として生まれ変わるきっかけとなる。",
+  "relatedFigureIds": ["nezha"],
+  "relatedStoryIds": ["nezha-and-ao-bing", "nezha-lotus-body"],
+  "articleIds": [],
+  "sourceIds": ["fengshen-yanyi"]
+}

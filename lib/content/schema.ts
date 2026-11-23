@@ -232,6 +232,7 @@ export const workTypes = {
   game: "ゲーム",
   novel: "小説",
   film: "映画",
+  drama: "ドラマ",
 } as const
 export const workSchema = z.object({
   id,

@@ -1,0 +1,109 @@
+{
+  "id": "kaos-zeus",
+  "slug": "kaos-zeus",
+  "name": "ゼウス",
+  "reading": "ぜうす",
+  "workId": "kaos",
+  "description": {
+    "text": "現代風のギリシャ世界をオリュンポスから支配する、気まぐれで残酷な神々の王。額に現れた小さなしわを、運命の女神たちから告げられた予言の「線」ではないかとおびえ、しだいに疑心暗鬼に陥っていく。",
+    "claimIds": ["kaos-zeus-work", "kaos-zeus-work-prophecy"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "zeus",
+      "label": "王座を脅かす予言",
+      "inWork": {
+        "text": "「線が現れ、秩序は衰え、一族は倒れ、混沌（カオス）が支配する」という予言を恐れ、それを避けるために運命の女神たちまで滅ぼしてしまう。",
+        "claimIds": ["kaos-zeus-work-prophecy", "kaos-zeus-work-fates"]
+      },
+      "inMyth": {
+        "text": "ゼウスは、知恵の女神メティスから神々と人間の王となる息子が生まれる定めだと知り、彼女を呑み込んだ。かつて父クロノスも、自分の子に倒される定めを恐れて子を次々と呑み込んでいた。",
+        "claimIds": ["kaos-zeus-myth-metis", "kaos-zeus-myth-cronus"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "prometheus",
+      "label": "プロメテウスへの罰",
+      "inWork": {
+        "text": "自分の気ままな支配に逆らったプロメテウスを、崖に鎖でつないで責め苦を与え続けている。",
+        "claimIds": ["kaos-zeus-work"]
+      },
+      "inMyth": {
+        "text": "ゼウスはプロメテウスを解けない鎖で縛り、鷲に不死の肝臓を食わせた。のちにヘラクレスが鷲を殺して解放し、ゼウスも怒りを収めた。",
+        "claimIds": ["kaos-pr-myth-chain"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "子に王座を奪われる予言を恐れるという筋は、ウラノス、クロノス、そしてゼウス自身へと受け継がれる『神統記』の王権交代の物語と重なる。作品はこれを、老いに怯える現代的な権力者の姿として描いている。",
+      "claimIds": [
+        "kaos-zeus-myth-metis",
+        "kaos-zeus-myth-cronus",
+        "kaos-zeus-work-prophecy",
+        "kaos-zeus-cmp-prophecy"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kaos-zeus-work",
+      "text": "全能でありながら不安を抱えたゼウスは、自らの気まぐれで専制的な支配に逆らったティタン神プロメテウスを崖に鎖でつなぎ、罰として責め苦を与えている。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-zeus-work-prophecy",
+      "text": "ゼウスの額に、不死の神には起こるはずのない老いの兆しである小さなしわが現れ、彼はそれが運命の女神たちから告げられた予言（「線が現れ、秩序は衰え、一族は倒れ、混沌が支配する」）の「線」ではないかと恐れる。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-zeus-work-fates",
+      "text": "疑心暗鬼を深めたゼウスは、予言をなくそうとして運命の女神たちを滅ぼす。",
+      "classification": "creative",
+      "sourceIds": ["work-kaos"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kaos (TV series)」の記述で確認。"
+    },
+    {
+      "id": "kaos-zeus-myth-metis",
+      "text": "ゼウスは最初の妻メティスを呑み込んだ。メティスからは、まず娘アテナが、次いで神々と人間の王となる息子が生まれる定めだったからである。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』886–900行"
+    },
+    {
+      "id": "kaos-zeus-myth-cronus",
+      "text": "クロノスは、自分の子によって倒される定めであることをガイアとウラノスから聞いていたため、生まれた子を次々と呑み込んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』459–467行"
+    },
+    {
+      "id": "kaos-pr-myth-chain",
+      "text": "ゼウスはプロメテウスを解けない鎖で縛り、翼の長い鷲に不死の肝臓を食わせた。肝臓は夜のあいだに元に戻った。のちにヘラクレスが鷲を殺してプロメテウスを苦しみから解き、ゼウスもかつての怒りを収めた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』521–534行"
+    },
+    {
+      "id": "kaos-zeus-cmp-prophecy",
+      "text": "王座を奪われる予言への恐れは、『神統記』の王権交代の主題を踏まえたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kaos", "hesiod-theogony"],
+  "articleIds": []
+}

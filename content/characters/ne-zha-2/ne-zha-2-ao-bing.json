@@ -1,0 +1,106 @@
+{
+  "id": "ne-zha-2-ao-bing",
+  "slug": "ne-zha-2-ao-bing",
+  "name": "敖丙",
+  "reading": "ごうへい",
+  "alternativeNames": ["ゴウヘイ"],
+  "workId": "ne-zha-2",
+  "description": {
+    "text": "もう一人の主人公。東海竜王敖光の息子で、混元珠の片割れ「霊珠」の転生体。優しく上品な美少年で、氷の力を操る。宿敵となる運命の哪吒と親友になった。",
+    "claimIds": ["nz2-ab-work"]
+  },
+  "nameOrigin": {
+    "text": "『封神演義』の東海竜王敖光の三男（三太子）、敖丙。",
+    "claimIds": ["nz2-ab-myth-death"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "ao-bing",
+      "label": "東海竜王の三太子",
+      "inWork": {
+        "text": "東海竜王敖光の息子。父の敖光は息子をかわいがり、その死をきっかけに陳塘関への復讐を計画する。",
+        "claimIds": ["nz2-ab-work", "nz2-ab-work-father"]
+      },
+      "inMyth": {
+        "text": "敖光は、哪吒に三太子を殺されて筋まで抜かれたと聞くと、「わが子は雲を興し雨を降らせる正神だ」と嘆き、陳塘関の李靖のもとへ乗り込んだ。",
+        "claimIds": ["nz2-ab-myth-father"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "ao-bing",
+      "label": "哪吒との関係",
+      "inWork": {
+        "text": "霊珠の転生体として英雄になる宿命を背負いながら、魔丸の転生体の哪吒と親友になる。",
+        "claimIds": ["nz2-ab-work"]
+      },
+      "inMyth": {
+        "text": "原典の敖丙は、哪吒を捕らえようと避水獣に乗り画戟で戦いを挑むが、混天綾で包まれ、乾坤圏で打たれて竜の正体を現し、筋を抜かれて死んだ。",
+        "claimIds": ["nz2-ab-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の敖丙は数場面で命を落とす脇役にすぎない。作品は彼を霊珠の転生体という主人公に格上げし、哪吒の本体だった霊珠を敖丙に与えることで、二人を表裏一体の存在にしている。",
+      "claimIds": [
+        "nz2-ab-myth-death",
+        "nz2-ab-work",
+        "nz2-ab-work-minor",
+        "nz2-ab-cmp-pearl"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nz2-ab-work",
+      "text": "敖丙は東海龍王である敖光の息子で、『混元珠』の一部『霊珠』の転生体。優しく上品で穏やかな美少年で、氷属性の力を持つ。英雄になる宿命を背負っていても、運命の宿敵の哪吒と親友になる。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-ab-work-father",
+      "text": "敖光は息子をとてもかわいがり、息子の死をきっかけに陳塘関への復讐計画を始めた。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ナタ 魔童の大暴れ」・英語版「Ne Zha 2」の記述で確認。"
+    },
+    {
+      "id": "nz2-ab-work-minor",
+      "text": "敖丙は原作ではただのマイナーな人物で、本作では主人公の一人に昇格し、哪吒とは大切な友達となった。原作では哪吒が霊珠の生まれ変わりである。",
+      "classification": "scholarship",
+      "sourceIds": ["work-ne-zha-2", "fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Wikipedia日本語版「ナタ 魔童の大暴れ」原作との相違点"
+    },
+    {
+      "id": "nz2-ab-myth-death",
+      "text": "東海竜王敖光の三太子敖丙は、逼水獣に乗り画戟を持って哪吒に挑んだが、混天綾で包まれて引きずり下ろされ、乾坤圏で打たれて竜の本性を現し、筋を抜き取られた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "nz2-ab-myth-father",
+      "text": "敖光は三太子が殺されて筋まで抜かれたと聞き、わが子は雲を興し雨を降らせ万物を育む正神だと嘆いて、秀才に化けて陳塘関の李靖を訪ねた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "nz2-ab-cmp-pearl",
+      "text": "原典で哪吒の本体である霊珠を敖丙に与えたことで、二人は対になる存在として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-ne-zha-2", "fengshen-yanyi"],
+  "articleIds": []
+}
