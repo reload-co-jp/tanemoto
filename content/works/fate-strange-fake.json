@@ -1,0 +1,14 @@
+{
+  "id": "fate-strange-fake",
+  "slug": "fate-strange-fake",
+  "title": "Fate/strange Fake",
+  "reading": "ふぇいと すとれんじふぇいく",
+  "type": "novel",
+  "mediaTypes": ["manga", "anime"],
+  "author": "成田良悟（原作）・TYPE-MOON",
+  "period": "2015年〜（電撃文庫）、2026年（テレビアニメ第1期）",
+  "description": "『Fate/stay night』のスピンオフ小説。アメリカ西部の都市スノーフィールドで、冬木の聖杯戦争を模倣した「偽りの聖杯戦争」が始まり、英霊（サーヴァント）とマスターたちが聖杯を争う。英雄王ギルガメッシュとその友エルキドゥ、ギリシャの大英雄、アマゾンの女王などが召喚される。",
+  "mythologyIds": ["mesopotamian", "greek"],
+  "articleIds": [],
+  "sourceIds": ["work-fate-strange-fake"]
+}

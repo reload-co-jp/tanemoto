@@ -1,0 +1,101 @@
+{
+  "id": "fate-strange-fake-hippolyta",
+  "slug": "fate-strange-fake-hippolyta",
+  "name": "ヒッポリュテ",
+  "reading": "ひっぽりゅて",
+  "alternativeNames": ["真ライダー"],
+  "workId": "fate-strange-fake",
+  "description": {
+    "text": "2人目の騎乗兵（真ライダー）のサーヴァント。馬に乗った十代後半の少女の姿をしている。真アーチャー（アルケイデス）を外道と呼び、自分の獲物とみなしている。",
+    "claimIds": ["fsf-hi-work"]
+  },
+  "nameOrigin": {
+    "text": "かつてヘラクレスに殺されたアマゾネスの女王ヒッポリュテそのもの。",
+    "claimIds": ["fsf-hi-work", "fsf-hi-myth-belt"]
+  },
+  "motifs": [
+    {
+      "aspect": "weapon",
+      "figureId": "hippolyta",
+      "label": "軍神の帯",
+      "inWork": {
+        "text": "宝具の一つは、自らの能力を向上させる帯「戦神の軍帯（ゴッデス・オブ・ウォー）」。",
+        "claimIds": ["fsf-hi-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヒッポリュテはほかの誰よりも優れているしるしとして、軍神アレスの帯を持っていた。",
+        "claimIds": ["fsf-hi-myth-belt"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "hippolyta",
+      "label": "ヘラクレスとの因縁",
+      "inWork": {
+        "text": "かつてヘラクレスに殺された女王で、2人目のアーチャーを外道と呼んで自分の獲物とみなし、彼を容易に殴り飛ばす。",
+        "claimIds": ["fsf-hi-work"]
+      },
+      "inMyth": {
+        "text": "ヘラクレスの第九の功業は、エウリュステウスの娘アドメテが欲しがったヒッポリュテの帯を持ち帰ることだった。ヒッポリュテは港を訪れたヘラクレスに帯を与えると約束したが、ヘラがアマゾンに化けて「女王がさらわれる」と言いふらしたため、アマゾンたちが武装して押し寄せた。裏切りを疑ったヘラクレスはヒッポリュテを殺して帯を奪った。",
+        "claimIds": ["fsf-hi-myth-belt"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "hippolyta",
+      "label": "馬上の戦士",
+      "inWork": {
+        "text": "馬に騎乗し、馬上から自分の身長ほどもある巨大な戦斧を振るう。",
+        "claimIds": ["fsf-hi-work"]
+      },
+      "inMyth": {
+        "text": "アマゾンは戦にすぐれた一族で、投げ槍を投げる妨げにならないよう右の乳房を切り取っていたという。ヘラクレスの船に押し寄せたときも、馬に乗って駆け下った。",
+        "claimIds": ["fsf-hi-myth-belt"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヒッポリュテは、帯を譲ると約束していたのに、ヘラのたくらみによる誤解からヘラクレスに殺された。作品で彼女がアルケイデスを「外道」と呼んで獲物とみなすのは、この理不尽な最期への因縁を受けたものと読める。",
+      "claimIds": ["fsf-hi-myth-belt", "fsf-hi-work", "fsf-hi-cmp-grudge"]
+    },
+    {
+      "text": "原典で第九の功業の目当てだったアレスの帯は、作品では自らを強化する宝具「戦神の軍帯」になっている。ヘラクレスに奪われた帯を、彼女自身の力として取り戻した形である。",
+      "claimIds": ["fsf-hi-myth-belt", "fsf-hi-work", "fsf-hi-cmp-belt"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsf-hi-work",
+      "text": "真ライダーは2人目の騎乗兵のサーヴァントで、馬に騎乗した十代後半の外見の少女。2人目のアーチャーを外道と呼び自分の獲物とみなしており、ギルガメッシュの「王の財宝」でも傷つかなかった真アーチャーを容易に殴り飛ばす。真名はかつてヘラクレスに殺されたアマゾネスの女王ヒッポリュテ。宝具は能力を向上させる帯「戦神の軍帯（ゴッデス・オブ・ウォー）」と、馬上から自分の身長ほどもある巨大な戦斧を振るう「傲慢覆す怒り」。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-strange-fake"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/strange Fake」の記述で確認。"
+    },
+    {
+      "id": "fsf-hi-myth-belt",
+      "text": "アポロドロスによれば、ヘラクレスの第九の功業はアマゾンの女王ヒッポリュテの帯を持ち帰ることだった。アマゾンはテルモドン川のほとりに住む戦にすぐれた一族で、投げ槍の妨げにならないよう右の乳房を切り取っていた。ヒッポリュテはほかの誰よりも優れているしるしとしてアレスの帯を持ち、エウリュステウスの娘アドメテがそれを欲しがった。ヒッポリュテはテミスキュラの港を訪れたヘラクレスに帯を与えると約束したが、ヘラがアマゾンに化けて「よそ者が女王をさらおうとしている」と言いふらし、アマゾンたちは武装して馬で船に押し寄せた。裏切りを疑ったヘラクレスはヒッポリュテを殺して帯を奪った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.9"
+    },
+    {
+      "id": "fsf-hi-cmp-grudge",
+      "text": "アルケイデスを「外道」と呼ぶ作品のヒッポリュテは、誤解から殺された原典の最期への因縁を受けていると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fsf-hi-cmp-belt",
+      "text": "原典でヘラクレスに奪われたアレスの帯が、作品ではヒッポリュテ自身を強化する宝具になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-strange-fake", "apollodorus-library"],
+  "articleIds": []
+}

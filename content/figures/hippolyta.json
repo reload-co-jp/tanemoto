@@ -1,0 +1,17 @@
+{
+  "id": "hippolyta",
+  "slug": "hippolyta",
+  "name": "ヒッポリュテ",
+  "reading": "ひっぽりゅて",
+  "originalName": "Ἱππολύτη",
+  "romanized": "Hippolyte",
+  "alternativeNames": [],
+  "type": "human",
+  "roles": ["アマゾンの女王"],
+  "mythologyIds": ["greek"],
+  "description": "テルモドン川のほとりに住む女戦士の一族アマゾンの女王。ほかの誰よりも優れているしるしとして軍神アレスの帯を持っていた。ヘラクレスの第九の功業でこの帯を求められ、いったんは与えると約束したが、ヘラの扇動で起きた争いの中でヘラクレスに殺された。",
+  "relatedFigureIds": ["heracles"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["apollodorus-library"]
+}

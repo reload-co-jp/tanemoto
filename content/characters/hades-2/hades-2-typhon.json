@@ -1,0 +1,106 @@
+{
+  "id": "hades-2-typhon",
+  "slug": "hades-2-typhon",
+  "name": "テュポン",
+  "reading": "てゅぽん",
+  "alternativeNames": ["すべての怪物の父"],
+  "workId": "hades-2",
+  "description": {
+    "text": "「すべての怪物の父」。クロノスの軍勢とともにオリュンポス山を攻め、倒されても何度でもよみがえる。山頂（サミット）で待つ最後の敵。",
+    "claimIds": ["h2-ty-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話の怪物テュポン（テュポエウス）がモデル。",
+    "claimIds": ["h2-ty-work", "h2-ty-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "typhon",
+      "label": "すべての怪物の父",
+      "inWork": {
+        "text": "「すべての怪物の父」と呼ばれる。",
+        "claimIds": ["h2-ty-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、テュポンはエキドナと交わり、ゲリュオンの犬オルトロス、ハデスの犬ケルベロス、レルネのヒュドラ、火を吐くキマイラの母となる子を産ませた。",
+        "claimIds": ["h2-ty-myth-children"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "typhon",
+      "label": "オリュンポスへの攻撃",
+      "inWork": {
+        "text": "ティタンのプロメテウスとともにクロノスの軍勢を率いてオリュンポス山を攻め、神々を何度も追いつめる。",
+        "claimIds": ["h2-ty-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、ゼウスがティタンたちを天から追い払ったのち、大地はタルタロスと交わって末子テュポエウスを産んだ。肩からは百の蛇の頭が生え、目からは火がほとばしった。ゼウスがすばやく気づかなければ、テュポエウスは神々と人間の王になっていただろうという。",
+        "claimIds": ["h2-ty-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "typhon",
+      "label": "討たれる怪物",
+      "inWork": {
+        "text": "メリノエはヘカテとともにテュポンを完全に滅ぼす方法を編み出し、その力を使ってクロノスを倒す。",
+        "claimIds": ["h2-ty-work"]
+      },
+      "inMyth": {
+        "text": "ゼウスは雷と稲妻を手にオリュンポスから飛びかかってテュポエウスの頭をすべて焼き、打ち倒して広大なタルタロスへ投げこんだ。",
+        "claimIds": ["h2-ty-myth-defeat"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でテュポンを倒すのはゼウスひとりで、雷で焼いてタルタロスに投げこむ。本作ではゼウスたちオリュンポスの神々が何度も追いつめられ、冥界の王女メリノエがテュポンを滅ぼしてその力をクロノス打倒に使う。神々の王の功績を、主人公の手柄に組み替えている。",
+      "claimIds": ["h2-ty-myth-defeat", "h2-ty-work", "h2-ty-cmp-zeus"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-ty-work",
+      "text": "「すべての怪物の父」テュポンは、ティタンのプロメテウスとともにクロノスの軍勢としてオリュンポス山を攻め、倒されても絶えずよみがえる。山頂（サミット）のボスとして登場する。メリノエとヘカテはテュポンを完全に滅ぼす方法を編み出し、その力を使ってクロノスを永久に倒そうとする。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades II」の記述で確認。"
+    },
+    {
+      "id": "h2-ty-myth-birth",
+      "text": "ヘシオドス『神統記』によれば、ゼウスがティタンたちを天から追い払ったのち、大地はタルタロスと交わって末子テュポエウスを産んだ。肩からは百の蛇の頭が生え、目からは火がほとばしり、頭からはあらゆる声が出た。ゼウスがすばやく気づかなければ、その日テュポエウスは死すべき者と不死の者の王になっていただろう。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』820–838行"
+    },
+    {
+      "id": "h2-ty-myth-children",
+      "text": "ヘシオドス『神統記』によれば、恐ろしく無法なテュポンはエキドナと交わり、エキドナはゲリュオンの犬オルトロス、ハデスの犬ケルベロス、レルネのヒュドラを産み、火を吐くキマイラの母ともなった。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』306–325行"
+    },
+    {
+      "id": "h2-ty-myth-defeat",
+      "text": "ヘシオドス『神統記』によれば、ゼウスは雷と稲妻を手にオリュンポスから飛びかかって怪物の頭をすべて焼き、打ち倒した。ゼウスは怒りのうちにテュポエウスを広大なタルタロスへ投げこんだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』853–868行"
+    },
+    {
+      "id": "h2-ty-cmp-zeus",
+      "text": "原典でゼウスがひとりで果たしたテュポン退治を、本作は主人公メリノエの手柄に組み替えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "hesiod-theogony"],
+  "articleIds": []
+}
