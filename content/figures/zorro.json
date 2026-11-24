@@ -1,0 +1,17 @@
+{
+  "id": "zorro",
+  "slug": "zorro",
+  "name": "ゾロ",
+  "reading": "ぞろ",
+  "originalName": "Zorro",
+  "romanized": "Zorro",
+  "alternativeNames": ["怪傑ゾロ", "ドン・ディエゴ・ベガ"],
+  "type": "fictional",
+  "roles": ["覆面の剣士"],
+  "mythologyIds": ["zorro"],
+  "description": "ジョンストン・マッカレーの小説『カピストラーノの呪い』（『怪傑ゾロ』）の主人公。スペイン統治下のカリフォルニアで、黒い覆面とマントに身を包み、圧政に苦しむ人々のために剣を振るう義賊。「ゾロ」はスペイン語で「キツネ」の意味。その正体は、ふだん気だるげで剣にも恋にも興味がないふりをしている貴族の青年ドン・ディエゴ・ベガである。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["zorro-unmasked"],
+  "articleIds": [],
+  "sourceIds": ["mcculley-capistrano"]
+}

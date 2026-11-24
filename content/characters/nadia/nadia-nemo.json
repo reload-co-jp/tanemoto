@@ -1,0 +1,101 @@
+{
+  "id": "nadia-nemo",
+  "slug": "nadia-nemo",
+  "name": "ネモ",
+  "reading": "ねも",
+  "alternativeNames": ["エルシス・ラ・アルウォール", "ネモ船長"],
+  "workId": "nadia",
+  "description": {
+    "text": "潜水艦ノーチラス号の船長で、海洋生物学者。ネオ・アトランティス打倒とガーゴイルへの復讐に心血を注ぐ。その正体はナディアの父で、かつてのタルテソス王国の国王。",
+    "claimIds": ["nadia-nemo-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は、ノーチラス号とともにヴェルヌの小説に登場するネモ船長から。",
+    "claimIds": ["nadia-nemo-work-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "label": "ネモ船長とノーチラス号",
+      "inWork": {
+        "text": "ノーチラス号の船長で、パイプオルガンを演奏する。",
+        "claimIds": ["nadia-nemo-work-name"]
+      },
+      "figureId": "captain-nemo",
+      "inMyth": {
+        "text": "原作のネモは、潜水艦ノーチラス号の船長で、陸の世界と縁を切って海で暮らす。",
+        "claimIds": ["nadia-nemo-myth-nautilus"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "label": "王の素性",
+      "inWork": {
+        "text": "アトランティス人の末裔で、かつてアフリカにあったタルテソス王国の国王だった。",
+        "claimIds": ["nadia-nemo-work"]
+      },
+      "figureId": "captain-nemo",
+      "inMyth": {
+        "text": "続編『神秘の島』で、ネモの正体はイギリスと戦ったインドの王子ダカールだったと明かされる。",
+        "claimIds": ["nadia-nemo-myth-dakkar"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "謎めいた潜水艦の船長が、実は国を失った王族であり、強大な敵への復讐のために海に生きるという骨格は、原作のネモと共通する。作品はその敵をイギリスから架空の組織ネオ・アトランティスに置き換えている。",
+      "claimIds": [
+        "nadia-nemo-work",
+        "nadia-nemo-myth-dakkar",
+        "nadia-nemo-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nadia-nemo-work",
+      "text": "ネモ（エルシス・ラ・アルウォール）はノーチラス号の船長で海洋生物学者。ネオ・アトランティス打倒とガーゴイルへの復讐に心血を注ぐ。ナディアの父親でアトランティス人の末裔であり、かつてアフリカにあったタルテソス王国の国王である。",
+      "classification": "creative",
+      "sourceIds": ["work-nadia"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ふしぎの海のナディア」の記述で確認。"
+    },
+    {
+      "id": "nadia-nemo-work-name",
+      "text": "ネモの名前は「ノーチラス号」と同じくヴェルヌ作の小説に登場するネモ船長から。パイプオルガンを演奏する点もこれに由来する。",
+      "classification": "creative",
+      "sourceIds": ["work-nadia"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ふしぎの海のナディア」の記述で確認。"
+    },
+    {
+      "id": "nadia-nemo-myth-nautilus",
+      "text": "アロナックス教授は潜水艦ノーチラス号に捕らわれ、船長ネモから、自分は陸の人間社会と縁を切った者だと告げられる。",
+      "classification": "fact",
+      "sourceIds": ["verne-twenty-thousand-leagues"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『海底二万里』第1部 第10章"
+    },
+    {
+      "id": "nadia-nemo-myth-dakkar",
+      "text": "死を前にしたネモは、自分がインドの王子ダカールであり、インド大反乱でイギリスと戦って家族を失ったことを明かした。",
+      "classification": "fact",
+      "sourceIds": ["verne-mysterious-island"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神秘の島』第3部 第16章"
+    },
+    {
+      "id": "nadia-nemo-cmp",
+      "text": "国を失った王族が復讐のために海に生きるという原作のネモ像を受け継ぎ、敵を架空の組織に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-nadia",
+    "verne-twenty-thousand-leagues",
+    "verne-mysterious-island"
+  ],
+  "articleIds": []
+}

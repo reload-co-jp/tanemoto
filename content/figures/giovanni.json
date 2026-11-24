@@ -1,0 +1,17 @@
+{
+  "id": "giovanni",
+  "slug": "giovanni",
+  "name": "ジョバンニ",
+  "reading": "じょばんに",
+  "originalName": "ジョバンニ",
+  "romanized": "ジョバンニ",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["主人公", "少年"],
+  "mythologyIds": ["night-on-the-galactic-railroad"],
+  "description": "宮沢賢治の『銀河鉄道の夜』の主人公。父が漁に出たまま帰らず、病気の母を支えて働く孤独な少年。ケンタウル祭の夜、気がつくと友人カムパネルラとともに銀河を走る鉄道に乗っていた。どこまでも行ける不思議な切符を持ち、「ほんとうのさいわい」とは何かを問いながら旅をする。",
+  "relatedFigureIds": ["campanella"],
+  "relatedStoryIds": ["galactic-railroad-journey"],
+  "articleIds": [],
+  "sourceIds": ["miyazawa-galactic-railroad"]
+}

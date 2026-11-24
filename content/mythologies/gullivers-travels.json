@@ -1,0 +1,24 @@
+{
+  "id": "gullivers-travels",
+  "slug": "gullivers-travels",
+  "name": "ガリヴァー旅行記",
+  "reading": "がりう゛ぁーりょこうき",
+  "region": "アイルランド・イギリス",
+  "period": "1726年刊行",
+  "description": "小人の国、巨人の国、空飛ぶ島ラピュータ。船医ガリヴァーの奇妙な旅を通して、人間社会を痛烈に風刺したジョナサン・スウィフトの小説。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "『ガリヴァー旅行記』は、アイルランドの作家・聖職者ジョナサン・スウィフトが1726年に発表した小説です。子ども向けに小人の国の話が知られていますが、本来は当時のイギリスの政治や学問、人間そのものを辛辣に風刺した作品です。"
+    },
+    {
+      "type": "paragraph",
+      "text": "第3篇に登場する空飛ぶ島ラピュータは、空理空論にふける学者たちと、空から地上を支配する王を描いています。その名は宮崎駿の『天空の城ラピュタ』に借りられました。"
+    }
+  ],
+  "figureIds": ["gulliver"],
+  "storyIds": ["flying-island-laputa"],
+  "sourceIds": ["swift-gulliver"],
+  "kind": "literature",
+  "order": 32
+}

@@ -1,0 +1,17 @@
+{
+  "id": "little-mermaid",
+  "slug": "little-mermaid",
+  "name": "人魚姫",
+  "reading": "にんぎょひめ",
+  "originalName": "Den lille Havfrue",
+  "romanized": "Den lille Havfrue",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["人魚の姫"],
+  "mythologyIds": ["andersen-fairy-tales"],
+  "description": "アンデルセンの童話『人魚姫』の主人公。海の王の末娘で、嵐の海から救った人間の王子に恋をする。魔女に声を差し出して人間の足を得るが、王子は別の姫と結婚し、海の泡となって消える。人魚は死ぬと泡になるだけで、人間のような不死の魂をもたないとされていた。",
+  "relatedFigureIds": ["snow-queen"],
+  "relatedStoryIds": ["little-mermaid-foam"],
+  "articleIds": [],
+  "sourceIds": ["andersen-little-mermaid"]
+}

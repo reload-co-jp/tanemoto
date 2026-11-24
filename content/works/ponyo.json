@@ -1,0 +1,14 @@
+{
+  "id": "ponyo",
+  "slug": "ponyo",
+  "title": "崖の上のポニョ",
+  "reading": "がけのうえのぽにょ",
+  "type": "film",
+  "mediaTypes": ["anime"],
+  "author": "宮崎駿（原作・脚本・監督）",
+  "period": "2008年（スタジオジブリ）",
+  "description": "海辺の町に暮らす5歳の少年・宗介と、人間になりたいと願う魚の子ポニョの物語。アンデルセンの童話『人魚姫』をモチーフとしている。",
+  "mythologyIds": ["andersen-fairy-tales"],
+  "articleIds": [],
+  "sourceIds": ["work-ponyo"]
+}

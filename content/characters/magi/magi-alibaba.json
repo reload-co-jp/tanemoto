@@ -1,0 +1,73 @@
+{
+  "id": "magi-alibaba",
+  "slug": "magi-alibaba",
+  "name": "アリババ・サルージャ",
+  "reading": "ありばば・さるーじゃ",
+  "alternativeNames": ["アリババ"],
+  "workId": "magi",
+  "description": {
+    "text": "もう一人の主人公。元バルバッド第三王子で、アラジンに導かれて第7迷宮「アモン」を攻略する。",
+    "claimIds": ["magi-alibaba-work"]
+  },
+  "nameOrigin": {
+    "text": "「アリババと40人の盗賊」の主人公アリババにちなむ。",
+    "claimIds": ["magi-alibaba-work", "magi-names-alibaba"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "label": "財宝の洞窟",
+      "inWork": {
+        "text": "アラジンに導かれる形で迷宮（ダンジョン）を攻略する。",
+        "claimIds": ["magi-alibaba-work"]
+      },
+      "figureId": "ali-baba",
+      "inMyth": {
+        "text": "原作のアリババは、盗賊たちが「開け、ゴマ」と唱えて開く洞窟の秘密を知り、その財宝を手に入れる。",
+        "claimIds": ["magi-alibaba-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "財宝の眠る洞窟に入るという原作の筋は、宝と力の眠る迷宮を攻略するという作品の基本設定と重なる。原作の貧しいきこりは、作品では王国の王子という立場に変えられている。",
+      "claimIds": ["magi-alibaba-myth", "magi-alibaba-work", "magi-alibaba-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "magi-names-alibaba",
+      "text": "『マギ』は『千夜一夜物語』をモチーフにした冒険活劇で、登場人物の名前の一部も『千夜一夜物語』から採られている。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-alibaba-work",
+      "text": "アリババ・サルージャは本作のもう一人の主人公で、元バルバッド第三王子。アラジンに導かれる形で第7迷宮「アモン」を攻略する。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-alibaba-myth",
+      "text": "きこりのアリババは、40人の盗賊が「開け、ゴマ」と唱えて岩の扉を開け、洞窟に財宝を隠すのを見て、同じ呪文でその財宝を手に入れた。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ガラン訳『千夜一夜物語』「アリババと40人の盗賊」"
+    },
+    {
+      "id": "magi-alibaba-cmp",
+      "text": "財宝の洞窟という原作の要素を迷宮攻略に重ね、主人公の身分をきこりから王子に変えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-magi", "arabian-nights"],
+  "articleIds": []
+}

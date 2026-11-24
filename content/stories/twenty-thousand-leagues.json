@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nautilus",
+    "title": "ノーチラス号",
+    "mythologyIds": ["twenty-thousand-leagues"],
+    "figureIds": ["captain-nemo"],
+    "summary": "海の怪物と噂される謎の存在を追っていた博物学者アロナックスは、その正体である潜水艦ノーチラス号に捕らわれる。船長ネモは、自分は陸の人間社会と縁を切った者だと語り、アロナックスたちに、二度と陸に戻らないことを条件に船内での自由を与えた。こうして世界の海をめぐる海底旅行が始まる。",
+    "sourceIds": ["verne-twenty-thousand-leagues"],
+    "sourceLocation": "『海底二万里』第1部 第10章ほか"
+  },
+  {
+    "id": "nemo-is-prince-dakkar",
+    "title": "ネモの正体",
+    "mythologyIds": ["twenty-thousand-leagues"],
+    "figureIds": ["captain-nemo"],
+    "summary": "無人島に漂着した人々を陰から助けていた人物は、年老いたネモ船長だった。死を前にしたネモは、自分がインドの藩王国の王子ダカールであり、1857年のインド大反乱でイギリスと戦って家族を失い、海に逃れたことを明かす。ネモはノーチラス号とともに海に沈んだ。",
+    "sourceIds": ["verne-mysterious-island"],
+    "sourceLocation": "『神秘の島』第3部 第16章"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "milady",
+  "slug": "milady",
+  "name": "ミレディ",
+  "reading": "みれでぃ",
+  "originalName": "Milady de Winter",
+  "romanized": "Milady de Winter",
+  "alternativeNames": ["ミレディ・ド・ウィンター"],
+  "type": "fictional",
+  "roles": ["枢機卿の密偵"],
+  "mythologyIds": ["three-musketeers"],
+  "description": "アレクサンドル・デュマの『三銃士』に登場する美貌の女密偵。リシュリュー枢機卿の命を受けて暗躍し、ダルタニャンたち銃士と敵対する。肩には罪人の印である百合の花の焼き印があり、かつて銃士アトスの妻だった過去をもつ。ダルタニャンの恋人コンスタンスを毒殺したため、最後は銃士たちに裁かれ、処刑される。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["milady-judged"],
+  "articleIds": [],
+  "sourceIds": ["dumas-three-musketeers"]
+}

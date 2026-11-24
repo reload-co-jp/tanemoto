@@ -1,0 +1,17 @@
+{
+  "id": "campanella",
+  "slug": "campanella",
+  "name": "カムパネルラ",
+  "reading": "かむぱねるら",
+  "originalName": "カムパネルラ",
+  "romanized": "カムパネルラ",
+  "alternativeNames": ["カンパネルラ"],
+  "type": "fictional",
+  "roles": ["ジョバンニの友人"],
+  "mythologyIds": ["night-on-the-galactic-railroad"],
+  "description": "『銀河鉄道の夜』で、ジョバンニとともに銀河鉄道に乗る親友。旅の途中で姿を消し、目覚めたジョバンニは、カムパネルラが川に落ちた級友ザネリを助けて行方不明になったことを知る。",
+  "relatedFigureIds": ["giovanni"],
+  "relatedStoryIds": ["galactic-railroad-journey"],
+  "articleIds": [],
+  "sourceIds": ["miyazawa-galactic-railroad"]
+}

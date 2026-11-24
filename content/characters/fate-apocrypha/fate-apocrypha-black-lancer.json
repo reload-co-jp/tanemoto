@@ -1,0 +1,76 @@
+{
+  "id": "fate-apocrypha-black-lancer",
+  "slug": "fate-apocrypha-black-lancer",
+  "name": "黒のランサー",
+  "reading": "くろのらんさー",
+  "alternativeNames": ["ヴラド三世"],
+  "workId": "fate-apocrypha",
+  "description": {
+    "text": "黒の陣営のリーダー。真名は「串刺し公」と恐れられたワラキアの領主ヴラド三世で、オスマン帝国の侵攻を幾度も退けた護国の英雄。聖杯への願いは、「吸血鬼ドラキュラ」として汚された自らの名誉の回復。",
+    "claimIds": ["fapo-vlad-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "label": "吸血鬼ドラキュラ",
+      "inWork": {
+        "text": "伝説に伝わる吸血鬼ドラキュラの姿に変貌する宝具「鮮血の伝承（レジェンド・オブ・ドラキュリア）」をもつが、人の王としての誇りのない化け物になるとしてこれを忌み嫌う。日光や聖印に弱いという吸血鬼の弱点も抱えてしまう。",
+        "claimIds": ["fapo-vlad-work-legend"]
+      },
+      "figureId": "dracula",
+      "inMyth": {
+        "text": "ストーカーの小説のドラキュラ伯爵は、鏡に映らない吸血鬼として描かれる。作中のヴァン・ヘルシングは、伯爵をトルコと幾度も戦った一族の者と推測する。",
+        "claimIds": ["fapo-vlad-myth-mirror", "fapo-vlad-myth-turk"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "小説が実在のワラキア公とその戦いを吸血鬼ドラキュラに重ねたことで、ヴラド三世には吸血鬼のイメージがつきまとうようになった。作品は、この「小説によって押しつけられた吸血鬼の名」を英雄本人が憎むという形で、史実と創作のずれそのものをキャラクターの動機にしている。",
+      "claimIds": ["fapo-vlad-myth-turk", "fapo-vlad-work", "fapo-vlad-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fapo-vlad-work",
+      "text": "黒のランサーの真名は串刺し公と畏怖されたワラキアの領主ヴラド三世。当時最強の軍事力を誇ったオスマン帝国の侵攻を幾たびも退けた護国の大英雄。聖杯への願いは「吸血鬼ドラキュラ」として汚された自身の名誉の復権。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-vlad-work-legend",
+      "text": "黒のランサーは、多くの伝説に伝わる吸血鬼ドラキュラの姿に変貌する宝具「鮮血の伝承（レジェンド・オブ・ドラキュリア）」を有する。日光や聖印に弱いという吸血鬼特有の弱点も抱えてしまうため、本人は「人の王としての誇りのないただの化け物」に成り下がるとしてこれを酷く忌み嫌う。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-vlad-myth-mirror",
+      "text": "ハーカーがひげを剃っていると背後に伯爵が現れたが、鏡には部屋全体が映っているのに伯爵の姿は映っていなかった。",
+      "classification": "fact",
+      "sourceIds": ["stoker-dracula"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『吸血鬼ドラキュラ』第2章"
+    },
+    {
+      "id": "fapo-vlad-myth-turk",
+      "text": "ヴァン・ヘルシングは、ドラキュラをかつて大河を越えて何度もトルコの地に軍を進め、打ち負かされてもただ一人で戻ってきては戦い続けた一族の者として語る。",
+      "classification": "fact",
+      "sourceIds": ["stoker-dracula"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『吸血鬼ドラキュラ』第25章"
+    },
+    {
+      "id": "fapo-vlad-cmp",
+      "text": "小説が実在の君主を吸血鬼に重ねたという史実と創作のずれを、作品はヴラド三世自身の怒りと願いとして描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-apocrypha", "stoker-dracula"],
+  "articleIds": []
+}

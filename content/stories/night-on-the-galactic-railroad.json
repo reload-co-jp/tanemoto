@@ -1,0 +1,11 @@
+[
+  {
+    "id": "galactic-railroad-journey",
+    "title": "銀河鉄道の旅",
+    "mythologyIds": ["night-on-the-galactic-railroad"],
+    "figureIds": ["giovanni", "campanella"],
+    "summary": "ケンタウル祭の夜、丘の上で横になっていたジョバンニは、気がつくと友人カムパネルラと銀河を走る小さな列車に乗っていた。ジョバンニの切符は「ほんとうの天上へさえ行ける」不思議な切符だった。二人は「どこまでもどこまでも一緒に行こう」と誓うが、カムパネルラは姿を消す。目を覚ましたジョバンニは、カムパネルラがザネリを救おうとして川に落ちたことを知った。",
+    "sourceIds": ["miyazawa-galactic-railroad"],
+    "sourceLocation": "『銀河鉄道の夜』"
+  }
+]

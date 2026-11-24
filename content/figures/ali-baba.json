@@ -1,0 +1,17 @@
+{
+  "id": "ali-baba",
+  "slug": "ali-baba",
+  "name": "アリババ",
+  "reading": "ありばば",
+  "originalName": "Ali Baba",
+  "romanized": "Ali Baba",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["きこり"],
+  "mythologyIds": ["arabian-nights"],
+  "description": "「アリババと40人の盗賊」の主人公の貧しいきこり。盗賊たちが「開け、ゴマ」と唱えて岩の扉を開くのを盗み見て、洞窟の財宝を手に入れる。女奴隷モルジアナの機転に何度も命を救われた。この物語も、ガランが『千夜一夜物語』の翻訳に加えたもの。",
+  "relatedFigureIds": ["morgiana", "aladdin"],
+  "relatedStoryIds": ["open-sesame"],
+  "articleIds": [],
+  "sourceIds": ["arabian-nights"]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "aladdin-and-the-lamp",
+    "title": "アラジンと魔法のランプ",
+    "mythologyIds": ["arabian-nights"],
+    "figureIds": ["aladdin"],
+    "summary": "魔法使いにそそのかされたアラジンは、地下の洞窟から古いランプを取ってくるが、閉じ込められてしまう。魔法使いから借りた指輪をこすると指輪のジンが現れ、家に帰ることができた。母がランプを磨こうとこすると、今度はランプのジンが現れる。アラジンはその力で富を得て、スルタンの姫と結婚した。",
+    "sourceIds": ["arabian-nights"],
+    "sourceLocation": "ガラン訳『千夜一夜物語』「アラジンと魔法のランプ」"
+  },
+  {
+    "id": "open-sesame",
+    "title": "開け、ゴマ",
+    "mythologyIds": ["arabian-nights"],
+    "figureIds": ["ali-baba", "morgiana"],
+    "summary": "きこりのアリババは、40人の盗賊が「開け、ゴマ」と唱えて岩の扉を開け、洞窟に財宝を隠すのを見た。財宝を手に入れたアリババを、盗賊たちは油商人に化けて襲おうとするが、女奴隷モルジアナが壺に隠れた盗賊たちに煮えた油を注いで退治し、最後には首領も倒した。",
+    "sourceIds": ["arabian-nights"],
+    "sourceLocation": "ガラン訳『千夜一夜物語』「アリババと40人の盗賊」"
+  },
+  {
+    "id": "seven-voyages-of-sinbad",
+    "title": "シンドバッドの七つの航海",
+    "mythologyIds": ["arabian-nights"],
+    "figureIds": ["sinbad"],
+    "summary": "裕福な商人シンドバッドは、貧しい荷かつぎに自分の七度の航海の物語を語る。島だと思って上陸した巨大な魚、巨大なロック鳥の足にしがみついての脱出、ダイヤモンドの谷、人を食う巨人、背中にしがみついて離れない「海の老人」など、数々の危険を乗り越えて富を得たのだった。",
+    "sourceIds": ["arabian-nights"],
+    "sourceLocation": "『千夜一夜物語』「船乗りシンドバッドの物語」"
+  }
+]

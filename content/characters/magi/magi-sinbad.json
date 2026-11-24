@@ -1,0 +1,73 @@
+{
+  "id": "magi-sinbad",
+  "slug": "magi-sinbad",
+  "name": "シンドバッド",
+  "reading": "しんどばっど",
+  "alternativeNames": [],
+  "workId": "magi",
+  "description": {
+    "text": "シンドリア王国の国王。七体のジンを従える、複数の迷宮の攻略者。",
+    "claimIds": ["magi-sinbad-work"]
+  },
+  "nameOrigin": {
+    "text": "『千夜一夜物語』の船乗りシンドバッドにちなむ。",
+    "claimIds": ["magi-sinbad-work", "magi-names-sinbad"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "label": "七つの航海",
+      "inWork": {
+        "text": "七体のジンを携えた複数迷宮攻略者。",
+        "claimIds": ["magi-sinbad-work"]
+      },
+      "figureId": "sinbad",
+      "inMyth": {
+        "text": "原作のシンドバッドは、七度の航海で数々の危険を乗り越え、富を築いた商人である。",
+        "claimIds": ["magi-sinbad-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の「七つの航海」と、作品の「七体のジン」はともに七という数でシンドバッドの冒険の数を示しており、作品は数々の冒険を経た人物という原作の性格を受け継いでいる。",
+      "claimIds": ["magi-sinbad-myth", "magi-sinbad-work", "magi-sinbad-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "magi-names-sinbad",
+      "text": "『マギ』は『千夜一夜物語』をモチーフにした冒険活劇で、登場人物の名前の一部も『千夜一夜物語』から採られている。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-sinbad-work",
+      "text": "シンドバッドはシンドリア王国国王。七体のジンを携えた複数迷宮攻略者。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-sinbad-myth",
+      "text": "バグダードの商人シンドバッドは、七度の航海でロック鳥や「海の老人」などの危険を乗り越えて富を得た物語を語った。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『千夜一夜物語』「船乗りシンドバッドの物語」"
+    },
+    {
+      "id": "magi-sinbad-cmp",
+      "text": "七体のジンという設定は、原作の七つの航海を思わせる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-magi", "arabian-nights"],
+  "articleIds": []
+}

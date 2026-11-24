@@ -1,0 +1,14 @@
+{
+  "id": "nadia",
+  "slug": "nadia",
+  "title": "ふしぎの海のナディア",
+  "reading": "ふしぎのうみのなでぃあ",
+  "type": "anime",
+  "mediaTypes": [],
+  "author": "庵野秀明（総監督）",
+  "period": "1990〜1991年（NHKで放送、全39話）",
+  "description": "1889年のパリ万博で出会った発明好きの少年ジャンと、不思議な宝石ブルーウォーターを持つ少女ナディアの冒険を描くテレビアニメ。ジュール・ヴェルヌの『海底二万里』と『神秘の島』を原案とし、ネモ船長と潜水艦ノーチラス号が登場する。",
+  "mythologyIds": ["twenty-thousand-leagues"],
+  "articleIds": [],
+  "sourceIds": ["work-nadia"]
+}

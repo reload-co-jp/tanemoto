@@ -1,0 +1,24 @@
+{
+  "id": "twenty-thousand-leagues",
+  "slug": "twenty-thousand-leagues",
+  "name": "海底二万里",
+  "reading": "かいていにまんり",
+  "region": "フランス",
+  "period": "1869〜1870年刊行（続編『神秘の島』1874〜1875年）",
+  "description": "謎の潜水艦ノーチラス号と、陸の世界と縁を切った船長ネモ。ジュール・ヴェルヌが描いた、SF冒険小説の古典。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "『海底二万里』は、「SFの父」と呼ばれるフランスの作家ジュール・ヴェルヌが1869〜1870年に発表した小説です。潜水艦がまだ実用化されていない時代に、電気で動く巨大な潜水艦ノーチラス号を描きました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "船長ネモの素性は本作では明かされず、続編『神秘の島』で、イギリスと戦ったインドの王子ダカールだったことが語られます。"
+    }
+  ],
+  "figureIds": ["captain-nemo"],
+  "storyIds": ["nautilus", "nemo-is-prince-dakkar"],
+  "sourceIds": ["verne-twenty-thousand-leagues", "verne-mysterious-island"],
+  "kind": "literature",
+  "order": 26
+}

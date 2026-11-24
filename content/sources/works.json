@@ -343,5 +343,59 @@
     "publishedPeriod": "1994年〜（『週刊少年サンデー』連載中）",
     "publisher": "小学館",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「江戸川コナン」の記述でも確認している。"
+  },
+  {
+    "id": "work-magi",
+    "title": "マギ",
+    "author": "大高忍",
+    "type": "work",
+    "publishedPeriod": "2009〜2017年（『週刊少年サンデー』連載）",
+    "publisher": "小学館",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「マギ (漫画)」の記述でも確認している。"
+  },
+  {
+    "id": "work-nadia",
+    "title": "ふしぎの海のナディア",
+    "author": "庵野秀明（総監督）",
+    "type": "work",
+    "publishedPeriod": "1990〜1991年（テレビアニメ）",
+    "publisher": "NHK・東宝・グループ・タック",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ふしぎの海のナディア」の記述でも確認している。"
+  },
+  {
+    "id": "work-galaxy-express-999",
+    "title": "銀河鉄道999",
+    "author": "松本零士",
+    "type": "work",
+    "publishedPeriod": "1977〜1981年（漫画）、1978〜1981年（テレビアニメ）",
+    "publisher": "少年画報社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「銀河鉄道999」の記述でも確認している。"
+  },
+  {
+    "id": "work-frozen",
+    "title": "アナと雪の女王",
+    "author": "クリス・バック、ジェニファー・リー（監督）",
+    "type": "work",
+    "publishedPeriod": "2013年",
+    "publisher": "ウォルト・ディズニー・アニメーション・スタジオ",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「アナと雪の女王」の記述でも確認している。"
+  },
+  {
+    "id": "work-ponyo",
+    "title": "崖の上のポニョ",
+    "author": "宮崎駿（原作・脚本・監督）",
+    "type": "work",
+    "publishedPeriod": "2008年",
+    "publisher": "スタジオジブリ",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「崖の上のポニョ」の記述でも確認している。"
+  },
+  {
+    "id": "work-laputa",
+    "title": "天空の城ラピュタ",
+    "author": "宮崎駿（原作・脚本・監督）",
+    "type": "work",
+    "publishedPeriod": "1986年",
+    "publisher": "スタジオジブリ",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「天空の城ラピュタ」の記述でも確認している。"
   }
 ]

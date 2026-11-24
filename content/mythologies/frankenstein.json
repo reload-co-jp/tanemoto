@@ -1,0 +1,24 @@
+{
+  "id": "frankenstein",
+  "slug": "frankenstein",
+  "name": "フランケンシュタイン",
+  "reading": "ふらんけんしゅたいん",
+  "region": "イギリス（舞台はスイス・ドイツ・北極など）",
+  "period": "1818年刊行（1831年改訂）",
+  "description": "若き科学者ヴィクター・フランケンシュタインと、彼が生み出した名もない怪物の悲劇。メアリー・シェリーが19歳で書き始めた、SFの先駆けとされる小説。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "『フランケンシュタイン』は、メアリー・シェリーが1818年に発表した小説です。スイスの湖畔で、詩人バイロンらと怪談を書き合ったことが執筆のきっかけになりました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "副題「現代のプロメテウス」は、神から火を盗んで人間に与えたギリシャ神話のプロメテウスにちなみます。なお「フランケンシュタイン」は創造者の名で、怪物には名前がありません。"
+    }
+  ],
+  "figureIds": ["frankensteins-creature"],
+  "storyIds": ["blasted-oak", "creature-asks-for-a-bride"],
+  "sourceIds": ["shelley-frankenstein"],
+  "kind": "literature",
+  "order": 24
+}

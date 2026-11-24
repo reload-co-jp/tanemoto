@@ -1,0 +1,17 @@
+{
+  "id": "gulliver",
+  "slug": "gulliver",
+  "name": "ガリヴァー",
+  "reading": "がりう゛ぁー",
+  "originalName": "Lemuel Gulliver",
+  "romanized": "Lemuel Gulliver",
+  "alternativeNames": ["レミュエル・ガリヴァー", "ガリバー"],
+  "type": "fictional",
+  "roles": ["船医", "旅行者"],
+  "mythologyIds": ["gullivers-travels"],
+  "description": "ジョナサン・スウィフトの『ガリヴァー旅行記』の語り手で、船医のレミュエル・ガリヴァー。航海のたびに遭難し、小人の国リリパット、巨人の国ブロブディンナグ、空飛ぶ島ラピュータ、馬が人間を治める国などを訪れる。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["flying-island-laputa"],
+  "articleIds": [],
+  "sourceIds": ["swift-gulliver"]
+}

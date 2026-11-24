@@ -1,0 +1,61 @@
+{
+  "id": "persona-5-panther",
+  "slug": "persona-5-panther",
+  "name": "パンサー",
+  "reading": "ぱんさー",
+  "alternativeNames": ["高巻杏"],
+  "workId": "persona-5",
+  "description": {
+    "text": "怪盗団のメンバーで、主人公のクラスメイト。赤いボディスーツと猫の形の仮面をまとう。親友の志帆の自殺未遂をきっかけにペルソナに覚醒した。最初のペルソナはカルメン。",
+    "claimIds": ["p5-ann-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "label": "カルメン",
+      "inWork": {
+        "text": "最初のペルソナはカルメン。のちにヘカーテ、セレスティーヌへと変わる。",
+        "claimIds": ["p5-ann-work"]
+      },
+      "figureId": "carmen",
+      "inMyth": {
+        "text": "メリメの小説のカルメンは、誰にも縛られない奔放な女で、自分は自由に生まれ自由に死ぬと言って、言いなりにしようとする男を最後まで拒んだ。",
+        "claimIds": ["p5-ann-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作のカルメンは、男の支配を拒んで自由を貫いた女性である。親友を追い詰めた理不尽への怒りから覚醒したパンサーのペルソナに、この「縛られない女」が選ばれている点は、反逆というテーマと重なる。",
+      "claimIds": ["p5-ann-myth", "p5-ann-work", "p5-ann-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p5-ann-work",
+      "text": "高巻杏（コードネーム：パンサー）は主人公のクラスメイト。怪盗の衣装は赤のボディスーツと猫の形をした赤い仮面。志帆の自殺未遂を切っ掛けにペルソナを覚醒させた。ペルソナはカルメン→ヘカーテ→セレスティーヌ。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ5」の記述で確認。"
+    },
+    {
+      "id": "p5-ann-myth",
+      "text": "よりを戻すよう迫るドン・ホセに、カルメンはもう彼を愛していないと告げ、カルメンはいつも自由だ、自由に生まれ自由に死ぬと答えて、彼に刺し殺された。",
+      "classification": "fact",
+      "sourceIds": ["merimee-carmen"],
+      "verificationStatus": "verified",
+      "sourceLocation": "メリメ『カルメン』第3章"
+    },
+    {
+      "id": "p5-ann-cmp",
+      "text": "支配を拒んで自由を貫くカルメンは、理不尽への怒りから覚醒するパンサーのペルソナとして反逆のテーマに重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-persona-5", "merimee-carmen"],
+  "articleIds": []
+}

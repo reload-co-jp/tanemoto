@@ -1,0 +1,24 @@
+{
+  "id": "andersen-fairy-tales",
+  "slug": "andersen-fairy-tales",
+  "name": "アンデルセン童話",
+  "reading": "あんでるせんどうわ",
+  "region": "デンマーク",
+  "period": "1835〜1872年に発表",
+  "description": "人魚姫、雪の女王、みにくいアヒルの子、マッチ売りの少女。デンマークの作家ハンス・クリスチャン・アンデルセンが生み出した創作童話。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "ハンス・クリスチャン・アンデルセンは、19世紀デンマークの作家です。グリム兄弟が民間に伝わる昔話を集めたのに対し、アンデルセンの童話の多くは彼自身の創作で、生涯に150以上の作品を残しました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "悲しい結末や、魂・愛・犠牲をめぐる問いを含む物語が多く、『人魚姫』は『崖の上のポニョ』に、『雪の女王』は『アナと雪の女王』に着想を与えるなど、現代の作品にも大きな影響を与えています。"
+    }
+  ],
+  "figureIds": ["snow-queen", "little-mermaid"],
+  "storyIds": ["kai-and-gerda", "little-mermaid-foam"],
+  "sourceIds": ["andersen-snow-queen", "andersen-little-mermaid"],
+  "kind": "literature",
+  "order": 31
+}

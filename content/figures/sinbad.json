@@ -1,0 +1,17 @@
+{
+  "id": "sinbad",
+  "slug": "sinbad",
+  "name": "船乗りシンドバッド",
+  "reading": "ふなのりしんどばっど",
+  "originalName": "Sindbad the Sailor",
+  "romanized": "Sindbad the Sailor",
+  "alternativeNames": ["シンドバッド"],
+  "type": "fictional",
+  "roles": ["船乗り", "商人"],
+  "mythologyIds": ["arabian-nights"],
+  "description": "『千夜一夜物語』で、七度の航海の冒険を語るバグダードの裕福な商人。巨大な鳥ロック鳥にしがみついて谷を脱出したり、背に乗った者を離さない「海の老人」から逃れたりと、航海のたびに危機をくぐり抜けて富を築いた。",
+  "relatedFigureIds": ["aladdin"],
+  "relatedStoryIds": ["seven-voyages-of-sinbad"],
+  "articleIds": [],
+  "sourceIds": ["arabian-nights"]
+}
