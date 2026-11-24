@@ -487,5 +487,59 @@
     "publishedPeriod": "2010〜2017年",
     "publisher": "BBC",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-hateshinaki-scarlet",
+    "title": "果てしなきスカーレット",
+    "author": "細田守（監督・脚本）",
+    "type": "work",
+    "publishedPeriod": "2025年",
+    "publisher": "スタジオ地図／東宝・ソニー・ピクチャーズ",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「果てしなきスカーレット」・英語版「Scarlet (2025 film)」の記述でも確認している。"
+  },
+  {
+    "id": "work-cho-kaguya-hime",
+    "title": "超かぐや姫！",
+    "author": "山下清悟（監督）",
+    "type": "work",
+    "publishedPeriod": "2026年",
+    "publisher": "Netflix",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「超かぐや姫!」の記述でも確認している。"
+  },
+  {
+    "id": "work-chao",
+    "title": "ChaO",
+    "author": "STUDIO4℃",
+    "type": "work",
+    "publishedPeriod": "2025年",
+    "publisher": "東映",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ChaO」の記述でも確認している。"
+  },
+  {
+    "id": "work-undead-girl-murder-farce",
+    "title": "アンデッドガール・マーダーファルス",
+    "author": "青崎有吾",
+    "type": "work",
+    "publishedPeriod": "2015年〜（小説）、2023年（アニメ）",
+    "publisher": "講談社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「アンデッドガール・マーダーファルス」の記述でも確認している。"
+  },
+  {
+    "id": "work-nue-no-onmyouji",
+    "title": "鵺の陰陽師",
+    "author": "川江康太",
+    "type": "work",
+    "publishedPeriod": "2023年〜",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「鵺の陰陽師」の記述でも確認している。"
+  },
+  {
+    "id": "work-jigokuraku",
+    "title": "地獄楽",
+    "author": "賀来ゆうじ",
+    "type": "work",
+    "publishedPeriod": "2018〜2021年（漫画）、2023年・2026年（アニメ）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「地獄楽」の記述でも確認している。"
   }
 ]

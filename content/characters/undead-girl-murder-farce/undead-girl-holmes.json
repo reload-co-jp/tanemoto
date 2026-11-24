@@ -1,0 +1,60 @@
+{
+  "id": "undead-girl-holmes",
+  "slug": "undead-girl-holmes",
+  "name": "シャーロック・ホームズ",
+  "reading": "しゃーろっく・ほーむず",
+  "alternativeNames": ["ホームズ"],
+  "workId": "undead-girl-murder-farce",
+  "description": {
+    "text": "ロンドンの名探偵。相棒のワトソンとともに登場し、ルパンが狙う黒ダイヤの警護に、輪堂鴉夜とともに雇われる。",
+    "claimIds": ["ugmf-holmes-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "sherlock-holmes",
+      "label": "諮問探偵",
+      "inWork": {
+        "text": "推理で事件を解く名探偵。",
+        "claimIds": ["ugmf-holmes-work"]
+      },
+      "inMyth": {
+        "text": "ホームズは『緋色の研究』で、自分を「諮問探偵」だと説明した。",
+        "claimIds": ["ugmf-holmes-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のホームズは怪物の存在しない世界の探偵である。作品は彼を、怪物が実在する世界に置き、怪物専門の探偵・鴉夜と並べている。",
+      "claimIds": ["ugmf-holmes-cmp", "ugmf-holmes-myth"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ugmf-holmes-work",
+      "text": "ホームズはワトソンとともに登場し、鴉夜とともに黒ダイヤの警護に雇われる。",
+      "classification": "creative",
+      "sourceIds": ["work-undead-girl-murder-farce"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「アンデッドガール・マーダーファルス」の記述で確認。"
+    },
+    {
+      "id": "ugmf-holmes-myth",
+      "text": "ホームズは『緋色の研究』で、自分を「諮問探偵」だと説明した。",
+      "classification": "fact",
+      "sourceIds": ["doyle-study-in-scarlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『緋色の研究』第1部 第2章"
+    },
+    {
+      "id": "ugmf-holmes-cmp",
+      "text": "作品は合理的な名探偵を怪物の世界に置いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-undead-girl-murder-farce", "doyle-study-in-scarlet"],
+  "articleIds": []
+}

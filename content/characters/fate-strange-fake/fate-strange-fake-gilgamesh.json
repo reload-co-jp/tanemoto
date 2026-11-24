@@ -1,0 +1,81 @@
+{
+  "id": "fate-strange-fake-gilgamesh",
+  "slug": "fate-strange-fake-gilgamesh",
+  "name": "ギルガメッシュ",
+  "reading": "ぎるがめっしゅ",
+  "alternativeNames": ["偽りのアーチャー"],
+  "workId": "fate-strange-fake",
+  "description": {
+    "text": "偽りの聖杯戦争に召喚された「アーチャー」。召喚した魔術師は直後に少女ティーネ・チェルクに殺され、ティーネが新たなマスターとなった。ランサーとして召喚された親友エルキドゥと再会する。",
+    "claimIds": ["fsf-gil-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "gilgamesh",
+      "label": "ウルクの王",
+      "inWork": {
+        "text": "英雄王ギルガメッシュとして現界する。",
+        "claimIds": ["fsf-gil-work"]
+      },
+      "inMyth": {
+        "text": "ギルガメシュは三分の二が神、三分の一が人間で、高い城壁のウルク（エレク）の王である。",
+        "claimIds": ["fsf-gil-myth-king"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "enkidu",
+      "label": "エルキドゥとの友情",
+      "inWork": {
+        "text": "ランサーのエルキドゥと再会し、共闘する。",
+        "claimIds": ["fsf-gil-work"]
+      },
+      "inMyth": {
+        "text": "エンキドゥとギルガメシュは激しく戦い、互いの力を認め合って友となった。",
+        "claimIds": ["fsf-gil-myth-friend"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で友を失い嘆いたギルガメシュが、作品では聖杯戦争の場で友と再会する。",
+      "claimIds": ["fsf-gil-cmp", "fsf-gil-myth-friend"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsf-gil-work",
+      "text": "偽りのアーチャーはギルガメッシュで、召喚した魔術師はティーネ・チェルクに殺され、ティーネがマスターとなった。ランサーのエルキドゥは彼の友。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-strange-fake"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/strange Fake」の記述で確認。"
+    },
+    {
+      "id": "fsf-gil-myth-king",
+      "text": "ギルガメシュは三分の二が神、三分の一が人間で、高い城壁のエレク（ウルク）の牧者（王）である。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+    },
+    {
+      "id": "fsf-gil-myth-friend",
+      "text": "エンキドゥとギルガメシュは激しく戦い、互いの力を認め合って友となった。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第2粘土板（Thompson 英訳の梗概）"
+    },
+    {
+      "id": "fsf-gil-cmp",
+      "text": "死別した友との再会が、作品のギルガメッシュの物語の軸になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-strange-fake", "gilgamesh-epic"],
+  "articleIds": []
+}

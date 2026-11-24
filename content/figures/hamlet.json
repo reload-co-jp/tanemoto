@@ -1,0 +1,15 @@
+{
+  "id": "hamlet",
+  "slug": "hamlet",
+  "name": "ハムレット",
+  "reading": "はむれっと",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["デンマーク王子", "復讐者"],
+  "mythologyIds": ["hamlet"],
+  "description": "シェイクスピアの悲劇『ハムレット』の主人公で、デンマークの王子。父王の亡霊から、叔父クローディアスが庭で眠る父の耳に毒を注いで殺し、王位と母を奪ったと告げられる。狂気を装って復讐の機会をうかがうが、最後は毒を塗った剣で傷を負い、叔父を討って自らも息絶える。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["shakespeare-hamlet"]
+}

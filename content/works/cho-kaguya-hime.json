@@ -1,0 +1,14 @@
+{
+  "id": "cho-kaguya-hime",
+  "slug": "cho-kaguya-hime",
+  "title": "超かぐや姫！",
+  "reading": "ちょうかぐやひめ",
+  "type": "film",
+  "mediaTypes": ["film", "anime"],
+  "author": "山下清悟（監督）",
+  "period": "2026年1月22日配信（Netflix）、2月20日劇場公開",
+  "description": "月から来た少女かぐやと、17歳の女子高生・酒寄彩葉の物語を描くアニメーション映画。『竹取物語』を下敷きに、仮想空間「ツクヨミ」でライバーとして活動するかぐやの姿を描く。",
+  "mythologyIds": ["japanese-legends"],
+  "articleIds": [],
+  "sourceIds": ["work-cho-kaguya-hime"]
+}

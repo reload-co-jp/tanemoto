@@ -1,0 +1,15 @@
+{
+  "id": "nue",
+  "slug": "nue",
+  "name": "鵺",
+  "reading": "ぬえ",
+  "alternativeNames": ["鵼"],
+  "type": "monster",
+  "roles": ["妖怪"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "『平家物語』で、近衛天皇の御所に夜ごと黒雲とともに現れ、天皇を悩ませた怪物。源頼政が射落とし、家来の猪早太がとどめを刺した。頭は猿、胴は狸、尾は蛇、手足は虎の姿で、鳴き声が鵼（トラツグミ）に似ていたという。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["heike-monogatari"]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chao",
+  "slug": "chao",
+  "title": "ChaO",
+  "reading": "ちゃお",
+  "type": "film",
+  "mediaTypes": ["film", "anime"],
+  "author": "青木康浩（監督）",
+  "period": "2025年8月15日公開（アニメーション映画）",
+  "description": "人間と人魚が共存する近未来の上海を舞台に、造船所で働く青年ステファンと、彼に求婚した人魚の王女チャオの結婚生活を描くSTUDIO4℃のアニメーション映画。アンデルセンの『人魚姫』を題材にしている。",
+  "mythologyIds": ["andersen-fairy-tales"],
+  "articleIds": [],
+  "sourceIds": ["work-chao"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xu-fu",
+  "slug": "xu-fu",
+  "name": "徐福",
+  "reading": "じょふく",
+  "alternativeNames": ["徐市"],
+  "type": "historical",
+  "roles": ["方士"],
+  "mythologyIds": ["ancient-china"],
+  "description": "秦の始皇帝に仕えた斉の方士（不老不死の術を説く者）。『史記』では「徐市」と書かれる。海中に蓬萊・方丈・瀛洲の三神山があり仙人が住むと始皇帝に説き、童男童女数千人を連れて海へ仙人を探しに出た。",
+  "relatedFigureIds": ["qin-shi-huang"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["shiji"]
+}

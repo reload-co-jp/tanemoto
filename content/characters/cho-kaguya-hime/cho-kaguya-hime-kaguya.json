@@ -1,0 +1,81 @@
+{
+  "id": "cho-kaguya-hime-kaguya",
+  "slug": "cho-kaguya-hime-kaguya",
+  "name": "かぐや",
+  "reading": "かぐや",
+  "alternativeNames": [],
+  "workId": "cho-kaguya-hime",
+  "description": {
+    "text": "主人公。月から地上にやって来た少女で、ヒロインの酒寄彩葉と出会う。仮想空間「ツクヨミ」でライバー（配信者）として活動する。",
+    "claimIds": ["ck-kaguya-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "kaguya-hime",
+      "label": "かぐや姫",
+      "inWork": {
+        "text": "月から来た少女。",
+        "claimIds": ["ck-kaguya-work"]
+      },
+      "inMyth": {
+        "text": "『竹取物語』のかぐや姫は月の都の人で、八月十五日の夜、迎えに来た天人たちとともに月へ帰った。",
+        "claimIds": ["ck-kaguya-myth-moon"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "tsukuyomi",
+      "label": "仮想空間「ツクヨミ」",
+      "inWork": {
+        "text": "かぐやが活動する仮想空間の名は「ツクヨミ」。",
+        "claimIds": ["ck-kaguya-work"]
+      },
+      "inMyth": {
+        "text": "伊耶那岐命が禊で右の目を洗ったときに月読命が生まれ、夜の食国を治めるよう命じられた。",
+        "claimIds": ["ck-kaguya-myth-tsukuyomi"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "月から来た姫という『竹取物語』の設定に、月の神ツクヨミの名をもつ仮想空間を組み合わせている。原典で多くの求婚者を引きつけたかぐや姫が、作品では配信者として人々の注目を集める存在になっている。",
+      "claimIds": ["ck-kaguya-cmp", "ck-kaguya-myth-moon"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ck-kaguya-work",
+      "text": "かぐやは月から来た少女で、酒寄彩葉と出会い、仮想空間「ツクヨミ」でライバーとして活動する。",
+      "classification": "creative",
+      "sourceIds": ["work-cho-kaguya-hime"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「超かぐや姫!」の記述で確認。"
+    },
+    {
+      "id": "ck-kaguya-myth-moon",
+      "text": "かぐや姫は月の都の人で、八月十五日の夜、帝が遣わした兵も戦う心を失うなか、天人たちとともに月へ帰った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の昇天"
+    },
+    {
+      "id": "ck-kaguya-myth-tsukuyomi",
+      "text": "伊耶那岐命が禊で右の目を洗ったときに月読命が生まれ、夜の食国を治めるよう命じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+    },
+    {
+      "id": "ck-kaguya-cmp",
+      "text": "求婚者を引きつけた姫を、注目を集める配信者に置き換えていると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-cho-kaguya-hime", "taketori-monogatari", "kojiki"],
+  "articleIds": []
+}

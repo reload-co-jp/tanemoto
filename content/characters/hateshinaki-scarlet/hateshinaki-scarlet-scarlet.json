@@ -1,0 +1,113 @@
+{
+  "id": "hateshinaki-scarlet-scarlet",
+  "slug": "hateshinaki-scarlet-scarlet",
+  "name": "スカーレット",
+  "reading": "すかーれっと",
+  "alternativeNames": [],
+  "workId": "hateshinaki-scarlet",
+  "description": {
+    "text": "主人公の王女。父の国王アムレットは、弟（スカーレットの叔父）クローディアスに反逆の罪を着せられて処刑された。復讐を誓うが、舞踏会で毒を盛られて昏睡に陥り、「死者の国」で目覚める。",
+    "claimIds": ["hs-scarlet-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hamlet",
+      "label": "ハムレット",
+      "inWork": {
+        "text": "父を叔父に陥れられて殺され、復讐を誓う王家の子。",
+        "claimIds": ["hs-scarlet-work"]
+      },
+      "inMyth": {
+        "text": "父王の亡霊はハムレットに、叔父クローディアスが庭で眠る自分の耳に毒を注いで殺し、王位と妃を奪ったと告げ、復讐を求めた。",
+        "claimIds": ["hs-scarlet-myth-ghost"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "hamlet",
+      "label": "死者の国",
+      "inWork": {
+        "text": "毒で倒れたスカーレットは死者の国で目覚める。",
+        "claimIds": ["hs-scarlet-work"]
+      },
+      "inMyth": {
+        "text": "ハムレットは独白で、死後の世界を「旅人が一人として帰ってこない未知の国」と呼び、その恐れが人を生にとどまらせると語る。",
+        "claimIds": ["hs-scarlet-myth-country"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "hamlet",
+      "label": "毒による結末",
+      "inWork": {
+        "text": "スカーレット自身も毒によって倒れる。",
+        "claimIds": ["hs-scarlet-work"]
+      },
+      "inMyth": {
+        "text": "劇の終幕で、ハムレットは毒を塗った剣で傷を負い、その剣と毒の杯で叔父クローディアスを討ったのち息絶えた。",
+        "claimIds": ["hs-scarlet-myth-end"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "叔父クローディアスへの復讐という骨組みは『ハムレット』と共通する。一方、主人公を王女に変え、ハムレットが恐れた「帰らぬ者の国」を実際に旅させる点が作品独自の展開である。",
+      "claimIds": ["hs-scarlet-cmp", "hs-scarlet-myth-country"]
+    },
+    {
+      "text": "父王の名「アムレット」は、ハムレット伝説の古い形の主人公名アムレートを思わせる。",
+      "claimIds": ["hs-scarlet-cmp-name"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hs-scarlet-work",
+      "text": "スカーレットの父・国王アムレットは、弟クローディアスに反逆の罪を着せられて処刑された。スカーレットは舞踏会で毒を盛られて昏睡に陥り、死者の国で目覚める。作品は『ハムレット』に着想を得ている。",
+      "classification": "creative",
+      "sourceIds": ["work-hateshinaki-scarlet"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「果てしなきスカーレット」・英語版「Scarlet (2025 film)」の記述で確認。"
+    },
+    {
+      "id": "hs-scarlet-myth-ghost",
+      "text": "父王の亡霊はハムレットに、庭で眠っていたところを弟クローディアスに耳から毒を注がれて殺され、命も王冠も妃も奪われたと語り、復讐を命じた。",
+      "classification": "fact",
+      "sourceIds": ["shakespeare-hamlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ハムレット』第1幕第5場"
+    },
+    {
+      "id": "hs-scarlet-myth-country",
+      "text": "ハムレットは「生きるべきか死ぬべきか」の独白で、死後を「その境から旅人が一人として帰らぬ未知の国」と呼んだ。",
+      "classification": "fact",
+      "sourceIds": ["shakespeare-hamlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ハムレット』第3幕第1場"
+    },
+    {
+      "id": "hs-scarlet-myth-end",
+      "text": "ハムレットはレアティーズの毒を塗った剣で傷を負い、その剣でクローディアスを刺し、毒の杯を飲ませたのち息絶えた。",
+      "classification": "fact",
+      "sourceIds": ["shakespeare-hamlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ハムレット』第5幕第2場"
+    },
+    {
+      "id": "hs-scarlet-cmp",
+      "text": "作品は、ハムレットが語るだけだった死後の国を、主人公が旅する舞台にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "hs-scarlet-cmp-name",
+      "text": "「アムレット」の名は、ハムレット伝説の古い形（アムレート）を思わせる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hateshinaki-scarlet", "shakespeare-hamlet"],
+  "articleIds": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "apollo",
+  "slug": "apollo",
+  "name": "アポロン",
+  "reading": "あぽろん",
+  "originalName": "Ἀπόλλων",
+  "romanized": "Apollōn",
+  "alternativeNames": ["アポロ"],
+  "type": "god",
+  "roles": ["弓矢の神", "予言の神", "音楽の神"],
+  "mythologyIds": ["greek"],
+  "description": "ゼウスとレトの子で、アルテミスの双子の兄弟。銀の弓をもつ神として、『イリアス』では祭司クリュセスの祈りに応えて、ギリシャ軍の陣営に疫病の矢を射かけた。予言・音楽・医術ともかかわりが深い。",
+  "relatedFigureIds": ["zeus", "athena"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["hesiod-theogony", "homer-iliad"]
+}

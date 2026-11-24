@@ -1,0 +1,80 @@
+{
+  "id": "one-piece-loki",
+  "slug": "one-piece-loki",
+  "name": "ロキ",
+  "reading": "ろき",
+  "alternativeNames": [],
+  "workId": "one-piece",
+  "description": {
+    "text": "巨人族の国エルバフの王子で、ハラルド王の息子。悪魔の実「リュウリュウの実 幻獣種 モデル“ニーズヘッグ”」の能力者で、大槌「ラグニル」を武器とする。",
+    "claimIds": ["op-loki-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "loki",
+      "label": "巨人の血を引くロキ",
+      "inWork": {
+        "text": "巨人族の国の王子。",
+        "claimIds": ["op-loki-work"]
+      },
+      "inMyth": {
+        "text": "ロキは巨人ファールバウティの子でアース神族に数えられ、悪だくみの張本人、偽りの祖と呼ばれる。",
+        "claimIds": ["op-loki-myth-giant"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "label": "竜ニーズヘッグ",
+      "inWork": {
+        "text": "竜ニーズヘッグに変身する能力をもつ。",
+        "claimIds": ["op-loki-work"]
+      },
+      "inMyth": {
+        "text": "世界樹ユグドラシルの根の一つはニヴルヘイムに伸び、その下で竜ニーズヘッグが根をかじっている。",
+        "claimIds": ["op-loki-myth-nidhogg"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "北欧神話のロキは巨人の子で、神々に災いをもたらす存在である。作品は巨人族の王子にロキの名を与え、世界樹の根をかじる竜ニーズヘッグの力を組み合わせている。",
+      "claimIds": ["op-loki-cmp", "op-loki-myth-giant", "op-loki-myth-nidhogg"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "op-loki-work",
+      "text": "ロキはエルバフの王子でハラルド王の息子。リュウリュウの実 幻獣種 モデル“ニーズヘッグ”の能力者で、大槌ラグニルを使う。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「List of One Piece characters」の記述で確認。"
+    },
+    {
+      "id": "op-loki-myth-giant",
+      "text": "ロキは巨人ファールバウティの子でアース神族に数えられ、悪だくみの張本人、偽りの祖と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "op-loki-myth-nidhogg",
+      "text": "ユグドラシルの三本の根の一つはニヴルヘイムに伸び、その下にフヴェルゲルミルの泉があり、ニーズヘッグが下から根をかじっている。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15–16章"
+    },
+    {
+      "id": "op-loki-cmp",
+      "text": "巨人の子ロキと竜ニーズヘッグという北欧神話の要素が組み合わされている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-one-piece", "snorri-edda"],
+  "articleIds": []
+}
