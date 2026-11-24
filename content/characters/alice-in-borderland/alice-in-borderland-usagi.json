@@ -1,0 +1,72 @@
+{
+  "id": "alice-in-borderland-usagi",
+  "slug": "alice-in-borderland-usagi",
+  "name": "ウサギ",
+  "reading": "うさぎ",
+  "alternativeNames": ["宇佐木柚葉"],
+  "workId": "alice-in-borderland",
+  "description": {
+    "text": "ヒロイン。クライマーの女子高生で、父から学んだサバイバル技術で生き抜いてきた。「おにごっこ」の会場でアリスと出会い、ともに生きる決意をする。",
+    "claimIds": ["aib-usagi-work"]
+  },
+  "nameOrigin": {
+    "text": "本名は宇佐木柚葉（うさぎ ゆずは）。原作でアリスを不思議の国へ導く白ウサギにちなむ。",
+    "claimIds": ["aib-usagi-work", "aib-names-usagi"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "white-rabbit",
+      "label": "白ウサギ",
+      "inWork": {
+        "text": "アリスと出会い、行動をともにするパートナーとなる。",
+        "claimIds": ["aib-usagi-work"]
+      },
+      "inMyth": {
+        "text": "原作の白ウサギは、懐中時計を手に「遅れちゃう！」と急ぐ姿でアリスの好奇心をかき立て、不思議の国へと導く。",
+        "claimIds": ["aib-usagi-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の白ウサギはアリスを不思議の国へ誘い込むだけの存在だが、作品のウサギは、絶望した主人公を支え、ともに生きる相手として描かれる。",
+      "claimIds": ["aib-usagi-myth", "aib-usagi-work", "aib-usagi-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "aib-names-usagi",
+      "text": "本作品の登場人物名はほとんど片仮名で書かれ、主人公のアリスをはじめ「不思議の国のアリス」の登場人物にちなんだ名前の人物が多い。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-usagi-work",
+      "text": "宇佐木柚葉（ウサギ）は本作のヒロインで、クライマーの女子高生。「おにごっこ」の会場でアリスと出逢い、「今際の国」でも父親から学んだサバイバル技術で一人生活していたが、アリスに共感を抱き共に生きる決意をする。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-usagi-myth",
+      "text": "白ウサギは「たいへんだ、遅れちゃう！」と言いながらチョッキのポケットから懐中時計を取り出して急ぎ、その後を追ったアリスはウサギ穴に飛び込んだ。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第1章"
+    },
+    {
+      "id": "aib-usagi-cmp",
+      "text": "原作で案内役にすぎない白ウサギを、主人公と生を分かち合うヒロインに置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-alice-in-borderland", "carroll-alice"],
+  "articleIds": []
+}

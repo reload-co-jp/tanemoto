@@ -1,0 +1,14 @@
+{
+  "id": "detective-conan",
+  "slug": "detective-conan",
+  "title": "名探偵コナン",
+  "reading": "めいたんていこなん",
+  "type": "manga",
+  "mediaTypes": ["anime", "film"],
+  "author": "青山剛昌",
+  "period": "1994年〜（『週刊少年サンデー』連載中）。1996年からテレビアニメ",
+  "description": "黒ずくめの男たちに毒薬を飲まされて子どもの姿になった高校生探偵・工藤新一が、「江戸川コナン」と名乗って事件を解決する推理漫画。シャーロック・ホームズをはじめ、古今の推理小説への言及が随所にちりばめられている。",
+  "mythologyIds": ["sherlock-holmes"],
+  "articleIds": [],
+  "sourceIds": ["work-detective-conan"]
+}

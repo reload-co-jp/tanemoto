@@ -1,0 +1,17 @@
+{
+  "id": "hatter",
+  "slug": "hatter",
+  "name": "帽子屋",
+  "reading": "ぼうしや",
+  "originalName": "Hatter",
+  "romanized": "Hatter",
+  "alternativeNames": ["いかれ帽子屋", "マッドハッター"],
+  "type": "fictional",
+  "roles": ["お茶会の主"],
+  "mythologyIds": ["alice-in-wonderland"],
+  "description": "『不思議の国のアリス』で、三月ウサギや眠りネズミとお茶会を開いている人物。チェシャ猫は帽子屋も三月ウサギも「どっちも狂ってる」と言う。女王の前で歌ったとき「時間」とけんかしてしまい、それ以来いつも6時のままなので、ずっとお茶の時間が続いていると語る。",
+  "relatedFigureIds": ["alice", "queen-of-hearts"],
+  "relatedStoryIds": ["mad-tea-party"],
+  "articleIds": [],
+  "sourceIds": ["carroll-alice"]
+}

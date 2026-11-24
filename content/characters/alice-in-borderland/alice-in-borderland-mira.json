@@ -1,0 +1,64 @@
+{
+  "id": "alice-in-borderland-mira",
+  "slug": "alice-in-borderland-mira",
+  "name": "ミラ",
+  "reading": "みら",
+  "alternativeNames": ["加納未来", "ハートのクイーン"],
+  "workId": "alice-in-borderland",
+  "description": {
+    "text": "「ハートのQ」を名乗る国民で、精神科医にして脳科学者。人の心をもてあそぶ「げぇむ」を好み、「くろっけぇ」でアリスと対決する。",
+    "claimIds": ["aib-mira-work"]
+  },
+  "nameOrigin": {
+    "text": "本名は加納未来（かのう みら）。「ハートのクイーン」として、原作のハートの女王にあたる。",
+    "claimIds": ["aib-mira-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "queen-of-hearts",
+      "label": "ハートの女王",
+      "inWork": {
+        "text": "トランプの絵札「ハートのQ」として、最後の「げぇむ」の一つ「くろっけぇ」を主催する。紅茶に盛った幻覚剤でアリスを追い詰めようとする。",
+        "claimIds": ["aib-mira-work"]
+      },
+      "inMyth": {
+        "text": "原作のハートの女王は、生きたフラミンゴとハリネズミを使うクロッケー大会を開き、1分に一度は「首をはねよ！」と叫ぶ。",
+        "claimIds": ["aib-mira-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ハートのクイーンがクロッケーで主人公と対決する構図は、原作第8章の女王のクロッケー場をそのまま踏まえている。一方、すぐに首をはねよと怒鳴る原作の女王に対し、作品のミラは人形のような無表情で相手の心を壊そうとする。",
+      "claimIds": ["aib-mira-myth", "aib-mira-work", "aib-mira-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "aib-mira-work",
+      "text": "加納未来（ミラ）は「ハートのQ」を名乗る国民で、精神科医にして脳科学者。人形のような表情を崩さない。「くろっけぇ」では紅茶に盛った幻覚剤を利用した洗脳でアリスの生存本能を奪おうとするが、敗北を悟り、最後までクロッケーを楽しむ。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-mira-myth",
+      "text": "ハートの女王のクロッケーでは、球は生きたハリネズミ、木槌は生きたフラミンゴ、アーチはトランプの兵隊で、女王は1分に一度は「首をはねよ！」と叫んでいた。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第8章"
+    },
+    {
+      "id": "aib-mira-cmp",
+      "text": "クロッケーによる対決はハートの女王を直接踏まえるが、怒りっぽい原作の女王とは対照的な、無表情で心理を操る人物として造形されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-alice-in-borderland", "carroll-alice"],
+  "articleIds": []
+}

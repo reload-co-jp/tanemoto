@@ -1,0 +1,24 @@
+{
+  "id": "arsene-lupin",
+  "slug": "arsene-lupin",
+  "name": "アルセーヌ・ルパン",
+  "reading": "あるせーぬ・るぱん",
+  "region": "フランス",
+  "period": "1905〜1941年に発表された",
+  "description": "変装の名人で、予告状を送りつけて大胆に盗みを働く怪盗紳士アルセーヌ・ルパン。モーリス・ルブランが生み出し、名探偵ホームズとも対決したフランスの冒険小説の主人公。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "アルセーヌ・ルパンは、フランスの作家モーリス・ルブランが1905年に雑誌に発表した短編で初めて登場した怪盗です。ユーモアと騎士道精神をそなえ、変装を駆使して警察を出し抜く「怪盗紳士」として人気を集めました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "ルブランは、イギリスで人気だったシャーロック・ホームズをルパンの好敵手として登場させましたが、ドイルの抗議を受け、単行本では「エルロック・ショルメ（Herlock Sholmès）」と名前を変えました。ルパンは日本でも早くから翻訳され、その名を受け継ぐ怪盗キャラクターを数多く生んでいます。"
+    }
+  ],
+  "figureIds": ["arsene-lupin"],
+  "storyIds": ["arrest-of-arsene-lupin", "sholmes-arrives-too-late"],
+  "sourceIds": ["leblanc-gentleman-burglar", "leblanc-cagliostro"],
+  "kind": "literature",
+  "order": 22
+}

@@ -1,0 +1,105 @@
+{
+  "id": "detective-conan-conan",
+  "slug": "detective-conan-conan",
+  "name": "江戸川コナン",
+  "reading": "えどがわこなん",
+  "alternativeNames": ["工藤新一"],
+  "workId": "detective-conan",
+  "description": {
+    "text": "主人公。黒ずくめの男たちに毒薬を飲まされ、子どもの姿になった高校生探偵・工藤新一の仮の名。シャーロック・ホームズの大ファン。",
+    "claimIds": ["dc-conan-work-name", "dc-conan-work-holmes"]
+  },
+  "nameOrigin": {
+    "text": "蘭に名前を聞かれたとき、本棚で目に入った江戸川乱歩とアーサー・コナン・ドイルの名前を合わせて名乗った。ドイルはシャーロック・ホームズの作者。",
+    "claimIds": ["dc-conan-work-name", "dc-conan-myth-doyle"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "sherlock-holmes",
+      "label": "コナン・ドイル（ホームズの作者）",
+      "inWork": {
+        "text": "「コナン」の名は、ホームズの生みの親アーサー・コナン・ドイルから取られている。",
+        "claimIds": ["dc-conan-work-name"]
+      },
+      "inMyth": {
+        "text": "ドイルは1887年の『緋色の研究』でシャーロック・ホームズを生み出した。",
+        "claimIds": ["dc-conan-myth-doyle"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "sherlock-holmes",
+      "label": "シャーロック・ホームズの推理",
+      "inWork": {
+        "text": "ホームズを「世界最高の探偵」と評し、『四つの署名』でホームズが語る推理の原則を好きな言葉に挙げる。新一としては「平成のシャーロック・ホームズ」を目標にしている。",
+        "claimIds": ["dc-conan-work-holmes"]
+      },
+      "inMyth": {
+        "text": "ホームズは『四つの署名』で、「不可能なものを消去して残ったものは、いかにありそうになくても真実だと、何度言ったことか」とワトソンに語る。",
+        "claimIds": ["dc-conan-myth-quote"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作のホームズは大人の諮問探偵で、ワトソンが語り手を務める。作品は、子どもの姿で大人に推理を聞いてもらえないという制約を設け、眠らせた毛利小五郎の口を借りて推理を語るという、ホームズ物語にない仕掛けを生み出している。",
+      "claimIds": ["dc-conan-myth-doyle", "dc-conan-work-voice", "dc-conan-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dc-conan-work-name",
+      "text": "江戸川コナンの名前は、小説家・江戸川乱歩とアーサー・コナン・ドイルに由来する。作中では、蘭に名前を尋ねられた際、本棚で偶然目に入ったこの2人の名前を合わせて名乗った。",
+      "classification": "creative",
+      "sourceIds": ["work-detective-conan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「江戸川コナン」の記述で確認。"
+    },
+    {
+      "id": "dc-conan-work-holmes",
+      "text": "シャーロック・ホームズの大ファンで「世界最高の探偵」と評している。1番好きな作品は『四つの署名』で、同作品中でホームズが述べる推理論を好きな言葉として挙げている。新一としては「平成のシャーロック・ホームズ」を目標としている。",
+      "classification": "creative",
+      "sourceIds": ["work-detective-conan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「江戸川コナン」の記述で確認。"
+    },
+    {
+      "id": "dc-conan-work-voice",
+      "text": "コナンの姿では事件の真相を語っても小五郎など周囲の大人に相手にされないため、正体を知らない者は麻酔銃で眠らせ、物陰に隠れて変声機でその人の声を真似て真相を話す。小五郎を眠らせて彼の声を使うことが多い。",
+      "classification": "creative",
+      "sourceIds": ["work-detective-conan"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「江戸川コナン」の記述で確認。"
+    },
+    {
+      "id": "dc-conan-myth-doyle",
+      "text": "シャーロック・ホームズは、アーサー・コナン・ドイルの長編『緋色の研究』で初めて登場し、自分を世界でただ一人の「諮問探偵」だと説明した。",
+      "classification": "fact",
+      "sourceIds": ["doyle-study-in-scarlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『緋色の研究』第1部 第2章"
+    },
+    {
+      "id": "dc-conan-myth-quote",
+      "text": "ホームズはワトソンに「不可能なものを消去したら、残ったものは、いかにありそうになくても真実に違いないと、何度言ったことか」と語った。",
+      "classification": "fact",
+      "sourceIds": ["doyle-sign-of-four"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『四つの署名』第6章"
+    },
+    {
+      "id": "dc-conan-cmp",
+      "text": "子どもの姿で他人の口を借りて推理を語るという設定は、大人の探偵とその記録者という原作の型を作品独自にずらしたものである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-detective-conan",
+    "doyle-study-in-scarlet",
+    "doyle-sign-of-four"
+  ],
+  "articleIds": []
+}

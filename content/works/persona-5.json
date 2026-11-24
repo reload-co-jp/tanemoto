@@ -1,0 +1,14 @@
+{
+  "id": "persona-5",
+  "slug": "persona-5",
+  "title": "ペルソナ5",
+  "reading": "ぺるそなふぁいぶ",
+  "type": "game",
+  "mediaTypes": ["anime"],
+  "author": "アトラス",
+  "period": "2016年（PlayStation 3／4用ゲーム）。2019年に『ペルソナ5 ザ・ロイヤル』",
+  "description": "人の歪んだ欲望が生み出した異世界「パレス」に潜入し、悪人の心を盗んで改心させる「心の怪盗団」を描くロールプレイングゲーム。主人公のペルソナ「アルセーヌ」をはじめ、怪盗や反逆者として知られる物語の登場人物がペルソナのモチーフになっている。",
+  "mythologyIds": ["arsene-lupin"],
+  "articleIds": [],
+  "sourceIds": ["work-persona-5"]
+}

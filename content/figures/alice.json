@@ -1,0 +1,22 @@
+{
+  "id": "alice",
+  "slug": "alice",
+  "name": "アリス",
+  "reading": "ありす",
+  "originalName": "Alice",
+  "romanized": "Alice",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["主人公", "少女"],
+  "mythologyIds": ["alice-in-wonderland"],
+  "description": "『不思議の国のアリス』の主人公の少女。姉と土手に座って退屈していたところ、チョッキを着て懐中時計を持った白ウサギを見かけ、追いかけてウサギ穴に飛び込む。不思議の国で体が伸び縮みし、チェシャ猫や帽子屋、ハートの女王などの奇妙な住人たちと出会う。最後はトランプの兵隊たちに向かって「あんたたちなんか、ただのトランプのくせに！」と叫んだところで目を覚ます。",
+  "relatedFigureIds": [
+    "white-rabbit",
+    "cheshire-cat",
+    "hatter",
+    "queen-of-hearts"
+  ],
+  "relatedStoryIds": ["down-the-rabbit-hole", "alice-wakes-up"],
+  "articleIds": [],
+  "sourceIds": ["carroll-alice"]
+}

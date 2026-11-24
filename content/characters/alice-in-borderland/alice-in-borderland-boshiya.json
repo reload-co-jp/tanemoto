@@ -1,0 +1,73 @@
+{
+  "id": "alice-in-borderland-boshiya",
+  "slug": "alice-in-borderland-boshiya",
+  "name": "ボーシヤ",
+  "reading": "ぼーしや",
+  "alternativeNames": ["弾間剛"],
+  "workId": "alice-in-borderland",
+  "description": {
+    "text": "滞在者たちの拠点「ビーチ」を築いた支配者。「今際の国を出国する手段」という偽りの希望を掲げて人々を率いたが、やがて独裁者と化していく。",
+    "claimIds": ["aib-boshiya-work"]
+  },
+  "nameOrigin": {
+    "text": "本名は弾間剛（だんま たける）。父の店を継いだことから商店街で「帽子屋（ボーシヤ）」とあだ名された。原作の帽子屋にちなむ。",
+    "claimIds": ["aib-boshiya-work", "aib-names-boshiya"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "hatter",
+      "label": "帽子屋",
+      "inWork": {
+        "text": "ホテルを拠点にした「ビーチ」で、終わりの見えない日々を過ごす人々を率いる。",
+        "claimIds": ["aib-boshiya-work"]
+      },
+      "inMyth": {
+        "text": "原作の帽子屋は、「時間」とけんかしたためにいつも6時のままとなり、終わらないお茶会を続けている。",
+        "claimIds": ["aib-boshiya-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "いつまで続くかわからない「今際の国」で人々を集めて暮らす「ビーチ」は、時間が止まったまま終わらない原作の狂ったお茶会を思わせる。",
+      "claimIds": ["aib-boshiya-myth", "aib-boshiya-work", "aib-boshiya-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "aib-names-boshiya",
+      "text": "本作品の登場人物名はほとんど片仮名で書かれ、主人公のアリスをはじめ「不思議の国のアリス」の登場人物にちなんだ名前の人物が多い。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-boshiya-work",
+      "text": "弾間剛（ボーシヤ）は「ビーチ」の支配者。父親の店を受け継ぎ、商店街の人間から「帽子屋（ボーシヤ）」のあだ名をつけられた。いつまで続くか解らない「今際の国」の絶望から人々を救うため「ビーチ」を創設し、“出国する手段”という偽りの希望を掲げて滞在者を率いたが、やがて独裁者と化した。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-boshiya-myth",
+      "text": "帽子屋は、女王の音楽会で歌ったときに「時間」とけんかしてしまい、それ以来いつも6時のままなので、ずっとお茶の時間が続いていると語った。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第7章"
+    },
+    {
+      "id": "aib-boshiya-cmp",
+      "text": "終わりの見えない日々を集団で過ごす「ビーチ」は、時間が止まった原作の狂ったお茶会を思わせる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-alice-in-borderland", "carroll-alice"],
+  "articleIds": []
+}

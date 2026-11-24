@@ -1,0 +1,90 @@
+{
+  "id": "persona-5-joker",
+  "slug": "persona-5-joker",
+  "name": "ジョーカー",
+  "reading": "じょーかー",
+  "alternativeNames": ["主人公"],
+  "workId": "persona-5",
+  "description": {
+    "text": "「心の怪盗団」のリーダー。人の歪んだ欲望が生み出した異世界「パレス」に潜入し、悪人の心を盗んで改心させる。最初のペルソナはアルセーヌ。",
+    "claimIds": ["p5-joker-work"]
+  },
+  "nameOrigin": {
+    "text": "怪盗団のコードネーム。ペルソナ「アルセーヌ」は、モーリス・ルブランの怪盗アルセーヌ・ルパンに由来する。",
+    "claimIds": ["p5-joker-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "arsene-lupin",
+      "label": "アルセーヌ（怪盗紳士ルパン）",
+      "inWork": {
+        "text": "主人公が最初に覚醒するペルソナはアルセーヌ。怪盗団は「オタカラ」を盗んで悪人を改心させる。",
+        "claimIds": ["p5-joker-work"]
+      },
+      "inMyth": {
+        "text": "アルセーヌ・ルパンは、予告状を送りつけて大胆に盗みを働き、変装で警察を出し抜く「怪盗紳士」。最初の物語では、客船の乗客たちが誰がルパンかを疑い合う中、語り手その人がルパンだった。",
+        "claimIds": ["p5-joker-myth-arrest"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "arsene-lupin",
+      "label": "ラウール",
+      "inWork": {
+        "text": "最終的なペルソナはラウールとなる。",
+        "claimIds": ["p5-joker-work"]
+      },
+      "inMyth": {
+        "text": "ルパンは若き日に「ラウール・ダンドレジー」と名乗っていた。その冒険は長編『カリオストロ伯爵夫人』で描かれる。",
+        "claimIds": ["p5-joker-myth-raoul"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "最初のペルソナを「アルセーヌ」、最後を若き日のルパンの名「ラウール」とする流れは、ルパンの名前の歴史を踏まえたものと読める。原作のルパンが私利のために盗むのに対し、作品の怪盗団は悪人を改心させるために「心」を盗む。",
+      "claimIds": ["p5-joker-work", "p5-joker-myth-raoul", "p5-joker-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p5-joker-work",
+      "text": "主人公（コードネーム：ジョーカー）は『心の怪盗団』のリーダー。ペルソナはアルセーヌ（付け替え可）からサタナエル、ラウールへと変わる。怪盗団は、歪んだ人の欲望が生み出した異世界『パレス』に潜入し、悪人を改心させる。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ5」の記述で確認。"
+    },
+    {
+      "id": "p5-joker-myth-arrest",
+      "text": "ニューヨーク行きの客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という知らせが届き、乗客たちは互いを疑うが、到着した港でガニマール警部が逮捕したのは語り手その人だった。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "id": "p5-joker-myth-raoul",
+      "text": "20歳のルパンは「ラウール・ダンドレジー」と名乗り、カリオストロ伯爵夫人をめぐる冒険に巻き込まれる。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-cagliostro"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カリオストロ伯爵夫人』"
+    },
+    {
+      "id": "p5-joker-cmp",
+      "text": "アルセーヌから若き日の名ラウールへ至るペルソナの流れはルパンの経歴を踏まえたものと読める。ただし怪盗団の目的は私利ではなく悪人の改心にある点が異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": [
+    "work-persona-5",
+    "leblanc-gentleman-burglar",
+    "leblanc-cagliostro"
+  ],
+  "articleIds": []
+}

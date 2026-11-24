@@ -1,0 +1,101 @@
+{
+  "id": "alice-in-borderland-arisu",
+  "slug": "alice-in-borderland-arisu",
+  "name": "アリス",
+  "reading": "ありす",
+  "alternativeNames": ["有栖良平"],
+  "workId": "alice-in-borderland",
+  "description": {
+    "text": "主人公。人のいない「今際の国」に迷い込み、命がけの「げぇむ」に挑む青年。挫折と再起を繰り返しながら、国の謎に迫っていく。",
+    "claimIds": ["aib-arisu-work"]
+  },
+  "nameOrigin": {
+    "text": "本名は有栖良平（ありす りょうへい）。作中の多くの人物と同じく『不思議の国のアリス』にちなむ名前で、主人公アリスにあたる。",
+    "claimIds": ["aib-arisu-work", "aib-names"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "alice",
+      "label": "アリス（主人公）",
+      "inWork": {
+        "text": "見知らぬ世界に迷い込み、奇妙なルールの「げぇむ」に翻弄される主人公。",
+        "claimIds": ["aib-arisu-work"]
+      },
+      "inMyth": {
+        "text": "原作のアリスは、白ウサギを追ってウサギ穴に落ち、不思議の国で奇妙な住人たちと出会う。",
+        "claimIds": ["aib-arisu-myth-hole"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "alice",
+      "label": "夢からの帰還",
+      "inWork": {
+        "text": "「今際の国」は、隕石落下で臨死状態にあった人々が経験した世界だったことが明かされ、アリスは現実世界でその記憶を失って目覚める。",
+        "claimIds": ["aib-arisu-work-end"]
+      },
+      "inMyth": {
+        "text": "原作の結末で、トランプたちに襲いかかられたアリスは目を覚まし、不思議の国の出来事はすべて夢だったとわかる。",
+        "claimIds": ["aib-arisu-myth-wake"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "異世界に迷い込み、最後に「目覚める」という構造は原作と共通する。作品は、原作の夢の世界を、生死の境にある臨死体験の世界に置き換えている。",
+      "claimIds": ["aib-arisu-myth-wake", "aib-arisu-work-end", "aib-arisu-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "aib-names",
+      "text": "本作品の登場人物名はほとんど片仮名で書かれ、主人公のアリスをはじめ「不思議の国のアリス」の登場人物にちなんだ名前の人物が多い。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-arisu-work",
+      "text": "主人公の有栖良平（アリス）は、「げぇむ」を乗り越える中で挫折と再起を繰り返す。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-arisu-work-end",
+      "text": "アリスは現実世界では隕石落下により臨死状態だった。いわゆる三途の川での臨死体験であった「今際の国」での記憶はないが、心のどこかでそれを憶えている。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-arisu-myth-hole",
+      "text": "アリスは、懐中時計を持った白ウサギの後を追って、生け垣の下の大きなウサギ穴に飛び込んだ。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第1章"
+    },
+    {
+      "id": "aib-arisu-myth-wake",
+      "text": "アリスが「あんたたちなんか、ただのトランプのくせに！」と言うと、トランプが舞い上がって襲いかかり、アリスは姉のひざで目を覚ました。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第12章"
+    },
+    {
+      "id": "aib-arisu-cmp",
+      "text": "原作の夢の世界を臨死体験の世界に置き換えつつ、迷い込んで最後に目覚める構造を受け継いでいる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-alice-in-borderland", "carroll-alice"],
+  "articleIds": []
+}

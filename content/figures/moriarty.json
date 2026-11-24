@@ -1,0 +1,17 @@
+{
+  "id": "moriarty",
+  "slug": "moriarty",
+  "name": "モリアーティ教授",
+  "reading": "もりあーてぃきょうじゅ",
+  "originalName": "Professor Moriarty",
+  "romanized": "James Moriarty",
+  "alternativeNames": ["ジェームズ・モリアーティ"],
+  "type": "fictional",
+  "roles": ["犯罪組織の首領", "数学者"],
+  "mythologyIds": ["sherlock-holmes"],
+  "description": "シャーロック・ホームズの宿敵。短編「最後の事件」で、ホームズはモリアーティを、ロンドンの悪事の大半を陰で操る「犯罪界のナポレオン」と呼ぶ。数学の教授でもある天才的な人物で、ホームズとともにスイスのライヘンバッハの滝で姿を消した。",
+  "relatedFigureIds": ["sherlock-holmes"],
+  "relatedStoryIds": ["reichenbach-falls"],
+  "articleIds": [],
+  "sourceIds": ["doyle-final-problem"]
+}

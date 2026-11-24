@@ -650,5 +650,70 @@
     "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp",
     "urlLabel": "Internet Medieval Sourcebook（Barrett 英訳）",
     "notes": "1431年、イングランド側のルーアンで行われた異端裁判の公式記録。ジャンヌ本人の受け答えが書き留められており、彼女の言葉を伝えるもっとも重要な史料。箇所は尋問の日付で示す。"
+  },
+  {
+    "id": "carroll-alice",
+    "title": "不思議の国のアリス",
+    "originalTitle": "Alice's Adventures in Wonderland",
+    "author": "ルイス・キャロル",
+    "type": "primary",
+    "publishedPeriod": "1865年",
+    "publisher": "Macmillan",
+    "url": "https://en.wikisource.org/wiki/Alice%27s_Adventures_in_Wonderland_(1866)",
+    "urlLabel": "Wikisource（1866年版の原文）",
+    "notes": "オックスフォード大学の数学講師チャールズ・ドジソンが、ルイス・キャロルの筆名で発表した児童小説。知人の少女アリス・リデルらに即興で語った物語がもとになっている。挿絵はジョン・テニエル。箇所は章番号で示す。"
+  },
+  {
+    "id": "doyle-study-in-scarlet",
+    "title": "緋色の研究",
+    "originalTitle": "A Study in Scarlet",
+    "author": "アーサー・コナン・ドイル",
+    "type": "primary",
+    "publishedPeriod": "1887年",
+    "url": "https://en.wikisource.org/wiki/A_Study_in_Scarlet",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "シャーロック・ホームズが初めて登場した長編。ワトソンとホームズの出会いを描く。箇所は「部.章」で示す。"
+  },
+  {
+    "id": "doyle-sign-of-four",
+    "title": "四つの署名",
+    "originalTitle": "The Sign of the Four",
+    "author": "アーサー・コナン・ドイル",
+    "type": "primary",
+    "publishedPeriod": "1890年",
+    "url": "https://en.wikisource.org/wiki/The_Sign_of_the_Four",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "シャーロック・ホームズの長編第2作。箇所は章番号で示す。"
+  },
+  {
+    "id": "doyle-final-problem",
+    "title": "最後の事件",
+    "originalTitle": "The Final Problem",
+    "author": "アーサー・コナン・ドイル",
+    "type": "primary",
+    "publishedPeriod": "1893年（短編集『シャーロック・ホームズの思い出』所収）",
+    "notes": "ホームズの宿敵モリアーティ教授が登場し、二人がライヘンバッハの滝で姿を消す短編。ドイルはこの作品でシリーズを終わらせるつもりだったが、のちに『空き家の冒険』（1903年）でホームズを復活させた。"
+  },
+  {
+    "id": "leblanc-gentleman-burglar",
+    "title": "怪盗紳士ルパン",
+    "originalTitle": "Arsène Lupin, gentleman-cambrioleur",
+    "author": "モーリス・ルブラン",
+    "type": "primary",
+    "publishedPeriod": "1907年（収録作は1905〜1907年に雑誌『ジュ・セ・トゥ』に掲載）",
+    "url": "https://fr.wikisource.org/wiki/Ars%C3%A8ne_Lupin_gentleman-cambrioleur",
+    "urlLabel": "Wikisource（フランス語原文）",
+    "notes": "怪盗アルセーヌ・ルパンが初めて登場した短編集。最終話「遅かりしシャーロック・ホームズ」では、雑誌掲載時に実名で登場させたホームズを、ドイルの抗議を受けて単行本で「エルロック・ショルメ（Herlock Sholmès）」と改名した。箇所は収録短編の題名で示す。"
+  },
+  {
+    "id": "leblanc-cagliostro",
+    "title": "カリオストロ伯爵夫人",
+    "originalTitle": "La Comtesse de Cagliostro",
+    "author": "モーリス・ルブラン",
+    "type": "primary",
+    "publishedPeriod": "1924年",
+    "url": "https://fr.wikisource.org/wiki/La_Comtesse_de_Cagliostro",
+    "urlLabel": "Wikisource（フランス語原文）",
+    "notes": "20歳のルパンが「ラウール・ダンドレジー」と名乗っていた若き日の冒険を描く長編。"
   }
 ]

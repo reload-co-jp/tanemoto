@@ -316,5 +316,32 @@
     "publishedPeriod": "2024年（全8話）",
     "publisher": "Netflix",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Kaos (TV series)」のあらすじでも確認している。"
+  },
+  {
+    "id": "work-alice-in-borderland",
+    "title": "今際の国のアリス",
+    "author": "麻生羽呂",
+    "type": "work",
+    "publishedPeriod": "2010〜2016年（漫画）、2020〜2025年（Netflix実写ドラマ）",
+    "publisher": "小学館",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「今際の国のアリス」の記述でも確認している。"
+  },
+  {
+    "id": "work-persona-5",
+    "title": "ペルソナ5",
+    "author": "アトラス",
+    "type": "work",
+    "publishedPeriod": "2016年",
+    "publisher": "アトラス",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ペルソナ5」の記述でも確認している。"
+  },
+  {
+    "id": "work-detective-conan",
+    "title": "名探偵コナン",
+    "author": "青山剛昌",
+    "type": "work",
+    "publishedPeriod": "1994年〜（『週刊少年サンデー』連載中）",
+    "publisher": "小学館",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「江戸川コナン」の記述でも確認している。"
   }
 ]

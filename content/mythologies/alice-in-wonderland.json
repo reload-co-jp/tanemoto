@@ -1,0 +1,36 @@
+{
+  "id": "alice-in-wonderland",
+  "slug": "alice-in-wonderland",
+  "name": "不思議の国のアリス",
+  "reading": "ふしぎのくにのありす",
+  "region": "イギリス",
+  "period": "1865年刊行（続編『鏡の国のアリス』は1871年）",
+  "description": "白ウサギを追ってウサギ穴に落ちた少女アリスが、チェシャ猫、帽子屋、ハートの女王など奇妙な住人たちと出会う、ルイス・キャロルの児童小説。漫画やアニメ、ゲームで最もよく引用される名作のひとつ。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "『不思議の国のアリス』は、オックスフォード大学の数学講師チャールズ・ドジソンが、ルイス・キャロルの筆名で1865年に発表した物語です。知人の少女アリス・リデルとその姉妹に、ボート遊びの途中で即興で語って聞かせた話がもとになったといわれます。"
+    },
+    {
+      "type": "paragraph",
+      "text": "言葉遊びやナンセンスに満ちたこの物語は、白ウサギの懐中時計、チェシャ猫のにやにや笑い、帽子屋のお茶会、ハートの女王の「首をはねよ！」など、数多くの印象的なモチーフを生みました。トモタネでは、原作の章を示して、作品のキャラクターの元ネタとなった場面を紹介します。"
+    }
+  ],
+  "figureIds": [
+    "alice",
+    "white-rabbit",
+    "cheshire-cat",
+    "hatter",
+    "queen-of-hearts"
+  ],
+  "storyIds": [
+    "down-the-rabbit-hole",
+    "cheshire-cat-grin",
+    "mad-tea-party",
+    "queens-croquet",
+    "alice-wakes-up"
+  ],
+  "sourceIds": ["carroll-alice"],
+  "kind": "literature",
+  "order": 20
+}

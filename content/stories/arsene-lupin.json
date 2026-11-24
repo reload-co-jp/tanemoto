@@ -1,0 +1,20 @@
+[
+  {
+    "id": "arrest-of-arsene-lupin",
+    "title": "アルセーヌ・ルパンの逮捕",
+    "mythologyIds": ["arsene-lupin"],
+    "figureIds": ["arsene-lupin"],
+    "summary": "ニューヨークへ向かう大西洋航路の客船プロヴァンス号に、「アルセーヌ・ルパンが偽名で乗船している」という無線が届く。乗客たちは誰がルパンなのかと疑い合うが、船がニューヨークに着くと、待ち構えていたガニマール警部が語り手その人をルパンとして逮捕した。ルパンの最初の物語である。",
+    "sourceIds": ["leblanc-gentleman-burglar"],
+    "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+  },
+  {
+    "id": "sholmes-arrives-too-late",
+    "title": "遅かりしシャーロック・ホームズ",
+    "mythologyIds": ["arsene-lupin"],
+    "figureIds": ["arsene-lupin", "sherlock-holmes"],
+    "summary": "ティベルメニル城の主デヴァンヌは、城の秘密の抜け道の謎を解いてもらおうと、イギリスの名探偵エルロック・ショルメを招く。ところが客として城に滞在していた画家オラース・ヴェルモンこそがルパンで、ショルメが到着する直前に宝を運び出してしまう。この作品は雑誌掲載時にはシャーロック・ホームズの名で発表されたが、ドイルの抗議を受けて単行本で改名された。",
+    "sourceIds": ["leblanc-gentleman-burglar"],
+    "sourceLocation": "『怪盗紳士ルパン』所収「遅かりしシャーロック・ホームズ」"
+  }
+]

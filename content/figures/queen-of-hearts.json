@@ -1,0 +1,17 @@
+{
+  "id": "queen-of-hearts",
+  "slug": "queen-of-hearts",
+  "name": "ハートの女王",
+  "reading": "はーとのじょおう",
+  "originalName": "Queen of Hearts",
+  "romanized": "Queen of Hearts",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["不思議の国の女王"],
+  "mythologyIds": ["alice-in-wonderland"],
+  "description": "『不思議の国のアリス』で、トランプの国を治める女王。気に入らないことがあると、すぐに「首をはねよ！」と叫ぶ。生きたフラミンゴを木槌に、生きたハリネズミを球に使う奇妙なクロッケー大会を開き、最後は盗まれたタルトをめぐる裁判を主宰する。",
+  "relatedFigureIds": ["alice", "cheshire-cat", "hatter"],
+  "relatedStoryIds": ["queens-croquet", "alice-wakes-up"],
+  "articleIds": [],
+  "sourceIds": ["carroll-alice"]
+}

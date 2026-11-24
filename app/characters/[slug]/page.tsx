@@ -58,12 +58,14 @@ export const generateMetadata = async ({ params }: Props) => {
   })
 }
 
-/** 元ネタの人物が属する体系に応じた呼び方（神話・伝説・逸話） */
+/** 元ネタの人物が属する体系に応じた呼び方（神話・伝説・逸話・原作） */
 const originNoun = (figure?: Figure) => {
   const kind =
     getMythologies().find((m) => figure?.mythologyIds.includes(m.id))?.kind ??
     "myth"
-  return { myth: "神話", legend: "伝説", history: "逸話" }[kind]
+  return { myth: "神話", legend: "伝説", history: "逸話", literature: "原作" }[
+    kind
+  ]
 }
 
 const mainOriginNoun = (character: Character) => {

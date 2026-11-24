@@ -22,6 +22,7 @@ const kindEyebrow = {
   myth: "Mythology",
   legend: "Legend",
   history: "History",
+  literature: "Literature",
 } as const
 
 type Props = { params: Promise<{ slug: string }> }

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "holmes-meets-watson",
+    "title": "ホームズとワトソンの出会い",
+    "mythologyIds": ["sherlock-holmes"],
+    "figureIds": ["sherlock-holmes"],
+    "summary": "アフガニスタンで負傷して帰国した軍医ワトソンは、知人の紹介で、下宿の同居人を探していたシャーロック・ホームズと出会う。ホームズは初対面のワトソンに「アフガニスタンに行っておられましたね」と言い当てた。二人はベイカー街221Bで共同生活を始め、ホームズは自分を、警察や私立探偵に助言する世界でただ一人の「諮問探偵」だと説明する。",
+    "sourceIds": ["doyle-study-in-scarlet"],
+    "sourceLocation": "『緋色の研究』第1部 第1–2章"
+  },
+  {
+    "id": "reichenbach-falls",
+    "title": "ライヘンバッハの滝",
+    "mythologyIds": ["sherlock-holmes"],
+    "figureIds": ["sherlock-holmes", "moriarty"],
+    "summary": "ホームズは、ロンドンの悪事の半分を陰で操る「犯罪界のナポレオン」モリアーティ教授の組織を追い詰める。命を狙われたホームズはワトソンとヨーロッパへ逃れるが、スイスのライヘンバッハの滝でモリアーティに追いつかれ、二人は滝つぼへと消えた。のちに作者は『空き家の冒険』でホームズを生還させた。",
+    "sourceIds": ["doyle-final-problem"],
+    "sourceLocation": "「最後の事件」"
+  }
+]
