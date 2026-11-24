@@ -33,6 +33,7 @@ import {
 import { buildToc, readingMinutes } from "@/lib/content/text"
 import { formatDate } from "@/lib/format"
 import { articleJsonLd, buildMetadata } from "@/lib/seo"
+import { kindsLabel } from "@/lib/entryKind"
 import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { winCss } from "@/lib/styles/global"
@@ -304,8 +305,8 @@ const Page = async ({ params }: Props) => {
             >
               <h2 className="t-article__origins-title" id="origins-title">
                 {article.characterIds.length > 0
-                  ? "この記事のキャラクターと元ネタ"
-                  : "この元ネタが登場するキャラクター"}
+                  ? `この記事の${kindsLabel(characters)}と元ネタ`
+                  : `この元ネタが登場する${kindsLabel(characters)}`}
               </h2>
               <div className="t-article__origins-grid">
                 {characters.map((c) => (

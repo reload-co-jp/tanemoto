@@ -5,7 +5,7 @@ import { bp, color, font, pattern } from "@/lib/styles/theme"
 import { Logo } from "./Logo"
 
 const nav = [
-  { href: paths.characters(), label: "キャラクター", en: "Characters" },
+  { href: paths.characters(), label: "キャラ・設定", en: "Characters" },
   { href: paths.works(), label: "作品", en: "Works" },
   { href: paths.origins(), label: "元ネタ逆引き", en: "Origins" },
   { href: paths.mythologies(), label: "神話", en: "Myths" },

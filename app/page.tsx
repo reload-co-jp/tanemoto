@@ -120,11 +120,14 @@ const Page = () => {
       <Hero />
 
       <Section
-        title="キャラクターから元ネタを探す"
+        title="キャラクター・設定から元ネタを探す"
         mascot="ferret-front"
         en="Characters"
         id="characters"
-        more={{ href: paths.characters(), label: "すべてのキャラクター" }}
+        more={{
+          href: paths.characters(),
+          label: "すべてのキャラクター・設定・事件",
+        }}
       >
         {characters.length > 0 ? (
           <TileList items={characters.slice(0, 8).map(characterTile)} />

@@ -1,0 +1,118 @@
+{
+  "id": "record-of-ragnarok-ragnarok",
+  "slug": "record-of-ragnarok-ragnarok",
+  "kind": "event",
+  "name": "ラグナロク",
+  "reading": "らぐなろく",
+  "alternativeNames": ["神VS人類最終闘争"],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "人類の滅亡を決めた神々の決議に戦乙女ブリュンヒルデが待ったをかけて開かれる、神々と人類の代表13人ずつが一対一で戦う「神VS人類最終闘争」。",
+    "claimIds": ["ror-ragnarok-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は北欧神話で神々と巨人たちが戦う終末「ラグナロク（神々の運命）」に由来する。",
+    "claimIds": ["ror-ragnarok-work", "ror-ragnarok-myth-what"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "label": "ラグナロク（神々の運命）",
+      "inWork": {
+        "text": "神々と人類の存亡を懸けた、代表13人ずつによる一対一の決闘の名。",
+        "claimIds": ["ror-ragnarok-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』は「巫女の予言」を引きながら「神々の運命」を語る。三度の冬にわたる戦いと、夏のない大いなる冬ののち、狼が太陽を呑み、縛られていたフェンリル狼が解き放たれる。",
+        "claimIds": ["ror-ragnarok-myth-what", "ror-ragnarok-myth-winter"]
+      }
+    },
+    {
+      "aspect": "plot",
+      "figureId": "odin",
+      "label": "神々と敵対者の最終決戦",
+      "inWork": {
+        "text": "神々の側の闘士と人類の側の闘士が、一戦ずつ一対一で戦う。",
+        "claimIds": ["ror-ragnarok-work"]
+      },
+      "inMyth": {
+        "text": "ムスペルの子らとスルト、フェンリル狼、ミズガルズの大蛇、ロキと霜の巨人たちがヴィーグリーズの野に集い、神々と戦う。オーディンはフェンリル狼に呑まれ、トールは大蛇を倒すがその毒で倒れ、最後にスルトの炎が世界を焼き尽くす。",
+        "claimIds": [
+          "ror-ragnarok-myth-host",
+          "ror-ragnarok-myth-battle",
+          "ror-ragnarok-myth-fire"
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のラグナロクは神々と巨人・怪物たちの戦いで、神々の多くが倒れて世界が炎に包まれる。作品では、神々と人類が代表を立てて一対一で戦う決闘の名として用いられ、戦う相手も形式も大きく異なる。",
+      "claimIds": [
+        "ror-ragnarok-myth-host",
+        "ror-ragnarok-myth-battle",
+        "ror-ragnarok-work",
+        "ror-ragnarok-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-ragnarok-work",
+      "text": "『終末のワルキューレ』のラグナロクは、人類の滅亡を決めた神々の決議に戦乙女ブリュンヒルデが待ったをかけて開かれる、神々と人類の代表13人ずつが一対一で戦う「神VS人類最終闘争」である。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-ragnarok-myth-what",
+      "text": "『散文エッダ』は、王ギュルヴィの問いに答える形で「神々の運命」を語り、「巫女の予言」を引用している。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-ragnarok-myth-winter",
+      "text": "世界中で三度の冬にわたって大きな戦いが続き、続いて夏のない大いなる冬が三度続く。狼が太陽を呑み、大地が揺れて縛めが断ち切られ、フェンリル狼が解き放たれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-ragnarok-myth-host",
+      "text": "天が裂けてムスペルの子らが現れ、スルトが先頭を進む。フェンリル狼、ミズガルズの大蛇、ロキと霜の巨人たちがヴィーグリーズの野に集う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-ragnarok-myth-battle",
+      "text": "オーディンはフェンリル狼に呑まれ、トールはミズガルズの大蛇を倒したのち、その毒を浴びて九歩進んで倒れる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-ragnarok-myth-fire",
+      "text": "スルトが大地に炎を放ち、全世界を焼き尽くす。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "ror-ragnarok-cmp",
+      "text": "作品のラグナロクは名前を北欧神話から借りているが、神々と巨人・怪物の終末戦争である原典とは、戦う相手も形式も大きく異なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda"],
+  "articleIds": ["ragnarok"]
+}

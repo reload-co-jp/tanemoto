@@ -6,6 +6,7 @@ import type {
   Mythology,
   Work,
 } from "./content/schema"
+import { kindsLabel } from "./entryKind"
 import { absoluteUrl, paths, site } from "./site"
 
 type MetaInput = {
@@ -224,23 +225,32 @@ export const mythologyJsonLd = (myth: Mythology, figures: Figure[]) =>
     mentions: figures.map((f) => figureEntity(f)),
   })
 
-export const workJsonLd = (work: Work, characters: Character[]) =>
-  webPageJsonLd({
-    name: `『${work.title}』キャラクターの元ネタ`,
+export const workJsonLd = (work: Work, characters: Character[]) => {
+  const persons = characters.filter((c) => c.kind === "character")
+  return webPageJsonLd({
+    name: `『${work.title}』${kindsLabel(characters)}の元ネタ`,
     description: work.description,
     path: paths.work(work.slug),
     type: "CollectionPage",
     about: {
       ...workEntity(work),
       description: work.description,
-      ...(characters.length > 0
-        ? { character: characters.map((c) => characterEntity(c)) }
+      ...(persons.length > 0
+        ? { character: persons.map((c) => characterEntity(c)) }
         : {}),
     },
   })
+}
+
+/** キャラクターは Person、事件は Event、設定は Thing として表す */
+const entityTypes = {
+  character: "Person",
+  setting: "Thing",
+  event: "Event",
+} as const
 
 const characterEntity = (character: Character) => ({
-  "@type": "Person",
+  "@type": entityTypes[character.kind],
   "@id": `${absoluteUrl(paths.character(character.slug))}#entity`,
   name: character.name,
   ...(character.alternativeNames.length > 0

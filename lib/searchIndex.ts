@@ -13,6 +13,7 @@ import {
   getWorks,
 } from "./content/repository"
 import { blocksToPlainText, stripInline } from "./content/text"
+import { kindLabel } from "./entryKind"
 import { paths } from "./site"
 
 export type SearchKind =
@@ -77,13 +78,20 @@ export const buildSearchIndex = (): SearchEntry[] => [
     ].filter(Boolean),
     body: "",
   })),
-  // キャラクター名・作品名・元ネタ名のどれからでも見つけられるようにする
+  // キャラクター・設定・事件の名前、作品名、元ネタ名のどれからでも見つけられるようにする
   ...getCharacters().map((c) => {
     const work = getWorksByIds([c.workId])[0]
     return {
       kind: "character" as const,
       title: c.name,
-      label: work ? `『${work.title}』` : "キャラクター",
+      label:
+        c.kind === "character"
+          ? work
+            ? `『${work.title}』`
+            : kindLabel(c)
+          : [work ? `『${work.title}』` : "", kindLabel(c)]
+              .filter(Boolean)
+              .join(" ・ "),
       href: paths.character(c.slug),
       description: `元ネタ：${c.motifs.map((m) => m.label).join("、")}。${stripInline(c.description.text)}`,
       keywords: [

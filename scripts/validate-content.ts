@@ -27,7 +27,7 @@ console.log("トモタネ コンテンツ検証")
 console.log(
   `  記事 ${data.articles.length}件（公開 ${published} / 下書き ${drafts}）` +
     ` 人物・怪物 ${data.figures.length} 神話 ${data.mythologies.length}` +
-    ` 作品 ${data.works.length} キャラクター ${data.characters.length} テーマ ${data.topics.length}` +
+    ` 作品 ${data.works.length} キャラクター・設定・事件 ${data.characters.length} テーマ ${data.topics.length}` +
     ` 出典 ${data.sources.length} 主張 ${[...data.articles, ...data.characters].reduce((n, a) => n + a.claims.length, 0)}`
 )
 

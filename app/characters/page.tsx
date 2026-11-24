@@ -7,9 +7,9 @@ import { buildMetadata, itemListJsonLd } from "@/lib/seo"
 import { paths } from "@/lib/site"
 
 export const metadata = buildMetadata({
-  title: "キャラクターから元ネタを探す",
+  title: "キャラクター・設定・事件から元ネタを探す",
   description:
-    "アニメ・漫画・ゲームのキャラクター名から、名前の由来やモチーフになった神話・伝承の元ネタを探せます。作品の設定と原典の内容を区別して解説します。",
+    "アニメ・漫画・ゲームのキャラクターや設定・事件から、名前の由来やモチーフになった神話・伝承の元ネタを探せます。作品の設定と原典の内容を区別して解説します。",
   path: paths.characters(),
 })
 
@@ -21,7 +21,7 @@ const Page = () => {
   return (
     <>
       <Breadcrumbs
-        items={[{ name: "キャラクター", href: paths.characters() }]}
+        items={[{ name: "キャラクター・設定", href: paths.characters() }]}
       />
       <JsonLd
         data={itemListJsonLd(
@@ -30,11 +30,11 @@ const Page = () => {
       />
       <PageHeader
         eyebrow="Characters"
-        title="キャラクターから元ネタを探す"
-        description="キャラクターの名前・能力・武器・立場などが、どの神話・伝承に由来するのかを紹介します。作品の設定（CREATIVE）と原典の内容は区別して記載しています。"
+        title="キャラクター・設定・事件から元ネタを探す"
+        description="キャラクターの名前・能力・武器・立場、作品の世界観を形づくる場所・組織・道具などの設定、物語の鍵となる事件・出来事が、どの神話・伝承に由来するのかを紹介します。作品の設定（CREATIVE）と原典の内容は区別して記載しています。"
       />
       {groups.length === 0 && (
-        <p className="t-empty">キャラクターは準備中です。</p>
+        <p className="t-empty">元ネタ解説は準備中です。</p>
       )}
       {groups.map(({ work, characters }) => (
         <Section
