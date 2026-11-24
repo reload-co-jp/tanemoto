@@ -1,0 +1,80 @@
+{
+  "id": "sherlock-bbc-moriarty",
+  "slug": "sherlock-bbc-moriarty",
+  "name": "ジム・モリアーティ",
+  "reading": "じむ・もりあーてぃ",
+  "alternativeNames": ["モリアーティ"],
+  "workId": "sherlock-bbc",
+  "description": {
+    "text": "シャーロックの宿敵。自らを「コンサルティング・クリミナル（顧問犯罪者）」と称し、犯罪者たちに手口を提供する。第2シリーズ最終話「ライヘンバッハ・ヒーロー」でシャーロックと最後の対決をする。",
+    "claimIds": ["sb-moriarty-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "moriarty",
+      "label": "犯罪界のナポレオン",
+      "inWork": {
+        "text": "犯罪を陰で操る黒幕。",
+        "claimIds": ["sb-moriarty-work"]
+      },
+      "inMyth": {
+        "text": "ホームズはモリアーティを、ロンドンの悪事の大半を陰で操る「犯罪界のナポレオン」と呼ぶ。",
+        "claimIds": ["sb-moriarty-myth-napoleon"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "moriarty",
+      "label": "ライヘンバッハの滝",
+      "inWork": {
+        "text": "最終対決のエピソード名に「ライヘンバッハ」の名を冠する。",
+        "claimIds": ["sb-moriarty-work"]
+      },
+      "inMyth": {
+        "text": "ホームズとモリアーティはライヘンバッハの滝で対決し、ともに滝壺に消えたとされた。",
+        "claimIds": ["sb-moriarty-myth-reichenbach"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の老練な数学教授は、ドラマでは若く芝居がかった犯罪者として描かれる。一方、ライヘンバッハの対決という骨組みは原作から受け継いでいる。",
+      "claimIds": ["sb-moriarty-cmp", "sb-moriarty-myth-reichenbach"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sb-moriarty-work",
+      "text": "ジム・モリアーティは自らを顧問犯罪者と称するシャーロックの宿敵で、第2シリーズ最終話「ライヘンバッハ・ヒーロー」で最後の対決をする。",
+      "classification": "creative",
+      "sourceIds": ["work-sherlock-bbc"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sb-moriarty-myth-napoleon",
+      "text": "ホームズはモリアーティを、ロンドンの悪事の大半と未解決事件のほとんどを陰で操る「犯罪界のナポレオン」と呼んだ。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "sb-moriarty-myth-reichenbach",
+      "text": "ホームズとモリアーティはライヘンバッハの滝の上の小道で対決し、ワトソンが戻ったときには二人の姿はなく、ともに滝壺に落ちたと考えられた。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "sb-moriarty-cmp",
+      "text": "人物像は大きく変えつつ、対決の構図は原作を踏襲している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-sherlock-bbc", "doyle-final-problem"],
+  "articleIds": []
+}

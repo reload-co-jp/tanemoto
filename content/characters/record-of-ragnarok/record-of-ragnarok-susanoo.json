@@ -1,0 +1,81 @@
+{
+  "id": "record-of-ragnarok-susanoo",
+  "slug": "record-of-ragnarok-susanoo",
+  "name": "須佐之男命",
+  "reading": "すさのおのみこと",
+  "alternativeNames": ["スサノヲ"],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "神々の代表の一柱で、日本の神。ラグナロク第10回戦で新選組の剣士・沖田総司と剣を交え、敗れた。",
+    "claimIds": ["ror-susanoo-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "susanoo",
+      "label": "建速須佐之男命",
+      "inWork": {
+        "text": "日本神話の荒ぶる神として登場する。",
+        "claimIds": ["ror-susanoo-work"]
+      },
+      "inMyth": {
+        "text": "伊耶那岐命が禊で鼻を洗ったときに建速須佐之男命が生まれた。",
+        "claimIds": ["ror-susanoo-myth-birth"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "susanoo",
+      "label": "十拳剣",
+      "inWork": {
+        "text": "剣士・沖田総司と剣で戦う。",
+        "claimIds": ["ror-susanoo-work"]
+      },
+      "inMyth": {
+        "text": "須佐之男命は八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+        "claimIds": ["ror-susanoo-myth-orochi"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で大蛇を斬った剣の神が、作品では人類側の剣の天才と剣技で競う。",
+      "claimIds": ["ror-susanoo-cmp", "ror-susanoo-myth-orochi"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-susanoo-work",
+      "text": "須佐之男命はラグナロク第10回戦で沖田総司と戦い、沖田が勝利した。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-susanoo-myth-birth",
+      "text": "伊耶那岐命が禊で左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊）"
+    },
+    {
+      "id": "ror-susanoo-myth-orochi",
+      "text": "須佐之男命は八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "ror-susanoo-cmp",
+      "text": "作品は大蛇退治の剣の神を、剣士同士の対決に置いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "kojiki"],
+  "articleIds": []
+}

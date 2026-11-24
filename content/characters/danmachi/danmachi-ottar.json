@@ -1,0 +1,81 @@
+{
+  "id": "danmachi-ottar",
+  "slug": "danmachi-ottar",
+  "name": "オッタル",
+  "reading": "おったる",
+  "alternativeNames": ["猛者"],
+  "workId": "danmachi",
+  "description": {
+    "text": "女神フレイヤの眷族「フレイヤ・ファミリア」の団長で、フレイヤの右腕。レベル7に達した、迷宮都市オラリオで最高位の冒険者。",
+    "claimIds": ["dm-ottar-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "ottar",
+      "label": "フレイヤの信奉者オッタル",
+      "inWork": {
+        "text": "女神フレイヤに絶対の忠誠を誓う。",
+        "claimIds": ["dm-ottar-work"]
+      },
+      "inMyth": {
+        "text": "「ヒュンドラの歌」で、フレイヤはオッタルが自分のために石を積んだ祭壇を築き、牛の血で赤く染めたと語り、彼はつねに女神たちを信じてきたと言う。",
+        "claimIds": ["dm-ottar-myth-altar"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "ottar",
+      "label": "フレイヤの加護",
+      "inWork": {
+        "text": "フレイヤのために戦う最強の眷族。",
+        "claimIds": ["dm-ottar-work"]
+      },
+      "inMyth": {
+        "text": "フレイヤは、家系をめぐる賭けに臨むオッタルのために巫女ヒュンドラを訪ね、彼の祖先の名を語らせた。",
+        "claimIds": ["dm-ottar-myth-lineage"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でもオッタルはフレイヤの熱心な信奉者で、女神に守られる人間である。作品はこの関係を、女神に仕える最強の眷族として描いている。",
+      "claimIds": ["dm-ottar-cmp", "dm-ottar-myth-altar"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dm-ottar-work",
+      "text": "オッタルはフレイヤ・ファミリアの団長でフレイヤの右腕。レベル7で、オラリオ最高位の冒険者である。",
+      "classification": "creative",
+      "sourceIds": ["work-danmachi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「List of Is It Wrong to Try to Pick Up Girls in a Dungeon? characters」の記述で確認。"
+    },
+    {
+      "id": "dm-ottar-myth-altar",
+      "text": "フレイヤは、オッタルが自分のために石を積んで祭壇を築き、獣の血で何度も赤く染めたので、石はガラスのようになったと語り、オッタルはつねに女神たちを信じてきたと言った。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ヒュンドラの歌」10節"
+    },
+    {
+      "id": "dm-ottar-myth-lineage",
+      "text": "オッタルはアンガンチュールと家系の正しさを競う賭けをしており、フレイヤは巫女ヒュンドラに彼の祖先を語らせて、彼を助けようとした。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「ヒュンドラの歌」9節以下"
+    },
+    {
+      "id": "dm-ottar-cmp",
+      "text": "女神と信奉者という原典の関係が、主神と眷族の関係に置き換えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-danmachi", "poetic-edda"],
+  "articleIds": []
+}

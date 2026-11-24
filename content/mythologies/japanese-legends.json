@@ -22,7 +22,8 @@
     "abe-no-seimei",
     "minamoto-no-yorimitsu",
     "watanabe-no-tsuna",
-    "kaguya-hime"
+    "kaguya-hime",
+    "nue"
   ],
   "storyIds": [
     "ushiwaka-at-sojo-ga-tani",
@@ -40,7 +41,8 @@
     "okagami",
     "kojidan",
     "taiheiki",
-    "taketori-monogatari"
+    "taketori-monogatari",
+    "heike-monogatari"
   ],
   "kind": "legend",
   "order": 15

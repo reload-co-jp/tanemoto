@@ -1,0 +1,17 @@
+{
+  "id": "ottar",
+  "slug": "ottar",
+  "name": "オッタル",
+  "reading": "おったる",
+  "originalName": "Óttarr",
+  "romanized": "Óttarr",
+  "alternativeNames": [],
+  "type": "human",
+  "roles": ["フレイヤの信奉者"],
+  "mythologyIds": ["norse"],
+  "description": "『古エッダ』の「ヒュンドラの歌」に登場する人間の若者。女神フレイヤを篤く信仰し、石を積んだ祭壇を築いて牛の血を注いだ。フレイヤは、家系をめぐる賭けに臨むオッタルのために、巫女ヒュンドラのもとへ彼を連れて行き、祖先の名を語らせた。",
+  "relatedFigureIds": ["freyja"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["poetic-edda"]
+}

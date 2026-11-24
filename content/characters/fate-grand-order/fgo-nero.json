@@ -1,0 +1,80 @@
+{
+  "id": "fgo-nero",
+  "slug": "fgo-nero",
+  "name": "ネロ・クラウディウス",
+  "reading": "ねろ・くらうでぃうす",
+  "alternativeNames": ["セイバー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "セイバーのサーヴァント。ローマ帝国第5代皇帝ネロが、華やかな少女の姿で現界した。芸術を愛する皇帝として、宝具「招き蕩う黄金劇場（アエストゥス・ドムス・アウレア）」で自らの劇場を出現させる。",
+    "claimIds": ["fgo-nero-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "nero",
+      "label": "ローマ皇帝ネロ",
+      "inWork": {
+        "text": "芸術を愛し、自ら歌い演じることを好む皇帝として描かれる。",
+        "claimIds": ["fgo-nero-work"]
+      },
+      "inMyth": {
+        "text": "スエトニウスによれば、ネロは歌や竪琴に熱中し、自ら舞台に立って歌った。",
+        "claimIds": ["fgo-nero-myth-stage"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "nero",
+      "label": "黄金宮（ドムス・アウレア）",
+      "inWork": {
+        "text": "宝具名の「ドムス・アウレア」は黄金の館を意味する。",
+        "claimIds": ["fgo-nero-work"]
+      },
+      "inMyth": {
+        "text": "ネロは大火ののち、柱廊や湖、巨大な自像を備えた宮殿を建て、「黄金の館（ドムス・アウレア）」と呼んだ。完成すると「これでやっと人間らしく住める」と言ったという。",
+        "claimIds": ["fgo-nero-myth-domus"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "暴君として知られるネロを、作品は芸術を愛する明るい皇帝として描き、性別も変えている。宝具はネロが実際に建てた黄金宮の名にちなむ。",
+      "claimIds": ["fgo-nero-cmp", "fgo-nero-myth-domus"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-nero-work",
+      "text": "ネロ・クラウディウスはセイバーのサーヴァントで、少女の姿で描かれる。宝具「招き蕩う黄金劇場（アエストゥス・ドムス・アウレア）」で自らの劇場を出現させる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-nero-myth-stage",
+      "text": "ネロは歌と竪琴に熱中し、ナポリを皮切りに自ら舞台に立って歌った。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-nero"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『ネロ伝』20–21章"
+    },
+    {
+      "id": "fgo-nero-myth-domus",
+      "text": "ネロはパラティウムからエスクィリヌスに及ぶ宮殿を建て、大火ののちに再建したものを「黄金の館」と呼んだ。入口には高さ120ペースの自像が立ち、完成時に「これでやっと人間らしく住み始められる」と言った。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-nero"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『ネロ伝』31章"
+    },
+    {
+      "id": "fgo-nero-cmp",
+      "text": "作品は暴君としてのネロ像より、芸術家としてのネロの側面を強調している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "suetonius-nero"],
+  "articleIds": []
+}

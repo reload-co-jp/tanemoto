@@ -1,0 +1,87 @@
+{
+  "id": "god-of-war-baldur",
+  "slug": "god-of-war-baldur",
+  "name": "バルドル",
+  "reading": "ばるどる",
+  "alternativeNames": ["見知らぬ男"],
+  "workId": "god-of-war-2018",
+  "description": {
+    "text": "物語の序盤にクレイトスの家を訪れる「見知らぬ男」で、オーディンの息子。母フレイヤの魔法によってどんな攻撃にも傷つかない体を得たが、その代償に痛みも快さも何ひとつ感じられなくなり、母を憎んでいる。",
+    "claimIds": ["gow-baldur-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "baldr",
+      "label": "傷つかない体",
+      "inWork": {
+        "text": "母フレイヤの魔法で不死身になっている。",
+        "claimIds": ["gow-baldur-work"]
+      },
+      "inMyth": {
+        "text": "フリッグはあらゆるものにバルドルを傷つけないと誓わせたが、ヤドリギには誓わせていなかった。",
+        "claimIds": ["gow-baldur-myth-oath"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "baldr",
+      "label": "ヤドリギ",
+      "inWork": {
+        "text": "アトレウスの矢についたヤドリギが魔法を破り、バルドルは再び痛みを感じるようになる。",
+        "claimIds": ["gow-baldur-work-mistletoe"]
+      },
+      "inMyth": {
+        "text": "ロキはヤドリギを盲目の神ヘズに投げさせ、バルドルは射抜かれて死んだ。",
+        "claimIds": ["gow-baldur-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では、母フリッグが息子を守るために万物に誓わせた。作品はこの「母の守り」を、息子から感覚を奪う呪いとして描き、母子の対立の原因にしている。",
+      "claimIds": ["gow-baldur-cmp", "gow-baldur-myth-oath"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gow-baldur-work",
+      "text": "バルドルはオーディンの息子で、母フレイヤの魔法によって傷つかない体を得たが、何も感じられなくなり、母を憎んでいる。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gow-baldur-work-mistletoe",
+      "text": "アトレウスの持つヤドリギの矢じりが触れたことで魔法が解け、バルドルは傷つくようになる。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gow-baldur-myth-oath",
+      "text": "フリッグは火や水、鉄、石、病、獣、毒などあらゆるものにバルドルを傷つけないと誓わせたが、若いヤドリギには誓わせていなかった。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    },
+    {
+      "id": "gow-baldur-myth-death",
+      "text": "ロキはヤドリギを取ってきて盲目のヘズに渡し、狙いを教えて投げさせた。ヤドリギはバルドルを貫き、バルドルは死んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    },
+    {
+      "id": "gow-baldur-cmp",
+      "text": "作品は原典の「母の守り」を呪いとして反転させている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-2018", "snorri-edda"],
+  "articleIds": []
+}

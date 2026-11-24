@@ -1,0 +1,14 @@
+{
+  "id": "disney-aladdin",
+  "slug": "disney-aladdin",
+  "title": "アラジン（ディズニー）",
+  "reading": "あらじん",
+  "type": "film",
+  "mediaTypes": ["film", "anime"],
+  "author": "ジョン・マスカー、ロン・クレメンツ（監督）",
+  "period": "1992年公開（アニメーション映画）、2019年（実写映画）",
+  "description": "『千夜一夜物語』の「アラジンと魔法のランプ」をもとにしたディズニーのアニメーション映画。砂漠の王国アグラバーの貧しい青年アラジンが、魔法のランプのジーニーの力を借りて王女ジャスミンに近づき、大臣ジャファーの野望に立ち向かう。",
+  "mythologyIds": ["arabian-nights"],
+  "articleIds": [],
+  "sourceIds": ["work-disney-aladdin"]
+}

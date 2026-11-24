@@ -1,0 +1,81 @@
+{
+  "id": "jigokuraku-rien",
+  "slug": "jigokuraku-rien",
+  "name": "蓮",
+  "reading": "りえん",
+  "alternativeNames": ["天仙"],
+  "workId": "jigokuraku",
+  "description": {
+    "text": "島の中心「蓬莱」に住む天仙たちの長。天仙は、かつて徐福が造り出した人造の仙人である。",
+    "claimIds": ["jgr-rien-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "xu-fu",
+      "label": "徐福と蓬莱",
+      "inWork": {
+        "text": "天仙を造ったのは徐福で、天仙は「蓬莱」に住む。",
+        "claimIds": ["jgr-rien-work"]
+      },
+      "inMyth": {
+        "text": "斉の徐市（徐福）は、海中に蓬萊・方丈・瀛洲の三神山があり仙人が住むと始皇帝に上書し、童男童女数千人を連れて海へ仙人を探しに出た。",
+        "claimIds": ["jgr-rien-myth-xufu"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "qin-shi-huang",
+      "label": "不老不死の探求",
+      "inWork": {
+        "text": "将軍は仙薬を求めて死罪人たちを島へ送る。",
+        "claimIds": ["jgr-rien-work-premise"]
+      },
+      "inMyth": {
+        "text": "始皇帝は不老不死を求め、方士たちに仙人や仙薬を探させた。",
+        "claimIds": ["jgr-rien-myth-xufu"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『史記』で徐福は仙人を探しに海へ出たまま記録から消える。作品は、その徐福が仙人の島にたどり着き、自ら仙人を造り出したという物語を想像している。",
+      "claimIds": ["jgr-rien-cmp", "jgr-rien-myth-xufu"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "jgr-rien-work",
+      "text": "天仙は徐福が造った人造の仙人で、島の中心の蓬莱に住む。その長が蓮である。",
+      "classification": "creative",
+      "sourceIds": ["work-jigokuraku"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「地獄楽」の記述で確認。"
+    },
+    {
+      "id": "jgr-rien-work-premise",
+      "text": "将軍の命により、画眉丸ら死罪人が山田浅ェ門の監視のもと、無罪放免と引き換えに島で仙薬を探す。",
+      "classification": "creative",
+      "sourceIds": ["work-jigokuraku"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「地獄楽」の記述で確認。"
+    },
+    {
+      "id": "jgr-rien-myth-xufu",
+      "text": "斉の人徐市らは、海中に蓬萊・方丈・瀛洲という三つの神山があって仙人が住むと上書した。始皇帝は徐市に童男童女数千人を与えて、海に入って仙人を求めさせた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇28年条）"
+    },
+    {
+      "id": "jgr-rien-cmp",
+      "text": "作品は、記録から消えた徐福のその後を想像で補っている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-jigokuraku", "shiji"],
+  "articleIds": []
+}

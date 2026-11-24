@@ -1,0 +1,60 @@
+{
+  "id": "undead-girl-moriarty",
+  "slug": "undead-girl-moriarty",
+  "name": "モリアーティ教授",
+  "reading": "もりあーてぃきょうじゅ",
+  "alternativeNames": ["モリアーティ"],
+  "workId": "undead-girl-murder-farce",
+  "description": {
+    "text": "怪物たちを擁する犯罪組織《夜宴》の首魁。",
+    "claimIds": ["ugmf-moriarty-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "moriarty",
+      "label": "犯罪界のナポレオン",
+      "inWork": {
+        "text": "犯罪組織を率いる黒幕。",
+        "claimIds": ["ugmf-moriarty-work"]
+      },
+      "inMyth": {
+        "text": "ホームズはモリアーティを、ロンドンの悪事の大半を陰で操る「犯罪界のナポレオン」と呼ぶ。",
+        "claimIds": ["ugmf-moriarty-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の犯罪組織の首領という立場はそのままに、作品では怪物たちを束ねる組織の長となっている。",
+      "claimIds": ["ugmf-moriarty-cmp", "ugmf-moriarty-myth"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ugmf-moriarty-work",
+      "text": "モリアーティは犯罪組織《夜宴》のボスである。",
+      "classification": "creative",
+      "sourceIds": ["work-undead-girl-murder-farce"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「アンデッドガール・マーダーファルス」の記述で確認。"
+    },
+    {
+      "id": "ugmf-moriarty-myth",
+      "text": "ホームズはモリアーティを、ロンドンの悪事の大半と未解決事件のほとんどを陰で操る「犯罪界のナポレオン」と呼んだ。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "ugmf-moriarty-cmp",
+      "text": "組織の首領という原典の立場が、怪物の組織に置き換えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-undead-girl-murder-farce", "doyle-final-problem"],
+  "articleIds": []
+}

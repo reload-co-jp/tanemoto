@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-zeus",
+  "slug": "hades-2-zeus",
+  "name": "ゼウス",
+  "reading": "ぜうす",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "オリュンポスの神々の王。メリノエに雷の力を授ける。",
+    "claimIds": ["h2-zeus-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "weapon",
+      "figureId": "zeus",
+      "label": "雷霆",
+      "inWork": {
+        "text": "雷を落とす力を与える。",
+        "claimIds": ["h2-zeus-work"]
+      },
+      "inMyth": {
+        "text": "ティタンとの戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を与えた。",
+        "claimIds": ["h2-zeus-myth-bolt"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品の雷の力は、原典でゼウスの武器となった雷霆にもとづく。",
+      "claimIds": ["h2-zeus-cmp", "h2-zeus-myth-bolt"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-zeus-work",
+      "text": "ゼウスはメリノエに恩恵を授けるオリュンポスの神々の王で、雷の力を与える。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-zeus-myth-bolt",
+      "text": "ティタンとの戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を、プルトン（ハデス）に兜を、ポセイドンに三叉の矛を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "h2-zeus-cmp",
+      "text": "雷の力はゼウスの持ち物である雷霆を踏まえている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "apollodorus-library"],
+  "articleIds": []
+}

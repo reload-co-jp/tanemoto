@@ -1,0 +1,80 @@
+{
+  "id": "disney-aladdin-aladdin",
+  "slug": "disney-aladdin-aladdin",
+  "name": "アラジン",
+  "reading": "あらじん",
+  "alternativeNames": [],
+  "workId": "disney-aladdin",
+  "description": {
+    "text": "主人公。アグラバーの町で盗みをして暮らす貧しい青年。魔法のランプを手に入れ、3つの願いをかなえるランプの魔人ジーニーの力で王子に化け、王女ジャスミンに近づく。",
+    "claimIds": ["da-aladdin-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "aladdin",
+      "label": "アラジンと魔法のランプ",
+      "inWork": {
+        "text": "洞窟から魔法のランプを持ち出す。",
+        "claimIds": ["da-aladdin-work"]
+      },
+      "inMyth": {
+        "text": "アラジンは魔法使いの命で地下の洞窟から古いランプを持ち出した。ランプをこするとジン（魔神）が現れた。",
+        "claimIds": ["da-aladdin-myth-lamp"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "aladdin",
+      "label": "王女との結婚",
+      "inWork": {
+        "text": "身分を偽って王女に求婚する。",
+        "claimIds": ["da-aladdin-work"]
+      },
+      "inMyth": {
+        "text": "アラジンはランプの魔神の力で財宝と従者をそろえ、スルタンの娘バドル・アル・ブドゥール姫と結婚した。",
+        "claimIds": ["da-aladdin-myth-princess"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のアラジンは中国の町に住む仕立屋の息子で、ランプの魔神は回数の制限なく願いをかなえる。「3つの願い」や陽気なジーニーとの友情は映画独自の要素である。",
+      "claimIds": ["da-aladdin-cmp", "da-aladdin-myth-lamp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "da-aladdin-work",
+      "text": "アラジンはアグラバーの貧しい青年で、魔法のランプのジーニーの力で王子に化けて王女ジャスミンに近づく。ジーニーは3つの願いをかなえる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-aladdin"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "da-aladdin-myth-lamp",
+      "text": "アラジンは魔法使いの命で地下の洞窟から古いランプを持ち出した。母がランプを磨くとジン（魔神）が現れ、主人の願いをかなえた。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ガラン訳『千夜一夜物語』「アラジンと魔法のランプ」"
+    },
+    {
+      "id": "da-aladdin-myth-princess",
+      "text": "アラジンはランプの魔神に財宝と従者を用意させ、スルタンの娘バドル・アル・ブドゥール姫と結婚した。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ガラン訳『千夜一夜物語』「アラジンと魔法のランプ」"
+    },
+    {
+      "id": "da-aladdin-cmp",
+      "text": "願いの回数制限やジーニーとの友情は映画で加えられた要素である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-disney-aladdin", "arabian-nights"],
+  "articleIds": []
+}

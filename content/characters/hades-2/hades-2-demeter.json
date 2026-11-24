@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-demeter",
+  "slug": "hades-2-demeter",
+  "name": "デメテル",
+  "reading": "でめてる",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "オリュンポスの神の一柱で、主人公メリノエに力（恩恵）を授ける。冬と収穫の女神として、敵を凍えさせる冷気の力を与える。",
+    "claimIds": ["h2-dem-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "demeter",
+      "label": "実りの女神",
+      "inWork": {
+        "text": "冷気と冬をつかさどる女神として描かれる。",
+        "claimIds": ["h2-dem-work"]
+      },
+      "inMyth": {
+        "text": "娘ペルセポネを奪われたデメテルは、娘を自分の目で見るまでオリュンポスに足を踏み入れず、大地に実りをもたらさないと誓った。",
+        "claimIds": ["h2-dem-myth-famine"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で娘を失ったデメテルが大地の実りを止めたことが、作品で彼女が「冬」の力をもつことの背景にある。",
+      "claimIds": ["h2-dem-cmp", "h2-dem-myth-famine"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-dem-work",
+      "text": "デメテルはメリノエに恩恵を授けるオリュンポスの神で、敵を凍えさせる冷気の力を与える。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-dem-myth-famine",
+      "text": "デメテルは、娘を自分の目で見るまでオリュンポスに足を踏み入れず、大地に実りをもたらさないと誓った。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』331–333行"
+    },
+    {
+      "id": "h2-dem-cmp",
+      "text": "実りを止める女神の嘆きが、作品では冬と冷気の力として表現されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "homeric-hymn-demeter"],
+  "articleIds": []
+}

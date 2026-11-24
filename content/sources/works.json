@@ -397,5 +397,149 @@
     "publishedPeriod": "1986年",
     "publisher": "スタジオジブリ",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「天空の城ラピュタ」の記述でも確認している。"
+  },
+  {
+    "id": "work-fate-grand-order",
+    "title": "Fate/Grand Order",
+    "author": "TYPE-MOON（原作）／ディライトワークス・ラセングル（開発）",
+    "type": "work",
+    "publishedPeriod": "2015年〜",
+    "publisher": "アニプレックス",
+    "notes": "作品内の設定について述べる際の出典。各サーヴァントの設定はゲーム本編（メインストーリー・マテリアル）の記述にもとづく。"
+  },
+  {
+    "id": "work-kamigami-no-asobi",
+    "title": "神々の悪戯（Kamigami no Asobi InFinite）",
+    "author": "ブロッコリー（原作）",
+    "type": "work",
+    "publishedPeriod": "2013年（ゲーム）、2014年（テレビアニメ）",
+    "publisher": "ブロッコリー",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述でも確認している。"
+  },
+  {
+    "id": "work-saiyuki",
+    "title": "最遊記",
+    "author": "峰倉かずや",
+    "type": "work",
+    "publishedPeriod": "1997年〜",
+    "publisher": "一迅社ほか",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Saiyuki (manga)」の記述でも一部確認している。"
+  },
+  {
+    "id": "work-kingdom",
+    "title": "キングダム",
+    "author": "原泰久",
+    "type": "work",
+    "publishedPeriod": "2006年〜",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Kingdom (manga)」の記述でも確認している。"
+  },
+  {
+    "id": "work-moriarty-the-patriot",
+    "title": "憂国のモリアーティ",
+    "author": "竹内良輔・三好輝",
+    "type": "work",
+    "publishedPeriod": "2016年〜",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Moriarty the Patriot」の記述でも確認している。"
+  },
+  {
+    "id": "work-hellsing",
+    "title": "HELLSING",
+    "author": "平野耕太",
+    "type": "work",
+    "publishedPeriod": "1997〜2008年",
+    "publisher": "少年画報社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 英語版「Hellsing」の記述でも一部確認している。"
+  },
+  {
+    "id": "work-lupin-iii",
+    "title": "ルパン三世",
+    "author": "モンキー・パンチ",
+    "type": "work",
+    "publishedPeriod": "1967年〜",
+    "publisher": "双葉社ほか",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-disney-aladdin",
+    "title": "アラジン",
+    "author": "ウォルト・ディズニー・ピクチャーズ",
+    "type": "work",
+    "publishedPeriod": "1992年",
+    "publisher": "ウォルト・ディズニー・カンパニー",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-disney-little-mermaid",
+    "title": "リトル・マーメイド",
+    "author": "ウォルト・ディズニー・ピクチャーズ",
+    "type": "work",
+    "publishedPeriod": "1989年",
+    "publisher": "ウォルト・ディズニー・カンパニー",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-sherlock-bbc",
+    "title": "SHERLOCK（シャーロック）",
+    "author": "スティーヴン・モファット、マーク・ゲイティス",
+    "type": "work",
+    "publishedPeriod": "2010〜2017年",
+    "publisher": "BBC",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-hateshinaki-scarlet",
+    "title": "果てしなきスカーレット",
+    "author": "細田守（監督・脚本）",
+    "type": "work",
+    "publishedPeriod": "2025年",
+    "publisher": "スタジオ地図／東宝・ソニー・ピクチャーズ",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「果てしなきスカーレット」・英語版「Scarlet (2025 film)」の記述でも確認している。"
+  },
+  {
+    "id": "work-cho-kaguya-hime",
+    "title": "超かぐや姫！",
+    "author": "山下清悟（監督）",
+    "type": "work",
+    "publishedPeriod": "2026年",
+    "publisher": "Netflix",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「超かぐや姫!」の記述でも確認している。"
+  },
+  {
+    "id": "work-chao",
+    "title": "ChaO",
+    "author": "STUDIO4℃",
+    "type": "work",
+    "publishedPeriod": "2025年",
+    "publisher": "東映",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ChaO」の記述でも確認している。"
+  },
+  {
+    "id": "work-undead-girl-murder-farce",
+    "title": "アンデッドガール・マーダーファルス",
+    "author": "青崎有吾",
+    "type": "work",
+    "publishedPeriod": "2015年〜（小説）、2023年（アニメ）",
+    "publisher": "講談社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「アンデッドガール・マーダーファルス」の記述でも確認している。"
+  },
+  {
+    "id": "work-nue-no-onmyouji",
+    "title": "鵺の陰陽師",
+    "author": "川江康太",
+    "type": "work",
+    "publishedPeriod": "2023年〜",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「鵺の陰陽師」の記述でも確認している。"
+  },
+  {
+    "id": "work-jigokuraku",
+    "title": "地獄楽",
+    "author": "賀来ゆうじ",
+    "type": "work",
+    "publishedPeriod": "2018〜2021年（漫画）、2023年・2026年（アニメ）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「地獄楽」の記述でも確認している。"
   }
 ]

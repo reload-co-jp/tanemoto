@@ -1,0 +1,101 @@
+{
+  "id": "fgo-arjuna",
+  "slug": "fgo-arjuna",
+  "name": "アルジュナ",
+  "reading": "あるじゅな",
+  "alternativeNames": ["アーチャー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "アーチャーのサーヴァント。『マハーバーラタ』の英雄で、施しの英雄カルナを宿命の好敵手とする。弓ガーンディーヴァを携え、宝具「破壊神の手翳（パーシュパタ）」を放つ。",
+    "claimIds": ["fgo-arj-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "weapon",
+      "figureId": "arjuna",
+      "label": "弓ガーンディーヴァ",
+      "inWork": {
+        "text": "神弓ガーンディーヴァを武器とする。",
+        "claimIds": ["fgo-arj-work"]
+      },
+      "inMyth": {
+        "text": "カーンダヴァの森を焼こうとする火神アグニは、ヴァルナから弓ガーンディーヴァを得てアルジュナに与えた。",
+        "claimIds": ["fgo-arj-myth-gandiva"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "arjuna",
+      "label": "パーシュパタ",
+      "inWork": {
+        "text": "宝具「破壊神の手翳（パーシュパタ）」はシヴァに由来する。",
+        "claimIds": ["fgo-arj-work"]
+      },
+      "inMyth": {
+        "text": "シヴァはキラータ（狩人）の姿でアルジュナと戦い、その武勇を喜んで正体を現した。",
+        "claimIds": ["fgo-arj-myth-shiva"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "karna",
+      "label": "宿敵カルナ",
+      "inWork": {
+        "text": "カルナとの決着が、アルジュナの物語の中心に置かれる。",
+        "claimIds": ["fgo-arj-work"]
+      },
+      "inMyth": {
+        "text": "最後の戦いでカルナの戦車の車輪が大地に呑まれると、アルジュナはクリシュナに促されてカルナを射た。",
+        "claimIds": ["fgo-arj-myth-karna"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でアルジュナが車輪の沈んだカルナを射たことは、勝利のなかに後ろめたさを残す場面である。作品はこの葛藤をアルジュナの内面として掘り下げている。",
+      "claimIds": ["fgo-arj-cmp", "fgo-arj-myth-karna"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-arj-work",
+      "text": "アルジュナはアーチャーのサーヴァントで、カルナを宿敵とする。弓ガーンディーヴァを使い、宝具は「破壊神の手翳（パーシュパタ）」。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-arj-myth-gandiva",
+      "text": "アグニはカーンダヴァの森を焼くためにヴァルナに弓ガーンディーヴァを求め、それをアルジュナに与えた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 カーンダヴァの森炎上の段（Ganguli 英訳 225節前後）"
+    },
+    {
+      "id": "fgo-arj-myth-shiva",
+      "text": "シヴァはキラータの姿でヒマラヤに現れ、猪の姿の魔物をめぐってアルジュナと戦った。アルジュナの矢は尽き、素手でも敵わなかったが、シヴァは喜んで正体を現した。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 39–40節（Ganguli 英訳）"
+    },
+    {
+      "id": "fgo-arj-myth-karna",
+      "text": "カルナは車輪を引き上げるまで待てとアルジュナに訴えたが、ヴァースデーヴァ（クリシュナ）はカルナの過去の行いを挙げて退けた。アルジュナはアンジャリカと呼ばれる矢でカルナの首を落とした。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』カルナの巻 90–91節（Ganguli 英訳）"
+    },
+    {
+      "id": "fgo-arj-cmp",
+      "text": "作品は、原典の決着の場面に含まれる倫理的な葛藤をアルジュナの人物像に取り込んでいる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "mahabharata"],
+  "articleIds": []
+}

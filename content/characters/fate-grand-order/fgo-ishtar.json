@@ -1,0 +1,87 @@
+{
+  "id": "fgo-ishtar",
+  "slug": "fgo-ishtar",
+  "name": "イシュタル",
+  "reading": "いしゅたる",
+  "alternativeNames": ["アーチャー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "アーチャーのサーヴァント。メソポタミアの女神イシュタルが、人間の少女の体を依り代にした「疑似サーヴァント」として現界した。第七特異点「絶対魔獣戦線バビロニア」で登場し、天舟マアンナに乗って空を駆ける。",
+    "claimIds": ["fgo-ish-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "ishtar",
+      "label": "愛と戦いの女神イシュタル",
+      "inWork": {
+        "text": "金星の女神として、天舟マアンナに乗り、宝具「山脈震撼す明星の薪（アンガルタ・キガルシュ）」で金星の力を放つ。",
+        "claimIds": ["fgo-ish-work"]
+      },
+      "inMyth": {
+        "text": "『ギルガメシュ叙事詩』のイシュタルはギルガメシュに求婚し、黄金の戦車を約束したが、かつて愛した者たちの末路を挙げて拒まれた。",
+        "claimIds": ["fgo-ish-myth-proposal"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "ishtar",
+      "label": "天の牡牛",
+      "inWork": {
+        "text": "作中でもギルガメシュとは険悪な関係として描かれる。",
+        "claimIds": ["fgo-ish-work-gil"]
+      },
+      "inMyth": {
+        "text": "拒まれたイシュタルは父アヌに天の牡牛を造らせたが、ギルガメシュとエンキドゥに殺された。",
+        "claimIds": ["fgo-ish-myth-bull"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で女神と英雄王が対立した経緯が、作中の二人の険悪な関係として引き継がれている。人間の体を借りた「疑似サーヴァント」という形は作品独自の設定である。",
+      "claimIds": ["fgo-ish-cmp", "fgo-ish-work"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-ish-work",
+      "text": "イシュタルはアーチャーの疑似サーヴァントとして現界し、第七特異点バビロニアで登場する。天舟マアンナに乗り、宝具「山脈震撼す明星の薪」で金星の力を放つ。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-ish-work-gil",
+      "text": "作中のイシュタルとギルガメシュは互いを嫌う険悪な関係として描かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-ish-myth-proposal",
+      "text": "イシュタルはギルガメシュに求婚し、黄金の戦車を約束した。ギルガメシュは、イシュタルが愛した者たち（タンムズ、鳥、獅子、馬、羊飼いなど）の末路を挙げて拒んだ。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6粘土板"
+    },
+    {
+      "id": "fgo-ish-myth-bull",
+      "text": "イシュタルは父アヌに天の牡牛を造らせた。ギルガメシュとエンキドゥは牡牛を殺し、その心臓を太陽神に捧げた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6粘土板"
+    },
+    {
+      "id": "fgo-ish-cmp",
+      "text": "原典の求婚と天の牡牛の事件が、作中のイシュタルとギルガメシュの険悪な関係の下敷きになっていると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "gilgamesh-epic"],
+  "articleIds": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "naruto-kurama",
+  "slug": "naruto-kurama",
+  "name": "九喇嘛",
+  "reading": "くらま",
+  "alternativeNames": ["九尾", "九尾の妖狐"],
+  "workId": "naruto",
+  "description": {
+    "text": "尾獣の一体「九尾の妖狐」。強大なチャクラをもつ巨大な狐で、うずまきナルトの体内に封印されている。当初は人間を憎んでいたが、のちにナルトと心を通わせる。",
+    "claimIds": ["naruto-kurama-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "nine-tailed-fox",
+      "label": "九尾の狐",
+      "inWork": {
+        "text": "九本の尾をもつ巨大な狐の姿。",
+        "claimIds": ["naruto-kurama-work"]
+      },
+      "inMyth": {
+        "text": "『山海経』は、青丘の山に狐のような姿で九本の尾をもち、赤子のような声で鳴いて人を食う獣がいると記す。",
+        "claimIds": ["naruto-kurama-myth-shanhaijing"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "daji",
+      "label": "人に災いをもたらす妖狐",
+      "inWork": {
+        "text": "里を襲った災厄として恐れられた。",
+        "claimIds": ["naruto-kurama-work"]
+      },
+      "inMyth": {
+        "text": "『封神演義』では、千年狐狸が蘇護の娘妲己の体を借りて紂王を惑わした。",
+        "claimIds": ["naruto-kurama-myth-daji"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "九尾の狐は、中国の古典では人を食う獣や国を傾ける妖狐として語られる。作品は人々に恐れられた妖狐を、主人公と心を通わせる相棒へと変えている。",
+      "claimIds": [
+        "naruto-kurama-cmp",
+        "naruto-kurama-myth-shanhaijing",
+        "naruto-kurama-myth-daji"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "naruto-kurama-work",
+      "text": "九喇嘛は九尾の妖狐で、うずまきナルトの体内に封印されている。",
+      "classification": "creative",
+      "sourceIds": ["work-naruto"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "naruto-kurama-myth-shanhaijing",
+      "text": "青丘の山に、狐のような姿で九本の尾をもち、赤子のような声で鳴き人を食う獣がいる。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』南山経（青丘之山）"
+    },
+    {
+      "id": "naruto-kurama-myth-daji",
+      "text": "冀州侯蘇護の娘妲己は千年狐狸に魂魄を吸われて死に、狐がその体を借りて紂王を惑わした。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第4回"
+    },
+    {
+      "id": "naruto-kurama-cmp",
+      "text": "作品は恐れられる妖狐を主人公の相棒として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-naruto", "shanhaijing", "fengshen-yanyi"],
+  "articleIds": []
+}

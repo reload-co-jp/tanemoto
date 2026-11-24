@@ -1,0 +1,85 @@
+{
+  "id": "moriarty-the-patriot-sherlock",
+  "slug": "moriarty-the-patriot-sherlock",
+  "name": "シャーロック・ホームズ",
+  "reading": "しゃーろっく・ほーむず",
+  "alternativeNames": ["シャーロック"],
+  "workId": "moriarty-the-patriot",
+  "description": {
+    "text": "「諮問探偵」を名乗る探偵。ウィリアムの仕組む事件を追いながら、彼の友人であり好敵手となる。",
+    "claimIds": ["mp-sherlock-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "sherlock-holmes",
+      "label": "諮問探偵",
+      "inWork": {
+        "text": "自らを諮問探偵と称する。",
+        "claimIds": ["mp-sherlock-work"]
+      },
+      "inMyth": {
+        "text": "ホームズは『緋色の研究』で、自分を「諮問探偵（コンサルティング・ディテクティブ）」と称した。",
+        "claimIds": ["mp-sherlock-myth-consult"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "moriarty",
+      "label": "ライヘンバッハの対決",
+      "inWork": {
+        "text": "モリアーティとの対決が物語の山場となる。",
+        "claimIds": ["mp-sherlock-work"]
+      },
+      "inMyth": {
+        "text": "「最後の事件」で、ホームズとモリアーティはライヘンバッハの滝で対決し、ともに滝壺に消えたとされた。",
+        "claimIds": ["mp-sherlock-myth-reichenbach"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典では宿敵どうしだった二人を、作品は互いを理解し合う友人であり好敵手として描いている。",
+      "claimIds": ["mp-sherlock-cmp", "mp-sherlock-myth-reichenbach"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "mp-sherlock-work",
+      "text": "シャーロック・ホームズは諮問探偵で、ウィリアムの友人であり好敵手となる。",
+      "classification": "creative",
+      "sourceIds": ["work-moriarty-the-patriot"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Moriarty the Patriot」の記述で確認。"
+    },
+    {
+      "id": "mp-sherlock-myth-consult",
+      "text": "ホームズは『緋色の研究』で、自分を「諮問探偵」だと説明した。",
+      "classification": "fact",
+      "sourceIds": ["doyle-study-in-scarlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『緋色の研究』第1部 第2章"
+    },
+    {
+      "id": "mp-sherlock-myth-reichenbach",
+      "text": "ホームズとモリアーティはライヘンバッハの滝の上の小道で対決し、ワトソンが戻ったときには二人の姿はなく、ともに滝壺に落ちたと考えられた。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "mp-sherlock-cmp",
+      "text": "作品は宿敵どうしの関係を、理解し合う好敵手の関係として描き替えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-moriarty-the-patriot",
+    "doyle-study-in-scarlet",
+    "doyle-final-problem"
+  ],
+  "articleIds": []
+}

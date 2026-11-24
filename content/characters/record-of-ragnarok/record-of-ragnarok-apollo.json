@@ -1,0 +1,85 @@
+{
+  "id": "record-of-ragnarok-apollo",
+  "slug": "record-of-ragnarok-apollo",
+  "name": "アポロン",
+  "reading": "あぽろん",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "神々の代表の一柱。ラグナロク第9回戦でスパルタ王レオニダスと戦い、勝利した。神器は「アルテミスの糸」。",
+    "claimIds": ["ror-apollo-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "apollo",
+      "label": "光明神アポロン",
+      "inWork": {
+        "text": "ギリシャの神アポロンとして登場する。",
+        "claimIds": ["ror-apollo-work"]
+      },
+      "inMyth": {
+        "text": "『イリアス』のアポロンは「銀の弓の神」と呼ばれ、祭司クリュセスの祈りに応えてギリシャ軍に疫病の矢を射かけた。",
+        "claimIds": ["ror-apollo-myth-bow"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "apollo",
+      "label": "アルテミスの糸",
+      "inWork": {
+        "text": "神器の名は双子のアルテミスにちなむ。",
+        "claimIds": ["ror-apollo-work"]
+      },
+      "inMyth": {
+        "text": "レトはゼウスと交わって、矢を喜ぶアポロンとアルテミスを産んだ。",
+        "claimIds": ["ror-apollo-myth-twin"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のアポロンは弓の名手である。作品は「弓」ではなく、双子アルテミスの名を冠した「糸」を神器としている。",
+      "claimIds": [
+        "ror-apollo-cmp",
+        "ror-apollo-myth-bow",
+        "ror-apollo-myth-twin"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-apollo-work",
+      "text": "アポロンはラグナロク第9回戦でレオニダスと戦って勝利した。神器は「アルテミスの糸」。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-apollo-myth-bow",
+      "text": "クリュセスが「銀の弓の神」アポロンに祈ると、アポロンはオリュンポスから下り、九日にわたってギリシャ軍の陣営に矢を射かけ、疫病で人々を倒した。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』1.37–52"
+    },
+    {
+      "id": "ror-apollo-myth-twin",
+      "text": "レトはアイギスをもつゼウスと交わって、天の子らのうち最も美しいアポロンと、矢を喜ぶアルテミスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』918–920行"
+    },
+    {
+      "id": "ror-apollo-cmp",
+      "text": "弓の神に双子の名を冠した神器を与えた点は作品の工夫である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "homer-iliad", "hesiod-theogony"],
+  "articleIds": []
+}

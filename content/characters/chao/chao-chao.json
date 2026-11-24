@@ -1,0 +1,81 @@
+{
+  "id": "chao-chao",
+  "slug": "chao-chao",
+  "name": "チャオ",
+  "reading": "ちゃお",
+  "alternativeNames": [],
+  "workId": "chao",
+  "description": {
+    "text": "人魚の王女。上海の造船所で働く青年ステファンに求婚し、人間と人魚の初めての結婚をする。",
+    "claimIds": ["chao-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "little-mermaid",
+      "label": "人魚姫",
+      "inWork": {
+        "text": "人間の青年に恋をする人魚の王女。",
+        "claimIds": ["chao-work"]
+      },
+      "inMyth": {
+        "text": "人魚姫は、人間には死後も滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願った。",
+        "claimIds": ["chao-myth-soul"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "little-mermaid",
+      "label": "人間との結婚",
+      "inWork": {
+        "text": "チャオとステファンは結婚する。",
+        "claimIds": ["chao-work"]
+      },
+      "inMyth": {
+        "text": "王子は別の姫と結婚し、人魚姫は王子を殺して人魚に戻ることを拒み、海に身を投げて泡となった。",
+        "claimIds": ["chao-myth-end"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の人魚姫は王子と結ばれずに終わる。作品は人魚の側から求婚させ、結婚したあとの生活を描くことで、原典の結末を裏返している。",
+      "claimIds": ["chao-cmp", "chao-myth-end"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "chao-work",
+      "text": "人魚の王女チャオは上海の造船所で働くステファンに求婚し、人間と人魚の初めての結婚をする。",
+      "classification": "creative",
+      "sourceIds": ["work-chao"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ChaO」の記述で確認。"
+    },
+    {
+      "id": "chao-myth-soul",
+      "text": "人魚姫は、人間には死後も滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願った。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    },
+    {
+      "id": "chao-myth-end",
+      "text": "王子が別の姫と結婚すると、人魚姫は王子を殺して人魚に戻ることを拒み、海に身を投げて泡となった。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    },
+    {
+      "id": "chao-cmp",
+      "text": "作品は結ばれなかった原典の恋を、結婚後の物語として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-chao", "andersen-little-mermaid"],
+  "articleIds": []
+}

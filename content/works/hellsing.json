@@ -1,0 +1,14 @@
+{
+  "id": "hellsing",
+  "slug": "hellsing",
+  "title": "HELLSING",
+  "reading": "へるしんぐ",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime"],
+  "author": "平野耕太",
+  "period": "1997〜2008年（『ヤングキングアワーズ』連載）",
+  "description": "吸血鬼などの怪物から英国を守る秘密組織「ヘルシング機関」を描く漫画。組織に仕える最強の吸血鬼アーカードが、敵対する吸血鬼やナチスの残党と戦う。ブラム・ストーカーの『吸血鬼ドラキュラ』を下敷きにしている。",
+  "mythologyIds": ["dracula"],
+  "articleIds": [],
+  "sourceIds": ["work-hellsing"]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "jigokuraku",
+  "slug": "jigokuraku",
+  "title": "地獄楽",
+  "reading": "じごくらく",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime"],
+  "author": "賀来ゆうじ",
+  "period": "2018〜2021年（『少年ジャンプ+』連載）、2023年（テレビアニメ第1期）、2026年（第2期）",
+  "description": "死罪人の忍・画眉丸らが、無罪放免と引き換えに、将軍の命で不老不死の仙薬を探しに極楽浄土と噂される島へ送り込まれる漫画。島の中心「蓬莱」には、徐福が造った人造の仙人「天仙」たちが住む。",
+  "mythologyIds": ["ancient-china"],
+  "articleIds": [],
+  "sourceIds": ["work-jigokuraku"]
+}

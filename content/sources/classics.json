@@ -837,5 +837,26 @@
     "url": "https://en.wikisource.org/wiki/Gulliver%27s_Travels",
     "urlLabel": "Wikisource（原文）",
     "notes": "船医ガリヴァーが小人国・巨人国・空飛ぶ島ラピュータなどを巡る風刺小説。第3篇がラピュータとバルニバービの旅を描く。箇所は「篇.章」で示す。"
+  },
+  {
+    "id": "shakespeare-hamlet",
+    "title": "ハムレット",
+    "originalTitle": "The Tragedy of Hamlet, Prince of Denmark",
+    "author": "ウィリアム・シェイクスピア",
+    "type": "primary",
+    "publishedPeriod": "1600年頃（初演）、1603年（第1四折本）",
+    "url": "https://en.wikisource.org/wiki/The_Tragedy_of_Hamlet,_Prince_of_Denmark",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "父王を叔父クローディアスに毒殺されたデンマーク王子ハムレットの復讐を描く悲劇。箇所は「幕.場」で示す。"
+  },
+  {
+    "id": "heike-monogatari",
+    "title": "平家物語",
+    "author": "作者未詳",
+    "type": "primary",
+    "publishedPeriod": "13世紀前半〜中頃に成立（諸本あり）",
+    "url": "https://ja.wikisource.org/wiki/%E5%B9%B3%E5%AE%B6%E7%89%A9%E8%AA%9E",
+    "urlLabel": "ウィキソース",
+    "notes": "平家一門の興亡を描く軍記物語。巻第四「鵼」で、源頼政が近衛天皇の御所に現れた怪物（鵺）を射落とした話を語る。箇所は巻と章段名で示す。"
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "id": "kamigami-no-asobi",
+  "slug": "kamigami-no-asobi",
+  "title": "神々の悪戯",
+  "reading": "かみがみのあそび",
+  "type": "anime",
+  "mediaTypes": ["game", "anime"],
+  "author": "ブロッコリー（原作）",
+  "period": "2013年（PSPゲーム）、2014年（テレビアニメ）",
+  "description": "人間との絆が薄れて神々の力が弱まることを憂えたゼウスが、各国の若い神々を箱庭の学園に集め、人間について学ばせる物語。人間の少女・草薙結衣が神々の教育係として学園に呼び出される。ギリシャ・北欧・日本・エジプトの神々が生徒や教師として登場する。",
+  "mythologyIds": ["greek", "norse", "japanese", "egyptian"],
+  "articleIds": [],
+  "sourceIds": ["work-kamigami-no-asobi"]
+}

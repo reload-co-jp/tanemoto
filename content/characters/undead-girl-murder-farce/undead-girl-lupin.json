@@ -1,0 +1,68 @@
+{
+  "id": "undead-girl-lupin",
+  "slug": "undead-girl-lupin",
+  "name": "アルセーヌ・ルパン",
+  "reading": "あるせーぬ・るぱん",
+  "alternativeNames": ["ルパン"],
+  "workId": "undead-girl-murder-farce",
+  "description": {
+    "text": "フランスの怪盗。ロンドンで、フィリアス・フォッグが所有する80カラットの人工の黒いダイヤモンド「最後から二番目の夜」を狙う。",
+    "claimIds": ["ugmf-lupin-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "arsene-lupin",
+      "label": "怪盗紳士ルパン",
+      "inWork": {
+        "text": "予告して宝を狙う怪盗。",
+        "claimIds": ["ugmf-lupin-work"]
+      },
+      "inMyth": {
+        "text": "ルパンは偽名で客船に乗りこみ、乗客たちのあいだにまぎれて正体を隠した。",
+        "claimIds": ["ugmf-lupin-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "名探偵ホームズとの対決という構図は、ルブランがルパンとホームズを対決させたことにさかのぼる。",
+      "claimIds": ["ugmf-lupin-cmp", "ugmf-lupin-myth-holmes"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ugmf-lupin-work",
+      "text": "ルパンはフィリアス・フォッグが所有する80カラットの人工黒ダイヤ「最後から二番目の夜」を狙う。ホームズと鴉夜がその警護に雇われる。",
+      "classification": "creative",
+      "sourceIds": ["work-undead-girl-murder-farce"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「アンデッドガール・マーダーファルス」の記述で確認。"
+    },
+    {
+      "id": "ugmf-lupin-myth",
+      "text": "ニューヨーク行きの客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という無線が届き、乗客たちは正体を探った。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "id": "ugmf-lupin-myth-holmes",
+      "text": "『怪盗紳士ルパン』の最後の短編で、ルパンはシャーロック・ホームズと出会う。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「遅かりしシャーロック・ホームズ」"
+    },
+    {
+      "id": "ugmf-lupin-cmp",
+      "text": "ルパンとホームズの対決は、ルブラン自身が描いた組み合わせである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-undead-girl-murder-farce", "leblanc-gentleman-burglar"],
+  "articleIds": []
+}

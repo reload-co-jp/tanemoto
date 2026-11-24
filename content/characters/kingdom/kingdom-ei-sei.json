@@ -1,0 +1,81 @@
+{
+  "id": "kingdom-ei-sei",
+  "slug": "kingdom-ei-sei",
+  "name": "嬴政",
+  "reading": "えいせい",
+  "alternativeNames": ["政"],
+  "workId": "kingdom",
+  "description": {
+    "text": "秦の若き王。中華の統一を志し、主人公・信の助けを得て、王位を奪った異母弟・成蟜から玉座を取り戻す。",
+    "claimIds": ["kd-eisei-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "qin-shi-huang",
+      "label": "秦王政（始皇帝）",
+      "inWork": {
+        "text": "中華統一を目指す秦王として描かれる。",
+        "claimIds": ["kd-eisei-work"]
+      },
+      "inMyth": {
+        "text": "秦王政は人質の子として趙の都・邯鄲で生まれた。天下を統一すると「皇帝」と号し、自らを始皇帝とした。",
+        "claimIds": ["kd-eisei-myth-emperor"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "qin-shi-huang",
+      "label": "成蟜の反乱",
+      "inWork": {
+        "text": "物語の序盤で、異母弟・成蟜が王位を奪う。",
+        "claimIds": ["kd-eisei-work"]
+      },
+      "inMyth": {
+        "text": "始皇8年、王の弟の長安君成蟜は将軍として趙を攻めたが、屯留で反乱を起こして死んだ。",
+        "claimIds": ["kd-eisei-myth-chengjiao"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『史記』では成蟜の反乱はわずか一行で記されるにすぎない。作品はこれを物語の発端として大きくふくらませている。",
+      "claimIds": ["kd-eisei-cmp", "kd-eisei-myth-chengjiao"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kd-eisei-work",
+      "text": "嬴政は中華統一を目指す秦の若き王で、信の助けで異母弟・成蟜から王位を取り戻す。",
+      "classification": "creative",
+      "sourceIds": ["work-kingdom"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Kingdom (manga)」の記述で確認。"
+    },
+    {
+      "id": "kd-eisei-myth-emperor",
+      "text": "秦王政は趙の邯鄲で生まれた。天下を統一すると、三皇の「皇」と五帝の「帝」をあわせて「皇帝」と号し、自らを始皇帝とした。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀"
+    },
+    {
+      "id": "kd-eisei-myth-chengjiao",
+      "text": "始皇8年、王の弟の長安君成蟜は将軍として趙を攻めたが、反乱を起こし、屯留で死んだ。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇8年条）"
+    },
+    {
+      "id": "kd-eisei-cmp",
+      "text": "作品は『史記』の短い記事を大きな物語に仕立てている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kingdom", "shiji"],
+  "articleIds": []
+}

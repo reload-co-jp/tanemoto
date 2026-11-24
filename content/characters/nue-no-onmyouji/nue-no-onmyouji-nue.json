@@ -1,0 +1,60 @@
+{
+  "id": "nue-no-onmyouji-nue",
+  "slug": "nue-no-onmyouji-nue",
+  "name": "鵺",
+  "reading": "ぬえ",
+  "alternativeNames": ["夜島沙鵺子"],
+  "workId": "nue-no-onmyouji",
+  "description": {
+    "text": "学校に封印されていた強大な妖怪で、美しい若い女性（夜島沙鵺子）の姿をしている。主人公の夜島学郎と契約を結ぶ。",
+    "claimIds": ["nue-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "nue",
+      "label": "鵺",
+      "inWork": {
+        "text": "正体の知れない強大な妖怪。",
+        "claimIds": ["nue-work"]
+      },
+      "inMyth": {
+        "text": "『平家物語』の鵺は、近衛天皇の御所に黒雲とともに現れ、源頼政に射落とされた怪物で、頭は猿、胴は狸、尾は蛇、手足は虎の姿だった。",
+        "claimIds": ["nue-myth-yorimasa"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の鵺は、さまざまな獣を継ぎ合わせたような姿の怪物である。作品は鵺を美しい女性の姿で描き、退治される側ではなく主人公とともに戦う存在にしている。",
+      "claimIds": ["nue-cmp", "nue-myth-yorimasa"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nue-work",
+      "text": "鵺は学校に封印されていた妖怪で、美しい若い女性・夜島沙鵺子の姿をしており、夜島学郎と契約を結ぶ。",
+      "classification": "creative",
+      "sourceIds": ["work-nue-no-onmyouji"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「鵺の陰陽師」の記述で確認。"
+    },
+    {
+      "id": "nue-myth-yorimasa",
+      "text": "近衛天皇の御所に夜ごと黒雲が現れて天皇を悩ませたため、源頼政が召されて射落とし、家来の猪早太がとどめを刺した。その姿は頭は猿、むくろは狸、尾は蛇、手足は虎で、鳴く声は鵼に似ていた。",
+      "classification": "fact",
+      "sourceIds": ["heike-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『平家物語』巻第四「鵼」"
+    },
+    {
+      "id": "nue-cmp",
+      "text": "作品は退治される怪物を、主人公の味方として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-nue-no-onmyouji", "heike-monogatari"],
+  "articleIds": []
+}

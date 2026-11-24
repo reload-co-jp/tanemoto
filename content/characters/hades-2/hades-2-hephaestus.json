@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-hephaestus",
+  "slug": "hades-2-hephaestus",
+  "name": "ヘパイストス",
+  "reading": "へぱいすとす",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "オリュンポスの神の一柱で、鍛冶の神。メリノエに爆発を起こす力を授ける。",
+    "claimIds": ["h2-heph-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hephaestus",
+      "label": "鍛冶の神",
+      "inWork": {
+        "text": "鍛冶の神として、爆発の力を与える。",
+        "claimIds": ["h2-heph-work"]
+      },
+      "inMyth": {
+        "text": "ヘパイストスは青銅の館で鞴と金床と槌を使い、アキレウスの盾と武具を作った。",
+        "claimIds": ["h2-heph-myth-forge"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で武具を作る鍛冶の神は、作品では爆発の力の授け手となっている。",
+      "claimIds": ["h2-heph-cmp", "h2-heph-myth-forge"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-heph-work",
+      "text": "ヘパイストスはメリノエに恩恵を授けるオリュンポスの神で、爆発を起こす力を与える。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-heph-myth-forge",
+      "text": "ヘパイストスは青銅の館で鞴と金床と槌を使い、アキレウスの盾と武具を作った。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』18.369–371, 468–482"
+    },
+    {
+      "id": "h2-heph-cmp",
+      "text": "鍛冶の火と力が、作品では爆発として表現されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "homer-iliad"],
+  "articleIds": []
+}

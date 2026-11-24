@@ -1,0 +1,72 @@
+{
+  "id": "kamigami-anubis",
+  "slug": "kamigami-anubis",
+  "name": "アヌビス・マアト",
+  "reading": "あぬびす・まあと",
+  "alternativeNames": ["アヌビス"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "エジプトの神アヌビス。人見知りで、トトにしか理解できない独特の言葉を話す。",
+    "claimIds": ["kami-anubis-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "anubis",
+      "label": "死者の神アヌビス",
+      "inWork": {
+        "text": "エジプトの冥界の神。",
+        "claimIds": ["kami-anubis-work"]
+      },
+      "inMyth": {
+        "text": "アヌビスはジャッカルの頭をもつ墓と死者の守護神で、「死者の書」の挿絵では死者の心臓を量る天秤に立ち会う。",
+        "claimIds": ["kami-anubis-myth-scale"]
+      }
+    },
+    {
+      "aspect": "name",
+      "label": "真理の女神マアト",
+      "inWork": {
+        "text": "名の「マアト」は、エジプトの真理と秩序の女神の名。",
+        "claimIds": ["kami-anubis-work"]
+      },
+      "inMyth": {
+        "text": "「死者の書」の挿絵では、死者の心臓が天秤で真理の女神マアトの羽根と比べられる。",
+        "claimIds": ["kami-anubis-myth-scale"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "名前の「マアト」は、アヌビスが立ち会う心臓の計量で心臓と比べられる羽根の持ち主、真理の女神の名である。",
+      "claimIds": ["kami-anubis-cmp", "kami-anubis-myth-scale"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-anubis-work",
+      "text": "アヌビス・マアトはエジプトの神で、人見知り。トトにしか理解できない独特の言葉を話す。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-anubis-myth-scale",
+      "text": "「死者の書」第125章の挿絵では、死者の心臓が天秤で真理の女神マアトの羽根と比べられ、ジャッカルの頭のアヌビスが天秤に立ち会う。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "kami-anubis-cmp",
+      "text": "「マアト」の名は、心臓の計量の場面と結びつく。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kamigami-no-asobi", "book-of-the-dead"],
+  "articleIds": []
+}

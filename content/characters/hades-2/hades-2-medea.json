@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-medea",
+  "slug": "hades-2-medea",
+  "name": "メディア",
+  "reading": "めでぃあ",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "地上のエピュラで出会う魔女。メリノエを助け、敵に呪いをかける力を授ける。",
+    "claimIds": ["h2-medea-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "medea",
+      "label": "薬と魔術",
+      "inWork": {
+        "text": "呪いの魔術を授ける魔女として描かれる。",
+        "claimIds": ["h2-medea-work"]
+      },
+      "inMyth": {
+        "text": "メディアは一日のあいだ火にも鉄にも傷つかなくなる薬をイアソンに与え、金羊毛を守る竜を薬で眠らせた。",
+        "claimIds": ["h2-medea-myth-drug"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でも魔女とされるメディアは、作品では魔女の修行をするメリノエの協力者となっている。",
+      "claimIds": ["h2-medea-cmp", "h2-medea-myth-drug"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-medea-work",
+      "text": "メディアは地上のエピュラで出会う魔女で、メリノエに敵を呪う力を授ける。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-medea-myth-drug",
+      "text": "メディアは一日のあいだ火にも鉄にも傷つかなくなる薬をイアソンに与え、金羊毛を守る竜を薬で眠らせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.23, 1.9.27"
+    },
+    {
+      "id": "h2-medea-cmp",
+      "text": "魔女としてのメディアの性格が作品に引き継がれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "apollodorus-library"],
+  "articleIds": []
+}

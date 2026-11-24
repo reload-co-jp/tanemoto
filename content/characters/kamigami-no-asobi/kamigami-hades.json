@@ -1,0 +1,93 @@
+{
+  "id": "kamigami-hades",
+  "slug": "kamigami-hades",
+  "name": "ハデス・アイドネウス",
+  "reading": "はです・あいどねうす",
+  "alternativeNames": ["ハデス"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "ギリシャの冥府の神。ゼウスの兄。自分に近づくと不幸になると信じており、他者から距離を置いている。",
+    "claimIds": ["kami-hades-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "hades",
+      "label": "冥府の神ハデス",
+      "inWork": {
+        "text": "名の「アイドネウス」はハデスの別名。",
+        "claimIds": ["kami-hades-work"]
+      },
+      "inMyth": {
+        "text": "ゼウス・ポセイドン・ハデスはくじで世界を分け、ハデスは闇の世界を得た。『デメテル讃歌』ではハデスを「アイドネウス」と呼ぶ。",
+        "claimIds": ["kami-hades-myth-lot", "kami-hades-myth-name"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "hades",
+      "label": "忌み嫌われる神",
+      "inWork": {
+        "text": "不幸をもたらす神だと自ら思い込み、人を遠ざける。",
+        "claimIds": ["kami-hades-work"]
+      },
+      "inMyth": {
+        "text": "アガメムノンは、ハデスはなだめることも屈服させることもできず、それゆえ人間に最も憎まれる神だと語る。",
+        "claimIds": ["kami-hades-myth-hated"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のハデスは不幸をもたらす神ではなく、死者の国の厳格な王である。ただ「人間に最も憎まれる神」という評は、作品の孤独なハデス像と通じている。",
+      "claimIds": ["kami-hades-cmp", "kami-hades-myth-hated"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-hades-work",
+      "text": "ハデス・アイドネウスは冥府の神でゼウスの兄。自分に近づくと不幸になると信じ、不幸の呪いを負って他者から距離を置く。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-hades-myth-lot",
+      "text": "ゼウス・ポセイドン・ハデスはくじで世界を分け、ポセイドンは海、ハデスは闇、ゼウスは天空を得た。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "kami-hades-myth-name",
+      "text": "『デメテル讃歌』ではハデスを「アイドネウス」「多くの者を迎える者」などの名で呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』2, 9, 17行など"
+    },
+    {
+      "id": "kami-hades-myth-hated",
+      "text": "アガメムノンは、ハデスはなだめることも屈服させることもできず、それゆえ人間に最も憎まれる神だと語る。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』9.158–159"
+    },
+    {
+      "id": "kami-hades-cmp",
+      "text": "作品の孤独なハデス像は、「人間に最も憎まれる神」という古典の評と響き合う。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-kamigami-no-asobi",
+    "homer-iliad",
+    "homeric-hymn-demeter"
+  ],
+  "articleIds": []
+}

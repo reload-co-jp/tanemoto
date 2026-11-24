@@ -1,0 +1,80 @@
+{
+  "id": "fgo-raikou",
+  "slug": "fgo-raikou",
+  "name": "源頼光",
+  "reading": "みなもとのらいこう",
+  "alternativeNames": ["バーサーカー", "頼光"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "バーサーカーのサーヴァント。平安時代の武将・源頼光が、慈愛に満ちた母性的な女性の姿で現界した。その内には牛頭天王・丑御前と結びつけられた「鬼」の側面を秘めている。",
+    "claimIds": ["fgo-raikou-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "minamoto-no-yorimitsu",
+      "label": "源頼光",
+      "inWork": {
+        "text": "頼光四天王を率いる源氏の大将として描かれる。",
+        "claimIds": ["fgo-raikou-work"]
+      },
+      "inMyth": {
+        "text": "『太平記』によれば、頼光の太刀を授かった渡辺綱が妖怪の腕を斬り落とし、その太刀はのちに鬼切と呼ばれた。",
+        "claimIds": ["fgo-raikou-myth-onikiri"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "minamoto-no-yorimitsu",
+      "label": "牛鬼と母",
+      "inWork": {
+        "text": "母性を前面に出す一方、牛の鬼（丑御前）としての正体をもつ。",
+        "claimIds": ["fgo-raikou-work"]
+      },
+      "inMyth": {
+        "text": "『太平記』では、頼光の母に化けて腕を取り返しに来た牛鬼の首を、頼光が太刀で斬り落とした。",
+        "claimIds": ["fgo-raikou-myth-ushioni"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『太平記』で頼光が退治したのは「母に化けた牛鬼」だった。作品の頼光が「母」と「牛の鬼」の二つの顔をもつことは、この説話と響き合っている。",
+      "claimIds": ["fgo-raikou-cmp", "fgo-raikou-myth-ushioni"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-raikou-work",
+      "text": "源頼光はバーサーカーのサーヴァントで、母性的な女性として描かれる。牛頭天王・丑御前と結びつけられた鬼の側面を秘めている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-raikou-myth-onikiri",
+      "text": "源頼光の太刀を授かった渡辺綱が大和国宇多郡の森で妖怪の腕を斬り落とした。太刀はのちに鬼切と呼ばれた。",
+      "classification": "fact",
+      "sourceIds": ["taiheiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『太平記』巻第三十二「直冬上洛事付鬼丸鬼切事」"
+    },
+    {
+      "id": "fgo-raikou-myth-ushioni",
+      "text": "七日の物忌みの最後の夜、頼光の母が訪ねてきて腕を手に取ると牛鬼の姿に変わった。頼光はその首を太刀で斬り落とした。",
+      "classification": "fact",
+      "sourceIds": ["taiheiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『太平記』巻第三十二「直冬上洛事付鬼丸鬼切事」"
+    },
+    {
+      "id": "fgo-raikou-cmp",
+      "text": "作品の「母」と「牛の鬼」の二面性は、『太平記』の牛鬼説話と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "taiheiki"],
+  "articleIds": []
+}

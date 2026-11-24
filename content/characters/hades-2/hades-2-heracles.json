@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-heracles",
+  "slug": "hades-2-heracles",
+  "name": "ヘラクレス",
+  "reading": "へらくれす",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "地上のエピュラなどに現れる英雄。メリノエとともに怪物と戦う。",
+    "claimIds": ["h2-heracles-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "heracles",
+      "label": "怪物退治の英雄",
+      "inWork": {
+        "text": "怪物と戦う英雄として描かれる。",
+        "claimIds": ["h2-heracles-work"]
+      },
+      "inMyth": {
+        "text": "最初の難業で、ヘラクレスは矢が効かない不死身のネメアの獅子を棍棒で追い詰め、絞め殺した。",
+        "claimIds": ["h2-heracles-myth-lion"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で数々の怪物を退治したヘラクレスが、作品でも怪物と戦う助っ人として登場する。",
+      "claimIds": ["h2-heracles-cmp", "h2-heracles-myth-lion"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-heracles-work",
+      "text": "ヘラクレスは地上のエピュラなどに現れ、メリノエとともに怪物と戦う。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-heracles-myth-lion",
+      "text": "最初の難業はテュポンの子で不死身のネメアの獅子の皮を持ち帰ること。ヘラクレスは矢が効かないと知ると棍棒で追い、洞穴で首を絞めて殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.1"
+    },
+    {
+      "id": "h2-heracles-cmp",
+      "text": "怪物退治の英雄という原典の姿がそのまま生かされている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "apollodorus-library"],
+  "articleIds": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "dragon-ball-oolong",
+  "slug": "dragon-ball-oolong",
+  "name": "ウーロン",
+  "reading": "うーろん",
+  "alternativeNames": [],
+  "workId": "dragon-ball",
+  "description": {
+    "text": "変身術を使うブタ。悟空たちと出会う前は村を脅して娘たちをさらっていたが、悟空とブルマにこらしめられて仲間になる。作者の鳥山明は、初期の登場人物の多くを『西遊記』をもとに作っており、ウーロンは猪八戒にあたる。",
+    "claimIds": ["db-oolong-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "zhu-bajie",
+      "label": "猪八戒",
+      "inWork": {
+        "text": "ブタの姿で、さまざまなものに化ける。",
+        "claimIds": ["db-oolong-work"]
+      },
+      "inMyth": {
+        "text": "猪八戒はもとは天蓬元帥で、嫦娥に戯れた罪で下界に落とされ、豚の胎に宿って豚の姿になった。",
+        "claimIds": ["db-oolong-myth-origin"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "zhu-bajie",
+      "label": "村の娘をめぐる騒動",
+      "inWork": {
+        "text": "村の娘たちをさらって屋敷に閉じこめていた。",
+        "claimIds": ["db-oolong-work"]
+      },
+      "inMyth": {
+        "text": "八戒は人の姿に化けて高老荘の娘を妻にしていたが、正体が知れて悟空に退治されそうになり、三蔵の弟子となった。",
+        "claimIds": ["db-oolong-myth-gao"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "村の娘をめぐる騒ぎで主人公たちと出会い、仲間に加わるという流れは、高老荘の八戒の話と重なる。",
+      "claimIds": ["db-oolong-cmp", "db-oolong-myth-gao"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "db-oolong-work",
+      "text": "ウーロンは変身できる擬人化されたブタで、村の娘たちをさらっていた。鳥山明は初期の登場人物の多くを『西遊記』にもとづいて作り、ウーロンは猪八戒をもとにしている。",
+      "classification": "creative",
+      "sourceIds": ["work-dragon-ball"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "db-oolong-myth-origin",
+      "text": "猪八戒はもとは天河の天蓬元帥で、酒に酔って嫦娥に戯れたため下界に落とされ、誤って豚の胎に宿った。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第8回"
+    },
+    {
+      "id": "db-oolong-myth-gao",
+      "text": "八戒は高老荘で人の姿となって高太公の娘を妻にしていたが、妖怪とわかって悟空と戦い、観音に授かった名を名のって三蔵の弟子となった。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第18–19回"
+    },
+    {
+      "id": "db-oolong-cmp",
+      "text": "村の娘をめぐる騒動から仲間になる流れは、高老荘の挿話を踏まえたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-dragon-ball", "xiyouji"],
+  "articleIds": []
+}

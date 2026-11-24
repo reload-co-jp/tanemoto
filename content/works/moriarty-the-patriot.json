@@ -1,0 +1,14 @@
+{
+  "id": "moriarty-the-patriot",
+  "slug": "moriarty-the-patriot",
+  "title": "憂国のモリアーティ",
+  "reading": "ゆうこくのもりあーてぃ",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime"],
+  "author": "竹内良輔（構成）・三好輝（漫画）",
+  "period": "2016年〜（『ジャンプSQ.』連載）、2020〜2021年（テレビアニメ）",
+  "description": "コナン・ドイルの「シャーロック・ホームズ」シリーズを、宿敵モリアーティの側から描き直した漫画。19世紀イギリスの階級社会を壊そうとするウィリアム・ジェームズ・モリアーティが「犯罪卿」として暗躍し、探偵シャーロック・ホームズと対決する。",
+  "mythologyIds": ["sherlock-holmes"],
+  "articleIds": [],
+  "sourceIds": ["work-moriarty-the-patriot"]
+}

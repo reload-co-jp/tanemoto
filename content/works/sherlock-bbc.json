@@ -1,0 +1,14 @@
+{
+  "id": "sherlock-bbc",
+  "slug": "sherlock-bbc",
+  "title": "SHERLOCK（シャーロック）",
+  "reading": "しゃーろっく",
+  "type": "drama",
+  "mediaTypes": ["drama"],
+  "author": "スティーヴン・モファット、マーク・ゲイティス（企画・脚本）",
+  "period": "2010〜2017年（全4シリーズ＋特別編）",
+  "description": "コナン・ドイルの「シャーロック・ホームズ」シリーズの舞台を現代のロンドンに移したイギリスのテレビドラマ。スマートフォンやブログを使うホームズとワトソンが、原作の事件をもとにした難事件に挑む。",
+  "mythologyIds": ["sherlock-holmes"],
+  "articleIds": [],
+  "sourceIds": ["work-sherlock-bbc"]
+}

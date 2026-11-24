@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-hestia",
+  "slug": "hades-2-hestia",
+  "name": "ヘスティア",
+  "reading": "へすてぃあ",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "オリュンポスの神の一柱で、炉の女神。メリノエに敵を焼き焦がす炎の力を授ける。",
+    "claimIds": ["h2-hes-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hestia",
+      "label": "炉の女神",
+      "inWork": {
+        "text": "炉の火をつかさどる女神として、炎の力を与える。",
+        "claimIds": ["h2-hes-work"]
+      },
+      "inMyth": {
+        "text": "ゼウスは結婚の代わりにヘスティアに誉れを与え、ヘスティアは家の中心に座を占めた。",
+        "claimIds": ["h2-hes-myth-hearth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヘスティアは家の中心にある炉の女神で、戦いとはほとんど縁がない。作品は炉の火を攻撃の炎へと転じている。",
+      "claimIds": ["h2-hes-cmp", "h2-hes-myth-hearth"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-hes-work",
+      "text": "ヘスティアはメリノエに恩恵を授けるオリュンポスの神で、敵を焼き焦がす炎の力を与える。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-hes-myth-hearth",
+      "text": "ゼウスは結婚の代わりにヘスティアに誉れを与え、ヘスティアは家の中心に座を占めた。あらゆる神殿で誉れを受ける。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』29–32行"
+    },
+    {
+      "id": "h2-hes-cmp",
+      "text": "作品は炉の火を戦いの炎として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "homeric-hymn-aphrodite"],
+  "articleIds": []
+}

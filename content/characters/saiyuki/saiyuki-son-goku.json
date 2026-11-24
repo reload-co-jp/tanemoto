@@ -1,0 +1,101 @@
+{
+  "id": "saiyuki-son-goku",
+  "slug": "saiyuki-son-goku",
+  "name": "孫悟空",
+  "reading": "そんごくう",
+  "alternativeNames": ["悟空"],
+  "workId": "saiyuki",
+  "description": {
+    "text": "三蔵一行の一人。大地の気から生まれた「異端」の存在で、金色の瞳をもつ。妖力を抑える金鈷（頭の輪）をつけ、五百年のあいだ岩牢に閉じこめられていたところを三蔵に連れ出された。",
+    "claimIds": ["sy-goku-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "sun-wukong",
+      "label": "石から生まれた猿",
+      "inWork": {
+        "text": "大地の気から生まれた存在とされる。",
+        "claimIds": ["sy-goku-work"]
+      },
+      "inMyth": {
+        "text": "花果山の頂の仙石が天地の精気と日月の光を受けて石の卵を産み、それが風に当たって石猿となった。",
+        "claimIds": ["sy-goku-myth-stone"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "sun-wukong",
+      "label": "五百年の幽閉",
+      "inWork": {
+        "text": "五百年のあいだ閉じこめられていた。",
+        "claimIds": ["sy-goku-work"]
+      },
+      "inMyth": {
+        "text": "天界で大暴れした孫悟空は如来によって五行山の下に押さえこまれ、五百年後に三蔵に救い出された。",
+        "claimIds": ["sy-goku-myth-mountain"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "sun-wukong",
+      "label": "頭の輪",
+      "inWork": {
+        "text": "金鈷は妖力を抑えるための枷である。",
+        "claimIds": ["sy-goku-work"]
+      },
+      "inMyth": {
+        "text": "観音菩薩は三蔵に「緊箍児咒」を授け、悟空が言うことを聞かなければ唱えて頭の輪を締めつけさせた。",
+        "claimIds": ["sy-goku-myth-band"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の頭の輪（緊箍児）は、三蔵が悟空を従わせるための道具だった。作品の金鈷は、悟空自身の強すぎる力を封じる枷として描き替えられている。",
+      "claimIds": ["sy-goku-cmp", "sy-goku-myth-band"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sy-goku-work",
+      "text": "孫悟空は大地の気から生まれた異端の存在で、金色の瞳をもつ。妖力を抑える金鈷をつけ、五百年のあいだ岩牢に閉じこめられていた。",
+      "classification": "creative",
+      "sourceIds": ["work-saiyuki"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sy-goku-myth-stone",
+      "text": "花果山の頂に仙石があり、天地の精気と日月の光を受けて、ある日裂けて石の卵を産み、風に当たって石猿となった。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第1回"
+    },
+    {
+      "id": "sy-goku-myth-mountain",
+      "text": "如来は掌から出られなかった悟空を五行山の下に押さえこんだ。五百年後、取経の旅に出た三蔵が両界山で悟空を救い出した。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第7回・第14回"
+    },
+    {
+      "id": "sy-goku-myth-band",
+      "text": "老母の姿をした観音菩薩は三蔵に「定心真言」、またの名を「緊箍児咒」を授け、悟空が言うことを聞かなければひそかに唱えるよう教えた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第14回"
+    },
+    {
+      "id": "sy-goku-cmp",
+      "text": "作品は頭の輪の意味を、師による制御から力の封印へと変えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-saiyuki", "xiyouji"],
+  "articleIds": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "kamigami-tsukito",
+  "slug": "kamigami-tsukito",
+  "name": "戸塚月人",
+  "reading": "とつかつきと",
+  "alternativeNames": ["ツクヨミ"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "日本の月の神ツクヨミ。めったに表情を変えない物静かな神で、結衣の言葉を熱心にメモに取る。弟の戸塚尊（スサノオ）とともに学園に呼ばれる。",
+    "claimIds": ["kami-tsukito-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "tsukuyomi",
+      "label": "月読命",
+      "inWork": {
+        "text": "名の「月人」は月の神であることを表す。",
+        "claimIds": ["kami-tsukito-work"]
+      },
+      "inMyth": {
+        "text": "伊耶那岐命が禊で右の目を洗ったときに月読命が生まれ、夜の食国を治めるよう命じられた。",
+        "claimIds": ["kami-tsukito-myth-birth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『古事記』の月読命は誕生の場面以外にほとんど物語がない。感情をあらわさない作品のツクヨミ像は、その「語られない神」という性格を反映しているとも読める。",
+      "claimIds": ["kami-tsukito-cmp", "kami-tsukito-myth-birth"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-tsukito-work",
+      "text": "戸塚月人は日本の神ツクヨミで、めったに表情を見せず、結衣の言うことをノートに書き留める。弟は戸塚尊。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-tsukito-myth-birth",
+      "text": "伊耶那岐命が禊で左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。月読命は夜の食国を治めるよう命じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+    },
+    {
+      "id": "kami-tsukito-cmp",
+      "text": "作品の無表情なツクヨミ像は、原典で物語の少ない神であることと重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kamigami-no-asobi", "kojiki"],
+  "articleIds": []
+}

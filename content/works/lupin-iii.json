@@ -1,0 +1,14 @@
+{
+  "id": "lupin-iii",
+  "slug": "lupin-iii",
+  "title": "ルパン三世",
+  "reading": "るぱんさんせい",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime", "film"],
+  "author": "モンキー・パンチ",
+  "period": "1967年〜（漫画連載開始）、1971年〜（テレビアニメ）",
+  "description": "フランスの怪盗アルセーヌ・ルパンの孫を名乗る大泥棒ルパン三世が、相棒の次元大介・石川五ェ門、峰不二子とともに世界中のお宝を狙い、銭形警部に追われる。漫画・テレビアニメ・映画で長く続くシリーズ。",
+  "mythologyIds": ["arsene-lupin"],
+  "articleIds": [],
+  "sourceIds": ["work-lupin-iii"]
+}
