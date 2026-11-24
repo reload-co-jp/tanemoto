@@ -8,7 +8,14 @@
   "author": "東出祐一郎（著）・TYPE-MOON（原作）",
   "period": "2012〜2014年（小説）。2017年にアニメ化",
   "description": "『Fate』シリーズの外伝。「黒」と「赤」の二つの陣営に分かれた7騎ずつのサーヴァントが戦う「聖杯大戦」を描く。インドの叙事詩『マハーバーラタ』の英雄カルナや、ギリシャ神話のアキレウス、剣闘士スパルタクス、審判役ルーラーとして召喚されたジャンヌ・ダルクなどが登場する。",
-  "mythologyIds": ["indian", "greek", "classical-antiquity", "medieval-europe"],
+  "mythologyIds": [
+    "indian",
+    "greek",
+    "classical-antiquity",
+    "medieval-europe",
+    "dracula",
+    "frankenstein"
+  ],
   "articleIds": [],
   "sourceIds": ["work-fate-apocrypha"]
 }

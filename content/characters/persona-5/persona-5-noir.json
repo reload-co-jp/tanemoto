@@ -1,0 +1,61 @@
+{
+  "id": "persona-5-noir",
+  "slug": "persona-5-noir",
+  "name": "ノワール",
+  "reading": "のわーる",
+  "alternativeNames": ["奥村春"],
+  "workId": "persona-5",
+  "description": {
+    "text": "怪盗団のメンバーで、大企業オクムラフーズの社長令嬢。怪盗の衣装はフランスの銃士のような服に羽根つき帽子。最初のペルソナはミレディ。",
+    "claimIds": ["p5-haru-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "label": "ミレディ",
+      "inWork": {
+        "text": "最初のペルソナはミレディ。のちにアスタルテ、ルーシーへと変わる。怪盗の衣装はフランスの銃士風。",
+        "claimIds": ["p5-haru-work"]
+      },
+      "figureId": "milady",
+      "inMyth": {
+        "text": "デュマの『三銃士』のミレディは、リシュリュー枢機卿の密偵として銃士たちと敵対し、最後は彼らに裁かれて処刑される悪女である。",
+        "claimIds": ["p5-haru-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "銃士風の衣装をまといながら、ペルソナは銃士たちの宿敵ミレディという組み合わせになっている。原作では裁かれる側の悪女を、作品は理不尽に抗う少女の力として描き直している。",
+      "claimIds": ["p5-haru-work", "p5-haru-myth", "p5-haru-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p5-haru-work",
+      "text": "奥村春（コードネーム：ノワール）は大企業オクムラフーズの社長令嬢。怪盗となった際の衣装はフランスの銃士のような服に羽根つき帽子。ペルソナはミラディ（ミレディ）→アスタルテ→ルーシー。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ5」の記述で確認。"
+    },
+    {
+      "id": "p5-haru-myth",
+      "text": "ミレディはダルタニャンの恋人コンスタンスを毒殺して逃げたが、アトスら銃士たちに追いつかれて罪を問われ、リールの処刑人に首をはねられた。",
+      "classification": "fact",
+      "sourceIds": ["dumas-three-musketeers"],
+      "verificationStatus": "verified",
+      "sourceLocation": "デュマ『三銃士』第63–66章"
+    },
+    {
+      "id": "p5-haru-cmp",
+      "text": "銃士風の衣装と、銃士の宿敵ミレディというペルソナを組み合わせ、原作の悪女像を反転させている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-persona-5", "dumas-three-musketeers"],
+  "articleIds": []
+}

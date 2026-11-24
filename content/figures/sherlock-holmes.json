@@ -1,0 +1,21 @@
+{
+  "id": "sherlock-holmes",
+  "slug": "sherlock-holmes",
+  "name": "シャーロック・ホームズ",
+  "reading": "しゃーろっく・ほーむず",
+  "originalName": "Sherlock Holmes",
+  "romanized": "Sherlock Holmes",
+  "alternativeNames": ["ホームズ"],
+  "type": "fictional",
+  "roles": ["諮問探偵"],
+  "mythologyIds": ["sherlock-holmes"],
+  "description": "アーサー・コナン・ドイルの推理小説の主人公で、ロンドンのベイカー街221Bに住む「諮問探偵」。1887年の『緋色の研究』で初登場し、出会ったばかりのワトソンに「アフガニスタンに行っておられましたね」と言い当てた。「不可能なものを消去して残ったものは、いかにありそうになくても真実である」という推理の原則で知られる。",
+  "relatedFigureIds": ["moriarty", "arsene-lupin"],
+  "relatedStoryIds": ["holmes-meets-watson", "reichenbach-falls"],
+  "articleIds": [],
+  "sourceIds": [
+    "doyle-study-in-scarlet",
+    "doyle-sign-of-four",
+    "doyle-final-problem"
+  ]
+}

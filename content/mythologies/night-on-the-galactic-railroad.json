@@ -1,0 +1,24 @@
+{
+  "id": "night-on-the-galactic-railroad",
+  "slug": "night-on-the-galactic-railroad",
+  "name": "銀河鉄道の夜",
+  "reading": "ぎんがてつどうのよる",
+  "region": "日本（岩手）",
+  "period": "1924年頃から推敲され、作者の没後1934年に刊行",
+  "description": "孤独な少年ジョバンニと親友カムパネルラが、銀河を走る鉄道で「ほんとうのさいわい」を探す旅。宮沢賢治が亡くなるまで書き直し続けた童話。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "『銀河鉄道の夜』は、岩手の詩人・童話作家の宮沢賢治が、1924年ごろから亡くなる1933年まで推敲を重ねた作品です。生前には発表されず、残された草稿をもとに没後に刊行されました。"
+    },
+    {
+      "type": "paragraph",
+      "text": "銀河を走る鉄道という幻想的な設定や、生と死、自己犠牲と「ほんとうのさいわい」をめぐる問いは、松本零士の『銀河鉄道999』をはじめ、多くの作品に影響を与えています。"
+    }
+  ],
+  "figureIds": ["giovanni", "campanella"],
+  "storyIds": ["galactic-railroad-journey"],
+  "sourceIds": ["miyazawa-galactic-railroad"],
+  "kind": "literature",
+  "order": 30
+}

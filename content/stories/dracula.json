@@ -1,0 +1,20 @@
+[
+  {
+    "id": "no-reflection",
+    "title": "鏡に映らない伯爵",
+    "mythologyIds": ["dracula"],
+    "figureIds": ["dracula"],
+    "summary": "城に招かれた弁護士ジョナサン・ハーカーがひげを剃っていると、背後から伯爵の声がした。驚いて振り返ると伯爵はすぐそばにいたが、鏡には部屋の様子がすべて映っているのに、伯爵の姿はどこにもなかった。",
+    "sourceIds": ["stoker-dracula"],
+    "sourceLocation": "『吸血鬼ドラキュラ』第2章"
+  },
+  {
+    "id": "death-of-dracula",
+    "title": "ドラキュラの最期",
+    "mythologyIds": ["dracula"],
+    "figureIds": ["dracula"],
+    "summary": "イギリスから逃げ帰るドラキュラを、ヴァン・ヘルシングたちは城の手前で追いつめる。日没の直前、ジョナサンの大きなナイフが伯爵の喉を切り裂き、同時にクインシー・モリスのボウイナイフが心臓に突き立てられた。伯爵の体は、見る間に塵となって崩れ落ちた。",
+    "sourceIds": ["stoker-dracula"],
+    "sourceLocation": "『吸血鬼ドラキュラ』第27章"
+  }
+]

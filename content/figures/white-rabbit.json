@@ -1,0 +1,17 @@
+{
+  "id": "white-rabbit",
+  "slug": "white-rabbit",
+  "name": "白ウサギ",
+  "reading": "しろうさぎ",
+  "originalName": "White Rabbit",
+  "romanized": "White Rabbit",
+  "alternativeNames": ["白うさぎ"],
+  "type": "fictional",
+  "roles": ["案内役"],
+  "mythologyIds": ["alice-in-wonderland"],
+  "description": "『不思議の国のアリス』で、アリスを不思議の国へ導くウサギ。「たいへんだ、遅れちゃう！」とつぶやきながらチョッキのポケットから懐中時計を取り出して急ぐ姿を見て、アリスはその後を追ってウサギ穴に飛び込んだ。のちにハートの女王の裁判で布告役を務める。",
+  "relatedFigureIds": ["alice"],
+  "relatedStoryIds": ["down-the-rabbit-hole"],
+  "articleIds": [],
+  "sourceIds": ["carroll-alice"]
+}

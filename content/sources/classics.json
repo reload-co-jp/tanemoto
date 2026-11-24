@@ -650,5 +650,192 @@
     "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp",
     "urlLabel": "Internet Medieval Sourcebook（Barrett 英訳）",
     "notes": "1431年、イングランド側のルーアンで行われた異端裁判の公式記録。ジャンヌ本人の受け答えが書き留められており、彼女の言葉を伝えるもっとも重要な史料。箇所は尋問の日付で示す。"
+  },
+  {
+    "id": "carroll-alice",
+    "title": "不思議の国のアリス",
+    "originalTitle": "Alice's Adventures in Wonderland",
+    "author": "ルイス・キャロル",
+    "type": "primary",
+    "publishedPeriod": "1865年",
+    "publisher": "Macmillan",
+    "url": "https://en.wikisource.org/wiki/Alice%27s_Adventures_in_Wonderland_(1866)",
+    "urlLabel": "Wikisource（1866年版の原文）",
+    "notes": "オックスフォード大学の数学講師チャールズ・ドジソンが、ルイス・キャロルの筆名で発表した児童小説。知人の少女アリス・リデルらに即興で語った物語がもとになっている。挿絵はジョン・テニエル。箇所は章番号で示す。"
+  },
+  {
+    "id": "doyle-study-in-scarlet",
+    "title": "緋色の研究",
+    "originalTitle": "A Study in Scarlet",
+    "author": "アーサー・コナン・ドイル",
+    "type": "primary",
+    "publishedPeriod": "1887年",
+    "url": "https://en.wikisource.org/wiki/A_Study_in_Scarlet",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "シャーロック・ホームズが初めて登場した長編。ワトソンとホームズの出会いを描く。箇所は「部.章」で示す。"
+  },
+  {
+    "id": "doyle-sign-of-four",
+    "title": "四つの署名",
+    "originalTitle": "The Sign of the Four",
+    "author": "アーサー・コナン・ドイル",
+    "type": "primary",
+    "publishedPeriod": "1890年",
+    "url": "https://en.wikisource.org/wiki/The_Sign_of_the_Four",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "シャーロック・ホームズの長編第2作。箇所は章番号で示す。"
+  },
+  {
+    "id": "doyle-final-problem",
+    "title": "最後の事件",
+    "originalTitle": "The Final Problem",
+    "author": "アーサー・コナン・ドイル",
+    "type": "primary",
+    "publishedPeriod": "1893年（短編集『シャーロック・ホームズの思い出』所収）",
+    "notes": "ホームズの宿敵モリアーティ教授が登場し、二人がライヘンバッハの滝で姿を消す短編。ドイルはこの作品でシリーズを終わらせるつもりだったが、のちに『空き家の冒険』（1903年）でホームズを復活させた。"
+  },
+  {
+    "id": "leblanc-gentleman-burglar",
+    "title": "怪盗紳士ルパン",
+    "originalTitle": "Arsène Lupin, gentleman-cambrioleur",
+    "author": "モーリス・ルブラン",
+    "type": "primary",
+    "publishedPeriod": "1907年（収録作は1905〜1907年に雑誌『ジュ・セ・トゥ』に掲載）",
+    "url": "https://fr.wikisource.org/wiki/Ars%C3%A8ne_Lupin_gentleman-cambrioleur",
+    "urlLabel": "Wikisource（フランス語原文）",
+    "notes": "怪盗アルセーヌ・ルパンが初めて登場した短編集。最終話「遅かりしシャーロック・ホームズ」では、雑誌掲載時に実名で登場させたホームズを、ドイルの抗議を受けて単行本で「エルロック・ショルメ（Herlock Sholmès）」と改名した。箇所は収録短編の題名で示す。"
+  },
+  {
+    "id": "leblanc-cagliostro",
+    "title": "カリオストロ伯爵夫人",
+    "originalTitle": "La Comtesse de Cagliostro",
+    "author": "モーリス・ルブラン",
+    "type": "primary",
+    "publishedPeriod": "1924年",
+    "url": "https://fr.wikisource.org/wiki/La_Comtesse_de_Cagliostro",
+    "urlLabel": "Wikisource（フランス語原文）",
+    "notes": "20歳のルパンが「ラウール・ダンドレジー」と名乗っていた若き日の冒険を描く長編。"
+  },
+  {
+    "id": "stoker-dracula",
+    "title": "吸血鬼ドラキュラ",
+    "originalTitle": "Dracula",
+    "author": "ブラム・ストーカー",
+    "type": "primary",
+    "publishedPeriod": "1897年",
+    "url": "https://en.wikisource.org/wiki/Dracula",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "アイルランド出身の作家ストーカーによる書簡体の怪奇小説。トランシルヴァニアの古城に住む吸血鬼ドラキュラ伯爵と、ヴァン・ヘルシング教授らの戦いを描く。箇所は章番号で示す。"
+  },
+  {
+    "id": "shelley-frankenstein",
+    "title": "フランケンシュタイン（1831年改訂版）",
+    "originalTitle": "Frankenstein; or, The Modern Prometheus",
+    "author": "メアリー・シェリー",
+    "type": "primary",
+    "publishedPeriod": "1818年（初版）、1831年（改訂版）",
+    "url": "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(Revised_Edition,_1831)",
+    "urlLabel": "Wikisource（1831年版の原文）",
+    "notes": "若き科学者ヴィクター・フランケンシュタインが生命を創造し、生み出された名もない「怪物」と破滅的な対立に陥る小説。「フランケンシュタイン」は本来、怪物ではなく創造者の名である。箇所は1831年版の章番号で示す。"
+  },
+  {
+    "id": "arabian-nights",
+    "title": "千夜一夜物語（アラビアン・ナイト）",
+    "originalTitle": "Alf Layla wa-Layla（ألف ليلة وليلة）",
+    "author": "作者不詳",
+    "translator": "A. ガラン仏訳（1704–1717）、R. F. バートン英訳（1885–1888）など",
+    "type": "primary",
+    "publishedPeriod": "9世紀頃までに原型が成立、14世紀頃の写本が現存",
+    "notes": "王妃シェヘラザードが、毎夜物語を語って王シャフリヤールの心を和らげる枠物語の中に、数多くの物語を収めた説話集。「アラジンと魔法のランプ」「アリババと40人の盗賊」は、18世紀にフランスのガランがシリア出身のハンナ・ディヤーブから聞いて加えたもので、アラビア語の古い写本には見られない。"
+  },
+  {
+    "id": "verne-twenty-thousand-leagues",
+    "title": "海底二万里",
+    "originalTitle": "Vingt mille lieues sous les mers",
+    "author": "ジュール・ヴェルヌ",
+    "type": "primary",
+    "publishedPeriod": "1869–1870年",
+    "url": "https://fr.wikisource.org/wiki/Vingt_mille_lieues_sous_les_mers",
+    "urlLabel": "Wikisource（フランス語原文）",
+    "notes": "謎の潜水艦ノーチラス号と、その船長ネモに捕らわれたアロナックス教授の海底旅行を描くSF小説。箇所は「部.章」で示す。"
+  },
+  {
+    "id": "verne-mysterious-island",
+    "title": "神秘の島",
+    "originalTitle": "L'Île mystérieuse",
+    "author": "ジュール・ヴェルヌ",
+    "type": "primary",
+    "publishedPeriod": "1874–1875年",
+    "notes": "気球で無人島に漂着した人々の冒険を描く。終盤でネモ船長が再登場し、その正体がインドの王子ダカールであったことが明かされる。箇所は「部.章」で示す。"
+  },
+  {
+    "id": "merimee-carmen",
+    "title": "カルメン",
+    "originalTitle": "Carmen",
+    "author": "プロスペル・メリメ",
+    "type": "primary",
+    "publishedPeriod": "1845年",
+    "url": "https://fr.wikisource.org/wiki/Carmen_(M%C3%A9rim%C3%A9e)",
+    "urlLabel": "Wikisource（フランス語原文）",
+    "notes": "セビリアのたばこ工場で働くロマの女カルメンと、彼女に惑わされて身を持ち崩す兵士ドン・ホセの物語。1875年にビゼーがオペラ化した。箇所は章番号で示す。"
+  },
+  {
+    "id": "mcculley-capistrano",
+    "title": "カピストラーノの呪い（怪傑ゾロ）",
+    "originalTitle": "The Curse of Capistrano",
+    "author": "ジョンストン・マッカレー",
+    "type": "primary",
+    "publishedPeriod": "1919年",
+    "notes": "スペイン統治下のカリフォルニアを舞台に、覆面の剣士ゾロが圧政に立ち向かう冒険小説。のちに『怪傑ゾロ（The Mark of Zorro）』の題で出版された。"
+  },
+  {
+    "id": "dumas-three-musketeers",
+    "title": "三銃士",
+    "originalTitle": "Les Trois Mousquetaires",
+    "author": "アレクサンドル・デュマ",
+    "type": "primary",
+    "publishedPeriod": "1844年",
+    "url": "https://fr.wikisource.org/wiki/Les_Trois_Mousquetaires",
+    "urlLabel": "Wikisource（フランス語原文）",
+    "notes": "17世紀フランスを舞台に、青年ダルタニャンと三人の銃士の活躍を描く歴史冒険小説。箇所は章番号で示す。"
+  },
+  {
+    "id": "miyazawa-galactic-railroad",
+    "title": "銀河鉄道の夜",
+    "author": "宮沢賢治",
+    "type": "primary",
+    "publishedPeriod": "1924年頃から推敲、1934年（没後）刊行",
+    "url": "https://www.aozora.gr.jp/cards/000081/card456.html",
+    "urlLabel": "青空文庫",
+    "notes": "孤独な少年ジョバンニが、友人カムパネルラとともに銀河を走る鉄道に乗って旅をする童話。作者の生前には完成せず、何度も書き直された草稿が残る。"
+  },
+  {
+    "id": "andersen-snow-queen",
+    "title": "雪の女王",
+    "originalTitle": "Snedronningen",
+    "author": "ハンス・クリスチャン・アンデルセン",
+    "type": "primary",
+    "publishedPeriod": "1844年",
+    "notes": "悪魔の鏡のかけらが目と心臓に刺さって冷たい心になった少年カイと、彼を雪の女王の宮殿から救い出す少女ゲルダの物語。七つのお話からなる。"
+  },
+  {
+    "id": "andersen-little-mermaid",
+    "title": "人魚姫",
+    "originalTitle": "Den lille Havfrue",
+    "author": "ハンス・クリスチャン・アンデルセン",
+    "type": "primary",
+    "publishedPeriod": "1837年",
+    "notes": "人間の王子に恋をし、声と引き換えに人間の足を得た人魚の姫の物語。"
+  },
+  {
+    "id": "swift-gulliver",
+    "title": "ガリヴァー旅行記",
+    "originalTitle": "Gulliver's Travels",
+    "author": "ジョナサン・スウィフト",
+    "type": "primary",
+    "publishedPeriod": "1726年",
+    "url": "https://en.wikisource.org/wiki/Gulliver%27s_Travels",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "船医ガリヴァーが小人国・巨人国・空飛ぶ島ラピュータなどを巡る風刺小説。第3篇がラピュータとバルニバービの旅を描く。箇所は「篇.章」で示す。"
   }
 ]

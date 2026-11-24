@@ -1,0 +1,76 @@
+{
+  "id": "magi-morgiana",
+  "slug": "magi-morgiana",
+  "name": "モルジアナ",
+  "reading": "もるじあな",
+  "alternativeNames": [],
+  "workId": "magi",
+  "description": {
+    "text": "ヒロイン。狩猟民族ファナリスの出身で、元は奴隷だったがアリババに救われ、彼の眷族となる。",
+    "claimIds": ["magi-morgiana-work"]
+  },
+  "nameOrigin": {
+    "text": "「アリババと40人の盗賊」に登場する女奴隷モルジアナにちなむ。",
+    "claimIds": ["magi-morgiana-work", "magi-names-morgiana"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "label": "アリババを救う女奴隷",
+      "inWork": {
+        "text": "元奴隷で、アリババによって救われ、彼の眷族となる。",
+        "claimIds": ["magi-morgiana-work"]
+      },
+      "figureId": "morgiana",
+      "inMyth": {
+        "text": "原作のモルジアナはアリババの家の女奴隷で、壺に隠れた盗賊たちと首領を倒して主人の命を救い、自由の身にされた。",
+        "claimIds": ["magi-morgiana-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作ではモルジアナがアリババを救い、その功績で自由の身となる。作品ではアリババが奴隷のモルジアナを救い、彼女がアリババに仕えて戦うという形で、二人の関係が逆向きに組み替えられている。",
+      "claimIds": [
+        "magi-morgiana-myth",
+        "magi-morgiana-work",
+        "magi-morgiana-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "magi-names-morgiana",
+      "text": "『マギ』は『千夜一夜物語』をモチーフにした冒険活劇で、登場人物の名前の一部も『千夜一夜物語』から採られている。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-morgiana-work",
+      "text": "モルジアナは本作のヒロインで、狩猟民族ファナリスの出身。元は奴隷だったがアリババによって救われ、彼の眷族となる。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-morgiana-myth",
+      "text": "アリババの女奴隷モルジアナは、油の壺に隠れた盗賊たちに煮えた油を注いで退治し、さらに首領を踊りの最中に短剣で倒した。アリババは彼女を自由の身にし、身内と結婚させた。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ガラン訳『千夜一夜物語』「アリババと40人の盗賊」"
+    },
+    {
+      "id": "magi-morgiana-cmp",
+      "text": "救う側と救われる側を入れ替えつつ、奴隷の身分とアリババへの忠誠という原作の関係を受け継いでいる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-magi", "arabian-nights"],
+  "articleIds": []
+}

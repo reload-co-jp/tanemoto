@@ -1,0 +1,14 @@
+{
+  "id": "alice-in-borderland",
+  "slug": "alice-in-borderland",
+  "title": "今際の国のアリス",
+  "reading": "いまわのくにのありす",
+  "type": "manga",
+  "mediaTypes": ["drama"],
+  "author": "麻生羽呂",
+  "period": "2010〜2016年（漫画）。2020〜2025年にNetflixで実写ドラマ化",
+  "description": "人のいない東京に迷い込んだ若者たちが、トランプのカードに対応した命がけの「げぇむ」に挑むサバイバル漫画。主人公のアリスをはじめ、多くの登場人物が『不思議の国のアリス』の登場人物にちなんだ名前をもつ。",
+  "mythologyIds": ["alice-in-wonderland"],
+  "articleIds": [],
+  "sourceIds": ["work-alice-in-borderland"]
+}

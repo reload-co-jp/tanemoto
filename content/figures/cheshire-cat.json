@@ -1,0 +1,17 @@
+{
+  "id": "cheshire-cat",
+  "slug": "cheshire-cat",
+  "name": "チェシャ猫",
+  "reading": "ちぇしゃねこ",
+  "originalName": "Cheshire Cat",
+  "romanized": "Cheshire Cat",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["道案内", "謎めいた猫"],
+  "mythologyIds": ["alice-in-wonderland"],
+  "description": "『不思議の国のアリス』に登場する、いつもにやにや笑っている猫。道を尋ねるアリスに「ここではみんな狂ってるのさ」と言い、体を消したり現したりする。最後には尻尾の先から消えていき、にやにや笑いだけがしばらく残った。アリスは「笑わない猫なら見たことあるけど、猫のいない笑いなんて！」と驚く。",
+  "relatedFigureIds": ["alice", "queen-of-hearts"],
+  "relatedStoryIds": ["cheshire-cat-grin"],
+  "articleIds": [],
+  "sourceIds": ["carroll-alice"]
+}

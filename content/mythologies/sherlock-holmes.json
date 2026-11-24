@@ -1,0 +1,28 @@
+{
+  "id": "sherlock-holmes",
+  "slug": "sherlock-holmes",
+  "name": "シャーロック・ホームズ",
+  "reading": "しゃーろっく・ほーむず",
+  "region": "イギリス",
+  "period": "1887〜1927年に長編4作・短編56作が発表された",
+  "description": "ロンドンのベイカー街221Bに住む諮問探偵シャーロック・ホームズと、相棒のワトソン、宿敵モリアーティ教授。アーサー・コナン・ドイルが生み出した、推理小説の代名詞といえるシリーズ。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "シャーロック・ホームズは、医師でもあった作家アーサー・コナン・ドイルが1887年の『緋色の研究』で生み出した探偵です。物語の多くは、相棒のワトソン博士が語り手となって書かれています。"
+    },
+    {
+      "type": "paragraph",
+      "text": "ドイルは1893年の「最後の事件」でホームズを宿敵モリアーティとともに滝つぼに消し、シリーズを終わらせようとしましたが、読者の強い要望に応えて1903年に復活させました。ホームズは、日本の推理漫画をはじめ、無数の作品の探偵像の原型になっています。"
+    }
+  ],
+  "figureIds": ["sherlock-holmes", "moriarty"],
+  "storyIds": ["holmes-meets-watson", "reichenbach-falls"],
+  "sourceIds": [
+    "doyle-study-in-scarlet",
+    "doyle-sign-of-four",
+    "doyle-final-problem"
+  ],
+  "kind": "literature",
+  "order": 21
+}

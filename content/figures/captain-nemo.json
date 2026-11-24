@@ -1,0 +1,17 @@
+{
+  "id": "captain-nemo",
+  "slug": "captain-nemo",
+  "name": "ネモ船長",
+  "reading": "ねもせんちょう",
+  "originalName": "Capitaine Nemo",
+  "romanized": "Capitaine Nemo",
+  "alternativeNames": ["ダカール王子"],
+  "type": "fictional",
+  "roles": ["ノーチラス号の船長"],
+  "mythologyIds": ["twenty-thousand-leagues"],
+  "description": "ジュール・ヴェルヌの『海底二万里』に登場する、潜水艦ノーチラス号の船長。「ネモ」はラテン語で「誰でもない」を意味する。陸の世界との関係を断ち、海の中で暮らしながら、圧政に苦しむ人々を援助する。船内でパイプオルガンを弾く姿でも知られる。続編『神秘の島』で、その正体がイギリスに反乱を起こしたインドの王子ダカールだったと明かされる。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["nautilus", "nemo-is-prince-dakkar"],
+  "articleIds": [],
+  "sourceIds": ["verne-twenty-thousand-leagues", "verne-mysterious-island"]
+}

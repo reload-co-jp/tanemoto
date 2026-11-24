@@ -1,0 +1,17 @@
+{
+  "id": "carmen",
+  "slug": "carmen",
+  "name": "カルメン",
+  "reading": "かるめん",
+  "originalName": "Carmen",
+  "romanized": "Carmen",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["ロマの女"],
+  "mythologyIds": ["carmen"],
+  "description": "プロスペル・メリメの小説『カルメン』の主人公。セビリアのたばこ工場で働く奔放なロマの女で、兵士ドン・ホセを誘惑して軍を脱走させ、密輸の仲間に引き込む。やがて闘牛士に心を移し、よりを戻すよう迫るホセに、自分は自由に生まれ自由に死ぬと言って拒み、彼の手にかかって死ぬ。1875年にビゼーがオペラ化した。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["death-of-carmen"],
+  "articleIds": [],
+  "sourceIds": ["merimee-carmen"]
+}

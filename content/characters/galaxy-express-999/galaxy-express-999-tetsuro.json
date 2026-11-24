@@ -1,0 +1,85 @@
+{
+  "id": "galaxy-express-999-tetsuro",
+  "slug": "galaxy-express-999-tetsuro",
+  "name": "星野鉄郎",
+  "reading": "ほしのてつろう",
+  "alternativeNames": ["鉄郎"],
+  "workId": "galaxy-express-999",
+  "description": {
+    "text": "主人公の少年。機械の体をただでくれるというアンドロメダの星を目指し、謎の美女メーテルとともに宇宙を走る列車999号に乗って旅をする。",
+    "claimIds": ["ge-tetsuro-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "label": "銀河を走る鉄道",
+      "inWork": {
+        "text": "宇宙を走る列車999号に乗り、終着駅を目指して旅をする。",
+        "claimIds": ["ge-tetsuro-work", "ge-tetsuro-work-origin"]
+      },
+      "figureId": "giovanni",
+      "inMyth": {
+        "text": "『銀河鉄道の夜』のジョバンニは、友人カムパネルラとともに銀河を走る列車に乗り、「ほんとうのさいわい」とは何かを問いながら旅をする。",
+        "claimIds": ["ge-tetsuro-myth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "label": "旅の連れとの別れ",
+      "inWork": {
+        "text": "メーテルとともに999号で旅をする。",
+        "claimIds": ["ge-tetsuro-work"]
+      },
+      "figureId": "campanella",
+      "inMyth": {
+        "text": "ジョバンニと「どこまでも一緒に行こう」と誓ったカムパネルラは、旅の途中で姿を消す。",
+        "claimIds": ["ge-tetsuro-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "少年が謎めいた同行者と銀河の鉄道で旅をし、その中で生きることの意味を問うという骨格は『銀河鉄道の夜』から受け継いだものである。作品は、鉄道の細部を日本の国鉄に、旅の目的を「機械の体」に置き換えている。",
+      "claimIds": [
+        "ge-tetsuro-work-origin",
+        "ge-tetsuro-myth",
+        "ge-tetsuro-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ge-tetsuro-work",
+      "text": "メーテルとともに999号に乗り、アンドロメダ星雲にあるという機械の体をタダでくれる星に到着するまでの鉄郎の旅を描く。",
+      "classification": "creative",
+      "sourceIds": ["work-galaxy-express-999"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「銀河鉄道999」の記述で確認。"
+    },
+    {
+      "id": "ge-tetsuro-work-origin",
+      "text": "『銀河鉄道999』は宮沢賢治の『銀河鉄道の夜』とメーテルリンクの『青い鳥』をヒントに執筆が始められた。物語の枠組みは『銀河鉄道の夜』に登場する銀河鉄道を元にしているが、列車や運行システムの細部は日本の旧国鉄をモデルとしている。",
+      "classification": "creative",
+      "sourceIds": ["work-galaxy-express-999"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「銀河鉄道999」の記述で確認。"
+    },
+    {
+      "id": "ge-tetsuro-myth",
+      "text": "ジョバンニはカムパネルラと銀河を走る列車に乗り、「ほんとうの天上へさえ行ける」切符を持っていた。二人は「どこまでもどこまでも一緒に行こう」と誓うが、カムパネルラは姿を消し、目覚めたジョバンニは彼が川に落ちた級友を助けて行方不明になったことを知る。",
+      "classification": "fact",
+      "sourceIds": ["miyazawa-galactic-railroad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『銀河鉄道の夜』"
+    },
+    {
+      "id": "ge-tetsuro-cmp",
+      "text": "銀河の鉄道の旅という『銀河鉄道の夜』の骨格を受け継ぎつつ、旅の目的を機械の体の獲得に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-galaxy-express-999", "miyazawa-galactic-railroad"],
+  "articleIds": []
+}

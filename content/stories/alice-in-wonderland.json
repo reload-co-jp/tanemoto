@@ -1,0 +1,47 @@
+[
+  {
+    "id": "down-the-rabbit-hole",
+    "title": "ウサギ穴に落ちて",
+    "mythologyIds": ["alice-in-wonderland"],
+    "figureIds": ["alice", "white-rabbit"],
+    "summary": "土手で退屈していたアリスのそばを、ピンクの目をした白ウサギが「たいへんだ、遅れちゃう！」とつぶやきながら走っていった。ウサギがチョッキのポケットから懐中時計を取り出したのを見て、アリスは好奇心に燃えて後を追い、生け垣の下の大きなウサギ穴に飛び込む。穴は井戸のように深く、アリスはゆっくりと長いあいだ落ちていった。",
+    "sourceIds": ["carroll-alice"],
+    "sourceLocation": "『不思議の国のアリス』第1章"
+  },
+  {
+    "id": "cheshire-cat-grin",
+    "title": "チェシャ猫のにやにや笑い",
+    "mythologyIds": ["alice-in-wonderland"],
+    "figureIds": ["cheshire-cat", "alice"],
+    "summary": "公爵夫人の家にいたチェシャ猫は、道を尋ねるアリスに、あちらには帽子屋、こちらには三月ウサギが住んでいるが、どちらも狂っていると教える。「ここではみんな狂ってるのさ。わたしも狂ってるし、きみも狂ってる」。猫は尻尾の先から少しずつ消えていき、にやにや笑いだけがしばらく残った。",
+    "sourceIds": ["carroll-alice"],
+    "sourceLocation": "『不思議の国のアリス』第6章"
+  },
+  {
+    "id": "mad-tea-party",
+    "title": "狂ったお茶会",
+    "mythologyIds": ["alice-in-wonderland"],
+    "figureIds": ["hatter", "alice"],
+    "summary": "三月ウサギの家の前の木の下で、帽子屋と三月ウサギが眠りネズミを挟んでお茶を飲んでいた。帽子屋は「カラスと書き物机はなぜ似ているか」という答えのないなぞなぞを出す。女王の音楽会で歌ったときに「時間」とけんかしてしまい、それ以来いつも6時のままなので、一日中お茶の時間が続いているのだという。",
+    "sourceIds": ["carroll-alice"],
+    "sourceLocation": "『不思議の国のアリス』第7章"
+  },
+  {
+    "id": "queens-croquet",
+    "title": "女王のクロッケー",
+    "mythologyIds": ["alice-in-wonderland"],
+    "figureIds": ["queen-of-hearts", "cheshire-cat", "alice"],
+    "summary": "ハートの女王のクロッケー場では、球は生きたハリネズミ、木槌は生きたフラミンゴ、アーチは体を折り曲げたトランプの兵隊だった。順番を待たずに皆が一斉に打つので争いが絶えず、女王は1分に一度は「その者の首をはねよ！」と叫んでいた。そこへ空中にチェシャ猫の首だけが現れ、王は首をはねさせようとする。",
+    "sourceIds": ["carroll-alice"],
+    "sourceLocation": "『不思議の国のアリス』第8章"
+  },
+  {
+    "id": "alice-wakes-up",
+    "title": "トランプの裁判",
+    "mythologyIds": ["alice-in-wonderland"],
+    "figureIds": ["alice", "queen-of-hearts"],
+    "summary": "盗まれたタルトをめぐる裁判で、女王は「判決が先、評決はあと」と言い出し、アリスの首をはねるよう命じる。元の大きさに戻ったアリスが「あんたたちなんか、ただのトランプのくせに！」と言うと、トランプが一斉に舞い上がって襲いかかってきた。気がつくとアリスは姉のひざを枕に土手に寝ていて、すべては夢だった。",
+    "sourceIds": ["carroll-alice"],
+    "sourceLocation": "『不思議の国のアリス』第12章"
+  }
+]

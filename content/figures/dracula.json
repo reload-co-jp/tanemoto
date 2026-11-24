@@ -1,0 +1,17 @@
+{
+  "id": "dracula",
+  "slug": "dracula",
+  "name": "ドラキュラ伯爵",
+  "reading": "どらきゅらはくしゃく",
+  "originalName": "Count Dracula",
+  "romanized": "Count Dracula",
+  "alternativeNames": ["ドラキュラ"],
+  "type": "fictional",
+  "roles": ["吸血鬼"],
+  "mythologyIds": ["dracula"],
+  "description": "ブラム・ストーカーの小説『吸血鬼ドラキュラ』に登場する、トランシルヴァニアの古城に住む吸血鬼。鏡に姿が映らず、人の血を吸って若返る。作中のヴァン・ヘルシング教授は、彼をかつてトルコ人と戦ったワラキアの君主の一族と推測する。最後はジョナサン・ハーカーとクインシー・モリスの刃を受けて塵となって消える。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["no-reflection", "death-of-dracula"],
+  "articleIds": [],
+  "sourceIds": ["stoker-dracula"]
+}

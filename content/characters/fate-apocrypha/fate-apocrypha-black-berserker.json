@@ -1,0 +1,107 @@
+{
+  "id": "fate-apocrypha-black-berserker",
+  "slug": "fate-apocrypha-black-berserker",
+  "name": "黒のバーサーカー",
+  "reading": "くろのばーさーかー",
+  "alternativeNames": ["フランケンシュタイン"],
+  "workId": "fate-apocrypha",
+  "description": {
+    "text": "白いドレスを着た虚ろな瞳の少女。真名はヴィクター・フランケンシュタインが生み出した人造人間。言葉は失っているが冷静で思慮深く、聖杯への願いは「自分と同じ存在の伴侶を得ること」。",
+    "claimIds": ["fapo-fran-work"]
+  },
+  "nameOrigin": {
+    "text": "真名は、メアリー・シェリーの小説でヴィクター・フランケンシュタインが作り出した名もない人造人間。",
+    "claimIds": ["fapo-fran-work", "fapo-fran-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "label": "伴侶を求める怪物",
+      "inWork": {
+        "text": "聖杯に託す願いは、自分と同じ存在の伴侶を得ること。",
+        "claimIds": ["fapo-fran-work"]
+      },
+      "figureId": "frankensteins-creature",
+      "inMyth": {
+        "text": "原作の怪物は、創造者ヴィクターに、自分と同じく醜い女の伴侶を作るよう求めた。",
+        "claimIds": ["fapo-fran-myth-bride"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "label": "雷に打たれた木",
+      "inWork": {
+        "text": "切り札の宝具「磔刑の雷樹（ブラステッド・ツリー）」は、発動すれば自らも確実に死を迎える自爆攻撃。",
+        "claimIds": ["fapo-fran-work-tree"]
+      },
+      "figureId": "frankensteins-creature",
+      "inMyth": {
+        "text": "ヴィクターは少年時代、雷に打たれた樫の木が焼け焦げた切り株（blasted stump）だけになるのを見て、電気の力に心を奪われた。",
+        "claimIds": ["fapo-fran-myth-oak"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の怪物は醜い大男として描かれるが、作品では可憐な少女の姿をしている。一方、伴侶を求める願いや、宝具名「ブラステッド・ツリー」が示す雷に打たれた木は、原作の重要な場面をそのまま踏まえている。",
+      "claimIds": [
+        "fapo-fran-work",
+        "fapo-fran-work-tree",
+        "fapo-fran-myth-bride",
+        "fapo-fran-myth-oak",
+        "fapo-fran-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fapo-fran-work",
+      "text": "黒のバーサーカーは白いドレスを着た虚ろな瞳の少女で、真名はヴィクター・フランケンシュタインの生み出した人造人間フランケンシュタイン。伝説上の醜い大男とは全く異なる容姿をしている。言語能力は失われているが、極めて冷静沈着で思慮深い。聖杯への願いは「自分と同じ存在の伴侶を得ること」。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-fran-work-tree",
+      "text": "黒のバーサーカーは切り札として宝具「磔刑の雷樹（ブラステッド・ツリー）」を有するが、いわゆる自爆攻撃であり、発動すると自身は確実に死を迎える。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Apocrypha」の記述で確認。"
+    },
+    {
+      "id": "fapo-fran-myth-name",
+      "text": "ヴィクター・フランケンシュタインが作り出した生き物には名前がなく、作中では「怪物」「悪魔」「生き物」などと呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["shelley-frankenstein"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『フランケンシュタイン』（1831年版）第5章ほか"
+    },
+    {
+      "id": "fapo-fran-myth-bride",
+      "text": "怪物はヴィクターに「自分のために女を作ってほしい」と求め、自分と同じく醜い、別の性の生き物を望んだ。",
+      "classification": "fact",
+      "sourceIds": ["shelley-frankenstein"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『フランケンシュタイン』（1831年版）第17章"
+    },
+    {
+      "id": "fapo-fran-myth-oak",
+      "text": "15歳のころ、ヴィクターは古く美しい樫の木から炎がほとばしるのを見た。光が消えると木は消え失せ、焼け焦げた切り株だけが残っていた。",
+      "classification": "fact",
+      "sourceIds": ["shelley-frankenstein"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『フランケンシュタイン』（1831年版）第2章"
+    },
+    {
+      "id": "fapo-fran-cmp",
+      "text": "外見は原作から大きく変えつつ、伴侶への願いと雷に打たれた木という原作の要素を宝具と動機に取り込んでいる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-apocrypha", "shelley-frankenstein"],
+  "articleIds": []
+}

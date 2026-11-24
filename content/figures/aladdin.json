@@ -1,0 +1,17 @@
+{
+  "id": "aladdin",
+  "slug": "aladdin",
+  "name": "アラジン",
+  "reading": "あらじん",
+  "originalName": "Aladdin",
+  "romanized": "Aladdin",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["魔法のランプの持ち主"],
+  "mythologyIds": ["arabian-nights"],
+  "description": "「アラジンと魔法のランプ」の主人公。貧しい仕立屋の息子だったが、魔法使いにだまされて地下の洞窟から魔法のランプを持ち出す。ランプをこするとジン（魔神）が現れ、どんな願いもかなえてくれた。この物語はアラビア語の古い写本には見られず、18世紀にフランスのガランが『千夜一夜物語』の翻訳に加えたもの。",
+  "relatedFigureIds": ["ali-baba", "sinbad"],
+  "relatedStoryIds": ["aladdin-and-the-lamp"],
+  "articleIds": [],
+  "sourceIds": ["arabian-nights"]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "laputa-muska",
+  "slug": "laputa-muska",
+  "name": "ムスカ",
+  "reading": "むすか",
+  "alternativeNames": ["ロムスカ・パロ・ウル・ラピュタ"],
+  "workId": "laputa",
+  "description": {
+    "text": "政府の特務機関に所属する大佐。シータと同じくラピュタ王家の血を引き、ラピュタの力を手中に収めて新たなラピュタ王として全世界に君臨しようとする。",
+    "claimIds": ["laputa-muska-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "label": "空飛ぶ島ラピュータ",
+      "inWork": {
+        "text": "空中城塞ラピュタの力で全世界に君臨しようとする。",
+        "claimIds": ["laputa-muska-work"]
+      },
+      "figureId": "gulliver",
+      "inMyth": {
+        "text": "『ガリヴァー旅行記』のラピュータは、磁石の力で空に浮かぶ島で、王は反抗する地上の町の上空にとどまって日光と雨をさえぎったり、石を落としたり、島で押しつぶしたりして支配した。",
+        "claimIds": ["laputa-muska-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "映画の「ラピュタ」は名前を『ガリヴァー旅行記』から借りたもので、名前以外の関連はないとされる。それでも、空から地上を威圧して支配しようとするムスカの野望は、原作のラピュータの王による支配の仕方と重なって見える。",
+      "claimIds": [
+        "laputa-muska-work-name",
+        "laputa-muska-myth",
+        "laputa-muska-work",
+        "laputa-muska-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "laputa-muska-work",
+      "text": "ムスカは政府の特務機関に所属する大佐。シータと同様にラピュタ王家の子孫であるが、ラピュタの力を自らの手中に収め、新たなラピュタ王として全世界に君臨することに強い野心を燃やす。",
+      "classification": "creative",
+      "sourceIds": ["work-laputa"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ムスカ」の記述で確認。"
+    },
+    {
+      "id": "laputa-muska-work-name",
+      "text": "「ラピュタ」という名称は、スウィフトの『ガリヴァー旅行記』に登場する空を飛ぶ島にある王国からとったもの。劇中にスウィフトの名前も出てくるものの、名前の借用以外は『ガリヴァー旅行記』との関連はない。",
+      "classification": "creative",
+      "sourceIds": ["work-laputa"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「天空の城ラピュタ」の記述で確認。"
+    },
+    {
+      "id": "laputa-muska-myth",
+      "text": "空飛ぶ島ラピュータは底にある巨大な天然磁石の力で浮かび移動する。王は反抗する町があると、島を真上にとどめて日光と雨をさえぎったり、石を落としたりして罰し、最後の手段として島そのものを降ろして押しつぶすこともできた。",
+      "classification": "fact",
+      "sourceIds": ["swift-gulliver"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ガリヴァー旅行記』第3篇 第3章"
+    },
+    {
+      "id": "laputa-muska-cmp",
+      "text": "名前の借用にとどまるとされるが、空から地上を支配しようとするムスカの野望は原作のラピュータの王の支配と重なって見える。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-laputa", "swift-gulliver"],
+  "articleIds": []
+}

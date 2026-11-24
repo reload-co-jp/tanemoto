@@ -1,0 +1,14 @@
+{
+  "id": "frozen",
+  "slug": "frozen",
+  "title": "アナと雪の女王",
+  "reading": "あなとゆきのじょおう",
+  "type": "film",
+  "mediaTypes": ["anime"],
+  "author": "クリス・バック、ジェニファー・リー（監督）",
+  "period": "2013年（アメリカ、ディズニーの3DCGアニメ映画）",
+  "description": "触れたものを凍らせる魔法をもつ姉エルサと、その妹アナの絆を描くミュージカル映画。アンデルセンの童話『雪の女王』から着想を得ている。",
+  "mythologyIds": ["andersen-fairy-tales"],
+  "articleIds": [],
+  "sourceIds": ["work-frozen"]
+}

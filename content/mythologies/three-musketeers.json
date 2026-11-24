@@ -1,0 +1,24 @@
+{
+  "id": "three-musketeers",
+  "slug": "three-musketeers",
+  "name": "三銃士",
+  "reading": "さんじゅうし",
+  "region": "フランス",
+  "period": "1844年刊行",
+  "description": "「一人はみんなのために、みんなは一人のために」。青年ダルタニャンと銃士アトス、ポルトス、アラミスの友情と冒険、そして彼らの宿敵ミレディ。デュマの歴史冒険小説。",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "『三銃士』は、フランスの作家アレクサンドル・デュマが1844年に新聞に連載した小説です。ルイ13世の時代を舞台に、田舎から出てきた青年ダルタニャンが、国王の銃士隊の三人と友情を結び、宰相リシュリュー枢機卿の陰謀に立ち向かいます。"
+    },
+    {
+      "type": "paragraph",
+      "text": "銃士たちの最大の敵が、枢機卿の密偵ミレディです。美しさと冷酷さをあわせもつ彼女は、物語屈指の悪女として知られています。"
+    }
+  ],
+  "figureIds": ["milady"],
+  "storyIds": ["milady-judged"],
+  "sourceIds": ["dumas-three-musketeers"],
+  "kind": "literature",
+  "order": 29
+}

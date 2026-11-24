@@ -1,0 +1,17 @@
+{
+  "id": "snow-queen",
+  "slug": "snow-queen",
+  "name": "雪の女王",
+  "reading": "ゆきのじょおう",
+  "originalName": "Snedronningen",
+  "romanized": "Snedronningen",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["冬の女王"],
+  "mythologyIds": ["andersen-fairy-tales"],
+  "description": "アンデルセンの童話『雪の女王』に登場する、氷と雪の宮殿に住む美しく冷たい女王。悪魔の鏡のかけらが目と心臓に刺さって心が冷たくなった少年カイを、そりに乗せて連れ去る。カイを捜す少女ゲルダが宮殿にたどり着き、その熱い涙がカイの心臓の氷を溶かした。",
+  "relatedFigureIds": ["little-mermaid"],
+  "relatedStoryIds": ["kai-and-gerda"],
+  "articleIds": [],
+  "sourceIds": ["andersen-snow-queen"]
+}

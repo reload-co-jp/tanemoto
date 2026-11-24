@@ -1,0 +1,14 @@
+{
+  "id": "laputa",
+  "slug": "laputa",
+  "title": "天空の城ラピュタ",
+  "reading": "てんくうのしろらぴゅた",
+  "type": "film",
+  "mediaTypes": ["anime"],
+  "author": "宮崎駿（原作・脚本・監督）",
+  "period": "1986年（スタジオジブリ）",
+  "description": "空から降ってきた少女シータと、鉱山の町の少年パズーが、伝説の空中城ラピュタを目指す冒険活劇。「ラピュタ」の名は『ガリヴァー旅行記』の空飛ぶ島から採られた。",
+  "mythologyIds": ["gullivers-travels"],
+  "articleIds": [],
+  "sourceIds": ["work-laputa"]
+}

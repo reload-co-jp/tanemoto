@@ -1,0 +1,74 @@
+{
+  "id": "persona-5-mona",
+  "slug": "persona-5-mona",
+  "name": "モナ",
+  "reading": "もな",
+  "alternativeNames": ["モルガナ"],
+  "workId": "persona-5",
+  "description": {
+    "text": "異世界のパレスで主人公たちに助け出された、黒猫の姿をした謎の存在。本人は猫であることを否定し、本来の姿と記憶を探している。怪盗としての手ほどきを主人公たちに授ける。最初のペルソナはゾロ。",
+    "claimIds": ["p5-mona-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "label": "怪傑ゾロ",
+      "inWork": {
+        "text": "最初のペルソナはゾロ。のちにメリクリウス、ディエゴへと変わる。",
+        "claimIds": ["p5-mona-work"]
+      },
+      "figureId": "zorro",
+      "inMyth": {
+        "text": "マッカレーの小説のゾロは、圧政に立ち向かう覆面の剣士。その正体は、臆病者を装う貴族ドン・ディエゴ・ベガである。",
+        "claimIds": ["p5-mona-myth"]
+      }
+    },
+    {
+      "aspect": "name",
+      "label": "ディエゴ",
+      "inWork": {
+        "text": "最終的なペルソナはディエゴとなる。",
+        "claimIds": ["p5-mona-work"]
+      },
+      "figureId": "zorro",
+      "inMyth": {
+        "text": "覆面を取ったゾロの素顔は、ドン・ディエゴ・ベガだった。",
+        "claimIds": ["p5-mona-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ペルソナが「ゾロ」に始まり、その素顔の名である「ディエゴ」に至る流れは、主人公のアルセーヌからラウールへの流れと同じく、原作の正体の名を最終形に置いている。本来の姿を探し続けるモルガナにふさわしい趣向といえる。",
+      "claimIds": ["p5-mona-work", "p5-mona-myth", "p5-mona-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p5-mona-work",
+      "text": "モルガナ（コードネーム：モナ）は異世界のパレスで主人公と竜司が偶然助け出した謎の黒猫だが、本人は猫であることを否定している。自分の本来の姿や記憶について強い興味と不安を抱く。怪盗としての手解きをする。ペルソナはゾロ→メリクリウス→ディエゴ。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ5」の記述で確認。"
+    },
+    {
+      "id": "p5-mona-myth",
+      "text": "覆面の剣士ゾロは圧政に苦しむ人々のために戦い、物語の最後に覆面を取ると、その正体は臆病で退屈な青年と思われていた貴族ドン・ディエゴ・ベガだった。",
+      "classification": "fact",
+      "sourceIds": ["mcculley-capistrano"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マッカレー『カピストラーノの呪い』"
+    },
+    {
+      "id": "p5-mona-cmp",
+      "text": "ゾロから素顔の名ディエゴへ至るペルソナの流れは、本来の姿を探すモルガナの物語と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-persona-5", "mcculley-capistrano"],
+  "articleIds": []
+}

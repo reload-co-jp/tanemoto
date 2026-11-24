@@ -1,0 +1,84 @@
+{
+  "id": "alice-in-borderland-chishiya",
+  "slug": "alice-in-borderland-chishiya",
+  "name": "チシヤ",
+  "reading": "ちしや",
+  "alternativeNames": ["苣屋駿太郎"],
+  "workId": "alice-in-borderland",
+  "description": {
+    "text": "医大生。驚異的な頭脳と、自分の命さえ顧みない駆け引きで強敵に勝ち続ける。他人の命にも自分の命にも価値を見いださない、つかみどころのない人物。",
+    "claimIds": ["aib-chishiya-work"]
+  },
+  "nameOrigin": {
+    "text": "本名は苣屋駿太郎（ちしや しゅんたろう）。原作のチェシャ猫にちなむ名前と考えられる。",
+    "claimIds": [
+      "aib-chishiya-work",
+      "aib-names-chishiya",
+      "aib-chishiya-cmp-name"
+    ]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "figureId": "cheshire-cat",
+      "label": "チェシャ猫",
+      "inWork": {
+        "text": "「今際の国」を「皆がよく知る童話の世界」と呼び、著者の意図に応えられる者こそが生き残れるという独特の考えをもつ。",
+        "claimIds": ["aib-chishiya-work"]
+      },
+      "inMyth": {
+        "text": "原作のチェシャ猫は、道を尋ねるアリスに「ここではみんな狂ってるのさ」と語り、自在に姿を消したり現したりする。",
+        "claimIds": ["aib-chishiya-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "チェシャ猫は、不思議の国の住人でありながら、その仕組みを外から見ているような態度でアリスに語りかける。作品のチシヤが、この世界を「童話」として俯瞰して語る姿は、その立ち位置と重なる。",
+      "claimIds": ["aib-chishiya-myth", "aib-chishiya-work", "aib-chishiya-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "aib-names-chishiya",
+      "text": "本作品の登場人物名はほとんど片仮名で書かれ、主人公のアリスをはじめ「不思議の国のアリス」の登場人物にちなんだ名前の人物が多い。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-chishiya-work",
+      "text": "苣屋駿太郎（チシヤ）は医大生。他人の命はもちろん己の命にさえ価値を見出さない。「今際の国」を皆がよく知る童話の世界と称し、著者のニーズに答えられる人物こそが「今際の国」を生き抜くことができるという独特の考えを持つ。",
+      "classification": "creative",
+      "sourceIds": ["work-alice-in-borderland"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「今際の国のアリス」の記述で確認。"
+    },
+    {
+      "id": "aib-chishiya-myth",
+      "text": "チェシャ猫は、帽子屋も三月ウサギも狂っていると教え、「ここではみんな狂ってるのさ。わたしも狂ってるし、きみも狂ってる」と言った。そして尻尾の先から消えていき、にやにや笑いだけが残った。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第6章"
+    },
+    {
+      "id": "aib-chishiya-cmp-name",
+      "text": "「チシヤ」の名は、作中の命名方針と音の類似から、チェシャ猫（Cheshire Cat）にちなむと考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版は命名方針を記すが、チシヤ個人の由来は明記していない。"
+    },
+    {
+      "id": "aib-chishiya-cmp",
+      "text": "世界を「童話」として俯瞰するチシヤの態度は、不思議の国の仕組みを見透かしたようなチェシャ猫の立ち位置と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-alice-in-borderland", "carroll-alice"],
+  "articleIds": []
+}

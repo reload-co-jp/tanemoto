@@ -1,0 +1,103 @@
+{
+  "id": "ponyo-ponyo",
+  "slug": "ponyo-ponyo",
+  "name": "ポニョ",
+  "reading": "ぽにょ",
+  "alternativeNames": ["ブリュンヒルデ"],
+  "workId": "ponyo",
+  "description": {
+    "text": "海で暮らす魚の女の子。宗介と出会い、その血をなめたことで人間に近づく力を得る。人間になることを強く望み、宗介のもとへやってくる。",
+    "claimIds": ["ponyo-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "label": "人間になりたい人魚",
+      "inWork": {
+        "text": "人間になりたいと願い、宗介のもとへ向かう。",
+        "claimIds": ["ponyo-work"]
+      },
+      "figureId": "little-mermaid",
+      "inMyth": {
+        "text": "原作の人魚姫は、人間の王子に恋をし、人間の魂を得たいと願って声と引き換えに人間の足を得た。",
+        "claimIds": ["ponyo-myth-wish"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "label": "泡になる運命",
+      "inWork": {
+        "text": "ポニョを人間にする古い魔法には、宗介の気持ちが揺らがないことが条件で、さもなくばポニョは泡になってしまう。",
+        "claimIds": ["ponyo-work-foam"]
+      },
+      "figureId": "little-mermaid",
+      "inMyth": {
+        "text": "原作の人魚姫は、王子が別の姫と結婚したため、海の泡となって消えた。",
+        "claimIds": ["ponyo-myth-foam"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "人間になりたい海の娘と、愛が得られなければ泡になるという条件は『人魚姫』をそのまま踏まえている。宮崎駿は、人魚には魂がないという原作の価値観に納得できなかったことがポニョの発想の起点だと語っており、作品は宗介の揺るがない思いによって、原作とは逆の幸福な結末を描いた。",
+      "claimIds": [
+        "ponyo-myth-wish",
+        "ponyo-myth-foam",
+        "ponyo-work-foam",
+        "ponyo-work-origin",
+        "ponyo-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ponyo-work",
+      "text": "ポニョは魚の女の子。宗介の血液を舐めて半魚人になる力を得る。人間になることを望み、宗介のもとへやってくる。",
+      "classification": "creative",
+      "sourceIds": ["work-ponyo"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「崖の上のポニョ」の記述で確認。"
+    },
+    {
+      "id": "ponyo-work-foam",
+      "text": "グランマンマーレは、古い魔法を使えばポニョを人間にして魔法を失わせることができると提案するが、それには宗介の気持ちが揺らがないことが条件で、さもなくばポニョは泡になってしまう。",
+      "classification": "creative",
+      "sourceIds": ["work-ponyo"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「崖の上のポニョ」の記述で確認。"
+    },
+    {
+      "id": "ponyo-work-origin",
+      "text": "本作はアンデルセンの童話『人魚姫』をモチーフとした作品とされる。宮崎駿は、9歳の頃初めて読んだ文字の本が『人魚姫』で、「人間は魂を持つが、人魚は魂を持たない」という価値観に納得が行かなかったことが、遡ればポニョの起点かもしれないと答えている。",
+      "classification": "creative",
+      "sourceIds": ["work-ponyo"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「崖の上のポニョ」の記述で確認。"
+    },
+    {
+      "id": "ponyo-myth-wish",
+      "text": "人魚姫は、人間には死後も滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願った。魔女に声を差し出して人間の足を得たが、一歩ごとにナイフの上を歩くような痛みが走った。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    },
+    {
+      "id": "ponyo-myth-foam",
+      "text": "王子が別の姫と結婚すると、人魚姫は王子を殺して人魚に戻ることを拒み、海に身を投げて泡となった。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    },
+    {
+      "id": "ponyo-cmp",
+      "text": "人魚姫の筋と泡になる条件を踏まえつつ、宗介の揺るがない思いによって原作とは逆の幸福な結末を描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-ponyo", "andersen-little-mermaid"],
+  "articleIds": []
+}

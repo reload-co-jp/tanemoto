@@ -1,0 +1,103 @@
+{
+  "id": "frozen-elsa",
+  "slug": "frozen-elsa",
+  "name": "エルサ",
+  "reading": "えるさ",
+  "alternativeNames": [],
+  "workId": "frozen",
+  "description": {
+    "text": "アレンデール王国の王女で、のちの女王。生まれつき雪や氷を生み出す魔法の力をもつ。幼いころ魔法で妹アナを傷つけてしまい、それ以来力を隠して孤独に暮らす。",
+    "claimIds": ["frozen-elsa-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "label": "雪の女王",
+      "inWork": {
+        "text": "戴冠式で魔法が人々の前に現れると、王国から逃げ出して山に氷の城を築く。",
+        "claimIds": ["frozen-elsa-work-castle"]
+      },
+      "figureId": "snow-queen",
+      "inMyth": {
+        "text": "原作の雪の女王は、氷と雪の宮殿に住む冷たく美しい女王で、少年カイを連れ去る。",
+        "claimIds": ["frozen-elsa-myth-queen"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "label": "凍った心を溶かす愛",
+      "inWork": {
+        "text": "エルサの魔法を胸に受けたアナは体が凍り始め、救うには「真実の愛」で凍った心を溶かす必要があると告げられる。姉を守るためのアナの自己犠牲が真実の愛の行為となり、アナは元に戻る。",
+        "claimIds": ["frozen-elsa-work-love"]
+      },
+      "figureId": "snow-queen",
+      "inMyth": {
+        "text": "原作では、悪魔の鏡のかけらで冷たくなったカイの心臓の氷を、ゲルダの熱い涙が溶かした。",
+        "claimIds": ["frozen-elsa-myth-tears"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の雪の女王は物語の敵役だが、作品ではエルサが力を恐れて孤独に生きる主人公の一人として描かれる。一方、凍りついた心を愛が溶かすという原作の結末は、アナとエルサの姉妹の物語に受け継がれている。",
+      "claimIds": [
+        "frozen-elsa-work",
+        "frozen-elsa-myth-queen",
+        "frozen-elsa-work-love",
+        "frozen-elsa-myth-tears",
+        "frozen-elsa-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "frozen-elsa-work",
+      "text": "アレンデール王国の王女エルサは生まれつき雪や氷を生み出す魔法の力を持つ。ある夜、魔法によって妹アナを傷つけてしまい、魔法が再び人を傷つけることを恐れて自分の力を隠して暮らすようになる。本作はアンデルセンの童話『雪の女王』から着想を得た作品である。",
+      "classification": "creative",
+      "sourceIds": ["work-frozen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「アナと雪の女王」の記述で確認。"
+    },
+    {
+      "id": "frozen-elsa-work-castle",
+      "text": "戴冠式の日に魔法が人々の前で現れてしまい、自分の力を恐れられたエルサは王国から逃げ出し、ノースマウンテンに氷の城を築く。",
+      "classification": "creative",
+      "sourceIds": ["work-frozen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「アナと雪の女王」の記述で確認。"
+    },
+    {
+      "id": "frozen-elsa-work-love",
+      "text": "エルサの魔法を胸に受けたアナは体が凍り始め、トロールの長老は「真実の愛」によって凍った心を溶かす必要があると告げる。姉を守るために行ったアナの自己犠牲こそが真実の愛の行為であり、アナは元の姿に戻る。",
+      "classification": "creative",
+      "sourceIds": ["work-frozen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「アナと雪の女王」の記述で確認。"
+    },
+    {
+      "id": "frozen-elsa-myth-queen",
+      "text": "雪の女王は少年カイをそりに乗せて連れ去り、氷の宮殿に住まわせた。",
+      "classification": "fact",
+      "sourceIds": ["andersen-snow-queen"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『雪の女王』第2・7話"
+    },
+    {
+      "id": "frozen-elsa-myth-tears",
+      "text": "悪魔の鏡のかけらが心臓に刺さって冷たくなったカイを、ゲルダが抱きしめて熱い涙を流すと、涙はカイの心臓にしみこんで氷を溶かした。",
+      "classification": "fact",
+      "sourceIds": ["andersen-snow-queen"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『雪の女王』第1・7話"
+    },
+    {
+      "id": "frozen-elsa-cmp",
+      "text": "敵役だった雪の女王を主人公の一人に変え、愛が凍った心を溶かすという原作の結末を姉妹の物語に移している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-frozen", "andersen-snow-queen"],
+  "articleIds": []
+}

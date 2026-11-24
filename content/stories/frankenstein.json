@@ -1,0 +1,20 @@
+[
+  {
+    "id": "blasted-oak",
+    "title": "雷に打たれた樫の木",
+    "mythologyIds": ["frankenstein"],
+    "figureIds": ["frankensteins-creature"],
+    "summary": "15歳のころ、ヴィクターは激しい雷雨の夜、家から20ヤードほど離れた美しい老樫の木から炎がほとばしるのを見た。光が消えると樫の木は跡形もなく、焼け焦げた切り株だけが残っていた。この出来事をきっかけに、ヴィクターは電気の力に心を奪われる。",
+    "sourceIds": ["shelley-frankenstein"],
+    "sourceLocation": "『フランケンシュタイン』（1831年版）第2章"
+  },
+  {
+    "id": "creature-asks-for-a-bride",
+    "title": "伴侶を求める怪物",
+    "mythologyIds": ["frankenstein"],
+    "figureIds": ["frankensteins-creature"],
+    "summary": "人々に拒まれ続けた怪物は、ヴィクターに「自分のために女を作ってほしい。自分と同じく醜い、別の性の生き物を」と求めた。願いがかなえば、二人で人里離れた南アメリカの荒野に去ると約束する。ヴィクターは一度は承知するが、のちに作りかけの女の体を壊してしまう。",
+    "sourceIds": ["shelley-frankenstein"],
+    "sourceLocation": "『フランケンシュタイン』（1831年版）第17・20章"
+  }
+]

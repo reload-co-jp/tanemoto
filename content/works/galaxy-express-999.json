@@ -1,0 +1,14 @@
+{
+  "id": "galaxy-express-999",
+  "slug": "galaxy-express-999",
+  "title": "銀河鉄道999",
+  "reading": "ぎんがてつどうすりーないん",
+  "type": "manga",
+  "mediaTypes": ["anime", "film"],
+  "author": "松本零士",
+  "period": "1977〜1981年（漫画）。1978〜1981年にテレビアニメ、1979年に劇場版",
+  "description": "機械の体をただでくれる星を目指し、謎の美女メーテルとともに宇宙を走る列車999号に乗った少年・星野鉄郎の旅を描く。宮沢賢治の『銀河鉄道の夜』とメーテルリンクの『青い鳥』をヒントに描かれた。",
+  "mythologyIds": ["night-on-the-galactic-railroad"],
+  "articleIds": [],
+  "sourceIds": ["work-galaxy-express-999"]
+}

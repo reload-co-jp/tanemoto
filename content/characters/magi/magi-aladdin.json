@@ -1,0 +1,73 @@
+{
+  "id": "magi-aladdin",
+  "slug": "magi-aladdin",
+  "name": "アラジン",
+  "reading": "あらじん",
+  "alternativeNames": [],
+  "workId": "magi",
+  "description": {
+    "text": "主人公。巨大なジン「ウーゴくん」が宿る笛を持つ少年で、創世の魔法使い「マギ」の一人。",
+    "claimIds": ["magi-aladdin-work"]
+  },
+  "nameOrigin": {
+    "text": "「アラジンと魔法のランプ」の主人公アラジンにちなむ。",
+    "claimIds": ["magi-aladdin-work", "magi-names-aladdin"]
+  },
+  "motifs": [
+    {
+      "aspect": "weapon",
+      "label": "魔法のランプとジン",
+      "inWork": {
+        "text": "巨大なジン「ウーゴくん」が宿る笛を持つ。",
+        "claimIds": ["magi-aladdin-work"]
+      },
+      "figureId": "aladdin",
+      "inMyth": {
+        "text": "原作のアラジンは、地下の洞窟から持ち出したランプをこすると現れるジンの力で、富と姫を手に入れる。",
+        "claimIds": ["magi-aladdin-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作でジンはランプに宿るが、作品では笛に宿る。原作のアラジンがジンに願いを命じる主人であるのに対し、作品のアラジンとウーゴくんは友人のような関係として描かれる。",
+      "claimIds": ["magi-aladdin-myth", "magi-aladdin-work", "magi-aladdin-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "magi-names-aladdin",
+      "text": "『マギ』は『千夜一夜物語』をモチーフにした冒険活劇で、登場人物の名前の一部も『千夜一夜物語』から採られている。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-aladdin-work",
+      "text": "アラジンは本作の主人公。巨大なジン・ウーゴくんが宿る笛を持つ。創世の魔法使い「マギ」の一人。",
+      "classification": "creative",
+      "sourceIds": ["work-magi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「マギ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "magi-aladdin-myth",
+      "text": "アラジンは魔法使いの命で地下の洞窟から古いランプを持ち出した。母がランプを磨こうとこするとジンが現れ、アラジンはその力で富を得てスルタンの姫と結婚した。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ガラン訳『千夜一夜物語』「アラジンと魔法のランプ」"
+    },
+    {
+      "id": "magi-aladdin-cmp",
+      "text": "ジンの宿る道具をランプから笛に変え、主従ではなく友情に近い関係として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、連想の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-magi", "arabian-nights"],
+  "articleIds": []
+}

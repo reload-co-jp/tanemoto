@@ -1,0 +1,17 @@
+{
+  "id": "frankensteins-creature",
+  "slug": "frankensteins-creature",
+  "name": "フランケンシュタインの怪物",
+  "reading": "ふらんけんしゅたいんのかいぶつ",
+  "originalName": "Frankenstein's creature",
+  "romanized": "Frankenstein's creature",
+  "alternativeNames": ["フランケンシュタイン", "怪物"],
+  "type": "fictional",
+  "roles": ["人造人間"],
+  "mythologyIds": ["frankenstein"],
+  "description": "メアリー・シェリーの小説『フランケンシュタイン』で、科学者ヴィクター・フランケンシュタインが死体から作り出した名もない人造人間。醜い姿のために人々から拒まれ、創造者に自分と同じ種類の伴侶を作るよう求めるが、約束を破られて復讐に走る。一般に「フランケンシュタイン」と呼ばれるが、本来それは創造者の名である。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": ["blasted-oak", "creature-asks-for-a-bride"],
+  "articleIds": [],
+  "sourceIds": ["shelley-frankenstein"]
+}

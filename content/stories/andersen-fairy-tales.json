@@ -1,0 +1,20 @@
+[
+  {
+    "id": "kai-and-gerda",
+    "title": "カイとゲルダ",
+    "mythologyIds": ["andersen-fairy-tales"],
+    "figureIds": ["snow-queen"],
+    "summary": "悪魔が作った、美しいものを醜く映す鏡が砕け散り、そのかけらが少年カイの目と心臓に刺さった。冷たい心になったカイは、雪の女王のそりに乗って連れ去られる。仲良しの少女ゲルダは長い旅の末に女王の氷の宮殿にたどり着き、凍えたカイを抱きしめて熱い涙を流した。涙はカイの心臓にしみこんで氷を溶かし、かけらを流し去った。",
+    "sourceIds": ["andersen-snow-queen"],
+    "sourceLocation": "アンデルセン『雪の女王』第1・2・7話"
+  },
+  {
+    "id": "little-mermaid-foam",
+    "title": "海の泡",
+    "mythologyIds": ["andersen-fairy-tales"],
+    "figureIds": ["little-mermaid"],
+    "summary": "人魚姫は、人間には死んでも滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願う。魔女に舌を切られて声を失う代わりに人間の足を得たが、一歩ごとにナイフの上を歩くような痛みが走った。王子が別の姫と結婚すると、姉たちは王子を殺せば人魚に戻れると短剣を渡すが、人魚姫は王子を殺さず海に身を投げ、泡となった。しかし消え去ることなく空気の娘たちの仲間となり、善い行いを重ねて三百年後に魂を得る道が開かれた。",
+    "sourceIds": ["andersen-little-mermaid"],
+    "sourceLocation": "アンデルセン『人魚姫』"
+  }
+]

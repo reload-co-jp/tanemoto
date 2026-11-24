@@ -1,0 +1,17 @@
+{
+  "id": "arsene-lupin",
+  "slug": "arsene-lupin",
+  "name": "アルセーヌ・ルパン",
+  "reading": "あるせーぬ・るぱん",
+  "originalName": "Arsène Lupin",
+  "romanized": "Arsène Lupin",
+  "alternativeNames": ["怪盗紳士", "ラウール・ダンドレジー"],
+  "type": "fictional",
+  "roles": ["怪盗", "変装の名人"],
+  "mythologyIds": ["arsene-lupin"],
+  "description": "モーリス・ルブランの小説の主人公で、変装の名人の「怪盗紳士」。1905年の短編「アルセーヌ・ルパンの逮捕」で初登場した。予告状を送りつけて大胆に盗みを働き、ユーモアと騎士道精神を備える。イギリスの名探偵エルロック・ショルメ（シャーロック・ホームズ）とも対決した。若き日には「ラウール・ダンドレジー」と名乗っていた。",
+  "relatedFigureIds": ["sherlock-holmes"],
+  "relatedStoryIds": ["arrest-of-arsene-lupin", "sholmes-arrives-too-late"],
+  "articleIds": [],
+  "sourceIds": ["leblanc-gentleman-burglar", "leblanc-cagliostro"]
+}

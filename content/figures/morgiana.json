@@ -1,0 +1,17 @@
+{
+  "id": "morgiana",
+  "slug": "morgiana",
+  "name": "モルジアナ",
+  "reading": "もるじあな",
+  "originalName": "Morgiana",
+  "romanized": "Morgiana",
+  "alternativeNames": [],
+  "type": "fictional",
+  "roles": ["女奴隷"],
+  "mythologyIds": ["arabian-nights"],
+  "description": "「アリババと40人の盗賊」で、アリババの家に仕える賢く勇敢な女奴隷。油の壺に隠れた盗賊たちに煮えた油を注いで退治し、さらに盗賊の首領を踊りの最中に短剣で倒して主人の命を救った。アリババは彼女を自由の身にし、自分の甥（息子とする版もある）と結婚させた。",
+  "relatedFigureIds": ["ali-baba"],
+  "relatedStoryIds": ["open-sesame"],
+  "articleIds": [],
+  "sourceIds": ["arabian-nights"]
+}

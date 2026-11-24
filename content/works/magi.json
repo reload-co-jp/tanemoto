@@ -1,0 +1,14 @@
+{
+  "id": "magi",
+  "slug": "magi",
+  "title": "マギ",
+  "reading": "まぎ",
+  "type": "manga",
+  "mediaTypes": ["anime"],
+  "author": "大高忍",
+  "period": "2009〜2017年（『週刊少年サンデー』連載）。2012〜2014年にテレビアニメ",
+  "description": "迷宮（ダンジョン）を攻略してジン（魔神）の力を得る者たちを描く冒険ファンタジー。『千夜一夜物語』をモチーフとし、アラジン、アリババ、モルジアナ、シンドバッドなど登場人物の名前の一部も同書から採られている。",
+  "mythologyIds": ["arabian-nights"],
+  "articleIds": [],
+  "sourceIds": ["work-magi"]
+}
