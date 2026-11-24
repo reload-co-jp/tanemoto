@@ -1,0 +1,81 @@
+{
+  "id": "moriarty-the-patriot-william",
+  "slug": "moriarty-the-patriot-william",
+  "name": "ウィリアム・ジェームズ・モリアーティ",
+  "reading": "うぃりあむ・じぇーむず・もりあーてぃ",
+  "alternativeNames": ["ウィリアム", "犯罪卿"],
+  "workId": "moriarty-the-patriot",
+  "description": {
+    "text": "主人公。孤児からモリアーティ家の養子となった青年で、大学で数学を教える。腐敗した階級制度を壊すため、依頼人の復讐を請け負う「犯罪相談役」として犯罪を計画する。",
+    "claimIds": ["mp-william-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "moriarty",
+      "label": "犯罪界のナポレオン",
+      "inWork": {
+        "text": "犯罪を陰で操る天才として描かれる。",
+        "claimIds": ["mp-william-work"]
+      },
+      "inMyth": {
+        "text": "ホームズはモリアーティを、ロンドンの悪事の大半を陰で操る「犯罪界のナポレオン」と呼ぶ。",
+        "claimIds": ["mp-william-myth-napoleon"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "moriarty",
+      "label": "数学者",
+      "inWork": {
+        "text": "数学に秀でた知性の持ち主。",
+        "claimIds": ["mp-william-work"]
+      },
+      "inMyth": {
+        "text": "モリアーティは二項定理の論文で名を上げ、大学の数学の教授の職を得た。",
+        "claimIds": ["mp-william-myth-math"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のモリアーティは私利のために犯罪組織を率いる悪の天才である。作品は彼を、社会の不正を正すために犯罪に手を染める「義の悪役」へと読み替えている。",
+      "claimIds": ["mp-william-cmp", "mp-william-myth-napoleon"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "mp-william-work",
+      "text": "ウィリアム・ジェームズ・モリアーティは孤児で、アルバート・モリアーティの養子となった。旧来の階級制度を打ち倒すため「犯罪相談役」として活動する。",
+      "classification": "creative",
+      "sourceIds": ["work-moriarty-the-patriot"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Moriarty the Patriot」の記述で確認。"
+    },
+    {
+      "id": "mp-william-myth-napoleon",
+      "text": "ホームズはモリアーティを、ロンドンの悪事の大半と未解決事件のほとんどを陰で操る「犯罪界のナポレオン」と呼んだ。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "mp-william-myth-math",
+      "text": "モリアーティは21歳で二項定理についての論文を書いてヨーロッパに名を知られ、小さな大学の数学の教授の職を得た。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "mp-william-cmp",
+      "text": "作品はモリアーティを、社会正義のために犯罪を用いる人物として再解釈している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-moriarty-the-patriot", "doyle-final-problem"],
+  "articleIds": []
+}

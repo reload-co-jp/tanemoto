@@ -1,0 +1,88 @@
+{
+  "id": "kamigami-takeru",
+  "slug": "kamigami-takeru",
+  "name": "戸塚尊",
+  "reading": "とつかたける",
+  "alternativeNames": ["スサノオ"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "日本の神スサノオ。短気で荒っぽいが情に厚い。兄の戸塚月人（ツクヨミ）を慕っている。",
+    "claimIds": ["kami-takeru-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "susanoo",
+      "label": "須佐之男命",
+      "inWork": {
+        "text": "名の「尊」はスサノオノミコトの「尊（みこと）」に、「戸塚」は十拳剣（とつかのつるぎ）に通じる。",
+        "claimIds": ["kami-takeru-work", "kami-takeru-name"]
+      },
+      "inMyth": {
+        "text": "須佐之男命は八俣の大蛇を、腰に帯びた十拳剣で斬り散らした。",
+        "claimIds": ["kami-takeru-myth-orochi"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "susanoo",
+      "label": "荒ぶる神",
+      "inWork": {
+        "text": "怒りっぽく荒々しい性格。",
+        "claimIds": ["kami-takeru-work"]
+      },
+      "inMyth": {
+        "text": "須佐之男命の乱暴を恐れた天照大御神は天の石屋戸にこもり、神々は須佐之男命を高天原から追放した。",
+        "claimIds": ["kami-takeru-myth-rampage"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の荒ぶる神の性格が、作品では短気だが兄思いの少年として描かれている。",
+      "claimIds": ["kami-takeru-cmp", "kami-takeru-myth-rampage"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-takeru-work",
+      "text": "戸塚尊は日本の神スサノオで、短気な性格。兄の戸塚月人（ツクヨミ）とともに学園に呼ばれる。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-takeru-name",
+      "text": "「尊」はミコト、「戸塚」は十拳剣（とつかのつるぎ）の読みに通じる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "kami-takeru-myth-orochi",
+      "text": "須佐之男命は八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "kami-takeru-myth-rampage",
+      "text": "天照大御神はスサノオの乱暴を恐れて天の石屋戸を閉じてこもった。のちに八百万の神々は須佐之男命のひげと手足の爪を切って追放した。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸〜八俣の大蛇）"
+    },
+    {
+      "id": "kami-takeru-cmp",
+      "text": "作品は荒ぶる神を、兄思いの短気な少年として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kamigami-no-asobi", "kojiki"],
+  "articleIds": []
+}

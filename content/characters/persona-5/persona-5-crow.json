@@ -1,0 +1,80 @@
+{
+  "id": "persona-5-crow",
+  "slug": "persona-5-crow",
+  "name": "クロウ",
+  "reading": "くろう",
+  "alternativeNames": ["明智吾郎"],
+  "workId": "persona-5",
+  "description": {
+    "text": "高校生探偵・明智吾郎の怪盗としてのコードネーム。表向きのペルソナはロビン・フッドだが、もう一つの真のペルソナとして、北欧神話の神ロキを宿している。",
+    "claimIds": ["p5-crow-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "loki",
+      "label": "ロキ",
+      "inWork": {
+        "text": "正体を明かした明智は、反逆の力としてロキを使う。",
+        "claimIds": ["p5-crow-work"]
+      },
+      "inMyth": {
+        "text": "ロキは巨人ファールバウティの子でアース神族に数えられ、悪だくみの張本人、偽りの祖と呼ばれる。",
+        "claimIds": ["p5-crow-myth-loki"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "loki",
+      "label": "神々を裏切るトリックスター",
+      "inWork": {
+        "text": "仲間として振る舞いながら、裏では別の思惑で動いている。",
+        "claimIds": ["p5-crow-work"]
+      },
+      "inMyth": {
+        "text": "ロキは狡知にすぐれ、神々を大きな窮地に陥れては悪知恵で救い出した。",
+        "claimIds": ["p5-crow-myth-trick"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "正義の義賊ロビン・フッドと、偽りの祖ロキ。二つのペルソナが、明智の表と裏の顔を表している。",
+      "claimIds": ["p5-crow-cmp", "p5-crow-myth-loki"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p5-crow-work",
+      "text": "明智吾郎（クロウ）の最初のペルソナはロビン・フッドで、真のペルソナはロキである。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-5"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "p5-crow-myth-loki",
+      "text": "ロキは巨人ファールバウティの子でアース神族に数えられ、悪だくみの張本人、偽りの祖と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "p5-crow-myth-trick",
+      "text": "ロキは狡知にすぐれ、神々を大きな窮地に陥れては悪知恵で救い出した。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "p5-crow-cmp",
+      "text": "ロビン・フッドとロキの二つのペルソナは、明智の二面性を象徴していると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-5", "snorri-edda"],
+  "articleIds": []
+}

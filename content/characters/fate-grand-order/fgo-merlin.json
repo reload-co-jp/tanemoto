@@ -1,0 +1,87 @@
+{
+  "id": "fgo-merlin",
+  "slug": "fgo-merlin",
+  "name": "マーリン",
+  "reading": "まーりん",
+  "alternativeNames": ["キャスター", "花の魔術師"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "キャスターのサーヴァント。アーサー王を導いた宮廷魔術師で、「花の魔術師」を名乗る。夢魔と人間の混血で、冠位（グランド）の資格をもつ魔術師とされ、宝具「永久に閉ざされた理想郷（ガーデン・オブ・アヴァロン）」で味方を癒やす。",
+    "claimIds": ["fgo-merlin-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "merlin",
+      "label": "アーサー王の導き手",
+      "inWork": {
+        "text": "アーサーを王に育てた魔術師として、軽薄な態度の裏で人々を見守る。",
+        "claimIds": ["fgo-merlin-work"]
+      },
+      "inMyth": {
+        "text": "マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子（アーサー）を自分に引き渡させて騎士エクターに預けた。",
+        "claimIds": ["fgo-merlin-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "merlin",
+      "label": "幽閉",
+      "inWork": {
+        "text": "世界の果ての塔「アヴァロン」に幽閉されたまま世界を眺めている、という設定がある。",
+        "claimIds": ["fgo-merlin-work-tower"]
+      },
+      "inMyth": {
+        "text": "マーリンは湖の乙女ニミュエに恋をし、魔法を学び尽くした彼女によって岩の下に封じ込められた。",
+        "claimIds": ["fgo-merlin-myth-nimue"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で湖の乙女に封じ込められたマーリンの最期を、作品は「アヴァロンの塔への幽閉」として翻案し、そこから世界を眺める存在にしている。夢魔との混血という設定は、マーリンを夢魔の子とする中世の伝承を踏まえたものと考えられる。",
+      "claimIds": ["fgo-merlin-cmp", "fgo-merlin-myth-nimue"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-merlin-work",
+      "text": "マーリンは「花の魔術師」を名乗るキャスターのサーヴァントで、夢魔と人間の混血。冠位の資格をもつ魔術師とされ、宝具「永久に閉ざされた理想郷」で味方を癒やす。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-merlin-work-tower",
+      "text": "マーリンは世界の果ての塔（アヴァロン）に幽閉されたまま世界を眺めている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-merlin-myth-birth",
+      "text": "マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子を自分に引き渡させた。アーサーはマーリンの手で騎士エクターに預けられた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第1〜3章"
+    },
+    {
+      "id": "fgo-merlin-myth-nimue",
+      "text": "マーリンは湖の乙女ニミュエに恋をし、魔法を学び尽くした彼女によって岩の下に封じ込められた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第1章"
+    },
+    {
+      "id": "fgo-merlin-cmp",
+      "text": "作品の「塔への幽閉」は、原典の封印の結末を翻案したものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "malory-morte-darthur"],
+  "articleIds": []
+}

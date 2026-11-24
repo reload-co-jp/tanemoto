@@ -1,0 +1,24 @@
+{
+  "id": "fate-grand-order",
+  "slug": "fate-grand-order",
+  "title": "Fate/Grand Order",
+  "reading": "ふぇいと/ぐらんど・おーだー",
+  "type": "game",
+  "mediaTypes": ["game", "anime"],
+  "author": "TYPE-MOON（原作・シナリオ）",
+  "period": "2015年〜（スマートフォン向けゲーム。日本では2015年配信開始）",
+  "description": "人類の未来が焼却された世界で、カルデアのマスターが英霊（サーヴァント）とともに歴史の特異点を修復していくスマートフォン向けRPG。神話・伝説・歴史上の人物をもとにした数百騎のサーヴァントが登場し、性別や設定が大胆に翻案されることも多い。",
+  "mythologyIds": [
+    "greek",
+    "mesopotamian",
+    "arthurian",
+    "celtic",
+    "indian",
+    "aztec",
+    "japanese-legends",
+    "ancient-china",
+    "classical-antiquity"
+  ],
+  "articleIds": [],
+  "sourceIds": ["work-fate-grand-order"]
+}

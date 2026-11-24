@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-poseidon",
+  "slug": "hades-2-poseidon",
+  "name": "ポセイドン",
+  "reading": "ぽせいどん",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "オリュンポスの神の一柱で、海の神。メリノエに敵を押し流す波の力を授ける。",
+    "claimIds": ["h2-pos-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "poseidon",
+      "label": "海の神",
+      "inWork": {
+        "text": "海の力を授ける神。",
+        "claimIds": ["h2-pos-work"]
+      },
+      "inMyth": {
+        "text": "ゼウス・ポセイドン・ハデスはくじで世界を分け、ポセイドンは海を得た。",
+        "claimIds": ["h2-pos-myth-lot"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "作品のポセイドンは冥界の王ハデスの兄弟としても位置づけられ、原典の三兄弟の関係が保たれている。",
+      "claimIds": ["h2-pos-cmp", "h2-pos-myth-lot"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-pos-work",
+      "text": "ポセイドンはメリノエに恩恵を授けるオリュンポスの神で、敵を押し流す水の力を与える。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-pos-myth-lot",
+      "text": "ゼウス・ポセイドン・ハデスはくじで世界を分け、ポセイドンは海、ハデスは闇、ゼウスは天空を得た。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "h2-pos-cmp",
+      "text": "三兄弟の関係は原典どおりに引き継がれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "homer-iliad"],
+  "articleIds": []
+}

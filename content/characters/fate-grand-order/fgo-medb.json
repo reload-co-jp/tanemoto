@@ -1,0 +1,80 @@
+{
+  "id": "fgo-medb",
+  "slug": "fgo-medb",
+  "name": "メイヴ",
+  "reading": "めいゔ",
+  "alternativeNames": ["ライダー", "女王メイヴ"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "ライダーのサーヴァント。アイルランドのコノートの女王で、クー・フーリンに執着している。第五特異点「北米神話大戦イ・プルーリバス・ウナム」では聖杯の力でクー・フーリン（オルタ）を生み出し、北米を支配しようとした。",
+    "claimIds": ["fgo-medb-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "medb",
+      "label": "コナハトの女王メドヴ",
+      "inWork": {
+        "text": "恋多き女王として、多くの勇士を従える。",
+        "claimIds": ["fgo-medb-work"]
+      },
+      "inMyth": {
+        "text": "コナハトの女王メドヴは、夫アリルとともにアイルランドの軍勢を集め、アルスターの名牛ドン・クアルンゲを奪う遠征（牛捕り）を起こした。",
+        "claimIds": ["fgo-medb-myth-tain"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "cu-chulainn",
+      "label": "クー・フーリンとの因縁",
+      "inWork": {
+        "text": "クー・フーリンを自分のものにしようとする。",
+        "claimIds": ["fgo-medb-work"]
+      },
+      "inMyth": {
+        "text": "『クアルンゲの牛捕り』では、クー・フーリンがただ一人でメドヴの軍勢を浅瀬で食い止めた。",
+        "claimIds": ["fgo-medb-myth-cu"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でクー・フーリンはメドヴの軍勢の宿敵である。作品はこの敵対関係を、メイヴの一方的な執着として描き替えている。",
+      "claimIds": ["fgo-medb-cmp", "fgo-medb-myth-cu"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-medb-work",
+      "text": "メイヴはライダーのサーヴァントで、コノートの女王。クー・フーリンに執着し、第五特異点では聖杯でクー・フーリン（オルタ）を生み出した。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-medb-myth-tain",
+      "text": "コナハトの女王メドヴと夫アリルはクルアハンにアイルランドの軍勢を集め、ドン・クアルンゲを奪うためにアルスターへ遠征した。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 冒頭（O'Rahilly 英訳）"
+    },
+    {
+      "id": "fgo-medb-myth-cu",
+      "text": "アルスターの戦士たちが呪いで動けないあいだ、クー・フーリンは一人で浅瀬に立ち、メドヴの軍勢の勇士たちと一騎打ちを重ねて進軍を食い止めた。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本（O'Rahilly 英訳）"
+    },
+    {
+      "id": "fgo-medb-cmp",
+      "text": "原典の敵対関係を、作品は恋愛的な執着として翻案している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "tain-bo-cuailnge"],
+  "articleIds": []
+}

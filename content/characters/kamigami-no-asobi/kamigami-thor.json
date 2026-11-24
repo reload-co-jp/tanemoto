@@ -1,0 +1,81 @@
+{
+  "id": "kamigami-thor",
+  "slug": "kamigami-thor",
+  "name": "トール・メギンギャルズ",
+  "reading": "とーる・めぎんぎゃるず",
+  "alternativeNames": ["トール"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "北欧の雷神。寡黙で冷静な性格で、ロキやバルドルとともに行動する。",
+    "claimIds": ["kami-thor-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "thor",
+      "label": "雷神トール",
+      "inWork": {
+        "text": "北欧神話の雷神。",
+        "claimIds": ["kami-thor-work"]
+      },
+      "inMyth": {
+        "text": "トールはアース神族の筆頭で、神々と人間のなかで最も強い。",
+        "claimIds": ["kami-thor-myth-strong"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "thor",
+      "label": "力帯メギンギャルズ",
+      "inWork": {
+        "text": "名の「メギンギャルズ」は神話に登場するトールの力帯の名。",
+        "claimIds": ["kami-thor-work"]
+      },
+      "inMyth": {
+        "text": "トールは槌ミョルニル、締めると神の力が半分増す力帯、鉄の手袋の三つの宝をもつ。",
+        "claimIds": ["kami-thor-myth-belt"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のトールは怒りっぽく豪快な神として語られることが多い。作品の寡黙なトールは、その印象とは対照的である。名前の後半はトールの宝である力帯の名に由来する。",
+      "claimIds": ["kami-thor-cmp", "kami-thor-myth-belt"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-thor-work",
+      "text": "トール・メギンギャルズは北欧の雷神で、寡黙で冷静な性格。ロキ、バルドルとともに行動する。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-thor-myth-strong",
+      "text": "トールはアース神族の筆頭で、神々と人間のなかで最も強い。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "kami-thor-myth-belt",
+      "text": "トールは槌ミョルニル、締めると神の力が半分増す力帯（メギンギョルズ）、槌の柄を握るのに欠かせない鉄の手袋の三つの宝をもつ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "kami-thor-cmp",
+      "text": "作品は、豪快な原典のトール像とは異なる寡黙な人物としている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kamigami-no-asobi", "snorri-edda"],
+  "articleIds": []
+}

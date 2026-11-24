@@ -1,0 +1,80 @@
+{
+  "id": "fate-apocrypha-red-saber",
+  "slug": "fate-apocrypha-red-saber",
+  "name": "赤のセイバー",
+  "reading": "あかのせいばー",
+  "alternativeNames": ["モードレッド"],
+  "workId": "fate-apocrypha",
+  "description": {
+    "text": "「赤」の陣営のセイバー。真名は円卓の騎士モードレッド。女性扱いされることを嫌い、父であるアーサー王に後継者として認められることを望んでいる。宝具は「我が麗しき父への叛逆（クラレント・ブラッドアーサー）」。",
+    "claimIds": ["fa-mordred-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "mordred",
+      "label": "叛逆の騎士モードレッド",
+      "inWork": {
+        "text": "アーサー王の子として、父に認められることを願う。",
+        "claimIds": ["fa-mordred-work"]
+      },
+      "inMyth": {
+        "text": "アーサーはそれと知らずに異父姉（ロト王の妃）とのあいだにモードレッドをもうけた。",
+        "claimIds": ["fa-mordred-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "mordred",
+      "label": "カムランの戦い",
+      "inWork": {
+        "text": "宝具名は「父への叛逆」を掲げている。",
+        "claimIds": ["fa-mordred-work"]
+      },
+      "inMyth": {
+        "text": "最後の戦いでアーサーはモードレッドを槍で貫き、モードレッドは死に際にアーサーの頭に致命傷を与えた。",
+        "claimIds": ["fa-mordred-myth-camlann"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でモードレッドは王位を奪った叛逆者である。作品はその叛逆の動機を「父に認められたい」という思いとして描き直し、モードレッドを女性の騎士としている。",
+      "claimIds": ["fa-mordred-cmp", "fa-mordred-myth-camlann"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fa-mordred-work",
+      "text": "赤のセイバーの真名はモードレッドで、女性扱いを嫌い、父アーサー王に認められることを望む。宝具は「我が麗しき父への叛逆」。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-apocrypha"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fa-mordred-myth-birth",
+      "text": "アーサーはそれと知らずに異父姉（ロト王の妃）とのあいだにモードレッドをもうけた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第19章"
+    },
+    {
+      "id": "fa-mordred-myth-camlann",
+      "text": "最後の戦いでアーサーはモードレッドを槍で貫き、モードレッドは死に際にアーサーの頭に致命傷を与えた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第4章"
+    },
+    {
+      "id": "fa-mordred-cmp",
+      "text": "作品はモードレッドの叛逆を、父への承認欲求として解釈している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-apocrypha", "malory-morte-darthur"],
+  "articleIds": []
+}

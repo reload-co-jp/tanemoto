@@ -1,0 +1,14 @@
+{
+  "id": "disney-little-mermaid",
+  "slug": "disney-little-mermaid",
+  "title": "リトル・マーメイド（ディズニー）",
+  "reading": "りとる・まーめいど",
+  "type": "film",
+  "mediaTypes": ["film", "anime"],
+  "author": "ジョン・マスカー、ロン・クレメンツ（監督）",
+  "period": "1989年公開（アニメーション映画）、2023年（実写映画）",
+  "description": "アンデルセンの童話『人魚姫』をもとにしたディズニーのアニメーション映画。海の王トリトンの末娘アリエルが人間の王子エリックに恋をし、海の魔女アースラと取引して人間の姿になる。原作とは異なり、幸福な結末を迎える。",
+  "mythologyIds": ["andersen-fairy-tales"],
+  "articleIds": [],
+  "sourceIds": ["work-disney-little-mermaid"]
+}

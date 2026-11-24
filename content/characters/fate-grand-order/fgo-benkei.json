@@ -1,0 +1,104 @@
+{
+  "id": "fgo-benkei",
+  "slug": "fgo-benkei",
+  "name": "武蔵坊弁慶",
+  "reading": "むさしぼうべんけい",
+  "alternativeNames": ["ランサー", "常陸坊海尊"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "ランサーのサーヴァント。源義経に仕えた荒法師・武蔵坊弁慶として現界するが、その正体は、主君の最期の戦いに居合わせなかった家臣・常陸坊海尊が弁慶を名乗っている姿である。",
+    "claimIds": ["fgo-benkei-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "benkei",
+      "label": "武蔵坊弁慶",
+      "inWork": {
+        "text": "薙刀を振るう怪力の僧兵として現れる。",
+        "claimIds": ["fgo-benkei-work"]
+      },
+      "inMyth": {
+        "text": "『義経記』の弁慶は、人の太刀を千本集めようと夜な夜な京で太刀を奪い、九百九十九本まで集めたところで牛若（義経）に敗れて家来となった。",
+        "claimIds": ["fgo-benkei-myth-swords"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "benkei",
+      "label": "衣川の立ち往生",
+      "inWork": {
+        "text": "弁慶として振る舞うのは、衣川で主君とともに死ねなかった悔恨のためとされる。",
+        "claimIds": ["fgo-benkei-work"]
+      },
+      "inMyth": {
+        "text": "衣川の合戦で、弁慶は無数の矢を受けながら戦い、薙刀を杖にして立ったまま死んだ。",
+        "claimIds": ["fgo-benkei-myth-death"]
+      }
+    },
+    {
+      "aspect": "role",
+      "label": "常陸坊海尊",
+      "inWork": {
+        "text": "サーヴァントの真名は常陸坊海尊である。",
+        "claimIds": ["fgo-benkei-work"]
+      },
+      "inMyth": {
+        "text": "衣川の合戦の朝、常陸坊海尊ら十一人は近くの山寺へ参詣に出ていて戦いに加わらなかった。",
+        "claimIds": ["fgo-benkei-myth-kaison"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『義経記』で最期まで主君を守った弁慶と、その場にいなかった海尊。作品はこの対照を一人のサーヴァントに重ね、「弁慶を演じる海尊」という人物を作り出した。",
+      "claimIds": [
+        "fgo-benkei-cmp",
+        "fgo-benkei-myth-death",
+        "fgo-benkei-myth-kaison"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-benkei-work",
+      "text": "武蔵坊弁慶はランサーのサーヴァントだが、その正体は弁慶を名乗る常陸坊海尊である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-benkei-myth-swords",
+      "text": "弁慶は人の太刀を千本取って宝にしようと夜な夜な京中で太刀を奪い、九百九十九本を集めたのち、牛若に敗れて主従の契りを結んだ。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第三「弁慶洛中にて人の太刀を奪ひ取る事」「弁慶義経に君臣の契約申す事」"
+    },
+    {
+      "id": "fgo-benkei-myth-death",
+      "text": "衣川の合戦で弁慶は鎧に無数の矢を受けながら戦い、薙刀を逆さに杖にして仁王立ちのまま死んだ。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第八「衣河合戦の事」"
+    },
+    {
+      "id": "fgo-benkei-myth-kaison",
+      "text": "衣川の合戦の朝、常陸坊をはじめとする十一人は近くの山寺を拝みに出ていて戻らなかった。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第八「衣河合戦の事」"
+    },
+    {
+      "id": "fgo-benkei-cmp",
+      "text": "作品は、原典で対照的な運命をたどった弁慶と海尊を一人の人物に重ねている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "gikeiki"],
+  "articleIds": []
+}

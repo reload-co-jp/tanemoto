@@ -1,0 +1,80 @@
+{
+  "id": "fgo-scathach",
+  "slug": "fgo-scathach",
+  "name": "スカサハ",
+  "reading": "すかさは",
+  "alternativeNames": ["ランサー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "ランサーのサーヴァント。影の国の女王で、クー・フーリンに槍の技を教えた師。長く生きすぎて死ねなくなった存在とされ、死を望んでいる。2本の魔槍ゲイ・ボルグを操る。",
+    "claimIds": ["fgo-sca-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "scathach",
+      "label": "クー・フーリンの師",
+      "inWork": {
+        "text": "クー・フーリンの師匠として、ゲイ・ボルグの技を伝えた。",
+        "claimIds": ["fgo-sca-work"]
+      },
+      "inMyth": {
+        "text": "『クアルンゲの牛捕り』では、クー・フーリンとフェル・ディアドがともにスカアハのもとで同じ戦いの技を学んだ。",
+        "claimIds": ["fgo-sca-myth-teacher"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "scathach",
+      "label": "ゲイ・ボルグ",
+      "inWork": {
+        "text": "ゲイ・ボルグを2本携え、投げ放つ宝具をもつ。",
+        "claimIds": ["fgo-sca-work"]
+      },
+      "inMyth": {
+        "text": "クー・フーリンには、フェル・ディアドのもたない技はゲイ・ボルグ以外になかった。",
+        "claimIds": ["fgo-sca-myth-gaebolg"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のスカアハは、英雄に武芸を教えた女戦士として語られる。作品はそこに「死ねない女王」という設定を加え、ゲイ・ボルグの使い手として前面に押し出している。",
+      "claimIds": ["fgo-sca-cmp", "fgo-sca-myth-teacher"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-sca-work",
+      "text": "スカサハはランサーのサーヴァントで、影の国の女王。クー・フーリンの師で、長く生きすぎて死ねなくなり、死を望んでいる。2本のゲイ・ボルグを使う。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-sca-myth-teacher",
+      "text": "クー・フーリンとフェル・ディアドは、ともにスカアハのもとで同じ戦いの技を学んだ。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 174頁・207頁"
+    },
+    {
+      "id": "fgo-sca-myth-gaebolg",
+      "text": "クー・フーリンには、フェル・ディアドのもたない技はゲイ・ボルグ以外になかった。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 196頁"
+    },
+    {
+      "id": "fgo-sca-cmp",
+      "text": "「死ねない女王」という性格づけは原典にはない作品独自の設定である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "tain-bo-cuailnge"],
+  "articleIds": []
+}

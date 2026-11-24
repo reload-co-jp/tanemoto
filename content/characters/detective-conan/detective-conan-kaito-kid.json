@@ -1,0 +1,80 @@
+{
+  "id": "detective-conan-kaito-kid",
+  "slug": "detective-conan-kaito-kid",
+  "name": "怪盗キッド",
+  "reading": "かいとうきっど",
+  "alternativeNames": ["黒羽快斗", "怪盗1412号"],
+  "workId": "detective-conan",
+  "description": {
+    "text": "宝石を狙う神出鬼没の怪盗。マジックを駆使する盗みの手口から「平成のアルセーヌ・ルパン」と呼ばれる。正体は高校生の黒羽快斗で、もとは青山剛昌の漫画『まじっく快斗』の主人公。初代キッドは父の黒羽盗一。",
+    "claimIds": ["dc-kid-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "arsene-lupin",
+      "label": "アルセーヌ・ルパン",
+      "inWork": {
+        "text": "作中で「平成のアルセーヌ・ルパン」と称される。",
+        "claimIds": ["dc-kid-work"]
+      },
+      "inMyth": {
+        "text": "ルブランの『怪盗紳士ルパン』では、ニューヨーク行きの客船に「アルセーヌ・ルパンが偽名で乗っている」という無線が届き、乗客たちが正体を探る。",
+        "claimIds": ["dc-kid-myth-lupin"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "sherlock-holmes",
+      "label": "名探偵との対決",
+      "inWork": {
+        "text": "コナン（工藤新一）とたびたび対決する好敵手。",
+        "claimIds": ["dc-kid-work"]
+      },
+      "inMyth": {
+        "text": "ルブランは自作にシャーロック・ホームズ（のちにエルロック・ショルメス）を登場させ、ルパンと対決させた。",
+        "claimIds": ["dc-kid-myth-holmes"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "名探偵と怪盗紳士の対決という構図は、ルブランがルパンとホームズを対決させたことにさかのぼる。",
+      "claimIds": ["dc-kid-cmp", "dc-kid-myth-holmes"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dc-kid-work",
+      "text": "怪盗キッドは「平成のアルセーヌ・ルパン」と呼ばれる怪盗で、正体は黒羽快斗。『まじっく快斗』の主人公で、初代キッドは父の黒羽盗一。",
+      "classification": "creative",
+      "sourceIds": ["work-detective-conan"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "dc-kid-myth-lupin",
+      "text": "客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という無線が届き、乗客たちは誰がルパンかを探った。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "id": "dc-kid-myth-holmes",
+      "text": "『怪盗紳士ルパン』の最後の短編で、ルパンはシャーロック・ホームズと出会う。ドイルの抗議により、のちの版ではエルロック・ショルメスと改名された。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「遅かりしシャーロック・ホームズ」"
+    },
+    {
+      "id": "dc-kid-cmp",
+      "text": "探偵と怪盗の対決の構図は、ルパン対ホームズの系譜に連なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-detective-conan", "leblanc-gentleman-burglar"],
+  "articleIds": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "disney-little-mermaid-ariel",
+  "slug": "disney-little-mermaid-ariel",
+  "name": "アリエル",
+  "reading": "ありえる",
+  "alternativeNames": [],
+  "workId": "disney-little-mermaid",
+  "description": {
+    "text": "主人公。海の王トリトンの末娘の人魚で、人間の世界に憧れている。王子エリックに恋をし、海の魔女アースラに声を差し出して人間の足を得る。最後はアースラを倒し、エリックと結ばれる。",
+    "claimIds": ["dlm-ariel-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "little-mermaid",
+      "label": "人魚姫",
+      "inWork": {
+        "text": "人間の王子に恋する海の王の末娘。",
+        "claimIds": ["dlm-ariel-work"]
+      },
+      "inMyth": {
+        "text": "人魚姫は、人間には死後も滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願った。",
+        "claimIds": ["dlm-ariel-myth-soul"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "little-mermaid",
+      "label": "声と引き換えの足",
+      "inWork": {
+        "text": "魔女アースラに声を渡して人間になる。",
+        "claimIds": ["dlm-ariel-work"]
+      },
+      "inMyth": {
+        "text": "人魚姫は魔女に声を差し出して人間の足を得た。王子が別の姫と結婚すると、王子を殺して人魚に戻ることを拒み、海に身を投げて泡となった。",
+        "claimIds": ["dlm-ariel-myth-end"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の人魚姫は王子と結ばれずに泡となるが、映画では恋が実る結末に改められた。原典で人魚姫が求めていた「不滅の魂」というテーマも映画にはない。",
+      "claimIds": ["dlm-ariel-cmp", "dlm-ariel-myth-soul", "dlm-ariel-myth-end"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dlm-ariel-work",
+      "text": "アリエルは海の王トリトンの末娘で、海の魔女アースラに声を渡して人間の足を得る。最後はアースラを倒して王子エリックと結ばれる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-little-mermaid"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "dlm-ariel-myth-soul",
+      "text": "人魚姫は、人間には死後も滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願った。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    },
+    {
+      "id": "dlm-ariel-myth-end",
+      "text": "人魚姫は魔女に声を差し出して足を得た。王子が別の姫と結婚すると、人魚姫は王子を殺して人魚に戻ることを拒み、海に身を投げて泡となった。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    },
+    {
+      "id": "dlm-ariel-cmp",
+      "text": "映画は悲劇的な原作の結末を幸福な結末に変えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-disney-little-mermaid", "andersen-little-mermaid"],
+  "articleIds": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "saiyuki",
+  "slug": "saiyuki",
+  "title": "最遊記",
+  "reading": "さいゆうき",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime"],
+  "author": "峰倉かずや",
+  "period": "1997年〜（『最遊記』『最遊記RELOAD』などシリーズで連載）",
+  "description": "『西遊記』を大胆に翻案した漫画。妖怪が暴走を始めた桃源郷を舞台に、三蔵法師・玄奘三蔵と、孫悟空・沙悟浄・猪八戒の三人の妖怪がジープに乗って西へ旅する。原典の人物名を下敷きにしながら、銃を撃つ破戒僧など現代的な人物像に描き替えている。",
+  "mythologyIds": ["chinese"],
+  "articleIds": [],
+  "sourceIds": ["work-saiyuki"]
+}

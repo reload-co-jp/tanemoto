@@ -1,0 +1,14 @@
+{
+  "id": "kingdom",
+  "slug": "kingdom",
+  "title": "キングダム",
+  "reading": "きんぐだむ",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime", "film"],
+  "author": "原泰久",
+  "period": "2006年〜（『週刊ヤングジャンプ』連載）",
+  "description": "中国の春秋戦国時代を舞台に、天下の大将軍を目指す戦災孤児の少年・信と、中華統一を志す秦の若き王・嬴政の歩みを描く歴史漫画。司馬遷の『史記』に記された人物や戦いを下敷きにしている。",
+  "mythologyIds": ["ancient-china"],
+  "articleIds": [],
+  "sourceIds": ["work-kingdom"]
+}

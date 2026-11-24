@@ -1,0 +1,80 @@
+{
+  "id": "sherlock-bbc-sherlock",
+  "slug": "sherlock-bbc-sherlock",
+  "name": "シャーロック・ホームズ",
+  "reading": "しゃーろっく・ほーむず",
+  "alternativeNames": ["シャーロック"],
+  "workId": "sherlock-bbc",
+  "description": {
+    "text": "現代のロンドンに住む「顧問探偵」。卓越した観察と推理で事件を解く。アフガニスタン帰りの元軍医ジョン・ワトソンと、ベーカー街221Bで同居する。",
+    "claimIds": ["sb-sherlock-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "sherlock-holmes",
+      "label": "諮問探偵",
+      "inWork": {
+        "text": "自らを顧問探偵と称する。",
+        "claimIds": ["sb-sherlock-work"]
+      },
+      "inMyth": {
+        "text": "ホームズは『緋色の研究』で、自分を「諮問探偵」だと説明した。",
+        "claimIds": ["sb-sherlock-myth-consult"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "sherlock-holmes",
+      "label": "ワトソンとの出会い",
+      "inWork": {
+        "text": "相棒ジョンはアフガニスタン帰りの軍医。",
+        "claimIds": ["sb-sherlock-work"]
+      },
+      "inMyth": {
+        "text": "ワトソンは軍医としてアフガニスタンの戦争に従軍し、負傷して帰国したのちホームズと出会った。",
+        "claimIds": ["sb-sherlock-myth-watson"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "舞台は現代に移されたが、ワトソンがアフガニスタン帰りの軍医である点は原作と同じである。19世紀と21世紀の両方でイギリスがアフガニスタンで戦っていたことが、この設定をそのまま生かせた理由となっている。",
+      "claimIds": ["sb-sherlock-cmp", "sb-sherlock-myth-watson"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sb-sherlock-work",
+      "text": "シャーロック・ホームズは現代ロンドンの顧問探偵で、アフガニスタン帰りの元軍医ジョン・ワトソンとベーカー街221Bで同居する。",
+      "classification": "creative",
+      "sourceIds": ["work-sherlock-bbc"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sb-sherlock-myth-consult",
+      "text": "ホームズは『緋色の研究』で、自分を「諮問探偵」だと説明した。",
+      "classification": "fact",
+      "sourceIds": ["doyle-study-in-scarlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『緋色の研究』第1部 第2章"
+    },
+    {
+      "id": "sb-sherlock-myth-watson",
+      "text": "ワトソンは軍医としてアフガニスタンの戦争に従軍し、マイワンドの戦いで負傷してイギリスに帰国した。その後ホームズと知り合い、ベーカー街221Bで部屋を分け合った。",
+      "classification": "fact",
+      "sourceIds": ["doyle-study-in-scarlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『緋色の研究』第1部 第1章"
+    },
+    {
+      "id": "sb-sherlock-cmp",
+      "text": "原作の設定が現代にもそのまま通用する点を、ドラマは巧みに利用している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-sherlock-bbc", "doyle-study-in-scarlet"],
+  "articleIds": []
+}

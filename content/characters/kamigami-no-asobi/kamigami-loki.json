@@ -1,0 +1,60 @@
+{
+  "id": "kamigami-loki",
+  "slug": "kamigami-loki",
+  "name": "ロキ・レーヴァテイン",
+  "reading": "ろき・れーゔぁていん",
+  "alternativeNames": ["ロキ"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "北欧のいたずら好きの神。バルドルの幼なじみの親友で、トールとも行動をともにする。",
+    "claimIds": ["kami-loki-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "figureId": "loki",
+      "label": "トリックスター",
+      "inWork": {
+        "text": "いたずらを好み、周囲を振り回す。",
+        "claimIds": ["kami-loki-work"]
+      },
+      "inMyth": {
+        "text": "ロキは狡知にすぐれ、神々を大きな窮地に陥れては悪知恵で救い出した。",
+        "claimIds": ["kami-loki-myth-trick"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のロキはいたずらの域を超えてバルドルの死を招くが、作品ではバルドルを大切にする親友として描かれる。",
+      "claimIds": ["kami-loki-cmp", "kami-loki-myth-trick"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-loki-work",
+      "text": "ロキ・レーヴァテインはいたずら好きの北欧の神で、バルドルの幼なじみの親友。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-loki-myth-trick",
+      "text": "ロキは狡知にすぐれ、神々を大きな窮地に陥れては悪知恵で救い出した。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "kami-loki-cmp",
+      "text": "作品のロキは、原典より友情に厚い人物として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kamigami-no-asobi", "snorri-edda"],
+  "articleIds": []
+}

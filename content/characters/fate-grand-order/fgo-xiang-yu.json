@@ -1,0 +1,80 @@
+{
+  "id": "fgo-xiang-yu",
+  "slug": "fgo-xiang-yu",
+  "name": "項羽",
+  "reading": "こうう",
+  "alternativeNames": ["バーサーカー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "バーサーカーのサーヴァント。秦末に「西楚の覇王」を名乗った項羽が、人馬一体の異形の姿で現界した。妻の虞美人（虞美人も別のサーヴァントとして登場する）とともに描かれる。",
+    "claimIds": ["fgo-xiangyu-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "xiang-yu",
+      "label": "西楚の覇王",
+      "inWork": {
+        "text": "比類なき武勇の覇王として描かれる。",
+        "claimIds": ["fgo-xiangyu-work"]
+      },
+      "inMyth": {
+        "text": "項羽は身の丈八尺あまり、鼎を持ち上げるほどの力があり、秦を滅ぼしたのち「西楚の覇王」と号した。",
+        "claimIds": ["fgo-xiangyu-myth-hegemon"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "xiang-yu",
+      "label": "垓下の歌と虞美人",
+      "inWork": {
+        "text": "虞美人との関係が物語の軸となる。",
+        "claimIds": ["fgo-xiangyu-work"]
+      },
+      "inMyth": {
+        "text": "垓下で漢軍に囲まれた項羽は、四面から楚の歌が聞こえるのを聞いて嘆き、寵愛する虞美人を前に「力は山を抜き、気は世を蓋う」と歌った。",
+        "claimIds": ["fgo-xiangyu-myth-gaixia"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で項羽と虞美人が別れる垓下の場面が、作品の二人の関係の下敷きになっている。人馬一体の姿は作品独自の造形である。",
+      "claimIds": ["fgo-xiangyu-cmp", "fgo-xiangyu-myth-gaixia"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-xiangyu-work",
+      "text": "項羽はバーサーカーのサーヴァントで、人馬一体の異形の姿で描かれる。虞美人は別のサーヴァントとして登場し、項羽を愛している。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-xiangyu-myth-hegemon",
+      "text": "項籍（字は羽）は身の丈八尺あまりで、鼎を持ち上げるほどの力があった。秦を滅ぼしたのち、自ら西楚の覇王と号した。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    },
+    {
+      "id": "fgo-xiangyu-myth-gaixia",
+      "text": "垓下で漢軍に幾重にも囲まれた項羽は、夜に四面から楚歌が聞こえるのを聞いて驚き、虞美人を前に「力抜山兮気蓋世」と悲歌をうたった。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    },
+    {
+      "id": "fgo-xiangyu-cmp",
+      "text": "作品の項羽と虞美人の物語は、『史記』の垓下の場面を土台にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "shiji"],
+  "articleIds": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "hades-2-hermes",
+  "slug": "hades-2-hermes",
+  "name": "ヘルメス",
+  "reading": "へるめす",
+  "alternativeNames": [],
+  "workId": "hades-2",
+  "description": {
+    "text": "オリュンポスの神々の使者。メリノエに素早さを高める力を授ける。",
+    "claimIds": ["h2-hermes-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hermes",
+      "label": "神々の使者",
+      "inWork": {
+        "text": "俊足の使者として、速さにかかわる力を与える。",
+        "claimIds": ["h2-hermes-work"]
+      },
+      "inMyth": {
+        "text": "ゼウスはヘルメスを、自分と冥界の神々の伝令に任じた。",
+        "claimIds": ["h2-hermes-myth-herald"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のヘルメスはオリュンポスと冥界を行き来する伝令であり、冥界の王女メリノエを助ける役どころにふさわしい。",
+      "claimIds": ["h2-hermes-cmp", "h2-hermes-myth-herald"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "h2-hermes-work",
+      "text": "ヘルメスはメリノエに恩恵を授ける神々の使者で、素早さにかかわる力を与える。",
+      "classification": "creative",
+      "sourceIds": ["work-hades-2"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "h2-hermes-myth-herald",
+      "text": "ゼウスはヘルメスを、自分と冥界の神々の伝令に任じた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "h2-hermes-cmp",
+      "text": "冥界とも行き来する伝令という原典の役割が、作品での位置づけと重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades-2", "apollodorus-library"],
+  "articleIds": []
+}

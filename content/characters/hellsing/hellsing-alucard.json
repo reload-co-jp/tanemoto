@@ -1,0 +1,100 @@
+{
+  "id": "hellsing-alucard",
+  "slug": "hellsing-alucard",
+  "name": "アーカード",
+  "reading": "あーかーど",
+  "alternativeNames": ["ドラキュラ伯爵"],
+  "workId": "hellsing",
+  "description": {
+    "text": "ヘルシング機関に仕える吸血鬼で、当主インテグラ・ヘルシングを主人とする。その正体は、かつてエイブラハム・ヴァン・ヘルシングに敗れたドラキュラ伯爵である。名の「アーカード（Alucard）」は「Dracula」を逆さに綴ったもの。",
+    "claimIds": ["hs-alucard-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "dracula",
+      "label": "ドラキュラ伯爵",
+      "inWork": {
+        "text": "正体はドラキュラ伯爵。",
+        "claimIds": ["hs-alucard-work"]
+      },
+      "inMyth": {
+        "text": "ヴァン・ヘルシングは、ドラキュラをかつて大河を越えて何度もトルコの地に軍を進めた武将（ヴォイヴォド）だと語る。",
+        "claimIds": ["hs-alucard-myth-voivode"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "dracula",
+      "label": "鏡に映らない吸血鬼",
+      "inWork": {
+        "text": "人知を超えた力をもつ不死の吸血鬼。",
+        "claimIds": ["hs-alucard-work"]
+      },
+      "inMyth": {
+        "text": "ハーカーがひげを剃っていると背後に伯爵が現れたが、鏡には伯爵の姿は映っていなかった。",
+        "claimIds": ["hs-alucard-myth-mirror"]
+      }
+    },
+    {
+      "aspect": "role",
+      "label": "ヴァン・ヘルシング",
+      "inWork": {
+        "text": "アーカードはヘルシング家に忠誠を誓い、その当主に仕える。",
+        "claimIds": ["hs-alucard-work"]
+      },
+      "inMyth": {
+        "text": "『吸血鬼ドラキュラ』では、アムステルダムのヴァン・ヘルシング教授が一行を率いてドラキュラを追い詰めた。",
+        "claimIds": ["hs-alucard-myth-vh"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でドラキュラを滅ぼしたヴァン・ヘルシングの一族に、ドラキュラ自身が仕えているという逆転が作品の核になっている。",
+      "claimIds": ["hs-alucard-cmp", "hs-alucard-myth-vh"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hs-alucard-work",
+      "text": "アーカードはヘルシング機関に仕える吸血鬼で、ヘルシング家に忠誠を誓っている。その正体はドラキュラ伯爵で、名は Dracula の逆綴りである。",
+      "classification": "creative",
+      "sourceIds": ["work-hellsing"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "hs-alucard-myth-voivode",
+      "text": "ヴァン・ヘルシングは、ドラキュラをかつて大河を越えて何度もトルコの地に軍を進め、打ち負かされても再び戻ってきた武将だと語る。",
+      "classification": "fact",
+      "sourceIds": ["stoker-dracula"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『吸血鬼ドラキュラ』第25章"
+    },
+    {
+      "id": "hs-alucard-myth-mirror",
+      "text": "ハーカーがひげを剃っていると背後に伯爵が現れたが、鏡には部屋全体が映っているのに伯爵の姿は映っていなかった。",
+      "classification": "fact",
+      "sourceIds": ["stoker-dracula"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『吸血鬼ドラキュラ』第2章"
+    },
+    {
+      "id": "hs-alucard-myth-vh",
+      "text": "アムステルダムのヴァン・ヘルシング教授は、吸血鬼の知識をもとにハーカーらを率いてドラキュラを追った。最後はハーカーとモリスの刃が伯爵を滅ぼした。",
+      "classification": "fact",
+      "sourceIds": ["stoker-dracula"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『吸血鬼ドラキュラ』第9章・第27章"
+    },
+    {
+      "id": "hs-alucard-cmp",
+      "text": "宿敵の一族に仕えるドラキュラという逆転が、作品の独創である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hellsing", "stoker-dracula"],
+  "articleIds": []
+}

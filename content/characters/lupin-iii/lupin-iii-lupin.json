@@ -1,0 +1,84 @@
+{
+  "id": "lupin-iii-lupin",
+  "slug": "lupin-iii-lupin",
+  "name": "ルパン三世",
+  "reading": "るぱんさんせい",
+  "alternativeNames": ["アルセーヌ・ルパン三世"],
+  "workId": "lupin-iii",
+  "description": {
+    "text": "主人公の大泥棒。フランスの怪盗アルセーヌ・ルパンの孫とされ、変装と大胆な盗みで世界中のお宝を狙う。",
+    "claimIds": ["lupin-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "arsene-lupin",
+      "label": "アルセーヌ・ルパン",
+      "inWork": {
+        "text": "怪盗アルセーヌ・ルパンの孫という設定。",
+        "claimIds": ["lupin-work"]
+      },
+      "inMyth": {
+        "text": "ルブランの『怪盗紳士ルパン』で、アルセーヌ・ルパンは偽名で客船に乗りこみ、乗客たちのあいだにまぎれて正体を隠した。",
+        "claimIds": ["lupin-myth-arrest"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "arsene-lupin",
+      "label": "変装の名人",
+      "inWork": {
+        "text": "変装を得意とする。",
+        "claimIds": ["lupin-work"]
+      },
+      "inMyth": {
+        "text": "ルパンは20歳で「ラウール・ダンドレジー」と名乗り、カリオストロ伯爵夫人をめぐる冒険に巻き込まれた。",
+        "claimIds": ["lupin-myth-cagliostro"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のルパンは紳士的な怪盗だが、ルパン三世はより軽妙で、ハードボイルドな相棒たちと組む泥棒として描かれる。",
+      "claimIds": ["lupin-cmp", "lupin-myth-arrest"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "lupin-work",
+      "text": "ルパン三世はフランスの怪盗アルセーヌ・ルパンの孫とされる大泥棒で、変装を得意とする。",
+      "classification": "creative",
+      "sourceIds": ["work-lupin-iii"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "lupin-myth-arrest",
+      "text": "ニューヨーク行きの客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という無線が届き、乗客たちは正体を探ったが、ルパンは乗客にまぎれていた。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "id": "lupin-myth-cagliostro",
+      "text": "20歳のルパンは「ラウール・ダンドレジー」と名乗り、カリオストロ伯爵夫人をめぐる冒険に巻き込まれる。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-cagliostro"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カリオストロ伯爵夫人』"
+    },
+    {
+      "id": "lupin-cmp",
+      "text": "ルパン三世は、祖父の紳士怪盗のイメージを軽妙な泥棒像へと変えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-lupin-iii",
+    "leblanc-gentleman-burglar",
+    "leblanc-cagliostro"
+  ],
+  "articleIds": []
+}

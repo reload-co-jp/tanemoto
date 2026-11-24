@@ -1,0 +1,84 @@
+{
+  "id": "persona-3-junpei",
+  "slug": "persona-3-junpei",
+  "name": "伊織順平",
+  "reading": "いおりじゅんぺい",
+  "alternativeNames": ["順平"],
+  "workId": "persona-3",
+  "description": {
+    "text": "主人公のクラスメイトで、特別課外活動部のメンバー。お調子者のムードメーカー。ペルソナは「魔術師」のアルカナのヘルメスで、のちにトリスメギストスに変わる。",
+    "claimIds": ["p3-junpei-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "hermes",
+      "label": "ヘルメス",
+      "inWork": {
+        "text": "翼のある姿のペルソナ「ヘルメス」を使う。",
+        "claimIds": ["p3-junpei-work"]
+      },
+      "inMyth": {
+        "text": "ヘルメスはゼウスとマイアの子で、ゼウスは彼を自分と冥界の神々の伝令に任じた。",
+        "claimIds": ["p3-junpei-myth-herald"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "thoth",
+      "label": "トリスメギストス",
+      "inWork": {
+        "text": "ペルソナは「トリスメギストス（三倍偉大な者）」へと変わる。",
+        "claimIds": ["p3-junpei-work"]
+      },
+      "inMyth": {
+        "text": "ギリシャ人はエジプトの知恵の神トトをヘルメスと同一視し、プルタルコスはトトをヘルメスの名で呼ぶ。",
+        "claimIds": ["p3-junpei-myth-thoth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「ヘルメス・トリスメギストス」は、ギリシャのヘルメスとエジプトのトトが重ねられて生まれた名である。ペルソナの変化はこの習合を下敷きにしていると考えられる。",
+      "claimIds": ["p3-junpei-cmp", "p3-junpei-myth-thoth"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-junpei-work",
+      "text": "伊織順平のペルソナは魔術師のアルカナのヘルメスで、のちにトリスメギストスを得る。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "p3-junpei-myth-herald",
+      "text": "マイアはゼウスと交わりキュレネの洞窟でヘルメスを産んだ。ゼウスはヘルメスを自分と冥界の神々の伝令に任じた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "p3-junpei-myth-thoth",
+      "text": "プルタルコスは、エジプトの神トトをヘルメスの名で呼んでいる。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12–13章"
+    },
+    {
+      "id": "p3-junpei-cmp",
+      "text": "トリスメギストスへの変化は、ヘルメスとトトの同一視を踏まえたものと読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-persona-3",
+    "apollodorus-library",
+    "plutarch-isis-osiris"
+  ],
+  "articleIds": []
+}

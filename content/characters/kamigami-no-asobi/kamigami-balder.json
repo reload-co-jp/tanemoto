@@ -1,0 +1,106 @@
+{
+  "id": "kamigami-balder",
+  "slug": "kamigami-balder",
+  "name": "バルドル・フリングホルニ",
+  "reading": "ばるどる・ふりんぐほるに",
+  "alternativeNames": ["バルドル"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "北欧の光の神。誰からも愛される美しい神だが、感情が乱れると目覚める「破壊神」の力を秘めている。ロキとは幼なじみの親友。",
+    "claimIds": ["kami-balder-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "baldr",
+      "label": "光の神バルドル",
+      "inWork": {
+        "text": "誰からも好かれる輝かしい神として描かれる。",
+        "claimIds": ["kami-balder-work"]
+      },
+      "inMyth": {
+        "text": "バルドルはオーディンの二番目の息子で、あまりに美しく輝かしいので光がそこから射すといわれた。",
+        "claimIds": ["kami-balder-myth-light"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "baldr",
+      "label": "フリングホルニ",
+      "inWork": {
+        "text": "名の「フリングホルニ」は神話に登場する船の名。",
+        "claimIds": ["kami-balder-work"]
+      },
+      "inMyth": {
+        "text": "バルドルが死ぬと、神々はその亡骸を船フリングホルニに運び、火葬の薪に火を放った。",
+        "claimIds": ["kami-balder-myth-ship"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "loki",
+      "label": "ロキとの関係",
+      "inWork": {
+        "text": "ロキとは幼なじみの親友。",
+        "claimIds": ["kami-balder-work"]
+      },
+      "inMyth": {
+        "text": "ロキはヤドリギを盲目のヘズに投げさせ、バルドルを死なせた。",
+        "claimIds": ["kami-balder-myth-loki"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でバルドルを死に追いやるのはロキだが、作品では二人を親友としている。名の「フリングホルニ」はバルドルの葬送の船の名である。",
+      "claimIds": [
+        "kami-balder-cmp",
+        "kami-balder-myth-loki",
+        "kami-balder-myth-ship"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-balder-work",
+      "text": "バルドル・フリングホルニは誰からも愛される北欧の神で、感情が不安定になると目覚める破壊神の力を生まれつきもつ。ロキの幼なじみで親友。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-balder-myth-light",
+      "text": "バルドルはオーディンの二番目の息子で、あまりに美しく輝かしいので、光がそこから射すといわれた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 22章"
+    },
+    {
+      "id": "kami-balder-myth-ship",
+      "text": "神々はバルドルの亡骸を海辺に運んだ。バルドルの船はフリングホルニといい、あらゆる船の中で最も大きかった。神々はその船に火葬の薪を積んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    },
+    {
+      "id": "kami-balder-myth-loki",
+      "text": "ロキはヤドリギを取ってきて盲目のヘズに渡し、狙いを教えて投げさせた。ヤドリギはバルドルを貫いた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    },
+    {
+      "id": "kami-balder-cmp",
+      "text": "作品は原典の仇敵関係を友情に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-kamigami-no-asobi", "snorri-edda"],
+  "articleIds": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "fate-zero-berserker",
+  "slug": "fate-zero-berserker",
+  "name": "バーサーカー",
+  "reading": "ばーさーかー",
+  "alternativeNames": ["ランスロット"],
+  "workId": "fate-zero",
+  "description": {
+    "text": "第四次聖杯戦争で間桐雁夜が召喚したサーヴァント。黒い霧に包まれた狂戦士で、真名は円卓の騎士ランスロット。手にしたものを自分の宝具にする能力をもち、セイバー（アルトリア）に激しい執着を見せる。",
+    "claimIds": ["fz-lancelot-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "lancelot",
+      "label": "湖の騎士ランスロット",
+      "inWork": {
+        "text": "正体を隠した狂戦士として戦い、最後に真名が明かされる。",
+        "claimIds": ["fz-lancelot-work"]
+      },
+      "inMyth": {
+        "text": "ランスロットはベンウィックのバン王の子である。",
+        "claimIds": ["fz-lancelot-myth-ban"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "lancelot",
+      "label": "王妃との関係と円卓の崩壊",
+      "inWork": {
+        "text": "王を裏切った罪悪感から、セイバーに裁かれることを望んで狂気に陥ったとされる。",
+        "claimIds": ["fz-lancelot-work-guilt"]
+      },
+      "inMyth": {
+        "text": "ランスロットと王妃グィネヴィアの関係が明かされたことからアーサーはランスロットと戦い、その留守中にモードレッドが王位を奪った。",
+        "claimIds": ["fz-lancelot-myth-fall"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でランスロットと王妃の関係は円卓崩壊のきっかけとなった。作品はその罪の意識を、狂化したサーヴァントの姿として描いている。",
+      "claimIds": ["fz-lancelot-cmp", "fz-lancelot-myth-fall"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fz-lancelot-work",
+      "text": "バーサーカーは間桐雁夜のサーヴァントで、真名はランスロット。手にしたものを自分の宝具にする能力をもち、セイバーに執着する。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fz-lancelot-work-guilt",
+      "text": "ランスロットは王を裏切った罪から、王に裁かれることを望んでいた。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-zero"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fz-lancelot-myth-ban",
+      "text": "ランスロットはベンウィックのバン王の子である。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第1章"
+    },
+    {
+      "id": "fz-lancelot-myth-fall",
+      "text": "ランスロットと王妃の関係が明かされたことからアーサーはランスロットと戦い、その留守中にモードレッドが王位を奪った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第20巻第1〜2章・第10章、第21巻第1章"
+    },
+    {
+      "id": "fz-lancelot-cmp",
+      "text": "作品はランスロットの罪悪感を、狂化という形で表現している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-zero", "malory-morte-darthur"],
+  "articleIds": []
+}

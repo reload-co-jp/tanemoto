@@ -1,0 +1,87 @@
+{
+  "id": "saiyuki-cho-hakkai",
+  "slug": "saiyuki-cho-hakkai",
+  "name": "猪八戒",
+  "reading": "ちょはっかい",
+  "alternativeNames": ["八戒", "猪悟能"],
+  "workId": "saiyuki",
+  "description": {
+    "text": "三蔵一行の一人。穏やかな物腰の青年で、白竜（ハクリュウ）が変身したジープを運転する。もとは猪悟能という人間だったが、愛する女性・花喃を妖怪に奪われ、多くの妖怪を殺してその血を浴び、妖怪となった。",
+    "claimIds": ["sy-hakkai-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "zhu-bajie",
+      "label": "猪悟能・猪八戒",
+      "inWork": {
+        "text": "人間だったころの名は猪悟能、のちに三蔵から八戒の名を与えられる。",
+        "claimIds": ["sy-hakkai-work", "sy-hakkai-work-name"]
+      },
+      "inMyth": {
+        "text": "観音菩薩は豚の妖怪に「猪悟能」の法名を授け、のちに三蔵は「八戒」という別名を与えた。",
+        "claimIds": ["sy-hakkai-myth-name"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "zhu-bajie",
+      "label": "女性をめぐる過去",
+      "inWork": {
+        "text": "一人の女性への愛が、妖怪になったきっかけとなる。",
+        "claimIds": ["sy-hakkai-work"]
+      },
+      "inMyth": {
+        "text": "猪八戒はもとは天蓬元帥で、酒に酔って嫦娥に戯れたため下界に落とされ、豚の姿となった。",
+        "claimIds": ["sy-hakkai-myth-origin"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「女性」が転落のきっかけになる点は原典と共通するが、原典の八戒が好色な道化役なのに対し、作品の八戒は悲しい過去を背負った冷静な人物として描かれる。",
+      "claimIds": ["sy-hakkai-cmp", "sy-hakkai-myth-origin"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sy-hakkai-work",
+      "text": "猪八戒はもとは猪悟能という人間で、愛する女性・花喃を奪われた報復に多くの妖怪を殺し、妖怪となった。白竜がジープに変身し、八戒が運転する。",
+      "classification": "creative",
+      "sourceIds": ["work-saiyuki"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sy-hakkai-work-name",
+      "text": "猪悟能は三蔵から八戒の名を与えられる。",
+      "classification": "creative",
+      "sourceIds": ["work-saiyuki"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sy-hakkai-myth-name",
+      "text": "観音菩薩は豚の妖怪に猪悟能の法名を与えた。のちに三蔵は彼に八戒という別名をつけた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第8回・第19回"
+    },
+    {
+      "id": "sy-hakkai-myth-origin",
+      "text": "猪八戒はもとは天河の天蓬元帥で、酒に酔って嫦娥に戯れたため玉帝に打たれて下界に落とされ、豚の胎に宿った。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第8回"
+    },
+    {
+      "id": "sy-hakkai-cmp",
+      "text": "作品は八戒を、道化役から悲劇的な過去をもつ人物へと描き替えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-saiyuki", "xiyouji"],
+  "articleIds": []
+}

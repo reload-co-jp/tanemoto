@@ -1,0 +1,80 @@
+{
+  "id": "fgo-quetzalcoatl",
+  "slug": "fgo-quetzalcoatl",
+  "name": "ケツァル・コアトル",
+  "reading": "けつぁる・こあとる",
+  "alternativeNames": ["ライダー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "ライダーのサーヴァント。アステカの善神ケツァルコアトルが、明るく陽気な女性の姿で現界した。第七特異点バビロニアで登場し、ルチャ・リブレ（メキシコのプロレス）をこよなく愛する。",
+    "claimIds": ["fgo-qc-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "quetzalcoatl",
+      "label": "羽毛ある蛇",
+      "inWork": {
+        "text": "翼ある蛇の神として、空を飛ぶ竜や羽根を思わせる装いで描かれる。",
+        "claimIds": ["fgo-qc-work"]
+      },
+      "inMyth": {
+        "text": "ケツァルコアトルの名は、ナワトル語のケツァリ（ケツァル鳥の羽）とコアトル（蛇）からなる。",
+        "claimIds": ["fgo-qc-myth-name"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "quetzalcoatl",
+      "label": "風の神・トゥーラの神",
+      "inWork": {
+        "text": "善神として人間を愛する。",
+        "claimIds": ["fgo-qc-work"]
+      },
+      "inMyth": {
+        "text": "サアグンによれば、ケツァルコアトルは風の神とされ、雨の神々のために道を掃き清めるといわれた。トゥーラでは古くから神として崇められていた。",
+        "claimIds": ["fgo-qc-myth-wind"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の風の神・トゥーラの王の物語に、作品は「ルチャ・リブレ好きの女神」という現代メキシコ文化を重ねている。",
+      "claimIds": ["fgo-qc-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-qc-work",
+      "text": "ケツァル・コアトルはライダーのサーヴァントとして女性の姿で現界し、第七特異点バビロニアで登場する。ルチャ・リブレを愛する陽気な善神として描かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-qc-myth-name",
+      "text": "ケツァルコアトルの名は、ナワトル語のケツァリ（ケツァル鳥の羽）とコアトル（蛇）からなる。",
+      "classification": "scholarship",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第5章（羽飾りケツァリの記述）"
+    },
+    {
+      "id": "fgo-qc-myth-wind",
+      "text": "ケツァルコアトルは風の神とされ、雨の神々のために道を掃き清めるといわれた。トゥーラで古くから神として崇められていた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第5章、第3書第3章"
+    },
+    {
+      "id": "fgo-qc-cmp",
+      "text": "ルチャ・リブレは近代メキシコの文化であり、古代の神話とは関係しない作品独自の味つけである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "sahagun-historia"],
+  "articleIds": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "kamigami-thoth",
+  "slug": "kamigami-thoth",
+  "name": "トト・カドゥケウス",
+  "reading": "とと・かどぅけうす",
+  "alternativeNames": ["トト"],
+  "workId": "kamigami-no-asobi",
+  "description": {
+    "text": "エジプトの知恵の神トト。学園の教師で、アヌビスの言葉を理解できる唯一の存在。",
+    "claimIds": ["kami-thoth-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "thoth",
+      "label": "知恵の神トト",
+      "inWork": {
+        "text": "知恵の神として、生徒の神々を教える教師。",
+        "claimIds": ["kami-thoth-work"]
+      },
+      "inMyth": {
+        "text": "「死者の書」の挿絵では、トキの頭のトトが心臓の計量の結果を記録する。",
+        "claimIds": ["kami-thoth-myth-scribe"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "hermes",
+      "label": "カドゥケウス",
+      "inWork": {
+        "text": "名の「カドゥケウス」はヘルメスの杖の名。",
+        "claimIds": ["kami-thoth-work"]
+      },
+      "inMyth": {
+        "text": "ギリシャ人はトトをヘルメスと同一視し、プルタルコスはトトをヘルメスの名で呼ぶ。",
+        "claimIds": ["kami-thoth-myth-hermes"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "エジプトの神でありながらギリシャのヘルメスの杖「カドゥケウス」を名にもつのは、古代にトトとヘルメスが同一視されたことを踏まえていると考えられる。",
+      "claimIds": ["kami-thoth-cmp", "kami-thoth-myth-hermes"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "kami-thoth-work",
+      "text": "トト・カドゥケウスはエジプトの知恵の神で、学園の教師。アヌビスの言葉を理解できる。",
+      "classification": "creative",
+      "sourceIds": ["work-kamigami-no-asobi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「神々の悪戯」・英語版「Kamigami no Asobi」の記述で確認。"
+    },
+    {
+      "id": "kami-thoth-myth-scribe",
+      "text": "「死者の書」第125章の挿絵では、トキの頭のトトが心臓の計量の結果を記録する。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵"
+    },
+    {
+      "id": "kami-thoth-myth-hermes",
+      "text": "プルタルコスは、エジプトの神トトをヘルメスの名で呼んでいる。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12–13章"
+    },
+    {
+      "id": "kami-thoth-cmp",
+      "text": "トトとヘルメスの同一視が、名前の「カドゥケウス」に表れていると読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-kamigami-no-asobi",
+    "book-of-the-dead",
+    "plutarch-isis-osiris"
+  ],
+  "articleIds": []
+}

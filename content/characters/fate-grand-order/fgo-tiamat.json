@@ -1,0 +1,101 @@
+{
+  "id": "fgo-tiamat",
+  "slug": "fgo-tiamat",
+  "name": "ティアマト",
+  "reading": "てぃあまと",
+  "alternativeNames": ["ビーストII"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "第七特異点バビロニアの最終局面に現れる人類悪「ビーストII」。すべての生命の母である原初の女神として、自らの子である魔獣たちを生み出し、人類に代わって地上を支配させようとする。",
+    "claimIds": ["fgo-tia-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "tiamat",
+      "label": "原初の海の女神",
+      "inWork": {
+        "text": "生命の母として、新たな生命（魔獣）を産み続ける。",
+        "claimIds": ["fgo-tia-work"]
+      },
+      "inMyth": {
+        "text": "『エヌマ・エリシュ』の冒頭では、天地が名づけられる前に、アプスーとティアマトが水を混ぜ合わせていた。",
+        "claimIds": ["fgo-tia-myth-origin"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "tiamat",
+      "label": "怪物たちの母",
+      "inWork": {
+        "text": "ラフムなどの魔獣を生み出して人類と戦わせる。",
+        "claimIds": ["fgo-tia-work"]
+      },
+      "inMyth": {
+        "text": "夫アプスーを殺されたのち、ティアマトは毒の血をもつ大蛇や竜、蠍人間などの怪物を生み出し、神々に戦いを挑んだ。",
+        "claimIds": ["fgo-tia-myth-monsters"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "tiamat",
+      "label": "マルドゥクによる死",
+      "inWork": {
+        "text": "カルデアとギルガメシュらの総力戦の末に倒される。",
+        "claimIds": ["fgo-tia-work"]
+      },
+      "inMyth": {
+        "text": "マルドゥクはティアマトを倒し、その体を干し魚のように二つに裂いて、半分を天の覆いとした。",
+        "claimIds": ["fgo-tia-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「怪物を生む母」という原典の姿を、人類にとっての災厄「ビースト」として再解釈している。原典でティアマトを倒すのはマルドゥクだが、作品では人間とサーヴァントたちが立ち向かう。",
+      "claimIds": ["fgo-tia-cmp", "fgo-tia-myth-monsters", "fgo-tia-myth-death"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-tia-work",
+      "text": "ティアマトは第七特異点バビロニアに現れる人類悪ビーストIIで、生命の母たる原初の女神として魔獣（ラフムなど）を生み出し、人類を滅ぼそうとする。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fgo-tia-myth-origin",
+      "text": "天地が名づけられる前に、アプスーとティアマトが水を混ぜ合わせていた。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第1粘土板 1–5行（King 英訳）"
+    },
+    {
+      "id": "fgo-tia-myth-monsters",
+      "text": "アプスーが殺されたのち、ティアマトは毒を血管に満たした大蛇、竜、蠍人間などの怪物を生み出し、キングゥを軍勢の長として神々に戦いを挑んだ。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第1粘土板 後半（King 英訳）"
+    },
+    {
+      "id": "fgo-tia-myth-death",
+      "text": "マルドゥクはティアマトを倒したのち、その体を干し魚のように二つに裂き、半分を天の覆いとした。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 135–138行"
+    },
+    {
+      "id": "fgo-tia-cmp",
+      "text": "原典で神々に挑む「怪物たちの母」を、人類に敵対する災厄として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "enuma-elish"],
+  "articleIds": []
+}
