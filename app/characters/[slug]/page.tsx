@@ -8,6 +8,7 @@ import { Link } from "@/components/common/Link"
 import { PageHeader, Section, TileList } from "@/components/common/PageParts"
 import { StoryList } from "@/components/common/StoryList"
 import {
+  entryKinds,
   motifAspects,
   figureTypes,
   type Character,
@@ -30,6 +31,7 @@ import {
 } from "@/lib/content/repository"
 import { stripInline } from "@/lib/content/text"
 import { characterTile } from "@/lib/characterTile"
+import { kindLabel, kindsLabel } from "@/lib/entryKind"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { buildMetadata, characterJsonLd } from "@/lib/seo"
 import { paths } from "@/lib/site"
@@ -76,7 +78,11 @@ const mainOriginNoun = (character: Character) => {
 const characterDescription = (character: Character, work?: Work) => {
   const noun = mainOriginNoun(character)
   const labels = character.motifs.map((m) => m.label).join("・")
-  return `『${work?.title ?? ""}』の${character.name}の元ネタ・モチーフ（${labels}）を、名前の由来から原典の${noun}まで解説。作品の設定と${noun}の内容を区別して紹介します。`.slice(
+  const subject =
+    character.kind === "character"
+      ? character.name
+      : `${kindLabel(character)}「${character.name}」`
+  return `『${work?.title ?? ""}』の${subject}の元ネタ・モチーフ（${labels}）を、名前の由来から原典の${noun}まで解説。作品の設定と${noun}の内容を区別して紹介します。`.slice(
     0,
     160
   )
@@ -183,7 +189,7 @@ const Page = async ({ params }: Props) => {
       />
       <Breadcrumbs
         items={[
-          { name: "キャラクター", href: paths.characters() },
+          { name: "キャラクター・設定", href: paths.characters() },
           ...(work
             ? [{ name: `『${work.title}』`, href: paths.work(work.slug) }]
             : []),
@@ -191,11 +197,17 @@ const Page = async ({ params }: Props) => {
         ]}
       />
       <PageHeader
-        eyebrow={`Character${work ? ` · ${work.title}` : ""}`}
+        eyebrow={`${entryKinds[character.kind].en}${work ? ` · ${work.title}` : ""}`}
         title={`${character.name}の元ネタ`}
       >
         <p className="t-char__lead" style={{ marginTop: 12 }}>
-          『{work?.title}』の<strong>{character.name}</strong>
+          『{work?.title}』の
+          {character.kind !== "character" && `${kindLabel(character)}`}
+          <strong>
+            {character.kind === "character"
+              ? character.name
+              : `「${character.name}」`}
+          </strong>
           {character.reading && `（${character.reading}）`}
           の主な元ネタは、<strong>{main.label}</strong>です。
         </p>
@@ -313,14 +325,20 @@ const Page = async ({ params }: Props) => {
           </Section>
         </div>
 
-        <aside aria-label="関連するキャラクター">
+        <aside aria-label="関連するキャラクター・設定">
           {sameMotif.length > 0 && (
-            <Section title="同じ元ネタのキャラクター" id="same-motif">
+            <Section
+              title={`同じ元ネタの${kindsLabel(sameMotif)}`}
+              id="same-motif"
+            >
               <TileList items={sameMotif.map(characterTile)} />
             </Section>
           )}
           {sameWork.length > 0 && (
-            <Section title={`『${work.title}』のキャラクター`} id="same-work">
+            <Section
+              title={`『${work.title}』の${kindsLabel(sameWork)}`}
+              id="same-work"
+            >
               <TileList items={sameWork.map(characterTile)} />
             </Section>
           )}

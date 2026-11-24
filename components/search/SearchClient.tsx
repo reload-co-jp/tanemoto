@@ -6,7 +6,7 @@ import { excerpt, search } from "@/lib/search"
 import type { SearchEntry, SearchKind } from "@/lib/searchIndex"
 
 const kindLabel: Record<SearchKind, string> = {
-  character: "キャラクター",
+  character: "キャラクター・設定",
   article: "記事",
   figure: "人物・怪物",
   work: "作品",

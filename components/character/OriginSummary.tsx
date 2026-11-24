@@ -2,6 +2,7 @@ import { Link } from "@/components/common/Link"
 import { stripInline } from "@/lib/content/text"
 import { motifAspects, type Character } from "@/lib/content/schema"
 import { getFiguresByIds, getWorksByIds } from "@/lib/content/repository"
+import { kindLabel } from "@/lib/entryKind"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { winCss } from "@/lib/styles/global"
@@ -71,7 +72,7 @@ const styles = css`
 `
 
 /**
- * 元ネタ早見。キャラクター名 → 名前の由来 → モチーフ（元ネタ）を一覧で示す。
+ * 元ネタ早見。キャラクター・設定・事件の名前 → 名前の由来 → モチーフ（元ネタ）を一覧で示す。
  */
 export const OriginSummary = ({
   character,
@@ -103,6 +104,7 @@ export const OriginSummary = ({
         {work && (
           <span className="t-origin__work">
             『<Link href={paths.work(work.slug)}>{work.title}</Link>』
+            {character.kind !== "character" && `の${kindLabel(character)}`}
           </span>
         )}
       </div>

@@ -1,0 +1,78 @@
+{
+  "id": "laputa-laputa",
+  "slug": "laputa-laputa",
+  "kind": "setting",
+  "name": "ラピュタ",
+  "reading": "らぴゅた",
+  "alternativeNames": ["天空の城"],
+  "workId": "laputa",
+  "description": {
+    "text": "空に浮かぶ伝説の城。かつて高度な科学力で天空から地上を支配したとされ、シータとパズーが目指し、王家の血を引くムスカがその力を狙う。",
+    "claimIds": ["laputa-laputa-work"]
+  },
+  "nameOrigin": {
+    "text": "「ラピュタ」の名は、スウィフトの『ガリヴァー旅行記』に登場する空飛ぶ島の王国から採られた。",
+    "claimIds": ["laputa-laputa-work-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "gulliver",
+      "label": "空飛ぶ島ラピュータ",
+      "inWork": {
+        "text": "空に浮かぶ伝説の城で、かつて天空から地上を支配したとされる。",
+        "claimIds": ["laputa-laputa-work"]
+      },
+      "inMyth": {
+        "text": "『ガリヴァー旅行記』のラピュータは、底にある巨大な天然磁石の力で浮かび移動する島。王は地上の国バルニバービを治め、反抗する町の上空に島をとどめて日光と雨をさえぎったり、石を落としたりして罰した。",
+        "claimIds": ["laputa-laputa-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "映画は名前を『ガリヴァー旅行記』から借りたもので、名前以外の関連はないとされる。それでも「空に浮かぶ島から地上を支配する」という点は、原作のラピュータと共通している。",
+      "claimIds": [
+        "laputa-laputa-work-name",
+        "laputa-laputa-myth",
+        "laputa-laputa-cmp"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "laputa-laputa-work",
+      "text": "ラピュタは空に浮かぶ伝説の城で、かつて高度な科学力によって天空から地上を支配したとされる。シータとパズーはラピュタを目指し、王家の子孫であるムスカはその力を手中に収めようとする。",
+      "classification": "creative",
+      "sourceIds": ["work-laputa"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「天空の城ラピュタ」の記述で確認。"
+    },
+    {
+      "id": "laputa-laputa-work-name",
+      "text": "「ラピュタ」という名称は、スウィフトの『ガリヴァー旅行記』に登場する空を飛ぶ島にある王国からとったもの。名前の借用以外は『ガリヴァー旅行記』との関連はない。",
+      "classification": "creative",
+      "sourceIds": ["work-laputa"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「天空の城ラピュタ」の記述で確認。"
+    },
+    {
+      "id": "laputa-laputa-myth",
+      "text": "空飛ぶ島ラピュータは底にある巨大な天然磁石の力で浮かび移動する。王は地上の国バルニバービを治め、反抗する町があると島を真上にとどめて日光と雨をさえぎったり、石を落としたりして罰し、最後の手段として島そのものを降ろして押しつぶすこともできた。",
+      "classification": "fact",
+      "sourceIds": ["swift-gulliver"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ガリヴァー旅行記』第3篇 第1–3章"
+    },
+    {
+      "id": "laputa-laputa-cmp",
+      "text": "名前の借用にとどまるとされるが、空に浮かぶ島から地上を支配するという点は原作のラピュータと共通する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "作者の意図は確認できないため、共通点の指摘にとどめる。"
+    }
+  ],
+  "sourceIds": ["work-laputa", "swift-gulliver"],
+  "articleIds": []
+}

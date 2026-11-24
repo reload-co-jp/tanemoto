@@ -256,10 +256,20 @@ export const workSchema = z.object({
 export type Work = z.infer<typeof workSchema>
 
 // ---------------------------------------------------------------------------
-// キャラクター（作品の登場人物）
-//   サイトの基本単位。「キャラクター名 → 名前の由来 → モチーフ（元ネタ）
+// キャラクター・設定・事件（作品の要素）
+//   サイトの基本単位。「名前 → 名前の由来 → モチーフ（元ネタ）
 //   → 原典での姿 → 作品との違い」の順で説明する。
+//   登場人物だけでなく、作品の設定（場所・組織・道具など）や
+//   作中の事件・出来事も kind で区別して同じ形式で扱う。
 // ---------------------------------------------------------------------------
+
+/** 元ネタ解説の対象の種類 */
+export const entryKinds = {
+  character: { label: "キャラクター", en: "Character" },
+  setting: { label: "設定", en: "Setting" },
+  event: { label: "事件", en: "Event" },
+} as const
+export type EntryKind = keyof typeof entryKinds
 
 /** モチーフの種類（キャラクターのどの要素が元ネタに由来するか） */
 export const motifAspects = {
@@ -272,6 +282,9 @@ export const motifAspects = {
   personality: "性格",
   episode: "エピソード",
   setting: "設定・世界観",
+  place: "場所・地名",
+  organization: "組織・集団",
+  plot: "筋立て・展開",
 } as const
 
 /** 本文と根拠（claimIds）の組 */
@@ -283,6 +296,10 @@ const evidenceText = z.object({
 export const characterSchema = z.object({
   id,
   slug: id,
+  /** 対象の種類（キャラクター・設定・事件）。省略時はキャラクター */
+  kind: z
+    .enum(Object.keys(entryKinds) as [EntryKind, ...EntryKind[]])
+    .default("character"),
   name: z.string().min(1),
   reading: z.string().optional(),
   alternativeNames: z.array(z.string()).default([]),

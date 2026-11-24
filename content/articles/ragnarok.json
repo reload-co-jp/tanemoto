@@ -23,7 +23,10 @@
   "mythologyIds": ["norse"],
   "storyIds": ["ragnarok"],
   "workIds": ["record-of-ragnarok"],
-  "characterIds": ["record-of-ragnarok-brunhilde"],
+  "characterIds": [
+    "record-of-ragnarok-brunhilde",
+    "record-of-ragnarok-ragnarok"
+  ],
   "topicIds": [],
   "sourceIds": ["work-record-of-ragnarok", "snorri-edda", "poetic-edda"],
   "relatedArticleIds": ["odin", "thor", "loki"],

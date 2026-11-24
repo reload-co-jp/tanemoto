@@ -28,6 +28,7 @@ import { figureTile } from "@/lib/figureTile"
 import { characterTile } from "@/lib/characterTile"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { buildMetadata, figureJsonLd, metaDescription } from "@/lib/seo"
+import { kindsLabel } from "@/lib/entryKind"
 import { paths } from "@/lib/site"
 
 type Props = { params: Promise<{ slug: string }> }
@@ -78,7 +79,7 @@ const Page = async ({ params }: Props) => {
         <div>
           {characters.length > 0 && (
             <Section
-              title={`${figure.name}が元ネタのキャラクター`}
+              title={`${figure.name}が元ネタの${kindsLabel(characters)}`}
               en="Characters"
               id="characters"
             >

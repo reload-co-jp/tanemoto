@@ -167,14 +167,15 @@ Claim の ID は全記事で一意にします（`<記事slug>-<名前>` を推�
 - 記事の `sourceIds` に含まれていない出典の使用
 - ID・slug・見出しアンカーの重複、予約語 slug（`page` / `category` / `tag`）
 
-## キャラクターの追加方法
+## キャラクター・設定・事件の追加方法
 
-`content/characters/<作品>/<slug>.json` を作成します。作品の設定は `creative`（出典は作品）、原典の内容は `fact` など出典付きの主張で根拠を示します。`motifs[].inMyth` には出典付きの主張が必須です。
+`content/characters/<作品>/<slug>.json` を作成します。登場人物だけでなく、作品の設定（場所・組織・道具・世界観など）や作中の事件・出来事も同じ形式で扱えます。種類は `kind` で指定します（`character`＝キャラクター〔既定〕／`setting`＝設定／`event`＝事件）。種類に応じて一覧・作品ページでの分類、見出し、パンくず、検索結果のラベル、構造化データ（Person / Thing / Event）が切り替わります。作品の設定は `creative`（出典は作品）、原典の内容は `fact` など出典付きの主張で根拠を示します。`motifs[].inMyth` には出典付きの主張が必須です。
 
 ```json
 {
   "id": "saint-seiya-seiya",
   "slug": "saint-seiya-seiya",
+  "kind": "character",
   "name": "星矢",
   "reading": "せいや",
   "workId": "saint-seiya",
@@ -200,7 +201,9 @@ Claim の ID は全記事で一意にします（`<記事slug>-<名前>` を推�
 }
 ```
 
-`aspect` は `name`（名前）・`title`（称号）・`appearance`（外見）・`ability`（能力）・`weapon`（武器・道具）・`role`（立場）・`personality`（性格）・`episode`（エピソード）・`setting`（設定）。最初のモチーフが「主な元ネタ」になります。記事側で `characterIds` を指定すると、記事冒頭にそのキャラクターの元ネタ早見が表示されます。
+`aspect` は `name`（名前）・`title`（称号）・`appearance`（外見）・`ability`（能力）・`weapon`（武器・道具）・`role`（立場）・`personality`（性格）・`episode`（エピソード）・`setting`（設定）・`place`（場所・地名）・`organization`（組織・集団）・`plot`（筋立て・展開）。最初のモチーフが「主な元ネタ」になります。記事側で `characterIds` を指定すると、記事冒頭にそのキャラクター（設定・事件も可）の元ネタ早見が表示されます。
+
+設定の例は `content/characters/laputa/laputa-laputa.json`（ラピュタ）、事件の例は `content/characters/record-of-ragnarok/record-of-ragnarok-ragnarok.json`（ラグナロク）を参照してください。URL はキャラクターと共通の `/characters/<slug>/` です。
 
 ### 画像
 

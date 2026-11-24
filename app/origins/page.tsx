@@ -11,14 +11,15 @@ import {
   getWorksByIds,
 } from "@/lib/content/repository"
 import { buildMetadata, itemListJsonLd } from "@/lib/seo"
+import { kindLabel, kindsLabel } from "@/lib/entryKind"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { bp, color, font } from "@/lib/styles/theme"
 
 export const metadata = buildMetadata({
-  title: "神話から逆引き｜この神・怪物が元ネタのキャラクター",
+  title: "神話から逆引き｜この神・怪物が元ネタのキャラクター・設定",
   description:
-    "ギリシャ・北欧・日本・エジプト・ケルト・メソポタミア・インド・中国・アステカ・フィンランド・スラヴ・ポリネシアなど各地の神話の神々・英雄・怪物や、伝説・歴史上の人物から、それを元ネタ・モチーフにしたアニメ・漫画のキャラクターを逆引きできます。",
+    "ギリシャ・北欧・日本・エジプト・ケルト・メソポタミア・インド・中国・アステカ・フィンランド・スラヴ・ポリネシアなど各地の神話の神々・英雄・怪物や、伝説・歴史上の人物から、それを元ネタ・モチーフにしたアニメ・漫画のキャラクターや設定・事件を逆引きできます。",
   path: paths.origins(),
 })
 
@@ -120,7 +121,7 @@ const Page = () => {
       <PageHeader
         eyebrow="Reverse Lookup"
         title="神話から逆引き"
-        description="神話の神々・英雄・怪物から、それを元ネタ（モチーフ）にしたキャラクターを探せます。キャラクター名をクリックすると、作品の設定と原典の神話を比べた解説ページに移動します。"
+        description="神話の神々・英雄・怪物から、それを元ネタ（モチーフ）にしたキャラクターや作品の設定・事件を探せます。名前をクリックすると、作品の設定と原典の神話を比べた解説ページに移動します。"
       />
       {groups.map(({ mythology, withCharacters, withoutCharacters }) => (
         <Section
@@ -152,7 +153,7 @@ const Page = () => {
                         </Link>
                       </h3>
                       <p className="t-rev__meta">
-                        元ネタのキャラクター {characters.length}
+                        元ネタの{kindsLabel(characters)} {characters.length}
                         {getArticlesForFigure(figure).length > 0 &&
                           ` ・ 解説記事 ${getArticlesForFigure(figure).length}`}
                       </p>
@@ -173,6 +174,8 @@ const Page = () => {
                             )}
                             {motif && (
                               <span className="t-rev__aspect">
+                                {c.kind !== "character" &&
+                                  `${kindLabel(c)} ・ `}
                                 {motifAspects[motif.aspect]}
                               </span>
                             )}

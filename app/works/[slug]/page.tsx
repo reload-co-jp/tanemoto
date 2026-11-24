@@ -18,6 +18,7 @@ import {
 } from "@/lib/content/repository"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { buildMetadata, workJsonLd } from "@/lib/seo"
+import { groupByKind, kindsLabel } from "@/lib/entryKind"
 import { paths } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { bp, color } from "@/lib/styles/theme"
@@ -38,13 +39,13 @@ export const generateMetadata = async ({ params }: Props) => {
   if (!work) return {}
   const characters = getCharactersForWork(work)
   return buildMetadata({
-    title: `『${work.title}』キャラクターの元ネタ一覧｜神話・伝承のモチーフ`,
+    title: `『${work.title}』${kindsLabel(characters)}の元ネタ一覧｜神話・伝承のモチーフ`,
     description: `『${work.title}』に登場する${characters
       .slice(0, 4)
       .map((c) => c.name)
       .join(
         "・"
-      )}などのキャラクターの元ネタ・モチーフを、原典の神話とあわせて解説します。`.slice(
+      )}などの${kindsLabel(characters)}の元ネタ・モチーフを、原典の神話とあわせて解説します。`.slice(
       0,
       160
     ),
@@ -94,27 +95,36 @@ const Page = async ({ params }: Props) => {
       />
       <PageHeader
         eyebrow={`${workTypes[work.type]} · Works`}
-        title={`『${work.title}』キャラクターの元ネタ`}
+        title={`『${work.title}』${kindsLabel(characters)}の元ネタ`}
         description={work.description}
       />
 
-      <Section title="キャラクターと元ネタ" en="Characters" id="characters">
-        {characters.length > 0 ? (
-          <>
+      {characters.length > 0 ? (
+        groupByKind(characters).map((group, i, groups) => (
+          <Section
+            key={group.kind}
+            title={`${group.label}と元ネタ`}
+            en={`${group.en}s`}
+            id={group.kind === "character" ? "characters" : `${group.kind}s`}
+          >
             <div className="t-origin-grid">
-              {characters.map((c) => (
+              {group.entries.map((c) => (
                 <OriginSummary key={c.id} character={c} />
               ))}
             </div>
-            <p className="t-disclaimer">
-              ※
-              作品内の設定（CREATIVE）と神話・伝承の内容は別のものです。各キャラクターのページで、作品の設定と原典の内容を区別して解説しています。
-            </p>
-          </>
-        ) : (
+            {i === groups.length - 1 && (
+              <p className="t-disclaimer">
+                ※
+                作品内の設定（CREATIVE）と神話・伝承の内容は別のものです。各ページで、作品の設定と原典の内容を区別して解説しています。
+              </p>
+            )}
+          </Section>
+        ))
+      ) : (
+        <Section title="キャラクターと元ネタ" en="Characters" id="characters">
           <p className="t-empty">キャラクターの元ネタ解説は準備中です。</p>
-        )}
-      </Section>
+        </Section>
+      )}
 
       {motifArticles.length > 0 && (
         <Section
