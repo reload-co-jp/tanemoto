@@ -146,7 +146,7 @@ export const SiteFooter = () => (
               <Link href={paths.articles()}>記事一覧</Link>
             </li>
             <li>
-              <Link href={paths.mythologies()}>神話・伝説から探す</Link>
+              <Link href={paths.mythologies()}>原典から探す</Link>
             </li>
             <li>
               <Link href={paths.figures()}>元ネタ（人物・怪物）から探す</Link>

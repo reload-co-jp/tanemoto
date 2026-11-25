@@ -9,7 +9,11 @@ import { ChipList, Section, TileList } from "@/components/common/PageParts"
 import { Hero } from "@/components/home/Hero"
 import { PopularList } from "@/components/home/PopularList"
 import { JsonLd } from "@/components/seo/JsonLd"
-import { classifications, workTypes } from "@/lib/content/schema"
+import {
+  classifications,
+  mythologyKinds,
+  workTypes,
+} from "@/lib/content/schema"
 import {
   getArticles,
   getCharacters,
@@ -42,6 +46,31 @@ const styles = css`
     .t-home-grid {
       grid-template-columns: minmax(0, 1fr) 320px;
       gap: 56px;
+    }
+  }
+  .t-sources {
+    display: grid;
+    gap: 18px;
+  }
+  @media ${bp.md} {
+    .t-sources__group {
+      display: grid;
+      grid-template-columns: 6em 1fr;
+      align-items: start;
+      gap: 16px;
+    }
+  }
+  .t-sources__kind {
+    font-family: ${font.display};
+    font-weight: 800;
+    font-size: 0.85rem;
+    color: ${color.accentDeep};
+    margin-bottom: 8px;
+    padding-top: 6px;
+  }
+  @media ${bp.md} {
+    .t-sources__kind {
+      margin-bottom: 0;
     }
   }
   ${winCss(".t-policy")}
@@ -112,6 +141,15 @@ const Page = () => {
   const figures = getFigures().filter((f) => getArticlesForFigure(f).length > 0)
   const works = getWorks()
   const characters = getCharacters()
+  const mythologies = getMythologies().filter((m) => !m.comingSoon)
+  const sourceGroups = (
+    Object.keys(mythologyKinds) as (keyof typeof mythologyKinds)[]
+  )
+    .map((kind) => ({
+      kind,
+      items: mythologies.filter((m) => m.kind === kind),
+    }))
+    .filter((g) => g.items.length > 0)
 
   return (
     <>
@@ -179,26 +217,35 @@ const Page = () => {
               <PopularList articles={popular} />
             </Section>
           )}
-          <Section
-            title="神話から探す"
-            mascot="owl"
-            en="Mythologies"
-            id="mythologies"
-            more={{ href: paths.mythologies(), label: "一覧" }}
-          >
-            <TileList
-              items={getMythologies().map((m) => ({
-                href: m.comingSoon ? undefined : paths.mythology(m.slug),
-                title: m.name,
-                eyebrow: m.region,
-                meta: m.comingSoon
-                  ? "準備中"
-                  : `記事 ${getArticlesForMythology(m).length}件`,
-              }))}
-            />
-          </Section>
         </div>
       </div>
+
+      <Section
+        title="原典から探す"
+        mascot="owl"
+        en="Sources"
+        id="sources"
+        more={{ href: paths.mythologies(), label: "すべての原典" }}
+      >
+        <div className="t-sources">
+          {sourceGroups.map((group) => (
+            <div key={group.kind} className="t-sources__group">
+              <p className="t-sources__kind">{mythologyKinds[group.kind]}</p>
+              <ChipList
+                label={mythologyKinds[group.kind]}
+                items={group.items.map((m) => {
+                  const count = getArticlesForMythology(m).length
+                  return {
+                    href: paths.mythology(m.slug),
+                    label: m.name,
+                    sub: count > 0 ? `${count}件` : undefined,
+                  }
+                })}
+              />
+            </div>
+          ))}
+        </div>
+      </Section>
 
       <Section
         title="元ネタ（神々・怪物）から探す"

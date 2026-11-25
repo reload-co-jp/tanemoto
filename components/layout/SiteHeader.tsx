@@ -8,7 +8,7 @@ const nav = [
   { href: paths.characters(), label: "キャラ・設定", en: "Characters" },
   { href: paths.works(), label: "作品", en: "Works" },
   { href: paths.origins(), label: "元ネタ逆引き", en: "Origins" },
-  { href: paths.mythologies(), label: "神話", en: "Myths" },
+  { href: paths.mythologies(), label: "原典", en: "Sources" },
   { href: paths.topics(), label: "テーマ", en: "Topics" },
   { href: paths.articles(), label: "記事", en: "Articles" },
 ]

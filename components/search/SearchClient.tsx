@@ -10,7 +10,7 @@ const kindLabel: Record<SearchKind, string> = {
   article: "記事",
   figure: "人物・怪物",
   work: "作品",
-  mythology: "神話",
+  mythology: "原典",
   topic: "テーマ",
 }
 

@@ -1,4 +1,4 @@
-import { figureTypes, workTypes } from "./content/schema"
+import { figureTypes, mythologyKinds, workTypes } from "./content/schema"
 import {
   getArticles,
   getCategory,
@@ -115,7 +115,7 @@ export const buildSearchIndex = (): SearchEntry[] => [
     .map((m) => ({
       kind: "mythology" as const,
       title: m.name,
-      label: "神話体系",
+      label: mythologyKinds[m.kind],
       href: paths.mythology(m.slug),
       description: m.description,
       keywords: [m.reading ?? "", m.region].filter(Boolean),

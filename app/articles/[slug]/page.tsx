@@ -390,7 +390,7 @@ const Page = async ({ params }: Props) => {
                     className="t-article__section-intro"
                     style={{ marginTop: 28 }}
                   >
-                    神話体系・テーマ
+                    原典・テーマ
                   </h3>
                   <ChipList
                     items={[

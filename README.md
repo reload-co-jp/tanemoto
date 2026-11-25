@@ -75,7 +75,7 @@ public/                  静的ファイル（画像・favicon・OGP 画像）
 | `/articles/tag/[tag]/`                                      | タグ別一覧（noindex）                  |
 | `/articles/[slug]/`                                         | 記事詳細                               |
 | `/figures/`・`/figures/[slug]/`                             | 人物・怪物                             |
-| `/mythologies/`・`/mythologies/[slug]/`                     | 神話体系                               |
+| `/sources/`・`/sources/[slug]/`                             | 原典（神話・伝説・歴史・名作文学）     |
 | `/topics/`・`/topics/[slug]/`                               | テーマ                                 |
 | `/works/`・`/works/[slug]/`                                 | 作品                                   |
 | `/search/`                                                  | サイト内検索（noindex）                |
