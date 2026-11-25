@@ -10,6 +10,77 @@
   "roles": ["少年神", "蓮の化身"],
   "mythologyIds": ["chinese"],
   "description": "李靖の三男。『封神演義』では霊珠子の化身として生まれ、乾坤圏と混天綾を身につけていた。東海竜王の三太子敖丙を殺したため、自ら骨肉を父母に返して死ぬが、師の太乙真人によって蓮の花と葉から新しい体を与えられ、火尖鎗と風火輪を授かった。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "霊珠子の化身"
+    },
+    {
+      "type": "paragraph",
+      "text": "『封神演義』によれば、哪吒は陳塘関の総兵・李靖と殷夫人の三男として生まれた、霊珠子の化身でした。生まれたときから右手に金の腕輪、腹に赤い綾を巻いていました。金の腕輪は乾坤圏、赤い綾は混天綾という宝貝です。",
+      "claimIds": ["fg-nezha-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "竜王の三太子を殺す"
+    },
+    {
+      "type": "paragraph",
+      "text": "7歳の哪吒が九湾河で混天綾を水にひたして水浴びをすると、東海竜王の水晶宮が揺れ動きました。様子を見に来た夜叉を乾坤圏で打ち殺し、さらに現れた竜王の三太子・敖丙まで殺してしまいます。",
+      "claimIds": ["fg-nezha-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "蓮の化身としての再生"
+    },
+    {
+      "type": "paragraph",
+      "text": "哪吒は敖丙を殺した責めを負い、腹を裂いて骨肉を父母に返して死にました。師の太乙真人は蓮の花と荷葉で体を作り、哪吒の魂魄を推し入れて、蓮花の化身としてよみがえらせます。",
+      "claimIds": ["fg-nezha-3"]
+    },
+    {
+      "type": "paragraph",
+      "text": "太乙真人はよみがえった哪吒に火尖鎗を伝え、風火二輪を与え、豹皮の袋に乾坤圏・混天綾・金磚を入れて授けました。",
+      "claimIds": ["fg-nezha-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-nezha-1",
+      "text": "陳塘関の総兵李靖と殷夫人の三男として生まれた哪吒は霊珠子の化身で、右手に金の腕輪、腹に赤い綾を巻いていた。金の腕輪は乾坤圏、赤い綾は混天綾である。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "fg-nezha-2",
+      "text": "7歳の哪吒が九湾河で混天綾を水にひたして水浴びをすると東海竜王の水晶宮が揺れ動き、哪吒は巡海夜叉の李艮を乾坤圏で打ち殺し、竜王の三太子敖丙も殺した。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "fg-nezha-3",
+      "text": "哪吒は敖丙を殺した責めを負い、腹を裂き骨肉を父母に返して死んだ。太乙真人は蓮の花と荷葉で体を作り、哪吒の魂魄を推し入れて蓮花の化身としてよみがえらせた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第13–14回"
+    },
+    {
+      "id": "fg-nezha-4",
+      "text": "太乙真人は哪吒に火尖鎗を伝え、風火二輪を与え、豹皮の袋に乾坤圏・混天綾・金磚を入れて授けた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第14回"
+    }
+  ],
   "relatedFigureIds": ["sun-wukong", "jiang-ziya", "ao-bing"],
   "relatedStoryIds": ["nezha-lotus-body", "nezha-and-ao-bing"],
   "articleIds": [],

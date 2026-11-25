@@ -9,6 +9,103 @@
   "roles": ["野人", "ギルガメシュの友"],
   "mythologyIds": ["mesopotamian"],
   "description": "天神アヌの求めで、女神アルルが粘土から造った野人。獣とともに荒野で暮らしていたが、狩人が連れてきた娼婦に導かれてウルクへ行き、ギルガメシュと戦ったのち無二の友となる。天の牡牛を殺したことで神々に死を定められた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "粘土から造られた野人"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ギルガメシュ叙事詩』によれば、ウルクの人々の嘆きを聞いた天神アヌは、女神アルルに、ギルガメシュと張り合う者を造るよう命じました。アルルは手を洗って粘土をつまみ、荒野にエンキドゥを造ります。",
+      "claimIds": ["fg-enkidu-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "エンキドゥは人も国も知らず、ガゼルとともに草を食み、家畜とともに水を飲んで、獣たちと暮らしていました。",
+      "claimIds": ["fg-enkidu-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "人間になる"
+    },
+    {
+      "type": "paragraph",
+      "text": "神殿の女と過ごしたのちエンキドゥが獣たちのもとへ戻ると、ガゼルも野の獣も彼から逃げ去りました。膝が萎えてかつてのようには走れなくなりましたが、そのかわりに成熟して知恵を広げます。女は彼を、神のように美しいと言ってウルクへ誘いました。",
+      "claimIds": ["fg-enkidu-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ギルガメシュの友"
+    },
+    {
+      "type": "paragraph",
+      "text": "ウルクで出会ったエンキドゥとギルガメシュは、牡牛のように組み合い、敷居は砕け壁は揺れました。激しく戦ったのち、二人は互いの力を認め合って友となります。",
+      "claimIds": ["fg-enkidu-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "神々の定めた死"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがて二人は、女神イシュタルの求めでアヌが造った天の牡牛を殺してしまいます。その後、神々はエンキドゥが死なねばならないと定めました。友の死は、ギルガメシュを不死の探求へと駆り立てることになります。",
+      "claimIds": ["fg-enkidu-5", "fg-enkidu-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-enkidu-1",
+      "text": "ウルクの人々の嘆きを聞いたアヌは女神アルルを呼び、ギルガメシュと張り合ってウルクに安らぎを与える者を造るよう命じた。アルルは手を洗って粘土をつまみ、荒野にエンキドゥを造った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板 第2欄"
+    },
+    {
+      "id": "fg-enkidu-2",
+      "text": "エンキドゥは人も国も知らず、ガゼルとともに草を食み、家畜とともに水を飲み、水場で獣たちと心を喜ばせていた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板 第2–4欄"
+    },
+    {
+      "id": "fg-enkidu-3",
+      "text": "神殿の女に満ち足りたエンキドゥが獣たちのもとへ戻ると、ガゼルも野の獣も彼から逃げ去った。エンキドゥは膝が萎えてかつてのようには走れなくなったが、成熟して知恵を広げた。女は彼を、神のように美しいと言ってウルクへ誘った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板 第4欄"
+    },
+    {
+      "id": "fg-enkidu-4",
+      "text": "ギルガメシュとエンキドゥは牡牛のように組み合い、敷居は砕け壁は揺れた。激しく戦ったのち、互いの力を認め合って友となった。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第2粘土板"
+    },
+    {
+      "id": "fg-enkidu-5",
+      "text": "イシュタルの求めでアヌが造った天の牡牛を、ギルガメシュとエンキドゥは殺した。その後、神々はエンキドゥが死なねばならないと定めた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6–7粘土板"
+    },
+    {
+      "id": "fg-enkidu-6",
+      "text": "友の死に打ちのめされたギルガメシュは不死を求め、大洪水を生き延びたウトナピシュティムのもとにたどり着いた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    }
+  ],
   "relatedFigureIds": ["gilgamesh", "ishtar", "humbaba"],
   "relatedStoryIds": ["creation-of-enkidu", "bull-of-heaven"],
   "articleIds": [],

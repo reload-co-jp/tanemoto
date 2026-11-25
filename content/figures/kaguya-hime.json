@@ -8,6 +8,98 @@
   "roles": ["月の都の人"],
   "mythologyIds": ["japanese-legends"],
   "description": "『竹取物語』の主人公。竹取の翁が光る竹の中で見つけた、三寸ほどの小さな女の子で、わずか三か月ほどで美しい娘に成長した。五人の貴公子と帝から求婚されるが、誰とも結ばれない。実は月の都の人で、八月十五夜、天から迎えに来た天人たちとともに月へ帰っていった。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "竹の中から"
+    },
+    {
+      "type": "paragraph",
+      "text": "『竹取物語』によれば、竹取の翁は光る竹の中に三寸ばかりの人を見つけて連れ帰りました。その後、翁は竹を取るたびに節のあいだに黄金のある竹を見つけるようになって豊かになり、子は三か月ほどで一人前の背丈の娘に育ちます。翁に呼ばれた三室戸斎部秋田が、「なよ竹のかぐや姫」と名づけました。",
+      "claimIds": ["fg-kaguya-hime-1", "fg-kaguya-hime-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "五つの難題"
+    },
+    {
+      "type": "paragraph",
+      "text": "求婚する五人の貴公子に、かぐや姫は、仏の御石の鉢、蓬莱の玉の枝、火鼠の皮衣、龍の首の玉、燕の子安貝を持ってくるよう求めました。",
+      "claimIds": ["fg-kaguya-hime-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "帝の求婚"
+    },
+    {
+      "type": "paragraph",
+      "text": "帝が輿を寄せてかぐや姫を連れて行こうとすると、姫はふっと影になって消えてしまいました。帝が「もとの姿に戻ってくれ、それを見て帰ろう」と言うと、姫はもとの姿に戻ったといいます。",
+      "claimIds": ["fg-kaguya-hime-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "月への帰還"
+    },
+    {
+      "type": "paragraph",
+      "text": "かぐや姫は月の都の人でした。八月十五日の夜、帝が遣わした兵も戦う心を失うなか、天人たちが迎えに来ます。天人の王らしき者は、姫は罪をつくったのでしばらく翁のもとにいたのであり、罪の期限が終わったので迎えに来たと告げました。天の羽衣を着せられると、翁を気の毒に思う心は消え、姫は天人たちとともに天へ昇りました。",
+      "claimIds": ["fg-kaguya-hime-5", "fg-kaguya-hime-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-kaguya-hime-1",
+      "text": "竹取の翁は光る竹の中に三寸ばかりの人を見つけて連れ帰った。その後、竹を取るたびに節のあいだに黄金のある竹を見つけるようになって豊かになり、子は三か月ほどで一人前の背丈の娘に育った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の生い立ち"
+    },
+    {
+      "id": "fg-kaguya-hime-2",
+      "text": "翁は三室戸斎部秋田を呼んで名をつけさせ、秋田は「なよ竹のかぐや姫」と名づけた。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の生い立ち"
+    },
+    {
+      "id": "fg-kaguya-hime-3",
+      "text": "かぐや姫は五人の貴公子に、仏の御石の鉢、蓬莱の玉の枝、火鼠の皮衣、龍の首の玉、燕の子安貝を持ってくるよう求めた。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』五人の貴公子の求婚"
+    },
+    {
+      "id": "fg-kaguya-hime-4",
+      "text": "帝が輿を寄せてかぐや姫を連れて行こうとすると、姫はふっと影になって消えた。帝が「もとの姿に戻ってくれ、それを見て帰ろう」と言うと、姫はもとの姿に戻った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』帝の求婚"
+    },
+    {
+      "id": "fg-kaguya-hime-5",
+      "text": "かぐや姫は月の都の人で、八月十五日の夜、帝が遣わした兵も戦う心を失うなか、天人たちとともに月へ帰った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の昇天"
+    },
+    {
+      "id": "fg-kaguya-hime-6",
+      "text": "天人の王らしき者は、かぐや姫は罪をつくったので、しばらく翁のもとにいたのであり、罪の期限が終わったので迎えに来たと告げた。天の羽衣を着せられると、姫の翁を気の毒に悲しく思う心は消え、姫は天人とともに天へ昇った。",
+      "classification": "fact",
+      "sourceIds": ["taketori-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『竹取物語』かぐや姫の昇天"
+    }
+  ],
   "relatedFigureIds": [],
   "relatedStoryIds": [
     "kaguya-hime-and-the-five-suitors",

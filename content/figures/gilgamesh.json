@@ -10,6 +10,95 @@
   "roles": ["ウルクの王", "英雄王"],
   "mythologyIds": ["mesopotamian"],
   "description": "高い城壁に囲まれた都ウルクの王で、『ギルガメシュ叙事詩』の主人公。「三分の二は神、三分の一は人間」とされる。友エンキドゥとともに杉の森の番人フンババを倒し、天の牡牛を殺したが、友の死をきっかけに不死を求める旅に出る。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "三分の二が神"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ギルガメシュ叙事詩』の主人公ギルガメシュは、高い城壁に囲まれた都市ウルク（エレク）の王です。三分の二が神、三分の一が人間とされます。",
+      "claimIds": ["fg-gilgamesh-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ギルガメシュの横暴に苦しむウルクの人々の嘆きを聞き、神々は彼と張り合う者としてエンキドゥを造りました。",
+      "claimIds": ["fg-gilgamesh-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "エンキドゥとの友情"
+    },
+    {
+      "type": "paragraph",
+      "text": "ギルガメシュとエンキドゥは牡牛のように組み合い、敷居は砕け壁は揺れました。ギルガメシュが膝を地につけて怒りが静まると、エンキドゥは彼を、母ニンスンが英雄たちの上に高め、エンリルが王権を授けた者だと讃えます。",
+      "claimIds": ["fg-gilgamesh-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "イシュタルと天の牡牛"
+    },
+    {
+      "type": "paragraph",
+      "text": "女神イシュタルはギルガメシュに求婚しますが、ギルガメシュは彼女がこれまでに愛した者たちの悲惨な末路を挙げて拒みました。怒ったイシュタルは父アヌに天の牡牛を造らせてウルクに送りますが、ギルガメシュとエンキドゥは牡牛を殺します。",
+      "claimIds": ["fg-gilgamesh-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "不死を求めて"
+    },
+    {
+      "type": "paragraph",
+      "text": "友エンキドゥの死に打ちのめされたギルガメシュは不死を求め、大洪水を生き延びて永遠の命を得たウトナピシュティムのもとにたどり着きます。海の底にある若返りの草を手に入れますが、泉で水浴びをしているあいだに蛇に奪われてしまいました。",
+      "claimIds": ["fg-gilgamesh-5"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-gilgamesh-1",
+      "text": "ギルガメシュは高い城壁のウルク（エレク）の王で、三分の二は神、三分の一は人間である。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板"
+    },
+    {
+      "id": "fg-gilgamesh-2",
+      "text": "ウルクの人々の嘆きを聞いたアヌは女神アルルに、ギルガメシュと張り合う者を造るよう命じ、アルルは粘土からエンキドゥを造った。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第1粘土板 第2欄"
+    },
+    {
+      "id": "fg-gilgamesh-3",
+      "text": "ギルガメシュとエンキドゥは牡牛のように組み合い、敷居は砕け壁は揺れた。ギルガメシュが膝を地につけて怒りが静まると、エンキドゥは、母ニンスンがギルガメシュを英雄たちの上に高め、エンリルが王権を授けたと讃えた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第2粘土板"
+    },
+    {
+      "id": "fg-gilgamesh-4",
+      "text": "イシュタルの求婚を拒んだギルガメシュに怒ったイシュタルは、父アヌに天の牡牛を造らせてウルクに送ったが、ギルガメシュとエンキドゥは牡牛を殺した。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第6粘土板"
+    },
+    {
+      "id": "fg-gilgamesh-5",
+      "text": "不死を求めたギルガメシュはウトナピシュティムのもとにたどり着き、海の底にある若返りの草を手に入れたが、泉で水浴びをしているあいだに蛇に草を奪われた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    }
+  ],
   "relatedFigureIds": ["enkidu", "ishtar", "humbaba", "utnapishtim"],
   "relatedStoryIds": ["creation-of-enkidu", "bull-of-heaven", "plant-of-youth"],
   "articleIds": [],

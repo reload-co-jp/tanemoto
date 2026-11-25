@@ -14,6 +14,103 @@
   "roles": ["マケドニア王", "征服者"],
   "mythologyIds": ["classical-antiquity"],
   "description": "マケドニアの王（在位 紀元前336〜前323年）。父フィリッポス2世の跡を継ぐと、ペルシア帝国を倒し、ギリシャからエジプト、インド北西部に及ぶ大帝国を築いた。プルタルコスの伝記は、暴れ馬ブケファラスを乗りこなした少年時代や、アリストテレスに学び『イリアス』を枕元に置いていたこと、ゴルディオンの結び目を断ち切った逸話などを伝える。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ブケファラスを乗りこなした少年"
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコス『英雄伝』によれば、少年アレクサンドロスは、誰も乗せようとしない暴れ馬ブケファラスが自分の影におびえていると見抜き、太陽の方へ向けて落ち着かせてから乗りこなしました。父フィリッポスは「息子よ、お前にふさわしい王国を探せ。マケドニアはお前には小さすぎる」と言ったといいます。",
+      "claimIds": ["fg-alexander-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『イリアス』とアキレウス"
+    },
+    {
+      "type": "paragraph",
+      "text": "アレクサンドロスは『イリアス』を戦いの術の糧と呼び、師アリストテレスが校訂した「小箱のイリアス」を、短剣とともにいつも枕の下に置いていました。トロイアを訪れた際にはアキレウスの墓石に香油を注ぎ、生前には忠実な友を、死後には名声を伝える偉大な詩人を得たアキレウスを幸いだとたたえています。",
+      "claimIds": ["fg-alexander-2", "fg-alexander-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ディオゲネスとゴルディオンの結び目"
+    },
+    {
+      "type": "paragraph",
+      "text": "哲学者ディオゲネスを自ら訪ねて「何か望みはないか」と尋ねると、日なたぼっこをしていたディオゲネスは「少し日陰をつくらないでくれ」と答えました。王は「もし私がアレクサンドロスでなかったら、ディオゲネスでありたい」と言ったといいます。",
+      "claimIds": ["fg-alexander-4"]
+    },
+    {
+      "type": "paragraph",
+      "text": "小アジアの町ゴルディオンには、解いた者は全世界の王になると言い伝えられた結び目がありました。多くの著述家はアレクサンドロスが剣で断ち切ったと言いますが、アリストブロスは轅の留め釘を抜いてくびきを外したと伝えています。",
+      "claimIds": ["fg-alexander-5"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "王の「仲間」"
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコスの伝記では、王の側近たちが「仲間（ヘタイロイ）」と呼ばれ、戦いや宴の場面にたびたび登場します。",
+      "claimIds": ["fg-alexander-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-alexander-1",
+      "text": "少年アレクサンドロスは、暴れ馬ブケファラスが自分の影におびえていると見抜いて太陽の方へ向け、乗りこなした。父フィリッポスは「息子よ、お前にふさわしい王国を探せ。マケドニアはお前には小さすぎる」と言った。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 6"
+    },
+    {
+      "id": "fg-alexander-2",
+      "text": "アレクサンドロスは『イリアス』を戦いの術の糧と呼び、アリストテレスが校訂した「小箱のイリアス」を、短剣とともにいつも枕の下に置いていた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 8"
+    },
+    {
+      "id": "fg-alexander-3",
+      "text": "アレクサンドロスはトロイアでアキレウスの墓石に香油を注ぎ、生前には忠実な友を、死後には名声を伝える偉大な詩人を得たアキレウスを幸いだとたたえた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 15"
+    },
+    {
+      "id": "fg-alexander-4",
+      "text": "アレクサンドロスが「何か望みはないか」と尋ねると、ディオゲネスは「少し日陰をつくらないでくれ」と答えた。王は「もし私がアレクサンドロスでなかったら、ディオゲネスでありたい」と言った。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 14"
+    },
+    {
+      "id": "fg-alexander-5",
+      "text": "ゴルディオンのミダス王の荷車の結び目を解いた者は全世界の王になると言い伝えられていた。多くの著述家はアレクサンドロスが剣で断ち切ったと言うが、アリストブロスは轅の留め釘を抜いてくびきを外したと伝える。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 18"
+    },
+    {
+      "id": "fg-alexander-6",
+      "text": "プルタルコスの伝記では、王の側近たちが「仲間（companions）」と呼ばれ、戦いや宴の場面にたびたび登場する。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 15、20ほか"
+    }
+  ],
   "relatedFigureIds": ["leonidas", "julius-caesar", "hannibal"],
   "relatedStoryIds": [
     "taming-of-bucephalas",
