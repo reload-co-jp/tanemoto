@@ -1,0 +1,79 @@
+{
+  "id": "saint-seiya-elysion",
+  "slug": "saint-seiya-elysion",
+  "name": "エリシオン",
+  "reading": "えりしおん",
+  "alternativeNames": [],
+  "workId": "saint-seiya",
+  "description": {
+    "text": "冥王ハーデスが本拠とする楽園。冥界での戦いの末にたどり着いた星矢たちの前に、ハーデスの側近である双子の神ヒュプノスとタナトスが立ちはだかる。",
+    "claimIds": ["ss-ely-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "place",
+      "label": "エリュシオンの野",
+      "inWork": {
+        "text": "冥王ハーデスのいる楽園で、眠りの神ヒュプノスと死の神タナトスが守る。",
+        "claimIds": ["ss-ely-work"]
+      },
+      "inMyth": {
+        "text": "『オデュッセイア』のエリュシオンの野は、大地の果てにある楽園で、雪も嵐も雨もなく、人がもっとも安らかに暮らせる場所。神々はメネラオスを死なせずにここへ送ると予言された。",
+        "claimIds": ["ss-ely-myth"]
+      }
+    },
+    {
+      "aspect": "role",
+      "label": "ヒュプノスとタナトス",
+      "inWork": {
+        "text": "ハーデスの側近の双子の神として、エリシオンで星矢たちを阻む。",
+        "claimIds": ["ss-ely-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、ヒュプノス（眠り）とタナトス（死）はともに夜の女神ニュクスの子で、暗い夜の世界に住む兄弟である。",
+        "claimIds": ["ss-ely-myth-twins"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のエリュシオンは、選ばれた者が死を経ずに送られる「大地の果ての楽園」で、ハーデスの王国とは区別される。作品はこれをハーデスの本拠として冥界の最奥に置き、楽園と冥界を一続きのものとして描いている。",
+      "claimIds": ["ss-ely-work", "ss-ely-myth", "ss-ely-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ss-ely-work",
+      "text": "幾多の困難の末、星矢たちはハーデスのいるエリシオンにたどり着く。その行く手を、ハーデス側近の双子の神ヒュプノスとタナトスが阻む。",
+      "classification": "creative",
+      "sourceIds": ["work-saint-seiya"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「聖闘士星矢」の記述で確認。"
+    },
+    {
+      "id": "ss-ely-myth",
+      "text": "メネラオスよ、お前はアルゴスで死ぬ定めではない。不死の神々はお前を大地の果てのエリュシオンの野へ送るだろう。そこには金髪のラダマンテュスがいて、人はいとも安らかに暮らし、雪も激しい嵐も雨もなく、オケアノスがいつも西風を送って人々を涼ませる。",
+      "classification": "fact",
+      "sourceIds": ["homer-odyssey"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オデュッセイア』4.561–569"
+    },
+    {
+      "id": "ss-ely-myth-twins",
+      "text": "夜（ニュクス）はタナトス（死）とヒュプノス（眠り）を生んだ。暗い夜の子であるこの恐ろしい神々は、夜の住まいに住み、輝く太陽が彼らを見ることはない。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』211–212行、758–766行"
+    },
+    {
+      "id": "ss-ely-cmp",
+      "text": "原典では冥界と区別される大地の果ての楽園を、作品はハーデスの本拠として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-saint-seiya", "homer-odyssey", "hesiod-theogony"],
+  "articleIds": []
+}

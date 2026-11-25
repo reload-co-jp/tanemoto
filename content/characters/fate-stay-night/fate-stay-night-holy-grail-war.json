@@ -1,0 +1,61 @@
+{
+  "id": "fate-stay-night-holy-grail-war",
+  "slug": "fate-stay-night-holy-grail-war",
+  "kind": "setting",
+  "name": "聖杯戦争",
+  "reading": "せいはいせんそう",
+  "alternativeNames": [],
+  "workId": "fate-stay-night",
+  "description": {
+    "text": "地方都市・冬木市に数十年に一度現れるとされる、持ち主のあらゆる願いを叶える「聖杯」をめぐる争い。7人の魔術師（マスター）が7騎の使い魔（サーヴァント）と契約して戦い、聖杯を手にできるのはただ一組だけとされる。",
+    "claimIds": ["fsn-hgw-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "arthur",
+      "label": "聖杯（サングリアル）",
+      "inWork": {
+        "text": "持ち主のあらゆる願いを叶えるとされ、手にできるのはただ一組。",
+        "claimIds": ["fsn-hgw-work"]
+      },
+      "inMyth": {
+        "text": "マロリーの『アーサー王の死』では、聖杯が円卓の広間に現れると、騎士たちはそれぞれ世界でいちばん好きな食べ物と飲み物で満たされた。騎士たちは聖杯を求めて探索の旅に出るが、それを見ることができたのはガラハッドら清らかな騎士に限られた。",
+        "claimIds": ["fsn-hgw-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「望むものを与える器」「多くの者が求めるが、手にできるのはわずか」という点は、アーサー王伝説の聖杯探索と共通する。一方、原典の聖杯は神聖な器で、資格は心の清らかさによって決まる。作品では、魔術師たちが殺し合いで奪い合う「願望機」として描かれている。",
+      "claimIds": ["fsn-hgw-work", "fsn-hgw-myth", "fsn-hgw-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fsn-hgw-work",
+      "text": "冬木市に数十年に一度現れるとされる、持ち主のあらゆる願いを叶える「聖杯」。7人の魔術師（マスター）は7騎の使い魔（サーヴァント）と契約し、聖杯を巡る抗争「聖杯戦争」に臨む。聖杯を手にできるのはただ一組である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-stay-night"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/stay night」の記述で確認。"
+    },
+    {
+      "id": "fsn-hgw-myth",
+      "text": "聖霊降臨祭の日、白い錦に覆われた聖杯が広間に入ってくると、騎士たちはそれぞれこの世でいちばん好きな食べ物と飲み物で満たされた。ガウェインらは聖杯をはっきり見るまで帰らないと誓って探索に出た。のちに聖杯を見届けたのはガラハッドで、彼はサラスの町で聖杯の奥義を目にしたのち亡くなった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第13巻第7章、第17巻第20〜22章"
+    },
+    {
+      "id": "fsn-hgw-cmp",
+      "text": "望みを与える器を限られた者が手にするという構図は聖杯探索と共通し、殺し合いで奪い合う願望機という性格は作品独自。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-stay-night", "malory-morte-darthur"],
+  "articleIds": []
+}

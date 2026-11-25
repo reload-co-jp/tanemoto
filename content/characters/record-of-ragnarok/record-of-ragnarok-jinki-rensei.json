@@ -1,0 +1,60 @@
+{
+  "id": "record-of-ragnarok-jinki-rensei",
+  "slug": "record-of-ragnarok-jinki-rensei",
+  "kind": "setting",
+  "name": "神器錬成",
+  "reading": "じんきれんせい",
+  "alternativeNames": [],
+  "workId": "record-of-ragnarok",
+  "description": {
+    "text": "戦乙女（ワルキューレ）が人類の闘士と一体となり、自らを武器へと変える力。呂布奉先にはランドグリーズが方天戟として、アダムにはレギンレイヴがメリケンサックとして神器錬成し、人類の闘士たちは神々と戦う。",
+    "claimIds": ["ror-vol-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "label": "戦乙女（ワルキューレ）",
+      "inWork": {
+        "text": "戦乙女が武器となって、人類の闘士の戦いを支える。",
+        "claimIds": ["ror-vol-work"]
+      },
+      "inMyth": {
+        "text": "ワルキューレはオーディンがあらゆる戦いに送り出す者たちで、戦場で死ぬ者を選び、勝利を授ける。",
+        "claimIds": ["ror-vol-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の戦乙女は、戦場で誰が死に、誰が勝つかを定める存在である。作品では、戦乙女が文字どおり人間の手の中の武器となり、闘士とともに勝敗を背負って戦う。「勝利を授ける者」という原典の役割を、武器として共に戦う姿に置き換えている。",
+      "claimIds": ["ror-vol-work", "ror-vol-myth", "ror-vol-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ror-vol-work",
+      "text": "ラグナロクでは、戦乙女が人類の闘士のために神器錬成する。呂布奉先は戦乙女の四女・ランドグリーズが神器錬成した方天戟で戦い、アダムは七女・レギンレイヴが神器錬成したメリケンサックで戦った。",
+      "classification": "creative",
+      "sourceIds": ["work-record-of-ragnarok"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「終末のワルキューレ」の記述で確認。"
+    },
+    {
+      "id": "ror-vol-myth",
+      "text": "ワルキューレはオーディンがあらゆる戦いに送り出す者たちで、人の死の運命を定め、勝利を授ける。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 36章"
+    },
+    {
+      "id": "ror-vol-cmp",
+      "text": "勝利を授ける戦乙女という原典の役割を、作品は武器となって共に戦う姿に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-record-of-ragnarok", "snorri-edda"],
+  "articleIds": []
+}

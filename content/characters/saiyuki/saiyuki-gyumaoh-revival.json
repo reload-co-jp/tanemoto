@@ -1,0 +1,74 @@
+{
+  "id": "saiyuki-gyumaoh-revival",
+  "slug": "saiyuki-gyumaoh-revival",
+  "kind": "event",
+  "name": "牛魔王蘇生実験",
+  "reading": "ぎゅうまおうそせいじっけん",
+  "alternativeNames": ["牛魔王"],
+  "workId": "saiyuki",
+  "description": {
+    "text": "500年前に闘神・哪吒太子によって天竺国・吠登城に葬られた大妖怪「牛魔王」を、禁忌とされる化学と妖術の合成によってよみがえらせようとする実験。その影響で桃源郷の妖怪たちが暴走し、玄奘三蔵らは観世音菩薩の命で実験を阻止するため西へ向かう。",
+    "claimIds": ["sy-gyu-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "plot",
+      "figureId": "gyumaoh",
+      "label": "牛魔王と哪吒太子",
+      "inWork": {
+        "text": "大妖怪・牛魔王は、500年前に哪吒太子によって葬られた。",
+        "claimIds": ["sy-gyu-work"]
+      },
+      "inMyth": {
+        "text": "『西遊記』の牛魔王は、芭蕉扇をめぐる戦いで孫悟空たちに追いつめられ、天から加勢に来た哪吒太子に首を斬られ、火輪で焼かれて降参した。",
+        "claimIds": ["sy-gyu-myth"]
+      }
+    },
+    {
+      "aspect": "plot",
+      "figureId": "sun-wukong",
+      "label": "西天取経の旅",
+      "inWork": {
+        "text": "三蔵一行が西の天竺を目指して旅をする。",
+        "claimIds": ["sy-gyu-work"]
+      },
+      "inMyth": {
+        "text": "『西遊記』では、玄奘三蔵が孫悟空・猪八戒・沙悟浄を従えて、経典を求めて西天へ旅をする。",
+        "claimIds": ["sy-gyu-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "牛魔王が哪吒太子に敗れて降伏するという原典の筋を、作品は「500年前に葬られた牛魔王がよみがえろうとする」物語の前史に置いている。西へ向かう旅の目的も、経典を得ることから牛魔王の蘇生を阻止することへと変わっている。",
+      "claimIds": ["sy-gyu-work", "sy-gyu-myth", "sy-gyu-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sy-gyu-work",
+      "text": "500年前に闘神・哪吒太子によって天竺国・吠登城に葬られた大妖怪「牛魔王」を、禁忌とされている化学と妖術の合成によって蘇生させる実験が行われ、その影響で桃源郷の妖怪たちが暴走した。観世音菩薩は三仏神を通じ、玄奘三蔵に孫悟空・沙悟浄・猪八戒を連れて西へ行くよう命じた。",
+      "classification": "creative",
+      "sourceIds": ["work-saiyuki"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「最遊記シリーズ」の記述で確認。"
+    },
+    {
+      "id": "sy-gyu-myth",
+      "text": "芭蕉扇をめぐる戦いで、牛魔王は孫悟空・猪八戒と天界の神将たちに追いつめられた。哪吒太子は牛魔王の首を斬り、生えてきた首も斬り、火輪を角に掛けて真火で焼いた。牛魔王は「命ばかりはお助けを。仏門に帰順いたします」と降参した。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第61回"
+    },
+    {
+      "id": "sy-gyu-cmp",
+      "text": "牛魔王が哪吒に敗れる原典の筋を、作品はよみがえりの物語の前史にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-saiyuki", "xiyouji"],
+  "articleIds": []
+}

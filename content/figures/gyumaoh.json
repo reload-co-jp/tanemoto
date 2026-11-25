@@ -1,0 +1,17 @@
+{
+  "id": "gyumaoh",
+  "slug": "gyumaoh",
+  "name": "牛魔王",
+  "reading": "ぎゅうまおう",
+  "originalName": "牛魔王",
+  "romanized": "Niu Mowang",
+  "alternativeNames": [],
+  "type": "monster",
+  "roles": ["妖魔の王", "孫悟空の義兄弟"],
+  "mythologyIds": ["chinese"],
+  "description": "『西遊記』に登場する大力の妖魔。孫悟空がかつて義兄弟の契りを結んだ七大聖の長兄で、妻は芭蕉扇をもつ羅刹女（鉄扇公主）。火焔山の火を消すための芭蕉扇をめぐって孫悟空と争い、最後は天界の加勢を受けた悟空たちに追いつめられ、哪吒太子に降伏した。",
+  "relatedFigureIds": ["sun-wukong", "nezha"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["xiyouji"]
+}

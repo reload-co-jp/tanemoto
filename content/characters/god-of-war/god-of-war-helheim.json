@@ -1,0 +1,61 @@
+{
+  "id": "god-of-war-helheim",
+  "slug": "god-of-war-helheim",
+  "kind": "setting",
+  "name": "ヘルヘイム",
+  "reading": "へるへいむ",
+  "alternativeNames": [],
+  "workId": "god-of-war-2018",
+  "description": {
+    "text": "凍てついた死者の国。本来ヴァルハラへ行くべき戦死者の魂までもがヘルヘイムへ行ってしまい、満員となって冥府として機能しなくなっている。クレイトスは病にかかったアトレウスを救うため、ヘルヘイムへ向かう。",
+    "claimIds": ["gow-hel-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "place",
+      "figureId": "hel",
+      "label": "ヘル（ニヴルヘイムの死者の国）",
+      "inWork": {
+        "text": "凍てついた死者の国で、戦死者はヴァルハラへ、そうでない死者はヘルヘイムへ行くという区別がある。",
+        "claimIds": ["gow-hel-work"]
+      },
+      "inMyth": {
+        "text": "オーディンはヘルをニヴルヘイムに投げ込み、病や老いで死んだ者たちに住まいを割り当てる役目を与えた。一方、戦いで死んだ者はオーディンのもとヴァルハラに迎えられる。",
+        "claimIds": ["gow-hel-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「戦死者はヴァルハラ、それ以外の死者はヘルの国」という区別は原典と共通する。作品は、その区別が崩れて戦死者までヘルヘイムに流れ込み、死者の国が機能不全に陥っているという独自の状況を描いている。",
+      "claimIds": ["gow-hel-work", "gow-hel-myth", "gow-hel-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gow-hel-work",
+      "text": "ヘルヘイムは凍てついた死者の国。本来ヴァルハラへ行くべき戦死者の魂までもがヘルヘイムへと行ってしまい、満員となったヘルヘイムは冥府として機能しなくなっている。クレイトスは病にかかったアトレウスを救うためにヘルヘイムに行く必要が生じた。",
+      "classification": "creative",
+      "sourceIds": ["work-god-of-war-2018"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ゴッド・オブ・ウォー (2018)」の記述で確認。"
+    },
+    {
+      "id": "gow-hel-myth",
+      "text": "オーディンはヘルをニヴルヘイムに投げ込んで、病や老いで死んだ者たちに住まいを割り当てる九つの世界の支配を任せた。戦いで倒れた者たちはエインヘリャルとしてヴァルハラでオーディンのもとに集う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章・34章"
+    },
+    {
+      "id": "gow-hel-cmp",
+      "text": "戦死者とそれ以外の死者の行き先の区別は原典どおりで、その区別が崩れたという状況は作品独自。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-god-of-war-2018", "snorri-edda"],
+  "articleIds": []
+}

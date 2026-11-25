@@ -867,5 +867,38 @@
     "publishedPeriod": "1894年（明治27年）",
     "publisher": "博文館",
     "notes": "明治の児童文学者・巖谷小波が昔話を再話した叢書『日本昔噺』（全24編）の第1編。江戸時代の草双紙などで広まった桃太郎の話を、桃から生まれた桃太郎が犬・猿・雉を連れて鬼ヶ島へ鬼退治に行く、現在よく知られる形で語る。"
+  },
+  {
+    "id": "liezi",
+    "title": "列子",
+    "originalTitle": "列子（沖虚至徳真経）",
+    "author": "列禦寇（伝）",
+    "type": "primary",
+    "publishedPeriod": "戦国時代〜晋代にかけて成立（諸説あり）",
+    "url": "https://zh.wikisource.org/wiki/%E5%88%97%E5%AD%90",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "道家の思想書。湯問篇に、渤海の東にある五つの神山（岱輿・員嶠・方壺・瀛洲・蓬萊）と、龍伯の国の巨人が山を支える大亀を釣り上げたため二山が沈んだという話を載せる。"
+  },
+  {
+    "id": "zuozhuan",
+    "title": "春秋左氏伝",
+    "originalTitle": "春秋左氏傳",
+    "author": "左丘明（伝）",
+    "type": "primary",
+    "publishedPeriod": "戦国時代",
+    "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E5%B7%A6%E6%B0%8F%E5%82%B3",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "『春秋』の注釈書。文公十八年条で、舜が渾敦・窮奇・檮杌・饕餮の「四凶族」を四方の果てへ追放した故事を語る。"
+  },
+  {
+    "id": "tao-yuanming-taohuayuan",
+    "title": "桃花源記",
+    "originalTitle": "桃花源記并詩",
+    "author": "陶淵明",
+    "type": "primary",
+    "publishedPeriod": "東晋末〜南朝宋初（5世紀初め）",
+    "url": "https://zh.wikisource.org/wiki/%E6%A1%83%E8%8A%B1%E6%BA%90%E8%A8%98",
+    "urlLabel": "Wikisource（原文）",
+    "notes": "漁師が桃の林の奥で、秦の戦乱を逃れた人々の子孫が暮らす隠れ里を見つける話。「桃源郷」という言葉のもとになった。"
   }
 ]

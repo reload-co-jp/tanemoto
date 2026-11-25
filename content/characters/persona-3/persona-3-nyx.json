@@ -1,0 +1,59 @@
+{
+  "id": "persona-3-nyx",
+  "slug": "persona-3-nyx",
+  "name": "ニュクス",
+  "reading": "にゅくす",
+  "alternativeNames": [],
+  "workId": "persona-3",
+  "description": {
+    "text": "太古にこの星へ「死」をもたらした、シャドウの母たる存在。ニュクスが目覚めると、地球のすべての生命は「影人間」となって死滅するとされ、タルタロスの頂上に現れて世界を終わらせようとする。転校生・望月綾時は、その到来を告げる「宣告者」だった。",
+    "claimIds": ["p3-nyx-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "label": "ニュクス（夜）",
+      "inWork": {
+        "text": "シャドウの母であり、すべての生命に死をもたらす存在。",
+        "claimIds": ["p3-nyx-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、ニュクス（夜）はカオスから生まれた原初の女神で、タナトス（死）やヒュプノス（眠り）、夢の一族などを生んだ。",
+        "claimIds": ["p3-nyx-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のニュクスは「死（タナトス）」や「眠り（ヒュプノス）」の母である。作品の「シャドウの母」「死をもたらす存在」という性格は、この系譜と重なる。作品には、ペルソナとしてタナトスやヒュプノスも登場する。",
+      "claimIds": ["p3-nyx-work", "p3-nyx-myth", "p3-nyx-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-nyx-work",
+      "text": "太古この星に死なるものを授けたシャドウの母たる存在「ニュクス」が目覚めれば、地球の全ての生命は「影人間」となり死滅する。望月綾時は「宣告者」であり、タルタロスの頂上にニュクスが現れて世界が終わる日は1月31日だという。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-nyx-myth",
+      "text": "カオスからエレボスと黒い夜（ニュクス）が生まれた。夜は、忌まわしいモロス（定め）と黒いケール、タナトス（死）を生み、ヒュプノス（眠り）と夢の一族を生んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』123行、211–212行"
+    },
+    {
+      "id": "p3-nyx-cmp",
+      "text": "死と眠りの母という原典の系譜が、シャドウの母・死をもたらす存在という作品の設定と重なる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "hesiod-theogony"],
+  "articleIds": []
+}

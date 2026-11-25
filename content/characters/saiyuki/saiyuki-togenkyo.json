@@ -1,0 +1,60 @@
+{
+  "id": "saiyuki-togenkyo",
+  "slug": "saiyuki-togenkyo",
+  "kind": "setting",
+  "name": "桃源郷",
+  "reading": "とうげんきょう",
+  "alternativeNames": [],
+  "workId": "saiyuki",
+  "description": {
+    "text": "物語の舞台となる世界。かつては人間と妖怪とが共存する平和な世界だったが、牛魔王の蘇生実験の影響で妖怪たちが理性を失って人間を襲うようになり、混沌と化している。",
+    "claimIds": ["sy-tgk-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "place",
+      "label": "桃花源（陶淵明『桃花源記』）",
+      "inWork": {
+        "text": "人間と妖怪が平和に共存していた世界。",
+        "claimIds": ["sy-tgk-work"]
+      },
+      "inMyth": {
+        "text": "陶淵明の『桃花源記』では、武陵の漁師が桃の林の奥で、秦の戦乱を逃れた人々の子孫が外の世の移り変わりを知らずに平和に暮らす村を見つける。漁師は村を出たのち、二度とそこへたどり着けなかった。",
+        "claimIds": ["sy-tgk-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の桃花源は、戦乱から隔てられた小さな理想郷で、外の者が二度と訪れることのできない場所として描かれる。作品は「桃源郷」を一つの世界全体の名前とし、その平和が失われたところから物語を始めている。",
+      "claimIds": ["sy-tgk-work", "sy-tgk-myth", "sy-tgk-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sy-tgk-work",
+      "text": "物語の舞台は桃源郷。そこはかつて、人間と妖怪とが共存する平和な世界だった。しかし牛魔王の蘇生実験の影響で妖怪たちが暴走し、桃源郷は混沌と化した。",
+      "classification": "creative",
+      "sourceIds": ["work-saiyuki"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「最遊記シリーズ」の記述で確認。"
+    },
+    {
+      "id": "sy-tgk-myth",
+      "text": "晋の太元年間、武陵の漁師が谷川をさかのぼって桃の花の林に迷い込み、その奥の洞穴を抜けた先に、秦の時代の戦乱を逃れてきた人々の子孫が暮らす村を見つけた。村人は漢の時代があったことも知らず、魏や晋のことも知らなかった。漁師は帰る途中に目印をつけておいたが、再び訪ねようとしても道を見つけることはできなかった。",
+      "classification": "fact",
+      "sourceIds": ["tao-yuanming-taohuayuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "陶淵明『桃花源記』"
+    },
+    {
+      "id": "sy-tgk-cmp",
+      "text": "隔絶された小さな理想郷の名を、作品は失われた平和な世界全体の名前にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-saiyuki", "tao-yuanming-taohuayuan"],
+  "articleIds": []
+}

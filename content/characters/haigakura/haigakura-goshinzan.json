@@ -1,0 +1,60 @@
+{
+  "id": "haigakura-goshinzan",
+  "slug": "haigakura-goshinzan",
+  "kind": "setting",
+  "name": "五神山",
+  "reading": "ごしんざん",
+  "alternativeNames": [],
+  "workId": "haigakura",
+  "description": {
+    "text": "竜王が人々のために作った五つの神山からなる国。かつて四匹の凶神「四凶」と八百万の神々がいたが、四凶が五山のうち二山を沈め、四凶と神々は他国へ逃げ出した。",
+    "claimIds": ["hg-gsz-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "place",
+      "label": "渤海の五山（『列子』）",
+      "inWork": {
+        "text": "五つの神山のうち、二山が沈められた。",
+        "claimIds": ["hg-gsz-work"]
+      },
+      "inMyth": {
+        "text": "『列子』湯問篇では、渤海の東に岱輿・員嶠・方壺・瀛洲・蓬萊の五山があり、仙人や聖人が住んでいた。龍伯の国の巨人が山を支える大亀を釣り上げたため、岱輿・員嶠の二山は北極へ流れて大海に沈んだ。",
+        "claimIds": ["hg-gsz-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「五つの神山のうち二つが沈む」という骨格は、『列子』の五山の話と一致する。原典で山を沈めたのは龍伯の国の巨人だが、作品ではその役を四凶に置き換えている。",
+      "claimIds": ["hg-gsz-work", "hg-gsz-myth", "hg-gsz-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hg-gsz-work",
+      "text": "竜王が人々のために作った五神山。その国には四匹の凶神『四凶』と八百万の神が存在していたが、四凶が二山を沈め、四凶と八百万の神は他国へと逃げ出した。",
+      "classification": "creative",
+      "sourceIds": ["work-haigakura"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ハイガクラ」の記述で確認。"
+    },
+    {
+      "id": "hg-gsz-myth",
+      "text": "渤海の東に大きな谷があり、その中に岱輿・員嶠・方壺・瀛洲・蓬萊の五山があって、仙人や聖人が住んでいた。山は海に浮かんで漂うため、天帝は十五匹の大亀に頭で支えさせた。ところが龍伯の国の巨人が六匹の亀を釣り上げたので、岱輿・員嶠の二山は北極に流れて大海に沈んだ。",
+      "classification": "fact",
+      "sourceIds": ["liezi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『列子』湯問篇"
+    },
+    {
+      "id": "hg-gsz-cmp",
+      "text": "五山のうち二山が沈む骨格は『列子』と一致し、沈めた者を四凶とする点は作品独自。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-haigakura", "liezi"],
+  "articleIds": []
+}

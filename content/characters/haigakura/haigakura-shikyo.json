@@ -1,0 +1,60 @@
+{
+  "id": "haigakura-shikyo",
+  "slug": "haigakura-shikyo",
+  "kind": "setting",
+  "name": "四凶",
+  "reading": "しきょう",
+  "alternativeNames": ["渾沌", "窮奇", "饕餮"],
+  "workId": "haigakura",
+  "description": {
+    "text": "五神山の国にいた四匹の凶神。渾沌・窮奇・饕餮などからなり、かつて五神山のうち二山を沈めて国から逃げ出した。主人公の一葉は、四凶の代わりに人柱となっている育ての親・白豪を自由にするため、四凶を連れ戻そうとする。",
+    "claimIds": ["hg-skyo-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "organization",
+      "label": "四凶（渾敦・窮奇・檮杌・饕餮）",
+      "inWork": {
+        "text": "四匹の凶神で、国を追われる（逃げ出す）存在。",
+        "claimIds": ["hg-skyo-work"]
+      },
+      "inMyth": {
+        "text": "『春秋左氏伝』では、帝鴻氏・少皞氏・顓頊・縉雲氏の不才の子である渾敦・窮奇・檮杌・饕餮を「四凶族」と呼び、舜がこれらを四方の果てへ追放して魑魅（化け物）を防がせたと語る。",
+        "claimIds": ["hg-skyo-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の四凶は、悪行のために舜によって四方の果てへ追放された「凶族」である。作品はこれを神に置き換え、国を沈めて逃げた四凶を、追う側が連れ戻すという逆向きの物語にしている。",
+      "claimIds": ["hg-skyo-work", "hg-skyo-myth", "hg-skyo-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hg-skyo-work",
+      "text": "五神山の国には四匹の凶神『四凶』（渾沌・窮奇・饕餮ほか）がいたが、四凶が二山を沈め他国へ逃げ出した。歌士官の一葉は、四凶の代わりの人柱となっている白豪を自由の身にするために、四凶を連れ戻そうとする。",
+      "classification": "creative",
+      "sourceIds": ["work-haigakura"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ハイガクラ」の記述で確認。"
+    },
+    {
+      "id": "hg-skyo-myth",
+      "text": "帝鴻氏・少皞氏・顓頊の不才の子を、天下の民はそれぞれ渾敦・窮奇・檮杌と呼び、縉雲氏の不才の子を饕餮と呼んだ。舜は堯の臣として四凶族の渾敦・窮奇・檮杌・饕餮を追放して四方の果てに投じ、魑魅を防がせた。",
+      "classification": "fact",
+      "sourceIds": ["zuozhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『春秋左氏伝』文公十八年"
+    },
+    {
+      "id": "hg-skyo-cmp",
+      "text": "原典では追放される四凶を、作品は逃げた神として連れ戻す対象にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-haigakura", "zuozhuan"],
+  "articleIds": []
+}

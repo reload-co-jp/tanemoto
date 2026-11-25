@@ -1,0 +1,60 @@
+{
+  "id": "persona-3-tartarus",
+  "slug": "persona-3-tartarus",
+  "kind": "setting",
+  "name": "タルタロス",
+  "reading": "たるたろす",
+  "alternativeNames": [],
+  "workId": "persona-3",
+  "description": {
+    "text": "作中に登場する巨大な塔のダンジョン。入るたびに構造が変わり、日付の経過とともに上の階へ進めるようになる。1日と1日の狭間にある隠された時間「影時間」の中で探索し、その頂上にはシャドウの母たる存在「ニュクス」が現れるとされる。",
+    "claimIds": ["p3-tar-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "label": "タルタロス（奈落）",
+      "inWork": {
+        "text": "ダンジョンの名前はギリシア神話をモチーフにしている。上へ上へと登っていく巨大な塔。",
+        "claimIds": ["p3-tar-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドスによれば、タルタロスは大地の下のはるか深くにある暗い奈落で、青銅の金床を天から落とすと9日かかって大地に、さらに9日かかってタルタロスに着くほど遠い。ゼウスに敗れたティタンたちはここに閉じ込められた。",
+        "claimIds": ["p3-tar-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のタルタロスは地の底深くにある奈落で、神々に敗れた者が閉じ込められる場所である。作品では名前を借りながら、天へ向かってそびえる塔として描き、地下と天上の向きを逆転させている。",
+      "claimIds": ["p3-tar-work", "p3-tar-myth", "p3-tar-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "p3-tar-work",
+      "text": "本作のダンジョンは「タルタロス」と呼ばれる巨大な塔のみで、入る度に構造が変わり、日付の経過によって封鎖が解かれる。ダンジョンの名前（タルタロス）はギリシア神話をモチーフにしている。タルタロスの頂上に「ニュクス」が現れて世界が終わるとされる。",
+      "classification": "creative",
+      "sourceIds": ["work-persona-3"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ペルソナ3」の記述で確認。"
+    },
+    {
+      "id": "p3-tar-myth",
+      "text": "青銅の金床を天から落とせば9日9夜落ちて10日目に大地に着き、大地から落とせば9日9夜落ちて10日目にタルタロスに着く。ティタンたちは霧深い暗闇の中、タルタロスに閉じ込められた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』720–735行"
+    },
+    {
+      "id": "p3-tar-cmp",
+      "text": "地の底の奈落の名を、作品は天へ伸びる塔に与えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-persona-3", "hesiod-theogony"],
+  "articleIds": []
+}
