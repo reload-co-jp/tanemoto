@@ -1,0 +1,244 @@
+{
+  "id": "fgo-qin-shi-huang",
+  "slug": "fgo-qin-shi-huang",
+  "title": "FGO始皇帝の元ネタは？『史記』に記された中国最初の皇帝と項羽との関係を解説",
+  "shortTitle": "FGO始皇帝の元ネタ",
+  "eyecatchText": "始皇帝",
+  "description": "『Fate/Grand Order』で中国異聞帯の王として登場する始皇帝。「皇帝」という称号をつくった史実の始皇帝の生涯を、『史記』の記述から紹介します。荊軻の暗殺未遂、焚書坑儒、徐福の仙人探し、そして項羽との関係まで解説。",
+  "lead": "Lostbelt No.3で中国異聞帯を統べる始皇帝。その元になった秦王政は、どのように「皇帝」となったのか。『史記』に記された逸話から、作品の始皇帝と項羽の関係を読み解きます。",
+  "category": "character-origins",
+  "tags": ["FGO", "Fate/Grand Order", "始皇帝", "項羽", "史記", "徐福", "秦"],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["qin-shi-huang", "xiang-yu", "xu-fu"],
+  "mythologyIds": ["ancient-china"],
+  "storyIds": [
+    "qin-unification",
+    "jing-ke-assassination",
+    "burning-of-books",
+    "surrounded-on-all-sides"
+  ],
+  "workIds": ["fate-grand-order", "kingdom", "record-of-ragnarok"],
+  "characterIds": [
+    "fgo-qin-shi-huang",
+    "fgo-xiang-yu",
+    "kingdom-ei-sei",
+    "record-of-ragnarok-qin-shi-huang"
+  ],
+  "topicIds": [],
+  "sourceIds": ["work-fate-grand-order", "shiji"],
+  "relatedArticleIds": ["chinese-mythology-overview"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "FGOの始皇帝",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "『Fate/Grand Order』の始皇帝は、ルーラーのサーヴァントです。Lostbelt No.3「人智統合真国 シン」に、中国異聞帯の王として登場します。作中では「冠位に匹敵する」と評されるほどの存在です。",
+      "claimIds": ["aq-work", "aq-grand"]
+    },
+    {
+      "type": "paragraph",
+      "text": "異聞帯を担当するクリプター芥ヒナコには、配下としてサーヴァント項羽を下賜しています。ここでは、元になった歴史上の始皇帝の姿を、司馬遷の『史記』からたどります。",
+      "claimIds": ["aq-work"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "人質の子として生まれた王",
+      "anchor": "birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "[始皇帝](/figures/qin-shi-huang/)の名は政。父の子楚が秦の公子として趙に人質に出されていたとき、趙の都・邯鄲で生まれました。",
+      "claimIds": ["aq-birth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「皇帝」という称号をつくった",
+      "anchor": "title"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元前221年、秦王政は六国を滅ぼして天下を統一します。王の称号では功績にふさわしくないとして、伝説の三皇の「皇」と五帝の「帝」をあわせて「皇帝」と名乗り、自らを「始皇帝」としました。子孫は二世・三世と数えて万世に伝えるよう定め、天子が自分を指す言葉を「朕」とすることもこのとき決まりました。",
+      "claimIds": ["aq-title"]
+    },
+    {
+      "type": "paragraph",
+      "text": "「皇帝」という称号そのものが、始皇帝によって生み出されたものなのです。FGOで「王」たる存在として描かれる背景には、この中国最初の皇帝という立場があります。",
+      "claimIds": ["aq-title", "aq-work"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "荊軻の暗殺未遂",
+      "anchor": "jingke"
+    },
+    {
+      "type": "paragraph",
+      "text": "統一前の秦王政は、暗殺の危機にもさらされました。燕の太子丹が送った刺客・荊軻は、献上する地図の巻物に匕首を隠して近づき、地図を開ききったところで襲いかかります。秦王は柱の周りを逃げ回り、侍医の夏無且が薬袋を投げつけた隙に長剣を抜いて荊軻を斬りました。",
+      "claimIds": ["aq-jingke"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "焚書坑儒と不老不死の探求",
+      "anchor": "books"
+    },
+    {
+      "type": "paragraph",
+      "text": "始皇34年（紀元前213年）、丞相李斯の進言により、秦の記録と医薬・占い・農業の書を除く書物が焼き捨てられました。翌年には、学者ら四百六十人あまりが咸陽で穴に埋められたといいます。いわゆる焚書坑儒です。",
+      "claimIds": ["aq-books"]
+    },
+    {
+      "type": "paragraph",
+      "text": "始皇帝は仙人と不老不死の薬にも強い関心を寄せました。斉の方士[徐福](/figures/xu-fu/)（『史記』では徐市）が、海中に蓬萊・方丈・瀛洲の三つの神山があり仙人が住むと上書すると、始皇帝は童男童女数千人を伴わせて、海へ仙人を探しに行かせています。",
+      "claimIds": ["aq-xufu"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "項羽との関係",
+      "anchor": "xiang-yu"
+    },
+    {
+      "type": "paragraph",
+      "text": "FGOでは、始皇帝が項羽を芥ヒナコに下賜しています。しかし史実の[項羽](/figures/xiang-yu/)は、秦を滅ぼした側の人物でした。『史記』項羽本紀によれば、若き項羽は会稽に巡行する始皇帝の行列を見て、「彼に取って代わることができる」と言い放ったといいます。",
+      "claimIds": ["aq-work", "aq-xiangyu"]
+    },
+    {
+      "type": "paragraph",
+      "text": "項羽はのちに秦を倒しますが、劉邦との争いに敗れ、垓下で四方から楚の歌を聞く「四面楚歌」の窮地に陥り、烏江で自ら命を絶ちました。",
+      "claimIds": ["aq-gaixia"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "反転した主従関係",
+      "text": "始皇帝に取って代わろうとした項羽を、始皇帝の配下に置くFGOの構図は、史実の敵対関係を反転させたものといえます。項羽については[FGOの項羽](/characters/fgo-xiang-yu/)のページも参照してください。",
+      "claimIds": ["aq-cmp", "aq-xiangyu"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ほかの作品の始皇帝",
+      "anchor": "others"
+    },
+    {
+      "type": "paragraph",
+      "text": "始皇帝は多くの作品に登場します。『[キングダム](/characters/kingdom-ei-sei/)』では中華統一を目指す若き秦王・嬴政として、『[終末のワルキューレ](/characters/record-of-ragnarok-qin-shi-huang/)』では人類代表の闘士として描かれています。同じ人物でも、作品によって強調される側面が大きく異なります。",
+      "claimIds": ["aq-cmp-other"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "FGOの始皇帝はルーラーで、Lostbelt No.3「人智統合真国 シン」の中国異聞帯の王",
+        "史実の始皇帝は「皇帝」の称号をつくり、自らを始皇帝と称した",
+        "荊軻の暗殺未遂、焚書坑儒、徐福による仙人探しなどの逸話が『史記』に残る",
+        "史実の項羽は始皇帝に「取って代わる」と言った人物で、FGOではその主従が反転している"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "aq-work",
+      "text": "始皇帝はルーラーのサーヴァントで、Lostbelt No.3「人智統合真国 シン」に登場する中国異聞帯の王。芥ヒナコに項羽を下賜した。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Grand Order」「Fate/Grand Orderの登場キャラクター」の記述で確認。"
+    },
+    {
+      "id": "aq-grand",
+      "text": "作中で始皇帝は冠位に匹敵すると評されている。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Grand Order」「Fate/Grand Orderの登場キャラクター」の記述で確認。"
+    },
+    {
+      "id": "aq-birth",
+      "text": "秦の公子子楚が趙に人質となっていたとき、邯鄲で子の政が生まれた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻85 呂不韋列伝"
+    },
+    {
+      "id": "aq-title",
+      "text": "天下を統一した秦王政は、三皇の「皇」と五帝の「帝」の位号をあわせて「皇帝」と号し、自らを始皇帝とした。子孫を二世・三世と数えて万世に伝えるよう定め、天子の自称を「朕」とすることもこのとき定められた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇26年条）"
+    },
+    {
+      "id": "aq-jingke",
+      "text": "燕の太子丹が送った刺客の荊軻は、地図の巻物に匕首を隠して秦王に近づき襲いかかった。秦王は柱の周りを逃げ、侍医夏無且が薬袋を投げつけた隙に長剣を抜いて荊軻を斬った。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻86 刺客列伝"
+    },
+    {
+      "id": "aq-books",
+      "text": "始皇34年、丞相李斯の進言により、秦の記録と医薬・占い・農業の書を除く書物が焼き捨てられた。翌年には学者ら四百六十人あまりが咸陽で穴に埋められた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇34年・35年条）"
+    },
+    {
+      "id": "aq-xufu",
+      "text": "斉の方士徐市（徐福）は、海中に蓬萊・方丈・瀛洲の三神山があり仙人が住むと上書し、始皇帝は徐市に童男童女数千人を伴わせて海に仙人を求めさせた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇28年条）"
+    },
+    {
+      "id": "aq-xiangyu",
+      "text": "秦の始皇帝が会稽に巡行したとき、項羽はそれを見て「彼に取って代わることができる」と言った。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    },
+    {
+      "id": "aq-gaixia",
+      "text": "垓下に追い詰められた項羽は、四方から楚の歌が聞こえるのを聞いて驚き、のち烏江で自ら首をはねて死んだ。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    },
+    {
+      "id": "aq-cmp",
+      "text": "項羽を始皇帝の配下とする構図が史実の敵対関係の反転にあたるという評価は編集部の解釈である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "aq-cmp-other",
+      "text": "始皇帝は『キングダム』『終末のワルキューレ』など多くの作品で描かれ、作品ごとに異なる側面が強調されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}
