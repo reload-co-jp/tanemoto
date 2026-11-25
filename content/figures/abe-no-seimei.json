@@ -8,6 +8,46 @@
   "roles": ["陰陽師"],
   "mythologyIds": ["japanese-legends"],
   "description": "平安時代中期の陰陽師。天文や占いで国家の吉凶を判断する陰陽寮に仕えた実在の人物で、のちの説話で不思議な術を使う名人として語られるようになった。『大鏡』では、天の異変から花山天皇の退位を知り、目に見えない式神を内裏へ走らせる。『古事談』では、藤原道長にかけられた呪いを見抜き、紙で折った鳥を白鷺に変えて術者の道摩法師を突き止めた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "花山天皇の出家を知る"
+    },
+    {
+      "type": "paragraph",
+      "text": "平安時代の歴史物語『大鏡』によれば、寛和二年（986年）六月の夜、花山天皇はひそかに内裏を抜け出し、出家するために寺へ向かいました。途中で安倍晴明の家の前を通ると、晴明は帝の退位を示す天変があったと言い、「まず式神一人、内裏へ参れ」と命じます。すると目に見えない何者かが戸を開けて出てきて、帝がちょうど通り過ぎていくところだと答えたといいます。",
+      "claimIds": ["fg-abe-no-seimei-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "道長を守る"
+    },
+    {
+      "type": "paragraph",
+      "text": "説話集『古事談』によれば、藤原道長のかわいがっていた白い犬が、門の前で道長の衣のすそをくわえて引き止めました。呼ばれた晴明は、道長を呪う者が道に呪物を埋めていると見抜きます。晴明が懐紙で鳥の形を作って呪文を唱え空へ投げると、紙は白鷺となって飛び、その降りた家で術者の道摩法師が捕らえられました。",
+      "claimIds": ["fg-abe-no-seimei-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-abe-no-seimei-1",
+      "text": "寛和二年六月、花山天皇がひそかに出家に向かう途中で安倍晴明の家の前を通ると、晴明は帝の退位を示す天変があったと言い、式神一人に内裏へ参るよう命じた。目に見えない者が戸を開けて出てきて、帝がちょうど通り過ぎていくと答えた。",
+      "classification": "fact",
+      "sourceIds": ["okagami"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『大鏡』花山院"
+    },
+    {
+      "id": "fg-abe-no-seimei-2",
+      "text": "藤原道長の白犬が吠えて道長を引き止めたため、晴明が呪物を見つけ出し、懐紙で鳥の形を作って投げると白鷺となって飛び、その降りた所で術者の道摩法師が捕らえられた。",
+      "classification": "fact",
+      "sourceIds": ["kojidan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事談』第六"
+    }
+  ],
   "relatedFigureIds": [],
   "relatedStoryIds": ["seimei-and-emperor-kazan", "seimei-and-doma"],
   "articleIds": [],

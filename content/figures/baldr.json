@@ -10,6 +10,72 @@
   "roles": ["光", "美"],
   "mythologyIds": ["norse"],
   "description": "オーディンの二番目の息子。あまりに美しく輝かしいので、光がそこから射すといわれた。母フリッグは万物にバルドルを傷つけないと誓わせたが、若いヤドリギだけは誓わせておらず、ロキの企みで盲目のヘズが投げたヤドリギに貫かれて死んだ。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "光り輝く神"
+    },
+    {
+      "type": "paragraph",
+      "text": "『散文エッダ』によれば、バルドルはオーディンの二番目の息子です。あまりに美しく輝かしいので、光がそこから射すといわれました。",
+      "claimIds": ["fg-baldr-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ヤドリギの矢"
+    },
+    {
+      "type": "paragraph",
+      "text": "母フリッグは、火や水、鉄、石、病、獣、毒など、あらゆるものにバルドルを傷つけないと誓わせました。ところが若いヤドリギにだけは誓わせていませんでした。それを知ったロキはヤドリギを取ってきて盲目の神ヘズに渡し、狙いを教えて投げさせます。ヤドリギはバルドルを貫き、バルドルは死んでしまいました。",
+      "claimIds": ["fg-baldr-2", "fg-baldr-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "船の葬儀"
+    },
+    {
+      "type": "paragraph",
+      "text": "神々はバルドルの亡骸を海辺に運びました。バルドルの船はフリングホルニといい、あらゆる船の中で最も大きなものでした。神々はその船に火葬の薪を積みました。",
+      "claimIds": ["fg-baldr-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-baldr-1",
+      "text": "バルドルはオーディンの二番目の息子で、あまりに美しく輝かしいので、光がそこから射すといわれた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 22章"
+    },
+    {
+      "id": "fg-baldr-2",
+      "text": "フリッグは火や水、鉄、石、病、獣、毒などあらゆるものにバルドルを傷つけないと誓わせたが、若いヤドリギには誓わせていなかった。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    },
+    {
+      "id": "fg-baldr-3",
+      "text": "ロキはヤドリギを取ってきて盲目のヘズに渡し、狙いを教えて投げさせた。ヤドリギはバルドルを貫き、バルドルは死んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    },
+    {
+      "id": "fg-baldr-4",
+      "text": "神々はバルドルの亡骸を海辺に運んだ。バルドルの船はフリングホルニといい、あらゆる船の中で最も大きかった。神々はその船に火葬の薪を積んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    }
+  ],
   "relatedFigureIds": ["odin", "frigg", "loki"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],

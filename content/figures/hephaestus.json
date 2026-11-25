@@ -10,6 +10,59 @@
   "roles": ["鍛冶", "工芸", "火"],
   "mythologyIds": ["greek"],
   "description": "鍛冶と工芸の神。『イリアス』では足の不自由な神として描かれ、青銅の館の炉と鞴（ふいご）でアキレウスの盾と武具を作った。ヘラクレスには黄金の胸当てを与えている。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "足の曲がった鍛冶の神"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』でヘパイストスは「足の曲がった神」と呼ばれる鍛冶の神です。海の女神テティスは、ヘパイストスが自ら建てた、青銅でできた不滅の館を訪れました。",
+      "claimIds": ["fg-hephaestus-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "アキレウスの盾"
+    },
+    {
+      "type": "paragraph",
+      "text": "テティスの願いを受けたヘパイストスは、二十の鞴を炉に向けて働かせ、金床と槌を用いて、その息子アキレウスのための盾を作りました。",
+      "claimIds": ["fg-hephaestus-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "英雄ヘラクレスも、ヘパイストスから黄金の胸当てを授かっています。",
+      "claimIds": ["fg-hephaestus-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-hephaestus-1",
+      "text": "テティスは、足の曲がった神ヘパイストスが自ら建てた、青銅でできた不滅の館を訪れた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』18.369–371"
+    },
+    {
+      "id": "fg-hephaestus-2",
+      "text": "ヘパイストスはテティスの願いを受け、二十の鞴を炉に向けて働かせ、金床と槌を用いてアキレウスの盾を作った。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』18.468–482"
+    },
+    {
+      "id": "fg-hephaestus-3",
+      "text": "ヘラクレスはヘパイストスから黄金の胸当てを授かった。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.11"
+    }
+  ],
   "relatedFigureIds": ["zeus", "heracles", "athena"],
   "relatedStoryIds": [],
   "articleIds": [],

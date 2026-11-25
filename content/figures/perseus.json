@@ -10,6 +10,72 @@
   "roles": ["英雄", "ゴルゴン退治"],
   "mythologyIds": ["greek"],
   "description": "ダナエの子で、メデューサを討った英雄。ヘルメスとアテナの導きで魔法の道具を手に入れ、盾に映った姿を見ながらメデューサの首を切った。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "黄金の雨から生まれた英雄"
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロスによれば、アルゴス王アクリシオスは娘ダナエを青銅の地下室に閉じこめましたが、ゼウスが黄金の流れに姿を変えて屋根から注ぎ、ダナエはペルセウスを産みました。アクリシオスは母子を箱に入れて海に流し、箱はセリポス島に流れ着きます。",
+      "claimIds": ["fg-perseus-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "メデューサ退治"
+    },
+    {
+      "type": "paragraph",
+      "text": "セリポス島の王ポリュデクテスにゴルゴンの首を求められたペルセウスは、ニンフたちから翼のあるサンダル、キビシス（袋）、ハデスの帽子を得て、ヘルメスからは金剛の鎌を受け取りました。そして盾に映った姿を見ながら、メデューサの首を切ります。首からはペガソスとクリュサオルが生まれました。",
+      "claimIds": ["fg-perseus-2", "fg-perseus-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "アンドロメダとの結婚"
+    },
+    {
+      "type": "paragraph",
+      "text": "帰り道、ペルセウスは海の怪物の生贄として岩に縛られた王女アンドロメダを見つけ、怪物を倒して救い出し、彼女を妻としました。",
+      "claimIds": ["fg-perseus-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-perseus-1",
+      "text": "アルゴス王アクリシオスは娘ダナエを青銅の地下室に閉じこめたが、ゼウスが黄金の流れに姿を変えて屋根から注ぎ、ダナエはペルセウスを産んだ。アクリシオスは母子を箱に入れて海に流し、箱はセリポス島に流れ着いてディクテュスに拾われた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.1"
+    },
+    {
+      "id": "fg-perseus-2",
+      "text": "ペルセウスはニンフたちから翼のあるサンダルとキビシス（袋）とハデスの帽子を得て、ヘルメスからは金剛の鎌を受け取った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fg-perseus-3",
+      "text": "ペルセウスは盾に映った姿を見ながらメデューサの首を切り、首からはペガソスとクリュサオルが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fg-perseus-4",
+      "text": "メデューサ退治の帰りのペルセウスが怪物を倒してアンドロメダを救い、彼女を妻とした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    }
+  ],
   "relatedFigureIds": ["medusa", "athena", "hermes", "andromeda"],
   "relatedStoryIds": ["perseus-medusa", "perseus-andromeda"],
   "articleIds": [],

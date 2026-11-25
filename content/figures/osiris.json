@@ -10,6 +10,59 @@
   "roles": ["冥界の王", "豊穣", "死と再生"],
   "mythologyIds": ["egyptian"],
   "description": "エジプトの王として人々に農耕と法を授けたが、弟セトの策略で棺に閉じ込められて殺され、のちに体をばらばらにされた。妻イシスに集められて復活し、冥界の王となった。ヘロドトスやプルタルコスはギリシャのディオニュソスにあたる神とする。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "殺された王"
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコス『イシスとオシリスについて』によれば、オシリスは弟セト（テュポン）の策略で箱に閉じ込められて殺され、ナイル川に流されました。妻イシスは箱をビブロスで見つけて持ち帰りますが、セトに見つかり、遺体は十四に切り分けられて各地にまかれます。",
+      "claimIds": ["fg-osiris-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その後オシリスは冥界から息子ホルスのもとに来て、仇討ちの戦いに備えて鍛えたといいます。",
+      "claimIds": ["fg-osiris-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "冥界の王"
+    },
+    {
+      "type": "paragraph",
+      "text": "「死者の書」第125章の挿絵では、死者の心臓が天秤で量られたのち、死者は玉座のオシリスの前に導かれます。",
+      "claimIds": ["fg-osiris-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-osiris-1",
+      "text": "オシリスはテュポン（セト）の策略で箱に閉じ込められて殺された。イシスは箱をビブロスで見つけて持ち帰ったが、セトに見つかり遺体は十四に切り分けられて各地にまかれた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』13–18章"
+    },
+    {
+      "id": "fg-osiris-2",
+      "text": "オシリスは冥界からホルスのもとに来て、戦いに備えて鍛えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』19章"
+    },
+    {
+      "id": "fg-osiris-3",
+      "text": "「死者の書」第125章の挿絵では、死者の心臓が天秤で量られたのち、死者は玉座のオシリスの前に導かれる。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    }
+  ],
   "relatedFigureIds": ["isis", "set", "horus", "anubis"],
   "relatedStoryIds": ["death-of-osiris", "weighing-of-the-heart"],
   "articleIds": [],

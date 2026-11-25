@@ -10,6 +10,72 @@
   "roles": ["破壊と創造", "苦行", "踊りの王"],
   "mythologyIds": ["indian"],
   "description": "ヒンドゥー教の三大神の一柱で、破壊と再生をつかさどる神。三つの目をもち、乳海攪拌で生じた猛毒を飲み込んで喉が青くなったことから「ニーラカンタ（青い喉の者）」とも呼ばれる。『リグ・ヴェーダ』の暴風神ルドラと同一視される。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "マハーデーヴァ"
+    },
+    {
+      "type": "paragraph",
+      "text": "インドの叙事詩『マハーバーラタ』では、シヴァはしばしば「マハーデーヴァ（偉大な神）」と呼ばれます。三つの目をもつ永遠のマハーデーヴァはルドラたちの主とされ、「彼はルドラであり、シヴァであり、アグニであり、すべてである」と讃えられています。",
+      "claimIds": ["fg-shiva-1", "fg-shiva-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "青い喉の神"
+    },
+    {
+      "type": "paragraph",
+      "text": "神々とアスラが不死の霊薬アムリタを得るために大海を攪拌すると、世界を焼き尽くすほどの猛毒カーラクータが湧き出ました。シヴァはブラフマーに請われてこの毒を飲み込み、喉にとどめたため、それ以来ニーラカンタ（青い喉の者）と呼ばれます。",
+      "claimIds": ["fg-shiva-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "狩人の姿でアルジュナを試す"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヒマラヤで苦行する英雄アルジュナの前に、シヴァは狩人キラータの姿で現れました。猪の姿の魔物をめぐって二人は戦い、アルジュナの矢は尽き、素手でも敵いませんでしたが、その武勇を喜んだシヴァは正体を現し、神の武器パーシュパタを授けました。",
+      "claimIds": ["fg-shiva-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-shiva-1",
+      "text": "三つの目をもつ永遠のマハーデーヴァが、ルドラたちの主とされた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』平和の巻 122節（Ganguli 英訳）"
+    },
+    {
+      "id": "fg-shiva-2",
+      "text": "「彼はルドラであり、シヴァであり、アグニであり、すべてである」とマハーデーヴァが讃えられる。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』ドローナの巻 202節（Ganguli 英訳）"
+    },
+    {
+      "id": "fg-shiva-3",
+      "text": "大海の攪拌で猛毒カーラクータが湧き出ると、シヴァはブラフマーに請われてこの毒を飲み込み、喉にとどめたため、ニーラカンタ（青い喉の者）と呼ばれる。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 18節（Ganguli 英訳）"
+    },
+    {
+      "id": "fg-shiva-4",
+      "text": "シヴァはキラータの姿でヒマラヤに現れ、猪の姿の魔物をめぐってアルジュナと戦った。アルジュナの矢は尽き素手でも敵わなかったが、シヴァは喜んで正体を現し、神の武器パーシュパタを授けた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 39–40節（Ganguli 英訳）"
+    }
+  ],
   "relatedFigureIds": ["arjuna"],
   "relatedStoryIds": ["churning-of-the-ocean", "arjuna-and-the-kirata"],
   "articleIds": [],

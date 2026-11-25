@@ -8,6 +8,72 @@
   "roles": ["国生み", "創造"],
   "mythologyIds": ["japanese"],
   "description": "イザナミとともに国土と多くの神々を生んだ男神。『古事記』では伊耶那岐命、『日本書紀』では伊弉諾尊と書く。亡き妻を追って黄泉国を訪れ、逃げ帰ったのち禊をして天照大御神・月読命・須佐之男命の「三貴子」を生んだ。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "黄泉国への旅"
+    },
+    {
+      "type": "paragraph",
+      "text": "『古事記』によれば、イザナギはイザナミとともに国を生みました。しかしイザナミは火の神カグツチを生んで亡くなり、イザナギは妻を追って黄泉国まで行きます。「見ないで」という言いつけを破って火をともすと、妻の体には蛆がわき、八柱の雷神が宿っていました。",
+      "claimIds": ["fg-izanagi-1", "fg-izanagi-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "千引の石"
+    },
+    {
+      "type": "paragraph",
+      "text": "恥をかかされたイザナミは黄泉の軍勢に夫を追わせます。逃げ帰ったイザナギは黄泉比良坂を千引の石でふさぎ、石を挟んでイザナミと離別の言葉を交わしました。",
+      "claimIds": ["fg-izanagi-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "禊と三貴子"
+    },
+    {
+      "type": "paragraph",
+      "text": "黄泉国から戻ったイザナギが筑紫の日向の阿波岐原で禊をすると、左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれました。イザナギは三柱にそれぞれ高天原・夜の食国・海原を治めるよう命じます。",
+      "claimIds": ["fg-izanagi-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-izanagi-1",
+      "text": "イザナギはイザナミとともに国を生み、イザナミが亡くなると黄泉国まで追って行った。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "fg-izanagi-2",
+      "text": "イザナギが言いつけを破って火をともすと、イザナミの体には蛆がわき八柱の雷神が宿っていた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "fg-izanagi-3",
+      "text": "イザナギは黄泉比良坂を千引の石でふさいで、石を挟んでイザナミと離別の言葉を交わした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（黄泉国）"
+    },
+    {
+      "id": "fg-izanagi-4",
+      "text": "禊で左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。イザナギは三柱にそれぞれ高天原・夜の食国・海原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+    }
+  ],
   "relatedFigureIds": [
     "izanami",
     "amaterasu",

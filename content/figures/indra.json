@@ -10,6 +10,46 @@
   "roles": ["雷", "戦い", "神々の王"],
   "mythologyIds": ["indian"],
   "description": "『リグ・ヴェーダ』で最も多くの讃歌を捧げられる雷神・戦神。工匠神トヴァシュトリが造った雷霆（ヴァジュラ）で、水をせき止める悪竜ヴリトラを打ち倒した。『マハーバーラタ』では英雄アルジュナの父で、バラモンに姿を変えてカルナの鎧と耳飾りを手に入れた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "竜殺しの雷神"
+    },
+    {
+      "type": "paragraph",
+      "text": "古代インドの讃歌集『リグ・ヴェーダ』によれば、霊酒ソーマを飲んで力を得たインドラは、工匠神トヴァシュトリが造った雷霆を手に、山に横たわって水をせき止めていた竜ヴリトラを打ち倒しました。解き放たれた水は、鳴きながら駆ける牛のように海へと流れ下ったといいます。",
+      "claimIds": ["fg-indra-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "カルナの鎧"
+    },
+    {
+      "type": "paragraph",
+      "text": "叙事詩『マハーバーラタ』では、インドラは息子アルジュナを助けるため、バラモンに姿を変えて、カルナが生まれながらに身につけていた鎧と耳飾りを乞います。カルナは必ず敵を倒す槍と引き換えにそれを求め、インドラは一人の強大な敵を倒したのち自分のもとへ戻る槍を与えました。カルナは顔色一つ変えずに体から鎧を剝がし、耳飾りを切り取って与えたといいます。",
+      "claimIds": ["fg-indra-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-indra-1",
+      "text": "ソーマを飲んで力を得たインドラは、トヴァシュトリが造った雷霆を手に、水をせき止めていた竜ヴリトラを打ち倒した。解き放たれた水は海へと流れ下った。",
+      "classification": "fact",
+      "sourceIds": ["rigveda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『リグ・ヴェーダ』1.32"
+    },
+    {
+      "id": "fg-indra-2",
+      "text": "カルナはインドラに、鎧と耳飾りと引き換えに必ず敵を倒す槍を求めた。インドラは、カルナの手では一人の強大な敵を倒したのち自分のもとへ戻る槍を与えた。カルナは顔色一つ変えずに体から鎧を剝がし、耳飾りを切り取ってインドラに与えた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 308節（Ganguli 英訳）"
+    }
+  ],
   "relatedFigureIds": ["vritra", "arjuna", "karna"],
   "relatedStoryIds": ["indra-slays-vritra", "karna-armor"],
   "articleIds": [],

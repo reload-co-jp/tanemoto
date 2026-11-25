@@ -10,6 +10,54 @@
   "roles": ["円卓の騎士", "最強の騎士"],
   "mythologyIds": ["arthurian"],
   "description": "円卓の騎士の中で最も優れた騎士。マロリーの『アーサー王の死』では、ベンウィックのバン王の子で、最初の名はガラハッドだったとされる。王妃グィネヴィアと愛し合い、その関係が明るみに出たことで円卓の騎士たちは二つに割れ、アーサー王の王国が崩壊するきっかけとなった。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "バン王の子"
+    },
+    {
+      "type": "paragraph",
+      "text": "トマス・マロリーの『アーサー王の死』によれば、ランスロットはベンウィックのバン王の子です。アーサーがグィネヴィアを妃に望んだとき、魔術師マーリンは、のちにランスロットが彼女を愛し、彼女もまた彼を愛するようになると警告していました。",
+      "claimIds": ["fg-lancelot-1", "fg-lancelot-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "円卓の崩壊"
+    },
+    {
+      "type": "paragraph",
+      "text": "マーリンの予言どおり、ランスロットと王妃の関係が明かされたことから、アーサーはランスロットと戦うことになります。その留守中に、モードレッドが王位を奪いました。",
+      "claimIds": ["fg-lancelot-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-lancelot-1",
+      "text": "ランスロットはベンウィックのバン王の子である。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第1章"
+    },
+    {
+      "id": "fg-lancelot-2",
+      "text": "マーリンは、のちにランスロットがグィネヴィアを愛し、彼女もまた彼を愛するようになると警告したが、王の心は変わらなかった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第3巻第1〜2章"
+    },
+    {
+      "id": "fg-lancelot-3",
+      "text": "ランスロットと王妃の関係が明かされたことからアーサーはランスロットと戦い、その留守中にモードレッドが王位を奪った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第20巻第1〜2章・第10章、第21巻第1章"
+    }
+  ],
   "relatedFigureIds": ["arthur", "guinevere", "gawain"],
   "relatedStoryIds": ["round-table"],
   "articleIds": [],

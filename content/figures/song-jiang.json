@@ -9,6 +9,77 @@
   "roles": ["梁山泊の首領"],
   "mythologyIds": ["water-margin"],
   "description": "あだ名は「及時雨」「呼保義」。百八星の筆頭・天魁星の生まれ変わり。困った人に惜しまず金を与える義侠の人として江湖に名高く、色黒で小柄な小役人だった。罪を得て流されたのち梁山泊の首領となり、のちに朝廷に帰順する。最後は奸臣に毒酒を賜って死んだ。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "百八の魔王"
+    },
+    {
+      "type": "paragraph",
+      "text": "『水滸伝』の物語は、龍虎山の「伏魔之殿」の封印が解かれる場面から始まります。地の底から噴き出した黒い気は百筋あまりの金色の光となって四方へ飛び散りました。そこには三十六の天罡星と七十二の地煞星、合わせて百八の魔王が封じられていたのです。",
+      "claimIds": ["fg-song-jiang-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "及時雨・宋江"
+    },
+    {
+      "type": "paragraph",
+      "text": "宋江は「及時雨」の名で慕われた梁山泊の首領です。江州に流されたとき出会った黒旋風・李逵は、相手が憧れの宋公明だと知ると手を打って喜び、以来、宋江を兄と慕い続けました。",
+      "claimIds": ["fg-song-jiang-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "梁山泊に百八人の頭領がそろうと、宋江は天に感謝する祭りを行います。最後の夜、天から落ちた火の塊を掘り出すと石碑が現れ、百八人の名とあだ名、そして「替天行道（天に替わりて道を行う）」の文字が刻まれていました。",
+      "claimIds": ["fg-song-jiang-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最期"
+    },
+    {
+      "type": "paragraph",
+      "text": "朝廷に帰順して各地を転戦した宋江は、奸臣のたくらみで毒入りの御酒を賜ります。死を悟った宋江は、自分の死後に李逵が反乱を起こして「替天行道」の名を汚すことを恐れ、李逵にも同じ毒を飲ませました。二人は楚州の蓼児洼に並んで葬られています。",
+      "claimIds": ["fg-song-jiang-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-song-jiang-1",
+      "text": "洪太尉が龍虎山の伏魔之殿の石碑の下を掘らせると、黒い気が噴き出して百筋あまりの金色の光となり四方へ飛び散った。そこには三十六の天罡星と七十二の地煞星、合わせて百八の魔王が封じられていた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第1–2回"
+    },
+    {
+      "id": "fg-song-jiang-2",
+      "text": "江州に流された宋江は李逵を紹介される。李逵は相手が「及時雨」宋公明だと知ると手を打って喜んでひれ伏し、以来宋江を兄と慕い続けた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第38回"
+    },
+    {
+      "id": "fg-song-jiang-3",
+      "text": "宋江が行った祭りの最後の夜、天から落ちた火の塊を掘り出すと石碣が現れ、天罡星三十六人・地煞星七十二人の名とあだ名、「替天行道」「忠義双全」の文字が刻まれていた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第71回"
+    },
+    {
+      "id": "fg-song-jiang-4",
+      "text": "毒入りの御酒を賜った宋江は、死後に李逵が反乱を起こすことを恐れて李逵にも同じ毒を飲ませた。二人は楚州の蓼児洼に並んで葬られた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第120回"
+    }
+  ],
   "relatedFigureIds": ["li-kui", "lin-chong", "wu-song", "lu-zhishen"],
   "relatedStoryIds": [
     "song-jiang-meets-li-kui",
