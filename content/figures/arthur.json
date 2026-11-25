@@ -10,6 +10,90 @@
   "roles": ["ブリテンの王", "円卓の主"],
   "mythologyIds": ["arthurian"],
   "description": "ブリテンの伝説の王。マロリーの『アーサー王の死』では、ユーサー・ペンドラゴン王とイグレインの子として生まれ、魔術師マーリンの手で騎士エクターに預けられて育つ。石に刺さった剣を抜いて王となり、湖の乙女から名剣エクスカリバーを授かった。最後は不義の子モードレッドと相討ちになり、小舟でアヴィリオン（アヴァロン）へ運ばれていった。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ユーサー王の子"
+    },
+    {
+      "type": "paragraph",
+      "text": "トマス・マロリーの『アーサー王の死』によれば、アーサーはブリテン王ユーサー・ペンドラゴンとイグレインの子として生まれました。生まれるとすぐ魔術師マーリンの手で騎士エクターに預けられ、エクターの妻に育てられます。",
+      "claimIds": ["fg-arthur-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "石に刺さった剣"
+    },
+    {
+      "type": "paragraph",
+      "text": "ユーサー王の死後、ロンドンの教会の庭に、石の上の鉄床に刺さった剣が現れました。剣には「この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王」と金文字で記されており、これを抜いたのが若きアーサーでした。",
+      "claimIds": ["fg-arthur-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "エクスカリバー"
+    },
+    {
+      "type": "paragraph",
+      "text": "のちにアーサーは泉のほとりの騎士ペリノアと戦い、剣を二つに折られてしまいます。マーリンに導かれた湖で、湖の乙女から授かったのが名剣エクスカリバーです。マーリンは、その鞘は剣の十倍の値打ちがあり、身につけているかぎりどれほど傷ついても血を失わないと告げました。",
+      "claimIds": ["fg-arthur-3", "fg-arthur-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "聖杯の探索"
+    },
+    {
+      "type": "paragraph",
+      "text": "聖霊降臨祭の日、白い錦に覆われた聖杯が円卓の広間に入ってくると、騎士たちはそれぞれこの世でいちばん好きな食べ物と飲み物で満たされました。ガウェインらは聖杯をはっきり見るまで帰らないと誓い、探索の旅に出ます。",
+      "claimIds": ["fg-arthur-5"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-arthur-1",
+      "text": "アーサーはユーサー・ペンドラゴン王とイグレインの子として生まれ、マーリンの手で騎士エクターに預けられ、エクターの妻に育てられた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第2〜3章"
+    },
+    {
+      "id": "fg-arthur-2",
+      "text": "教会の庭の石と鉄床に刺さった剣には「この剣を石と鉄床から抜く者こそ、生まれながらのイングランドの正しき王」と金文字で記されており、アーサーがそれを抜いた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第5章"
+    },
+    {
+      "id": "fg-arthur-3",
+      "text": "アーサーは泉のほとりの騎士（ペリノア）と戦い、相手の剣に打たれて自分の剣が二つに折れた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第23〜24章"
+    },
+    {
+      "id": "fg-arthur-4",
+      "text": "アーサーはマーリンに導かれた湖で、湖の乙女から剣（エクスカリバー）を授かった。マーリンは、鞘は剣の十倍の値打ちがあり、身につけているかぎりどれほど傷ついても血を失わないと告げた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第25章"
+    },
+    {
+      "id": "fg-arthur-5",
+      "text": "聖霊降臨祭の日、白い錦に覆われた聖杯が広間に入ってくると、騎士たちはそれぞれこの世でいちばん好きな食べ物と飲み物で満たされた。ガウェインらは聖杯をはっきり見るまで帰らないと誓って探索に出た。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第13巻第7章"
+    }
+  ],
   "relatedFigureIds": [
     "merlin",
     "guinevere",

@@ -8,6 +8,77 @@
   "roles": ["太陽", "高天原の主神"],
   "mythologyIds": ["japanese"],
   "description": "イザナギが禊で左の目を洗ったときに生まれた女神で、高天原を治める。弟スサノオの乱暴を恐れて天の岩屋戸にこもり、世界が闇に包まれた神話で知られる。皇室の祖神とされる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "禊から生まれた太陽の女神"
+    },
+    {
+      "type": "paragraph",
+      "text": "『古事記』によれば、伊耶那岐命が禊で左の目を洗ったときに天照大御神が生まれました。伊耶那岐命は天照大御神に、神々の住む高天原を治めるよう命じます。右の目からは月読命、鼻からは建速須佐之男命が生まれ、三柱は「三貴子」と呼ばれます。",
+      "claimIds": ["fg-amaterasu-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "天の石屋戸"
+    },
+    {
+      "type": "paragraph",
+      "text": "弟の須佐之男命の乱暴を恐れた天照大御神は、天の石屋戸を閉じてこもってしまいます。すると高天原も葦原中国（地上）も暗くなり、夜が明けない状態が続きました。",
+      "claimIds": ["fg-amaterasu-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "困った神々は八尺の勾玉と八尺の鏡を榊に掛け、天宇受売命が舞って神々がどっと笑いました。不思議に思って戸を細く開けた天照大御神を、天手力男神が引き出すと、世界は再び明るくなりました。",
+      "claimIds": ["fg-amaterasu-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "草薙剣"
+    },
+    {
+      "type": "paragraph",
+      "text": "のちに須佐之男命は、ヤマタノオロチの尾から見つけた大刀を天照大御神に献上しました。これが草那芸之大刀（草薙剣）です。",
+      "claimIds": ["fg-amaterasu-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-amaterasu-1",
+      "text": "伊耶那岐命が禊で左の目を洗ったときに天照大御神が生まれ、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。伊耶那岐命は天照大御神に高天原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の誕生）"
+    },
+    {
+      "id": "fg-amaterasu-2",
+      "text": "天照大御神はスサノオの乱暴を恐れて天の石屋戸を閉じてこもり、高天原も葦原中国も暗くなって常夜が続いた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "fg-amaterasu-3",
+      "text": "神々は八尺の勾玉と八尺の鏡を榊に掛け、天宇受売命が舞って神々が笑うと、戸を細く開けた天照大御神を天手力男神が引き出し、世界は再び明るくなった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸）"
+    },
+    {
+      "id": "fg-amaterasu-4",
+      "text": "須佐之男命はヤマタノオロチの中の尾から見つけた大刀を天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    }
+  ],
   "relatedFigureIds": ["izanagi", "tsukuyomi", "susanoo"],
   "relatedStoryIds": ["birth-of-three-noble-children", "amano-iwato"],
   "articleIds": [],

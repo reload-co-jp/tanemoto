@@ -10,6 +10,101 @@
   "roles": ["冥界の王", "死者の世界の支配者"],
   "mythologyIds": ["greek"],
   "description": "冥界を治める神。クロノスとレアの子で、ゼウス・ポセイドンの兄弟。『イリアス』では、くじ引きによって「闇の世界」を割り当てられたとされる。妻はペルセポネ。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "クロノスの子"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、ハデスはクロノスとレアの子で、ヘスティア、デメテル、ヘラ、ポセイドン、ゼウスと兄弟姉妹にあたります。『神統記』はハデスを、地の下に住む「無慈悲な心の強きハデス」と形容しています。",
+      "claimIds": ["fg-hades-1", "fg-hades-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "くじで得た冥界"
+    },
+    {
+      "type": "paragraph",
+      "text": "ティタン神族との戦いに際し、キュクロプスたちはゼウスに雷霆を、ポセイドンに三叉の矛を、そしてハデスには兜を与えました。勝利ののち、神々はくじを引いて世界を分け、ハデスは冥界の支配を割り当てられます。",
+      "claimIds": ["fg-hades-3", "fg-hades-4"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』でも、ゼウス・ポセイドン・ハデスの三兄弟はくじで世界を分け、ハデスは「霧深い闇」を得たと語られます。大地とオリュンポスは三者の共有でした。",
+      "claimIds": ["fg-hades-5"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "恐れられた神"
+    },
+    {
+      "type": "paragraph",
+      "text": "『イリアス』のアガメムノンは、ハデスはなだめることも屈服させることもできず、それゆえ人間に最も憎まれる神だと語っています。一方『デメテル讃歌』では、ハデスは「アイドネウス」「多くの者を迎える者」などの名で呼ばれます。",
+      "claimIds": ["fg-hades-6", "fg-hades-7"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-hades-1",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "fg-hades-2",
+      "text": "『神統記』はハデスを、地の下に住む無慈悲な心の強きハデスと形容する。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』455–456行"
+    },
+    {
+      "id": "fg-hades-3",
+      "text": "ティタンとの戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を、プルトン（ハデス）に兜を、ポセイドンに三叉の矛を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "fg-hades-4",
+      "text": "ティタンに勝ったのち、神々はくじを引き、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界の支配を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "fg-hades-5",
+      "text": "ゼウス・ポセイドン・ハデスの三兄弟はくじで世界を分け、ハデスは霧深い闇を得た。大地とオリュンポスは三者の共有である。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』15.187–193"
+    },
+    {
+      "id": "fg-hades-6",
+      "text": "アガメムノンは、ハデスはなだめることも屈服させることもできず、それゆえ人間に最も憎まれる神だと語る。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』9.158–159"
+    },
+    {
+      "id": "fg-hades-7",
+      "text": "『デメテル讃歌』ではハデスを「アイドネウス」「多くの者を迎える者」などの名で呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』2, 9, 17行など"
+    }
+  ],
   "relatedFigureIds": ["persephone", "zeus", "poseidon", "cerberus"],
   "relatedStoryIds": [
     "division-of-the-world",
@@ -17,5 +112,10 @@
     "children-of-cronos"
   ],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "homer-iliad", "homeric-hymn-demeter"]
+  "sourceIds": [
+    "hesiod-theogony",
+    "homer-iliad",
+    "homeric-hymn-demeter",
+    "apollodorus-library"
+  ]
 }

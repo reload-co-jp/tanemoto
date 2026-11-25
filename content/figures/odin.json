@@ -10,6 +10,90 @@
   "roles": ["神々の長", "知恵", "戦死者"],
   "mythologyIds": ["norse"],
   "description": "アース神族の最高神で最年長の神。「万物の父」と呼ばれる。ミーミルの泉の水を飲むために片目を差し出し、二羽のワタリガラス、フギンとムニンを世界中に飛ばして知らせを集める。ラグナロクではフェンリル狼に呑まれる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最高神"
+    },
+    {
+      "type": "paragraph",
+      "text": "スノッリの『散文エッダ』によれば、オーディンはアース神族で最も高く、最も古い神です。ほかの神々は、子が父に従うように彼に仕えます。妻はフョルギュンの娘フリッグです。",
+      "claimIds": ["fg-odin-1", "fg-odin-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "片目と引き換えの知恵"
+    },
+    {
+      "type": "paragraph",
+      "text": "知恵と理解が蓄えられたミーミルの泉で、オーディンは水をひと口飲むことを求めました。泉の主はこれを許さず、オーディンが片目を担保に差し出して、ようやく飲むことができたといいます。",
+      "claimIds": ["fg-odin-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "二羽のワタリガラス"
+    },
+    {
+      "type": "paragraph",
+      "text": "オーディンの両肩には、二羽のワタリガラス、フギンとムニンがとまっています。夜明けに世界中へ飛ばされ、朝の食事どきに戻ってきて、見聞きした知らせを耳打ちします。名はそれぞれ「思考」と「記憶」を意味します。",
+      "claimIds": ["fg-odin-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ラグナロクの最期"
+    },
+    {
+      "type": "paragraph",
+      "text": "世界の終わりラグナロクが始まると、オーディンはミーミルの泉に赴いて助言を求めます。金の兜と美しい鎧を身につけ、槍グングニルを持って神々の先頭を進み、フェンリル狼と戦いますが、狼に呑み込まれてしまいます。",
+      "claimIds": ["fg-odin-5"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-odin-1",
+      "text": "オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章"
+    },
+    {
+      "id": "fg-odin-2",
+      "text": "オーディンの妻はフョルギュンの娘フリッグである。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 9章"
+    },
+    {
+      "id": "fg-odin-3",
+      "text": "オーディンはミーミルの泉の水をひと口求め、片目を担保として差し出して飲むことができた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 15章"
+    },
+    {
+      "id": "fg-odin-4",
+      "text": "ワタリガラスのフギンとムニンはオーディンの肩にとまり、毎朝世界中を飛び回って見聞きした知らせを耳打ちする。名はそれぞれ「思考」「記憶」を意味する。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 38章"
+    },
+    {
+      "id": "fg-odin-5",
+      "text": "ラグナロクが始まるとオーディンはミーミルの泉に赴いて助言を求める。金の兜と美しい鎧を身につけ、槍グングニルを持って先頭を進み、フェンリル狼と戦うが、狼に呑みこまれる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    }
+  ],
   "relatedFigureIds": ["thor", "loki", "freyja"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],

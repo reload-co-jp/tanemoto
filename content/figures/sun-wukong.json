@@ -10,6 +10,111 @@
   "roles": ["石猿", "斉天大聖"],
   "mythologyIds": ["chinese"],
   "description": "明代の小説『西遊記』の主人公の一人。花果山の仙石から生まれた石猿で、須菩提祖師に七十二の変化と、ひとっ跳びで十万八千里を行く觔斗雲を学び、東海竜王から如意金箍棒を手に入れた。天界で大暴れしたのち、釈迦如来の掌から逃れられず五行山の下に封じられた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "石から生まれた猿"
+    },
+    {
+      "type": "paragraph",
+      "text": "『西遊記』の冒頭によれば、花果山の頂にある仙石が天地の精気と日月の光を受け、ある日裂けて石の卵を産みました。卵は風に当たって石猿となります。のちに須菩提祖師がこの猿に「孫悟空」の法名を与えました。",
+      "claimIds": ["fg-sun-wukong-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "七十二般の変化と觔斗雲"
+    },
+    {
+      "type": "paragraph",
+      "text": "須菩提祖師は、変化の術には天罡の数の三十六般と地煞の数の七十二般があると言い、悟空は七十二般の変化を選んですべて習得しました。祖師はさらに觔斗雲を授けます。印を結び真言を唱えて身をひるがえせば、ひとっ跳びで十万八千里を行く術です。",
+      "claimIds": ["fg-sun-wukong-2", "fg-sun-wukong-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "如意金箍棒"
+    },
+    {
+      "type": "paragraph",
+      "text": "悟空は東海竜王の海蔵で、金色に光る鉄の柱を見つけました。「もっと細く短く」と言うとそのとおりに縮み、両端には金の箍がはまって、「如意金箍棒、重一万三千五百斤」と刻まれていました。",
+      "claimIds": ["fg-sun-wukong-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "五行山と緊箍児"
+    },
+    {
+      "type": "paragraph",
+      "text": "天界で大暴れした悟空は、釈迦如来の掌から出られずに五行山の下に押さえ込まれます。五百年後、取経の旅に出た三蔵法師が悟空を救い出しました。観音菩薩は三蔵に「緊箍児咒」を授け、悟空が言うことを聞かなければ唱えるよう教えています。",
+      "claimIds": ["fg-sun-wukong-5", "fg-sun-wukong-6"]
+    },
+    {
+      "type": "paragraph",
+      "text": "旅を終えた悟空は、如来から闘戦勝仏に任じられます。頭の箍を外す呪文を唱えてほしいと頼むと、三蔵は「仏になったのだから自然に消えたはずだ」と答え、悟空が頭を探ると箍はなくなっていました。",
+      "claimIds": ["fg-sun-wukong-7"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-sun-wukong-1",
+      "text": "花果山の頂の仙石が天地の精気と日月の光を受けて裂け、石の卵を産んだ。卵は風に当たって石猿となった。のちに須菩提祖師は彼に「孫悟空」の法名を与えた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第1回"
+    },
+    {
+      "id": "fg-sun-wukong-2",
+      "text": "須菩提祖師は天罡の数の三十六般の変化と地煞の数の七十二般の変化があると言い、悟空は七十二般の変化を選んで、すべて習得した。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第2回"
+    },
+    {
+      "id": "fg-sun-wukong-3",
+      "text": "祖師は悟空に觔斗雲を授けた。印を結び真言を唱えて身をひるがえせば、ひとっ跳びで十万八千里を行く。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第2回"
+    },
+    {
+      "id": "fg-sun-wukong-4",
+      "text": "悟空は東海竜王の海蔵で金色に光る鉄の柱を見つけ、「もっと細く短く」と言うとそのとおりに縮んだ。両端に金の箍がはまり、そばに「如意金箍棒、重一万三千五百斤」と刻まれていた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第3回"
+    },
+    {
+      "id": "fg-sun-wukong-5",
+      "text": "如来は掌から出られなかった悟空を五行山の下に押さえこんだ。五百年後、取経の旅に出た三蔵が両界山で悟空を救い出した。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第7回・第14回"
+    },
+    {
+      "id": "fg-sun-wukong-6",
+      "text": "老母の姿をした観音菩薩は三蔵に「定心真言」、またの名を「緊箍児咒」を授け、悟空が言うことを聞かなければひそかに唱えるよう教えた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第14回"
+    },
+    {
+      "id": "fg-sun-wukong-7",
+      "text": "取経の旅を終えた孫悟空は如来から闘戦勝仏に任じられた。悟空が三蔵に緊箍児を外す呪文を唱えるよう頼むと、三蔵は仏になったのだから自然に消えたはずだと答え、悟空が頭を探ると箍はなくなっていた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第100回"
+    }
+  ],
   "relatedFigureIds": ["nezha"],
   "relatedStoryIds": ["havoc-in-heaven"],
   "articleIds": [],

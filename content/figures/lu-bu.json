@@ -9,6 +9,93 @@
   "roles": ["後漢末の武将"],
   "mythologyIds": ["three-kingdoms"],
   "description": "字は奉先。後漢末の武将。正史には弓馬にすぐれ「飛将」と呼ばれたとある。『三国志演義』では、名馬赤兎と金銀に釣られて養父の丁原を殺し、董卓の養子となる。「人中に呂布あり、馬中に赤兎あり」とうたわれ、虎牢関では劉備・関羽・張飛の三人を相手に渡り合った。最後は部下に裏切られて曹操に捕らえられ、白門楼で処刑された。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "飛将・呂布"
+    },
+    {
+      "type": "paragraph",
+      "text": "正史『三国志』呂布伝によれば、呂布は字を奉先といい、弓と馬の扱いに巧みで、腕力は人並み外れていました。人々は彼を「飛将」と呼んだといいます。",
+      "claimIds": ["fg-lu-bu-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "赤兎馬と方天画戟"
+    },
+    {
+      "type": "paragraph",
+      "text": "『三国志演義』の呂布は、方天画戟を手にして登場します。董卓の部下李粛は、一日に千里を行く名馬・赤兎と金銀を呂布に贈り、呂布は養父の丁原を殺して董卓に降りました。",
+      "claimIds": ["fg-lu-bu-2", "fg-lu-bu-3"]
+    },
+    {
+      "type": "paragraph",
+      "text": "赤兎馬にまたがる呂布は「人中に呂布あり、馬中に赤兎あり」と称えられました。虎牢関の戦いでは、張飛・関羽・劉備の三人がかりでも呂布を倒せなかったといいます。",
+      "claimIds": ["fg-lu-bu-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "白門楼の最期"
+    },
+    {
+      "type": "paragraph",
+      "text": "曹操に下邳城を攻められた呂布は、部下の侯成に赤兎馬を盗まれ、門楼でうたた寝をしているところを宋憲・魏続に縛り上げられます。白門楼で「縛りがきつい、ゆるめてくれ」と求め、曹操に仕えたいと申し出ますが、劉備の進言を受けた曹操は呂布を処刑させました。",
+      "claimIds": ["fg-lu-bu-5", "fg-lu-bu-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-lu-bu-1",
+      "text": "正史『三国志』呂布伝は、呂布（字は奉先）が弓馬に巧みで膂力が人に過ぎ、「飛将」と号したと記す。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』魏書 呂布伝"
+    },
+    {
+      "id": "fg-lu-bu-2",
+      "text": "『三国志演義』の呂布は方天画戟を手にして登場する。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第3回"
+    },
+    {
+      "id": "fg-lu-bu-3",
+      "text": "『三国志演義』第3回では、董卓の部下李粛が、一日に千里を行く名馬赤兎と金銀を呂布に贈り、呂布は養父丁原を殺して董卓に降った。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第3回"
+    },
+    {
+      "id": "fg-lu-bu-4",
+      "text": "『三国志演義』第5回は、赤兎馬にまたがる呂布を「人中呂布、馬中赤兔」と称え、張飛・関羽・劉備の三人に囲まれても呂布を倒せなかったと語る。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第5回"
+    },
+    {
+      "id": "fg-lu-bu-5",
+      "text": "『三国志演義』第19回では、侯成が呂布の赤兎馬を盗んで曹操に降り、門楼でうたた寝をしていた呂布を宋憲・魏続が縛り上げた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第19回"
+    },
+    {
+      "id": "fg-lu-bu-6",
+      "text": "『三国志演義』第19回では、白門楼で呂布が「縛りがきつい、ゆるめてくれ」と求め、曹操に仕えたいと申し出るが、劉備の進言を受けた曹操は呂布を縊り殺させ、首をさらした。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第19回"
+    }
+  ],
   "relatedFigureIds": [
     "cao-cao",
     "liu-bei",

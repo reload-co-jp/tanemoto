@@ -10,6 +10,72 @@
   "roles": ["天馬", "ゼウスの雷を運ぶ"],
   "mythologyIds": ["greek"],
   "description": "翼をもつ天馬。メデューサの首が切られたときに生まれた。『神統記』によれば、オケアノスの泉（ペーガイ）のほとりで生まれたことから名づけられ、のちにゼウスの館に住んで雷と稲妻を運んだ。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "メデューサの首から"
+    },
+    {
+      "type": "paragraph",
+      "text": "天馬ペガソス（ペガサス）は、英雄ペルセウスがメデューサの首を切ったとき、その首から生まれました。同時に生まれたのがクリュサオルです。",
+      "claimIds": ["fg-pegasus-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ベレロポンとキマイラ退治"
+    },
+    {
+      "type": "paragraph",
+      "text": "英雄ベレロポンは、女神アテナが夢の中で授けた黄金の手綱でペガソスを捕らえました。その背に乗って空へ舞い上がり、火を吐く怪物キマイラを空から射倒しています。",
+      "claimIds": ["fg-pegasus-2", "fg-pegasus-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ゼウスの雷を運ぶ馬"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドスによれば、ペガソスはやがて地上を去ってゼウスの館に住み、ゼウスの雷鳴と稲妻を運ぶ役目を担いました。",
+      "claimIds": ["fg-pegasus-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-pegasus-1",
+      "text": "ペルセウスがメデューサの首を切ると、ペガソスとクリュサオルが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』280–281行"
+    },
+    {
+      "id": "fg-pegasus-2",
+      "text": "ベレロポンはアテナが夢の中で授けた黄金の手綱でペガソスを捕らえ、その背に乗ってキマイラを倒した。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 63–90行"
+    },
+    {
+      "id": "fg-pegasus-3",
+      "text": "ベレロポンは翼ある馬ペガソスに乗って舞い上がり、空からキマイラを射倒した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.3.2"
+    },
+    {
+      "id": "fg-pegasus-4",
+      "text": "ペガソスは地上を去ってゼウスの館に住み、ゼウスの雷鳴と稲妻を運ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』284–286行"
+    }
+  ],
   "relatedFigureIds": ["medusa", "bellerophon", "poseidon"],
   "relatedStoryIds": ["perseus-medusa", "bellerophon-chimera"],
   "articleIds": [],
