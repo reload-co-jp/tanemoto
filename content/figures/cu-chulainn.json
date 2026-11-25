@@ -10,6 +10,77 @@
   "roles": ["アルスターの英雄", "槍ゲイ・ボルグ"],
   "mythologyIds": ["celtic"],
   "description": "アルスター物語群の主人公。幼名はセタンタ。鍛冶師クランの番犬を殺し、代わりに自分が番犬になると申し出たことから「クランの猛犬（クー・フーリン）」と名づけられた。影の国の女戦士スカアハに武芸を学び、『クアルンゲの牛捕り』ではコナハトの軍勢をただ一人で食い止めた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "クランの猛犬"
+    },
+    {
+      "type": "paragraph",
+      "text": "アイルランドの叙事詩『クアルンゲの牛捕り』によれば、少年セタンタは鍛冶師クランの宴に遅れて向かい、放たれていた獰猛な番犬に襲われて、素手でこれを殺しました。番犬を失って嘆くクランに、少年は代わりの犬が育つまで自分が番犬になると申し出て、「クー・フーリン（クランの猛犬）」と名づけられました。",
+      "claimIds": ["fg-cu-chulainn-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "浅瀬の一騎打ち"
+    },
+    {
+      "type": "paragraph",
+      "text": "アルスターの戦士たちが呪いで動けないあいだ、クー・フーリンは一人で浅瀬に立ち、女王メドヴの軍勢の勇士たちと一騎打ちを重ねて進軍を食い止めました。",
+      "claimIds": ["fg-cu-chulainn-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ゲイ・ボルグ"
+    },
+    {
+      "type": "paragraph",
+      "text": "コナハト側は、クー・フーリンとともにスカアハのもとで学んだフェル・ディアドを一騎打ちに送り出します。二人の技は互角で、クー・フーリンにはフェル・ディアドのもたない技はゲイ・ボルグ以外にありませんでした。",
+      "claimIds": ["fg-cu-chulainn-3"]
+    },
+    {
+      "type": "paragraph",
+      "text": "御者が「ゲイ・ボルグに気をつけろ」と叫んで流れに放った槍を、クー・フーリンは足の指でつかんでフェル・ディアドに投げました。一つの穂先で入った槍は、体内で二十四に分かれたといいます。",
+      "claimIds": ["fg-cu-chulainn-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-cu-chulainn-1",
+      "text": "少年セタンタは鍛冶師クランの番犬を素手で殺し、代わりの犬が育つまで自分が番犬になると申し出て、ドルイドのカトバドに「クー・フーリン（クランの猛犬）」と名づけられた。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 140–142頁"
+    },
+    {
+      "id": "fg-cu-chulainn-2",
+      "text": "アルスターの戦士たちが呪いで動けないあいだ、クー・フーリンは一人で浅瀬に立ち、メドヴの軍勢の勇士たちと一騎打ちを重ねて進軍を食い止めた。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本（O'Rahilly 英訳）"
+    },
+    {
+      "id": "fg-cu-chulainn-3",
+      "text": "クー・フーリンには、フェル・ディアドのもたない技はゲイ・ボルグ以外になかった。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 196頁"
+    },
+    {
+      "id": "fg-cu-chulainn-4",
+      "text": "御者が「ゲイ・ボルグに気をつけろ」と叫んで流れに放った槍を、クー・フーリンは足の指でつかんでフェル・ディアドに投げた。一つの穂先で入った槍は体内で二十四に分かれた。",
+      "classification": "fact",
+      "sourceIds": ["tain-bo-cuailnge"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『クアルンゲの牛捕り』第1校訂本 O'Rahilly 英訳 207頁"
+    }
+  ],
   "relatedFigureIds": ["scathach", "medb", "lugh"],
   "relatedStoryIds": [
     "naming-of-cu-chulainn",

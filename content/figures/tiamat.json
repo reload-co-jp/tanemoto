@@ -10,6 +10,64 @@
   "roles": ["原初の海", "混沌"],
   "mythologyIds": ["mesopotamian"],
   "description": "『エヌマ・エリシュ』で、淡水のアプスーとともに世界の始まりに存在した塩水の女神。夫アプスーを殺された怒りから怪物たちを生んで神々に戦いを挑んだが、マルドゥクに倒され、その体から天と地が造られた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "原初の海"
+    },
+    {
+      "type": "paragraph",
+      "text": "バビロニアの創世叙事詩『エヌマ・エリシュ』は、天地が名づけられる前、アプスーとティアマトが水を混ぜ合わせていたところから始まります。",
+      "claimIds": ["fg-tiamat-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "怪物の母"
+    },
+    {
+      "type": "paragraph",
+      "text": "アプスーが殺されると、ティアマトは毒を血管に満たした大蛇、竜、蠍人間などの怪物を生み出し、キングゥを軍勢の長として神々に戦いを挑みました。",
+      "claimIds": ["fg-tiamat-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "天と地になった体"
+    },
+    {
+      "type": "paragraph",
+      "text": "神々の王となることを条件に戦いを引き受けた若き神マルドゥクは、ティアマトに風を送り込んで矢で射抜きました。そしてその体を干し魚のように二つに裂き、半分で天を覆い、もう半分で地を形づくったのです。",
+      "claimIds": ["fg-tiamat-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-tiamat-1",
+      "text": "天地が名づけられる前に、アプスーとティアマトが水を混ぜ合わせていた。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第1粘土板 1–5行（King 英訳）"
+    },
+    {
+      "id": "fg-tiamat-2",
+      "text": "アプスーが殺されたのち、ティアマトは毒を血管に満たした大蛇、竜、蠍人間などの怪物を生み出し、キングゥを軍勢の長として神々に戦いを挑んだ。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第1粘土板 後半（King 英訳）"
+    },
+    {
+      "id": "fg-tiamat-3",
+      "text": "マルドゥクはティアマトに風を送り込んで矢で射抜き、その体を干し魚のように二つに裂いて、半分で天を覆い、もう半分で地を形づくった。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 93–140行"
+    }
+  ],
   "relatedFigureIds": ["marduk"],
   "relatedStoryIds": ["marduk-and-tiamat"],
   "articleIds": [],

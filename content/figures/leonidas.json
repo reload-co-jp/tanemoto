@@ -10,6 +10,82 @@
   "roles": ["スパルタ王"],
   "mythologyIds": ["classical-antiquity"],
   "description": "紀元前5世紀のスパルタ王。紀元前480年、ペルシア王クセルクセスの大軍をテルモピュライの隘路で迎え撃ち、戦死した。ヘロドトスは、彼の家系をヘラクレスまでさかのぼって記し、スパルタが滅びるか、ヘラクレスの血を引く王が死ぬかという神託を知りながら、残って戦ったと伝える。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "スパルタの王"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘロドトス『歴史』によれば、レオニダスは兄クレオメネスとドリエウスが亡くなったためにスパルタの王位に就きました。ペルシア王クセルクセスの大軍が迫ると、法の定める300人を、息子のいる市民の中から自ら選んでテルモピュライへ率いていきました。",
+      "claimIds": ["fg-leonidas-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "裏切りの抜け道"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元前480年、ギリシャ連合軍は狭い隘路テルモピュライでペルシア軍を食い止めます。しかしマリス人エウリュデモスの子エフィアルテスが、王から多くの褒美を受けられると期待してクセルクセスのもとを訪れ、山を越えてテルモピュライに出る道を教えました。",
+      "claimIds": ["fg-leonidas-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "残った理由"
+    },
+    {
+      "type": "paragraph",
+      "text": "開戦時、デルポイの巫女はスパルタに「スパルタが蛮族に滅ぼされるか、王の一人が死ぬか」と答えていました。レオニダスは、自分が残れば栄光が得られ、スパルタの繁栄も失われないと考え、同盟軍を帰して踏みとどまったといいます。",
+      "claimIds": ["fg-leonidas-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最期"
+    },
+    {
+      "type": "paragraph",
+      "text": "槍の大半が折れるとギリシア兵は剣でペルシア兵を斬り、レオニダスは奮戦して倒れました。クセルクセスは戦死者の中にレオニダスの遺体を見つけると、首を切り落として胴を磔にするよう命じています。",
+      "claimIds": ["fg-leonidas-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-leonidas-1",
+      "text": "レオニダスは兄クレオメネスとドリエウスが亡くなったために王位に就き、法の定める300人を、息子のいる市民の中から自ら選んでテルモピュライへ率いていった。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.205"
+    },
+    {
+      "id": "fg-leonidas-2",
+      "text": "マリス人エウリュデモスの子エフィアルテスは、王から多くの褒美を受けられると期待してクセルクセスのもとを訪れ、山を越えてテルモピュライに出る道を教えた。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.213"
+    },
+    {
+      "id": "fg-leonidas-3",
+      "text": "開戦時にデルポイの巫女はスパルタに「スパルタが蛮族に滅ぼされるか、王の一人が死ぬか」と答えていた。レオニダスは、自分が残れば栄光が得られスパルタの繁栄も失われないと考え、同盟軍を帰して踏みとどまった。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.220"
+    },
+    {
+      "id": "fg-leonidas-4",
+      "text": "槍の大半が折れるとギリシア兵は剣でペルシア兵を斬り、レオニダスは奮戦して倒れた。クセルクセスは戦死者の中にレオニダスの遺体を見つけると、首を切り落として胴を磔にするよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["herodotus-histories"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘロドトス『歴史』7.224・7.238"
+    }
+  ],
   "relatedFigureIds": ["alexander"],
   "relatedStoryIds": ["thermopylae"],
   "articleIds": [],

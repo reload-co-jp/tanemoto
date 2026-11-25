@@ -1,0 +1,201 @@
+{
+  "id": "fgo-jeanne-alter",
+  "slug": "fgo-jeanne-alter",
+  "title": "ジャンヌ・オルタの元ネタは？FGOの復讐者と史実のジャンヌ・ダルクを処刑裁判記録から解説",
+  "shortTitle": "ジャンヌ・オルタの元ネタ",
+  "eyecatchText": "ジャンヌ・オルタ",
+  "description": "『Fate/Grand Order』のアヴェンジャー、ジャンヌ・ダルク〔オルタ〕。元になった史実のジャンヌは、剣より旗を好み、一人も殺したことはないと裁判で語った少女でした。処刑裁判記録をもとに、作品の「復讐者」像との違いを解説します。",
+  "lead": "第一特異点オルレアンで立ちはだかる、復讐の炎をまとったジャンヌ。その元になった「オルレアンの乙女」は、裁判の場で何を語ったのか。史料に残る彼女自身の言葉から、〔オルタ〕との違いをたどります。",
+  "category": "character-origins",
+  "tags": [
+    "FGO",
+    "Fate/Grand Order",
+    "ジャンヌ・ダルク",
+    "ジャンヌ・オルタ",
+    "アヴェンジャー",
+    "百年戦争",
+    "オルレアン"
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["jeanne-d-arc"],
+  "mythologyIds": [],
+  "storyIds": ["joans-voices", "sword-of-fierbois", "death-of-joan"],
+  "workIds": ["fate-grand-order", "fate-apocrypha"],
+  "characterIds": ["fgo-jeanne-alter", "fate-apocrypha-ruler"],
+  "topicIds": [],
+  "sourceIds": [
+    "work-fate-grand-order",
+    "joan-condemnation-trial",
+    "pernoud-joan-of-arc"
+  ],
+  "relatedArticleIds": [],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "ジャンヌ・ダルク〔オルタ〕とは",
+      "anchor": "character"
+    },
+    {
+      "type": "paragraph",
+      "text": "ジャンヌ・ダルク〔オルタ〕は、『Fate/Grand Order』に登場するアヴェンジャー（復讐者）のサーヴァントです。初登場は、物語の最初の舞台となる第一特異点「邪竜百年戦争 オルレアン」。召喚者が聖杯に歪んだ願望をかけて呼び出した、ジャンヌ・ダルクのもう一つの姿（オルタナティブ）として描かれます。",
+      "claimIds": ["aj-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "では、元になった歴史上のジャンヌ・ダルクは、どのような人物だったのでしょうか。彼女の言葉は、1431年の処刑裁判の記録に残されています。",
+      "claimIds": ["aj-voices"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "「オルレアンの乙女」ジャンヌ・ダルク",
+      "anchor": "history"
+    },
+    {
+      "type": "paragraph",
+      "text": "[ジャンヌ・ダルク](/figures/jeanne-d-arc/)は、百年戦争期のフランスで、イングランド軍に包囲されたオルレアンの解放に加わった少女です。同時代の人々から「乙女（la Pucelle）」と呼ばれ、裁判記録でも「乙女と呼ばれるジャンヌ」と記されています。",
+      "claimIds": ["aj-pucelle"]
+    },
+    {
+      "type": "paragraph",
+      "text": "裁判での証言によれば、ジャンヌは13歳のころ、夏の正午に父の庭で初めて神からの声を聞き、ひどく恐れました。その声はのちに、フランスへ行ってオルレアンの包囲を解くよう彼女に告げたといいます。",
+      "claimIds": ["aj-voices"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "剣より旗を好んだ",
+      "anchor": "banner"
+    },
+    {
+      "type": "paragraph",
+      "text": "ジャンヌは、声に教えられてサント＝カトリーヌ＝ド＝フィエルボワの教会の祭壇の裏から、五つの十字が刻まれた剣を掘り出させました。しかし彼女が愛したのは剣よりも旗でした。",
+      "claimIds": ["aj-sword", "aj-banner"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その旗は、百合の花を散らした白い亜麻布に、世界と両脇の二人の天使を描き、「イエス・マリア」の名を記したもの。裁判で剣と旗のどちらが好きかと問われ、旗のほうが「ずっと」好きだと答えています。敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べました。",
+      "claimIds": ["aj-banner"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "火刑という最期",
+      "anchor": "death"
+    },
+    {
+      "type": "paragraph",
+      "text": "1430年、ジャンヌはコンピエーニュで捕らえられ、ルーアンで異端の裁判にかけられます。一度は誓絶したものの戻り異端とされ、1431年5月30日、ルーアンの旧市場広場で火刑に処されました。",
+      "claimIds": ["aj-death"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "史実との違い：復讐者としてのジャンヌ",
+      "anchor": "comparison"
+    },
+    {
+      "type": "paragraph",
+      "text": "史料に残るジャンヌは、自分は一人も殺していないと語り、剣より旗を好んだ人物です。作品の〔オルタ〕は、その彼女が火刑という最期を迎えたことから、「もしジャンヌが復讐を望んでいたら」という反転した姿を描いています。",
+      "claimIds": ["aj-banner", "aj-death", "aj-work", "aj-cmp"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "史料にない「復讐者」",
+      "text": "復讐を望むジャンヌという人物像は、裁判記録などの史料には見られない作品独自の設定です。史実のジャンヌの言葉を知ると、〔オルタ〕がどれほど大きく「反転」した存在なのかがよくわかります。",
+      "claimIds": ["aj-cmp"]
+    },
+    {
+      "type": "paragraph",
+      "text": "同じ Fate シリーズの『Fate/Apocrypha』では、ジャンヌは聖杯戦争の審判役である[ルーラー](/characters/fate-apocrypha-ruler/)として登場します。審判役としてのジャンヌと、復讐者としての〔オルタ〕を読み比べると、同じ人物の描き方の幅が見えてきます。",
+      "claimIds": ["aj-cmp-ruler"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ジャンヌ・ダルク〔オルタ〕はFGOのアヴェンジャーで、第一特異点オルレアンで初登場",
+        "史実のジャンヌは13歳で神の声を聞き、オルレアンの包囲を解くよう告げられた",
+        "剣より旗を好み、一人も殺したことはないと裁判で述べた",
+        "1431年5月30日にルーアンで火刑に処された",
+        "「復讐者ジャンヌ」は史料にない、作品独自の反転した人物像"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "aj-work",
+      "text": "ジャンヌ・ダルク〔オルタ〕はアヴェンジャーのサーヴァントで、第一特異点「邪竜百年戦争 オルレアン」で初登場する。召喚者が聖杯に歪んだ願望をかけて呼び出した存在である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Grand Order」「Fate/Grand Orderの登場キャラクター」の記述で確認。"
+    },
+    {
+      "id": "aj-voices",
+      "text": "ジャンヌは13歳のころ夏の正午に父の庭で初めて神からの声を聞き、ひどく恐れた。その声はのちに、フランスへ行ってオルレアンの包囲を解くよう告げた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月22日の尋問"
+    },
+    {
+      "id": "aj-banner",
+      "text": "ジャンヌの旗は、百合の花を散らした白い亜麻布に、世界と両側の二人の天使を描き、「イエス・マリア」の名を記したもの。剣より旗のほうがずっと好きだと答え、敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月27日の尋問"
+    },
+    {
+      "id": "aj-sword",
+      "text": "ジャンヌは、声に教えられてサント＝カトリーヌ＝ド＝フィエルボワの教会の祭壇の裏から、五つの十字が刻まれた剣を掘り出させた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月27日の尋問"
+    },
+    {
+      "id": "aj-pucelle",
+      "text": "ジャンヌは同時代に「乙女（la Pucelle）」と呼ばれ、裁判記録でも「乙女と呼ばれるジャンヌ」と記されている。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial", "pernoud-joan-of-arc"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録（冒頭の記録）"
+    },
+    {
+      "id": "aj-death",
+      "text": "1430年、コンピエーニュで捕らえられたジャンヌはルーアンで異端の裁判にかけられ、戻り異端とされて1431年5月30日にルーアンの旧市場広場で火刑に処された。",
+      "classification": "fact",
+      "sourceIds": ["pernoud-joan-of-arc"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Pernoud & Clin, Joan of Arc: Her Story, 第7〜8章"
+    },
+    {
+      "id": "aj-cmp",
+      "text": "復讐を望むジャンヌという反転像は史料にない作品独自の設定であり、火刑の最期との対比は編集部の解釈である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "aj-cmp-ruler",
+      "text": "同じ Fate シリーズでも、『Fate/Apocrypha』のジャンヌはルーラーとして登場し、〔オルタ〕とは対照的な位置づけにある。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

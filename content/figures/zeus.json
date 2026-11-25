@@ -10,8 +10,87 @@
   "roles": ["神々の王", "天空", "雷"],
   "mythologyIds": ["greek"],
   "description": "ギリシャ神話の最高神。クロノスとレアの末子で、父に呑まれることを免れて育った。『イリアス』では、兄弟とのくじ引きで広い天空を割り当てられたと語られる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "神々と人間の父"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、ゼウスはクロノスとレアの末子で、ヘスティア、デメテル、ヘラ、ハデス、ポセイドンと兄弟姉妹にあたります。ヘシオドスはゼウスを「神々と人間の父」と呼んでいます。",
+      "claimIds": ["fg-zeus-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "父クロノスは、自分の子によって倒される定めであることをガイアとウラノスから聞いていたため、生まれた子を次々と呑み込みました。",
+      "claimIds": ["fg-zeus-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "雷霆と天空の支配"
+    },
+    {
+      "type": "paragraph",
+      "text": "ティタン神族との戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を与えました。勝利ののち神々はくじを引き、ゼウスは天空、ポセイドンは海、ハデスは冥界の支配を割り当てられます。",
+      "claimIds": ["fg-zeus-3", "fg-zeus-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "メティスを呑み込む"
+    },
+    {
+      "type": "paragraph",
+      "text": "やがてゼウスは、最初の妻メティスを呑み込みました。メティスからはまず娘アテナが、次いで神々と人間の王となる息子が生まれる定めだったからです。",
+      "claimIds": ["fg-zeus-5"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-zeus-1",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。ヘシオドスはゼウスを「神々と人間の父」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "fg-zeus-2",
+      "text": "クロノスは、自分の子によって倒される定めであることをガイアとウラノスから聞いていたため、生まれた子を次々と呑み込んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』459–467行"
+    },
+    {
+      "id": "fg-zeus-3",
+      "text": "ティタンとの戦いに際し、キュクロプスたちはゼウスに雷鳴と稲妻と雷霆を、プルトン（ハデス）に兜を、ポセイドンに三叉の矛を与えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "fg-zeus-4",
+      "text": "ティタンに勝ったのち、神々はくじを引き、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界の支配を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "fg-zeus-5",
+      "text": "ゼウスは最初の妻メティスを呑み込んだ。メティスからは、まず娘アテナが、次いで神々と人間の王となる息子が生まれる定めだったからである。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』886–900行"
+    }
+  ],
   "relatedFigureIds": ["hades", "poseidon", "demeter"],
   "relatedStoryIds": ["children-of-cronos", "division-of-the-world"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "homer-iliad"]
+  "sourceIds": ["hesiod-theogony", "homer-iliad", "apollodorus-library"]
 }

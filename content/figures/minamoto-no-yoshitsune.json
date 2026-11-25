@@ -8,6 +8,72 @@
   "roles": ["源氏の武将", "判官"],
   "mythologyIds": ["japanese-legends"],
   "description": "平安時代末期の武将。『義経記』では源義朝の末子として生まれ、幼名を牛若といった。鞍馬寺に預けられて遮那王と名乗り、天狗の住みかといわれた僧正が谷でひそかに武芸を磨く。奥州の藤原秀衡を頼ったのち、兄頼朝の挙兵に加わって平家を討つが、やがて兄と対立し、山伏姿で奥州へ落ちのびて衣川の館で自害した。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "鞍馬の牛若"
+    },
+    {
+      "type": "paragraph",
+      "text": "『義経記』によれば、鞍馬寺に預けられた牛若は、自分が源氏の子だと知ると、平家を討つことばかり考えるようになります。天狗の住みかとされる鞍馬の奥の僧正が谷へ夜ごとひとりで通い、草木を平家の一門に見立て、大木を清盛と名づけて太刀で斬りつけ、武芸を磨きました。",
+      "claimIds": ["fg-minamoto-no-yoshitsune-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "弁慶との出会い"
+    },
+    {
+      "type": "paragraph",
+      "text": "五条の天神で笛を吹きながら通る若者を、太刀を千本集めようとしていた弁慶が襲いました。若者は身軽に九尺の築地へ飛び上がり、弁慶の太刀を取り上げてしまいます。翌晩も清水寺で敗れた弁慶は、この若者、源義経の家来となりました。",
+      "claimIds": ["fg-minamoto-no-yoshitsune-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "追われる身"
+    },
+    {
+      "type": "paragraph",
+      "text": "兄頼朝に追われた義経一行は、山伏姿で北国を落ちていきます。越中の如意の渡しで見破られかけたときには、弁慶が義経を扇で打ちすえて疑いを解きました。最後は奥州の藤原泰衡に裏切られ、衣川の館で最期を迎えます。",
+      "claimIds": ["fg-minamoto-no-yoshitsune-3", "fg-minamoto-no-yoshitsune-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-minamoto-no-yoshitsune-1",
+      "text": "牛若は夜ごと鞍馬の奥の僧正が谷へ通い、草木を平家の一門に見立て、大木を清盛と名づけて太刀で斬りつけ、武芸を磨いた。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第一「牛若貴船詣の事」"
+    },
+    {
+      "id": "fg-minamoto-no-yoshitsune-2",
+      "text": "五条の天神で若者（義経）は身軽に九尺の築地へ飛び上がり、弁慶の太刀を取り上げた。翌晩、清水寺で再び敗れた弁慶は義経の家来となった。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第三「弁慶洛中にて人の太刀を奪ひ取る事」「弁慶義経に君臣の契約申す事」"
+    },
+    {
+      "id": "fg-minamoto-no-yoshitsune-3",
+      "text": "如意の渡しで見破られかけると、弁慶は怒ったふりをして義経を扇で打ちすえ、渡し守の疑いを解いた。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第七「如意の渡にて義経を弁慶打ち奉る事」"
+    },
+    {
+      "id": "fg-minamoto-no-yoshitsune-4",
+      "text": "奥州の藤原泰衡に裏切られ、義経のいる衣川の館に大軍が押し寄せた。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第八「衣河合戦の事」"
+    }
+  ],
   "relatedFigureIds": ["benkei"],
   "relatedStoryIds": [
     "ushiwaka-at-sojo-ga-tani",

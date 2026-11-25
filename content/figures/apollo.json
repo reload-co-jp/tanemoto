@@ -10,6 +10,46 @@
   "roles": ["弓矢の神", "予言の神", "音楽の神"],
   "mythologyIds": ["greek"],
   "description": "ゼウスとレトの子で、アルテミスの双子の兄弟。銀の弓をもつ神として、『イリアス』では祭司クリュセスの祈りに応えて、ギリシャ軍の陣営に疫病の矢を射かけた。予言・音楽・医術ともかかわりが深い。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ゼウスとレトの子"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、レトはゼウスと交わって、天の子らのうち最も美しいアポロンと、矢を喜ぶアルテミスを産みました。アポロンとアルテミスは双子の神です。",
+      "claimIds": ["fg-apollo-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "銀の弓の神"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』の冒頭では、アポロンは「銀の弓の神」として登場します。神官クリュセスが祈ると、アポロンはオリュンポスから下り、九日にわたってギリシャ軍の陣営に矢を射かけ、疫病で人々を倒しました。トロイア戦争の物語は、このアポロンの怒りから動き出します。",
+      "claimIds": ["fg-apollo-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-apollo-1",
+      "text": "レトはアイギスをもつゼウスと交わって、天の子らのうち最も美しいアポロンと、矢を喜ぶアルテミスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』918–920行"
+    },
+    {
+      "id": "fg-apollo-2",
+      "text": "クリュセスが「銀の弓の神」アポロンに祈ると、アポロンはオリュンポスから下り、九日にわたってギリシャ軍の陣営に矢を射かけ、疫病で人々を倒した。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』1.37–52"
+    }
+  ],
   "relatedFigureIds": ["zeus", "athena"],
   "relatedStoryIds": [],
   "articleIds": [],

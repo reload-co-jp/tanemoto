@@ -10,8 +10,61 @@
   "roles": ["エチオピアの王女", "ペルセウスの妻"],
   "mythologyIds": ["greek"],
   "description": "エチオピア王ケペウスとカッシオペイアの娘。母の高慢によって海の怪物の生贄として岩に縛りつけられたが、メデューサを討った帰りの英雄ペルセウスに救われ、その妻となった。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "海の怪物の生贄"
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロスによれば、エチオピア王ケペウスの妻カッシオペイアが、海のニンフであるネレイスたちと美を競って勝ると誇ったため、ポセイドンは洪水と海の怪物を送りました。神託に従い、ケペウスは娘アンドロメダを怪物の生贄として岩に縛りつけます。",
+      "claimIds": ["fg-andromeda-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ペルセウスの救出"
+    },
+    {
+      "type": "paragraph",
+      "text": "そこへメデューサ退治の帰りの英雄ペルセウスが通りかかり、怪物を倒してアンドロメダを救い、彼女を妻としました。",
+      "claimIds": ["fg-andromeda-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "古代には、アンドロメダの足かせの跡が港町ヨッパの岩に示されていたという伝承もありました。",
+      "claimIds": ["fg-andromeda-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-andromeda-1",
+      "text": "ケペウスの妻カッシオペイアがネレイスたちと美を競って勝ると誇ったため、ポセイドンは洪水と海の怪物を送った。神託に従い、ケペウスは娘アンドロメダを怪物の生贄として岩に縛りつけた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "fg-andromeda-2",
+      "text": "メデューサ退治の帰りのペルセウスが怪物を倒してアンドロメダを救い、彼女を妻とした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "fg-andromeda-3",
+      "text": "アンドロメダの足かせの跡がヨッパの岩に示されていたという伝承がある（ヨセフス）。",
+      "classification": "fact",
+      "sourceIds": ["frazer-apollodorus"],
+      "verificationStatus": "verified",
+      "sourceLocation": "フレイザー注（『ビブリオテーケー』2.4.3）"
+    }
+  ],
   "relatedFigureIds": ["perseus", "poseidon"],
   "relatedStoryIds": ["perseus-andromeda"],
   "articleIds": [],
-  "sourceIds": ["apollodorus-library"]
+  "sourceIds": ["apollodorus-library", "frazer-apollodorus"]
 }

@@ -9,6 +9,106 @@
   "roles": ["蜀の丞相", "軍師"],
   "mythologyIds": ["three-kingdoms"],
   "description": "字は孔明。蜀の丞相。「臥龍」と呼ばれた隠者で、劉備に三度訪ねられて仕え、天下を三つに分ける計を説いた。『三国志演義』では、綸巾をかぶり鶴氅をまとった仙人のような軍師として描かれ、七星壇で東南の風を祈ったり、城門を開け放って敵を退かせたりと、神がかった知略をふるう。五丈原の陣中で没した。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "臥龍"
+    },
+    {
+      "type": "paragraph",
+      "text": "正史『三国志』諸葛亮伝によれば、諸葛亮は字を孔明といいます。徐庶は劉備に「諸葛孔明は臥龍です」と推薦しました。劉備は諸葛亮のもとを「凡そ三たび往きて、乃ち見る」、つまり三度訪ねてようやく会うことができました。これが「三顧の礼」です。",
+      "claimIds": ["fg-zhuge-liang-1", "fg-zhuge-liang-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "小説『三国志演義』では、劉備が見た孔明は身の丈八尺、顔は冠の玉のようで、綸巾をかぶり鶴氅をまとった、仙人のような風格の人物として描かれます。",
+      "claimIds": ["fg-zhuge-liang-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『三国志演義』の名場面"
+    },
+    {
+      "type": "paragraph",
+      "text": "『三国志演義』の孔明は、超人的な知略の持ち主です。赤壁の戦いでは「奇門遁甲の天書を授かったので風雨を呼べる」と言い、七星壇を築いて三日三晩の東南の風を祈りました。",
+      "claimIds": ["fg-zhuge-liang-4"]
+    },
+    {
+      "type": "paragraph",
+      "text": "司馬懿の大軍が西城に迫ったときには、四つの城門を開け放って兵に道を掃かせ、自らは城楼で香をたいて琴を弾きました。伏兵を疑った司馬懿は退却します。有名な「空城の計」です。",
+      "claimIds": ["fg-zhuge-liang-5"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "五丈原"
+    },
+    {
+      "type": "paragraph",
+      "text": "正史によれば、孔明は五丈原で司馬懿と百日あまり対峙したのち、病にかかって陣中で没しました。五十四歳でした。『三国志演義』では、死を伏せて退却する軍を司馬懿が追うと、孔明の木像が車で押し出され、司馬懿は逃げ帰ったとされます。「死せる諸葛、生ける仲達を走らす」ということわざの由来です。",
+      "claimIds": ["fg-zhuge-liang-6", "fg-zhuge-liang-7"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-zhuge-liang-1",
+      "text": "正史『三国志』諸葛亮伝によれば、諸葛亮は字を孔明といい、徐庶は劉備に「諸葛孔明は臥龍です」と推薦した。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "fg-zhuge-liang-2",
+      "text": "正史『三国志』諸葛亮伝は、劉備が諸葛亮のもとへ「凡そ三たび往きて、乃ち見る」と記す。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "fg-zhuge-liang-3",
+      "text": "『三国志演義』第38回では、劉備が見た孔明は身の丈八尺、顔は冠の玉のようで、綸巾をかぶり鶴氅をまとい、仙人のような風格があった。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第38回"
+    },
+    {
+      "id": "fg-zhuge-liang-4",
+      "text": "『三国志演義』第49回で、孔明は「奇門遁甲の天書を授かったので風雨を呼べる」と周瑜に言い、南屏山に七星壇を築かせて三日三晩の東南の風を祈った。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第49回"
+    },
+    {
+      "id": "fg-zhuge-liang-5",
+      "text": "『三国志演義』第95回で、司馬懿の大軍が西城に迫ると、孔明は四つの城門を開け放って兵に道を掃かせ、自らは城楼で香をたき琴を弾いた。司馬懿は伏兵を疑って退却した。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第95回"
+    },
+    {
+      "id": "fg-zhuge-liang-6",
+      "text": "正史『三国志』諸葛亮伝によれば、孔明は司馬懿と百日あまり対峙したのち、その年の八月に病にかかり陣中で没した。時に五十四歳。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "fg-zhuge-liang-7",
+      "text": "『三国志演義』第104回では、孔明は死を伏せて退却し、司馬懿が追ってきたら自分の木像を車に乗せて押し出すよう遺言した。木像を見た司馬懿は逃げ帰り、「死せる諸葛、よく生ける仲達を走らす」ということわざが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第104回"
+    }
+  ],
   "relatedFigureIds": ["liu-bei", "cao-cao", "zhao-yun"],
   "relatedStoryIds": [
     "three-visits-to-the-thatched-cottage",

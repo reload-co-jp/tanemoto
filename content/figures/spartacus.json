@@ -10,6 +10,67 @@
   "roles": ["剣闘士", "反乱の指導者"],
   "mythologyIds": ["classical-antiquity"],
   "description": "トラキア出身の剣闘士（？〜紀元前71年）。紀元前73年、カプアの剣闘士養成所から仲間とともに脱走し、逃亡奴隷を集めてローマ軍を何度も破った（第三次奴隷戦争）。プルタルコスは、彼が強い勇気と力をもつだけでなく、境遇に似合わず賢明で穏やかな人物だったと記す。紀元前71年、クラッススの軍との決戦で戦死した。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "剣闘士の反乱"
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコス『英雄伝』クラッスス伝によれば、カプアのレントゥルス・バティアトゥスの剣闘士養成所では、多くの剣闘士が不当に閉じ込められていました。そのうち78人が調理場の包丁や串を奪って脱走し、途中で剣闘士の武器を積んだ荷車を奪って武装します。指導者の一人がトラキア人スパルタクスでした。",
+      "claimIds": ["fg-spartacus-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコスは、スパルタクスが大きな勇気と力をもつだけでなく、境遇に似合わず賢明で穏やかであり、トラキア人というよりギリシャ人らしい人物だったと評しています。",
+      "claimIds": ["fg-spartacus-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最後の決戦"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元前71年、クラッススの軍との決戦の前、スパルタクスは自分の馬を殺し、「勝てば敵の良い馬が手に入る。負ければ馬はいらない」と言いました。そしてクラッスス本人を目指して突き進み、包囲されて最後まで戦って倒れます。アッピアノスによれば、捕らえられた六千人はカプアからローマへの道沿いで十字架にかけられました。",
+      "claimIds": ["fg-spartacus-3", "fg-spartacus-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-spartacus-1",
+      "text": "カプアのレントゥルス・バティアトゥスの養成所で不当に閉じ込められていた剣闘士のうち78人が、調理場の包丁や串を奪って脱走した。途中で剣闘士の武器を積んだ荷車に出会い、それを奪って武装した。指導者の一人がトラキア人スパルタクスだった。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 8–9"
+    },
+    {
+      "id": "fg-spartacus-2",
+      "text": "スパルタクスは遊牧のトラキア人の出身で、大きな勇気と力をもつだけでなく、境遇に似合わず賢明で穏やかであり、トラキア人というよりギリシャ人らしい人物だった。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 8"
+    },
+    {
+      "id": "fg-spartacus-3",
+      "text": "最後の決戦の前、スパルタクスは自分の馬を殺し、勝てば敵の馬が手に入り、負ければ馬はいらないと言った。そしてクラッスス本人を目指して進み、包囲されて最後まで戦って倒れた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 11"
+    },
+    {
+      "id": "fg-spartacus-4",
+      "text": "捕らえられた六千人は、カプアからローマへの道沿いで十字架にかけられた。",
+      "classification": "fact",
+      "sourceIds": ["appian-civil-wars"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アッピアノス『内乱記』1.120"
+    }
+  ],
   "relatedFigureIds": ["julius-caesar", "hannibal"],
   "relatedStoryIds": ["spartacus-revolt", "death-of-spartacus"],
   "articleIds": [],

@@ -9,6 +9,64 @@
   "roles": ["劉備の義弟", "蜀の武将"],
   "mythologyIds": ["three-kingdoms"],
   "description": "字は翼徳（正史では益徳）。劉備に仕えた武将。『三国志演義』では身の丈八尺、豹のような頭にどんぐり眼、雷のような大声の豪傑で、一丈八尺の蛇矛を使う。長坂の戦いでは、橋の上でただ一騎、曹操の大軍をにらみつけて退かせた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "桃園の末弟"
+    },
+    {
+      "type": "paragraph",
+      "text": "『三国志演義』によれば、黄巾の乱が起こると、張飛は義勇兵を募る高札の前でため息をついていた劉備に声をかけ、さらに関羽とも出会って、張飛の屋敷の裏の桃園で義兄弟の契りを結びました。劉備が長兄、関羽が次兄、張飛が末弟です。",
+      "claimIds": ["fg-zhang-fei-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "呂布と五十合"
+    },
+    {
+      "type": "paragraph",
+      "text": "虎牢関の戦いでは、張飛は呂布に挑んで五十合打ち合っても勝負がつかず、関羽と劉備が加わって三人で呂布を囲みました。",
+      "claimIds": ["fg-zhang-fei-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "長坂橋の大喝"
+    },
+    {
+      "type": "paragraph",
+      "text": "曹操の大軍に追われ劉備の一行が長坂で散り散りになったとき、殿を務めた張飛は長坂橋の上でただ一騎、「我こそは燕人張翼徳なり、死を決して戦う者はおらぬか」と大喝し、曹操の軍を退かせました。",
+      "claimIds": ["fg-zhang-fei-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-zhang-fei-1",
+      "text": "張飛は劉備に声をかけ、関羽とも出会って、張飛の屋敷の裏の桃園で義兄弟の契りを結んだ。劉備が長兄、関羽が次兄、張飛が末弟となった。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第1回"
+    },
+    {
+      "id": "fg-zhang-fei-2",
+      "text": "張飛が呂布に挑んで五十合打ち合っても勝負がつかず、関羽が加わり、さらに劉備も加わった。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第5回"
+    },
+    {
+      "id": "fg-zhang-fei-3",
+      "text": "殿の張飛は長坂橋の上でただ一騎、「我こそは燕人張翼徳なり、死を決して戦う者はおらぬか」と大喝し、曹操の軍を退かせた。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第41–42回"
+    }
+  ],
   "relatedFigureIds": ["liu-bei", "guan-yu"],
   "relatedStoryIds": [
     "peach-garden-oath",

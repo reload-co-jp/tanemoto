@@ -10,12 +10,110 @@
   "roles": ["諮問探偵"],
   "mythologyIds": ["sherlock-holmes"],
   "description": "アーサー・コナン・ドイルの推理小説の主人公で、ロンドンのベイカー街221Bに住む「諮問探偵」。1887年の『緋色の研究』で初登場し、出会ったばかりのワトソンに「アフガニスタンに行っておられましたね」と言い当てた。「不可能なものを消去して残ったものは、いかにありそうになくても真実である」という推理の原則で知られる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "初登場と「諮問探偵」"
+    },
+    {
+      "type": "paragraph",
+      "text": "シャーロック・ホームズが初めて登場するのは、アーサー・コナン・ドイルの長編『緋色の研究』です。アフガニスタンの戦争で負傷して帰国した軍医ワトソンは、知人の紹介でホームズと出会い、ロンドンのベイカー街221Bで部屋を分け合うことになりました。",
+      "claimIds": ["fg-sherlock-holmes-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ホームズはワトソンに、自分は警察や私立探偵に助言を与える、世界でただ一人の「諮問探偵」だと説明します。",
+      "claimIds": ["fg-sherlock-holmes-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "推理の方法"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホームズの推理を象徴するのが、『四つの署名』でワトソンに語った言葉です。「不可能なものを消去したら、残ったものは、いかにありそうになくても真実に違いない」。可能性を一つずつ消していく消去法は、ホームズの代名詞となりました。",
+      "claimIds": ["fg-sherlock-holmes-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "宿敵モリアーティとライヘンバッハの滝"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホームズの最大の敵は、ロンドンの悪事の大半を陰で操る「犯罪界のナポレオン」モリアーティ教授です。「最後の事件」で二人はスイスのライヘンバッハの滝の上で対決し、ワトソンが戻ったときには二人の姿は消えていました。ドイルはこれでシリーズを終えるつもりでしたが、のちにホームズを生還させています。",
+      "claimIds": ["fg-sherlock-holmes-4", "fg-sherlock-holmes-5"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ルパンとの対決"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホームズは他の作家の作品にも登場しました。モーリス・ルブランの『怪盗紳士ルパン』の最後の短編では、ルパンとホームズが出会います。ドイルの抗議を受けて、のちの版では「エルロック・ショルメス」と名前が変えられました。",
+      "claimIds": ["fg-sherlock-holmes-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-sherlock-holmes-1",
+      "text": "ワトソンは軍医としてアフガニスタンの戦争に従軍し、マイワンドの戦いで負傷してイギリスに帰国した。その後ホームズと知り合い、ベイカー街221Bで部屋を分け合った。",
+      "classification": "fact",
+      "sourceIds": ["doyle-study-in-scarlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『緋色の研究』第1部 第1章"
+    },
+    {
+      "id": "fg-sherlock-holmes-2",
+      "text": "ホームズは『緋色の研究』で、自分を世界でただ一人の「諮問探偵」だと説明した。",
+      "classification": "fact",
+      "sourceIds": ["doyle-study-in-scarlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『緋色の研究』第1部 第2章"
+    },
+    {
+      "id": "fg-sherlock-holmes-3",
+      "text": "ホームズはワトソンに「不可能なものを消去したら、残ったものは、いかにありそうになくても真実に違いないと、何度言ったことか」と語った。",
+      "classification": "fact",
+      "sourceIds": ["doyle-sign-of-four"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『四つの署名』第6章"
+    },
+    {
+      "id": "fg-sherlock-holmes-4",
+      "text": "ホームズはモリアーティを、ロンドンの悪事の大半と未解決事件のほとんどを陰で操る「犯罪界のナポレオン」と呼んだ。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "fg-sherlock-holmes-5",
+      "text": "ホームズとモリアーティはライヘンバッハの滝の上の小道で対決し、ワトソンが戻ったときには二人の姿はなく、ともに滝壺に落ちたと考えられた。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "fg-sherlock-holmes-6",
+      "text": "『怪盗紳士ルパン』の最後の短編で、ルパンはシャーロック・ホームズと出会う。ドイルの抗議により、のちの版ではエルロック・ショルメスと改名された。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「遅かりしシャーロック・ホームズ」"
+    }
+  ],
   "relatedFigureIds": ["moriarty", "arsene-lupin"],
   "relatedStoryIds": ["holmes-meets-watson", "reichenbach-falls"],
   "articleIds": [],
   "sourceIds": [
     "doyle-study-in-scarlet",
     "doyle-sign-of-four",
-    "doyle-final-problem"
+    "doyle-final-problem",
+    "leblanc-gentleman-burglar"
   ]
 }

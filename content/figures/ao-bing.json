@@ -10,6 +10,54 @@
   "roles": ["竜王の子"],
   "mythologyIds": ["chinese"],
   "description": "『封神演義』に登場する東海竜王敖光の三男（三太子）。九湾河で水浴びをしていた幼い哪吒が水晶宮を揺るがしたため、避水獣に乗り画戟を手に討って出るが、混天綾で包まれ乾坤圏で打たれて竜の正体を現し、筋を抜かれて死んだ。この事件が、哪吒が自ら命を絶ち蓮の化身として生まれ変わるきっかけとなる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "東海竜王の三太子"
+    },
+    {
+      "type": "paragraph",
+      "text": "『封神演義』によれば、敖丙は東海竜王・敖光の三太子です。7歳の哪吒が九湾河で混天綾を水にひたして水浴びをすると、竜王の水晶宮が揺れ動きました。様子を見に来た巡海夜叉が哪吒に打ち殺されると、敖丙は逼水獣に乗り、画戟を手に哪吒に挑みます。",
+      "claimIds": ["fg-ao-bing-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "哪吒に討たれる"
+    },
+    {
+      "type": "paragraph",
+      "text": "しかし敖丙は混天綾で包まれて引きずり下ろされ、乾坤圏で打たれて竜の本性を現し、筋を抜き取られてしまいました。わが子を殺された敖光は、敖丙は雲を興し雨を降らせ万物を育む正神だと嘆き、哪吒の父・李靖を訪ねて責めています。",
+      "claimIds": ["fg-ao-bing-2", "fg-ao-bing-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-ao-bing-1",
+      "text": "東海竜王敖光の三太子敖丙は、逼水獣に乗り画戟を持って哪吒に挑んだ。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "fg-ao-bing-2",
+      "text": "敖丙は混天綾で包まれて引きずり下ろされ、乾坤圏で打たれて竜の本性を現し、筋を抜き取られた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "fg-ao-bing-3",
+      "text": "敖光は三太子が殺されて筋まで抜かれたと聞き、わが子は雲を興し雨を降らせ万物を育む正神だと嘆いて、秀才に化けて陳塘関の李靖を訪ねた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    }
+  ],
   "relatedFigureIds": ["nezha"],
   "relatedStoryIds": ["nezha-and-ao-bing", "nezha-lotus-body"],
   "articleIds": [],

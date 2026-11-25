@@ -10,6 +10,46 @@
   "roles": ["風", "文化", "羽毛ある蛇"],
   "mythologyIds": ["aztec"],
   "description": "「羽毛ある蛇」を意味する名をもつ神。サアグンの記録では風の神とされ、雨の神々のために道を掃き清めるといわれた。トゥーラ（トゥラン）の王として崇められたが、テスカトリポカに酒を飲まされて国を去り、蛇の筏に乗って海の彼方へ旅立ったと語られる。エエカトル（風）の名でも呼ばれる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "風の神"
+    },
+    {
+      "type": "paragraph",
+      "text": "16世紀の修道士サアグンがまとめた『ヌエバ・エスパーニャ諸事物概史』によれば、ケツァルコアトルは風の神とされました。雨が降る前に大風と砂ぼこりが起こることから、雨の神々のために道を掃き清めるといわれ、トゥーラで古くから神として崇められていました。",
+      "claimIds": ["fg-quetzalcoatl-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "トゥーラからの旅立ち"
+    },
+    {
+      "type": "paragraph",
+      "text": "トゥーラのケツァルコアトルのもとに、白髪の老人に化けた魔術師ティトラカワンが、薬と称して酒を持ってきました。ケツァルコアトルはそれを飲んで酔い、泣き、国を去る決意をします。のちに海辺で蛇の筏に乗り、トラパランへ去っていきました。",
+      "claimIds": ["fg-quetzalcoatl-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-quetzalcoatl-1",
+      "text": "ケツァルコアトルは風の神とされ、雨が降る前に大風と砂ぼこりが起こることから、雨の神々のために道を掃き清めるといわれた。トゥーラで古くから神として崇められていた。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第1書第5章、第3書第3章"
+    },
+    {
+      "id": "fg-quetzalcoatl-2",
+      "text": "トゥーラのケツァルコアトルのもとに、白髪の老人に化けた魔術師ティトラカワンが薬と称して酒を持ってきた。ケツァルコアトルはそれを飲んで酔い、泣き、国を去る決意をした。のちに海辺で蛇の筏に乗り、トラパランへ去った。",
+      "classification": "fact",
+      "sourceIds": ["sahagun-historia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "サアグン『諸事物概史』第3書第4章・第14章"
+    }
+  ],
   "relatedFigureIds": ["tezcatlipoca", "huitzilopochtli", "xolotl"],
   "relatedStoryIds": ["fall-of-quetzalcoatl", "fifth-sun"],
   "articleIds": [],

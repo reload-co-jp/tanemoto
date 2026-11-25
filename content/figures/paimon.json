@@ -10,6 +10,41 @@
   "roles": ["ソロモン72柱の悪魔", "王"],
   "mythologyIds": ["goetia"],
   "description": "第9の霊。ルシファーによく従う偉大な王。冠をかぶり、ヒトコブラクダに乗った人の姿で、前を楽隊が進む。あらゆる学芸と学問を教え、隠されたことを明かすとされる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『ゴエティア』のパイモン"
+    },
+    {
+      "type": "paragraph",
+      "text": "パイモンは、魔術書『ゴエティア』に9番目に挙げられる霊（悪魔）で、ルシファーによく従う偉大な王とされます。冠をかぶり、ヒトコブラクダに乗った人の姿で現れ、その前を楽隊が進みます。",
+      "claimIds": ["fg-paimon-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "パイモンが授けるのは、あらゆる学芸と学問の知識です。隠されたことを明かす力をもつともいわれます。",
+      "claimIds": ["fg-paimon-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-paimon-1",
+      "text": "第9の霊パイモンはルシファーによく従う偉大な王。冠をかぶりヒトコブラクダに乗った人の姿で、前を楽隊が進む。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第9の霊（Paimon）"
+    },
+    {
+      "id": "fg-paimon-2",
+      "text": "パイモンはあらゆる学芸と学問を教え、隠されたことを明かす。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第9の霊（Paimon）"
+    }
+  ],
   "relatedFigureIds": ["barbatos", "morax"],
   "relatedStoryIds": [],
   "articleIds": [],

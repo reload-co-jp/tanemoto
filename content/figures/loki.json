@@ -10,6 +10,77 @@
   "roles": ["狡知", "いたずら", "変身"],
   "mythologyIds": ["norse"],
   "description": "巨人ファールバウティの子でありながらアース神族に数えられる神。見た目は美しいが心は邪悪で、狡知にたけ、神々を窮地に陥れては策で救い出す。フェンリル狼、ミズガルズの大蛇、ヘルの父。ラグナロクでは巨人側に立ち、ヘイムダルと相討ちになる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "悪だくみの張本人"
+    },
+    {
+      "type": "paragraph",
+      "text": "『散文エッダ』によれば、ロキ（ロプト）は巨人ファールバウティの子で、母はラウフェイまたはナール。巨人の血を引きながら、アース神族に数えられています。「アース神族の悪だくみの張本人」「偽りの祖」と呼ばれ、見た目は美しいものの心は邪悪で移り気だといいます。",
+      "claimIds": ["fg-loki-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "狡知にすぐれたロキは、神々を大きな窮地に陥れては、悪知恵で救い出しました。",
+      "claimIds": ["fg-loki-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "変身の名手"
+    },
+    {
+      "type": "paragraph",
+      "text": "ロキはしばしば姿を変えます。城壁を築く巨人の馬スヴァジルファリを誘い出すために牝馬に化け、のちには神々から逃れるため、鮭に姿を変えてフラーナングの滝に隠れました。",
+      "claimIds": ["fg-loki-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "バルドルの死"
+    },
+    {
+      "type": "paragraph",
+      "text": "ロキの悪事のなかでも最も重大なのが、光の神バルドルの死です。ロキはヤドリギを取ってきて盲目の神ヘズに渡し、狙いを教えて投げさせました。ヤドリギはバルドルを貫きました。",
+      "claimIds": ["fg-loki-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-loki-1",
+      "text": "ロキ（ロプト）は巨人ファールバウティの子で、母はラウフェイまたはナール。アース神族に数えられ、「アース神族の悪だくみの張本人」「偽りの祖」と呼ばれる。見た目は美しいが心は邪悪で移り気である。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "fg-loki-2",
+      "text": "ロキは狡知にすぐれ、神々を大きな窮地に陥れては悪知恵で救い出した。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 33章"
+    },
+    {
+      "id": "fg-loki-3",
+      "text": "ロキは城壁を築く巨人の馬スヴァジルファリを誘い出すために牝馬に化け、のちには神々から逃れるため鮭に姿を変えてフラーナングの滝に隠れた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 42章・50章"
+    },
+    {
+      "id": "fg-loki-4",
+      "text": "ロキはヤドリギを取ってきて盲目のヘズに渡し、狙いを教えて投げさせた。ヤドリギはバルドルを貫いた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 49章"
+    }
+  ],
   "relatedFigureIds": ["odin", "thor", "hel"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],

@@ -8,6 +8,90 @@
   "roles": ["嵐", "怪物退治"],
   "mythologyIds": ["japanese"],
   "description": "イザナギが禊で鼻を洗ったときに生まれた神。『古事記』では建速須佐之男命、『日本書紀』では素戔嗚尊と書く。高天原で乱暴を働いて追放されたのち、出雲でヤマタノオロチを退治してクシナダヒメを救い、大蛇の尾から草薙剣を得た。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "三貴子の誕生"
+    },
+    {
+      "type": "paragraph",
+      "text": "『古事記』によれば、黄泉国から戻った伊耶那岐命が禊をし、左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれました。伊耶那岐命は天照大御神に高天原を、月読命に夜の食国を、須佐之男命に海原を治めるよう命じます。",
+      "claimIds": ["fg-susanoo-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "泣きわめく神"
+    },
+    {
+      "type": "paragraph",
+      "text": "しかし須佐之男命は海原を治めず、長いひげが胸に届くまで泣きわめきました。その泣くさまに青山は枯れ山となり、川や海はことごとく干上がったといいます。「母の国、根の堅州国に行きたい」と泣き続けた須佐之男命は、追放されました。",
+      "claimIds": ["fg-susanoo-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "高天原での乱暴"
+    },
+    {
+      "type": "paragraph",
+      "text": "高天原に上った須佐之男命は乱暴を働き、それを恐れた天照大御神は天の石屋戸を閉じてこもってしまいます。のちに八百万の神々は須佐之男命のひげと手足の爪を切り、高天原から追放しました。",
+      "claimIds": ["fg-susanoo-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ヤマタノオロチ退治"
+    },
+    {
+      "type": "paragraph",
+      "text": "出雲に降りた須佐之男命は、八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らしました。中の尾を斬ったとき剣の刃が欠け、尾を裂くと中から大刀が現れます。須佐之男命はこれを天照大御神に献上しました。これが草那芸之大刀（草薙剣）です。",
+      "claimIds": ["fg-susanoo-4", "fg-susanoo-5"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-susanoo-1",
+      "text": "伊耶那岐命が禊をして左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。伊耶那岐命は天照大御神に高天原を、月読命に夜の食国を、須佐之男命に海原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の誕生）"
+    },
+    {
+      "id": "fg-susanoo-2",
+      "text": "須佐之男命は海原を治めず、長いひげが胸に届くまで泣きわめいた。その泣くさまに青山は枯れ山となり、川や海はことごとく干上がった。「母の国、根の堅州国に行きたい」と泣き続けて追放された。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の分治）"
+    },
+    {
+      "id": "fg-susanoo-3",
+      "text": "天照大御神はスサノオの乱暴を恐れて天の石屋戸を閉じてこもった。のちに八百万の神々は須佐之男命のひげと手足の爪を切って追放した。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（天の石屋戸〜八俣の大蛇）"
+    },
+    {
+      "id": "fg-susanoo-4",
+      "text": "須佐之男命は八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "fg-susanoo-5",
+      "text": "須佐之男命がオロチの中の尾を斬ったとき十拳剣の刃が欠け、尾を裂くと中から都牟刈の大刀が現れた。これを天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    }
+  ],
   "relatedFigureIds": [
     "izanagi",
     "amaterasu",

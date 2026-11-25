@@ -10,6 +10,64 @@
   "roles": ["弓の名手", "パーンダヴァ五兄弟"],
   "mythologyIds": ["indian"],
   "description": "『マハーバーラタ』の主人公格の英雄で、パーンダヴァ五兄弟の三男。雷神インドラとクンティーの子で、ヴァルナに由来する弓ガーンディーヴァを操る。シヴァから神の武器パーシュパタを授かり、大戦ではクリシュナを御者としてカルナを討った。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "弓ガーンディーヴァ"
+    },
+    {
+      "type": "paragraph",
+      "text": "インドの叙事詩『マハーバーラタ』によれば、火の神アグニはカーンダヴァの森を焼くため、水の神ヴァルナに弓ガーンディーヴァを求め、それをアルジュナに与えました。",
+      "claimIds": ["fg-arjuna-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "シヴァとの戦い"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヒマラヤで苦行するアルジュナの前に、シヴァが狩人キラータの姿で現れます。猪の姿の魔物をめぐって二人は戦い、アルジュナの矢は尽き、素手の戦いでも敵いませんでした。その武勇を喜んだシヴァは正体を現し、神の武器パーシュパタを授けます。",
+      "claimIds": ["fg-arjuna-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "カルナとの決戦"
+    },
+    {
+      "type": "paragraph",
+      "text": "クルクシェートラの大戦で、アルジュナは宿敵カルナと対決します。戦車の車輪を大地に呑み込まれたカルナは、車輪を引き上げるまで待てと訴えましたが、クリシュナはカルナの過去の行いを挙げて退け、アルジュナはアンジャリカと呼ばれる矢でカルナの首を落としました。",
+      "claimIds": ["fg-arjuna-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-arjuna-1",
+      "text": "アグニはカーンダヴァの森を焼くためにヴァルナに弓ガーンディーヴァを求め、それをアルジュナに与えた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 カーンダヴァの森炎上の段（Ganguli 英訳 225節前後）"
+    },
+    {
+      "id": "fg-arjuna-2",
+      "text": "シヴァはキラータの姿でヒマラヤに現れ、猪の姿の魔物をめぐってアルジュナと戦った。アルジュナの矢は尽き、素手でも敵わなかったが、シヴァは喜んで正体を現し、神の武器パーシュパタを授けた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 39–40節（Ganguli 英訳）"
+    },
+    {
+      "id": "fg-arjuna-3",
+      "text": "カルナは車輪を引き上げるまで待てとアルジュナに訴えたが、クリシュナはカルナの過去の行いを挙げて退けた。アルジュナはアンジャリカと呼ばれる矢でカルナの首を落とした。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』カルナの巻 90–91節（Ganguli 英訳）"
+    }
+  ],
   "relatedFigureIds": ["indra", "karna", "krishna", "shiva"],
   "relatedStoryIds": ["arjuna-and-the-kirata", "death-of-karna"],
   "articleIds": [],

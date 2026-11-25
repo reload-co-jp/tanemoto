@@ -10,6 +10,103 @@
   "roles": ["半神", "トリックスター", "文化英雄"],
   "mythologyIds": ["polynesian"],
   "description": "ポリネシア各地で語られる半神の英雄。マオリの伝承では、祖先ムリランガウェヌアの顎の骨を武器に太陽を罠にかけて歩みを遅らせ、同じ顎の骨を先につけた釣り針で海から陸地を釣り上げ、火の女神マフイカから火を手に入れた。最後に死を滅ぼそうと冥界の女神ヒネ・ヌイ・テ・ポの体内に入り込むが、小鳥の笑い声で女神が目を覚まし、命を落とした。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "大地を釣り上げた英雄"
+    },
+    {
+      "type": "paragraph",
+      "text": "ニュージーランドのマオリに伝わる神話では、マウイは知恵といたずらで人々に恵みをもたらした英雄です。グレイの『ポリネシア神話』によれば、マウイは兄弟の舟で沖に出て、魔法の釣り針で海の底から大地の一部「マウイの魚」を釣り上げました。",
+      "claimIds": ["fg-maui-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その釣り針は、祖先ムリランガウェヌアの顎の骨を先につけたもので、真珠貝が光り、犬の尾の毛の房で飾られていました。",
+      "claimIds": ["fg-maui-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "太陽を捕らえる"
+    },
+    {
+      "type": "paragraph",
+      "text": "日が短すぎると考えたマウイは、兄弟と縄の罠を作って太陽を捕らえ、祖先の顎の骨で打ちすえました。それ以来、太陽はゆっくりと空を進むようになったといいます。",
+      "claimIds": ["fg-maui-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "火の女神と変身"
+    },
+    {
+      "type": "paragraph",
+      "text": "マウイは村の火をすべて消したうえで火の女神マフイカのもとへ行き、火を受け取っては消してまたねだり、女神に手足の爪を次々と抜かせました。森のあらゆる鳥に姿を変えられると語るマウイは、怒った女神の炎に追われたとき、鷲に姿を変えて逃げています。",
+      "claimIds": ["fg-maui-4", "fg-maui-5"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "死の女神への挑戦"
+    },
+    {
+      "type": "paragraph",
+      "text": "最後にマウイは、人が永遠に生きられるよう、死の女神ヒネ・ヌイ・テ・ポの体内を通り抜けようとします。しかし小鳥ティワカワカがこらえきれずに笑い出し、目を覚ました女神に殺されてしまいました。こうして人は死を免れなくなったと語られます。",
+      "claimIds": ["fg-maui-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-maui-1",
+      "text": "マウイは兄弟の舟で沖に出て、魔法の釣り針で海の底から大地の一部（マウイの魚）を釣り上げた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.38–45"
+    },
+    {
+      "id": "fg-maui-2",
+      "text": "マウイの釣り針は祖先ムリランガウェヌアの顎の骨を先につけた魔法の釣り針で、真珠貝が光り、犬の尾の毛の房で飾られていた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.39, 41–42, 45"
+    },
+    {
+      "id": "fg-maui-3",
+      "text": "マウイは日が短すぎると考え、兄弟と縄の罠を作って太陽を捕らえ、祖先の顎の骨で打ちすえて、ゆっくり進むようにさせた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.35–38"
+    },
+    {
+      "id": "fg-maui-4",
+      "text": "マウイは村の火をすべて消したうえで火の女神マフイカのもとへ行き、火を受け取っては消してまたねだり、女神に手足の爪を次々と抜かせた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.45–48"
+    },
+    {
+      "id": "fg-maui-5",
+      "text": "マウイは森のあらゆる鳥に姿を変えたと語り、火の女神の炎に追われたときには鷲に姿を変えて逃げた。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.35–36, 48"
+    },
+    {
+      "id": "fg-maui-6",
+      "text": "マウイは死の女神ヒネ・ヌイ・テ・ポの体内を通り抜けようとしたが、小鳥ティワカワカが笑い出し、目を覚ました女神に殺された。こうして人は死を免れなくなった。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』pp.54–58"
+    }
+  ],
   "relatedFigureIds": ["mahuika", "hine-nui-te-po", "rangi", "papa"],
   "relatedStoryIds": [
     "maui-snares-the-sun",

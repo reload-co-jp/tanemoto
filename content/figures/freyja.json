@@ -10,6 +10,64 @@
   "roles": ["愛", "美", "戦死者"],
   "mythologyIds": ["norse"],
   "description": "ヴァン神族のニョルズの娘で、女神たちのなかで最も名高い。戦場の戦死者の半分を自らの館フォールクヴァングに迎え、残り半分はオーディンのものとなる。猫の引く車に乗り、恋の歌を好む。首飾りブリーシンガメンの持ち主。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最も名高い女神"
+    },
+    {
+      "type": "paragraph",
+      "text": "スノッリの『散文エッダ』によれば、フレイヤはニョルズの娘で、美しく力強く、女神たちのなかで最も名高い存在です。恋の歌を好み、恋の成就を願うには彼女に祈るのがよいとされました。",
+      "claimIds": ["fg-freyja-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "戦死者の半分"
+    },
+    {
+      "type": "paragraph",
+      "text": "フレイヤは天の住まいフォールクヴァングをもち、戦場では戦死者の半分を得ます。残る半分はオーディンのものとなります。",
+      "claimIds": ["fg-freyja-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "黄金の涙"
+    },
+    {
+      "type": "paragraph",
+      "text": "フレイヤはオーズという男の妻です。オーズが遠い旅に出てしまったため、フレイヤは彼を思って泣き、その涙は赤い黄金になったといいます。",
+      "claimIds": ["fg-freyja-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-freyja-1",
+      "text": "フレイヤはニョルズの娘で、美しく力強く、女神たちのなかで最も名高い。恋の歌を好み、恋の成就を願うには彼女に祈るのがよいとされる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "fg-freyja-2",
+      "text": "フレイヤは天の住まいフォールクヴァングをもち、戦場では戦死者の半分を得て、残る半分はオーディンのものとなる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 24章"
+    },
+    {
+      "id": "fg-freyja-3",
+      "text": "フレイヤはオーズという男の妻である。オーズが遠い旅に出たため、フレイヤは彼を思って泣き、その涙は赤い黄金である。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 35章"
+    }
+  ],
   "relatedFigureIds": ["odin"],
   "relatedStoryIds": [],
   "articleIds": [],

@@ -41,7 +41,12 @@
     "xiyouji",
     "fengshen-yanyi"
   ],
-  "relatedArticleIds": ["nuwa", "hou-yi-and-change", "sun-wukong"],
+  "relatedArticleIds": [
+    "nuwa",
+    "hou-yi-and-change",
+    "sun-wukong",
+    "fgo-qin-shi-huang"
+  ],
   "body": [
     {
       "type": "heading",

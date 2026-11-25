@@ -10,6 +10,59 @@
   "roles": ["森の魔女", "試練を与える者"],
   "mythologyIds": ["slavic"],
   "description": "ロシア民話に登場する森の魔女。人間の骨の垣根と目の光る髑髏に囲まれた家や、鶏の足の上でぐるぐると回る小屋に住み、臼に乗って杵で漕ぎ、箒で跡を消しながら森を行く。人を食らう恐ろしい存在だが、試練をくぐり抜けた主人公には火や助けを与えることもある。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "森の魔女"
+    },
+    {
+      "type": "paragraph",
+      "text": "アファナーシエフの『ロシア民話集』に収められた「美しいワシリーサ」によれば、バーバ・ヤガーは森の中の小屋に住み、誰も近づけず、人を雛鳥のように食らいました。家の垣根は人骨でできており、垣根には目のある人の髑髏が刺さっていたといいます。",
+      "claimIds": ["fg-baba-yaga-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "継母に火をもらいに行かされたワシリーサは、母の形見の人形に助けられて難しい仕事をこなし、バーバ・ヤガーから目の燃える髑髏を火として持たされて帰りました。",
+      "claimIds": ["fg-baba-yaga-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "鶏の足の上の小屋"
+    },
+    {
+      "type": "paragraph",
+      "text": "「鵞鳥と白鳥」では、さらわれた弟を探して森を走った少女が、鶏の足の上でぐるぐると回る小屋を見つけます。中にはバーバ・ヤガーが座り、そばで弟が金の林檎で遊んでいました。",
+      "claimIds": ["fg-baba-yaga-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-baba-yaga-1",
+      "text": "バーバ・ヤガーは森の中の小屋に住み、誰も近づけず、人を雛鳥のように食らった。家の垣根は人骨でできており、垣根には目のある人の髑髏が刺さっていた。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アファナーシエフ『ロシア民話集』第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "fg-baba-yaga-2",
+      "text": "ワシリーサは母の形見の人形に助けられて難しい仕事をこなし、バーバ・ヤガーは目の燃える髑髏を火として持たせて帰した。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アファナーシエフ『ロシア民話集』第104話「美しいワシリーサ」"
+    },
+    {
+      "id": "fg-baba-yaga-3",
+      "text": "少女は鶏の足の上でぐるぐると回る小屋を見つけ、中にはバーバ・ヤガーが座り、そのそばで弟が金の林檎で遊んでいた。",
+      "classification": "fact",
+      "sourceIds": ["afanasyev-tales"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アファナーシエフ『ロシア民話集』第113話「鵞鳥と白鳥」"
+    }
+  ],
   "relatedFigureIds": ["koschei"],
   "relatedStoryIds": ["vasilisa-and-baba-yaga", "geese-swans"],
   "articleIds": [],

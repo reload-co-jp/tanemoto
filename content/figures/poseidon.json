@@ -10,6 +10,67 @@
   "roles": ["海の神", "大地を揺るがす者"],
   "mythologyIds": ["greek"],
   "description": "海を支配する神。クロノスとレアの子で、くじ引きによって海を割り当てられた（『イリアス』）。『神統記』ではメデューサと交わった「黒髪の神」として登場し、アポロドロスはペガソスとクリュサオルを彼の子としている。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "海を得た神"
+    },
+    {
+      "type": "paragraph",
+      "text": "ポセイドンはクロノスとレアの子で、ゼウスやハデスと兄弟です。ティタン神族との戦いで、キュクロプスたちはポセイドンに三叉の矛を与えました。勝利ののち、三兄弟はくじを引いて世界を分け、ポセイドンは海を割り当てられます。",
+      "claimIds": ["fg-poseidon-1", "fg-poseidon-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "波の上を駆ける"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』には、海の王としてのポセイドンの姿が描かれます。ポセイドンが戦車で波の上を駆けると、海の獣たちは主を知って深みから現れ、戯れたといいます。",
+      "claimIds": ["fg-poseidon-3"]
+    },
+    {
+      "type": "paragraph",
+      "text": "トロイア戦争ののち、ギリシャ勢が築いた防壁を消し去ったのもポセイドンでした。三叉の矛を手に先頭に立ち、防壁の土台を波に押し流したのです。",
+      "claimIds": ["fg-poseidon-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-poseidon-1",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "fg-poseidon-2",
+      "text": "ティタンとの戦いに際し、キュクロプスたちはポセイドンに三叉の矛を与えた。勝利ののち神々はくじを引き、ポセイドンは海の支配を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "fg-poseidon-3",
+      "text": "ポセイドンが戦車で波の上を駆けると、海の獣たちは主を知って深みから現れ、戯れた。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』13.27–29"
+    },
+    {
+      "id": "fg-poseidon-4",
+      "text": "トロイア戦争ののち、ポセイドンは三叉の矛を手に先頭に立ち、アカイア勢の防壁の土台を波に押し流した。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』12.27–28"
+    }
+  ],
   "relatedFigureIds": ["zeus", "hades", "medusa", "pegasus"],
   "relatedStoryIds": ["division-of-the-world", "children-of-cronos"],
   "articleIds": [],

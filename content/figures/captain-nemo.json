@@ -10,6 +10,46 @@
   "roles": ["ノーチラス号の船長"],
   "mythologyIds": ["twenty-thousand-leagues"],
   "description": "ジュール・ヴェルヌの『海底二万里』に登場する、潜水艦ノーチラス号の船長。「ネモ」はラテン語で「誰でもない」を意味する。陸の世界との関係を断ち、海の中で暮らしながら、圧政に苦しむ人々を援助する。船内でパイプオルガンを弾く姿でも知られる。続編『神秘の島』で、その正体がイギリスに反乱を起こしたインドの王子ダカールだったと明かされる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "海底の船長"
+    },
+    {
+      "type": "paragraph",
+      "text": "ジュール・ヴェルヌの『海底二万里』で、海の怪物と噂される謎の存在を追っていた博物学者アロナックス教授は、その正体である潜水艦ノーチラス号に捕らわれます。船長ネモは、自分は陸の人間社会と縁を切った者だと告げ、二度と陸に戻らないことを条件に船内での自由を与えました。",
+      "claimIds": ["fg-captain-nemo-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "明かされた正体"
+    },
+    {
+      "type": "paragraph",
+      "text": "ネモの正体は、続編の『神秘の島』で明かされます。無人島に漂着した人々を陰から助けていた年老いたネモは、死を前に、自分がインドの藩王国の王子ダカールであり、1857年のインド大反乱でイギリスと戦って家族を失い、海に逃れたことを打ち明けました。ネモはノーチラス号とともに海に沈みます。",
+      "claimIds": ["fg-captain-nemo-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-captain-nemo-1",
+      "text": "アロナックス教授は潜水艦ノーチラス号に捕らわれ、船長ネモから、自分は陸の人間社会と縁を切った者だと告げられる。ネモは二度と陸に戻らないことを条件に船内での自由を与えた。",
+      "classification": "fact",
+      "sourceIds": ["verne-twenty-thousand-leagues"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『海底二万里』第1部 第10章ほか"
+    },
+    {
+      "id": "fg-captain-nemo-2",
+      "text": "死を前にしたネモは、自分がインドの藩王国の王子ダカールであり、1857年のインド大反乱でイギリスと戦って家族を失い、海に逃れたことを明かした。ネモはノーチラス号とともに海に沈んだ。",
+      "classification": "fact",
+      "sourceIds": ["verne-mysterious-island"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神秘の島』第3部 第16章"
+    }
+  ],
   "relatedFigureIds": [],
   "relatedStoryIds": ["nautilus", "nemo-is-prince-dakkar"],
   "articleIds": [],

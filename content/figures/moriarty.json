@@ -10,6 +10,59 @@
   "roles": ["犯罪組織の首領", "数学者"],
   "mythologyIds": ["sherlock-holmes"],
   "description": "シャーロック・ホームズの宿敵。短編「最後の事件」で、ホームズはモリアーティを、ロンドンの悪事の大半を陰で操る「犯罪界のナポレオン」と呼ぶ。数学の教授でもある天才的な人物で、ホームズとともにスイスのライヘンバッハの滝で姿を消した。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "数学教授から「犯罪界のナポレオン」へ"
+    },
+    {
+      "type": "paragraph",
+      "text": "モリアーティ教授は、ドイルの短編「最後の事件」に登場するホームズの宿敵です。21歳で二項定理についての論文を書いてヨーロッパに名を知られ、小さな大学の数学教授の職を得た、きわめて優秀な人物として描かれます。",
+      "claimIds": ["fg-moriarty-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "しかしその正体は、ロンドンの悪事の大半と未解決事件のほとんどを陰で操る黒幕でした。ホームズは彼を「犯罪界のナポレオン」と呼んでいます。",
+      "claimIds": ["fg-moriarty-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ライヘンバッハの滝"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホームズに組織を追い詰められたモリアーティは、ヨーロッパへ逃れたホームズを追い、スイスのライヘンバッハの滝の上の小道で対決します。ワトソンが戻ったとき二人の姿はなく、ともに滝壺に落ちたと考えられました。",
+      "claimIds": ["fg-moriarty-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-moriarty-1",
+      "text": "モリアーティは21歳で二項定理についての論文を書いてヨーロッパに名を知られ、小さな大学の数学の教授の職を得た。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "fg-moriarty-2",
+      "text": "ホームズはモリアーティを、ロンドンの悪事の大半と未解決事件のほとんどを陰で操る「犯罪界のナポレオン」と呼んだ。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    },
+    {
+      "id": "fg-moriarty-3",
+      "text": "ホームズとモリアーティはライヘンバッハの滝の上の小道で対決し、ワトソンが戻ったときには二人の姿はなく、ともに滝壺に落ちたと考えられた。",
+      "classification": "fact",
+      "sourceIds": ["doyle-final-problem"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「最後の事件」"
+    }
+  ],
   "relatedFigureIds": ["sherlock-holmes"],
   "relatedStoryIds": ["reichenbach-falls"],
   "articleIds": [],

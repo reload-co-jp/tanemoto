@@ -167,8 +167,10 @@ export const figureSchema = z.object({
   roles: z.array(z.string()).default([]),
   mythologyIds: ids,
   description: z.string().min(1),
-  /** 詳細ページ用の本文（任意） */
+  /** 詳細ページ用の本文（任意）。段落の claimIds で claims を参照する */
   body: z.array(blockSchema).default([]),
+  /** 本文の根拠となる主張（記事と同じ形式。fact などには出典と該当箇所が必要） */
+  claims: z.array(claimSchema).default([]),
   relatedFigureIds: ids,
   relatedStoryIds: ids,
   /** 明示的な記事紐付け（記事側の figureIds からも自動で関連付く） */

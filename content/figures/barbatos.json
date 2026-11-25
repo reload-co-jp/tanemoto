@@ -10,6 +10,41 @@
   "roles": ["ソロモン72柱の悪魔", "公爵"],
   "mythologyIds": ["goetia"],
   "description": "第8の霊。偉大な公爵。太陽が人馬宮（射手座）にあるとき、4人の王とその従者を伴って現れる。鳥のさえずりや獣の声、犬の吠える声を理解させ、過去と未来を知り、仲違いした友や権力者を和解させるとされる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『ゴエティア』のバルバトス"
+    },
+    {
+      "type": "paragraph",
+      "text": "バルバトスは、魔術書『ゴエティア』に8番目に挙げられる霊（悪魔）で、位階は偉大な公爵です。太陽が人馬宮（射手座）にあるとき、4人の王とその従者を伴って現れるとされます。",
+      "claimIds": ["fg-barbatos-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "バルバトスは、人に鳥のさえずりや獣の声、犬の吠える声を理解させるといいます。さらに過去と未来を知り、仲違いした友人や権力者を和解させる力ももつとされます。",
+      "claimIds": ["fg-barbatos-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-barbatos-1",
+      "text": "第8の霊バルバトスは偉大な公爵。太陽が人馬宮にあるとき4人の王と従者を伴って現れる。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第8の霊（Barbatos）"
+    },
+    {
+      "id": "fg-barbatos-2",
+      "text": "バルバトスは鳥のさえずり・獣の声・犬の吠える声を理解させる。過去と未来を知り、友や権力者を和解させる。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第8の霊（Barbatos）"
+    }
+  ],
   "relatedFigureIds": ["paimon", "morax"],
   "relatedStoryIds": [],
   "articleIds": [],

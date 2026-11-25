@@ -10,6 +10,46 @@
   "roles": ["人造人間"],
   "mythologyIds": ["frankenstein"],
   "description": "メアリー・シェリーの小説『フランケンシュタイン』で、科学者ヴィクター・フランケンシュタインが死体から作り出した名もない人造人間。醜い姿のために人々から拒まれ、創造者に自分と同じ種類の伴侶を作るよう求めるが、約束を破られて復讐に走る。一般に「フランケンシュタイン」と呼ばれるが、本来それは創造者の名である。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "電気への憧れ"
+    },
+    {
+      "type": "paragraph",
+      "text": "メアリー・シェリーの『フランケンシュタイン』で怪物を生み出すのは、科学者ヴィクター・フランケンシュタインです。15歳のころ、ヴィクターは雷雨の夜に、古く美しい樫の木から炎がほとばしるのを見ました。光が消えると木は消え失せ、焼け焦げた切り株だけが残っていたといいます。",
+      "claimIds": ["fg-frankensteins-creature-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "伴侶を求めた怪物"
+    },
+    {
+      "type": "paragraph",
+      "text": "人々に拒まれ続けた怪物は、ヴィクターに、自分のために女を作ってほしい、自分と同じく醜い別の性の生き物を、と求めました。孤独から逃れたいという怪物の願いは、物語の大きな転機となります。",
+      "claimIds": ["fg-frankensteins-creature-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-frankensteins-creature-1",
+      "text": "15歳のころ、ヴィクターは古く美しい樫の木から炎がほとばしるのを見た。光が消えると木は消え失せ、焼け焦げた切り株だけが残っていた。",
+      "classification": "fact",
+      "sourceIds": ["shelley-frankenstein"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『フランケンシュタイン』（1831年版）第2章"
+    },
+    {
+      "id": "fg-frankensteins-creature-2",
+      "text": "怪物はヴィクターに「自分のために女を作ってほしい」と求め、自分と同じく醜い、別の性の生き物を望んだ。",
+      "classification": "fact",
+      "sourceIds": ["shelley-frankenstein"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『フランケンシュタイン』（1831年版）第17章"
+    }
+  ],
   "relatedFigureIds": [],
   "relatedStoryIds": ["blasted-oak", "creature-asks-for-a-bride"],
   "articleIds": [],

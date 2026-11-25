@@ -1,0 +1,274 @@
+{
+  "id": "genshin-impact-goetia",
+  "slug": "genshin-impact-goetia",
+  "title": "原神の神の名前の元ネタは？モラクス・バルバトス・パイモンとソロモン72柱の悪魔",
+  "shortTitle": "原神とソロモン72柱",
+  "eyecatchText": "原神",
+  "description": "『原神』の岩神モラクス（鍾離）、風神バルバトス、案内役パイモン。その名は魔術書『ゴエティア』に記されたソロモン72柱の悪魔と同じです。原典で各悪魔がどんな姿で何を授けるとされるかを紹介し、作品との共通点と違いを解説します。",
+  "lead": "テイワットを治める神々の名は、ヨーロッパの魔術書に並ぶ悪魔たちと同じ名前をもっています。原典の悪魔はどんな姿で、どんな力を授けるとされたのか。モラクス、バルバトス、パイモンの3体を読み比べます。",
+  "category": "character-origins",
+  "tags": [
+    "原神",
+    "モラクス",
+    "鍾離",
+    "バルバトス",
+    "パイモン",
+    "ソロモン72柱",
+    "ゴエティア",
+    "悪魔"
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["morax", "barbatos", "paimon"],
+  "mythologyIds": ["goetia"],
+  "storyIds": [],
+  "workIds": ["genshin-impact"],
+  "characterIds": [
+    "genshin-impact-zhongli",
+    "genshin-impact-barbatos",
+    "genshin-impact-paimon"
+  ],
+  "topicIds": [],
+  "sourceIds": ["work-genshin-impact", "goetia"],
+  "relatedArticleIds": ["seven-deadly-sins", "persona-3-greek-mythology"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『原神』の神々の名前",
+      "anchor": "names"
+    },
+    {
+      "type": "paragraph",
+      "text": "『原神』は、miHoYo が開発し2020年にサービスを開始したオープンワールドRPGです。舞台となる大陸テイワットには7つの国があり、それぞれを「七神」と呼ばれる神が治めています。",
+      "claimIds": ["ag-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "たとえば、風の国モンドを加護するのは風神バルバトス。璃月を治めてきたのは岩神モラクスで、その正体は葬儀屋「往生堂」の客卿である[鍾離](/characters/genshin-impact-zhongli/)です。そして、主人公の旅人に付き添う案内役の名はパイモン。これらの名は、いずれもヨーロッパの魔術書『ゴエティア』に記された悪魔の名と同じです。",
+      "claimIds": ["ag-barbatos", "ag-zhongli", "ag-paimon", "ag-cmp-name"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "由来は公式に明言されているか",
+      "text": "作品の神名と『ゴエティア』の悪魔名の一致はよく知られていますが、開発元が名前の由来を明言した資料は、トモタネ編集部では確認できていません。この記事では「同じ名をもつ悪魔は原典でどう書かれているか」を紹介し、両者の対応は考察として示します。",
+      "claimIds": ["ag-cmp-name"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "『ゴエティア』とソロモン72柱",
+      "anchor": "goetia"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ゴエティア』は、17世紀の写本で伝わる魔術書『ソロモンの小さな鍵』の第1部です。古代イスラエルの[ソロモン王が使役した72の霊](/sources/goetia/)について、一体ずつ名前・位階（王・公爵・伯爵など）・呼び出されたときに現れる姿・授ける知識を列挙しています。日本では「ソロモン72柱」と呼ばれることもあります。",
+      "claimIds": ["ag-goetia"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ここに並ぶ悪魔たちは、恐ろしい怪物というより「特定の知識や力を授ける存在」として書かれているのが特徴です。天文学を教える者、鳥の言葉を理解させる者、隠された財宝のありかを明かす者など、それぞれに得意分野があります。",
+      "claimIds": ["ag-goetia", "ag-morax", "ag-barbatos-myth"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "岩神モラクス（鍾離）",
+      "anchor": "morax"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『原神』のモラクス",
+      "anchor": "morax-work"
+    },
+    {
+      "type": "paragraph",
+      "text": "璃月の人々は、岩神モラクスを「岩王帝君」と称えてきました。近年モラクスは「神の引退」を選び、現在は鍾離という名で往生堂の客卿として暮らしています。",
+      "claimIds": ["ag-zhongli"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『ゴエティア』のモラクス",
+      "anchor": "morax-myth"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ゴエティア』で21番目に挙げられる[モラクス](/figures/morax/)は、伯爵にして総裁の位をもつ悪魔です。人の顔をもつ大きな雄牛の姿で現れ、天文学と自由学芸（文法・論理・天文など、教養の諸学）を教え、薬草と宝石の効能に通じるとされます。",
+      "claimIds": ["ag-morax"]
+    },
+    {
+      "type": "paragraph",
+      "text": "「宝石の知識をもつ悪魔」の名が「岩の神」に与えられている点は興味深い対応です。",
+      "claimIds": ["ag-morax", "ag-zhongli", "ag-cmp-knowledge"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "風神バルバトス",
+      "anchor": "barbatos"
+    },
+    {
+      "type": "paragraph",
+      "text": "『原神』で風の国モンドを加護するのが、風神バルバトスです。",
+      "claimIds": ["ag-barbatos"]
+    },
+    {
+      "type": "paragraph",
+      "text": "『ゴエティア』の8番目の霊[バルバトス](/figures/barbatos/)は、偉大な公爵です。太陽が人馬宮（射手座）にあるとき、4人の王と従者を伴って現れます。人に鳥のさえずりや獣の声、犬の吠える声を理解させ、過去と未来を知り、仲違いした友人や権力者を和解させるといいます。",
+      "claimIds": ["ag-barbatos-myth"]
+    },
+    {
+      "type": "paragraph",
+      "text": "空を渡る鳥の声を聞き分ける力と、風を司る神。原典の能力と作品の神格には、空や風を連想させるつながりがあります。",
+      "claimIds": ["ag-barbatos-myth", "ag-cmp-knowledge"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "案内役パイモン",
+      "anchor": "paimon"
+    },
+    {
+      "type": "paragraph",
+      "text": "旅人とともにテイワットを旅する[パイモン](/characters/genshin-impact-paimon/)は、作品世界のことを旅人に教える案内役であり、相棒です。",
+      "claimIds": ["ag-paimon"]
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、『ゴエティア』9番目の霊[パイモン](/figures/paimon/)は、ルシファーによく従う偉大な「王」です。冠をかぶり、ヒトコブラクダに乗った人の姿で現れ、その前を楽隊が進みます。あらゆる学芸と学問を教え、隠されたことを明かすとされます。",
+      "claimIds": ["ag-paimon-myth"]
+    },
+    {
+      "type": "paragraph",
+      "text": "堂々とした王の姿は作品の小さな案内役とはまるで違いますが、「知らないことを教えてくれる存在」という役割には通じるところがあります。",
+      "claimIds": ["ag-paimon-myth", "ag-paimon", "ag-cmp-knowledge"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "悪魔の名が神の名に",
+      "anchor": "reverse"
+    },
+    {
+      "type": "paragraph",
+      "text": "原典では悪魔とされる名を、作品は人々に敬われる神や、主人公の相棒の名として用いています。名前を借りながら善悪の位置づけを大きく変えている点が、『原神』と『ゴエティア』のいちばんの違いです。",
+      "claimIds": ["ag-cmp-reverse", "ag-cmp-name"]
+    },
+    {
+      "type": "paragraph",
+      "text": "同じように悪魔や神の名をキャラクターに用いる作品としては、[ペルソナ3](/works/persona-3/)や[真・女神転生V](/works/shin-megami-tensei-5/)などのシリーズもあります。名前の元をたどると、作品の世界観の作り方が見えてきます。",
+      "claimIds": ["ag-cmp-name"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "『原神』の岩神モラクス・風神バルバトス、案内役パイモンの名は、魔術書『ゴエティア』の悪魔と同じ名",
+        "モラクスは人の顔の雄牛の姿で、天文学・学芸と薬草・宝石の知識を授ける",
+        "バルバトスは鳥や獣の声を理解させ、過去と未来を知る公爵",
+        "パイモンはルシファーに従う王で、学芸を教え隠されたことを明かす",
+        "作品側が由来を明言した資料は確認できず、対応関係は考察として紹介した"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "ag-work",
+      "text": "『原神』は miHoYo が開発し、2020年9月28日にサービスを開始したゲーム。舞台テイワットの7つの国は、それぞれ「七神」と呼ばれる存在が統治している。",
+      "classification": "creative",
+      "sourceIds": ["work-genshin-impact"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「原神」の記述で確認。"
+    },
+    {
+      "id": "ag-zhongli",
+      "text": "鍾離は岩神モラクスであり、現在は葬儀屋「往生堂」の客卿。璃月の人々はモラクスを「岩王帝君」と称え、近年モラクスは「神の引退」を選んだ。",
+      "classification": "creative",
+      "sourceIds": ["work-genshin-impact"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「原神」の記述で確認。"
+    },
+    {
+      "id": "ag-barbatos",
+      "text": "モンドは風神・バルバトスが加護する国である。",
+      "classification": "creative",
+      "sourceIds": ["work-genshin-impact"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「原神」の記述で確認。"
+    },
+    {
+      "id": "ag-paimon",
+      "text": "パイモンは旅人の案内役であり、相棒である。",
+      "classification": "creative",
+      "sourceIds": ["work-genshin-impact"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Genshin Impact」の記述で確認。"
+    },
+    {
+      "id": "ag-goetia",
+      "text": "『ゴエティア』は『ソロモンの小さな鍵』の第1部で、ソロモン王が使役したとされる72の霊について、名・位階・現れる姿・授ける知識を一覧にしている。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』序および霊の一覧"
+    },
+    {
+      "id": "ag-morax",
+      "text": "第21の霊モラクスは伯爵・総裁で、人の顔をもつ大きな雄牛の姿で現れる。天文学と自由学芸を教え、薬草と宝石の効能に通じる。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第21の霊（Morax）",
+      "note": "メイザース訳では Marax と綴る。"
+    },
+    {
+      "id": "ag-barbatos-myth",
+      "text": "第8の霊バルバトスは偉大な公爵。太陽が人馬宮にあるとき4人の王と従者を伴って現れ、鳥のさえずり・獣の声・犬の吠える声を理解させる。過去と未来を知り、友や権力者を和解させる。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第8の霊（Barbatos）"
+    },
+    {
+      "id": "ag-paimon-myth",
+      "text": "第9の霊パイモンはルシファーによく従う偉大な王。冠をかぶりヒトコブラクダに乗った人の姿で、前を楽隊が進む。あらゆる学芸と学問を教え、隠されたことを明かす。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第9の霊（Paimon）"
+    },
+    {
+      "id": "ag-cmp-name",
+      "text": "作品の神名と『ゴエティア』の悪魔名は一致するが、作品側が由来を明言した資料は確認できていない。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ag-cmp-reverse",
+      "text": "悪魔の名を人々に敬われる神の名として用いている点は、原典との大きな違いである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ag-cmp-knowledge",
+      "text": "モラクスの宝石の知識と岩の神、バルバトスの鳥の声と風の神、パイモンの「教える王」と案内役の対応は、編集部の考察である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

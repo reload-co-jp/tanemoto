@@ -10,6 +10,46 @@
   "roles": ["砂漠", "嵐", "混沌"],
   "mythologyIds": ["egyptian"],
   "description": "オシリスの弟で、兄を謀殺して王位を奪った神。プルタルコスはギリシャの怪物テュポンの名で呼ぶ。王位を継ぐべきホルスと長く争った末に敗れた。ヘロドトスも、ホルスがテュポン（セト）を退けてエジプト最後の神の王になったと伝えている。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "兄オシリスの殺害"
+    },
+    {
+      "type": "paragraph",
+      "text": "プルタルコス『イシスとオシリスについて』によれば、セト（ギリシャ名テュポン）は兄オシリスの体の寸法に合わせた美しい箱を作らせ、72人の共謀者とともに、宴で兄を箱に入れてナイル川に流しました。のちにはその遺体を14に切り分けて各地にまきます。",
+      "claimIds": ["fg-set-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ホルスとの王位争い"
+    },
+    {
+      "type": "paragraph",
+      "text": "オシリスの死後、セトはオシリスの息子ホルスと王位を争い、神々の法廷で裁きが続けられます。エジプトの物語「ホルスとセトの争い」では、その中でセトがホルスの目を奪い、女神ハトホルがガゼルの乳でそれを癒やしました。最後に勝利したのはホルスでした。",
+      "claimIds": ["fg-set-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-set-1",
+      "text": "テュポン（セト）は72人の共謀者と箱を用いてオシリスを殺し、のちにその遺体を14に切り分けた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』13・18章"
+    },
+    {
+      "id": "fg-set-2",
+      "text": "「ホルスとセトの争い」では、王位を争う中でセトがホルスの目を奪い、女神ハトホルがガゼルの乳でそれを癒やす。最後にホルスが勝利し、父の王位を継いだ。",
+      "classification": "fact",
+      "sourceIds": ["contendings-horus-seth"],
+      "verificationStatus": "verified",
+      "sourceLocation": "チェスター・ビーティー・パピルス第1「ホルスとセトの争い」"
+    }
+  ],
   "relatedFigureIds": ["osiris", "isis", "horus"],
   "relatedStoryIds": ["death-of-osiris", "contendings-of-horus-and-set"],
   "articleIds": [],

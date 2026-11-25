@@ -10,6 +10,93 @@
   "roles": ["魔術師", "予言者", "王の助言者"],
   "mythologyIds": ["arthurian"],
   "description": "アーサー王に仕えた魔術師・予言者。マロリーの『アーサー王の死』では、ユーサー王の姿を変えてアーサー誕生のきっかけを作り、生まれた子を騎士エクターに預けた。少年や老人に姿を変えて王の前に現れ、未来を言い当てる。のちに湖の乙女ニミュエに恋をし、魔法を教えた彼女によって岩の下に閉じ込められた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "アーサー誕生の仕掛け人"
+    },
+    {
+      "type": "paragraph",
+      "text": "トマス・マロリーの『アーサー王の死』によれば、ブリテン王ユーサー・ペンドラゴンはコーンウォール公の妻イグレインに恋をしました。魔術師マーリンは、生まれる子を自分に引き渡すことを条件に、王をコーンウォール公の姿に変えてティンタジェル城へ送り込みます。こうして生まれたアーサーは、マーリンの手で騎士エクターに預けられました。",
+      "claimIds": ["fg-merlin-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "王の助言者"
+    },
+    {
+      "type": "paragraph",
+      "text": "ユーサー王の死後、王位をめぐって国が乱れると、マーリンの助言でロンドンの教会に諸侯が集められ、アーサーが石に刺さった剣を抜きました。のちに剣を折られたアーサーを湖へ案内し、湖の乙女からエクスカリバーを授からせたのもマーリンです。",
+      "claimIds": ["fg-merlin-2", "fg-merlin-3"]
+    },
+    {
+      "type": "paragraph",
+      "text": "アーサーがグィネヴィアを妃に望んだとき、マーリンは、のちにランスロットが彼女を愛し、彼女もまた彼を愛するようになると警告しました。しかし王の心は変わりませんでした。",
+      "claimIds": ["fg-merlin-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "岩の下に封じられる"
+    },
+    {
+      "type": "paragraph",
+      "text": "マーリンは湖の乙女の一人ニミュエに恋をし、片時も離れなくなります。自分がやがて生きたまま地に埋められると知っていたマーリンは、その運命から逃れられませんでした。魔法を学び尽くしたニミュエは、マーリンを岩の下に封じ込めてしまったのです。",
+      "claimIds": ["fg-merlin-5", "fg-merlin-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-merlin-1",
+      "text": "マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子を自分に引き渡させた。アーサーはマーリンの手で騎士エクターに預けられた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第1〜3章"
+    },
+    {
+      "id": "fg-merlin-2",
+      "text": "ユーサー王の死後、マーリンの助言でロンドンの教会に諸侯が集められ、アーサーが石と鉄床に刺さった剣を抜いた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第5章"
+    },
+    {
+      "id": "fg-merlin-3",
+      "text": "剣を折られたアーサーをマーリンが湖へ案内し、アーサーは湖の乙女から剣（エクスカリバー）を授かった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第25章"
+    },
+    {
+      "id": "fg-merlin-4",
+      "text": "マーリンは、のちにランスロットがグィネヴィアを愛し、彼女もまた彼を愛するようになると警告したが、王の心は変わらなかった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第3巻第1〜2章"
+    },
+    {
+      "id": "fg-merlin-5",
+      "text": "マーリンは湖の乙女ニミュエに恋をし、魔法を学び尽くした彼女によって岩の下に封じ込められた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第1章"
+    },
+    {
+      "id": "fg-merlin-6",
+      "text": "マーリンは自分がやがて生きたまま地に埋められると知っていた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第1章"
+    }
+  ],
   "relatedFigureIds": ["arthur", "morgan-le-fay"],
   "relatedStoryIds": [
     "birth-of-arthur",

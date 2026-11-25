@@ -10,6 +10,64 @@
   "roles": ["炉（かまど）", "家", "処女神"],
   "mythologyIds": ["greek"],
   "description": "クロノスとレアの子で、炉（かまど）の女神。『アプロディテ讃歌』では、ポセイドンとアポロンの求婚を拒んで生涯処女であることを誓い、その代わりにゼウスから家の中心の座と、あらゆる神殿での誉れを与えられたと語られる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "クロノスとレアの子"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、ヘスティアはクロノスとレアの子で、デメテル、ヘラ、ハデス、ポセイドン、ゼウスのきょうだいです。",
+      "claimIds": ["fg-hestia-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "処女の誓い"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス風讃歌『アプロディテ讃歌』によれば、アテナ、アルテミス、ヘスティアの三柱は、愛の女神アプロディテの力が及ばない女神です。ヘスティアはポセイドンとアポロンに求婚されましたが拒み、ゼウスの頭に手を触れて生涯処女でいると誓いました。",
+      "claimIds": ["fg-hestia-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "家の中心の女神"
+    },
+    {
+      "type": "paragraph",
+      "text": "ゼウスは結婚の代わりにヘスティアに高い誉れを与え、彼女は家の中心に座を占めました。あらゆる神殿で誉れを受け、人間のあいだで女神たちの筆頭とされます。",
+      "claimIds": ["fg-hestia-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-hestia-1",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "fg-hestia-2",
+      "text": "アテナ、アルテミス、ヘスティアの三柱は、アプロディテの力が及ばない女神である。ヘスティアはポセイドンとアポロンに求婚されたが拒み、ゼウスの頭に手を触れて生涯処女でいると誓った。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』7–28行"
+    },
+    {
+      "id": "fg-hestia-3",
+      "text": "ゼウスは結婚の代わりにヘスティアに高い誉れを与え、彼女は家の中心に座を占めた。あらゆる神殿で誉れを受け、人間のあいだで女神たちの筆頭とされる。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-aphrodite"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『アプロディテ讃歌』29–32行"
+    }
+  ],
   "relatedFigureIds": ["zeus", "hades", "poseidon", "demeter"],
   "relatedStoryIds": ["children-of-cronos"],
   "articleIds": [],

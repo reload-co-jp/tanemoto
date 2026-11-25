@@ -10,6 +10,77 @@
   "roles": ["秦の王", "中国最初の皇帝"],
   "mythologyIds": ["ancient-china"],
   "description": "秦の王（在位 紀元前247〜前221年）、のち中国最初の皇帝（在位 前221〜前210年）。名は政。人質の子として趙の都・邯鄲で生まれた。六国を滅ぼして中国を統一すると「皇帝」の称号をつくり、自らを始皇帝と称した。文字・度量衡の統一や焚書で知られ、司馬遷『史記』秦始皇本紀がその生涯を記す。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "人質の子として"
+    },
+    {
+      "type": "paragraph",
+      "text": "始皇帝の名は政。父の子楚が秦の公子として趙に人質に出されていたとき、趙の都・邯鄲で生まれました。秦が邯鄲を包囲すると趙は子楚を殺そうとし、子楚は秦軍のもとへ逃れます。残された妻子も命を狙われましたが、母が趙の豪族の娘だったため身を隠すことができ、母子は生き延びました。",
+      "claimIds": ["fg-qin-shi-huang-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "王となったのちも、身内の反乱に直面しています。始皇8年には、弟の長安君成蟜が将軍として趙を攻めた際に反乱を起こし、屯留で死にました。",
+      "claimIds": ["fg-qin-shi-huang-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "「皇帝」の誕生"
+    },
+    {
+      "type": "paragraph",
+      "text": "天下を統一した秦王政は、伝説の三皇の「皇」と五帝の「帝」をあわせて「皇帝」と号し、自らを始皇帝としました。天子が自分を指す言葉を「朕」とすることも、このとき定められています。",
+      "claimIds": ["fg-qin-shi-huang-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "仙人を求めて"
+    },
+    {
+      "type": "paragraph",
+      "text": "始皇帝は不老不死にも強い関心を寄せました。斉の方士・徐市（徐福）らが、海中に蓬萊・方丈・瀛洲という三つの神山があって仙人が住むと上書すると、始皇帝は童男童女数千人を与えて、海に仙人を探しに行かせています。",
+      "claimIds": ["fg-qin-shi-huang-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-qin-shi-huang-1",
+      "text": "秦の公子子楚が趙に人質となっていたとき、邯鄲で子の政が生まれた。秦が邯鄲を包囲すると趙は子楚を殺そうとし、子楚は秦軍のもとへ逃れた。趙は残された子楚の妻子も殺そうとしたが、妻は趙の豪族の娘だったため身を隠すことができ、母子は生き延びた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻85 呂不韋列伝"
+    },
+    {
+      "id": "fg-qin-shi-huang-2",
+      "text": "始皇8年、王の弟の長安君成蟜は将軍として趙を攻めたが、反乱を起こし、屯留で死んだ。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇8年条）"
+    },
+    {
+      "id": "fg-qin-shi-huang-3",
+      "text": "天下を統一した秦王政は、三皇の「皇」と五帝の「帝」の位号をあわせて「皇帝」と号し、自らを始皇帝とした。天子の自称を「朕」とすることもこのとき定められた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇26年条）"
+    },
+    {
+      "id": "fg-qin-shi-huang-4",
+      "text": "斉の人徐市らは、海中に蓬萊・方丈・瀛洲という三つの神山があって仙人が住むと上書した。始皇帝は徐市に童男童女数千人を与えて、海に入って仙人を求めさせた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇28年条）"
+    }
+  ],
   "relatedFigureIds": ["xiang-yu", "chiyou", "huangdi"],
   "relatedStoryIds": [
     "qin-unification",

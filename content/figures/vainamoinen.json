@@ -10,6 +10,59 @@
   "roles": ["賢者", "歌い手", "カンテレ"],
   "mythologyIds": ["finnish"],
   "description": "『カレワラ』の主人公格の老賢者で、歌によって魔法を使う「永遠の歌い手」。大気の乙女イルマタルの子で、母の胎内で長い年月を過ごし、生まれたときにはすでに老人だった。巨大なカワカマスの顎の骨から最初のカンテレを作った。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "大気の乙女の子"
+    },
+    {
+      "type": "paragraph",
+      "text": "フィンランドの叙事詩『カレワラ』によれば、世界は鴨の卵から生まれました。大気の乙女イルマタルの膝で鴨が温めていた卵が海に落ちて割れ、下半分から大地が、上半分から天が、黄身から太陽が、白身から月が生まれます。やがてイルマタルの胎内で長い年月を過ごしたワイナミョイネンが、自ら外へ出て海を泳ぎ、陸に上がりました。",
+      "claimIds": ["fg-vainamoinen-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最初のカンテレ"
+    },
+    {
+      "type": "paragraph",
+      "text": "魔法の臼サンポを奪いに向かう船が巨大なカワカマスの肩に乗り上げると、ワイナミョイネンはこれを仕留め、顎の骨から竪琴（カンテレ）を作りました。アーチは顎の骨、糸巻きは歯、弦は悪霊レンポの馬の尾の毛です。",
+      "claimIds": ["fg-vainamoinen-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "若者や老人が弾いても不協和音しか出ませんでしたが、ワイナミョイネンが奏でると、森の獣や空の鳥、水の魚までが聴き入ったといいます。",
+      "claimIds": ["fg-vainamoinen-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-vainamoinen-1",
+      "text": "鴨の卵が海に落ちて割れ、下半分から大地が、上半分から天が、黄身から太陽が、白身から月が生まれた。やがてイルマタルの胎内で長い年月を過ごしたワイナミョイネンが、自ら外へ出て海を泳ぎ、陸に上がった。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第1章"
+    },
+    {
+      "id": "fg-vainamoinen-2",
+      "text": "ワイナミョイネンはカワカマスの顎の骨から竪琴（カンテレ）を作った。アーチは顎の骨、糸巻きは歯、弦はレンポの馬の尾の毛から作られた。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40章（Crawford 英訳）"
+    },
+    {
+      "id": "fg-vainamoinen-3",
+      "text": "若者たちや老人たちが弾いても不協和音しか出なかったが、ワイナミョイネンが奏でると、森の獣や空の鳥、水の魚までが聴き入った。",
+      "classification": "fact",
+      "sourceIds": ["kalevala"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第40–41章（Crawford 英訳）"
+    }
+  ],
   "relatedFigureIds": ["ilmatar", "ilmarinen", "louhi"],
   "relatedStoryIds": ["birth-of-vainamoinen", "birth-of-the-kantele"],
   "articleIds": [],

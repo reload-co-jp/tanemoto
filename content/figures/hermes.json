@@ -10,6 +10,103 @@
   "roles": ["神々の使者", "導き手"],
   "mythologyIds": ["greek"],
   "description": "ゼウスの使者として神々の伝令を務める神。『デメテル讃歌』ではゼウスの命で冥界に赴き、ペルセポネを地上へ連れ戻した。ペルセウスには金剛の鎌を与えている。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ゼウスの伝令"
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロスによれば、ヘルメスはゼウスとマイアの子で、キュレネの洞窟で生まれました。ゼウスはヘルメスを、自分と冥界の神々の伝令に任じています。",
+      "claimIds": ["fg-hermes-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "生まれた日の牛泥棒"
+    },
+    {
+      "type": "paragraph",
+      "text": "生まれたばかりのヘルメスは、揺りかごを抜け出してアポロンの牛を盗みました。足跡が残らないよう牛に履物をはかせ、ゼウスの前でも牛を持っていないと言い張ったといいます。",
+      "claimIds": ["fg-hermes-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘルメスは亀の甲羅に牛の腸の弦を張って竪琴を作り、撥も発明しました。その音色を聞いたアポロンは、牛と引き換えに竪琴を手に入れています。",
+      "claimIds": ["fg-hermes-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "英雄の導き手"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘルメスはしばしば英雄を助けます。ペルセウスはヘルメスとアテナの導きで魔法の道具を手に入れ、メデューサ退治に向かいました。また、ハデスにさらわれたペルセポネを連れ戻すため、ゼウスが冥界に遣わしたのもヘルメスでした。",
+      "claimIds": ["fg-hermes-4", "fg-hermes-5"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "エジプトのトトとの同一視"
+    },
+    {
+      "type": "paragraph",
+      "text": "ギリシャの著述家プルタルコスは、エジプトの知恵の神トトをヘルメスの名で呼んでいます。",
+      "claimIds": ["fg-hermes-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-hermes-1",
+      "text": "マイアはゼウスと交わりキュレネの洞窟でヘルメスを産んだ。ゼウスはヘルメスを自分と冥界の神々の伝令に任じた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "fg-hermes-2",
+      "text": "ヘルメスは揺りかごを抜け出してアポロンの牛を盗み、足跡が残らないよう履物をはかせた。ゼウスの前でも牛を持っていないと否定した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "fg-hermes-3",
+      "text": "ヘルメスは亀の甲羅に牛の腸の弦を張って竪琴を作り、撥も発明した。アポロンは竪琴の音を聞き、牛と引き換えにそれを得た。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』3.10.2"
+    },
+    {
+      "id": "fg-hermes-4",
+      "text": "ペルセウスはヘルメスとアテナの導きで魔法の道具を手に入れ、メデューサの首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fg-hermes-5",
+      "text": "ハデスに連れ去られたペルセポネのため、ゼウスはヘルメスを冥界に遣わした。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』334–403行"
+    },
+    {
+      "id": "fg-hermes-6",
+      "text": "プルタルコスは、エジプトの神トトをヘルメスの名で呼んでいる。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12–13章"
+    }
+  ],
   "relatedFigureIds": ["zeus", "perseus", "persephone"],
   "relatedStoryIds": [
     "perseus-medusa",
@@ -17,5 +114,9 @@
     "heracles-cerberus"
   ],
   "articleIds": [],
-  "sourceIds": ["homeric-hymn-demeter", "apollodorus-library"]
+  "sourceIds": [
+    "homeric-hymn-demeter",
+    "apollodorus-library",
+    "plutarch-isis-osiris"
+  ]
 }

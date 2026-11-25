@@ -10,6 +10,77 @@
   "roles": ["弓の名手", "施しの英雄"],
   "mythologyIds": ["indian"],
   "description": "『マハーバーラタ』の英雄。太陽神スーリヤとクンティーの子で、生まれながらに鎧と耳飾りを身につけていたが、母に川に流され御者の夫婦に育てられた。カウラヴァ側の将として、異父弟アルジュナと宿命の対決を迎える。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "太陽神の子"
+    },
+    {
+      "type": "paragraph",
+      "text": "インドの叙事詩『マハーバーラタ』によれば、王女クンティーが太陽神スーリヤを呼び出して身ごもった子は、耳飾りと鎧を身につけて生まれました。クンティーは親族を恐れて子を水に流し、子はラーダーの夫に拾われて育てられます。これがカルナです。",
+      "claimIds": ["fg-karna-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "鎧と耳飾りを差し出す"
+    },
+    {
+      "type": "paragraph",
+      "text": "息子アルジュナを助けたい雷神インドラは、バラモンに姿を変えてカルナの鎧と耳飾りを乞いました。カルナは、一度だけ必ず敵を倒す槍と引き換えに、自らの体から鎧を切り剝がし、耳飾りを切り取って与えています。",
+      "claimIds": ["fg-karna-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "アルジュナとの決戦"
+    },
+    {
+      "type": "paragraph",
+      "text": "クルクシェートラの大戦で、カルナはついにアルジュナと対決します。しかし死の時が来ると、バラモンの呪いによって、師パラシュラーマから授かったブラフマーストラの使い方を忘れ、戦車の左の車輪も大地に呑み込まれました。",
+      "claimIds": ["fg-karna-3"]
+    },
+    {
+      "type": "paragraph",
+      "text": "カルナは車輪を引き上げるまで待てと訴えましたが、クリシュナはカルナの過去の行いを挙げて退け、アルジュナはアンジャリカと呼ばれる矢でカルナの首を落としました。",
+      "claimIds": ["fg-karna-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-karna-1",
+      "text": "クンティーが太陽神スーリヤを呼び出して身ごもった子は、耳飾りと鎧を身につけて生まれた。クンティーは親族を恐れて子を水に流し、子はラーダーの夫に拾われて育てられた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』始まりの巻 67節（Ganguli 英訳）"
+    },
+    {
+      "id": "fg-karna-2",
+      "text": "インドラはバラモンに姿を変えてカルナの鎧と耳飾りを乞い、カルナは一度だけ必ず敵を倒す槍と引き換えに、体から鎧を切り剝がし耳飾りを切り取って与えた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』森の巻 308節（Ganguli 英訳）"
+    },
+    {
+      "id": "fg-karna-3",
+      "text": "カルナの死の時が来ると、バラモンの呪いにより、パラシュラーマから授かったブラフマーストラはカルナの記憶から失われ、大地が戦車の左の車輪を呑み込んだ。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』カルナの巻 90節（Ganguli 英訳）"
+    },
+    {
+      "id": "fg-karna-4",
+      "text": "カルナは車輪を引き上げるまで待てとアルジュナに訴えたが、ヴァースデーヴァ（クリシュナ）はカルナの過去の行いを挙げて退けた。アルジュナはアンジャリカと呼ばれる矢でカルナの首を落とした。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』カルナの巻 90–91節（Ganguli 英訳）"
+    }
+  ],
   "relatedFigureIds": ["surya", "arjuna", "indra", "krishna"],
   "relatedStoryIds": ["karna-armor", "death-of-karna"],
   "articleIds": [],

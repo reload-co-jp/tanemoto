@@ -10,6 +10,85 @@
   "roles": ["主人公", "少女"],
   "mythologyIds": ["alice-in-wonderland"],
   "description": "『不思議の国のアリス』の主人公の少女。姉と土手に座って退屈していたところ、チョッキを着て懐中時計を持った白ウサギを見かけ、追いかけてウサギ穴に飛び込む。不思議の国で体が伸び縮みし、チェシャ猫や帽子屋、ハートの女王などの奇妙な住人たちと出会う。最後はトランプの兵隊たちに向かって「あんたたちなんか、ただのトランプのくせに！」と叫んだところで目を覚ます。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ウサギ穴へ"
+    },
+    {
+      "type": "paragraph",
+      "text": "ルイス・キャロルの『不思議の国のアリス』は、土手で退屈していた少女アリスのそばを、ピンクの目をした白ウサギが「たいへんだ、遅れちゃう！」とつぶやきながら走っていく場面から始まります。ウサギがチョッキのポケットから懐中時計を取り出したのを見て、アリスは後を追い、生け垣の下の大きなウサギ穴に飛び込みました。",
+      "claimIds": ["fg-alice-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "不思議の国の住人たち"
+    },
+    {
+      "type": "paragraph",
+      "text": "不思議の国でアリスは奇妙な住人たちに出会います。チェシャ猫は「ここではみんな狂ってるのさ。わたしも狂ってるし、きみも狂ってる」と言い、尻尾の先から少しずつ消えて、にやにや笑いだけを残しました。",
+      "claimIds": ["fg-alice-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "帽子屋と三月ウサギのお茶会では、「時間」とけんかしたせいで時計がいつも6時のまま、一日中お茶の時間が続いていました。ハートの女王のクロッケー場では、球は生きたハリネズミ、木槌は生きたフラミンゴで、女王は1分に一度は「その者の首をはねよ！」と叫んでいます。",
+      "claimIds": ["fg-alice-3", "fg-alice-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "夢からの目覚め"
+    },
+    {
+      "type": "paragraph",
+      "text": "盗まれたタルトをめぐる裁判で、女王は「判決が先、評決はあと」と言い出し、アリスの首をはねるよう命じます。元の大きさに戻ったアリスが「あんたたちなんか、ただのトランプのくせに！」と言うと、トランプが舞い上がって襲いかかり、アリスは姉のひざで目を覚ましました。すべては夢だったのです。",
+      "claimIds": ["fg-alice-5"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-alice-1",
+      "text": "土手で退屈していたアリスのそばを、白ウサギが「たいへんだ、遅れちゃう！」とつぶやきながら走っていった。ウサギがチョッキのポケットから懐中時計を取り出したのを見て、アリスは後を追い、生け垣の下の大きなウサギ穴に飛び込んだ。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第1章"
+    },
+    {
+      "id": "fg-alice-2",
+      "text": "チェシャ猫は「ここではみんな狂ってるのさ。わたしも狂ってるし、きみも狂ってる」と言い、尻尾の先から少しずつ消えていき、にやにや笑いだけがしばらく残った。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第6章"
+    },
+    {
+      "id": "fg-alice-3",
+      "text": "帽子屋は「時間」とけんかしてしまい、それ以来いつも6時のままなので、一日中お茶の時間が続いているという。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第7章"
+    },
+    {
+      "id": "fg-alice-4",
+      "text": "ハートの女王のクロッケー場では、球は生きたハリネズミ、木槌は生きたフラミンゴ、アーチは体を折り曲げたトランプの兵隊で、女王は1分に一度は「その者の首をはねよ！」と叫んでいた。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第8章"
+    },
+    {
+      "id": "fg-alice-5",
+      "text": "裁判で女王は「判決が先、評決はあと」と言い出した。アリスが「あんたたちなんか、ただのトランプのくせに！」と言うと、トランプが舞い上がって襲いかかり、アリスは姉のひざで目を覚ました。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第12章"
+    }
+  ],
   "relatedFigureIds": [
     "white-rabbit",
     "cheshire-cat",

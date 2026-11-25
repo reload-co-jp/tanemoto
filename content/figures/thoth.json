@@ -10,6 +10,46 @@
   "roles": ["知恵", "文字", "書記", "月"],
   "mythologyIds": ["egyptian"],
   "description": "トキ（鳥）やヒヒの姿で表される知恵と文字の神。神々の書記として、死者の裁判では心臓の計量の結果を記録する。ギリシャ人はヘルメスと同一視し、プルタルコスの伝える神話ではヘルメスの名で登場する。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "死者の審判の書記"
+    },
+    {
+      "type": "paragraph",
+      "text": "古代エジプトの「死者の書」第125章の挿絵では、死者の心臓が天秤にかけられ、真理の女神マアトの羽根と比べられます。トキの頭をもつトトは、この心臓の計量の結果を記録する役目を担っています。",
+      "claimIds": ["fg-thoth-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ヘルメスとの同一視"
+    },
+    {
+      "type": "paragraph",
+      "text": "ギリシャの著述家プルタルコスは、エジプトの神トトをヘルメスの名で呼んでいます。",
+      "claimIds": ["fg-thoth-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-thoth-1",
+      "text": "「死者の書」第125章の挿絵では、トキの頭をもつトトが、心臓の計量の結果を記録している。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "fg-thoth-2",
+      "text": "プルタルコスは、エジプトの神トトをヘルメスの名で呼んでいる。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』12–13章"
+    }
+  ],
   "relatedFigureIds": ["osiris", "isis", "horus", "anubis"],
   "relatedStoryIds": ["weighing-of-the-heart", "death-of-osiris"],
   "articleIds": [],

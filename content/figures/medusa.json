@@ -10,6 +10,101 @@
   "roles": ["ゴルゴン", "石化"],
   "mythologyIds": ["greek"],
   "description": "ゴルゴン三姉妹の一人で、ポルキュスとケトの娘。姉妹のうち唯一の死すべき存在で、英雄ペルセウスに首を切られた。その首からペガソスとクリュサオルが生まれた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ゴルゴン三姉妹"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、メデューサはポルキュスとケトの娘で、ステンノ、エウリュアレとともにゴルゴン三姉妹をなします。三姉妹のうちメデューサだけが死すべき存在で、ほかの二人は不死で不老でした。",
+      "claimIds": ["fg-medusa-1", "fg-medusa-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ゴルゴンたちは、見た者を石に変えたと伝えられます。",
+      "claimIds": ["fg-medusa-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "蛇の髪の由来"
+    },
+    {
+      "type": "paragraph",
+      "text": "オウィディウス『変身物語』は、メデューサがもともと美しさで知られ、とくに髪が美しく、多くの求婚者がいたと語ります。しかし女神ミネルウァ（アテナ）は、自分の神殿で起きた行為を罰するため、その髪を蛇に変えました。",
+      "claimIds": ["fg-medusa-4", "fg-medusa-5"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ペルセウスの退治"
+    },
+    {
+      "type": "paragraph",
+      "text": "英雄ペルセウスは、眠っているゴルゴンたちのそばに立ち、アテナに手を導かれながら、青銅の盾に映る姿を見て目をそらしたまま、メデューサの首を切りました。その首からは天馬ペガソスとクリュサオルが生まれています。",
+      "claimIds": ["fg-medusa-6", "fg-medusa-7"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-medusa-1",
+      "text": "メデューサはポルキュスとケトの娘で、ステンノ・エウリュアレとともにゴルゴン三姉妹をなす。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』270–276行"
+    },
+    {
+      "id": "fg-medusa-2",
+      "text": "三姉妹のうちメデューサだけが死すべき存在で、他の二人は不死で不老である。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』276–277行"
+    },
+    {
+      "id": "fg-medusa-3",
+      "text": "ゴルゴンたちは、見た者を石に変えた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fg-medusa-4",
+      "text": "メデューサはもともと美しさで知られ、とくに髪が美しく、多くの求婚者がいた。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』4.791–798"
+    },
+    {
+      "id": "fg-medusa-5",
+      "text": "ミネルウァは、自分の神殿で起きた行為を罰するため、ゴルゴン（メデューサ）の髪を蛇に変えた。",
+      "classification": "fact",
+      "sourceIds": ["ovid-metamorphoses"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『変身物語』4.799–801"
+    },
+    {
+      "id": "fg-medusa-6",
+      "text": "ペルセウスは眠っているゴルゴンたちのそばに立ち、アテナに手を導かれながら、青銅の盾に映るゴルゴンの姿を見て、メドゥーサの首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fg-medusa-7",
+      "text": "ペルセウスがメデューサの首を切ると、ペガソスとクリュサオルが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』280–281行"
+    }
+  ],
   "relatedFigureIds": ["perseus", "athena", "poseidon", "pegasus"],
   "relatedStoryIds": ["perseus-medusa"],
   "articleIds": [],

@@ -1,0 +1,254 @@
+{
+  "id": "jujutsu-kaisen-ten-shadows",
+  "slug": "jujutsu-kaisen-ten-shadows",
+  "title": "十種影法術の元ネタは？『呪術廻戦』伏黒恵の式神と十種神宝・八握剣を解説",
+  "shortTitle": "十種影法術の元ネタ",
+  "eyecatchText": "十種影法術",
+  "description": "『呪術廻戦』伏黒恵の術式「十種影法術」。術式名と式神の紋様、最強の式神・魔虚羅の名にある「八握剣」は、『先代旧事本紀』に記された十種神宝の名と一致します。十の宝の一覧と式神との対応、式神「鵺」の元ネタまで解説。",
+  "lead": "伏黒恵が影から呼び出す十種の式神。その紋様に刻まれた「道返玉」「足玉」といった名は、古代の歴史書に記された宝物の名前です。十種神宝とは何か、最強の式神・魔虚羅の名に込められた「剣」の意味まで読み解きます。",
+  "category": "character-origins",
+  "tags": [
+    "呪術廻戦",
+    "十種影法術",
+    "伏黒恵",
+    "魔虚羅",
+    "十種神宝",
+    "八握剣",
+    "先代旧事本紀",
+    "鵺"
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "status": "published",
+  "featured": false,
+  "figureIds": ["nue"],
+  "mythologyIds": ["japanese"],
+  "storyIds": [],
+  "workIds": ["jujutsu-kaisen"],
+  "characterIds": ["jujutsu-kaisen-ten-shadows"],
+  "topicIds": ["divine-items"],
+  "sourceIds": ["work-jujutsu-kaisen", "sendai-kuji-hongi", "heike-monogatari"],
+  "relatedArticleIds": [
+    "ryomen-sukuna",
+    "japanese-mythology-overview",
+    "legendary-weapons"
+  ],
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "十種影法術とは",
+      "anchor": "technique"
+    },
+    {
+      "type": "paragraph",
+      "text": "十種影法術（とくさのかげぼうじゅつ）は、『呪術廻戦』の伏黒恵が使う術式です。御三家の一つ・禪院家に相伝される術式で、手で作った影絵を実体化させ、十種の式神を呼び出します。",
+      "claimIds": ["at-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "呼び出せる式神は、白と黒の2体の玉犬、鵺、大蛇、蝦蟇、満象、脱兎、貫牛、円鹿、そして最強の式神「八握剣異戒神将魔虚羅」などです。",
+      "claimIds": ["at-work"]
+    },
+    {
+      "type": "paragraph",
+      "text": "この「十種」という術式名と、式神に刻まれた紋様の名には、日本の古い歴史書に記された宝物の名が使われています。",
+      "claimIds": ["at-marks", "at-cmp"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "元ネタは『先代旧事本紀』の十種神宝",
+      "anchor": "treasures"
+    },
+    {
+      "type": "paragraph",
+      "text": "『先代旧事本紀』は、全10巻からなる古代の歴史書です。その巻3「天神本紀」に、饒速日命（にぎはやひのみこと）が天から降る際、天神御祖（あまつかみみおや）から十種の宝を授けられたという記述があります。これが「天璽瑞宝十種（あまつしるしみずたからとくさ）」、一般に十種神宝（とくさのかんだから）と呼ばれる宝物です。",
+      "claimIds": ["at-kujihongi", "at-treasures"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "鏡（2種）: 沖津鏡（おきつかがみ）、辺津鏡（へつかがみ）",
+        "剣（1種）: 八握剣（やつかのつるぎ）",
+        "玉（4種）: 生玉（いくたま）、死返玉（まかるかへしのたま）、足玉（たるたま）、道返玉（ちかへしのたま）",
+        "比礼（3種）: 蛇比礼（おろちのひれ）、蜂比礼（はちのひれ）、品物之比礼（くさぐさのもののひれ）"
+      ],
+      "claimIds": ["at-treasures"]
+    },
+    {
+      "type": "paragraph",
+      "text": "鏡・剣・玉・比礼（ひれ。肩にかける薄い布）の4つの種類からなり、剣は八握剣ただ一つです。日本神話の全体像は「[日本神話とは](/articles/japanese-mythology-overview/)」で解説しています。",
+      "claimIds": ["at-treasures"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "式神の紋様と十種神宝",
+      "anchor": "marks"
+    },
+    {
+      "type": "paragraph",
+      "text": "作中の式神には、十種神宝の名をもつ紋様があります。",
+      "claimIds": ["at-marks"]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "道返玉・足玉: 玉犬（白・黒）",
+        "生玉: 鵺・大蛇",
+        "辺津鏡: 満象",
+        "沖津鏡: 蝦蟇",
+        "品々物之比礼: 脱兎ほか",
+        "死返玉: 円鹿",
+        "蜂比礼: 貫牛"
+      ],
+      "claimIds": ["at-marks"]
+    },
+    {
+      "type": "paragraph",
+      "text": "十種神宝の鏡・玉・比礼の名が、式神ごとに割り振られていることがわかります。十種神宝のうち、紋様の名として現れていないのは蛇比礼と八握剣です。このうち八握剣は、最強の式神の名そのものに使われています。",
+      "claimIds": ["at-marks", "at-mahoraga", "at-cmp-ten"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "魔虚羅と八握剣",
+      "anchor": "mahoraga"
+    },
+    {
+      "type": "paragraph",
+      "text": "「八握剣異戒神将魔虚羅（やつかのつるぎ いかいしんしょう まこら）」は、歴代の十種影法術師の誰一人として調伏できていない最強の式神です。能力は「あらゆる事象への適応」で、背後に法陣があります。",
+      "claimIds": ["at-mahoraga"]
+    },
+    {
+      "type": "paragraph",
+      "text": "伏黒は魔虚羅を調伏するためではなく、相手を調伏の儀式に巻き込み、自分もろとも倒す奥の手として使います。渋谷事変では、重面春太に襲われた伏黒が死を覚悟して魔虚羅を呼び出し、駆けつけた[両面宿儺](/characters/jujutsu-kaisen-sukuna/)によって命を救われました。",
+      "claimIds": ["at-mahoraga", "at-shibuya"]
+    },
+    {
+      "type": "note",
+      "classification": "editorial",
+      "title": "ただ一つの「剣」",
+      "text": "十種神宝の鏡・玉・比礼が式神の紋様に使われるなか、宝のなかで唯一の剣である八握剣の名は、最強の式神の名に冠されています。切り札の式神に「剣」をあてた構成は、作品の工夫といえるでしょう。",
+      "claimIds": ["at-cmp-sword", "at-treasures"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "式神「鵺」の元ネタ",
+      "anchor": "nue"
+    },
+    {
+      "type": "paragraph",
+      "text": "十種の式神の一つ「鵺」の名は、『平家物語』などに登場する妖怪[鵺](/figures/nue/)と同じです。『平家物語』巻第四によれば、近衛天皇の御所に夜ごと黒雲とともに現れて天皇を悩ませた怪物を、源頼政が射落としました。その姿は頭が猿、胴が狸、尾が蛇、手足が虎で、鳴き声は鵼（トラツグミ）に似ていたといいます。",
+      "claimIds": ["at-nue"]
+    },
+    {
+      "type": "paragraph",
+      "text": "鵺は『[鵺の陰陽師](/characters/nue-no-onmyouji-nue/)』など、ほかの作品でもモチーフとして使われています。",
+      "claimIds": ["at-nue"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "まとめ",
+      "anchor": "summary"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "十種影法術の「十種」は、『先代旧事本紀』巻3に記された十種神宝に由来すると考えられる",
+        "十種神宝は鏡2・剣1・玉4・比礼3の十の宝で、饒速日命が天神御祖から授けられた",
+        "式神の紋様には道返玉・足玉・生玉などの十種神宝の名が使われている",
+        "最強の式神・魔虚羅の名には、十種神宝で唯一の剣「八握剣」が冠されている",
+        "式神「鵺」は『平家物語』で源頼政に退治された妖怪と同じ名"
+      ],
+      "claimIds": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "at-work",
+      "text": "伏黒恵の術式は、自身の影を媒介とした十種の式神術「十種影法術」で、禪院家相伝。手で作った影絵を実体化させる形で式神を呼び出す。式神には玉犬・鵺・大蛇・蝦蟇・満象・脱兎・貫牛・円鹿・八握剣異戒神将魔虚羅などがいる。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「呪術廻戦」の記述で確認。"
+    },
+    {
+      "id": "at-marks",
+      "text": "式神の紋様には、道返玉・足玉・生玉・辺津鏡・沖津鏡・品々物之比礼・死返玉・蜂比礼の名がある。道返玉は玉犬（白）、足玉は玉犬（黒）、生玉は鵺と大蛇、辺津鏡は満象、沖津鏡は蝦蟇、品々物之比礼は脱兎ほか、死返玉は円鹿、蜂比礼は貫牛の紋様である。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「呪術廻戦」の記述で確認。"
+    },
+    {
+      "id": "at-mahoraga",
+      "text": "八握剣異戒神将魔虚羅は歴代十種影法術師の誰も調伏できていない最強の式神で、能力は「あらゆる事象への適応」。背後に法陣がある。伏黒は相手を調伏の儀式に巻き込み、諸共に自滅する奥の手として使う。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「呪術廻戦」の記述で確認。"
+    },
+    {
+      "id": "at-shibuya",
+      "text": "渋谷事変で伏黒は重面春太に襲われ、死を覚悟して魔虚羅を出現させて瀕死となったが、駆け付けた宿儺によって一命を取り留めた。",
+      "classification": "creative",
+      "sourceIds": ["work-jujutsu-kaisen"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「呪術廻戦」の記述で確認。"
+    },
+    {
+      "id": "at-treasures",
+      "text": "饒速日命は天降る際、天神御祖から天璽瑞宝十種（沖津鏡・辺津鏡・八握剣・生玉・死返玉・足玉・道返玉・蛇比礼・蜂比礼・品物之比礼）を授けられた。",
+      "classification": "fact",
+      "sourceIds": ["sendai-kuji-hongi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『先代旧事本紀』巻3 天神本紀",
+      "note": "名称の表記は Wikipedia 日本語版「十種神宝」による。"
+    },
+    {
+      "id": "at-kujihongi",
+      "text": "『先代旧事本紀』は全10巻で、巻3「天神本紀」に饒速日命の天降りと十種神宝の記述がある。",
+      "classification": "fact",
+      "sourceIds": ["sendai-kuji-hongi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『先代旧事本紀』巻3 天神本紀"
+    },
+    {
+      "id": "at-nue",
+      "text": "近衛天皇の御所に夜ごと黒雲が現れて天皇を悩ませたため、源頼政が召されて射落とし、家来の猪早太がとどめを刺した。その姿は頭は猿、むくろは狸、尾は蛇、手足は虎で、鳴く声は鵼に似ていた。",
+      "classification": "fact",
+      "sourceIds": ["heike-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『平家物語』巻第四「鵼」"
+    },
+    {
+      "id": "at-cmp",
+      "text": "術式名・紋様名・魔虚羅の名が十種神宝の名称と一致することから、十種神宝を下敷きにした構成と考えられる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「十種神宝」も関連作品として十種影法術を挙げている。"
+    },
+    {
+      "id": "at-cmp-sword",
+      "text": "十種神宝のうち剣は八握剣のみであり、その名を最強の式神にあてた点についての評価は編集部の考察である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "at-cmp-ten",
+      "text": "十種神宝の数は10で、十種影法術も「十種」の式神術とされる。紋様の名が確認できるのは8種で、蛇比礼と八握剣は別の形で作品に現れる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ]
+}

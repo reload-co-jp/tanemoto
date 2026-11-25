@@ -10,6 +10,88 @@
   "roles": ["雷", "力", "巨人退治"],
   "mythologyIds": ["norse"],
   "description": "アース神族で最も強い神。槌ミョルニル、締めると力が倍増する力帯、槌を扱うのに欠かせない鉄の手袋をもつ。ラグナロクではミズガルズの大蛇を倒すが、その毒を浴びて倒れる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最強の神"
+    },
+    {
+      "type": "paragraph",
+      "text": "『散文エッダ』によれば、トールはアース神族の筆頭で、神々と人間のなかで最も強い神です。オーディンと大地（ヨルズ）のあいだに生まれた最初の息子で、あらゆる生き物にまさる力と武勇をそなえています。",
+      "claimIds": ["fg-thor-1", "fg-thor-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "三つの宝"
+    },
+    {
+      "type": "paragraph",
+      "text": "トールは三つの宝をもっています。槌ミョルニル、締めると神の力が半分増す力帯（メギンギョルズ）、そして槌の柄を握るのに欠かせない鉄の手袋です。ミョルニルが振り上げられると、霜の巨人や山の巨人はそれと知るといいます。この槌は彼らの父祖や親族の頭蓋を数多く砕いてきたからです。",
+      "claimIds": ["fg-thor-3", "fg-thor-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ラグナロク"
+    },
+    {
+      "type": "paragraph",
+      "text": "世界の終わりラグナロクで、トールは宿敵ミズガルズの大蛇を倒します。しかし大蛇が吹きかけた毒を浴び、九歩進んで倒れて死にます。ラグナロクののち大地が再び海から現れると、トールの息子モージとマグニがやって来て、ミョルニルを受け継ぎます。",
+      "claimIds": ["fg-thor-5", "fg-thor-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-thor-1",
+      "text": "トールはアース神族の筆頭で、神々と人間のなかで最も強い。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "fg-thor-2",
+      "text": "大地（ヨルズ）はオーディンの娘であり妻で、オーディンは彼女とのあいだに最初の息子アーサ・トールをもうけた。トールにはあらゆる生き物にまさる力と武勇がそなわる。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 9章"
+    },
+    {
+      "id": "fg-thor-3",
+      "text": "トールは槌ミョルニル、締めると神の力が半分増す力帯（メギンギョルズ）、槌の柄を握るのに欠かせない鉄の手袋の三つの宝をもつ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "fg-thor-4",
+      "text": "トールの槌ミョルニルは、霜の巨人や山の巨人が、振り上げられるとそれと知るもので、彼らの父祖や親族の頭蓋を数多く砕いてきた。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "fg-thor-5",
+      "text": "ラグナロクでトールはミズガルズの大蛇を倒したのち、九歩進んで、大蛇が吹きかけた毒のために倒れて死ぬ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "fg-thor-6",
+      "text": "ラグナロクののち大地が再び海から現れると、トールの息子モージとマグニがやって来て、ミョルニルを持つ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 53章"
+    }
+  ],
   "relatedFigureIds": ["odin", "loki"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],
