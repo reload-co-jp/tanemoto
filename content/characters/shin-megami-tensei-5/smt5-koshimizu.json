@@ -1,0 +1,60 @@
+{
+  "id": "smt5-koshimizu",
+  "slug": "smt5-koshimizu",
+  "name": "越水ハヤオ",
+  "reading": "こしみずはやお",
+  "alternativeNames": ["ツクヨミ"],
+  "workId": "shin-megami-tensei-5",
+  "description": {
+    "text": "作中の日本の内閣総理大臣で、悪魔に対抗する組織ベテルの日本支部代表。その正体はスサノオ（アオガミ）の原型である天津神ツクヨミで、さまざまな神とともに世界を見据える多神教の世界をつくろうとしている。『Vengeance』では「内政型神造魔人 ツクヨミ」の名が明かされる。",
+    "claimIds": ["smt5-koshi-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "tsukuyomi",
+      "label": "月読命（ツクヨミ）",
+      "inWork": {
+        "text": "正体は天津神ツクヨミで、アオガミ（スサノオ）の原型。",
+        "claimIds": ["smt5-koshi-work"]
+      },
+      "inMyth": {
+        "text": "月読命は、イザナギが禊で右の目を洗ったときに生まれ、夜の食国を治めるよう命じられた。",
+        "claimIds": ["smt5-koshi-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『古事記』の月読命は、生まれて夜の世界を任された後はほとんど物語に登場しない。作品はこの影の薄い神を、国の政治を担う総理大臣として物語の中心に据えている。",
+      "claimIds": ["smt5-koshi-work", "smt5-koshi-myth", "smt5-koshi-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "smt5-koshi-work",
+      "text": "越水ハヤオは作中の日本の内閣総理大臣で、ベテル日本支部の代表。正体はスサノオ（アオガミ）の原型である天津神ツクヨミで、多神教の世界の創世を目指す。『Vengeance』では「内政型神造魔人 ツクヨミ」の名が明かされる。",
+      "classification": "creative",
+      "sourceIds": ["work-smt5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「真・女神転生V」の記述で確認。"
+    },
+    {
+      "id": "smt5-koshi-myth",
+      "text": "イザナギが禊をして左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。イザナギは天照大御神に高天原を、月読命に夜の食国を、須佐之男命に海原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+    },
+    {
+      "id": "smt5-koshi-cmp",
+      "text": "原典でほとんど事績が語られない月読命を、作品は主要人物として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-smt5", "kojiki"],
+  "articleIds": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "pokemon-sv-tomokko",
+  "slug": "pokemon-sv-tomokko",
+  "name": "ともっこ",
+  "reading": "ともっこ",
+  "alternativeNames": [
+    "ともっこさま",
+    "イイネイヌ",
+    "マシマシラ",
+    "キチキギス"
+  ],
+  "workId": "pokemon-sv",
+  "description": {
+    "text": "キタカミの里を守った英雄「ともっこさま」として代々崇められてきた3匹のポケモン。犬の姿のイイネイヌ、猿（ましら）の姿のマシマシラ、雉をモチーフにしたキチキギスで、いずれも毒の鎖を体につけている。その実態は、昔オーガポンから仮面を奪った欲深いポケモンたちで、里の人々は鬼を退けた英雄と誤解していた。",
+    "claimIds": ["pk-tomo-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "momotaro",
+      "label": "桃太郎のお供（犬・猿・雉）",
+      "inWork": {
+        "text": "イイネイヌ（犬）・マシマシラ（猿）・キチキギス（雉）の3匹で、モモワロウの家来として「くさりもち」で従えられた。",
+        "claimIds": ["pk-tomo-work"]
+      },
+      "inMyth": {
+        "text": "桃太郎は黍団子を分け与えた犬・猿・雉を家来にして、鬼ヶ島の鬼を降参させた。",
+        "claimIds": ["pk-tomo-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "犬・猿・雉の三匹が主人の餅をもらって家来になる点は桃太郎のお供と同じである。ただし作品では、鬼を退けた英雄として祀られてきた三匹こそが加害者で、鬼として恐れられたオーガポンが被害者だったという、昔話の善悪をひっくり返す筋立てになっている。",
+      "claimIds": ["pk-tomo-work", "pk-tomo-myth", "pk-tomo-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "pk-tomo-work",
+      "text": "イイネイヌ（犬の姿）・マシマシラ（猿の姿）・キチキギス（雉モチーフ）は、過去にキタカミの里を守った英雄「ともっこさま」として崇められてきた。しかし実態は遠い昔に善良なオーガポンから仮面を奪った欲深いポケモンで、里の人々は命をかけて鬼を退けたポケモンと誤解していた。モモワロウが「くさりもち」で家来にしたポケモンでもある。",
+      "classification": "creative",
+      "sourceIds": ["work-pokemon-sv"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ポケモンの一覧 (906-)」の記述で確認。"
+    },
+    {
+      "id": "pk-tomo-myth",
+      "text": "桃から生まれた桃太郎は、おじいさんとおばあさんに育てられ、黍団子を持って鬼ヶ島へ鬼退治に出かけた。途中で団子を分け与えた犬・猿・雉を家来にし、鬼を降参させて宝物を持ち帰った。",
+      "classification": "fact",
+      "sourceIds": ["iwaya-nihon-mukashibanashi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "巖谷小波『日本昔噺』第1編「桃太郎」"
+    },
+    {
+      "id": "pk-tomo-cmp",
+      "text": "ともっこは桃太郎のお供を下敷きにしつつ、英雄と鬼の善悪を逆転させている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-pokemon-sv", "iwaya-nihon-mukashibanashi"],
+  "articleIds": []
+}

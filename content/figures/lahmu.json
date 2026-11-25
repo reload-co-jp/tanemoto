@@ -1,0 +1,17 @@
+{
+  "id": "lahmu",
+  "slug": "lahmu",
+  "name": "ラフム",
+  "reading": "らふむ",
+  "originalName": "Laḫmu",
+  "romanized": "Lahmu",
+  "alternativeNames": [],
+  "type": "god",
+  "roles": ["原初の神"],
+  "mythologyIds": ["mesopotamian"],
+  "description": "『エヌマ・エリシュ』で、淡水のアプスーと塩水のティアマトから最初に生まれた神。対になる女神ラハムとともに現れ、この二柱からアンシャルとキシャルが生まれて、のちの神々の系譜へとつながる。",
+  "relatedFigureIds": ["tiamat"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["enuma-elish"]
+}

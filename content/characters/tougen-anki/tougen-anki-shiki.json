@@ -1,0 +1,60 @@
+{
+  "id": "tougen-anki-shiki",
+  "slug": "tougen-anki-shiki",
+  "name": "一ノ瀬四季",
+  "reading": "いちのせしき",
+  "alternativeNames": [],
+  "workId": "tougen-anki",
+  "description": {
+    "text": "本作の主人公。銃が好きな17歳の少年で、父から鬼の血を引き継いでいた。炎属性を司る鬼神の子「炎鬼」で、自分の血液から銃器を作り出して戦う。父を桃太郎機関に殺され、鬼を育てる羅刹学園に入学する。",
+    "claimIds": ["ta-shiki-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "momotaro",
+      "label": "桃太郎に退治される鬼",
+      "inWork": {
+        "text": "鬼の子孫として、桃太郎の子孫に命を狙われる。",
+        "claimIds": ["ta-shiki-work"]
+      },
+      "inMyth": {
+        "text": "昔話では、鬼ヶ島の鬼は桃太郎と犬・猿・雉に攻められて降参し、宝物を差し出した。",
+        "claimIds": ["ta-shiki-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "昔話の鬼は、名前も心情も語られない「退治される相手」である。作品はその鬼の側に主人公を置き、桃太郎の子孫と戦う物語にしている。",
+      "claimIds": ["ta-shiki-work", "ta-shiki-myth", "ta-shiki-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ta-shiki-work",
+      "text": "一ノ瀬四季は銃器が好きな17歳の少年で、父から鬼の血を引き継いでいる。炎属性を司る鬼神の子「炎鬼」であり、血液で銃器を発現して戦う。桃太郎機関の襲撃で父を失い、羅刹学園に入学した。",
+      "classification": "creative",
+      "sourceIds": ["work-tougen-anki"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「桃源暗鬼」の記述で確認。"
+    },
+    {
+      "id": "ta-shiki-myth",
+      "text": "桃から生まれた桃太郎は、おじいさんとおばあさんに育てられ、黍団子を持って鬼ヶ島へ鬼退治に出かけた。途中で団子を分け与えた犬・猿・雉を家来にし、鬼を降参させて宝物を持ち帰った。",
+      "classification": "fact",
+      "sourceIds": ["iwaya-nihon-mukashibanashi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "巖谷小波『日本昔噺』第1編「桃太郎」"
+    },
+    {
+      "id": "ta-shiki-cmp",
+      "text": "作品は昔話で退治される側だった鬼を主人公にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-tougen-anki", "iwaya-nihon-mukashibanashi"],
+  "articleIds": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fengxi",
+  "slug": "fengxi",
+  "name": "封豨",
+  "reading": "ほうき",
+  "originalName": "封豨",
+  "romanized": "Fengxi",
+  "alternativeNames": ["封豕"],
+  "type": "monster",
+  "roles": ["大猪"],
+  "mythologyIds": ["chinese"],
+  "description": "中国神話に登場する巨大な猪の怪物。『淮南子』本経訓によれば、堯の時代に十の太陽が同時に昇ったとき、猰貐・鑿歯・九嬰・大風・修蛇とともに民を苦しめた怪物の一つで、羿によって桑林で生け捕りにされた。",
+  "relatedFigureIds": ["hou-yi"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["huainanzi"]
+}

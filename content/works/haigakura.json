@@ -1,0 +1,14 @@
+{
+  "id": "haigakura",
+  "slug": "haigakura",
+  "title": "ハイガクラ",
+  "reading": "はいがくら",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime"],
+  "author": "高山しのぶ",
+  "period": "2008年〜（連載中）、2024〜2025年（テレビアニメ）",
+  "description": "竜王が人々のために作った五神山の国を舞台に、国から逃げ出した四凶や八百万の神々を連れ戻す「歌士官」の一葉を描く漫画。西王母や相柳、渾沌・窮奇・饕餮といった、中国の神話や古典に由来する神々が登場する。",
+  "mythologyIds": ["chinese"],
+  "articleIds": [],
+  "sourceIds": ["work-haigakura"]
+}

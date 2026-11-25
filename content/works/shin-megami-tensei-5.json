@@ -1,0 +1,14 @@
+{
+  "id": "shin-megami-tensei-5",
+  "slug": "shin-megami-tensei-5",
+  "title": "真・女神転生V",
+  "reading": "しん・めがみてんせいふぁいぶ",
+  "type": "game",
+  "mediaTypes": [],
+  "author": "アトラス",
+  "period": "2021年、2024年（『真・女神転生V Vengeance』）",
+  "description": "悪魔が跋扈する魔界と化したもう一つの東京「ダアト」を舞台にしたRPG。主人公は神造魔人アオガミと融合して禁忌の存在「ナホビノ」となる。日本神話のツクヨミやスサノオ、中国神話の女媧、メソポタミア神話のティアマトやラフムなど、世界の神話の神々が登場する。",
+  "mythologyIds": ["japanese", "mesopotamian", "chinese"],
+  "articleIds": [],
+  "sourceIds": ["work-smt5"]
+}

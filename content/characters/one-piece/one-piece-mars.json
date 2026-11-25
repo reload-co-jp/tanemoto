@@ -1,0 +1,60 @@
+{
+  "id": "one-piece-mars",
+  "slug": "one-piece-mars",
+  "name": "マーカス・マーズ聖",
+  "reading": "まーかす・まーずせい",
+  "alternativeNames": [],
+  "workId": "one-piece",
+  "description": {
+    "text": "世界政府の最高権力者「五老星」の一人で、「環境武神」。蛇の胴体をもつ極彩色の怪鳥「以津真天」に変身する能力をもち、口から炎を吐く。エッグヘッドでは逃走する巨兵海賊団を襲撃した。",
+    "claimIds": ["op-mars-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "itsumade",
+      "label": "以津真天",
+      "inWork": {
+        "text": "蛇の胴体をもつ極彩色の怪鳥に変身し、空から襲いかかる。",
+        "claimIds": ["op-mars-work"]
+      },
+      "inMyth": {
+        "text": "『太平記』の怪鳥は、毎夜紫宸殿の上で「いつまで、いつまで」と鳴き、顔は人のよう、体は蛇のようで、翼の長さは一丈六尺あった。",
+        "claimIds": ["op-mars-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「蛇の体をもつ巨大な怪鳥」という姿は、『太平記』の記述と共通する。原典の怪鳥は都の上空に現れて人々をおびえさせ、弓の名手に射落とされる存在だった。作品では、世界の頂点に立つ権力者の変身した姿として描かれている。",
+      "claimIds": ["op-mars-work", "op-mars-myth", "op-mars-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "op-mars-work",
+      "text": "マーカス・マーズ聖は五老星「環境武神」。蛇の胴体を持つ極彩色の怪鳥「以津真天」に変身する能力を持ち、口から炎を吐くことができる。エッグヘッドでは逃走する巨兵海賊団を襲撃した。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ONE PIECEの登場人物一覧」の記述で確認。"
+    },
+    {
+      "id": "op-mars-myth",
+      "text": "建武元年の秋、紫宸殿の上に怪鳥が現れて「いつまで、いつまで」と鳴いた。隠岐次郎左衛門広有がこれを射落とすと、顔は人のようで、曲がった嘴に鋸のような歯が並び、体は蛇のようで、両足の爪は剣のように鋭く、翼の長さは一丈六尺あった。",
+      "classification": "fact",
+      "sourceIds": ["taiheiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『太平記』巻第十二「広有射怪鳥事」"
+    },
+    {
+      "id": "op-mars-cmp",
+      "text": "蛇の体をもつ怪鳥という姿は原典と共通し、権力者の変身した姿とする点は作品独自。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-one-piece", "taiheiki"],
+  "articleIds": []
+}

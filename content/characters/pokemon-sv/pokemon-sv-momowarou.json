@@ -1,0 +1,73 @@
+{
+  "id": "pokemon-sv-momowarou",
+  "slug": "pokemon-sv-momowarou",
+  "name": "モモワロウ",
+  "reading": "ももわろう",
+  "alternativeNames": ["ももわろう"],
+  "workId": "pokemon-sv",
+  "description": {
+    "text": "桃のような姿をした幻のポケモンで、桃の中にいる桃太郎の姿をした小人が本体。毒の鎖を生む餅「くさりもち」で人やポケモンを操る。昔、老夫婦にわが子同然に育てられ、恩返しのために家来のともっこを連れてキタカミの里へ行き、オーガポンのお面を奪おうとして返り討ちにあった。",
+    "claimIds": ["pk-momo-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "appearance",
+      "figureId": "momotaro",
+      "label": "桃太郎",
+      "inWork": {
+        "text": "桃の中にいる桃太郎の姿の小人で、老夫婦に育てられ、家来を連れて遠い里へ向かう。",
+        "claimIds": ["pk-momo-work"]
+      },
+      "inMyth": {
+        "text": "桃太郎は桃から生まれて老夫婦に育てられ、黍団子を分け与えた犬・猿・雉を家来にして鬼ヶ島へ向かった。",
+        "claimIds": ["pk-momo-myth"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "momotaro",
+      "label": "黍団子",
+      "inWork": {
+        "text": "家来に「くさりもち」を食べさせ、毒の鎖で操る。",
+        "claimIds": ["pk-momo-work"]
+      },
+      "inMyth": {
+        "text": "桃太郎は黍団子を分け与えて、犬・猿・雉を家来にした。",
+        "claimIds": ["pk-momo-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "老夫婦に育てられる・家来を連れて旅をする・餅を与えて家来にするという骨格は桃太郎と共通する。一方、原典で鬼を退治する英雄だった桃太郎の役を、作品では鬼（オーガポン）からお面を奪おうとする側に置き、毒の餅で家来を操る狡猾な存在として描き直している。",
+      "claimIds": ["pk-momo-work", "pk-momo-myth", "pk-momo-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "pk-momo-work",
+      "text": "モモワロウは桃のような姿の幻のポケモンで、桃の中にいる桃太郎の姿をした小人が本体。毒素の餅「くさりもち」を食べた人間やポケモンを毒の鎖で操る。はるか昔、善良な老夫婦にわが子同然に育てられ、祖父母の願いをかなえるため家来のともっこ達を連れてキタカミの里へ来て、オーガポンのお面を奪おうとしたが返り討ちにあった。",
+      "classification": "creative",
+      "sourceIds": ["work-pokemon-sv"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ポケモンの一覧 (906-)」の記述で確認。"
+    },
+    {
+      "id": "pk-momo-myth",
+      "text": "桃から生まれた桃太郎は、おじいさんとおばあさんに育てられ、黍団子を持って鬼ヶ島へ鬼退治に出かけた。途中で団子を分け与えた犬・猿・雉を家来にし、鬼を降参させて宝物を持ち帰った。",
+      "classification": "fact",
+      "sourceIds": ["iwaya-nihon-mukashibanashi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "巖谷小波『日本昔噺』第1編「桃太郎」"
+    },
+    {
+      "id": "pk-momo-cmp",
+      "text": "モモワロウは桃太郎の骨格を借りながら、鬼退治の英雄を、鬼から宝を奪おうとする側として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-pokemon-sv", "iwaya-nihon-mukashibanashi"],
+  "articleIds": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "smt5-tiamat",
+  "slug": "smt5-tiamat",
+  "name": "ティアマト",
+  "reading": "てぃあまと",
+  "alternativeNames": [],
+  "workId": "shin-megami-tensei-5",
+  "description": {
+    "text": "『Vengeance』の新ストーリー「復讐の女神篇」で、主人公たちがカディシュトゥの女魔たちを倒した直後に召喚されてしまう存在。召喚の際にアオガミとタオが犠牲になる。主人公はツクヨミと合一してティアマトを追い、復活したアオガミと再び合一してティアマトを討伐する。",
+    "claimIds": ["smt5-tiamat-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "tiamat",
+      "label": "ティアマト",
+      "inWork": {
+        "text": "召喚されて世界を脅かし、ナホビノとなった主人公に討たれる。",
+        "claimIds": ["smt5-tiamat-work"]
+      },
+      "inMyth": {
+        "text": "ティアマトは怪物たちを生んで神々に戦いを挑んだが、マルドゥクに討たれ、その体は二つに裂かれて天と地になった。",
+        "claimIds": ["smt5-tiamat-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神々の側に立つ英雄に討たれるという筋は原典と同じだが、原典でティアマトを倒すのはマルドゥクであり、作品ではその役を主人公（ナホビノ）が担う。",
+      "claimIds": ["smt5-tiamat-work", "smt5-tiamat-myth", "smt5-tiamat-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "smt5-tiamat-work",
+      "text": "『Vengeance』の「復讐の女神篇」では、主人公たちがカディシュトゥを倒した直後にティアマトが召喚され（ヨーコがカディシュトゥの仲間だったことが明かされる）、逃れる際にアオガミとタオが犠牲となる。主人公はツクヨミとの合一を経て、復活したアオガミと再度合一し、ティアマトを討伐する。",
+      "classification": "creative",
+      "sourceIds": ["work-smt5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「真・女神転生V」の記述で確認。"
+    },
+    {
+      "id": "smt5-tiamat-myth",
+      "text": "マルドゥクはティアマトに風を送り込んで矢で射抜き、その体を二つに裂いて、半分で天を覆い、もう半分で地を形づくった。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第4粘土板 93–140行"
+    },
+    {
+      "id": "smt5-tiamat-cmp",
+      "text": "ティアマトを討つ役割が、原典のマルドゥクから作品の主人公に移されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-smt5", "enuma-elish"],
+  "articleIds": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "smt5-nuwa",
+  "slug": "smt5-nuwa",
+  "name": "ジョカ",
+  "reading": "じょか",
+  "alternativeNames": ["女媧"],
+  "workId": "shin-megami-tensei-5",
+  "description": {
+    "text": "中国の神話で人類を創生したとされる女神として登場する。人型の姿のほか、半人半蛇のような姿にも変身する。八雲ショウヘイと幼い頃から行動を共にし、ルートによっては王座の破壊と神・悪魔の一掃を目指して、八雲とともにナホビノとなって立ちはだかる。",
+    "claimIds": ["smt5-nuwa-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "nuwa",
+      "label": "女媧",
+      "inWork": {
+        "text": "人類を創生したとされる女神で、半人半蛇の姿にもなる。",
+        "claimIds": ["smt5-nuwa-work"]
+      },
+      "inMyth": {
+        "text": "『淮南子』の女媧は、天を支える四本の柱が折れて天地が崩れかけたとき、五色の石を練って天の破れを補い、大亀の脚を切って柱とした。",
+        "claimIds": ["smt5-nuwa-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『淮南子』の女媧は、崩れかけた天地を修復した女神である。作品のジョカは、ルートによっては今の世界の王座を壊そうとする側に立ち、原典とは逆に「世界を壊して作り直す」役回りを担う。",
+      "claimIds": ["smt5-nuwa-work", "smt5-nuwa-myth", "smt5-nuwa-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "smt5-nuwa-work",
+      "text": "ジョカは中国の神話で人類を創生したとされる女神で、人型のほか半人半蛇のような姿にも変身する。八雲が幼い頃から行動を共にしており、ルートによっては八雲とともにナホビノとなって立ち塞がる。物語の選択肢の一つに「ジョカと八雲による王座の破壊と神・悪魔の一掃」がある。",
+      "classification": "creative",
+      "sourceIds": ["work-smt5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「真・女神転生V」の記述で確認。"
+    },
+    {
+      "id": "smt5-nuwa-myth",
+      "text": "太古、四方の天の柱が崩れ、九州が裂けた。そこで女媧は五色の石を練って青天を補い、大亀の脚を断って四方の柱を立てた。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』覧冥訓"
+    },
+    {
+      "id": "smt5-nuwa-cmp",
+      "text": "天地を修復した女神を、作品は世界を壊して作り直す側に置いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-smt5", "huainanzi"],
+  "articleIds": []
+}

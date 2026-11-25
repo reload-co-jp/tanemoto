@@ -1,0 +1,60 @@
+{
+  "id": "smt5-lahmu",
+  "slug": "smt5-lahmu",
+  "name": "ラフム",
+  "reading": "らふむ",
+  "alternativeNames": [],
+  "workId": "shin-megami-tensei-5",
+  "description": {
+    "text": "東京の各地に出現した邪神。主人公の同級生・樹島サホリを狙い、復讐の念に囚われたサホリはラフムを受け入れて、自分をいじめていた女生徒たちを殺害してしまう。",
+    "claimIds": ["smt5-lahmu-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "lahmu",
+      "label": "ラフム",
+      "inWork": {
+        "text": "人の心の弱みにつけ込む邪神。",
+        "claimIds": ["smt5-lahmu-work"]
+      },
+      "inMyth": {
+        "text": "『エヌマ・エリシュ』では、アプスーとティアマトから最初に生まれた神で、ラハムと対で名を呼ばれた。",
+        "claimIds": ["smt5-lahmu-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のラフムは、世界の始まりにティアマトから生まれた古い神で、悪事をはたらく物語は伝わっていない。作品は名前を借りて、人の復讐心につけ込む邪神として描いている。同じ作品にティアマトも登場する。",
+      "claimIds": ["smt5-lahmu-work", "smt5-lahmu-myth", "smt5-lahmu-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "smt5-lahmu-work",
+      "text": "東京の各地に悪魔たちや邪神ラフムが出現する。復讐の念に囚われた樹島サホリはラフムを受け入れ、自分をいじめていた女生徒たちを殺害して、ダアトへと逃れた。",
+      "classification": "creative",
+      "sourceIds": ["work-smt5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「真・女神転生V」の記述で確認。"
+    },
+    {
+      "id": "smt5-lahmu-myth",
+      "text": "天も地もまだ名づけられていなかったとき、アプスーとティアマトの水が混じり合い、そこからラフムとラハムが生まれ、名を呼ばれた。",
+      "classification": "fact",
+      "sourceIds": ["enuma-elish"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『エヌマ・エリシュ』第1粘土板 冒頭（King 英訳）"
+    },
+    {
+      "id": "smt5-lahmu-cmp",
+      "text": "原典のラフムは原初の神で、作品の邪神としての性格は独自のもの。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-smt5", "enuma-elish"],
+  "articleIds": []
+}

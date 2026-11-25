@@ -1,0 +1,60 @@
+{
+  "id": "smt5-aogami",
+  "slug": "smt5-aogami",
+  "name": "アオガミ",
+  "reading": "あおがみ",
+  "alternativeNames": ["スサノオ"],
+  "workId": "shin-megami-tensei-5",
+  "description": {
+    "text": "悪魔に襲われた主人公を助け、主人公と融合して禁忌の存在「ナホビノ」となる神造魔人。その正体は越水ハヤオ（ツクヨミ）から作られた神造魔人で、本来の名はスサノオ。顔は越水と瓜二つで、越水はアオガミを「兄弟」と呼ぶ。",
+    "claimIds": ["smt5-aogami-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "susanoo",
+      "label": "須佐之男命（スサノオ）",
+      "inWork": {
+        "text": "本来の名はスサノオで、ツクヨミを原型として作られた「兄弟」。",
+        "claimIds": ["smt5-aogami-work"]
+      },
+      "inMyth": {
+        "text": "須佐之男命は、イザナギが禊で鼻を洗ったときに生まれた神で、右の目から生まれた月読命とは兄弟にあたる。海原を治めるよう命じられた。",
+        "claimIds": ["smt5-aogami-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典でスサノオとツクヨミは、イザナギの禊からともに生まれた兄弟神である。作品はこの兄弟関係を、「原型（ツクヨミ）と、そこから作られた存在（スサノオ）」という関係に置き換えている。",
+      "claimIds": ["smt5-aogami-work", "smt5-aogami-myth", "smt5-aogami-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "smt5-aogami-work",
+      "text": "アオガミは主人公と融合して「ナホビノ」となる神造魔人で、実は越水（ツクヨミ）から作られた存在であり、本来の名はスサノオである。顔は越水と瓜二つで、越水もアオガミを「兄弟」と呼ぶ。",
+      "classification": "creative",
+      "sourceIds": ["work-smt5"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「真・女神転生V」の記述で確認。"
+    },
+    {
+      "id": "smt5-aogami-myth",
+      "text": "イザナギが禊をして左の目を洗ったときに天照大御神、右の目を洗ったときに月読命、鼻を洗ったときに建速須佐之男命が生まれた。イザナギは天照大御神に高天原を、月読命に夜の食国を、須佐之男命に海原を治めるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（伊耶那岐命の禊〜三貴子の分治）"
+    },
+    {
+      "id": "smt5-aogami-cmp",
+      "text": "作品は、禊から生まれた兄弟神という関係を、原型と複製の関係に置き換えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-smt5", "kojiki"],
+  "articleIds": []
+}

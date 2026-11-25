@@ -1,0 +1,15 @@
+{
+  "id": "momotaro",
+  "slug": "momotaro",
+  "name": "桃太郎",
+  "reading": "ももたろう",
+  "alternativeNames": [],
+  "type": "hero",
+  "roles": ["鬼退治", "昔話の英雄"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "日本の昔話の主人公。川を流れてきた桃から生まれ、おじいさんとおばあさんに育てられた。黍団子を持って鬼ヶ島へ鬼退治に向かい、途中で団子を分け与えた犬・猿・雉を家来にして鬼を降参させ、宝物を持ち帰った。江戸時代の草双紙で広まり、明治時代に巖谷小波の『日本昔噺』（1894年）などによって現在よく知られる形に整えられた。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["iwaya-nihon-mukashibanashi"]
+}

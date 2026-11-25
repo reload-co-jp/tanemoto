@@ -1,0 +1,14 @@
+{
+  "id": "tougen-anki",
+  "slug": "tougen-anki",
+  "title": "桃源暗鬼",
+  "reading": "とうげんあんき",
+  "type": "manga",
+  "mediaTypes": ["manga", "anime"],
+  "author": "漆原侑来",
+  "period": "2020年〜（『週刊少年チャンピオン』連載中）、2025年（テレビアニメ第1期）",
+  "description": "桃太郎を題材に、現代を舞台として鬼の子孫と桃太郎の子孫の戦いを鬼の側の視点で描く漫画。鬼の血を引く少年・一ノ瀬四季が、鬼を育てる羅刹学園に入り、桃太郎の子孫の組織「桃太郎機関」と戦う。",
+  "mythologyIds": ["japanese-legends"],
+  "articleIds": [],
+  "sourceIds": ["work-tougen-anki"]
+}

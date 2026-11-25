@@ -1,0 +1,17 @@
+{
+  "id": "xiangliu",
+  "slug": "xiangliu",
+  "name": "相柳",
+  "reading": "そうりゅう",
+  "originalName": "相柳",
+  "romanized": "Xiangliu",
+  "alternativeNames": ["相繇", "相柳氏"],
+  "type": "monster",
+  "roles": ["共工の臣", "九つの頭"],
+  "mythologyIds": ["chinese"],
+  "description": "『山海経』に登場する水神共工の臣下。九つの人面の頭に青い蛇の体をもち、九つの山のものを食らった。それが触れた所は沼や谷になった。禹に殺されたが、その血は生臭く、流れた土地には五穀が育たなかった。「大荒北経」では相繇とも書かれる。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["shanhaijing"]
+}

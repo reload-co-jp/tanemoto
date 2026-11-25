@@ -541,5 +541,41 @@
     "publishedPeriod": "2018〜2021年（漫画）、2023年・2026年（アニメ）",
     "publisher": "集英社",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「地獄楽」の記述でも確認している。"
+  },
+  {
+    "id": "work-pokemon-sv",
+    "title": "ポケットモンスター スカーレット・バイオレット",
+    "author": "ゲームフリーク",
+    "type": "work",
+    "publishedPeriod": "2022年（本編）、2023年（追加コンテンツ『ゼロの秘宝』）",
+    "publisher": "株式会社ポケモン／任天堂",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ポケモンの一覧 (906-)」の記述でも確認している。"
+  },
+  {
+    "id": "work-tougen-anki",
+    "title": "桃源暗鬼",
+    "author": "漆原侑来",
+    "type": "work",
+    "publishedPeriod": "2020年〜（漫画）、2025年（アニメ）",
+    "publisher": "秋田書店",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「桃源暗鬼」の記述でも確認している。"
+  },
+  {
+    "id": "work-smt5",
+    "title": "真・女神転生V／真・女神転生V Vengeance",
+    "author": "アトラス",
+    "type": "work",
+    "publishedPeriod": "2021年、2024年",
+    "publisher": "アトラス",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「真・女神転生V」の記述でも確認している。"
+  },
+  {
+    "id": "work-haigakura",
+    "title": "ハイガクラ",
+    "author": "高山しのぶ",
+    "type": "work",
+    "publishedPeriod": "2008年〜（漫画）、2024〜2025年（アニメ）",
+    "publisher": "一迅社",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ハイガクラ」の記述でも確認している。"
   }
 ]

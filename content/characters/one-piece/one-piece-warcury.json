@@ -1,0 +1,60 @@
+{
+  "id": "one-piece-warcury",
+  "slug": "one-piece-warcury",
+  "name": "トップマン・ウォーキュリー聖",
+  "reading": "とっぷまん・うぉーきゅりーせい",
+  "alternativeNames": [],
+  "workId": "one-piece",
+  "description": {
+    "text": "世界政府の最高権力者「五老星」の一人で、「法務武神」。二対の巨大な牙をもつ大猪「封豨」に変身する能力をもち、その牙は刃に変化する。ルフィの「ギア5」の攻撃も通用しないほどの耐久力をもつ。",
+    "claimIds": ["op-warcury-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "fengxi",
+      "label": "封豨",
+      "inWork": {
+        "text": "巨大な牙をもつ大猪に変身し、並外れた耐久力をもつ。",
+        "claimIds": ["op-warcury-work"]
+      },
+      "inMyth": {
+        "text": "封豨は、堯の時代に民を苦しめた怪物の一つで、羿によって桑林で生け捕りにされた。",
+        "claimIds": ["op-warcury-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の封豨は、伝説の弓の名手・羿に捕らえられる「退治される側」の怪物である。作品はその名を、世界を支配する五老星の変身した姿に与えている。",
+      "claimIds": ["op-warcury-work", "op-warcury-myth", "op-warcury-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "op-warcury-work",
+      "text": "トップマン・ウォーキュリー聖は五老星「法務武神」。二対の巨大な牙を持つ大猪「封豨」に変身する能力を持ち、大牙は刃に変化する。ルフィの「ギア5」による攻撃も通用しないほどの耐久力を持つ。",
+      "classification": "creative",
+      "sourceIds": ["work-one-piece"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ONE PIECEの登場人物一覧」の記述で確認。"
+    },
+    {
+      "id": "op-warcury-myth",
+      "text": "堯の時代、十の太陽が並んで昇って作物を焼いた。猰貐・鑿歯・九嬰・大風・封豨・修蛇はみな民の害となった。堯は羿に命じてこれらを退治させ、羿は封豨を桑林で生け捕りにした。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』本経訓"
+    },
+    {
+      "id": "op-warcury-cmp",
+      "text": "退治される怪物の名を、作品は支配者の変身した姿に与えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-one-piece", "huainanzi"],
+  "articleIds": []
+}

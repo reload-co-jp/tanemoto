@@ -1,0 +1,60 @@
+{
+  "id": "haigakura-souryu",
+  "slug": "haigakura-souryu",
+  "name": "相柳",
+  "reading": "そうりゅう",
+  "alternativeNames": [],
+  "workId": "haigakura",
+  "description": {
+    "text": "九つの顔をもつ水の邪神で、龍神。顔だけでなく体も九つあり、九人いる。共工の腹心で、かつて渾沌と結託して四凶を解き放った。",
+    "claimIds": ["hg-sr-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "xiangliu",
+      "label": "相柳",
+      "inWork": {
+        "text": "九つの顔をもつ水の邪神で、共工の腹心。",
+        "claimIds": ["hg-sr-work"]
+      },
+      "inMyth": {
+        "text": "『山海経』の相柳は共工の臣で、九つの人面の頭と青い蛇の体をもつ。それが触れた所は沼や谷になり、禹に殺された。",
+        "claimIds": ["hg-sr-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「共工の臣」「九つの頭（顔）」「水にかかわる」という特徴は、原典『山海経』の相柳そのままである。作品はそれに「体も九つあって九人いる」という独自の設定を加えている。",
+      "claimIds": ["hg-sr-work", "hg-sr-myth", "hg-sr-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hg-sr-work",
+      "text": "相柳は九つの顔を持つ水の邪神で龍神。顔だけでなく体も九つあり、九人いる。共工の腹心であり、過去に渾沌と結託して四凶を解き放った。",
+      "classification": "creative",
+      "sourceIds": ["work-haigakura"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ハイガクラ」の記述で確認。"
+    },
+    {
+      "id": "hg-sr-myth",
+      "text": "共工の臣を相柳氏といい、九つの首をもち、九つの山のものを食らった。相柳が触れた所は沼や谷となった。禹が相柳を殺すと、その血は生臭く、五穀を植えることができなかった。相柳は九つの首に人の顔、蛇の体で青い色をしている。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』海外北経"
+    },
+    {
+      "id": "hg-sr-cmp",
+      "text": "共工の臣で九首という特徴は原典どおりで、体も九つあるという点は作品独自。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-haigakura", "shanhaijing"],
+  "articleIds": []
+}

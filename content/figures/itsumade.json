@@ -1,0 +1,15 @@
+{
+  "id": "itsumade",
+  "slug": "itsumade",
+  "name": "以津真天",
+  "reading": "いつまで",
+  "alternativeNames": [],
+  "type": "monster",
+  "roles": ["怪鳥"],
+  "mythologyIds": ["japanese-legends"],
+  "description": "『太平記』巻第十二に登場する怪鳥。建武元年（1334年）、疫病がはやった年の秋、毎夜紫宸殿の上に現れて「いつまで、いつまで」と鳴き、隠岐次郎左衛門広有に射落とされた。顔は人のようで、曲がった嘴に鋸のような歯が並び、体は蛇のようで、足の爪は剣のように鋭く、翼の長さは一丈六尺あったという。『太平記』では名前が記されず、「以津真天」の名は江戸時代の鳥山石燕の妖怪画集『今昔画図続百鬼』で付けられた。",
+  "relatedFigureIds": [],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["taiheiki"]
+}

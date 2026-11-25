@@ -1,0 +1,61 @@
+{
+  "id": "tougen-anki-momotaro-kikan",
+  "slug": "tougen-anki-momotaro-kikan",
+  "kind": "setting",
+  "name": "桃太郎機関",
+  "reading": "ももたろうきかん",
+  "alternativeNames": [],
+  "workId": "tougen-anki",
+  "description": {
+    "text": "桃太郎の子孫たちによる組織。鬼の血を引く者たちを襲撃し、主人公・一ノ瀬四季の父もその隊員に殺された。現代を舞台に、鬼の子孫とこの桃太郎の子孫たちとの戦いが描かれる。",
+    "claimIds": ["ta-kikan-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "organization",
+      "figureId": "momotaro",
+      "label": "桃太郎",
+      "inWork": {
+        "text": "桃太郎の子孫が組織をつくり、鬼の子孫を狩る。",
+        "claimIds": ["ta-kikan-work"]
+      },
+      "inMyth": {
+        "text": "桃太郎は犬・猿・雉を家来にして鬼ヶ島へ渡り、鬼を降参させて宝物を持ち帰った。",
+        "claimIds": ["ta-kikan-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "昔話の桃太郎は、鬼を退治する正義の英雄として語られる。作品は桃太郎の「鬼退治」が子孫に受け継がれたという設定にし、それを退治される鬼の側の視点から描くことで、昔話の善悪をとらえ直している。",
+      "claimIds": ["ta-kikan-work", "ta-kikan-myth", "ta-kikan-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ta-kikan-work",
+      "text": "『桃源暗鬼』は桃太郎を題材とし、現代を舞台に鬼の子孫と桃太郎の子孫の戦いを鬼側の視点で描く。主人公・一ノ瀬四季の父は、桃太郎機関の桃屋五月雨の攻撃を受けて死亡した。",
+      "classification": "creative",
+      "sourceIds": ["work-tougen-anki"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「桃源暗鬼」の記述で確認。"
+    },
+    {
+      "id": "ta-kikan-myth",
+      "text": "桃から生まれた桃太郎は、おじいさんとおばあさんに育てられ、黍団子を持って鬼ヶ島へ鬼退治に出かけた。途中で団子を分け与えた犬・猿・雉を家来にし、鬼を降参させて宝物を持ち帰った。",
+      "classification": "fact",
+      "sourceIds": ["iwaya-nihon-mukashibanashi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "巖谷小波『日本昔噺』第1編「桃太郎」"
+    },
+    {
+      "id": "ta-kikan-cmp",
+      "text": "作品は桃太郎の鬼退治を、退治される鬼の側から描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-tougen-anki", "iwaya-nihon-mukashibanashi"],
+  "articleIds": []
+}

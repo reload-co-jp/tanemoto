@@ -1,0 +1,14 @@
+{
+  "id": "pokemon-sv",
+  "slug": "pokemon-sv",
+  "title": "ポケットモンスター スカーレット・バイオレット",
+  "reading": "ぽけっともんすたー すかーれっと・ばいおれっと",
+  "type": "game",
+  "mediaTypes": [],
+  "author": "ゲームフリーク",
+  "period": "2022年（本編）、2023年（追加コンテンツ『ゼロの秘宝』）",
+  "description": "パルデア地方を舞台にしたポケモンシリーズのゲーム。追加コンテンツ『ゼロの秘宝』の前編「碧の仮面」では、北東北をモチーフにした山里「キタカミの里」で、鬼のポケモン・オーガポンと、里の英雄「ともっこさま」にまつわる昔話の真相が明かされる。",
+  "mythologyIds": ["japanese-legends"],
+  "articleIds": [],
+  "sourceIds": ["work-pokemon-sv"]
+}

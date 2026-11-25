@@ -1,0 +1,60 @@
+{
+  "id": "haigakura-hakushurin",
+  "slug": "haigakura-hakushurin",
+  "name": "白珠龍",
+  "reading": "はくしゅりん",
+  "alternativeNames": ["西王母"],
+  "workId": "haigakura",
+  "description": {
+    "text": "西王母。もとは孤児だったが、先代の西王母が亡くなったあと、宿星の並びによって新たな西王母に選ばれた。16歳で天仙となり、成長が止まっている。瑶池宮で主人公の一葉と出会い、親友となった。",
+    "claimIds": ["hg-hsr-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "xiwangmu",
+      "label": "西王母",
+      "inWork": {
+        "text": "「西王母」は代々受け継がれる位で、白珠龍はその当代として瑶池宮にいる。",
+        "claimIds": ["hg-hsr-work"]
+      },
+      "inMyth": {
+        "text": "『山海経』の西王母は、玉山に住み、人のような姿で豹の尾と虎の歯をもち、天の災いと刑罰をつかさどる神である。",
+        "claimIds": ["hg-hsr-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典の西王母は一柱の女神で、時代が下ると仙界の女王として描かれるようになった。作品は「西王母」を、資格をもつ者が代々受け継ぐ地位として描き、少女がその重責を担う物語にしている。",
+      "claimIds": ["hg-hsr-work", "hg-hsr-myth", "hg-hsr-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hg-hsr-work",
+      "text": "白珠龍は西王母。元は孤児だったが、先代の西王母の逝去後、先代が死んだ日時に宿星の天体の並びの正反対の位置にいたため西王母に抜擢された。16歳で天仙となり成長が止まった。瑶池宮で一葉と出会い親友となった。",
+      "classification": "creative",
+      "sourceIds": ["work-haigakura"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ハイガクラ」の記述で確認。"
+    },
+    {
+      "id": "hg-hsr-myth",
+      "text": "玉山は西王母の住むところである。西王母は人のような姿で豹の尾と虎の歯をもち、よく嘯き、蓬髪に勝をつけ、天の厲（災い）と五残（刑罰）をつかさどる。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』西山経（玉山）"
+    },
+    {
+      "id": "hg-hsr-cmp",
+      "text": "作品は西王母を、代々継承される地位として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-haigakura", "shanhaijing"],
+  "articleIds": []
+}
