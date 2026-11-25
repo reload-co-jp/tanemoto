@@ -10,6 +10,59 @@
   "roles": ["楚の武将", "西楚の覇王"],
   "mythologyIds": ["ancient-china"],
   "description": "秦末の楚の武将（紀元前232〜前202年）。名は籍、字が羽。始皇帝の死後に起こった反乱の中で秦を滅ぼし、「西楚の覇王」を名乗った。のちに漢の劉邦と天下を争って敗れる。『史記』項羽本紀は、垓下で四方から楚の歌が聞こえる「四面楚歌」の場面や、愛する虞美人に別れを告げる歌を伝える。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "西楚の覇王"
+    },
+    {
+      "type": "paragraph",
+      "text": "項羽の名は籍、羽は字（あざな）です。身の丈は八尺あまり、鼎を持ち上げるほどの力があったと『史記』は記します。秦を滅ぼしたのち、自ら「西楚の覇王」と号しました。",
+      "claimIds": ["fg-xiang-yu-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "若き日の項羽は、会稽に巡行する秦の始皇帝の行列を見て、「彼に取って代わることができる」と言い放ったといいます。",
+      "claimIds": ["fg-xiang-yu-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "四面楚歌"
+    },
+    {
+      "type": "paragraph",
+      "text": "劉邦との争いに敗れた項羽は、垓下で漢軍に幾重にも囲まれます。夜、四方から故郷・楚の歌が聞こえてくるのを聞いて驚き、虞美人を前に「力は山を抜き、気は世を蓋う（力抜山兮気蓋世）」と悲歌をうたいました。「四面楚歌」の故事はこの場面に由来します。",
+      "claimIds": ["fg-xiang-yu-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-xiang-yu-1",
+      "text": "項籍（字は羽）は身の丈八尺あまりで、鼎を持ち上げるほどの力があった。秦を滅ぼしたのち、自ら西楚の覇王と号した。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    },
+    {
+      "id": "fg-xiang-yu-2",
+      "text": "秦の始皇帝が会稽に巡行したとき、項羽はそれを見て「彼に取って代わることができる」と言った。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    },
+    {
+      "id": "fg-xiang-yu-3",
+      "text": "垓下で漢軍に幾重にも囲まれた項羽は、夜に四面から楚歌が聞こえるのを聞いて驚き、虞美人を前に「力抜山兮気蓋世」と悲歌をうたった。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    }
+  ],
   "relatedFigureIds": ["qin-shi-huang", "lu-bu"],
   "relatedStoryIds": ["feast-at-hongmen", "surrounded-on-all-sides"],
   "articleIds": [],

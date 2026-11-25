@@ -10,6 +10,46 @@
   "roles": ["魔法のランプの持ち主"],
   "mythologyIds": ["arabian-nights"],
   "description": "「アラジンと魔法のランプ」の主人公。貧しい仕立屋の息子だったが、魔法使いにだまされて地下の洞窟から魔法のランプを持ち出す。ランプをこするとジン（魔神）が現れ、どんな願いもかなえてくれた。この物語はアラビア語の古い写本には見られず、18世紀にフランスのガランが『千夜一夜物語』の翻訳に加えたもの。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "魔法のランプ"
+    },
+    {
+      "type": "paragraph",
+      "text": "「アラジンと魔法のランプ」は、フランスのガランが訳した『千夜一夜物語』に収められた物語です。アラジンは魔法使いの命令で、地下の洞窟から古いランプを持ち出します。母がそのランプを磨こうとこすると、ジン（魔神）が現れ、主人の願いをかなえました。",
+      "claimIds": ["fg-aladdin-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "姫との結婚"
+    },
+    {
+      "type": "paragraph",
+      "text": "アラジンはランプの魔神に財宝と従者を用意させ、スルタンの娘バドル・アル・ブドゥール姫と結婚しました。貧しい少年が魔法の力で成り上がる物語として、のちの多くの作品の元になっています。",
+      "claimIds": ["fg-aladdin-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-aladdin-1",
+      "text": "アラジンは魔法使いの命で地下の洞窟から古いランプを持ち出した。母がランプを磨くとジン（魔神）が現れ、主人の願いをかなえた。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ガラン訳『千夜一夜物語』「アラジンと魔法のランプ」"
+    },
+    {
+      "id": "fg-aladdin-2",
+      "text": "アラジンはランプの魔神に財宝と従者を用意させ、スルタンの娘バドル・アル・ブドゥール姫と結婚した。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ガラン訳『千夜一夜物語』「アラジンと魔法のランプ」"
+    }
+  ],
   "relatedFigureIds": ["ali-baba", "sinbad"],
   "relatedStoryIds": ["aladdin-and-the-lamp"],
   "articleIds": [],

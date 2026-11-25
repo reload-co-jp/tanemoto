@@ -10,6 +10,46 @@
   "roles": ["ティタン"],
   "mythologyIds": ["greek"],
   "description": "ティタンのイアペトスとクリュメネの子で、知恵にたけた神。メコネで牛の肉を分けるときにゼウスを欺こうとし、ゼウスの怒りを買った。ゼウスに鎖で縛られ、昼のあいだ鷲に肝臓を食われ、夜にはそれが元に戻る苦しみを受けたが、のちにヘラクレスが鷲を射殺して解放した。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ゼウスを欺いた知恵"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、プロメテウスは知恵でゼウスと張り合いました。メコネで神々と人間が争ったとき、彼は牛を切り分け、ゼウスには白い骨を輝く脂で包んで差し出し、だまそうとします。怒ったゼウスが人間に火を与えずにいると、プロメテウスは中空の茴香（ういきょう）の茎に火を隠して盗み出しました。",
+      "claimIds": ["fg-prometheus-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "鎖と鷲"
+    },
+    {
+      "type": "paragraph",
+      "text": "罰としてゼウスは、プロメテウスを解けない鎖で縛り、翼の長い鷲に不死の肝臓を食わせました。肝臓は夜のあいだに、鷲が昼に食べた分だけ元に戻ります。終わりのない苦しみでしたが、のちに英雄ヘラクレスがこの鷲を殺してプロメテウスを解き放ち、ゼウスもかつての怒りを収めました。",
+      "claimIds": ["fg-prometheus-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-prometheus-1",
+      "text": "メコネで神々と人間が争ったとき、プロメテウスは骨を脂で包んでゼウスに差し出して欺こうとした。ゼウスが人間に火を与えずにいると、プロメテウスは中空の茴香の茎に火を隠して盗み出した。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』535–569行"
+    },
+    {
+      "id": "fg-prometheus-2",
+      "text": "ゼウスはプロメテウスを解けない鎖で縛り、翼の長い鷲に不死の肝臓を食わせた。肝臓は夜のあいだに元に戻った。のちにヘラクレスが鷲を殺してプロメテウスを苦しみから解き、ゼウスもかつての怒りを収めた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』521–534行"
+    }
+  ],
   "relatedFigureIds": ["zeus", "heracles"],
   "relatedStoryIds": [],
   "articleIds": [],

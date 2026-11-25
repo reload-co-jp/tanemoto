@@ -10,6 +10,46 @@
   "roles": ["ティタンの王"],
   "mythologyIds": ["greek"],
   "description": "ウラノスとガイアの子であるティタン。レアとのあいだにヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスをもうけたが、自分の子に王座を奪われると知って、生まれた子を次々に飲み込んだ。ゼウスの代わりに産着でくるんだ石を飲まされ、のちにゼウスに打ち倒された。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "子を飲み込んだ父"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドス『神統記』によれば、クロノスは妻レアとのあいだにヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスをもうけました。しかし自分の子に打ち倒される運命だと大地と天から聞いたクロノスは、生まれた子を次々に飲み込みます。レアは末子ゼウスをクレタで産んで隠し、クロノスには産着に包んだ石を飲ませました。",
+      "claimIds": ["fg-cronus-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "タルタロスへ"
+    },
+    {
+      "type": "paragraph",
+      "text": "成長したゼウスと神々はクロノスらティタン神族と戦います。ティタンたちは百の腕をもつコットス、ブリアレオス、ギュゲスに打ち負かされ、天が地から離れているのと同じだけ大地の下にあるタルタロスへ投げ込まれて、鎖につながれました。",
+      "claimIds": ["fg-cronus-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-cronus-1",
+      "text": "レアはクロノスとのあいだにヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。クロノスは自分の子に打ち倒される運命だと大地と天から聞き、生まれた子を次々に飲みこんだ。レアは末子ゼウスをクレタで産んで隠し、クロノスには産着に包んだ石を飲ませた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』453–491行"
+    },
+    {
+      "id": "fg-cronus-2",
+      "text": "ティタンたちはコットス、ブリアレオス、ギュゲスに打ち負かされ、天が地から離れているのと同じだけ大地の下にあるタルタロスへ投げこまれて、鎖につながれた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』713–725行"
+    }
+  ],
   "relatedFigureIds": ["zeus", "hades", "hestia", "demeter", "poseidon"],
   "relatedStoryIds": [],
   "articleIds": [],

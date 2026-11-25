@@ -10,6 +10,46 @@
   "roles": ["人魚の姫"],
   "mythologyIds": ["andersen-fairy-tales"],
   "description": "アンデルセンの童話『人魚姫』の主人公。海の王の末娘で、嵐の海から救った人間の王子に恋をする。魔女に声を差し出して人間の足を得るが、王子は別の姫と結婚し、海の泡となって消える。人魚は死ぬと泡になるだけで、人間のような不死の魂をもたないとされていた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "魂を求めて"
+    },
+    {
+      "type": "paragraph",
+      "text": "アンデルセンの『人魚姫』の主人公は、人間には死んだあとも滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願います。海の魔女に声を差し出して人間の足を得ましたが、一歩ごとにナイフの上を歩くような痛みが走りました。",
+      "claimIds": ["fg-little-mermaid-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "泡になる結末"
+    },
+    {
+      "type": "paragraph",
+      "text": "しかし王子は別の姫と結婚してしまいます。王子を殺せば人魚に戻れると知りながら、人魚姫はそれを拒み、海に身を投げて泡となりました。",
+      "claimIds": ["fg-little-mermaid-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-little-mermaid-1",
+      "text": "人魚姫は、人間には死後も滅びない魂があると聞き、王子の愛を得て魂を分けてもらおうと願った。魔女に声を差し出して人間の足を得たが、一歩ごとにナイフの上を歩くような痛みが走った。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    },
+    {
+      "id": "fg-little-mermaid-2",
+      "text": "王子が別の姫と結婚すると、人魚姫は王子を殺して人魚に戻ることを拒み、海に身を投げて泡となった。",
+      "classification": "fact",
+      "sourceIds": ["andersen-little-mermaid"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『人魚姫』"
+    }
+  ],
   "relatedFigureIds": ["snow-queen"],
   "relatedStoryIds": ["little-mermaid-foam"],
   "articleIds": [],

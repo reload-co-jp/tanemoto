@@ -10,6 +10,77 @@
   "roles": ["死者の国の女王"],
   "mythologyIds": ["norse"],
   "description": "ロキと巨人の女アングルボザの娘で、フェンリル狼とミズガルズの大蛇のきょうだい。オーディンにニヴルヘイムへ投げ込まれ、病や老いで死んだ者たちを迎える九つの世界の支配を任された。体の半分は青黒く、半分は肌の色をしている。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ロキの娘"
+    },
+    {
+      "type": "paragraph",
+      "text": "スノッリの『散文エッダ』によれば、ヘルは悪神ロキと巨人の女アングルボザのあいだに生まれた三人の子の一人です。きょうだいはフェンリル狼とミズガルズの大蛇。神々はこの一族から災いが来ると予言で知り、オーディンはヘルをニヴルヘイムに投げ込みました。",
+      "claimIds": ["fg-hel-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "死者の国の女王"
+    },
+    {
+      "type": "paragraph",
+      "text": "オーディンはヘルに、病や老いで死んだ者たちに住まいを割り当てる役目を与えました。戦いで倒れた勇士たちがオーディンのもとのヴァルハラに集うのとは対照的に、ヘルのもとには戦い以外で死んだ者たちが送られるのです。",
+      "claimIds": ["fg-hel-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "その姿は、体の半分が青黒く、半分が肌の色をしていたといいます。陰気で恐ろしい顔つきの女神として描かれています。",
+      "claimIds": ["fg-hel-7"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ラグナロク"
+    },
+    {
+      "type": "paragraph",
+      "text": "世界の終わりラグナロクでは、ヘルの勇士たちはみなロキに従って神々と戦います。最後には炎の巨人スルトが大地に火を放ち、全世界を焼き尽くします。",
+      "claimIds": ["fg-hel-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-hel-1",
+      "text": "ロキは巨人の女アングルボザとのあいだにフェンリル狼、ミズガルズの大蛇、ヘルの三人の子をもうけた。神々はこの一族から災いが来ると予言で知り、オーディンはヘルをニヴルヘイムに投げ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 34章"
+    },
+    {
+      "id": "fg-hel-2",
+      "text": "オーディンはヘルに、病や老いで死んだ者たちに住まいを割り当てる九つの世界の支配を任せた。戦いで倒れた者たちはエインヘリャルとしてヴァルハラでオーディンのもとに集う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章・34章"
+    },
+    {
+      "id": "fg-hel-3",
+      "text": "ラグナロクではムスペルの子らを率いるスルトが先頭を進み、ヘルの勇士たちはみなロキに従う。最後にスルトは大地に火を放ち、全世界を焼き尽くす。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "fg-hel-7",
+      "text": "ヘルは体の半分が青黒く半分が肌の色で、陰気で恐ろしい顔つきをしている。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 34章"
+    }
+  ],
   "relatedFigureIds": ["loki", "odin"],
   "relatedStoryIds": [],
   "articleIds": [],

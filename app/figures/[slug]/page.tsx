@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import { ArticleList } from "@/components/article/ArticleCard"
 import { ArticleBody } from "@/components/article/ArticleBody"
+import { ClaimList, SourceList } from "@/components/article/SourceList"
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
 import { InfoTable } from "@/components/common/InfoTable"
 import { Link } from "@/components/common/Link"
@@ -59,6 +60,7 @@ const Page = async ({ params }: Props) => {
   const stories = getStoriesForFigure(figure)
   const works = getWorksForFigure(figure)
   const characters = getCharactersForFigure(figure)
+  const sources = getSourcesByIds(figure.sourceIds)
 
   return (
     <>
@@ -126,8 +128,8 @@ const Page = async ({ params }: Props) => {
             <Section title="解説" en="Overview" id="overview">
               <ArticleBody
                 blocks={figure.body}
-                claims={[]}
-                sources={[]}
+                claims={figure.claims}
+                sources={sources}
                 images={[]}
               />
             </Section>
@@ -158,7 +160,18 @@ const Page = async ({ params }: Props) => {
             </Section>
           )}
 
-          <SourceRefs sourceIds={figure.sourceIds} />
+          {figure.claims.length > 0 ? (
+            <>
+              <Section title="根拠" en="Evidence" id="evidence">
+                <ClaimList claims={figure.claims} sources={sources} />
+              </Section>
+              <Section title="出典" en="Sources" id="sources">
+                <SourceList sources={sources} />
+              </Section>
+            </>
+          ) : (
+            <SourceRefs sourceIds={figure.sourceIds} />
+          )}
         </div>
         <aside aria-label="関連する人物・怪物">
           {related.length > 0 && (

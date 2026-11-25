@@ -10,6 +10,77 @@
   "roles": ["ローマ皇帝"],
   "mythologyIds": ["classical-antiquity"],
   "description": "ローマ帝国の第5代皇帝（在位 紀元後54〜68年）。歌や竪琴、戦車競走に熱中し、自ら舞台に立った。紀元後64年のローマ大火では、火事を眺めながらトロイア陥落を歌ったという噂が広まった。母や妻を殺したことでも知られ、反乱で追い詰められて自害する。スエトニウスは最期の言葉を「なんという芸術家がわたしとともに死ぬことか」と伝える。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "芸術家皇帝"
+    },
+    {
+      "type": "paragraph",
+      "text": "ローマ皇帝ネロは、歌と竪琴に熱中しました。スエトニウスの『ネロ伝』によれば、ナポリを皮切りに皇帝自ら舞台に立って歌ったといいます。",
+      "claimIds": ["fg-nero-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ローマ大火と黄金の館"
+    },
+    {
+      "type": "paragraph",
+      "text": "紀元後64年、ローマで大火が起こり、町の大部分が焼けました。ネロが燃える都を見ながらトロイアの陥落を歌ったという噂が広まり、タキトゥスによれば、ネロはこの噂を打ち消すためにキリスト教徒に罪を着せて処刑しました。",
+      "claimIds": ["fg-nero-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "大火ののちに再建した宮殿を、ネロは「黄金の館」と呼びました。入口には高さ120ペースの自身の像が立ち、完成したとき「これでやっと人間らしく住み始められる」と言ったといいます。",
+      "claimIds": ["fg-nero-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最期の言葉"
+    },
+    {
+      "type": "paragraph",
+      "text": "各地の反乱に追い詰められたネロは、元老院から国家の敵とされます。郊外の別荘に逃れたネロは、自分の墓を用意させながら「なんという芸術家がわたしとともに死ぬことか」と繰り返し、追っ手が迫ると自らの喉を刺しました。",
+      "claimIds": ["fg-nero-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-nero-1",
+      "text": "ネロは歌と竪琴に熱中し、ナポリを皮切りに自ら舞台に立って歌った。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-nero"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『ネロ伝』20–21章"
+    },
+    {
+      "id": "fg-nero-2",
+      "text": "紀元後64年のローマ大火ののち、ネロが燃える都を見ながらトロイアの陥落を歌ったという噂が広まった。ネロはこの噂を打ち消すため、キリスト教徒に罪を着せて処刑した。",
+      "classification": "fact",
+      "sourceIds": ["tacitus-annals"],
+      "verificationStatus": "verified",
+      "sourceLocation": "タキトゥス『年代記』15.38–44"
+    },
+    {
+      "id": "fg-nero-3",
+      "text": "ネロはパラティウムからエスクィリヌスに及ぶ宮殿を建て、大火ののちに再建したものを「黄金の館」と呼んだ。入口には高さ120ペースの自像が立ち、完成時に「これでやっと人間らしく住み始められる」と言った。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-nero"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『ネロ伝』31章"
+    },
+    {
+      "id": "fg-nero-4",
+      "text": "元老院から国家の敵とされたネロは、郊外の別荘で自分の墓を用意させながら「なんという芸術家がわたしとともに死ぬことか」と繰り返し、追っ手が近づくと秘書の手を借りて自らの喉を刺した。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-nero"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『ネロ伝』47–49"
+    }
+  ],
   "relatedFigureIds": ["julius-caesar", "boudica"],
   "relatedStoryIds": ["great-fire-of-rome", "death-of-nero"],
   "articleIds": [],

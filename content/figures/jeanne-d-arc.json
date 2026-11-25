@@ -10,6 +10,77 @@
   "roles": ["フランスの救国の少女", "聖人"],
   "mythologyIds": ["medieval-europe"],
   "description": "百年戦争期のフランスの少女（1412年頃〜1431年）。ドンレミ村の農家に生まれ、聖ミカエルや聖カタリナ、聖マルガリタの「声」に導かれて王太子シャルルのもとへ赴いた。1429年にオルレアンの包囲を解き、シャルル7世をランスで戴冠させる。のちに捕らえられ、ルーアンの異端裁判で有罪とされて1431年に火刑に処された。1456年の復権裁判で判決は破棄され、1920年に聖人とされた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "神の声"
+    },
+    {
+      "type": "paragraph",
+      "text": "ジャンヌ・ダルクの言葉は、1431年の処刑裁判の記録に残されています。裁判での証言によれば、ジャンヌは13歳のころ、夏の正午に父の庭で初めて神からの声を聞き、ひどく恐れました。その声はのちに、フランスへ行ってオルレアンの包囲を解くよう告げたといいます。",
+      "claimIds": ["fg-jeanne-d-arc-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ジャンヌは同時代の人々から「乙女（la Pucelle）」と呼ばれ、裁判記録でも「乙女と呼ばれるジャンヌ」と記されています。",
+      "claimIds": ["fg-jeanne-d-arc-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "剣より旗"
+    },
+    {
+      "type": "paragraph",
+      "text": "ジャンヌの旗は、百合の花を散らした白い亜麻布に、世界と両脇の二人の天使を描き、「イエス・マリア」の名を記したものでした。剣と旗のどちらが好きかと問われると、旗のほうがずっと好きだと答えています。敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べました。",
+      "claimIds": ["fg-jeanne-d-arc-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "火刑"
+    },
+    {
+      "type": "paragraph",
+      "text": "1430年にコンピエーニュで捕らえられたジャンヌは、ルーアンで異端の裁判にかけられました。一度は誓絶したものの戻り異端とされ、1431年5月30日、ルーアンの旧市場広場で火刑に処されています。",
+      "claimIds": ["fg-jeanne-d-arc-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-jeanne-d-arc-1",
+      "text": "ジャンヌは、13歳のころ夏の正午に父の庭で初めて神からの声を聞き、ひどく恐れた。その声はのちに、フランスへ行ってオルレアンの包囲を解くよう告げた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月22日の尋問"
+    },
+    {
+      "id": "fg-jeanne-d-arc-2",
+      "text": "ジャンヌは同時代に「乙女（la Pucelle）」と呼ばれ、裁判記録でも「乙女と呼ばれるジャンヌ」と記されている。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録（冒頭の記録）"
+    },
+    {
+      "id": "fg-jeanne-d-arc-3",
+      "text": "ジャンヌの旗は、百合の花を散らした白い亜麻布に、世界と両側の二人の天使を描き、「イエス・マリア」の名を記したもの。剣と旗のどちらが好きかと問われ、旗のほうがずっと好きだと答えた。敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月27日の尋問"
+    },
+    {
+      "id": "fg-jeanne-d-arc-4",
+      "text": "ジャンヌは戻り異端とされ、1431年5月30日にルーアンの旧市場広場で火刑に処された。",
+      "classification": "fact",
+      "sourceIds": ["pernoud-joan-of-arc"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Pernoud & Clin, Joan of Arc: Her Story, 第8章"
+    }
+  ],
   "relatedFigureIds": ["charlemagne"],
   "relatedStoryIds": ["joans-voices", "sword-of-fierbois", "death-of-joan"],
   "articleIds": [],

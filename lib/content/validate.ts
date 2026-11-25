@@ -286,6 +286,35 @@ export const validateContent = (
       error(f, "人物・怪物データに出典（sourceIds）がありません")
     if (figure.relatedFigureIds.includes(figure.id))
       warn(f, "relatedFigureIds に自分自身が含まれています")
+
+    // 本文と主張
+    const figureClaimIds = checkClaims(f, figure, true)
+    const usedFigureClaims = new Set<string>()
+    figure.body.forEach((block, i) => {
+      const at = `body[${i}]`
+      for (const claimId of blockClaimIds(block)) {
+        if (!figureClaimIds.has(claimId))
+          error(f, `${at}: 存在しない claim「${claimId}」を参照しています`)
+        usedFigureClaims.add(claimId)
+      }
+      if (block.type === "quote" && !figure.sourceIds.includes(block.sourceId))
+        error(
+          f,
+          `${at}: 引用元「${block.sourceId}」が sourceIds に含まれていません`
+        )
+      if (block.type === "image" && !images.has(block.imageId))
+        error(f, `${at}: 存在しない画像「${block.imageId}」`)
+      if (
+        block.type === "paragraph" &&
+        figure.claims.length > 0 &&
+        block.claimIds.length === 0
+      )
+        warn(f, `${at}: 根拠となる claimIds がありません`)
+    })
+    for (const claimId of figureClaimIds) {
+      if (!usedFigureClaims.has(claimId))
+        warn(f, `claim「${claimId}」が本文から参照されていません`)
+    }
   }
 
   for (const myth of data.mythologies) {

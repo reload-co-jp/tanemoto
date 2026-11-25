@@ -10,6 +10,77 @@
   "roles": ["怪盗", "変装の名人"],
   "mythologyIds": ["arsene-lupin"],
   "description": "モーリス・ルブランの小説の主人公で、変装の名人の「怪盗紳士」。1905年の短編「アルセーヌ・ルパンの逮捕」で初登場した。予告状を送りつけて大胆に盗みを働き、ユーモアと騎士道精神を備える。イギリスの名探偵エルロック・ショルメ（シャーロック・ホームズ）とも対決した。若き日には「ラウール・ダンドレジー」と名乗っていた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最初の物語「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "type": "paragraph",
+      "text": "アルセーヌ・ルパンは、フランスの作家モーリス・ルブランが生んだ怪盗紳士です。最初の物語では、ニューヨーク行きの客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という無線が届き、乗客たちは互いを疑い合います。",
+      "claimIds": ["fg-arsene-lupin-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "ところが港に着いた船で、待ち構えていたガニマール警部が逮捕したのは、物語の語り手その人でした。読者自身がだまされる仕掛けで、ルパンは鮮烈なデビューを飾ります。",
+      "claimIds": ["fg-arsene-lupin-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ホームズとの対決"
+    },
+    {
+      "type": "paragraph",
+      "text": "『怪盗紳士ルパン』の最後の短編では、ルパンがイギリスの名探偵シャーロック・ホームズと出会います。ドイルの抗議を受けて、のちの版でホームズの名は「エルロック・ショルメス」に改められました。",
+      "claimIds": ["fg-arsene-lupin-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "若き日のルパン"
+    },
+    {
+      "type": "paragraph",
+      "text": "のちに書かれた『カリオストロ伯爵夫人』では、20歳のルパンが「ラウール・ダンドレジー」と名乗り、カリオストロ伯爵夫人をめぐる冒険に巻き込まれます。",
+      "claimIds": ["fg-arsene-lupin-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-arsene-lupin-1",
+      "text": "客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という無線が届き、乗客たちは誰がルパンかを探った。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "id": "fg-arsene-lupin-2",
+      "text": "到着した港でガニマール警部が逮捕したのは、物語の語り手その人だった。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "id": "fg-arsene-lupin-3",
+      "text": "『怪盗紳士ルパン』の最後の短編で、ルパンはシャーロック・ホームズと出会う。ドイルの抗議により、のちの版ではエルロック・ショルメスと改名された。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「遅かりしシャーロック・ホームズ」"
+    },
+    {
+      "id": "fg-arsene-lupin-4",
+      "text": "20歳のルパンは「ラウール・ダンドレジー」と名乗り、カリオストロ伯爵夫人をめぐる冒険に巻き込まれる。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-cagliostro"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カリオストロ伯爵夫人』"
+    }
+  ],
   "relatedFigureIds": ["sherlock-holmes"],
   "relatedStoryIds": ["arrest-of-arsene-lupin", "sholmes-arrives-too-late"],
   "articleIds": [],

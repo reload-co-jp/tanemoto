@@ -10,6 +10,88 @@
   "roles": ["魔女", "コルキスの王女"],
   "mythologyIds": ["greek"],
   "description": "コルキス王アイエテスの娘で、太陽神ヘリオスの孫。アポロドロスは「魔女」と呼ぶ。英雄イアソンに恋をして父を裏切り、薬の力で金羊毛の獲得を助けたが、のちにイアソンに捨てられ、復讐を果たした。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "太陽神の孫娘"
+    },
+    {
+      "type": "paragraph",
+      "text": "メディアは、コルキスの王アイエテスとオケアノスの娘イデュイアのあいだに生まれました。アイエテスは太陽神ヘリオスの子であり、メディアは太陽神の孫にあたります。アポロドロスは彼女を「魔女」と呼んでいます。",
+      "claimIds": ["fg-medea-1", "fg-medea-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "イアソンと金羊毛"
+    },
+    {
+      "type": "paragraph",
+      "text": "金羊毛を求めてコルキスに来た英雄イアソンに、メディアは恋をします。自分を妻としてギリシャへ連れていくと誓うことを条件に、父に隠れてイアソンを助けました。一日のあいだ火にも鉄にも傷つかなくなる薬を与え、金羊毛を守る竜を薬で眠らせて、宝を手に入れさせたのです。",
+      "claimIds": ["fg-medea-3", "fg-medea-4"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "裏切りと復讐"
+    },
+    {
+      "type": "paragraph",
+      "text": "父アイエテスに追われると、メディアは弟を殺して海に投げ込み、追跡を遅らせました。のちにイアソンがコリントス王の娘グラウケと結婚してメディアを離縁すると、メディアはイアソンが誓った神々に訴え、毒に浸した衣を花嫁に送って焼き殺しています。",
+      "claimIds": ["fg-medea-5", "fg-medea-6"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-medea-1",
+      "text": "ヘリオスとペルセイスの子アイエテスは、オケアノスの娘イデュイアを妻とし、メディアが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』956–962行"
+    },
+    {
+      "id": "fg-medea-2",
+      "text": "メディアはアイエテスとイデュイアの娘で、アポロドロスは彼女を「魔女」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.23"
+    },
+    {
+      "id": "fg-medea-3",
+      "text": "メディアは、自分を妻としてギリシャへ連れていくと誓うことを条件に、父に隠れてイアソンを助け、金羊毛を手に入れさせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.23"
+    },
+    {
+      "id": "fg-medea-4",
+      "text": "メディアは一日のあいだ火にも鉄にも傷つかなくなる薬をイアソンに与え、金羊毛を守る竜を薬で眠らせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.23"
+    },
+    {
+      "id": "fg-medea-5",
+      "text": "父アイエテスに追われたメディアは、弟を殺して海に投げ込み、追跡を遅らせた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.24"
+    },
+    {
+      "id": "fg-medea-6",
+      "text": "イアソンがコリントス王の娘グラウケと結婚してメディアを離縁すると、メディアはイアソンが誓った神々に訴え、毒に浸した衣を花嫁に送って焼き殺した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.9.28"
+    }
+  ],
   "relatedFigureIds": ["jason"],
   "relatedStoryIds": ["argonauts-medea"],
   "articleIds": [],

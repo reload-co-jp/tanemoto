@@ -10,6 +10,41 @@
   "roles": ["ソロモン72柱の悪魔", "伯爵・総裁"],
   "mythologyIds": ["goetia"],
   "description": "第21の霊。伯爵にして総裁。人の顔をもつ大きな雄牛の姿で現れる。天文学と自由学芸を教え、薬草と宝石の効能に通じるとされる。メイザース訳では「マラクス（Marax）」と綴る。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『ゴエティア』のモラクス"
+    },
+    {
+      "type": "paragraph",
+      "text": "モラクスは、魔術書『ゴエティア』に21番目に挙げられる霊（悪魔）です。位階は伯爵にして総裁。呼び出されると、人の顔をもつ大きな雄牛の姿で現れます。",
+      "claimIds": ["fg-morax-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "モラクスが授けるのは知識です。天文学と自由学芸（文法・論理・天文などの教養の諸学）を教え、薬草と宝石の効能に通じるとされます。メイザースの英訳では「マラクス（Marax）」と綴られています。",
+      "claimIds": ["fg-morax-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-morax-1",
+      "text": "第21の霊モラクスは伯爵・総裁で、人の顔をもつ大きな雄牛の姿で現れる。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第21の霊（Morax）"
+    },
+    {
+      "id": "fg-morax-2",
+      "text": "モラクスは天文学と自由学芸を教え、薬草と宝石の効能に通じる。メイザース訳では Marax と綴る。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第21の霊（Morax）"
+    }
+  ],
   "relatedFigureIds": ["paimon", "barbatos"],
   "relatedStoryIds": [],
   "articleIds": [],

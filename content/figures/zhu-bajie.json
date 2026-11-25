@@ -10,6 +10,77 @@
   "roles": ["天蓬元帥", "三蔵の弟子"],
   "mythologyIds": ["chinese"],
   "description": "『西遊記』で三蔵法師に従う弟子の一人。法名は猪悟能。もとは天の川の水軍を率いる天蓬元帥だったが、酒に酔って嫦娥に戯れたため下界に落とされ、生まれ変わるときに道を誤って豚の胎に入り、豚の姿になった。九歯の釘鈀を武器にする。旅の終わりに浄壇使者に任じられた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "天蓬元帥から豚の妖怪へ"
+    },
+    {
+      "type": "paragraph",
+      "text": "『西遊記』によれば、猪八戒はもとは天の川を治める天蓬元帥でした。酒に酔って月の女神・嫦娥に戯れたため、玉帝に二千回打たれて下界に落とされます。生まれ変わろうとして道を誤り、母豚の胎に入ってしまったため、豚の姿になりました。",
+      "claimIds": ["fg-zhu-bajie-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "観音菩薩は彼に猪悟能という法名を与え、のちに三蔵法師が「八戒」という別名をつけました。",
+      "claimIds": ["fg-zhu-bajie-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "三蔵の弟子に"
+    },
+    {
+      "type": "paragraph",
+      "text": "八戒は高老荘で人の姿となり、高太公の娘を妻にしていましたが、妖怪であることがわかって孫悟空と戦います。観音に授かった名を名乗ったことで素性が明らかになり、三蔵の弟子として旅に加わりました。",
+      "claimIds": ["fg-zhu-bajie-3"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "旅の終わり"
+    },
+    {
+      "type": "paragraph",
+      "text": "天竺にたどり着いたのち、如来は八戒を「浄壇使者」に任じました。道中も頑なな心があり色情もまだ消えていないが、荷を担いだ功績がある、というのがその理由です。口が達者で体はものぐさ、食欲が大きいことも挙げられています。",
+      "claimIds": ["fg-zhu-bajie-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-zhu-bajie-1",
+      "text": "猪八戒はもとは天河の天蓬元帥で、酒に酔って嫦娥に戯れたため玉帝に二千回打たれて下界に落とされた。奪舎投胎しようとして道を誤り、母豚の胎に入ってこの姿になった。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第8回"
+    },
+    {
+      "id": "fg-zhu-bajie-2",
+      "text": "観音菩薩は豚の妖怪に猪悟能の法名を与えた。のちに三蔵は彼に八戒という別名をつけた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第8回・第19回"
+    },
+    {
+      "id": "fg-zhu-bajie-3",
+      "text": "八戒は高老荘で人の姿となって高太公の娘を妻にしていたが、妖怪とわかって悟空と戦い、観音に授かった名を名のって三蔵の弟子となった。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第18–19回"
+    },
+    {
+      "id": "fg-zhu-bajie-4",
+      "text": "如来は旅の終わりに、八戒は道中も頑心があって色情がまだ消えていないが、荷を担いだ功があるとして浄壇使者に任じた。理由として、口が達者で体はものぐさ、食欲が大きいことを挙げた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第100回"
+    }
+  ],
   "relatedFigureIds": ["sun-wukong"],
   "relatedStoryIds": [],
   "articleIds": [],
