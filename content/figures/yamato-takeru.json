@@ -8,6 +8,67 @@
   "roles": ["征討", "草薙剣"],
   "mythologyIds": ["japanese"],
   "description": "景行天皇の皇子で、本名は小碓命。西の熊曾や東国の神々・人々を平定する遠征に送られた。叔母ヤマトヒメから授かった草薙剣と火打石で、相模の野火の罠を切り抜けた。伊吹山の神に敗れて病み、能煩野で亡くなると白い鳥となって飛び去ったと伝えられる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "女装して熊曾建を討つ"
+    },
+    {
+      "type": "paragraph",
+      "text": "『古事記』によれば、景行天皇の子・小碓命は、熊曾建の兄弟を討つため、叔母ヤマトヒメから授かった衣装で少女の姿に装い、新築祝いの宴にまぎれこんで二人を討ちました。このとき熊曾建から「倭建（ヤマトタケル）」の名を献じられます。",
+      "claimIds": ["fg-yamato-takeru-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "草那芸剣と焼津"
+    },
+    {
+      "type": "paragraph",
+      "text": "東国への遠征を命じられたヤマトタケルは、伊勢で叔母ヤマトヒメから草那芸剣と袋を授かります。草那芸剣は、須佐之男命がヤマタノオロチの尾から見つけて天照大御神に献上した大刀です。",
+      "claimIds": ["fg-yamato-takeru-2", "fg-yamato-takeru-3"]
+    },
+    {
+      "type": "paragraph",
+      "text": "相武国で国造にだまされて野に火を放たれると、ヤマトタケルは剣で草を刈り払い、袋の中の火打石で向かい火をつけて難を逃れました。その地は焼津と呼ばれるようになったといいます。",
+      "claimIds": ["fg-yamato-takeru-4"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-yamato-takeru-1",
+      "text": "小碓命は、熊曾建の兄弟を討つため、叔母ヤマトヒメから授かった衣装で少女の姿に装って新築祝いの宴にまぎれこみ、二人を討った。このとき熊曾建から「倭建」の名を献じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の西征）"
+    },
+    {
+      "id": "fg-yamato-takeru-2",
+      "text": "ヤマトタケルは叔母ヤマトヒメから草那芸剣と袋を授かった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の東征）"
+    },
+    {
+      "id": "fg-yamato-takeru-3",
+      "text": "須佐之男命はヤマタノオロチを斬り、中の尾から出てきた大刀を天照大御神に献上した。これが草那芸之大刀である。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "fg-yamato-takeru-4",
+      "text": "相武国で野火に囲まれたヤマトタケルは、剣で草を刈り払い、袋の中の火打石で向かい火をつけて難を逃れた。その地は焼津と呼ばれるようになった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の東征）"
+    }
+  ],
   "relatedFigureIds": ["susanoo"],
   "relatedStoryIds": ["yamato-takeru-kusanagi"],
   "articleIds": [],

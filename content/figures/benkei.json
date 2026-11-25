@@ -8,6 +8,64 @@
   "roles": ["比叡山の法師", "義経の家来"],
   "mythologyIds": ["japanese-legends"],
   "description": "源義経に仕えた怪力の法師。『義経記』では比叡山の西塔で学んだ荒法師として登場する。人の太刀を千本集めようと夜な夜な京の町で太刀を奪い、九百九十九本目までたどり着いたところで牛若に敗れ、家来となった。義経の逃避行を知恵と度胸で支え、最後は衣川の合戦で無数の矢を受けながら、薙刀を杖に立ったまま息絶えた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "千本の太刀"
+    },
+    {
+      "type": "paragraph",
+      "text": "『義経記』によれば、武蔵坊弁慶は人の太刀を千本集めて宝にしようと考え、夜な夜な京の町で太刀を奪いました。九百九十九本を集めた夜、五条の天神で笛を吹きながら通る若者に襲いかかりますが、若者は身軽に築地へ飛び上がり、弁慶の太刀を取り上げてしまいます。翌晩も清水寺で敗れた弁慶は、この若者、源義経の家来となりました。",
+      "claimIds": ["fg-benkei-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "如意の渡し"
+    },
+    {
+      "type": "paragraph",
+      "text": "兄頼朝に追われ、山伏姿で北国を落ちていく途中、一行は越中の如意の渡しで渡し守に義経を見破られかけます。弁慶は「あの若い山伏のせいで行く先々で疑われる」と怒ったふりをして義経を浜へ投げ出し、扇で打ちすえました。あまりのむごさに渡し守は疑いを解いたといいます。",
+      "claimIds": ["fg-benkei-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "立ち往生"
+    },
+    {
+      "type": "paragraph",
+      "text": "衣川の合戦で、弁慶は鎧に無数の矢を受けながら大薙刀を振るって戦いました。やがて薙刀を逆さに杖にして仁王立ちになり、そのまま動かなくなります。敵は恐れて近づけませんでしたが、弁慶はすでに立ったまま死んでいました。",
+      "claimIds": ["fg-benkei-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-benkei-1",
+      "text": "弁慶は人の太刀を千本取って宝にしようと夜な夜な京中で太刀を奪い、九百九十九本を集めたのち、五条の天神と清水寺で牛若（義経）に敗れて主従の契りを結んだ。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第三「弁慶洛中にて人の太刀を奪ひ取る事」「弁慶義経に君臣の契約申す事」"
+    },
+    {
+      "id": "fg-benkei-2",
+      "text": "如意の渡しで義経を見破られかけると、弁慶は怒ったふりをして義経を浜へ投げ出し、扇で続けざまに打ちすえた。渡し守は疑いを解き、一行を舟に乗せた。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第七「如意の渡にて義経を弁慶打ち奉る事」"
+    },
+    {
+      "id": "fg-benkei-3",
+      "text": "衣川の合戦で弁慶は鎧に無数の矢を受けながら戦い、薙刀を逆さに杖にして仁王立ちのまま死んだ。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第八「衣河合戦の事」"
+    }
+  ],
   "relatedFigureIds": ["minamoto-no-yoshitsune"],
   "relatedStoryIds": [
     "benkei-and-the-thousand-swords",

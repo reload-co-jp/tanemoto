@@ -10,6 +10,59 @@
   "roles": ["魔女", "アーサー王の姉"],
   "mythologyIds": ["arthurian"],
   "description": "アーサー王の異父姉にあたる魔女。マロリーの『アーサー王の死』では、イグレインの娘で、尼僧院で学んで魔術（ネクロマンシー）に通じた。アーサーからエクスカリバーの鞘を盗み、湖に投げ捨てる。それでも物語の最後では、致命傷を負った王を小舟で迎えに来る三人の女王の一人として登場する。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "盗まれた鞘"
+    },
+    {
+      "type": "paragraph",
+      "text": "トマス・マロリーの『アーサー王の死』で、モルガン・ル・フェイはアーサー王の姉にあたる魔女です。アーサーが湖の乙女から授かったエクスカリバーの鞘は、身につけているかぎりどれほど傷ついても血を失わないという、剣の十倍の値打ちをもつものでした。",
+      "claimIds": ["fg-morgan-le-fay-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "愛人アコロンを失ったモルガンは、眠るアーサーのもとに忍び込みます。王が剣を握ったまま眠っていたため、鞘だけを奪って逃げ、追いつかれそうになると湖の深みに投げ込みました。さらに自分と家来たちを魔法で大きな石に変えて逃れています。",
+      "claimIds": ["fg-morgan-le-fay-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "アヴィリオンへ"
+    },
+    {
+      "type": "paragraph",
+      "text": "物語の終わり、モードレッドとの戦いで致命傷を負ったアーサーは、傷を癒すためアヴィリオンの谷へ行くと言い、女王たちの乗る小舟で去っていきます。",
+      "claimIds": ["fg-morgan-le-fay-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-morgan-le-fay-1",
+      "text": "マーリンは、エクスカリバーの鞘は剣の十倍の値打ちがあり、身につけているかぎりどれほど傷ついても血を失わないと告げた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第25章"
+    },
+    {
+      "id": "fg-morgan-le-fay-2",
+      "text": "モルガン・ル・フェイは眠る弟アーサーから鞘を盗み、追われると湖の深みに投げ込んだ。自分と家来たちを魔法で大きな石に変えて逃れた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第4巻第14章"
+    },
+    {
+      "id": "fg-morgan-le-fay-3",
+      "text": "致命傷を負ったアーサーは、傷を癒すためアヴィリオンの谷へ行くと言い、女王たちの乗る小舟で去った。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第21巻第5章"
+    }
+  ],
   "relatedFigureIds": ["arthur", "merlin"],
   "relatedStoryIds": ["morgan-steals-the-scabbard", "death-of-arthur"],
   "articleIds": [],

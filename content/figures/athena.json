@@ -10,6 +10,59 @@
   "roles": ["戦いの女神", "英雄の助力者"],
   "mythologyIds": ["greek"],
   "description": "ゼウスの娘で、戦いの女神。『イリアス』ではゴルゴンの首を据えたアイギスを身につけて戦場に臨む。ペルセウスのメデューサ退治や、ベレロポンによる天馬の捕獲を助けた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "アイギスをまとう戦いの女神"
+    },
+    {
+      "type": "paragraph",
+      "text": "ホメロス『イリアス』によれば、アテナはゼウスの娘で、戦場に向かう際には、ゴルゴンの首のあるアイギスを肩にかけ、武装して臨みます。",
+      "claimIds": ["fg-athena-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "英雄たちの守護者"
+    },
+    {
+      "type": "paragraph",
+      "text": "アテナはしばしば英雄を助けます。ペルセウスはヘルメスとアテナの導きでメデューサ退治に向かい、アテナに手を導かれてその首を切りました。",
+      "claimIds": ["fg-athena-2"]
+    },
+    {
+      "type": "paragraph",
+      "text": "また、英雄ベレロポンには、天馬ペガソスを手なずける黄金の手綱を授けています。ベレロポンはこの手綱でペガソスを従え、怪物キマイラを退治しました。",
+      "claimIds": ["fg-athena-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-athena-1",
+      "text": "アテナはゼウスの娘で、ゴルゴンの首のあるアイギスを身につけ、武装して戦場に臨む。",
+      "classification": "fact",
+      "sourceIds": ["homer-iliad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『イリアス』5.733–742"
+    },
+    {
+      "id": "fg-athena-2",
+      "text": "ペルセウスはヘルメスとアテナの導きでメデューサ退治に向かい、アテナに手を導かれて首を切った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "fg-athena-3",
+      "text": "アテナはベレロポンに、ペガソスを手なずける黄金の手綱を授けた。",
+      "classification": "fact",
+      "sourceIds": ["pindar-odes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『オリュンピア祝勝歌』第13歌 65–75行"
+    }
+  ],
   "relatedFigureIds": ["perseus", "bellerophon", "medusa", "zeus"],
   "relatedStoryIds": ["perseus-medusa", "bellerophon-chimera"],
   "articleIds": [],

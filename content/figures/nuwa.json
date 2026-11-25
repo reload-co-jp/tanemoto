@@ -10,6 +10,54 @@
   "roles": ["天の修復", "創造"],
   "mythologyIds": ["chinese"],
   "description": "天地が崩れかけた太古、五色の石を練って天の破れを補い、大亀の脚を切って天を支える四本の柱とした女神。『淮南子』に記される。明代の小説『封神演義』では、紂王に詩で侮辱されたことに怒り、妖怪たちを遣わして殷を滅ぼす発端をつくる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "天を補う"
+    },
+    {
+      "type": "paragraph",
+      "text": "前漢の書物『淮南子』によれば、太古、天を支える四方の柱が崩れて大地は裂け、火は燃え続け、水はあふれて引かず、猛獣が民を食らいました。女媧は五色の石を練って青い天を補い、大亀の脚を切って四方の柱とし、黒竜を殺し、葦の灰を積んで洪水を止めました。",
+      "claimIds": ["fg-nuwa-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "『封神演義』の女媧"
+    },
+    {
+      "type": "paragraph",
+      "text": "明代の小説『封神演義』では、殷の紂王が女媧宮に参詣し、女媧の像の美しさに心を奪われて壁にみだらな詩を書きつけます。怒った女媧は、千年狐狸精・九頭雉雞精・玉石琵琶精の三妖を呼び、紂王を惑わして殷を滅ぼすよう命じました。このうち千年狐狸精が妲己の体を借りて紂王の妃となります。",
+      "claimIds": ["fg-nuwa-2", "fg-nuwa-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-nuwa-1",
+      "text": "太古、四方の天の柱が崩れ、九州が裂けた。女媧は五色の石を練って青天を補い、大亀の脚を断って四方の柱を立て、黒竜を殺し、葦の灰を積んで洪水を止めた。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』覧冥訓"
+    },
+    {
+      "id": "fg-nuwa-2",
+      "text": "紂王に詩で辱められた女媧は軒轅墳の三妖（千年狐狸精・九頭雉雞精・玉石琵琶精）を呼び、紂王の心を惑わして殷を滅ぼすよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第1回"
+    },
+    {
+      "id": "fg-nuwa-3",
+      "text": "紂王に献じられる途中の妲己は千年狐狸精に魂を吸われて死に、狐がその体を借りて紂王の妃となった。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第4回"
+    }
+  ],
   "relatedFigureIds": ["fuxi", "daji"],
   "relatedStoryIds": ["nuwa-mends-heaven", "daji-and-the-fox"],
   "articleIds": [],

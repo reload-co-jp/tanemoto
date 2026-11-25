@@ -10,6 +10,41 @@
   "roles": ["ミイラづくり", "墓の守護", "死者の導き手"],
   "mythologyIds": ["egyptian"],
   "description": "ジャッカル（イヌ科の動物）の頭をもつ姿で表される、墓と死者の守護神。ミイラづくりの神として「防腐処理の場にいる者」とも呼ばれた。「死者の書」では死者の心臓を天秤にかける儀式に立ち会う。プルタルコスはオシリスとネフティスの子とする伝承を伝える。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "心臓の計量"
+    },
+    {
+      "type": "paragraph",
+      "text": "古代エジプトの「死者の書」第125章の挿絵には、死者の審判の場面が描かれています。死者の心臓が天秤にかけられて真理の女神マアトの羽根と比べられ、ジャッカルの頭をもつアヌビスが天秤に立ち会います。",
+      "claimIds": ["fg-anubis-1"]
+    },
+    {
+      "type": "paragraph",
+      "text": "結果は知恵の神トトが記録します。罪で重くなった心臓は、ワニの頭・ライオンの上半身・カバの下半身をもつ「死者を食らうもの」アメミトに食べられてしまうとされました。",
+      "claimIds": ["fg-anubis-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-anubis-1",
+      "text": "「死者の書」第125章の挿絵では、死者の心臓が天秤で真理の女神マアトの羽根と比べられ、ジャッカルの頭のアヌビスが天秤に立ち会う。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    },
+    {
+      "id": "fg-anubis-2",
+      "text": "トトが計量の結果を記録し、罪で重くなった心臓は、ワニの頭・ライオンの上半身・カバの下半身をもつアメミトに食べられる。",
+      "classification": "fact",
+      "sourceIds": ["book-of-the-dead"],
+      "verificationStatus": "verified",
+      "sourceLocation": "「死者の書」第125章とその挿絵（アニのパピルス）"
+    }
+  ],
   "relatedFigureIds": ["osiris", "isis", "thoth"],
   "relatedStoryIds": ["death-of-osiris", "weighing-of-the-heart"],
   "articleIds": [],
