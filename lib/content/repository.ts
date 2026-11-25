@@ -281,6 +281,16 @@ export const getCharactersForWork = (work: Work): Character[] =>
 export const getCharactersForFigure = (figure: Figure): Character[] =>
   getCharacters().filter((c) => c.motifs.some((m) => m.figureId === figure.id))
 
+/**
+ * 人物・怪物ページを検索エンジンにインデックスさせるか。
+ * 関連記事・本文・元ネタとして参照するキャラクターのいずれもないページは
+ * 薄いコンテンツになりやすいため noindex にし、サイトマップからも除く。
+ */
+export const isFigureIndexable = (figure: Figure): boolean =>
+  getArticlesForFigure(figure).length > 0 ||
+  figure.body.length > 0 ||
+  getCharactersForFigure(figure).length > 0
+
 /** キャラクターの元ネタとなった人物・怪物（主な元ネタ順） */
 export const getMotifFigures = (character: Character): Figure[] =>
   getFiguresByIds(
