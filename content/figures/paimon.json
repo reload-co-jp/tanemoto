@@ -1,0 +1,17 @@
+{
+  "id": "paimon",
+  "slug": "paimon",
+  "name": "パイモン",
+  "reading": "ぱいもん",
+  "originalName": "Paimon",
+  "romanized": "Paimon",
+  "alternativeNames": [],
+  "type": "demon",
+  "roles": ["ソロモン72柱の悪魔", "王"],
+  "mythologyIds": ["goetia"],
+  "description": "第9の霊。ルシファーによく従う偉大な王。冠をかぶり、ヒトコブラクダに乗った人の姿で、前を楽隊が進む。あらゆる学芸と学問を教え、隠されたことを明かすとされる。",
+  "relatedFigureIds": ["barbatos", "morax"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["goetia"]
+}

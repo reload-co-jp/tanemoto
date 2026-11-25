@@ -1,0 +1,65 @@
+{
+  "id": "genshin-impact-barbatos",
+  "slug": "genshin-impact-barbatos",
+  "kind": "character",
+  "name": "バルバトス",
+  "reading": "ばるばとす",
+  "alternativeNames": ["風神"],
+  "workId": "genshin-impact",
+  "description": {
+    "text": "七神の一柱で、風の国モンドを加護する風神。",
+    "claimIds": ["gi-bb-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は、魔術書『ゴエティア』に記されたソロモン72柱の悪魔の一体と同じである。",
+    "claimIds": ["gi-bb-myth", "gi-bb-cmp"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "barbatos",
+      "label": "ソロモン72柱の悪魔バルバトス",
+      "inWork": {
+        "text": "モンドは「風神・バルバトスが加護する国」とされる。",
+        "claimIds": ["gi-bb-work"]
+      },
+      "inMyth": {
+        "text": "『ゴエティア』の第8の霊バルバトスは偉大な公爵。太陽が人馬宮にあるとき4人の王を伴って現れ、鳥のさえずりや獣の声を理解させ、過去と未来を知り、仲違いした者たちを和解させるとされる。",
+        "claimIds": ["gi-bb-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のバルバトスは、鳥や獣の声を人に理解させる悪魔である。作品はこの名を風の神に用いており、空を渡る鳥の声と風とのつながりを連想させるが、作品側が由来を明言した資料は確認できていない。",
+      "claimIds": ["gi-bb-myth", "gi-bb-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gi-bb-work",
+      "text": "モンドは風神・バルバトスが加護する国である。",
+      "classification": "creative",
+      "sourceIds": ["work-genshin-impact"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「原神」の記述で確認。"
+    },
+    {
+      "id": "gi-bb-myth",
+      "text": "第8の霊バルバトスは偉大な公爵。太陽が人馬宮にあるとき4人の王と従者を伴って現れ、鳥のさえずり・獣の声・犬の吠える声を理解させる。過去と未来を知り、友や権力者を和解させる。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第8の霊（Barbatos）"
+    },
+    {
+      "id": "gi-bb-cmp",
+      "text": "名前は『ゴエティア』の悪魔バルバトスと一致するが、作品側が由来を明言した資料は確認できていない。鳥の声と風の神の対応は編集部の考察である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-genshin-impact", "goetia"],
+  "articleIds": []
+}

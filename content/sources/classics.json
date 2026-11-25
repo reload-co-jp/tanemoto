@@ -900,5 +900,25 @@
     "url": "https://zh.wikisource.org/wiki/%E6%A1%83%E8%8A%B1%E6%BA%90%E8%A8%98",
     "urlLabel": "Wikisource（原文）",
     "notes": "漁師が桃の林の奥で、秦の戦乱を逃れた人々の子孫が暮らす隠れ里を見つける話。「桃源郷」という言葉のもとになった。"
+  },
+  {
+    "id": "sendai-kuji-hongi",
+    "title": "先代旧事本紀",
+    "author": "撰者不詳",
+    "type": "primary",
+    "publishedPeriod": "平安時代初期",
+    "notes": "全10巻。巻3「天神本紀」に、饒速日命が天降る際に天神御祖から授けられた天璽瑞宝十種（十種神宝）が記される。十種の名称は Wikipedia 日本語版「十種神宝」でも確認している。"
+  },
+  {
+    "id": "goetia",
+    "title": "ゴエティア（『ソロモンの小さな鍵』第1部）",
+    "originalTitle": "Ars Goetia (The Lesser Key of Solomon)",
+    "author": "作者不詳",
+    "translator": "S. L. マグレガー・メイザース英訳、A. クロウリー編（1904年）",
+    "type": "primary",
+    "publishedPeriod": "17世紀（写本）",
+    "url": "https://www.esotericarchives.com/solomon/goetia.htm",
+    "urlLabel": "Esoteric Archives（J. H. Peterson による Sloane MS 3825 の校訂テキスト）",
+    "notes": "ソロモン王が使役したとされる72の霊（悪魔）の名・位階・姿・能力を列挙する魔術書。箇所は「第21の霊（Morax）」のように霊の番号で示す。軍団数などは写本・版によって異なる。"
   }
 ]

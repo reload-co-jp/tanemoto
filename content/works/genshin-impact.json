@@ -1,0 +1,14 @@
+{
+  "id": "genshin-impact",
+  "slug": "genshin-impact",
+  "title": "原神",
+  "reading": "げんしん",
+  "type": "game",
+  "mediaTypes": [],
+  "author": "miHoYo",
+  "period": "2020年〜",
+  "description": "miHoYo が開発し、2020年9月28日にサービスを開始したオープンワールドRPG。舞台の大陸テイワットには7つの国があり、それぞれ「七神」と呼ばれる神が統治する。風神バルバトス、岩神モラクスなど、神々の名にはソロモン72柱の悪魔と同じ名が使われている。",
+  "mythologyIds": ["goetia"],
+  "articleIds": [],
+  "sourceIds": ["work-genshin-impact"]
+}
