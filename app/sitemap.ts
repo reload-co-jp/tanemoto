@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next"
 import {
   getArticles,
-  getArticlesForFigure,
   getArticlesForTopic,
   getArticlesForWork,
   getCategories,
@@ -12,6 +11,7 @@ import {
   getMythologies,
   getTopics,
   getWorks,
+  isFigureIndexable,
 } from "@/lib/content/repository"
 import { paginate } from "@/components/article/ArticlesIndex"
 import { absoluteUrl, paths } from "@/lib/site"
@@ -47,7 +47,7 @@ const sitemap = (): MetadataRoute.Sitemap => {
       .map((m) => entry(paths.mythology(m.slug), latest, 0.7)),
     entry(paths.figures(), latest, 0.6),
     ...getFigures()
-      .filter((f) => getArticlesForFigure(f).length > 0 || f.body.length > 0)
+      .filter(isFigureIndexable)
       .map((f) => entry(paths.figure(f.slug), latest, 0.6)),
     entry(paths.topics(), latest, 0.5),
     ...getTopics()

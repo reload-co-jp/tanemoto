@@ -151,7 +151,7 @@
     "type": "work",
     "publishedPeriod": "2018〜2024年（『週刊少年ジャンプ』連載）",
     "publisher": "集英社",
-    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「呪術廻戦」、英語版「Ryomen Sukuna」でも確認している。"
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「呪術廻戦」、英語版「Ryomen Sukuna」、「十種神宝」でも確認している。"
   },
   {
     "id": "work-persona-3",
@@ -577,5 +577,15 @@
     "publishedPeriod": "2008年〜（漫画）、2024〜2025年（アニメ）",
     "publisher": "一迅社",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「ハイガクラ」の記述でも確認している。"
+  },
+  {
+    "id": "work-genshin-impact",
+    "title": "原神",
+    "originalTitle": "Genshin Impact",
+    "author": "miHoYo（開発）",
+    "type": "work",
+    "publishedPeriod": "2020年〜",
+    "publisher": "miHoYo / HoYoverse",
+    "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「原神」、英語版「Genshin Impact」で確認している。"
   }
 ]

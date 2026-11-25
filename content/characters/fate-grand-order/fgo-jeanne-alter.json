@@ -1,0 +1,94 @@
+{
+  "id": "fgo-jeanne-alter",
+  "slug": "fgo-jeanne-alter",
+  "kind": "character",
+  "name": "ジャンヌ・ダルク〔オルタ〕",
+  "reading": "じゃんぬ・だるく おるた",
+  "alternativeNames": ["ジャンヌ・オルタ", "アヴェンジャー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "アヴェンジャー（復讐者）のサーヴァント。第一特異点「邪竜百年戦争 オルレアン」で初登場する。召喚者が聖杯に歪んだ願望をかけて呼び出した、ジャンヌ・ダルクのもう一つの姿（オルタ）である。",
+    "claimIds": ["fgo-ja-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "jeanne-d-arc",
+      "label": "オルレアンの乙女",
+      "inWork": {
+        "text": "初登場は、百年戦争期のフランスの地名を冠した第一特異点「邪竜百年戦争 オルレアン」である。",
+        "claimIds": ["fgo-ja-work"]
+      },
+      "inMyth": {
+        "text": "ジャンヌは13歳のころ神の声を初めて聞き、その声はのちにフランスへ行ってオルレアンの包囲を解くよう告げた。",
+        "claimIds": ["fgo-ja-myth-voices"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "jeanne-d-arc",
+      "label": "復讐者（アヴェンジャー）",
+      "inWork": {
+        "text": "クラスは「アヴェンジャー」で、復讐者として召喚される。",
+        "claimIds": ["fgo-ja-work"]
+      },
+      "inMyth": {
+        "text": "ジャンヌは敵を攻めるとき誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べた。最後は戻り異端とされ、1431年5月30日にルーアンで火刑に処された。",
+        "claimIds": ["fgo-ja-myth-banner", "fgo-ja-myth-death"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "史実のジャンヌは、自分は一人も殺していないと述べ、剣より旗を好んだ。作品の〔オルタ〕は、その火刑という最期から「もしジャンヌが復讐を望んでいたら」という反転した姿を描いている。この反転像は史料には見られない作品独自の設定である。",
+      "claimIds": ["fgo-ja-myth-banner", "fgo-ja-myth-death", "fgo-ja-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-ja-work",
+      "text": "ジャンヌ・ダルク〔オルタ〕はアヴェンジャーのサーヴァントで、第一特異点「邪竜百年戦争 オルレアン」で初登場する。召喚者が聖杯に歪んだ願望をかけて呼び出した存在である。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Grand Order」「Fate/Grand Orderの登場キャラクター」の記述で確認。"
+    },
+    {
+      "id": "fgo-ja-myth-voices",
+      "text": "ジャンヌは13歳のころ夏の正午に父の庭で初めて神からの声を聞いた。その声はのちに、フランスへ行ってオルレアンの包囲を解くよう告げた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月22日の尋問"
+    },
+    {
+      "id": "fgo-ja-myth-banner",
+      "text": "ジャンヌは剣より旗のほうがずっと好きだと答え、敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月27日の尋問"
+    },
+    {
+      "id": "fgo-ja-myth-death",
+      "text": "ジャンヌは戻り異端とされ、1431年5月30日にルーアンの旧市場広場で火刑に処された。",
+      "classification": "fact",
+      "sourceIds": ["pernoud-joan-of-arc"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Pernoud & Clin, Joan of Arc: Her Story, 第8章"
+    },
+    {
+      "id": "fgo-ja-cmp",
+      "text": "復讐を望むジャンヌという反転像は史料にない作品独自の設定であり、火刑の最期との対比は編集部の解釈である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-fate-grand-order",
+    "joan-condemnation-trial",
+    "pernoud-joan-of-arc"
+  ],
+  "articleIds": []
+}

@@ -148,6 +148,7 @@ export const figureTypes = {
   personification: "擬人化された存在",
   valkyrie: "戦乙女（ワルキューレ）",
   giant: "巨人",
+  demon: "悪魔",
   historical: "歴史上の人物",
   fictional: "物語の登場人物",
 } as const

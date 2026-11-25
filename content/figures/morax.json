@@ -1,0 +1,17 @@
+{
+  "id": "morax",
+  "slug": "morax",
+  "name": "モラクス",
+  "reading": "もらくす",
+  "originalName": "Morax",
+  "romanized": "Morax",
+  "alternativeNames": ["マラクス", "Marax"],
+  "type": "demon",
+  "roles": ["ソロモン72柱の悪魔", "伯爵・総裁"],
+  "mythologyIds": ["goetia"],
+  "description": "第21の霊。伯爵にして総裁。人の顔をもつ大きな雄牛の姿で現れる。天文学と自由学芸を教え、薬草と宝石の効能に通じるとされる。メイザース訳では「マラクス（Marax）」と綴る。",
+  "relatedFigureIds": ["paimon", "barbatos"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["goetia"]
+}

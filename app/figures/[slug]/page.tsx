@@ -21,6 +21,7 @@ import {
   getRelatedFigures,
   getSourcesByIds,
   getStoriesForFigure,
+  isFigureIndexable,
   getWorksForFigure,
   getCharactersForFigure,
 } from "@/lib/content/repository"
@@ -45,9 +46,7 @@ export const generateMetadata = async ({ params }: Props) => {
     title: `${figure.name}（${mythology?.name ?? "神話"}）とは`,
     description: metaDescription(figure.description),
     path: paths.figure(figure.slug),
-    // 関連記事がまだない人物ページは薄いコンテンツになりやすいため noindex
-    noindex:
-      getArticlesForFigure(figure).length === 0 && figure.body.length === 0,
+    noindex: !isFigureIndexable(figure),
   })
 }
 

@@ -1,0 +1,65 @@
+{
+  "id": "genshin-impact-paimon",
+  "slug": "genshin-impact-paimon",
+  "kind": "character",
+  "name": "パイモン",
+  "reading": "ぱいもん",
+  "alternativeNames": [],
+  "workId": "genshin-impact",
+  "description": {
+    "text": "主人公の旅人とともにテイワットを旅する案内役・相棒。",
+    "claimIds": ["gi-pm-work"]
+  },
+  "nameOrigin": {
+    "text": "名前は、魔術書『ゴエティア』に記されたソロモン72柱の悪魔の一体と同じである。",
+    "claimIds": ["gi-pm-myth", "gi-pm-cmp"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "paimon",
+      "label": "ソロモン72柱の悪魔パイモン",
+      "inWork": {
+        "text": "旅人の案内役として行動をともにする。",
+        "claimIds": ["gi-pm-work"]
+      },
+      "inMyth": {
+        "text": "『ゴエティア』の第9の霊パイモンは、ルシファーによく従う偉大な王。冠をかぶりヒトコブラクダに乗った人の姿で、楽隊を先に立てて現れる。あらゆる学芸と学問を教え、隠されたことを明かすとされる。",
+        "claimIds": ["gi-pm-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のパイモンは、学問を教え秘密を明かす「王」として現れる。作品のパイモンは、旅人にテイワットのことを教える案内役であり、「知らないことを教える存在」という点では通じる。ただし、作品側が名前の由来を明言した資料は確認できていない。",
+      "claimIds": ["gi-pm-myth", "gi-pm-work", "gi-pm-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gi-pm-work",
+      "text": "パイモンは旅人の案内役であり、相棒である。",
+      "classification": "creative",
+      "sourceIds": ["work-genshin-impact"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Genshin Impact」（\"Paimon, the Traveler's guide and companion\"）で確認。"
+    },
+    {
+      "id": "gi-pm-myth",
+      "text": "第9の霊パイモンはルシファーによく従う偉大な王。冠をかぶりヒトコブラクダに乗った人の姿で、前を楽隊が進む。あらゆる学芸と学問を教え、隠されたことを明かす。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第9の霊（Paimon）"
+    },
+    {
+      "id": "gi-pm-cmp",
+      "text": "名前は『ゴエティア』の悪魔パイモンと一致するが、作品側が由来を明言した資料は確認できていない。案内役と「教える王」の対応は編集部の考察である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-genshin-impact", "goetia"],
+  "articleIds": []
+}

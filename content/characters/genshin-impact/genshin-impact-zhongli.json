@@ -1,0 +1,77 @@
+{
+  "id": "genshin-impact-zhongli",
+  "slug": "genshin-impact-zhongli",
+  "kind": "character",
+  "name": "鍾離",
+  "reading": "しょうり",
+  "alternativeNames": ["モラクス", "岩王帝君", "岩神"],
+  "workId": "genshin-impact",
+  "description": {
+    "text": "璃月の葬儀屋「往生堂」の客卿。その正体は、璃月を治める岩神モラクスである。璃月の人々はモラクスを「岩王帝君」と称えるが、近年モラクスは「神の引退」を選んだ。",
+    "claimIds": ["gi-zl-work"]
+  },
+  "nameOrigin": {
+    "text": "岩神としての名「モラクス」は、魔術書『ゴエティア』に記されたソロモン72柱の悪魔の一体と同じ名である。",
+    "claimIds": ["gi-zl-work", "gi-zl-myth", "gi-zl-cmp"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "morax",
+      "label": "ソロモン72柱の悪魔モラクス",
+      "inWork": {
+        "text": "岩神としての名は「モラクス」。七神の一柱として璃月を治めてきた。",
+        "claimIds": ["gi-zl-work"]
+      },
+      "inMyth": {
+        "text": "『ゴエティア』の第21の霊モラクスは、伯爵にして総裁。人の顔をもつ大きな雄牛の姿で現れ、天文学と自由学芸を教え、薬草と宝石の効能に通じるとされる。",
+        "claimIds": ["gi-zl-myth"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典のモラクスは、学芸と宝石・薬草の知識を授ける悪魔として記される。作品はこの名を「岩」の神に用いており、宝石（石）の知識をもつ点は岩の神という設定と通じる。ただし、作品側が名前の由来を明言した資料は確認できていない。",
+      "claimIds": ["gi-zl-myth", "gi-zl-cmp"]
+    },
+    {
+      "text": "原典のモラクスは雄牛の姿で現れる悪魔だが、作品の鍾離は人の姿で暮らす神として描かれる。悪魔の名を、人々に敬われる神の名に転用している点が大きな違いである。",
+      "claimIds": ["gi-zl-myth", "gi-zl-work", "gi-zl-cmp-form"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gi-zl-work",
+      "text": "鍾離は岩神モラクスであり、現在は葬儀屋「往生堂」の客卿。璃月の人々はモラクスを「岩王帝君」と称え、近年モラクスは「神の引退」を選んだ。",
+      "classification": "creative",
+      "sourceIds": ["work-genshin-impact"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「原神」の記述で確認。"
+    },
+    {
+      "id": "gi-zl-myth",
+      "text": "第21の霊モラクスは伯爵・総裁で、人の顔をもつ大きな雄牛の姿で現れる。天文学と自由学芸を教え、薬草と宝石の効能に通じる。",
+      "classification": "fact",
+      "sourceIds": ["goetia"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ゴエティア』第21の霊（Morax）",
+      "note": "メイザース訳では Marax と綴る。"
+    },
+    {
+      "id": "gi-zl-cmp",
+      "text": "名前は『ゴエティア』の悪魔モラクスと一致するが、作品側が由来を明言した資料は確認できていない。宝石の知識と岩の神の対応は編集部の考察である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "gi-zl-cmp-form",
+      "text": "悪魔の名を人々に敬われる神の名として用いている点は、原典との大きな違いである。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-genshin-impact", "goetia"],
+  "articleIds": []
+}

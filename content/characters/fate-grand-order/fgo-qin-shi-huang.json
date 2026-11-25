@@ -1,0 +1,82 @@
+{
+  "id": "fgo-qin-shi-huang",
+  "slug": "fgo-qin-shi-huang",
+  "kind": "character",
+  "name": "始皇帝",
+  "reading": "しこうてい",
+  "alternativeNames": ["ルーラー"],
+  "workId": "fate-grand-order",
+  "description": {
+    "text": "ルーラーのサーヴァント。Lostbelt No.3「人智統合真国 シン」で、中国異聞帯の王として登場する。異聞帯のクリプター芥ヒナコに、サーヴァント項羽を下賜した。",
+    "claimIds": ["fgo-qsh-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "qin-shi-huang",
+      "label": "中国最初の皇帝",
+      "inWork": {
+        "text": "名は「始皇帝」のまま、中国の異聞帯を統べる王として描かれる。",
+        "claimIds": ["fgo-qsh-work"]
+      },
+      "inMyth": {
+        "text": "天下を統一した秦王政は、三皇の「皇」と五帝の「帝」をあわせて「皇帝」と号し、自らを始皇帝とした。天子の自称を「朕」とすることもこのとき定められた。",
+        "claimIds": ["fgo-qsh-myth-title"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "xiang-yu",
+      "label": "項羽との関係",
+      "inWork": {
+        "text": "始皇帝は芥ヒナコに項羽を下賜しており、項羽は始皇帝の側の戦力として登場する。",
+        "claimIds": ["fgo-qsh-work"]
+      },
+      "inMyth": {
+        "text": "項羽は秦の始皇帝の巡行を見て「彼に取って代わることができる」と言った。",
+        "claimIds": ["fgo-qsh-myth-xiangyu"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "史実の項羽は秦を滅ぼした側の人物で、始皇帝の行列を見て「取って代わってやる」と言い放った。作品はその項羽を始皇帝の配下に置いており、史実の敵対関係を反転させている。",
+      "claimIds": ["fgo-qsh-myth-xiangyu", "fgo-qsh-work", "fgo-qsh-cmp"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fgo-qsh-work",
+      "text": "始皇帝はルーラーのサーヴァントで、Lostbelt No.3「人智統合真国 シン」に登場する中国異聞帯の王。芥ヒナコに項羽を下賜した。",
+      "classification": "creative",
+      "sourceIds": ["work-fate-grand-order"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「Fate/Grand Order」「Fate/Grand Orderの登場キャラクター」の記述で確認。"
+    },
+    {
+      "id": "fgo-qsh-myth-title",
+      "text": "天下を統一した秦王政は、三皇の「皇」と五帝の「帝」の位号をあわせて「皇帝」と号し、自らを始皇帝とした。天子の自称を「朕」とすることもこのとき定められた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇26年条）"
+    },
+    {
+      "id": "fgo-qsh-myth-xiangyu",
+      "text": "秦の始皇帝が会稽に巡行したとき、項羽はそれを見て「彼に取って代わることができる」と言った。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻7 項羽本紀"
+    },
+    {
+      "id": "fgo-qsh-cmp",
+      "text": "項羽を始皇帝の配下とする構図が史実の敵対関係の反転にあたるという評価は編集部の解釈である。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-fate-grand-order", "shiji"],
+  "articleIds": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "barbatos",
+  "slug": "barbatos",
+  "name": "バルバトス",
+  "reading": "ばるばとす",
+  "originalName": "Barbatos",
+  "romanized": "Barbatos",
+  "alternativeNames": [],
+  "type": "demon",
+  "roles": ["ソロモン72柱の悪魔", "公爵"],
+  "mythologyIds": ["goetia"],
+  "description": "第8の霊。偉大な公爵。太陽が人馬宮（射手座）にあるとき、4人の王とその従者を伴って現れる。鳥のさえずりや獣の声、犬の吠える声を理解させ、過去と未来を知り、仲違いした友や権力者を和解させるとされる。",
+  "relatedFigureIds": ["paimon", "morax"],
+  "relatedStoryIds": [],
+  "articleIds": [],
+  "sourceIds": ["goetia"]
+}
