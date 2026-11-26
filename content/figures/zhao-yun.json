@@ -12,5 +12,6 @@
   "relatedFigureIds": ["liu-bei", "zhuge-liang"],
   "relatedStoryIds": ["battle-of-changban"],
   "articleIds": [],
-  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+  "imageId": "figure-zhao-yun"
 }

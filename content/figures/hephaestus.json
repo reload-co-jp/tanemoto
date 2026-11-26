@@ -66,5 +66,6 @@
   "relatedFigureIds": ["zeus", "heracles", "athena"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["homer-iliad", "apollodorus-library"]
+  "sourceIds": ["homer-iliad", "apollodorus-library"],
+  "imageId": "figure-hephaestus"
 }

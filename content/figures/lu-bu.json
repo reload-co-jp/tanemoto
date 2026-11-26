@@ -109,5 +109,6 @@
     "lu-bu-at-white-gate-tower"
   ],
   "articleIds": [],
-  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+  "imageId": "figure-lu-bu"
 }

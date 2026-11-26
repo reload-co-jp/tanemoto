@@ -13,5 +13,6 @@
   "relatedFigureIds": ["hannibal"],
   "relatedStoryIds": ["eureka", "death-of-archimedes"],
   "articleIds": [],
-  "sourceIds": ["plutarch-lives", "vitruvius-architecture"]
+  "sourceIds": ["plutarch-lives", "vitruvius-architecture"],
+  "imageId": "figure-archimedes"
 }

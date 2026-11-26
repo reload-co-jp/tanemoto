@@ -53,5 +53,6 @@
   "relatedFigureIds": [],
   "relatedStoryIds": ["blasted-oak", "creature-asks-for-a-bride"],
   "articleIds": [],
-  "sourceIds": ["shelley-frankenstein"]
+  "sourceIds": ["shelley-frankenstein"],
+  "imageId": "figure-frankensteins-creature"
 }

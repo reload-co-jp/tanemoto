@@ -13,5 +13,6 @@
   "relatedFigureIds": ["alice", "queen-of-hearts"],
   "relatedStoryIds": ["cheshire-cat-grin"],
   "articleIds": [],
-  "sourceIds": ["carroll-alice"]
+  "sourceIds": ["carroll-alice"],
+  "imageId": "figure-cheshire-cat"
 }

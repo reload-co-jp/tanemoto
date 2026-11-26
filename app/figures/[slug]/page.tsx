@@ -3,6 +3,7 @@ import { ArticleList } from "@/components/article/ArticleCard"
 import { ArticleBody } from "@/components/article/ArticleBody"
 import { ClaimList, SourceList } from "@/components/article/SourceList"
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
+import { ImageFigure } from "@/components/common/ImageFigure"
 import { InfoTable } from "@/components/common/InfoTable"
 import { Link } from "@/components/common/Link"
 import {
@@ -18,6 +19,7 @@ import {
   getArticlesForFigure,
   getFigure,
   getFigures,
+  getImage,
   getMythologiesByIds,
   getRelatedFigures,
   getSourcesByIds,
@@ -47,6 +49,7 @@ export const generateMetadata = async ({ params }: Props) => {
     title: `${figure.name}（${mythology?.name ?? "神話"}）とは`,
     description: metaDescription(figure.description),
     path: paths.figure(figure.slug),
+    image: getImage(figure.imageId)?.src,
     noindex: !isFigureIndexable(figure),
   })
 }
@@ -61,6 +64,7 @@ const Page = async ({ params }: Props) => {
   const works = getWorksForFigure(figure)
   const characters = getCharactersForFigure(figure)
   const sources = getSourcesByIds(figure.sourceIds)
+  const image = getImage(figure.imageId)
 
   return (
     <>
@@ -76,6 +80,11 @@ const Page = async ({ params }: Props) => {
         title={figure.name}
         description={figure.description}
       />
+      {image && (
+        <div style={{ maxWidth: 480, margin: "0 auto 32px" }}>
+          <ImageFigure image={image} eager />
+        </div>
+      )}
       <div className="t-two-col">
         <div>
           {characters.length > 0 && (

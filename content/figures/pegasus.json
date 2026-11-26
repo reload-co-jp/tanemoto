@@ -79,5 +79,6 @@
   "relatedFigureIds": ["medusa", "bellerophon", "poseidon"],
   "relatedStoryIds": ["perseus-medusa", "bellerophon-chimera"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "apollodorus-library", "pindar-odes"]
+  "sourceIds": ["hesiod-theogony", "apollodorus-library", "pindar-odes"],
+  "imageId": "figure-pegasus"
 }

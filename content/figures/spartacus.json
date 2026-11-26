@@ -74,5 +74,6 @@
   "relatedFigureIds": ["julius-caesar", "hannibal"],
   "relatedStoryIds": ["spartacus-revolt", "death-of-spartacus"],
   "articleIds": [],
-  "sourceIds": ["plutarch-lives", "appian-civil-wars"]
+  "sourceIds": ["plutarch-lives", "appian-civil-wars"],
+  "imageId": "figure-spartacus"
 }

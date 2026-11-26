@@ -102,5 +102,6 @@
   "relatedFigureIds": ["enkidu", "ishtar", "humbaba", "utnapishtim"],
   "relatedStoryIds": ["creation-of-enkidu", "bull-of-heaven", "plant-of-youth"],
   "articleIds": [],
-  "sourceIds": ["gilgamesh-epic"]
+  "sourceIds": ["gilgamesh-epic"],
+  "imageId": "figure-gilgamesh"
 }

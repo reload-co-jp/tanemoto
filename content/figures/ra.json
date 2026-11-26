@@ -13,5 +13,6 @@
   "relatedFigureIds": ["osiris", "bastet", "thoth"],
   "relatedStoryIds": ["destruction-of-mankind"],
   "articleIds": [],
-  "sourceIds": ["book-of-heavenly-cow", "herodotus-histories"]
+  "sourceIds": ["book-of-heavenly-cow", "herodotus-histories"],
+  "imageId": "figure-ra"
 }

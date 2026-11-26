@@ -13,5 +13,6 @@
   "relatedFigureIds": ["huangdi", "qin-shi-huang"],
   "relatedStoryIds": ["huangdi-and-chiyou"],
   "articleIds": [],
-  "sourceIds": ["shiji", "shanhaijing"]
+  "sourceIds": ["shiji", "shanhaijing"],
+  "imageId": "figure-chiyou"
 }

@@ -13,5 +13,6 @@
   "relatedFigureIds": ["daji", "nezha", "shen-gongbao"],
   "relatedStoryIds": ["daji-and-the-fox", "shen-gongbao-tempts-jiang-ziya"],
   "articleIds": [],
-  "sourceIds": ["shiji", "fengshen-yanyi"]
+  "sourceIds": ["shiji", "fengshen-yanyi"],
+  "imageId": "figure-jiang-ziya"
 }

@@ -13,5 +13,6 @@
   "relatedFigureIds": ["nero", "medb"],
   "relatedStoryIds": ["boudica-revolt"],
   "articleIds": [],
-  "sourceIds": ["tacitus-annals", "cassius-dio-roman-history"]
+  "sourceIds": ["tacitus-annals", "cassius-dio-roman-history"],
+  "imageId": "figure-boudica"
 }

@@ -13,5 +13,6 @@
   "relatedFigureIds": ["quetzalcoatl"],
   "relatedStoryIds": ["fall-of-quetzalcoatl"],
   "articleIds": [],
-  "sourceIds": ["sahagun-historia"]
+  "sourceIds": ["sahagun-historia"],
+  "imageId": "figure-tezcatlipoca"
 }

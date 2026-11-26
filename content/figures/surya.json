@@ -13,5 +13,6 @@
   "relatedFigureIds": ["karna"],
   "relatedStoryIds": ["karna-armor"],
   "articleIds": [],
-  "sourceIds": ["mahabharata"]
+  "sourceIds": ["mahabharata"],
+  "imageId": "figure-surya"
 }

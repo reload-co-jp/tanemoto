@@ -53,5 +53,6 @@
   "relatedFigureIds": ["snow-queen"],
   "relatedStoryIds": ["little-mermaid-foam"],
   "articleIds": [],
-  "sourceIds": ["andersen-little-mermaid"]
+  "sourceIds": ["andersen-little-mermaid"],
+  "imageId": "figure-little-mermaid"
 }

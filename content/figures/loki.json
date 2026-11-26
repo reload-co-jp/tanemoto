@@ -84,5 +84,6 @@
   "relatedFigureIds": ["odin", "thor", "hel"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],
-  "sourceIds": ["snorri-edda"]
+  "sourceIds": ["snorri-edda"],
+  "imageId": "figure-loki"
 }

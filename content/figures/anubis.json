@@ -48,5 +48,6 @@
   "relatedFigureIds": ["osiris", "isis", "thoth"],
   "relatedStoryIds": ["death-of-osiris", "weighing-of-the-heart"],
   "articleIds": [],
-  "sourceIds": ["plutarch-isis-osiris", "book-of-the-dead"]
+  "sourceIds": ["plutarch-isis-osiris", "book-of-the-dead"],
+  "imageId": "figure-anubis"
 }

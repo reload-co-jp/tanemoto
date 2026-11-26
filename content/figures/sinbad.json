@@ -13,5 +13,6 @@
   "relatedFigureIds": ["aladdin"],
   "relatedStoryIds": ["seven-voyages-of-sinbad"],
   "articleIds": [],
-  "sourceIds": ["arabian-nights"]
+  "sourceIds": ["arabian-nights"],
+  "imageId": "figure-sinbad"
 }

@@ -13,5 +13,6 @@
   "relatedFigureIds": ["morgiana", "aladdin"],
   "relatedStoryIds": ["open-sesame"],
   "articleIds": [],
-  "sourceIds": ["arabian-nights"]
+  "sourceIds": ["arabian-nights"],
+  "imageId": "figure-ali-baba"
 }

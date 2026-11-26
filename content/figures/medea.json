@@ -95,5 +95,6 @@
   "relatedFigureIds": ["jason"],
   "relatedStoryIds": ["argonauts-medea"],
   "articleIds": [],
-  "sourceIds": ["apollodorus-library", "hesiod-theogony"]
+  "sourceIds": ["apollodorus-library", "hesiod-theogony"],
+  "imageId": "figure-medea"
 }

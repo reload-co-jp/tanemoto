@@ -89,5 +89,6 @@
   "relatedFigureIds": ["alexander"],
   "relatedStoryIds": ["thermopylae"],
   "articleIds": [],
-  "sourceIds": ["herodotus-histories"]
+  "sourceIds": ["herodotus-histories"],
+  "imageId": "figure-leonidas"
 }

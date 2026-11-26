@@ -66,5 +66,6 @@
   "relatedFigureIds": ["perseus", "bellerophon", "medusa", "zeus"],
   "relatedStoryIds": ["perseus-medusa", "bellerophon-chimera"],
   "articleIds": [],
-  "sourceIds": ["homer-iliad", "apollodorus-library", "pindar-odes"]
+  "sourceIds": ["homer-iliad", "apollodorus-library", "pindar-odes"],
+  "imageId": "figure-athena"
 }

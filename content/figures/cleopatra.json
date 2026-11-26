@@ -13,5 +13,6 @@
   "relatedFigureIds": ["julius-caesar"],
   "relatedStoryIds": ["cleopatra-and-caesar", "death-of-cleopatra"],
   "articleIds": [],
-  "sourceIds": ["plutarch-lives"]
+  "sourceIds": ["plutarch-lives"],
+  "imageId": "figure-cleopatra"
 }

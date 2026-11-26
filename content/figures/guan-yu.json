@@ -12,5 +12,6 @@
   "relatedFigureIds": ["liu-bei", "zhang-fei"],
   "relatedStoryIds": ["peach-garden-oath", "three-heroes-against-lu-bu"],
   "articleIds": [],
-  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+  "imageId": "figure-guan-yu"
 }

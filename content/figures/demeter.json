@@ -13,5 +13,6 @@
   "relatedFigureIds": ["persephone", "zeus", "hades"],
   "relatedStoryIds": ["abduction-of-persephone", "children-of-cronos"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "homeric-hymn-demeter"]
+  "sourceIds": ["hesiod-theogony", "homeric-hymn-demeter"],
+  "imageId": "figure-demeter"
 }

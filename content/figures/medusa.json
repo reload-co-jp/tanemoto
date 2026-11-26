@@ -108,5 +108,6 @@
   "relatedFigureIds": ["perseus", "athena", "poseidon", "pegasus"],
   "relatedStoryIds": ["perseus-medusa"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "apollodorus-library", "ovid-metamorphoses"]
+  "sourceIds": ["hesiod-theogony", "apollodorus-library", "ovid-metamorphoses"],
+  "imageId": "figure-medusa"
 }

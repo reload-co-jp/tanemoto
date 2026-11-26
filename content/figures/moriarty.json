@@ -66,5 +66,6 @@
   "relatedFigureIds": ["sherlock-holmes"],
   "relatedStoryIds": ["reichenbach-falls"],
   "articleIds": [],
-  "sourceIds": ["doyle-final-problem"]
+  "sourceIds": ["doyle-final-problem"],
+  "imageId": "figure-moriarty"
 }

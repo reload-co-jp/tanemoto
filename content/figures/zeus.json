@@ -92,5 +92,6 @@
   "relatedFigureIds": ["hades", "poseidon", "demeter"],
   "relatedStoryIds": ["children-of-cronos", "division-of-the-world"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "homer-iliad", "apollodorus-library"]
+  "sourceIds": ["hesiod-theogony", "homer-iliad", "apollodorus-library"],
+  "imageId": "figure-zeus"
 }

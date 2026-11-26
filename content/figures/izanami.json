@@ -11,5 +11,6 @@
   "relatedFigureIds": ["izanagi", "kagutsuchi"],
   "relatedStoryIds": ["izanagi-yomi"],
   "articleIds": [],
-  "sourceIds": ["kojiki", "nihon-shoki"]
+  "sourceIds": ["kojiki", "nihon-shoki"],
+  "imageId": "figure-izanami"
 }

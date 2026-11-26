@@ -13,5 +13,6 @@
   "relatedFigureIds": ["vainamoinen"],
   "relatedStoryIds": ["fate-of-kullervo"],
   "articleIds": [],
-  "sourceIds": ["kalevala"]
+  "sourceIds": ["kalevala"],
+  "imageId": "figure-kullervo"
 }

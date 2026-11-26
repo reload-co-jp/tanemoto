@@ -83,5 +83,6 @@
   ],
   "relatedStoryIds": ["izanagi-yomi", "birth-of-three-noble-children"],
   "articleIds": [],
-  "sourceIds": ["kojiki", "nihon-shoki"]
+  "sourceIds": ["kojiki", "nihon-shoki"],
+  "imageId": "figure-izanagi"
 }

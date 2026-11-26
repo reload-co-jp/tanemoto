@@ -53,5 +53,6 @@
   "relatedFigureIds": ["tezcatlipoca", "huitzilopochtli", "xolotl"],
   "relatedStoryIds": ["fall-of-quetzalcoatl", "fifth-sun"],
   "articleIds": [],
-  "sourceIds": ["sahagun-historia"]
+  "sourceIds": ["sahagun-historia"],
+  "imageId": "figure-quetzalcoatl"
 }

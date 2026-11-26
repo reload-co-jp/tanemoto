@@ -13,5 +13,6 @@
   "relatedFigureIds": ["odin", "baldr", "freyja"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["snorri-edda"]
+  "sourceIds": ["snorri-edda"],
+  "imageId": "figure-frigg"
 }

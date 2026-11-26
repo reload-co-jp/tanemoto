@@ -12,5 +12,6 @@
   "relatedFigureIds": ["liu-bei", "lu-bu", "zhuge-liang"],
   "relatedStoryIds": ["lu-bu-at-white-gate-tower", "borrowing-the-east-wind"],
   "articleIds": [],
-  "sourceIds": ["sanguo-yanyi", "sanguozhi"]
+  "sourceIds": ["sanguo-yanyi", "sanguozhi"],
+  "imageId": "figure-cao-cao"
 }

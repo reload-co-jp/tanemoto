@@ -118,5 +118,6 @@
   "relatedFigureIds": ["nezha"],
   "relatedStoryIds": ["havoc-in-heaven"],
   "articleIds": [],
-  "sourceIds": ["xiyouji"]
+  "sourceIds": ["xiyouji"],
+  "imageId": "figure-sun-wukong"
 }

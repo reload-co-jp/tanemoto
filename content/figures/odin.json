@@ -97,5 +97,6 @@
   "relatedFigureIds": ["thor", "loki", "freyja"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],
-  "sourceIds": ["snorri-edda"]
+  "sourceIds": ["snorri-edda"],
+  "imageId": "figure-odin"
 }

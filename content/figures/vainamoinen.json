@@ -66,5 +66,6 @@
   "relatedFigureIds": ["ilmatar", "ilmarinen", "louhi"],
   "relatedStoryIds": ["birth-of-vainamoinen", "birth-of-the-kantele"],
   "articleIds": [],
-  "sourceIds": ["kalevala"]
+  "sourceIds": ["kalevala"],
+  "imageId": "figure-vainamoinen"
 }

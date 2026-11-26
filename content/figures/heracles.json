@@ -140,5 +140,6 @@
   ],
   "relatedStoryIds": ["heracles-cerberus"],
   "articleIds": [],
-  "sourceIds": ["apollodorus-library", "homer-iliad", "hesiod-theogony"]
+  "sourceIds": ["apollodorus-library", "homer-iliad", "hesiod-theogony"],
+  "imageId": "figure-heracles"
 }

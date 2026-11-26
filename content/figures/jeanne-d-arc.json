@@ -84,5 +84,6 @@
   "relatedFigureIds": ["charlemagne"],
   "relatedStoryIds": ["joans-voices", "sword-of-fierbois", "death-of-joan"],
   "articleIds": [],
-  "sourceIds": ["joan-condemnation-trial", "pernoud-joan-of-arc"]
+  "sourceIds": ["joan-condemnation-trial", "pernoud-joan-of-arc"],
+  "imageId": "figure-jeanne-d-arc"
 }

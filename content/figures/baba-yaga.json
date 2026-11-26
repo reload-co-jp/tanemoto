@@ -66,5 +66,6 @@
   "relatedFigureIds": ["koschei"],
   "relatedStoryIds": ["vasilisa-and-baba-yaga", "geese-swans"],
   "articleIds": [],
-  "sourceIds": ["afanasyev-tales"]
+  "sourceIds": ["afanasyev-tales"],
+  "imageId": "figure-baba-yaga"
 }

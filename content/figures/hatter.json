@@ -13,5 +13,6 @@
   "relatedFigureIds": ["alice", "queen-of-hearts"],
   "relatedStoryIds": ["mad-tea-party"],
   "articleIds": [],
-  "sourceIds": ["carroll-alice"]
+  "sourceIds": ["carroll-alice"],
+  "imageId": "figure-hatter"
 }

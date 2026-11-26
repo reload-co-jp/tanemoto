@@ -13,5 +13,6 @@
   "relatedFigureIds": ["indra"],
   "relatedStoryIds": ["indra-slays-vritra"],
   "articleIds": [],
-  "sourceIds": ["rigveda"]
+  "sourceIds": ["rigveda"],
+  "imageId": "figure-vritra"
 }

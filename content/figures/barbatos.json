@@ -48,5 +48,6 @@
   "relatedFigureIds": ["paimon", "morax"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["goetia"]
+  "sourceIds": ["goetia"],
+  "imageId": "figure-barbatos"
 }

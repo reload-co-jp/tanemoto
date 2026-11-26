@@ -13,5 +13,6 @@
   "relatedFigureIds": ["typhon", "cerberus", "chimera"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony"]
+  "sourceIds": ["hesiod-theogony"],
+  "imageId": "figure-echidna"
 }

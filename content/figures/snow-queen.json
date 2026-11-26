@@ -13,5 +13,6 @@
   "relatedFigureIds": ["little-mermaid"],
   "relatedStoryIds": ["kai-and-gerda"],
   "articleIds": [],
-  "sourceIds": ["andersen-snow-queen"]
+  "sourceIds": ["andersen-snow-queen"],
+  "imageId": "figure-snow-queen"
 }

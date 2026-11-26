@@ -13,5 +13,6 @@
   "relatedFigureIds": ["alice", "cheshire-cat", "hatter"],
   "relatedStoryIds": ["queens-croquet", "alice-wakes-up"],
   "articleIds": [],
-  "sourceIds": ["carroll-alice"]
+  "sourceIds": ["carroll-alice"],
+  "imageId": "figure-queen-of-hearts"
 }

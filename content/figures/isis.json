@@ -13,5 +13,6 @@
   "relatedFigureIds": ["osiris", "horus", "set", "anubis"],
   "relatedStoryIds": ["death-of-osiris", "contendings-of-horus-and-set"],
   "articleIds": [],
-  "sourceIds": ["plutarch-isis-osiris", "herodotus-histories"]
+  "sourceIds": ["plutarch-isis-osiris", "herodotus-histories"],
+  "imageId": "figure-isis"
 }

@@ -13,5 +13,6 @@
   "relatedFigureIds": ["hades", "heracles", "echidna", "typhon"],
   "relatedStoryIds": ["heracles-cerberus"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "apollodorus-library"]
+  "sourceIds": ["hesiod-theogony", "apollodorus-library"],
+  "imageId": "figure-cerberus"
 }

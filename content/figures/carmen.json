@@ -13,5 +13,6 @@
   "relatedFigureIds": [],
   "relatedStoryIds": ["death-of-carmen"],
   "articleIds": [],
-  "sourceIds": ["merimee-carmen"]
+  "sourceIds": ["merimee-carmen"],
+  "imageId": "figure-carmen"
 }

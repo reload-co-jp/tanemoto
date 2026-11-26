@@ -13,5 +13,6 @@
   "relatedFigureIds": ["vainamoinen"],
   "relatedStoryIds": ["birth-of-vainamoinen"],
   "articleIds": [],
-  "sourceIds": ["kalevala"]
+  "sourceIds": ["kalevala"],
+  "imageId": "figure-ilmatar"
 }

@@ -72,5 +72,6 @@
   "relatedFigureIds": ["susanoo"],
   "relatedStoryIds": ["yamato-takeru-kusanagi"],
   "articleIds": [],
-  "sourceIds": ["kojiki", "nihon-shoki"]
+  "sourceIds": ["kojiki", "nihon-shoki"],
+  "imageId": "figure-yamato-takeru"
 }

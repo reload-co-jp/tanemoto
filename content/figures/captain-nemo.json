@@ -53,5 +53,6 @@
   "relatedFigureIds": [],
   "relatedStoryIds": ["nautilus", "nemo-is-prince-dakkar"],
   "articleIds": [],
-  "sourceIds": ["verne-twenty-thousand-leagues", "verne-mysterious-island"]
+  "sourceIds": ["verne-twenty-thousand-leagues", "verne-mysterious-island"],
+  "imageId": "figure-captain-nemo"
 }

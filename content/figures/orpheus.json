@@ -13,5 +13,6 @@
   "relatedFigureIds": ["hades", "persephone"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["ovid-metamorphoses"]
+  "sourceIds": ["ovid-metamorphoses"],
+  "imageId": "figure-orpheus"
 }

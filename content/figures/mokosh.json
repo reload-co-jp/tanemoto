@@ -13,5 +13,6 @@
   "relatedFigureIds": ["perun", "dazhbog"],
   "relatedStoryIds": ["vladimir-pantheon"],
   "articleIds": [],
-  "sourceIds": ["primary-chronicle"]
+  "sourceIds": ["primary-chronicle"],
+  "imageId": "figure-mokosh"
 }

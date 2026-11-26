@@ -61,5 +61,6 @@
   "relatedFigureIds": ["fuxi", "daji"],
   "relatedStoryIds": ["nuwa-mends-heaven", "daji-and-the-fox"],
   "articleIds": [],
-  "sourceIds": ["huainanzi", "fengshen-yanyi"]
+  "sourceIds": ["huainanzi", "fengshen-yanyi"],
+  "imageId": "figure-nuwa"
 }

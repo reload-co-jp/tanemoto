@@ -13,5 +13,6 @@
   "relatedFigureIds": ["alexander", "spartacus"],
   "relatedStoryIds": ["hannibals-oath", "hannibal-crosses-the-alps"],
   "articleIds": [],
-  "sourceIds": ["polybius-histories", "livy-history-of-rome"]
+  "sourceIds": ["polybius-histories", "livy-history-of-rome"],
+  "imageId": "figure-hannibal"
 }

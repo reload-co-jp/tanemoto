@@ -13,5 +13,6 @@
   "relatedFigureIds": ["baba-yaga"],
   "relatedStoryIds": ["death-of-koschei", "marya-morevna"],
   "articleIds": [],
-  "sourceIds": ["afanasyev-tales"]
+  "sourceIds": ["afanasyev-tales"],
+  "imageId": "figure-koschei"
 }

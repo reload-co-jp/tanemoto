@@ -13,5 +13,6 @@
   "relatedFigureIds": ["balor", "nuada", "cu-chulainn"],
   "relatedStoryIds": ["second-battle-of-mag-tuired"],
   "articleIds": [],
-  "sourceIds": ["cath-maige-tuired"]
+  "sourceIds": ["cath-maige-tuired"],
+  "imageId": "figure-lugh"
 }

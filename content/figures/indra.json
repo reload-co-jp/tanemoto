@@ -53,5 +53,6 @@
   "relatedFigureIds": ["vritra", "arjuna", "karna"],
   "relatedStoryIds": ["indra-slays-vritra", "karna-armor"],
   "articleIds": [],
-  "sourceIds": ["rigveda", "mahabharata"]
+  "sourceIds": ["rigveda", "mahabharata"],
+  "imageId": "figure-indra"
 }

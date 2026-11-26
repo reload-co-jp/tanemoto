@@ -66,5 +66,6 @@
   "relatedFigureIds": ["qin-shi-huang", "lu-bu"],
   "relatedStoryIds": ["feast-at-hongmen", "surrounded-on-all-sides"],
   "articleIds": [],
-  "sourceIds": ["shiji"]
+  "sourceIds": ["shiji"],
+  "imageId": "figure-xiang-yu"
 }

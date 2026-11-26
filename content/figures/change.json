@@ -13,5 +13,6 @@
   "relatedFigureIds": ["hou-yi", "xiwangmu"],
   "relatedStoryIds": ["change-flees-to-the-moon"],
   "articleIds": [],
-  "sourceIds": ["huainanzi"]
+  "sourceIds": ["huainanzi"],
+  "imageId": "figure-change"
 }

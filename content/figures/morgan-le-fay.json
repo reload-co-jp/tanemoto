@@ -66,5 +66,6 @@
   "relatedFigureIds": ["arthur", "merlin"],
   "relatedStoryIds": ["morgan-steals-the-scabbard", "death-of-arthur"],
   "articleIds": [],
-  "sourceIds": ["malory-morte-darthur"]
+  "sourceIds": ["malory-morte-darthur"],
+  "imageId": "figure-morgan-le-fay"
 }

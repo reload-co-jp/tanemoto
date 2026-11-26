@@ -13,5 +13,6 @@
   "relatedFigureIds": ["cu-chulainn"],
   "relatedStoryIds": ["death-of-cu-chulainn"],
   "articleIds": [],
-  "sourceIds": ["tain-bo-cuailnge", "aided-con-culainn"]
+  "sourceIds": ["tain-bo-cuailnge", "aided-con-culainn"],
+  "imageId": "figure-medb"
 }

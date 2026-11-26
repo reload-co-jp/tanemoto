@@ -61,5 +61,6 @@
   "relatedFigureIds": ["nezha"],
   "relatedStoryIds": ["nezha-and-ao-bing", "nezha-lotus-body"],
   "articleIds": [],
-  "sourceIds": ["fengshen-yanyi"]
+  "sourceIds": ["fengshen-yanyi"],
+  "imageId": "figure-ao-bing"
 }

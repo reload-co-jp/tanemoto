@@ -13,5 +13,6 @@
   "relatedFigureIds": ["gilgamesh", "enkidu"],
   "relatedStoryIds": ["bull-of-heaven"],
   "articleIds": [],
-  "sourceIds": ["gilgamesh-epic"]
+  "sourceIds": ["gilgamesh-epic"],
+  "imageId": "figure-ishtar"
 }

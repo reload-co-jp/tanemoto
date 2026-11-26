@@ -51,5 +51,6 @@
   "relatedFigureIds": [],
   "relatedStoryIds": ["seimei-and-emperor-kazan", "seimei-and-doma"],
   "articleIds": [],
-  "sourceIds": ["okagami", "kojidan"]
+  "sourceIds": ["okagami", "kojidan"],
+  "imageId": "figure-abe-no-seimei"
 }

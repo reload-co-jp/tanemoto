@@ -84,5 +84,6 @@
   "relatedFigureIds": ["julius-caesar", "boudica"],
   "relatedStoryIds": ["great-fire-of-rome", "death-of-nero"],
   "articleIds": [],
-  "sourceIds": ["suetonius-nero", "tacitus-annals"]
+  "sourceIds": ["suetonius-nero", "tacitus-annals"],
+  "imageId": "figure-nero"
 }

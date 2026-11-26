@@ -84,5 +84,6 @@
   "relatedFigureIds": ["sherlock-holmes"],
   "relatedStoryIds": ["arrest-of-arsene-lupin", "sholmes-arrives-too-late"],
   "articleIds": [],
-  "sourceIds": ["leblanc-gentleman-burglar", "leblanc-cagliostro"]
+  "sourceIds": ["leblanc-gentleman-burglar", "leblanc-cagliostro"],
+  "imageId": "figure-arsene-lupin"
 }

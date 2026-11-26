@@ -71,5 +71,6 @@
   "relatedFigureIds": ["odin"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["snorri-edda"]
+  "sourceIds": ["snorri-edda"],
+  "imageId": "figure-freyja"
 }

@@ -13,5 +13,6 @@
   "relatedFigureIds": ["odin"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["snorri-edda", "poetic-edda"]
+  "sourceIds": ["snorri-edda", "poetic-edda"],
+  "imageId": "figure-mimir"
 }

@@ -11,5 +11,6 @@
   "relatedFigureIds": ["qin-shi-huang"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["shiji"]
+  "sourceIds": ["shiji"],
+  "imageId": "figure-xu-fu"
 }

@@ -13,5 +13,6 @@
   "relatedFigureIds": [],
   "relatedStoryIds": ["flying-island-laputa"],
   "articleIds": [],
-  "sourceIds": ["swift-gulliver"]
+  "sourceIds": ["swift-gulliver"],
+  "imageId": "figure-gulliver"
 }

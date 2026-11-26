@@ -13,5 +13,6 @@
   "relatedFigureIds": ["daji"],
   "relatedStoryIds": ["daji-and-the-fox"],
   "articleIds": [],
-  "sourceIds": ["shanhaijing", "fengshen-yanyi"]
+  "sourceIds": ["shanhaijing", "fengshen-yanyi"],
+  "imageId": "figure-nine-tailed-fox"
 }

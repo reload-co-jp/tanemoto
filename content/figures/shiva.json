@@ -79,5 +79,6 @@
   "relatedFigureIds": ["arjuna"],
   "relatedStoryIds": ["churning-of-the-ocean", "arjuna-and-the-kirata"],
   "articleIds": [],
-  "sourceIds": ["mahabharata", "rigveda"]
+  "sourceIds": ["mahabharata", "rigveda"],
+  "imageId": "figure-shiva"
 }

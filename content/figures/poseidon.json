@@ -74,5 +74,6 @@
   "relatedFigureIds": ["zeus", "hades", "medusa", "pegasus"],
   "relatedStoryIds": ["division-of-the-world", "children-of-cronos"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "homer-iliad", "apollodorus-library"]
+  "sourceIds": ["hesiod-theogony", "homer-iliad", "apollodorus-library"],
+  "imageId": "figure-poseidon"
 }

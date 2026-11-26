@@ -13,5 +13,6 @@
   "relatedFigureIds": ["bellerophon", "pegasus", "echidna"],
   "relatedStoryIds": ["bellerophon-chimera"],
   "articleIds": [],
-  "sourceIds": ["homer-iliad", "hesiod-theogony", "apollodorus-library"]
+  "sourceIds": ["homer-iliad", "hesiod-theogony", "apollodorus-library"],
+  "imageId": "figure-chimera"
 }

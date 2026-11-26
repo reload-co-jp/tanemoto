@@ -71,5 +71,6 @@
   "relatedFigureIds": ["indra", "karna", "krishna", "shiva"],
   "relatedStoryIds": ["arjuna-and-the-kirata", "death-of-karna"],
   "articleIds": [],
-  "sourceIds": ["mahabharata"]
+  "sourceIds": ["mahabharata"],
+  "imageId": "figure-arjuna"
 }

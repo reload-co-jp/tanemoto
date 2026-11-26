@@ -13,5 +13,6 @@
   "relatedFigureIds": ["gilgamesh", "enkidu"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["gilgamesh-epic"]
+  "sourceIds": ["gilgamesh-epic"],
+  "imageId": "figure-humbaba"
 }

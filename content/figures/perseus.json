@@ -79,5 +79,6 @@
   "relatedFigureIds": ["medusa", "athena", "hermes", "andromeda"],
   "relatedStoryIds": ["perseus-medusa", "perseus-andromeda"],
   "articleIds": [],
-  "sourceIds": ["apollodorus-library", "pindar-odes", "hesiod-theogony"]
+  "sourceIds": ["apollodorus-library", "pindar-odes", "hesiod-theogony"],
+  "imageId": "figure-perseus"
 }

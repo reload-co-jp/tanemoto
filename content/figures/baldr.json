@@ -79,5 +79,6 @@
   "relatedFigureIds": ["odin", "frigg", "loki"],
   "relatedStoryIds": ["ragnarok"],
   "articleIds": [],
-  "sourceIds": ["snorri-edda"]
+  "sourceIds": ["snorri-edda"],
+  "imageId": "figure-baldr"
 }

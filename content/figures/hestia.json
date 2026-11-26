@@ -71,5 +71,6 @@
   "relatedFigureIds": ["zeus", "hades", "poseidon", "demeter"],
   "relatedStoryIds": ["children-of-cronos"],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "homeric-hymn-aphrodite"]
+  "sourceIds": ["hesiod-theogony", "homeric-hymn-aphrodite"],
+  "imageId": "figure-hestia"
 }

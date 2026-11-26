@@ -53,5 +53,6 @@
   "relatedFigureIds": ["zeus", "athena"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony", "homer-iliad"]
+  "sourceIds": ["hesiod-theogony", "homer-iliad"],
+  "imageId": "figure-apollo"
 }

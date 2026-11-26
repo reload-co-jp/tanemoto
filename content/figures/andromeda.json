@@ -66,5 +66,6 @@
   "relatedFigureIds": ["perseus", "poseidon"],
   "relatedStoryIds": ["perseus-andromeda"],
   "articleIds": [],
-  "sourceIds": ["apollodorus-library", "frazer-apollodorus"]
+  "sourceIds": ["apollodorus-library", "frazer-apollodorus"],
+  "imageId": "figure-andromeda"
 }

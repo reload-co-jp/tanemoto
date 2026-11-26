@@ -13,5 +13,6 @@
   "relatedFigureIds": ["medea"],
   "relatedStoryIds": ["argonauts-medea"],
   "articleIds": [],
-  "sourceIds": ["apollodorus-library"]
+  "sourceIds": ["apollodorus-library"],
+  "imageId": "figure-jason"
 }

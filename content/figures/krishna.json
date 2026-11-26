@@ -13,5 +13,6 @@
   "relatedFigureIds": ["arjuna", "karna"],
   "relatedStoryIds": ["death-of-karna"],
   "articleIds": [],
-  "sourceIds": ["mahabharata"]
+  "sourceIds": ["mahabharata"],
+  "imageId": "figure-krishna"
 }

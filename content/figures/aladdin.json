@@ -53,5 +53,6 @@
   "relatedFigureIds": ["ali-baba", "sinbad"],
   "relatedStoryIds": ["aladdin-and-the-lamp"],
   "articleIds": [],
-  "sourceIds": ["arabian-nights"]
+  "sourceIds": ["arabian-nights"],
+  "imageId": "figure-aladdin"
 }

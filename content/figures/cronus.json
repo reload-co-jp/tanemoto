@@ -53,5 +53,6 @@
   "relatedFigureIds": ["zeus", "hades", "hestia", "demeter", "poseidon"],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony"]
+  "sourceIds": ["hesiod-theogony"],
+  "imageId": "figure-cronus"
 }

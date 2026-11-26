@@ -105,5 +105,6 @@
     "yamata-no-orochi-slaying"
   ],
   "articleIds": [],
-  "sourceIds": ["kojiki", "nihon-shoki"]
+  "sourceIds": ["kojiki", "nihon-shoki"],
+  "imageId": "figure-susanoo"
 }

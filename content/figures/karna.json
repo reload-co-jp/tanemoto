@@ -84,5 +84,6 @@
   "relatedFigureIds": ["surya", "arjuna", "indra", "krishna"],
   "relatedStoryIds": ["karna-armor", "death-of-karna"],
   "articleIds": [],
-  "sourceIds": ["mahabharata"]
+  "sourceIds": ["mahabharata"],
+  "imageId": "figure-karna"
 }

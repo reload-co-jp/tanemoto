@@ -12,5 +12,6 @@
   "relatedFigureIds": ["tiamat"],
   "relatedStoryIds": ["marduk-and-tiamat"],
   "articleIds": [],
-  "sourceIds": ["enuma-elish"]
+  "sourceIds": ["enuma-elish"],
+  "imageId": "figure-marduk"
 }

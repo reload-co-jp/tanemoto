@@ -11,5 +11,6 @@
   "relatedFigureIds": [],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["shakespeare-hamlet"]
+  "sourceIds": ["shakespeare-hamlet"],
+  "imageId": "figure-hamlet"
 }

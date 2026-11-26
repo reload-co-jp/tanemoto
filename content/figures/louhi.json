@@ -13,5 +13,6 @@
   "relatedFigureIds": ["ilmarinen", "vainamoinen", "lemminkainen"],
   "relatedStoryIds": ["forging-of-the-sampo", "lemminkainen-in-tuonela"],
   "articleIds": [],
-  "sourceIds": ["kalevala"]
+  "sourceIds": ["kalevala"],
+  "imageId": "figure-louhi"
 }
