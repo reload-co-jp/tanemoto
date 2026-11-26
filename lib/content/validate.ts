@@ -344,6 +344,7 @@ export const validateContent = (
     refs(f, "mythologyIds", work.mythologyIds, mythologies, "mythology")
     refs(f, "articleIds", work.articleIds, articles, "article")
     refs(f, "sourceIds", work.sourceIds, sources, "source")
+    refs(f, "imageIds", work.imageIds, images, "image")
   }
 
   // --- キャラクター -----------------------------------------------------------

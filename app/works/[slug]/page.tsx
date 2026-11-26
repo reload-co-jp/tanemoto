@@ -2,6 +2,7 @@ import { notFound } from "next/navigation"
 import { ArticleList } from "@/components/article/ArticleCard"
 import { OriginSummary } from "@/components/character/OriginSummary"
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
+import { ImageFigure } from "@/components/common/ImageFigure"
 import { InfoTable } from "@/components/common/InfoTable"
 import { Link } from "@/components/common/Link"
 import { ChipList, PageHeader, Section } from "@/components/common/PageParts"
@@ -11,6 +12,7 @@ import {
   getArticles,
   getArticlesForWork,
   getCharactersForWork,
+  getImage,
   getMotifFigures,
   getMythologiesByIds,
   getWork,
@@ -64,6 +66,36 @@ const styles = css`
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+  .t-work-visual {
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+  .t-work-text p + p {
+    margin-top: 1em;
+  }
+  .t-highlights {
+    display: grid;
+    gap: 16px;
+    counter-reset: highlight;
+  }
+  .t-highlights h3 {
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+  }
+  .t-highlights h3::before {
+    counter-increment: highlight;
+    content: counter(highlight) ". ";
+    color: ${color.accentDeep};
+  }
+  .t-gallery {
+    display: grid;
+    gap: 20px;
+  }
+  @media ${bp.md} {
+    .t-gallery {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
   .t-disclaimer {
     font-size: 0.8rem;
     color: ${color.muted};
@@ -83,6 +115,21 @@ const Page = async ({ params }: Props) => {
       !direct.includes(a) &&
       a.figureIds.some((id) => motifFigures.some((f) => f.id === id))
   )
+  // 作品の画像 → キャラクターの画像 → 元ネタ人物の画像の順に、重複なしで掲載する
+  const visuals = [
+    ...work.imageIds.map((id) => ({ id, caption: undefined })),
+    ...characters.map((c) => ({ id: c.imageId, caption: c.name })),
+    ...motifFigures.map((f) => ({
+      id: f.imageId,
+      caption: `元ネタ：${f.name}`,
+    })),
+  ]
+    .filter((v, i, a) => a.findIndex((x) => x.id === v.id) === i)
+    .flatMap(({ id, caption }) => {
+      const image = getImage(id)
+      return image ? [{ image, caption }] : []
+    })
+  const [keyVisual, ...gallery] = visuals
   return (
     <>
       <Style id="work">{styles}</Style>
@@ -98,6 +145,21 @@ const Page = async ({ params }: Props) => {
         title={`『${work.title}』${kindsLabel(characters)}の元ネタ`}
         description={work.description}
       />
+      {keyVisual && (
+        <div className="t-work-visual">
+          <ImageFigure {...keyVisual} eager />
+        </div>
+      )}
+      {work.world && (
+        <Section title="世界観" en="World" id="world">
+          <Paragraphs text={work.world} />
+        </Section>
+      )}
+      {work.synopsis && (
+        <Section title="あらすじ" en="Story" id="story">
+          <Paragraphs text={work.synopsis} />
+        </Section>
+      )}
 
       {characters.length > 0 ? (
         groupByKind(characters).map((group, i, groups) => (
@@ -123,6 +185,28 @@ const Page = async ({ params }: Props) => {
       ) : (
         <Section title="キャラクターと元ネタ" en="Characters" id="characters">
           <p className="t-empty">キャラクターの元ネタ解説は準備中です。</p>
+        </Section>
+      )}
+
+      {work.highlights.length > 0 && (
+        <Section title="みどころ" en="Highlights" id="highlights">
+          <div className="t-highlights">
+            {work.highlights.map((h) => (
+              <div key={h.title}>
+                <h3>{h.title}</h3>
+                <Paragraphs text={h.text} />
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
+      {gallery.length > 0 && (
+        <Section title="画像で見る元ネタ" en="Gallery" id="gallery">
+          <div className="t-gallery">
+            {gallery.map((v) => (
+              <ImageFigure key={v.image.id} {...v} />
+            ))}
+          </div>
         </Section>
       )}
 
@@ -180,5 +264,14 @@ const Page = async ({ params }: Props) => {
     </>
   )
 }
+
+/** 空行区切りの段落 */
+const Paragraphs = ({ text }: { text: string }) => (
+  <div className="t-work-text">
+    {text.split(/\n{2,}/).map((p, i) => (
+      <p key={i}>{p}</p>
+    ))}
+  </div>
+)
 
 export default Page

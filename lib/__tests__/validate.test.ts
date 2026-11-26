@@ -155,6 +155,8 @@ describe("validateContent: characters", () => {
     mediaTypes: [],
     author: "作者",
     description: "d",
+    highlights: [],
+    imageIds: [],
     mythologyIds: [],
     articleIds: [],
     sourceIds: [],

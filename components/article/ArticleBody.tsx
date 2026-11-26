@@ -1,12 +1,13 @@
 import { Fragment } from "react"
 import { AdSlot } from "@/components/common/AdSlot"
+import { ImageFigure } from "@/components/common/ImageFigure"
 import {
   ClassificationLabel,
   classificationInfo,
 } from "@/components/common/ClassificationLabel"
 import type { Block, Claim, Image, Source } from "@/lib/content/schema"
 import { headingAnchors } from "@/lib/content/text"
-import { assetPath, site } from "@/lib/site"
+import { site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import {
   bp,
@@ -129,18 +130,6 @@ const styles = css`
   ${Object.entries(classificationColor)
     .map(([k, c]) => `.t-note--${k}{border-left:8px solid ${c.fg};}`)
     .join("")}
-  .t-figure img {
-    width: 100%;
-    height: auto;
-    border: 2.5px solid ${color.line};
-    border-radius: 14px;
-  }
-  .t-figure figcaption {
-    font-size: 0.8rem;
-    color: ${color.muted};
-    margin-top: 6px;
-    line-height: 1.6;
-  }
 `
 
 /** 記事内広告を挟む h2 の順番（1始まり）。冒頭を避け、2番目・4番目の大見出しの直前に入れる */
@@ -248,28 +237,7 @@ export const ArticleBody = ({
       case "image": {
         const image = images.find((img) => img.id === block.imageId)
         if (!image) return null
-        return (
-          <figure key={i} className="t-figure">
-            <img
-              src={assetPath(image.src)}
-              alt={image.alt}
-              width={image.width}
-              height={image.height}
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>
-              {block.caption && (
-                <>
-                  {block.caption}
-                  <br />
-                </>
-              )}
-              {image.aiGenerated && "【AI生成画像・実在の史料ではありません】"}
-              出典：{image.credit}（{image.license}）
-            </figcaption>
-          </figure>
-        )
+        return <ImageFigure key={i} image={image} caption={block.caption} />
       }
     }
   }

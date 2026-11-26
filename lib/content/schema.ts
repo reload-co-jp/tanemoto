@@ -252,6 +252,16 @@ export const workSchema = z.object({
   /** 連載・放送期間など */
   period: z.string().optional(),
   description: z.string().min(1),
+  /** 世界観・舞台設定（作品の設定＝CREATIVE） */
+  world: z.string().optional(),
+  /** あらすじ（序盤まで。結末のネタバレは書かない） */
+  synopsis: z.string().optional(),
+  /** みどころ（神話ファン目線の注目ポイント） */
+  highlights: z
+    .array(z.object({ title: z.string().min(1), text: z.string().min(1) }))
+    .default([]),
+  /** 作品ページに掲載する画像（キャラクター・元ネタ人物の画像も自動で掲載する） */
+  imageIds: ids,
   mythologyIds: ids,
   articleIds: ids,
   sourceIds: ids,
