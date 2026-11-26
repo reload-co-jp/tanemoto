@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
+import { Link } from "@/components/common/Link"
 import { Mascot, MascotName } from "@/components/common/Mascot"
 import { PageHeader, Section } from "@/components/common/PageParts"
 import { buildMetadata } from "@/lib/seo"
@@ -146,7 +147,10 @@ const Page = () => (
           <li>
             サイト名：{site.name}（{site.nameEn}）
           </li>
-          <li>運営：{site.publisher.name}</li>
+          <li>
+            運営：
+            <Link href={site.publisher.url}>{site.publisher.name}</Link>
+          </li>
           <li>URL：{site.url}/</li>
         </ul>
       </Section>

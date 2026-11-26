@@ -22,7 +22,8 @@ export const site = {
   basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
   locale: "ja_JP",
   publisher: {
-    name: "タネトモ編集部",
+    name: "株式会社リロード",
+    url: "https://reload.co.jp",
   },
   defaultOgImage: "/og-default.jpg",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "G-5N5WF76HTW",

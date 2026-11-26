@@ -88,7 +88,7 @@ export const organizationJsonLd = () => ({
   "@type": "Organization",
   "@id": organizationId,
   name: site.publisher.name,
-  url: absoluteUrl("/"),
+  url: site.publisher.url,
   logo: absoluteUrl("/icon-512.png"),
 })
 
@@ -127,7 +127,7 @@ const publisherJsonLd = () => ({
   "@type": "Organization",
   "@id": organizationId,
   name: site.publisher.name,
-  url: absoluteUrl("/"),
+  url: site.publisher.url,
   logo: { "@type": "ImageObject", url: absoluteUrl("/icon-512.png") },
 })
 
