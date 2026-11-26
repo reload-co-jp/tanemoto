@@ -13,7 +13,7 @@ const nav = [
   { href: paths.articles(), label: "記事", en: "Articles" },
 ]
 
-const marquee = "+++ Tomotane — Origins of Stories +++ "
+const marquee = "+++ Tanetomo — Origins of Stories +++ "
 
 const styles = css`
   .t-header {

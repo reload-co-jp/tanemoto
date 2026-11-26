@@ -17,7 +17,7 @@ export const PageHeader = ({
 }) => (
   <header
     className="t-page-header"
-    data-title={`${(eyebrow?.match(/^[A-Za-z][A-Za-z ]*/)?.[0] ?? "Tomotane").trim().replace(/\s+/g, "_")}.txt`}
+    data-title={`${(eyebrow?.match(/^[A-Za-z][A-Za-z ]*/)?.[0] ?? "Tanetomo").trim().replace(/\s+/g, "_")}.txt`}
   >
     {eyebrow && <p className="t-page-header__eyebrow">{eyebrow}</p>}
     <h1 className="t-page-header__title">{title}</h1>

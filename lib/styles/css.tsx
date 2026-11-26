@@ -28,7 +28,7 @@ export const Style = ({
   children: string
   precedence?: "base" | "components"
 }) => (
-  <style href={`tomotane-${id}`} precedence={precedence}>
+  <style href={`tanetomo-${id}`} precedence={precedence}>
     {children}
   </style>
 )

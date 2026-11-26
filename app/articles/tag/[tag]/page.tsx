@@ -22,7 +22,7 @@ export const generateMetadata = async ({ params }: Props) => {
   const tag = decode((await params).tag)
   return buildMetadata({
     title: `「${tag}」の記事一覧`,
-    description: `「${tag}」に関するトモタネの記事一覧です。`,
+    description: `「${tag}」に関するタネトモの記事一覧です。`,
     path: paths.tag(tag),
     // タグページは重複コンテンツになりやすいため noindex（リンクは辿らせる）
     noindex: true,

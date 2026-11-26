@@ -34,7 +34,7 @@ const Page = () => (
     <PageHeader
       eyebrow="Editorial Policy"
       title="編集方針"
-      description="トモタネが記事を作成する際の基準と、情報の示し方について説明します。"
+      description="タネトモが記事を作成する際の基準と、情報の示し方について説明します。"
     />
     <div className="t-prose">
       <Section title="基本方針" id="principles">
@@ -57,7 +57,7 @@ const Page = () => (
 
       <Section title="解説の構成" id="structure">
         <p>
-          トモタネでは、アニメ・漫画のキャラクターを入口に、次の順で元ネタを解説します。
+          タネトモでは、アニメ・漫画のキャラクターを入口に、次の順で元ネタを解説します。
         </p>
         <ol>
           <li>キャラクター名と、作品での位置づけ（作品の設定）</li>

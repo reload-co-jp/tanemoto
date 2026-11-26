@@ -1,7 +1,7 @@
 {
-  "name": "tomotane",
+  "name": "tanetomo",
   "version": "1.0.0",
-  "description": "トモタネ — 物語、キャラクターの元をたどる。",
+  "description": "タネトモ — 物語、キャラクターの元をたどる。",
   "type": "module",
   "scripts": {
     "dev": "next dev",
