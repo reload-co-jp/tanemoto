@@ -16,7 +16,7 @@ const crew: { mascot: MascotName; name: string; text: string }[] = [
   {
     mascot: "ferret-front",
     name: "フェレットの旅人",
-    text: "トモタネの主人公。羅針盤のブローチと古い本を手に、キャラクターの名前やモチーフの「元」をたどる旅をしている。",
+    text: "タネトモの主人公。羅針盤のブローチと古い本を手に、キャラクターの名前やモチーフの「元」をたどる旅をしている。",
   },
   {
     mascot: "owl",
@@ -127,7 +127,7 @@ const Page = () => (
           が、作品とその背景にある文化や知識をつなぎ、新しい発見や楽しみ方に出会える場所になれば幸いです。
         </p>
       </Section>
-      <Section title="トモタネの仲間たち" id="crew">
+      <Section title="タネトモの仲間たち" id="crew">
         <p>サイトのあちこちで、元ネタをたどる旅の仲間たちが案内します。</p>
         <ul className="t-crew">
           {crew.map((c) => (

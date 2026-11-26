@@ -11,8 +11,8 @@
  *   NEXT_PUBLIC_GSC_VERIFICATION Google Search Console の所有権確認トークン
  */
 export const site = {
-  name: "トモタネ",
-  nameEn: "Tomotane",
+  name: "タネトモ",
+  nameEn: "Tanetomo",
   tagline: "物語、キャラクターの元をたどる。",
   description:
     "アニメ・漫画を入口に、キャラクターや設定の背景にある神話・伝承を、原典と研究にもとづいて解説する知識メディア。",
@@ -22,7 +22,7 @@ export const site = {
   basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
   locale: "ja_JP",
   publisher: {
-    name: "トモタネ編集部",
+    name: "タネトモ編集部",
   },
   defaultOgImage: "/og-default.jpg",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "G-5N5WF76HTW",

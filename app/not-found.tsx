@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/common/PageParts"
 import { paths } from "@/lib/site"
 
 export const metadata = {
-  title: "ページが見つかりません｜トモタネ",
+  title: "ページが見つかりません｜タネトモ",
   robots: { index: false },
 }
 

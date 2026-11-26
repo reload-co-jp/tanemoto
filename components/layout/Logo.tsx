@@ -60,12 +60,12 @@ const styles = css`
 `
 
 export const Logo = ({ href }: { href: string }) => (
-  <a href={href} className="t-logo" aria-label="トモタネ トップページ">
+  <a href={href} className="t-logo" aria-label="タネトモ トップページ">
     <Style id="logo">{styles}</Style>
     <LogoMark />
     <span className="t-logo__text">
-      <span className="t-logo__name">トモタネ</span>
-      <span className="t-logo__en">Tomotane</span>
+      <span className="t-logo__name">タネトモ</span>
+      <span className="t-logo__en">Tanetomo</span>
     </span>
   </a>
 )

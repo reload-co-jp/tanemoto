@@ -158,7 +158,7 @@ export const Eyecatch = ({
       className={`t-eyecatch t-eyecatch--${variant}`}
       data-title={
         variant === "hero"
-          ? `${(eyebrow ?? "Tomotane").replace(/\s+/g, "_")}.png`
+          ? `${(eyebrow ?? "Tanetomo").replace(/\s+/g, "_")}.png`
           : undefined
       }
     >

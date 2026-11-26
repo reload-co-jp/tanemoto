@@ -6,7 +6,7 @@ import { paths } from "@/lib/site"
 export const metadata = buildMetadata({
   title: "記事一覧",
   description:
-    "トモタネの記事一覧。ギリシャ・北欧・日本など世界の神話・伝承に登場する神々や怪物、アニメ・漫画キャラクターの元ネタを原典にもとづいて解説します。",
+    "タネトモの記事一覧。ギリシャ・北欧・日本など世界の神話・伝承に登場する神々や怪物、アニメ・漫画キャラクターの元ネタを原典にもとづいて解説します。",
   path: paths.articles(),
 })
 

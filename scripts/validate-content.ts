@@ -23,7 +23,7 @@ const warnings = all.filter((i) => i.level === "warning")
 const published = data.articles.filter((a) => a.status === "published").length
 const drafts = data.articles.length - published
 
-console.log("トモタネ コンテンツ検証")
+console.log("タネトモ コンテンツ検証")
 console.log(
   `  記事 ${data.articles.length}件（公開 ${published} / 下書き ${drafts}）` +
     ` 人物・怪物 ${data.figures.length} 神話 ${data.mythologies.length}` +

@@ -10,7 +10,7 @@ import { color, font } from "@/lib/styles/theme"
 export const metadata = buildMetadata({
   title: "サイト内検索",
   description:
-    "トモタネの記事・人物・怪物・作品・神話をキーワードで検索できます。",
+    "タネトモの記事・人物・怪物・作品・神話をキーワードで検索できます。",
   path: paths.search(),
   noindex: true,
 })

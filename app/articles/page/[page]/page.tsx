@@ -21,7 +21,7 @@ export const generateMetadata = async ({ params }: Props) => {
   const { page } = await params
   return buildMetadata({
     title: `記事一覧（${page}ページ目）`,
-    description: `トモタネの記事一覧（${page}ページ目）。${paginate(
+    description: `タネトモの記事一覧（${page}ページ目）。${paginate(
       getArticles(),
       Number(page)
     )
