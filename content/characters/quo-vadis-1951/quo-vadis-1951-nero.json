@@ -1,0 +1,85 @@
+{
+  "id": "quo-vadis-1951-nero",
+  "slug": "quo-vadis-1951-nero",
+  "name": "ネロ",
+  "reading": "ねろ",
+  "alternativeNames": [],
+  "workId": "quo-vadis-1951",
+  "description": {
+    "text": "ローマ皇帝。ふるまいはしだいに常軌を逸していき、ローマに火を放ったうえでその罪をキリスト教徒に着せ、彼らを捕らえて競技場で虐殺させる。",
+    "claimIds": ["qv51-nr-work"]
+  },
+  "nameOrigin": {
+    "text": "ローマ帝国第5代皇帝ネロそのもの。",
+    "claimIds": ["qv51-nr-work", "qv51-nr-myth-fire"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "nero",
+      "label": "ローマ大火とキリスト教徒迫害",
+      "inWork": {
+        "text": "ネロはローマを焼き払ってその罪をキリスト教徒に着せ、彼らを捕らえて自らの競技場で虐殺するよう命じる。一部はライオンに殺される。",
+        "claimIds": ["qv51-nr-work"]
+      },
+      "inMyth": {
+        "text": "タキトゥスによれば、紀元後64年のローマ大火ののち、ネロが燃える都を見ながらトロイアの陥落を歌ったという噂が広まった。ネロはこの噂を打ち消すため、キリスト教徒に罪を着せて処刑した。",
+        "claimIds": ["qv51-nr-myth-fire"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "nero",
+      "label": "歌う皇帝",
+      "inWork": {
+        "text": "ネロの残虐なふるまいはしだいにひどくなり、その言動はますます理性を失っていく。側近ペトロニウスの忠告にも耳を貸さない。",
+        "claimIds": ["qv51-nr-work"]
+      },
+      "inMyth": {
+        "text": "スエトニウスによれば、ネロは歌と竪琴に熱中し、ナポリを皮切りに自ら舞台に立って歌った。",
+        "claimIds": ["qv51-nr-myth-stage"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "タキトゥスは、ネロが放火したかどうかは定かでないとして、燃える都で歌ったという話も噂として伝えている。映画は、ネロ自身が都に火を放ったものとして描いている。",
+      "claimIds": ["qv51-nr-myth-fire", "qv51-nr-work", "qv51-nr-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "qv51-nr-work",
+      "text": "ネロの残虐な行いはますますひどくなり、ふるまいは理性を失っていく。ネロはローマを焼き払ってその罪をキリスト教徒に着せ、マルクスはリギアとその家族を救いに向かう。ネロはリギアたちをほかのキリスト教徒とともに捕らえ、自らの競技場で虐殺するよう命じ、一部はライオンに殺される。側近のペトロニウスは、キリスト教徒が殉教者としてたたえられることになると警告するが、皇帝の考えを変えることはできない。",
+      "classification": "creative",
+      "sourceIds": ["work-quo-vadis-1951"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Quo Vadis (1951 film)」の記述で確認。"
+    },
+    {
+      "id": "qv51-nr-myth-fire",
+      "text": "紀元後64年のローマ大火ののち、ネロが燃える都を見ながらトロイアの陥落を歌ったという噂が広まった。ネロはこの噂を打ち消すため、キリスト教徒に罪を着せて処刑した。",
+      "classification": "fact",
+      "sourceIds": ["tacitus-annals"],
+      "verificationStatus": "verified",
+      "sourceLocation": "タキトゥス『年代記』15.38–44"
+    },
+    {
+      "id": "qv51-nr-myth-stage",
+      "text": "ネロは歌と竪琴に熱中し、ナポリを皮切りに自ら舞台に立って歌った。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-nero"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『ネロ伝』20–21章"
+    },
+    {
+      "id": "qv51-nr-cmp-1",
+      "text": "タキトゥスは、ネロが放火したかどうかは定かでないとして、燃える都で歌ったという話も噂として伝えている。映画は、ネロ自身が都に火を放ったものとして描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-quo-vadis-1951", "tacitus-annals", "suetonius-nero"],
+  "articleIds": []
+}

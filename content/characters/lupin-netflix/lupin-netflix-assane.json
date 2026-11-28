@@ -1,0 +1,93 @@
+{
+  "id": "lupin-netflix-assane",
+  "slug": "lupin-netflix-assane",
+  "name": "アサン・ディオプ",
+  "reading": "あさん・でぃおぷ",
+  "alternativeNames": [],
+  "workId": "lupin-netflix",
+  "description": {
+    "text": "セネガルからの移民の一人息子で、プロの泥棒。父が富豪ペレグリニに首飾り盗難の罪を着せられて獄中で命を絶った25年後、父から贈られたアルセーヌ・ルパンの本に触発されて、父の汚名をすすぎペレグリニ家に復讐しようとする。",
+    "claimIds": ["lpn-as-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "figureId": "arsene-lupin",
+      "label": "怪盗紳士ルパン",
+      "inWork": {
+        "text": "アサンは、父が誕生日に贈ってくれた紳士怪盗アルセーヌ・ルパンの本に触発され、持ち前の魅力と変装の技を使って父の復讐に乗り出す。",
+        "claimIds": ["lpn-as-work"]
+      },
+      "inMyth": {
+        "text": "ルブランの「アルセーヌ・ルパンの逮捕」では、ニューヨーク行きの客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という無線が届き、乗客たちは正体を探ったが、ルパンは乗客にまぎれていた。",
+        "claimIds": ["lpn-as-myth-arrest"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "arsene-lupin",
+      "label": "ラウールという名",
+      "inWork": {
+        "text": "第2部では、誘拐されたアサンの息子ラウールの捜索が描かれる。",
+        "claimIds": ["lpn-as-work-raoul"]
+      },
+      "inMyth": {
+        "text": "ルブランの『カリオストロ伯爵夫人』では、20歳のルパンが「ラウール・ダンドレジー」と名乗り、カリオストロ伯爵夫人をめぐる冒険に巻き込まれる。",
+        "claimIds": ["lpn-as-myth-raoul"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ルブランのルパンは、変装と大胆な予告で世間を騒がせる紳士怪盗である。アサンはそのルパンを手本にしながら、父の無実を晴らすという個人的な目的のために盗みの技をふるう。",
+      "claimIds": ["lpn-as-myth-arrest", "lpn-as-work", "lpn-as-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "lpn-as-work",
+      "text": "物語の主人公はプロの泥棒アサン・ディオプ。よりよい暮らしを求めてセネガルからフランスに来た移民の一人息子である。アサンの父は、裕福で権力のある雇い主ユベール・ペレグリニに高価なダイヤモンドの首飾りを盗んだ罪を着せられ、獄中で命を絶ち、14歳のアサンはパリの街でひとり生きていくことになる。25年後、父が誕生日に贈ってくれた紳士怪盗アルセーヌ・ルパンの本に触発されたアサンは、持ち前の魅力を武器に、父の汚名をすすいでペレグリニ家に復讐しようとする。",
+      "classification": "creative",
+      "sourceIds": ["work-lupin-netflix"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Lupin (French TV series)」の記述で確認。"
+    },
+    {
+      "id": "lpn-as-work-raoul",
+      "text": "第2部では、誘拐されたアサンの息子ラウールの捜索と、ペレグリニを倒す計画が描かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-lupin-netflix"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Lupin (French TV series)」の記述で確認。"
+    },
+    {
+      "id": "lpn-as-myth-arrest",
+      "text": "ニューヨーク行きの客船プロヴァンス号に「アルセーヌ・ルパンが偽名で乗船している」という無線が届き、乗客たちは正体を探ったが、ルパンは乗客にまぎれていた。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-gentleman-burglar"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『怪盗紳士ルパン』所収「アルセーヌ・ルパンの逮捕」"
+    },
+    {
+      "id": "lpn-as-myth-raoul",
+      "text": "20歳のルパンは「ラウール・ダンドレジー」と名乗り、カリオストロ伯爵夫人をめぐる冒険に巻き込まれる。",
+      "classification": "fact",
+      "sourceIds": ["leblanc-cagliostro"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カリオストロ伯爵夫人』"
+    },
+    {
+      "id": "lpn-as-cmp-1",
+      "text": "ルブランのルパンは、変装と大胆な予告で世間を騒がせる紳士怪盗である。アサンはそのルパンを手本にしながら、父の無実を晴らすという個人的な目的のために盗みの技をふるう。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-lupin-netflix",
+    "leblanc-gentleman-burglar",
+    "leblanc-cagliostro"
+  ],
+  "articleIds": []
+}

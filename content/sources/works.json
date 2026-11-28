@@ -889,5 +889,41 @@
     "type": "work",
     "publishedPeriod": "2011年",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-twenty-thousand-leagues-1954",
+    "title": "海底二万哩",
+    "author": "リチャード・フライシャー（監督）",
+    "type": "work",
+    "publishedPeriod": "1954年（米国公開）",
+    "publisher": "ウォルト・ディズニー・プロダクション",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-lupin-netflix",
+    "title": "Lupin",
+    "author": "ジョージ・ケイ、フランソワ・ユザン（企画）",
+    "type": "work",
+    "publishedPeriod": "2021年〜（Netflix）",
+    "publisher": "Netflix",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-bram-stokers-dracula",
+    "title": "ドラキュラ",
+    "author": "フランシス・フォード・コッポラ（監督）",
+    "type": "work",
+    "publishedPeriod": "1992年（米国公開）",
+    "publisher": "コロンビア ピクチャーズ",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-quo-vadis-1951",
+    "title": "クォ・ヴァディス",
+    "author": "マーヴィン・ルロイ（監督）",
+    "type": "work",
+    "publishedPeriod": "1951年（米国公開）",
+    "publisher": "MGM",
+    "notes": "作品内の設定について述べる際の出典。"
   }
 ]

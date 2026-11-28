@@ -1,0 +1,93 @@
+{
+  "id": "bram-stokers-dracula-dracula",
+  "slug": "bram-stokers-dracula-dracula",
+  "name": "ドラキュラ伯爵",
+  "reading": "どらきゅらはくしゃく",
+  "alternativeNames": ["ヴラド・ドラキュラ"],
+  "workId": "bram-stokers-dracula",
+  "description": {
+    "text": "トランシルヴァニアの老伯爵。その正体は、1462年に妻エリザベータの死をきっかけに神を捨て、吸血鬼となったヴラド・ドラキュラ。ジョナサン・ハーカーの婚約者ミナを妻の生まれ変わりと信じてロンドンへ渡る。",
+    "claimIds": ["bsd-dr-work", "bsd-dr-work-mina"]
+  },
+  "nameOrigin": {
+    "text": "ブラム・ストーカー『吸血鬼ドラキュラ』の伯爵から。本作ではワラキア公ヴラド・ドラキュラと同一人物とされる。",
+    "claimIds": ["bsd-dr-work", "bsd-dr-myth-turk"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "dracula",
+      "label": "トルコと戦った武将",
+      "inWork": {
+        "text": "1462年、ヴラド・ドラキュラはオスマン帝国との戦いに勝利して戻るが、妻エリザベータの自殺を知って神を捨て、教会の十字架に剣を突き立ててあふれ出た血を飲み、吸血鬼となる。",
+        "claimIds": ["bsd-dr-work"]
+      },
+      "inMyth": {
+        "text": "『吸血鬼ドラキュラ』では、ヴァン・ヘルシングが、ドラキュラをかつて大河を越えて何度もトルコの地に軍を進め、打ち負かされても再び戻ってきた武将だと語る。",
+        "claimIds": ["bsd-dr-myth-turk"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "dracula",
+      "label": "ロンドンへの移住",
+      "inWork": {
+        "text": "伯爵はジョナサンを城に残して花嫁たちの餌食にし、トランシルヴァニアの土を積んでイギリスへ渡り、カーファックス修道院に住まいを構える。",
+        "claimIds": ["bsd-dr-work-mina"]
+      },
+      "inMyth": {
+        "text": "『吸血鬼ドラキュラ』では、ハーカーがひげを剃っていると背後に伯爵が現れたが、鏡には部屋全体が映っているのに伯爵の姿は映っていなかった。",
+        "claimIds": ["bsd-dr-myth-mirror"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の伯爵は、トルコと戦った一族の者として語られるにとどまる。本作は伯爵を15世紀のヴラドそのものとし、妻を失った悲しみから吸血鬼になったという、原作にない悲恋の物語を与えている。",
+      "claimIds": ["bsd-dr-myth-turk", "bsd-dr-work", "bsd-dr-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "bsd-dr-work",
+      "text": "1462年、ヴラド・ドラキュラはオスマン帝国との戦いに勝利して戻るが、敵が彼の戦死を偽って伝えたため、愛する妻エリザベータが自殺していたことを知る。司祭に、自殺した妻の魂は地獄に落ちると告げられたヴラドは激怒して礼拝堂を汚し、神を捨てて、闇の力でよみがえり妻の復讐を果たすと宣言する。ヴラドは礼拝堂の石の十字架に剣を突き立て、流れ出た血を飲んで吸血鬼となる。",
+      "classification": "creative",
+      "sourceIds": ["work-bram-stokers-dracula"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Bram Stoker's Dracula (1992 film)」の記述で確認。"
+    },
+    {
+      "id": "bsd-dr-work-mina",
+      "text": "1897年、弁護士ジョナサン・ハーカーはドラキュラの城を訪れる。伯爵はジョナサンの婚約者ミナ・マレーの写真を見つけ、彼女がエリザベータの生まれ変わりだと信じる。伯爵はジョナサンを花嫁たちの餌食に残し、トランシルヴァニアの土とともにイギリスへ渡ってカーファックス修道院に住む。",
+      "classification": "creative",
+      "sourceIds": ["work-bram-stokers-dracula"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Bram Stoker's Dracula (1992 film)」の記述で確認。"
+    },
+    {
+      "id": "bsd-dr-myth-turk",
+      "text": "ヴァン・ヘルシングは、ドラキュラをかつて大河を越えて何度もトルコの地に軍を進め、打ち負かされても再び戻ってきた武将だと語る。",
+      "classification": "fact",
+      "sourceIds": ["stoker-dracula"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『吸血鬼ドラキュラ』第25章"
+    },
+    {
+      "id": "bsd-dr-myth-mirror",
+      "text": "ハーカーがひげを剃っていると背後に伯爵が現れたが、鏡には部屋全体が映っているのに伯爵の姿は映っていなかった。",
+      "classification": "fact",
+      "sourceIds": ["stoker-dracula"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『吸血鬼ドラキュラ』第2章"
+    },
+    {
+      "id": "bsd-dr-cmp-1",
+      "text": "原作の伯爵は、トルコと戦った一族の者として語られるにとどまる。本作は伯爵を15世紀のヴラドそのものとし、妻を失った悲しみから吸血鬼になったという、原作にない悲恋の物語を与えている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-bram-stokers-dracula", "stoker-dracula"],
+  "articleIds": []
+}

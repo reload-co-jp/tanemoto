@@ -1,0 +1,97 @@
+{
+  "id": "twenty-thousand-leagues-1954-nemo",
+  "slug": "twenty-thousand-leagues-1954-nemo",
+  "name": "ネモ船長",
+  "reading": "ねもせんちょう",
+  "alternativeNames": [],
+  "workId": "twenty-thousand-leagues-1954",
+  "description": {
+    "text": "潜水艦ノーチラス号の船長。文明社会から意図的に身を引き、海の恵みだけで暮らしている。かつて囚人として捕らわれ、ある国に妻と息子を拷問で殺された過去をもち、戦争のための軍需船を沈めていく。",
+    "claimIds": ["tl54-nm-work", "tl54-nm-work-past"]
+  },
+  "nameOrigin": {
+    "text": "ジュール・ヴェルヌ『海底二万里』のネモ船長から。",
+    "claimIds": ["tl54-nm-work", "tl54-nm-myth-nautilus"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "captain-nemo",
+      "label": "陸を捨てた船長",
+      "inWork": {
+        "text": "ネモはアロナックスたちに、自分は意図的に文明から身を引いたのであり、海は必要なものをすべて与えてくれると語る。",
+        "claimIds": ["tl54-nm-work"]
+      },
+      "inMyth": {
+        "text": "『海底二万里』では、アロナックス教授は潜水艦ノーチラス号に捕らわれ、船長ネモから、自分は陸の人間社会と縁を切った者だと告げられる。ネモは二度と陸に戻らないことを条件に船内での自由を与えた。",
+        "claimIds": ["tl54-nm-myth-nautilus"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "captain-nemo",
+      "label": "家族を奪われた過去",
+      "inWork": {
+        "text": "ネモはかつて囚人だった流刑地の島で軍需船を沈め、「この憎むべき国」が、自分の発見を明かさせようとして妻と息子を拷問で殺したと語る。",
+        "claimIds": ["tl54-nm-work-past"]
+      },
+      "inMyth": {
+        "text": "『神秘の島』では、死を前にしたネモが、自分はインドの藩王国の王子ダカールであり、1857年のインド大反乱でイギリスと戦って家族を失い、海に逃れたことを明かした。",
+        "claimIds": ["tl54-nm-myth-dakkar"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作では、ネモの過去は続編の『神秘の島』でインドの王子ダカールとして明かされる。映画では、国の名を伏せたまま、発見の秘密をめぐって妻子を殺されたという物語に置き換えられている。",
+      "claimIds": ["tl54-nm-myth-dakkar", "tl54-nm-work-past", "tl54-nm-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "tl54-nm-work",
+      "text": "船長はネモ船長と名乗り、ノーチラス号の主であると自己紹介する。ネモは、自分は意図的に文明から身を引いたのであり、海が必要なものをすべて与えてくれると説明する。アロナックスは、ノーチラス号の高度な技術をはじめとするネモの発見や発明に驚嘆する。",
+      "classification": "creative",
+      "sourceIds": ["work-twenty-thousand-leagues-1954"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「20,000 Leagues Under the Sea (1954 film)」の記述で確認。"
+    },
+    {
+      "id": "tl54-nm-work-past",
+      "text": "ノーチラス号は、囚人たちが軍需船に荷を積んでいる流刑地の島に着く。かつてそこの囚人だったネモは、船に体当たりして破壊する。ネモはアロナックスに、自分は戦争による何千もの死を防いだのだと言い、「この憎むべき国」が自分の発見を明かさせようとして妻と息子を拷問で殺したと語る。",
+      "classification": "creative",
+      "sourceIds": ["work-twenty-thousand-leagues-1954"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「20,000 Leagues Under the Sea (1954 film)」の記述で確認。"
+    },
+    {
+      "id": "tl54-nm-myth-nautilus",
+      "text": "アロナックス教授は潜水艦ノーチラス号に捕らわれ、船長ネモから、自分は陸の人間社会と縁を切った者だと告げられる。ネモは二度と陸に戻らないことを条件に船内での自由を与えた。",
+      "classification": "fact",
+      "sourceIds": ["verne-twenty-thousand-leagues"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『海底二万里』第1部 第10章ほか"
+    },
+    {
+      "id": "tl54-nm-myth-dakkar",
+      "text": "死を前にしたネモは、自分がインドの藩王国の王子ダカールであり、1857年のインド大反乱でイギリスと戦って家族を失い、海に逃れたことを明かした。ネモはノーチラス号とともに海に沈んだ。",
+      "classification": "fact",
+      "sourceIds": ["verne-mysterious-island"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神秘の島』第3部 第16章"
+    },
+    {
+      "id": "tl54-nm-cmp-1",
+      "text": "原作では、ネモの過去は続編の『神秘の島』でインドの王子ダカールとして明かされる。映画では、国の名を伏せたまま、発見の秘密をめぐって妻子を殺されたという物語に置き換えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-twenty-thousand-leagues-1954",
+    "verne-twenty-thousand-leagues",
+    "verne-mysterious-island"
+  ],
+  "articleIds": []
+}
