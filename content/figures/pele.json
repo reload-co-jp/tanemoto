@@ -71,5 +71,6 @@
   "relatedFigureIds": ["hiiaka"],
   "relatedStoryIds": ["pele-comes-to-hawaii"],
   "articleIds": [],
-  "sourceIds": ["westervelt-volcanoes"]
+  "sourceIds": ["westervelt-volcanoes"],
+  "imageId": "figure-pele"
 }
