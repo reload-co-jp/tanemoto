@@ -18,6 +18,7 @@ import { JsonLd } from "@/components/seo/JsonLd"
 import { classifications, figureTypes } from "@/lib/content/schema"
 import {
   getArticle,
+  getArticleImage,
   getArticles,
   getCategory,
   getCharactersForArticle,
@@ -53,7 +54,7 @@ export const generateMetadata = async ({ params }: Props) => {
     description: article.description,
     path: paths.article(article.slug),
     type: "article",
-    image: getImage(article.thumbnail)?.src,
+    image: getArticleImage(article),
     publishedTime: article.publishedAt,
     modifiedTime: article.updatedAt,
     tags: article.tags,
@@ -248,7 +249,7 @@ const Page = async ({ params }: Props) => {
       <JsonLd
         data={articleJsonLd(
           article,
-          visual.image?.src,
+          getArticleImage(article)?.src,
           getFiguresByIds(article.figureIds)
         )}
       />

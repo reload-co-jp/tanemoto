@@ -251,6 +251,30 @@ export const getArticlesForSource = (source: Source) =>
 export const getImage = (id: string | undefined): Image | undefined =>
   id ? byId(content().images, id) : undefined
 
+/** キャラクターの代表画像（OGP・構造化データ用）。なければ主な元ネタ人物の画像 */
+export const getCharacterImage = (character: Character): Image | undefined =>
+  getImage(character.imageId) ??
+  getFiguresByIds(character.motifs.flatMap((m) => m.figureId ?? []))
+    .map((f) => getImage(f.imageId))
+    .find((img) => img !== undefined)
+
+/** 記事の代表画像（OGP・構造化データ用）。サムネイル → 本文の画像 → 関連人物の画像 */
+export const getArticleImage = (article: Article): Image | undefined =>
+  getImage(article.thumbnail) ??
+  article.body
+    .map((b) => (b.type === "image" ? getImage(b.imageId) : undefined))
+    .find((img) => img !== undefined) ??
+  getFiguresByIds(article.figureIds)
+    .map((f) => getImage(f.imageId))
+    .find((img) => img !== undefined)
+
+/** 作品の代表画像（OGP・構造化データ用）。なければ登場キャラクターの画像 */
+export const getWorkImage = (work: Work): Image | undefined =>
+  getImage(work.imageIds[0]) ??
+  getCharactersForWork(work)
+    .map(getCharacterImage)
+    .find((img) => img !== undefined)
+
 // --- トップページ --------------------------------------------------------------
 
 export const getFeaturedArticles = (limit = 3): Article[] => {

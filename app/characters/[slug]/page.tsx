@@ -19,6 +19,7 @@ import {
 import {
   getArticlesForCharacter,
   getCharacter,
+  getCharacterImage,
   getCharacters,
   getCharactersForWork,
   getCharactersWithSameMotif,
@@ -58,6 +59,7 @@ export const generateMetadata = async ({ params }: Props) => {
     title: `${character.name}（${work ? `${work.title}` : "作品"}）の元ネタは？${character.motifs[0].label}の${mainOriginNoun(character)}`,
     description: characterDescription(character, work),
     path: paths.character(character.slug),
+    image: getCharacterImage(character),
   })
 }
 
@@ -185,7 +187,8 @@ const Page = async ({ params }: Props) => {
           character,
           work,
           motifFigures,
-          characterDescription(character, work)
+          characterDescription(character, work),
+          getCharacterImage(character)
         )}
       />
       <Breadcrumbs

@@ -14,6 +14,7 @@ import {
   getArticlesForWork,
   getCharactersForWork,
   getImage,
+  getWorkImage,
   getMotifFigures,
   getMythologiesByIds,
   getWork,
@@ -53,6 +54,7 @@ export const generateMetadata = async ({ params }: Props) => {
       160
     ),
     path: paths.work(work.slug),
+    image: getWorkImage(work),
     noindex: characters.length === 0 && getArticlesForWork(work).length === 0,
   })
 }
@@ -134,7 +136,7 @@ const Page = async ({ params }: Props) => {
   return (
     <>
       <Style id="work">{styles}</Style>
-      <JsonLd data={workJsonLd(work, characters)} />
+      <JsonLd data={workJsonLd(work, characters, getWorkImage(work))} />
       <Breadcrumbs
         items={[
           { name: "作品", href: paths.works() },

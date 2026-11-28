@@ -1,11 +1,17 @@
+import type { Metadata } from "next"
 import { Link } from "@/components/common/Link"
 import { MascotTalk } from "@/components/common/Mascot"
 import { PageHeader } from "@/components/common/PageParts"
-import { paths } from "@/lib/site"
+import { paths, site } from "@/lib/site"
 
-export const metadata = {
-  title: "ページが見つかりません｜タネトモ",
+// ルートレイアウトの canonical・OGP（トップページ向け）を引き継がないよう明示的に外す
+export const metadata: Metadata = {
+  title: { absolute: `ページが見つかりません｜${site.name}` },
+  description: "お探しのページは移動または削除された可能性があります。",
   robots: { index: false },
+  alternates: { canonical: null },
+  openGraph: null,
+  twitter: null,
 }
 
 const NotFound = () => (

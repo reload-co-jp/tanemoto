@@ -50,7 +50,7 @@ export const generateMetadata = async ({ params }: Props) => {
     title: `${figure.name}（${mythology?.name ?? "神話"}）とは`,
     description: metaDescription(figure.description),
     path: paths.figure(figure.slug),
-    image: getImage(figure.imageId)?.src,
+    image: getImage(figure.imageId),
     noindex: !isFigureIndexable(figure),
   })
 }
@@ -69,7 +69,7 @@ const Page = async ({ params }: Props) => {
 
   return (
     <>
-      <JsonLd data={figureJsonLd(figure, mythologies)} />
+      <JsonLd data={figureJsonLd(figure, mythologies, image)} />
       <Breadcrumbs
         items={[
           { name: "人物・怪物", href: paths.figures() },

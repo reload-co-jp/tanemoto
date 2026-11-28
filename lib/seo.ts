@@ -3,6 +3,7 @@ import type {
   Article,
   Character,
   Figure,
+  Image,
   Mythology,
   Work,
 } from "./content/schema"
@@ -15,7 +16,8 @@ type MetaInput = {
   /** サイト内パス（canonical） */
   path: string
   type?: "website" | "article"
-  image?: string
+  /** OGP 画像。Image を渡すと実寸と alt も出力する（省略時はサイト既定画像） */
+  image?: string | Image
   publishedTime?: string
   modifiedTime?: string
   tags?: string[]
@@ -28,7 +30,7 @@ export const buildMetadata = ({
   description = site.description,
   path,
   type = "website",
-  image = site.defaultOgImage,
+  image,
   publishedTime,
   modifiedTime,
   tags,
@@ -38,7 +40,17 @@ export const buildMetadata = ({
   const fullTitle = title
     ? `${title}｜${site.name}`
     : `${site.name}｜${site.tagline}`
-  const imageUrl = absoluteUrl(image)
+  const ogImage =
+    typeof image === "object"
+      ? {
+          url: absoluteUrl(image.src),
+          width: image.width,
+          height: image.height,
+          alt: image.alt,
+        }
+      : image
+        ? { url: absoluteUrl(image) }
+        : { url: absoluteUrl(site.defaultOgImage), width: 1200, height: 630 }
   return {
     title: { absolute: fullTitle },
     description,
@@ -54,14 +66,14 @@ export const buildMetadata = ({
       description,
       siteName: site.name,
       locale: site.locale,
-      images: [{ url: imageUrl, width: 1200, height: 630 }],
+      images: [ogImage],
       ...(type === "article" ? { publishedTime, modifiedTime, tags } : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: [imageUrl],
+      images: [ogImage.url],
     },
   }
 }
@@ -183,6 +195,7 @@ type PageInput = {
   type?: "WebPage" | "CollectionPage"
   about?: object | object[]
   mentions?: object[]
+  image?: Image
 }
 
 /** 詳細ページ・一覧ページ用の WebPage（about で主題を示す） */
@@ -193,6 +206,7 @@ export const webPageJsonLd = ({
   type = "WebPage",
   about,
   mentions,
+  image,
 }: PageInput) => ({
   "@context": "https://schema.org",
   "@type": type,
@@ -203,16 +217,56 @@ export const webPageJsonLd = ({
   inLanguage: "ja",
   isPartOf: { "@id": websiteId },
   publisher: publisherJsonLd(),
+  ...(image ? { primaryImageOfPage: imageObjectJsonLd(image) } : {}),
   ...(about ? { about } : {}),
   ...(mentions && mentions.length > 0 ? { mentions } : {}),
 })
 
-export const figureJsonLd = (figure: Figure, mythologies: Mythology[]) =>
+/** 画像の ImageObject（出典・ライセンス表記つき） */
+export const imageObjectJsonLd = (image: Image) => ({
+  "@type": "ImageObject",
+  contentUrl: absoluteUrl(image.src),
+  url: absoluteUrl(image.src),
+  width: image.width,
+  height: image.height,
+  caption: image.alt,
+  creditText: image.credit,
+  ...(isKnownAuthor(image.author)
+    ? { creator: { "@type": "Person", name: image.author } }
+    : {}),
+  ...(licenseUrl(image.license) ? { license: licenseUrl(image.license) } : {}),
+})
+
+const isKnownAuthor = (author: string) =>
+  !/^(不明|作者不詳|unknown|anonymous)/i.test(author.trim())
+
+/** ライセンス表記（例: "CC BY-SA 4.0"、"Public domain"）→ ライセンスの URL */
+export const licenseUrl = (license: string): string | undefined => {
+  const l = license.trim()
+  if (/^https?:\/\//.test(l)) return l
+  if (/^public domain$/i.test(l))
+    return "https://creativecommons.org/publicdomain/mark/1.0/"
+  if (/^CC0/i.test(l))
+    return "https://creativecommons.org/publicdomain/zero/1.0/"
+  const m = l.match(
+    /^CC (BY(?:-SA|-ND|-NC|-NC-SA|-NC-ND)?) (\d\.\d)(?: ([a-z]{2}))?$/i
+  )
+  if (!m) return undefined
+  const [, kind, version, port] = m
+  return `https://creativecommons.org/licenses/${kind.toLowerCase()}/${version}/${port ? `${port.toLowerCase()}/` : ""}`
+}
+
+export const figureJsonLd = (
+  figure: Figure,
+  mythologies: Mythology[],
+  image?: Image
+) =>
   webPageJsonLd({
     name: `${figure.name}とは`,
     description: figure.description,
     path: paths.figure(figure.slug),
     about: figureEntity(figure, mythologies),
+    image,
   })
 
 export const mythologyJsonLd = (myth: Mythology, figures: Figure[]) =>
@@ -225,13 +279,18 @@ export const mythologyJsonLd = (myth: Mythology, figures: Figure[]) =>
     mentions: figures.map((f) => figureEntity(f)),
   })
 
-export const workJsonLd = (work: Work, characters: Character[]) => {
+export const workJsonLd = (
+  work: Work,
+  characters: Character[],
+  image?: Image
+) => {
   const persons = characters.filter((c) => c.kind === "character")
   return webPageJsonLd({
     name: `『${work.title}』${kindsLabel(characters)}の元ネタ`,
     description: work.description,
     path: paths.work(work.slug),
     type: "CollectionPage",
+    image,
     about: {
       ...workEntity(work),
       description: work.description,
@@ -263,12 +322,14 @@ export const characterJsonLd = (
   character: Character,
   work: Work | undefined,
   figures: Figure[],
-  description: string
+  description: string,
+  image?: Image
 ) =>
   webPageJsonLd({
     name: `${character.name}の元ネタ`,
     description,
     path: paths.character(character.slug),
+    image,
     about: work
       ? [{ ...characterEntity(character), subjectOf: workEntity(work) }]
       : [characterEntity(character)],
