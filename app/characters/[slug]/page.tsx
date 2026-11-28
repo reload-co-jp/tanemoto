@@ -3,6 +3,7 @@ import { ArticleList } from "@/components/article/ArticleCard"
 import { ClaimList, SourceList } from "@/components/article/SourceList"
 import { EvidenceText } from "@/components/character/EvidenceText"
 import { OriginSummary } from "@/components/character/OriginSummary"
+import { AdSlot } from "@/components/common/AdSlot"
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
 import { Link } from "@/components/common/Link"
 import { PageHeader, Section, TileList } from "@/components/common/PageParts"
@@ -34,7 +35,7 @@ import { characterTile } from "@/lib/characterTile"
 import { kindLabel, kindsLabel } from "@/lib/entryKind"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { buildMetadata, characterJsonLd } from "@/lib/seo"
-import { paths } from "@/lib/site"
+import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { winCss } from "@/lib/styles/global"
 import { bp, color, font } from "@/lib/styles/theme"
@@ -234,6 +235,8 @@ const Page = async ({ params }: Props) => {
               </p>
             </Section>
           )}
+
+          <AdSlot slot={site.adSlots.inArticle} variant="in-article" />
 
           <Section title="モチーフ（元ネタ）" en="Motifs" id="motifs">
             {character.motifs.map((motif, i) => {

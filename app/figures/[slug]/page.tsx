@@ -2,6 +2,7 @@ import { notFound } from "next/navigation"
 import { ArticleList } from "@/components/article/ArticleCard"
 import { ArticleBody } from "@/components/article/ArticleBody"
 import { ClaimList, SourceList } from "@/components/article/SourceList"
+import { AdSlot } from "@/components/common/AdSlot"
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
 import { ImageFigure } from "@/components/common/ImageFigure"
 import { InfoTable } from "@/components/common/InfoTable"
@@ -33,7 +34,7 @@ import { characterTile } from "@/lib/characterTile"
 import { JsonLd } from "@/components/seo/JsonLd"
 import { buildMetadata, figureJsonLd, metaDescription } from "@/lib/seo"
 import { kindsLabel } from "@/lib/entryKind"
-import { paths } from "@/lib/site"
+import { paths, site } from "@/lib/site"
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -143,6 +144,8 @@ const Page = async ({ params }: Props) => {
               />
             </Section>
           )}
+
+          <AdSlot slot={site.adSlots.inArticle} variant="in-article" />
 
           {stories.length > 0 && (
             <Section title="関係する神話・物語" en="Stories" id="stories">

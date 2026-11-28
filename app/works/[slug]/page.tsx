@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import { ArticleList } from "@/components/article/ArticleCard"
 import { OriginSummary } from "@/components/character/OriginSummary"
+import { AdSlot } from "@/components/common/AdSlot"
 import { Breadcrumbs } from "@/components/common/Breadcrumbs"
 import { ImageFigure } from "@/components/common/ImageFigure"
 import { InfoTable } from "@/components/common/InfoTable"
@@ -21,7 +22,7 @@ import {
 import { JsonLd } from "@/components/seo/JsonLd"
 import { buildMetadata, workJsonLd } from "@/lib/seo"
 import { groupByKind, kindsLabel } from "@/lib/entryKind"
-import { paths } from "@/lib/site"
+import { paths, site } from "@/lib/site"
 import { css, Style } from "@/lib/styles/css"
 import { bp, color } from "@/lib/styles/theme"
 
@@ -160,6 +161,8 @@ const Page = async ({ params }: Props) => {
           <Paragraphs text={work.synopsis} />
         </Section>
       )}
+
+      <AdSlot slot={site.adSlots.inArticle} variant="in-article" />
 
       {characters.length > 0 ? (
         groupByKind(characters).map((group, i, groups) => (
