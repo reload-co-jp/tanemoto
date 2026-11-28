@@ -1,0 +1,93 @@
+{
+  "id": "ragnarok-netflix-magne",
+  "slug": "ragnarok-netflix-magne",
+  "name": "マグネ",
+  "reading": "まぐね",
+  "alternativeNames": ["マグネ・セイエル"],
+  "workId": "ragnarok-netflix",
+  "description": {
+    "text": "エッダの町に戻ってきた高校生。雷神トールの生まれ変わりであることを知り、町を汚染し支配する巨人の一家ユートゥル家に立ち向かう。",
+    "claimIds": ["rgn-mg-work"]
+  },
+  "nameOrigin": {
+    "text": "トールの息子の名マグニを思わせる名前で、本人はトールの生まれ変わりとされる。",
+    "claimIds": ["rgn-mg-work", "rgn-mg-myth-magni"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "thor",
+      "label": "雷神トールの生まれ変わり",
+      "inWork": {
+        "text": "マグネは自分が北欧神話の雷神トールの生まれ変わりだと知って驚き、友人の不審な死をきっかけに、町を破壊する者たちと戦いはじめる。",
+        "claimIds": ["rgn-mg-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、トールはアース神族の筆頭で、神々と人間のなかで最も強い。",
+        "claimIds": ["rgn-mg-myth-strong"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "thor",
+      "label": "トールの息子マグニ",
+      "inWork": {
+        "text": "マグネの異父弟ラウリッツは、いたずらの神ロキの生まれ変わりとして描かれる。",
+        "claimIds": ["rgn-mg-work-laurits"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、ラグナロクののち大地が再び海から現れると、トールの息子モージとマグニがやって来て、ミョルニルを持つ。",
+        "claimIds": ["rgn-mg-myth-magni"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話のトールは巨人たちと戦い続ける神である。本作では、その巨人たちが工場で町を汚染する名家として描かれ、神話の戦いが現代の環境問題と重ね合わされている。",
+      "claimIds": ["rgn-mg-myth-strong", "rgn-mg-work", "rgn-mg-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "rgn-mg-work",
+      "text": "舞台は、地元のユートゥル家が所有する工場による気候変動と産業汚染に悩まされている、現代ノルウェーのホルダラン地方の架空の町エッダ。ユートゥル家の正体は、一家を装った四人の巨人（ヨトゥン）である。彼らに立ち向かうのが、自分が北欧神話の雷神トールの生まれ変わりだと知って驚く十代の少年マグネで、友人が不審な死を遂げたのをきっかけに、町を破壊する者たちと戦いはじめる。",
+      "classification": "creative",
+      "sourceIds": ["work-ragnarok-netflix"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Ragnarok (TV series)」の記述で確認。"
+    },
+    {
+      "id": "rgn-mg-work-laurits",
+      "text": "マグネの異父弟ラウリッツ・セイエルは、いたずらの神ロキの生まれ変わりであり、ロキを再解釈した人物として描かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-ragnarok-netflix"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Ragnarok (TV series)」の記述で確認。"
+    },
+    {
+      "id": "rgn-mg-myth-strong",
+      "text": "トールはアース神族の筆頭で、神々と人間のなかで最も強い。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 21章"
+    },
+    {
+      "id": "rgn-mg-myth-magni",
+      "text": "『散文エッダ』によれば、ラグナロクののち大地が再び海から現れると、トールの息子モージとマグニがやって来て、ミョルニルを持つ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 53章"
+    },
+    {
+      "id": "rgn-mg-cmp-1",
+      "text": "神話のトールは巨人たちと戦い続ける神である。本作では、その巨人たちが工場で町を汚染する名家として描かれ、神話の戦いが現代の環境問題と重ね合わされている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-ragnarok-netflix", "snorri-edda"],
+  "articleIds": []
+}

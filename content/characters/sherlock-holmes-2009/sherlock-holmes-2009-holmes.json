@@ -1,0 +1,93 @@
+{
+  "id": "sherlock-holmes-2009-holmes",
+  "slug": "sherlock-holmes-2009-holmes",
+  "name": "シャーロック・ホームズ",
+  "reading": "しゃーろっく・ほーむず",
+  "alternativeNames": [],
+  "workId": "sherlock-holmes-2009",
+  "description": {
+    "text": "ロンドンの私立探偵。相棒のワトソン医師とともにブラックウッド卿の連続殺人を阻止し、その後ブラックウッドが起こす超自然的な事件の数々を、科学と仕掛けによるものだと推理で暴いていく。",
+    "claimIds": ["sh09-hl-work", "sh09-hl-work-reveal"]
+  },
+  "nameOrigin": {
+    "text": "アーサー・コナン・ドイルの名探偵シャーロック・ホームズから。",
+    "claimIds": ["sh09-hl-work", "sh09-hl-myth-quote"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "sherlock-holmes",
+      "label": "推理で「魔術」を暴く",
+      "inWork": {
+        "text": "ホームズは、ブラックウッドの超自然的な所業とされたものが、すべて科学と芝居がかった仕掛けによって実現されていたことを推理で明らかにする。",
+        "claimIds": ["sh09-hl-work-reveal"]
+      },
+      "inMyth": {
+        "text": "ホームズはワトソンに「不可能なものを消去したら、残ったものは、いかにありそうになくても真実に違いない」と語った。",
+        "claimIds": ["sh09-hl-myth-quote"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "sherlock-holmes",
+      "label": "相棒ワトソンとの別れ",
+      "inWork": {
+        "text": "ワトソンはメアリー・モースタンと婚約し、ホームズの奇行に疲れ果てて、ベーカー街221Bを出てホームズとのパートナー関係を終わらせようとしている。",
+        "claimIds": ["sh09-hl-work"]
+      },
+      "inMyth": {
+        "text": "『四つの署名』の最後で、ワトソンはホームズに、事件の依頼人だったメアリー・モースタンが自分の求婚を受け入れたと告げる。",
+        "claimIds": ["sh09-hl-myth-morstan"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作でワトソンがメアリー・モースタンと婚約するのは『四つの署名』の事件の結末である。本作では、物語の初めからワトソンはメアリーと婚約しており、ホームズとの別れが物語の背景になっている。",
+      "claimIds": ["sh09-hl-myth-morstan", "sh09-hl-work", "sh09-hl-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sh09-hl-work",
+      "text": "1890年のロンドンで、私立探偵シャーロック・ホームズと相棒ジョン・ワトソン医師は、すでに五人の女性を殺害し、超自然的な力をもつと称するブラックウッド卿による儀式殺人を阻止する。2か月後、メアリー・モースタンと婚約したワトソンは、ホームズの奇行に疲れ果て、ベーカー街221Bを出てホームズとのパートナー関係を終わらせようとしている。",
+      "classification": "creative",
+      "sourceIds": ["work-sherlock-holmes-2009"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Sherlock Holmes (2009 film)」の記述で確認。"
+    },
+    {
+      "id": "sh09-hl-work-reveal",
+      "text": "ホームズは、ブラックウッドの超自然的な所業とされたものはすべて、レオーダンの実験に助けられた科学と芝居がかった仕掛けによって実現されていたことを推理で明らかにする。",
+      "classification": "creative",
+      "sourceIds": ["work-sherlock-holmes-2009"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Sherlock Holmes (2009 film)」の記述で確認。"
+    },
+    {
+      "id": "sh09-hl-myth-quote",
+      "text": "ホームズはワトソンに「不可能なものを消去したら、残ったものは、いかにありそうになくても真実に違いないと、何度言ったことか」と語った。",
+      "classification": "fact",
+      "sourceIds": ["doyle-sign-of-four"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『四つの署名』第6章"
+    },
+    {
+      "id": "sh09-hl-myth-morstan",
+      "text": "事件の結末で、ワトソンはホームズに、依頼人だったメアリー・モースタンが自分を未来の夫として受け入れてくれたと告げる。",
+      "classification": "fact",
+      "sourceIds": ["doyle-sign-of-four"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『四つの署名』第12章"
+    },
+    {
+      "id": "sh09-hl-cmp-1",
+      "text": "原作でワトソンがメアリー・モースタンと婚約するのは『四つの署名』の事件の結末である。本作では、物語の初めからワトソンはメアリーと婚約しており、ホームズとの別れが物語の背景になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-sherlock-holmes-2009", "doyle-sign-of-four"],
+  "articleIds": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "merlin-bbc-merlin",
+  "slug": "merlin-bbc-merlin",
+  "name": "マーリン",
+  "reading": "まーりん",
+  "alternativeNames": [],
+  "workId": "merlin-bbc",
+  "description": {
+    "text": "生まれつき強大な魔力をもつ若き魔法使い。キャメロットの宮廷侍医ガイウスのもとに身を寄せ、王子アーサーの命を救ったことで彼の召使いとなる。魔法が禁じられた国で、正体を隠したままアーサーを守り続ける。",
+    "claimIds": ["mbbc-mr-work", "mbbc-mr-work-gift"]
+  },
+  "nameOrigin": {
+    "text": "アーサー王伝説の魔術師マーリンから。",
+    "claimIds": ["mbbc-mr-work", "mbbc-mr-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "merlin",
+      "label": "アーサーを守る魔術師",
+      "inWork": {
+        "text": "マーリンは、自分の力がアーサーを守るためのものだと知る。ユーサー王が魔法を禁じているため、マーリンは力を隠したまま、アーサーの召使いとして彼を守り続ける。",
+        "claimIds": ["mbbc-mr-work-gift"]
+      },
+      "inMyth": {
+        "text": "マロリー『アーサー王の死』では、マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子アーサーを自分に引き渡させた。",
+        "claimIds": ["mbbc-mr-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "merlin",
+      "label": "王の側近としての予言",
+      "inWork": {
+        "text": "マーリンとアーサーは、多くの冒険をともにするうちに、互いを信頼し合う友となっていく。",
+        "claimIds": ["mbbc-mr-work-friend"]
+      },
+      "inMyth": {
+        "text": "マロリー『アーサー王の死』では、マーリンはアーサーに、のちにランスロットがグィネヴィアを愛し、彼女もまた彼を愛するようになると警告したが、王の心は変わらなかった。",
+        "claimIds": ["mbbc-mr-myth-warn"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "伝説のマーリンはアーサーの誕生にも関わる年長の魔術師だが、本作のマーリンはアーサーと同年代の召使いで、主従でありながら友人として描かれる。",
+      "claimIds": ["mbbc-mr-myth-birth", "mbbc-mr-work-friend", "mbbc-mr-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "mbbc-mr-work",
+      "text": "若く極めて強力な魔法使いマーリンは、母フニスのはからいで宮廷侍医ガイウスのもとに身を寄せるため、キャメロット王国にやって来る。マーリンは、ユーサー・ペンドラゴン王が20年前に魔法を禁じていたことを知る。",
+      "classification": "creative",
+      "sourceIds": ["work-merlin-bbc"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Merlin (2008 TV series)」の記述で確認。"
+    },
+    {
+      "id": "mbbc-mr-work-gift",
+      "text": "マーリンは第1話で王子アーサーの命を救い、アーサーの召使いとなる。マーリンはやがて自分の力がアーサーを守るためのものだと知るが、アーサーの父ユーサー王によってキャメロットでは魔法が禁じられ、魔法を使った者は処刑されるため、力を隠さなければならない。",
+      "classification": "creative",
+      "sourceIds": ["work-merlin-bbc"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Merlin (2008 TV series)」の記述で確認。"
+    },
+    {
+      "id": "mbbc-mr-work-friend",
+      "text": "初めて会ったとき、マーリンはアーサーを傲慢ないじめっ子だと思い、アーサーもマーリンをよく思わなかった。しかし多くの冒険をともにするうちに、二人は互いを尊敬し、信頼し合うようになる。",
+      "classification": "creative",
+      "sourceIds": ["work-merlin-bbc"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Merlin (2008 TV series)」の記述で確認。"
+    },
+    {
+      "id": "mbbc-mr-myth-birth",
+      "text": "マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子を自分に引き渡させた。アーサーはマーリンの手で騎士エクターに預けられた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第1〜3章"
+    },
+    {
+      "id": "mbbc-mr-myth-warn",
+      "text": "マーリンは、のちにランスロットがグィネヴィアを愛し、彼女もまた彼を愛するようになると警告したが、王の心は変わらなかった。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第3巻第1〜2章"
+    },
+    {
+      "id": "mbbc-mr-cmp-1",
+      "text": "伝説のマーリンはアーサーの誕生にも関わる年長の魔術師だが、本作のマーリンはアーサーと同年代の召使いで、主従でありながら友人として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-merlin-bbc", "malory-morte-darthur"],
+  "articleIds": []
+}

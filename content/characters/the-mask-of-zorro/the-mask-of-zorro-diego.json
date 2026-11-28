@@ -1,0 +1,98 @@
+{
+  "id": "the-mask-of-zorro-diego",
+  "slug": "the-mask-of-zorro-diego",
+  "name": "ドン・ディエゴ・デ・ラ・ベガ",
+  "reading": "どん・でぃえご・で・ら・べが",
+  "alternativeNames": ["ゾロ"],
+  "workId": "the-mask-of-zorro",
+  "description": {
+    "text": "初代ゾロ。1821年に正体をモンテロに見破られて妻を失い、20年間投獄される。脱獄後、盗賊の青年アレハンドロを弟子として鍛え、やがてゾロの名を彼に受け継がせる。",
+    "claimIds": ["moz-dg-work", "moz-dg-work-mentor"]
+  },
+  "nameOrigin": {
+    "text": "ジョンストン・マッカリー『カピストラーノの呪い』で、ゾロの正体として描かれるドン・ディエゴ・ベガから。",
+    "claimIds": ["moz-dg-work", "moz-dg-myth-mask"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "zorro",
+      "label": "覆面の剣士ゾロ",
+      "inWork": {
+        "text": "1821年、覆面の剣士ゾロはスペインの圧政からアルタ・カリフォルニアの民衆を守る。腐敗した総督モンテロが仕掛けた公開処刑の罠を阻み、兵士たちを打ち負かす。",
+        "claimIds": ["moz-dg-work"]
+      },
+      "inMyth": {
+        "text": "『カピストラーノの呪い』は、酒場でゴンサレス軍曹がゾロを倒すと豪語する場面から始まり、そこに現れたゾロは軍曹を剣で打ち負かす。",
+        "claimIds": ["moz-dg-myth-sergeant"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "zorro",
+      "label": "正体の露見",
+      "inWork": {
+        "text": "モンテロはスペイン生まれの貴族ドン・ディエゴ・デ・ラ・ベガがゾロだと推理し、屋敷で彼を捕らえようとする。斬り合いと火事のなかでディエゴの妻エスペランサが殺され、ディエゴは投獄される。",
+        "claimIds": ["moz-dg-work"]
+      },
+      "inMyth": {
+        "text": "『カピストラーノの呪い』では、物語の最後にゾロが自ら覆面を取り、その正体がドン・ディエゴであったことが明かされる。",
+        "claimIds": ["moz-dg-myth-mask"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作では、ゾロの正体は物語の最後にディエゴ自身の手で明かされる。本作では冒頭で正体を敵に見破られ、家族を失ったディエゴが、自らは表に立たず後継者を育てる側に回る。",
+      "claimIds": [
+        "moz-dg-myth-mask",
+        "moz-dg-work",
+        "moz-dg-work-mentor",
+        "moz-dg-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "moz-dg-work",
+      "text": "1821年、覆面の剣士ゾロはアルタ・カリフォルニアの民衆をスペインの圧政から守っていた。腐敗した総督ドン・ラファエル・モンテロは、農民三人の公開処刑でゾロに罠を仕掛けるが、ゾロは処刑を阻止する。モンテロはスペイン生まれの貴族ドン・ディエゴ・デ・ラ・ベガがゾロだと推理して屋敷で捕らえようとし、斬り合いと火事のなかでディエゴの妻エスペランサが殺される。",
+      "classification": "creative",
+      "sourceIds": ["work-the-mask-of-zorro"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Mask of Zorro」の記述で確認。"
+    },
+    {
+      "id": "moz-dg-work-mentor",
+      "text": "1841年、モンテロの帰還を知ったディエゴは脱獄し、兄の形見のメダルを持つ盗賊アレハンドロ・ムリエタと出会う。ディエゴはそれぞれの仇であるモンテロとラヴへの復讐のため、アレハンドロを弟子として厳しく鍛える。のちにディエゴはゾロの名をアレハンドロに譲る。",
+      "classification": "creative",
+      "sourceIds": ["work-the-mask-of-zorro"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Mask of Zorro」の記述で確認。"
+    },
+    {
+      "id": "moz-dg-myth-sergeant",
+      "text": "物語は酒場でゴンサレス軍曹がゾロを倒すと豪語する場面から始まり、そこに現れたゾロは軍曹を剣で打ち負かす。",
+      "classification": "fact",
+      "sourceIds": ["mcculley-capistrano"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カピストラーノの呪い』第1章〜第2章"
+    },
+    {
+      "id": "moz-dg-myth-mask",
+      "text": "物語の最後にゾロは覆面を取り、その正体がドン・ディエゴであったことが明かされる。",
+      "classification": "fact",
+      "sourceIds": ["mcculley-capistrano"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カピストラーノの呪い』最終章"
+    },
+    {
+      "id": "moz-dg-cmp-1",
+      "text": "原作では、ゾロの正体は物語の最後にディエゴ自身の手で明かされる。本作では冒頭で正体を敵に見破られ、家族を失ったディエゴが、自らは表に立たず後継者を育てる側に回る。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-the-mask-of-zorro", "mcculley-capistrano"],
+  "articleIds": []
+}

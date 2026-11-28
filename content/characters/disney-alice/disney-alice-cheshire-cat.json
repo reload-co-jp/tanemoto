@@ -1,0 +1,93 @@
+{
+  "id": "disney-alice-cheshire-cat",
+  "slug": "disney-alice-cheshire-cat",
+  "name": "チェシャ猫",
+  "reading": "ちぇしゃねこ",
+  "alternativeNames": [],
+  "workId": "disney-alice",
+  "description": {
+    "text": "森でアリスの前に現れる、にやにや笑いの猫。姿を消したり現したりしながら、アリスに帽子屋たちのもとを訪ねるよう勧め、のちにはハートの女王の迷路へ導く。クロッケーの場では女王にいたずらをし、その罪がアリスにかぶせられる。",
+    "claimIds": ["dal-cc-work", "dal-cc-work-queen"]
+  },
+  "nameOrigin": {
+    "text": "ルイス・キャロル『不思議の国のアリス』のチェシャ猫から。",
+    "claimIds": ["dal-cc-work", "dal-cc-myth-mad"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "cheshire-cat",
+      "label": "帽子屋への案内",
+      "inWork": {
+        "text": "アリスはチェシャ猫に出会い、帽子屋と三月ウサギ、眠りネズミを訪ねるよう助言される。三人は「なんでもない日」を祝うお茶会を開いている。",
+        "claimIds": ["dal-cc-work"]
+      },
+      "inMyth": {
+        "text": "『不思議の国のアリス』第6章では、チェシャ猫が帽子屋も三月ウサギも狂っていると教え、「ここではみんな狂ってるのさ。わたしも狂ってるし、きみも狂ってる」と言い、尻尾の先から少しずつ消えていく。",
+        "claimIds": ["dal-cc-myth-mad"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "queen-of-hearts",
+      "label": "クロッケー場の猫",
+      "inWork": {
+        "text": "チェシャ猫はアリスをハートの女王の迷路へ導き、クロッケーの最中に再び現れて女王にいたずらをする。女王はそれをアリスのしわざだと責め、アリスは裁判にかけられる。",
+        "claimIds": ["dal-cc-work-queen"]
+      },
+      "inMyth": {
+        "text": "『不思議の国のアリス』第8章では、クロッケー場の空中にチェシャ猫の首だけが現れる。王が猫を嫌うと、女王は「首をはねよ」と命じるが、首切り役人は、体のない首を切り離すことはできないと言い張る。",
+        "claimIds": ["dal-cc-myth-croquet"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作のチェシャ猫は、アリスと問答を交わし、クロッケー場では首だけになって王や女王を困らせる。映画ではさらに、女王へのいたずらでアリスを裁判へ追いこむ、物語を動かすトリックスターの役割が与えられている。",
+      "claimIds": ["dal-cc-myth-croquet", "dal-cc-work-queen", "dal-cc-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dal-cc-work",
+      "text": "アリスはチェシャ猫に出会い、帽子屋と三月ウサギ、眠りネズミを訪ねるよう勧められる。三人は狂ったお茶会を開き、アリスの「なんでもない日」を祝う。お茶会を後にしてタルジーの森で迷ったアリスの前に再びチェシャ猫が現れ、暴君ハートの女王が支配する巨大な生け垣の迷路へと導く。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-alice"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Alice in Wonderland (1951 film)」の記述で確認。"
+    },
+    {
+      "id": "dal-cc-work-queen",
+      "text": "チェシャ猫は再び姿を現して女王にいたずらをし、女王はそれをアリスのしわざだと責め、アリスは裁判にかけられる。",
+      "classification": "creative",
+      "sourceIds": ["work-disney-alice"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Alice in Wonderland (1951 film)」の記述で確認。"
+    },
+    {
+      "id": "dal-cc-myth-mad",
+      "text": "チェシャ猫は、帽子屋も三月ウサギも狂っていると教え、「ここではみんな狂ってるのさ。わたしも狂ってるし、きみも狂ってる」と言った。そして尻尾の先から消えていき、にやにや笑いだけが残った。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第6章"
+    },
+    {
+      "id": "dal-cc-myth-croquet",
+      "text": "クロッケー場の空中にチェシャ猫の首だけが現れる。王が猫を嫌がると、女王は「首をはねよ」と命じたが、首切り役人は、首を切り離す体がないのに首を切ることはできないと言い張り、王と言い争いになった。",
+      "classification": "fact",
+      "sourceIds": ["carroll-alice"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『不思議の国のアリス』第8章"
+    },
+    {
+      "id": "dal-cc-cmp-1",
+      "text": "原作のチェシャ猫は、アリスと問答を交わし、クロッケー場では首だけになって王や女王を困らせる。映画ではさらに、女王へのいたずらでアリスを裁判へ追いこむ、物語を動かすトリックスターの役割が与えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-disney-alice", "carroll-alice"],
+  "articleIds": []
+}

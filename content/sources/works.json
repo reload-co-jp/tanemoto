@@ -791,5 +791,50 @@
     "publishedPeriod": "1931年（米国公開）",
     "publisher": "ユニバーサル・ピクチャーズ",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-disney-alice",
+    "title": "ふしぎの国のアリス",
+    "author": "ウォルト・ディズニー・プロダクション（製作）",
+    "type": "work",
+    "publishedPeriod": "1951年（米国公開）",
+    "publisher": "RKO",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-the-mask-of-zorro",
+    "title": "マスク・オブ・ゾロ",
+    "author": "マーティン・キャンベル（監督）",
+    "type": "work",
+    "publishedPeriod": "1998年（米国公開）",
+    "publisher": "トライスター・ピクチャーズ",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-sherlock-holmes-2009",
+    "title": "シャーロック・ホームズ",
+    "author": "ガイ・リッチー（監督）",
+    "type": "work",
+    "publishedPeriod": "2009年（米国公開）",
+    "publisher": "ワーナー・ブラザース",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-merlin-bbc",
+    "title": "魔術師マーリン",
+    "author": "BBC（制作）",
+    "type": "work",
+    "publishedPeriod": "2008〜2012年（BBC One、全5シリーズ）",
+    "publisher": "BBC",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-ragnarok-netflix",
+    "title": "ラグナロク",
+    "author": "Netflix（配信）・SAM Productions（制作）",
+    "type": "work",
+    "publishedPeriod": "2020〜2023年（Netflix、全3シーズン）",
+    "publisher": "Netflix",
+    "notes": "作品内の設定について述べる際の出典。"
   }
 ]
