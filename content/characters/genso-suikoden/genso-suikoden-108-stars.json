@@ -1,0 +1,94 @@
+{
+  "id": "genso-suikoden-108-stars",
+  "slug": "genso-suikoden-108-stars",
+  "kind": "setting",
+  "name": "108星",
+  "reading": "ひゃくはちせい",
+  "alternativeNames": ["宿星"],
+  "workId": "genso-suikoden",
+  "description": {
+    "text": "主人公の仲間になる108人のキャラクター。その名前は石版に記されていく。",
+    "claimIds": ["gs-108-work"]
+  },
+  "nameOrigin": {
+    "text": "『水滸伝』で梁山泊に集う天罡星三十六人・地煞星七十二人、あわせて百八人の好漢から。",
+    "claimIds": ["gs-108-work", "gs-108-myth-stone"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "song-jiang",
+      "label": "百八の魔星",
+      "inWork": {
+        "text": "本作では、主人公の仲間になる108人のキャラクターを108星と呼ぶ。最大108人まで増える仲間や戦争イベントは、『水滸伝』のスケールの大きさを再現している。",
+        "claimIds": ["gs-108-work", "gs-108-work-scale"]
+      },
+      "inMyth": {
+        "text": "『水滸伝』の冒頭では、洪太尉が龍虎山の伏魔之殿の石碑の下を掘らせると、黒い気が噴き出して百筋あまりの金色の光となり四方へ飛び散った。そこには三十六員の天罡星と七十二座の地煞星が封じられていた。",
+        "claimIds": ["gs-108-myth-demons"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "song-jiang",
+      "label": "名を刻んだ石碣",
+      "inWork": {
+        "text": "108星のキャラクターの名前は、石版に記載されていく。",
+        "claimIds": ["gs-108-work"]
+      },
+      "inMyth": {
+        "text": "『水滸伝』第71回では、宋江が行った祭りの最後の夜、天から落ちた火の塊を掘り出すと石碣が現れ、天罡星三十六人・地煞星七十二人の名とあだ名が刻まれていた。",
+        "claimIds": ["gs-108-myth-stone"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『水滸伝』の石碣は、百八人がすでにそろったあとに天から現れ、彼らが星の生まれ変わりであることを示す。本作の石版は、仲間が加わるたびに名前が刻まれていく、仲間集めの進み具合を示す仕掛けになっている。",
+      "claimIds": ["gs-108-myth-stone", "gs-108-work", "gs-108-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "gs-108-work",
+      "text": "幻想水滸伝シリーズで主人公の仲間になる108のキャラクターのことを108星という。そのキャラクターの名前は石版に記載されている。",
+      "classification": "creative",
+      "sourceIds": ["work-genso-suikoden"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「幻想水滸伝」の記述で確認。"
+    },
+    {
+      "id": "gs-108-work-scale",
+      "text": "本作は中国の英雄物語『水滸伝』の世界観と、ゲームオリジナルのファンタスティックなストーリーをミックスさせている。『水滸伝』をモチーフにしているが登場人物やストーリーの流れは大きく異なり、最高で108人まで増やせる仲間、勢力拡大とともに強固となる城、戦争という大イベントなどが『水滸伝』のスケールの大きさを再現している。",
+      "classification": "creative",
+      "sourceIds": ["work-genso-suikoden"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「幻想水滸伝」の記述で確認。"
+    },
+    {
+      "id": "gs-108-myth-demons",
+      "text": "洪太尉が龍虎山の伏魔之殿の石碑の下を掘らせると、黒い気が噴き出して百筋あまりの金色の光となり四方へ飛び散った。そこには三十六の天罡星と七十二の地煞星、合わせて百八の魔王が封じられていた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第1–2回"
+    },
+    {
+      "id": "gs-108-myth-stone",
+      "text": "宋江が行った祭りの最後の夜、天から落ちた火の塊を掘り出すと石碣が現れ、天罡星三十六人・地煞星七十二人の名とあだ名、「替天行道」「忠義双全」の文字が刻まれていた。",
+      "classification": "fact",
+      "sourceIds": ["shuihu-zhuan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『水滸伝』第71回"
+    },
+    {
+      "id": "gs-108-cmp-1",
+      "text": "『水滸伝』の石碣は、百八人がすでにそろったあとに天から現れ、彼らが星の生まれ変わりであることを示す。本作の石版は、仲間が加わるたびに名前が刻まれていく、仲間集めの進み具合を示す仕掛けになっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-genso-suikoden", "shuihu-zhuan"],
+  "articleIds": []
+}

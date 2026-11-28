@@ -925,5 +925,50 @@
     "publishedPeriod": "1951年（米国公開）",
     "publisher": "MGM",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-yamato-takeru-1994",
+    "title": "ヤマトタケル",
+    "author": "大河原孝夫（監督）・三村渉（脚本）",
+    "type": "work",
+    "publishedPeriod": "1994年（東宝）",
+    "publisher": "東宝",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-nihon-tanjo",
+    "title": "日本誕生",
+    "author": "稲垣浩（監督）",
+    "type": "work",
+    "publishedPeriod": "1959年（東宝）",
+    "publisher": "東宝",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-yoshitsune-taiga",
+    "title": "義経",
+    "author": "宮尾登美子（原作）・金子成人（脚本）",
+    "type": "work",
+    "publishedPeriod": "2005年（NHK）",
+    "publisher": "NHK",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-genso-suikoden",
+    "title": "幻想水滸伝",
+    "author": "コナミ",
+    "type": "work",
+    "publishedPeriod": "1995年（PlayStation）",
+    "publisher": "コナミ",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-snow-queen-1957",
+    "title": "雪の女王",
+    "author": "レフ・アタマーノフ（監督）",
+    "type": "work",
+    "publishedPeriod": "1957年（ソ連）",
+    "publisher": "ソユーズムリトフィルム",
+    "notes": "作品内の設定について述べる際の出典。"
   }
 ]

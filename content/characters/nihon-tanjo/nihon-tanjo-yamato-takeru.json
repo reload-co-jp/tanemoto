@@ -1,0 +1,93 @@
+{
+  "id": "nihon-tanjo-yamato-takeru",
+  "slug": "nihon-tanjo-yamato-takeru",
+  "name": "日本武尊",
+  "reading": "やまとたけるのみこと",
+  "alternativeNames": ["小椎命", "ヤマトタケル"],
+  "workId": "nihon-tanjo",
+  "description": {
+    "text": "景行天皇の皇子・小椎命。勇猛すぎる性格を父に警戒されて熊曽征伐を命じられ、女装の計略で熊曽を討ち取り、日本武尊の名を得る。倭姫から草薙の剣と袋を授けられて東国へ向かう。",
+    "claimIds": ["nt59-yt-work", "nt59-yt-work-sword"]
+  },
+  "nameOrigin": {
+    "text": "『古事記』の倭建命、『日本書紀』の日本武尊から。",
+    "claimIds": ["nt59-yt-work", "nt59-yt-myth-kumaso"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "yamato-takeru",
+      "label": "女装して熊曽を討つ",
+      "inWork": {
+        "text": "小椎命は女装して近づくという計略で熊曽を討ち取り、熊曽の弟タケルから日本武尊（ヤマトタケル）と名乗ってほしいと頼まれる。",
+        "claimIds": ["nt59-yt-work"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、小碓命は熊曾建の兄弟を討つため、叔母ヤマトヒメから授かった衣装で少女の姿に装って新築祝いの宴にまぎれこみ、二人を討った。",
+        "claimIds": ["nt59-yt-myth-kumaso"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "yamato-takeru",
+      "label": "草薙の剣と袋",
+      "inWork": {
+        "text": "倭姫は日本武尊に、叢雲剣（草薙の剣）と、万一のときに開けるべき袋を与えて力づける。その剣は、神代の昔に須佐之男が八岐大蛇を退治して奇稲田姫を助けたときに手に入れたものだった。",
+        "claimIds": ["nt59-yt-work-sword"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、相武国で野火に囲まれたヤマトタケルは、剣で草を刈り払い、袋の中の火打石で向かい火をつけて難を逃れた。",
+        "claimIds": ["nt59-yt-myth-fire"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "本作の日本武尊は、天皇ではなく倭姫から剣を授けられ、父に疎まれる息子として描かれる。剣と袋を授けるのが叔母ヤマトヒメである点は、『古事記』の筋をそのまま受け継いでいる。",
+      "claimIds": ["nt59-yt-myth-fire", "nt59-yt-work-sword", "nt59-yt-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nt59-yt-work",
+      "text": "小椎命（オウスノミコト）は、兄を追放するという勇猛な性格を父である景行天皇に警戒され、九州の熊曽征伐を命じられる。伊勢のおばの倭姫のところで巫女の弟橘姫に出会う。女装して近づくという巧みな計略で熊曽を討ち取った小椎は、熊曽の弟タケルから、日本武尊（ヤマトタケル）を名乗ってくれと頼まれる。",
+      "classification": "creative",
+      "sourceIds": ["work-nihon-tanjo"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「日本誕生」の記述で確認。"
+    },
+    {
+      "id": "nt59-yt-work-sword",
+      "text": "倭姫は日本武尊に、天皇からという一振りの剣（叢雲剣、別名・草薙の剣）と、自分からという万が一に開けるべき袋を与えて力づける。その剣は、神代の昔に須佐之男が八岐大蛇を退治して奇稲田姫を助けた際に手に入れたものであったが、実は天皇ではなく倭姫がくれたものであった。",
+      "classification": "creative",
+      "sourceIds": ["work-nihon-tanjo"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「日本誕生」の記述で確認。"
+    },
+    {
+      "id": "nt59-yt-myth-kumaso",
+      "text": "小碓命は、熊曾建の兄弟を討つため、叔母ヤマトヒメから授かった衣装で少女の姿に装って新築祝いの宴にまぎれこみ、二人を討った。このとき熊曾建から「倭建」の名を献じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の西征）"
+    },
+    {
+      "id": "nt59-yt-myth-fire",
+      "text": "相武国で野火に囲まれたヤマトタケルは、剣で草を刈り払い、袋の中の火打石で向かい火をつけて難を逃れた。その地は焼津と呼ばれるようになった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の東征）"
+    },
+    {
+      "id": "nt59-yt-cmp-1",
+      "text": "本作の日本武尊は、天皇ではなく倭姫から剣を授けられ、父に疎まれる息子として描かれる。剣と袋を授けるのが叔母ヤマトヒメである点は、『古事記』の筋をそのまま受け継いでいる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-nihon-tanjo", "kojiki"],
+  "articleIds": []
+}

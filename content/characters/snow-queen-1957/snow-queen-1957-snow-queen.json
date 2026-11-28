@@ -1,0 +1,93 @@
+{
+  "id": "snow-queen-1957-snow-queen",
+  "slug": "snow-queen-1957-snow-queen",
+  "name": "雪の女王",
+  "reading": "ゆきのじょおう",
+  "alternativeNames": [],
+  "workId": "snow-queen-1957",
+  "description": {
+    "text": "北の果ての氷の宮殿に住む女王。魔法の鏡で人間の世界を見ている。自分を溶かしてやるとからかったカイに怒り、鏡を砕いて魔法の氷のかけらを町へ送り、カイを自分のそりで連れ去る。",
+    "claimIds": ["sq57-sq-work"]
+  },
+  "nameOrigin": {
+    "text": "アンデルセン『雪の女王』の雪の女王から。",
+    "claimIds": ["sq57-sq-work", "sq57-sq-myth-queen"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "snow-queen",
+      "label": "カイを連れ去る",
+      "inWork": {
+        "text": "カイは自分のそりを雪の女王のそりにつなぎ、女王はカイを腕に抱いて、自ら望んだ虜として連れ去る。",
+        "claimIds": ["sq57-sq-work-kai"]
+      },
+      "inMyth": {
+        "text": "アンデルセン『雪の女王』では、雪の女王は少年カイをそりに乗せて連れ去り、氷の宮殿に住まわせた。",
+        "claimIds": ["sq57-sq-myth-queen"]
+      }
+    },
+    {
+      "aspect": "weapon",
+      "figureId": "snow-queen",
+      "label": "心を凍らせる鏡のかけら",
+      "inWork": {
+        "text": "雪の女王は魔法の鏡でカイとゲルダを見ており、怒って笏で鏡を砕くと、氷のかけらに魔法をかけて大吹雪とともに町へ送る。風に乗ったかけらによってカイの心は変わり、ゲルダに冷たくなる。",
+        "claimIds": ["sq57-sq-work"]
+      },
+      "inMyth": {
+        "text": "アンデルセン『雪の女王』第1話では、悪魔が作った、よいものを小さく醜く映す鏡が砕けて世界中に散らばり、そのかけらが目に入った者や心臓に刺さった者は、ものごとを悪く見たり心が氷のように冷たくなったりした。",
+        "claimIds": ["sq57-sq-myth-mirror"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作で人の心を冷たくする鏡を作ったのは悪魔で、雪の女王とは別の存在である。本作では雪の女王自身が鏡を砕いてカイに魔法をかけ、物語の悪役がひとつにまとめられている。",
+      "claimIds": ["sq57-sq-myth-mirror", "sq57-sq-work", "sq57-sq-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sq57-sq-work",
+      "text": "幼いカイとゲルダは、ゲルダの祖母から雪の女王の伝説を聞く。カイは、もし女王に会ったら熱いストーブの上に乗せて溶かしてやると冗談を言う。魔法の鏡で子どもたちを見ていた雪の女王は怒って笏で鏡を砕き、氷のかけらに魔法をかけて、町に大吹雪を送る。一陣の風によってカイの心は変わり、ゲルダに冷たく当たるようになる。",
+      "classification": "creative",
+      "sourceIds": ["work-snow-queen-1957"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Snow Queen (1957 film)」の記述で確認。"
+    },
+    {
+      "id": "sq57-sq-work-kai",
+      "text": "翌日、カイは自分のそりを雪の女王のそりにつなぎ、女王はカイを腕に抱いて、自ら望んだ虜として連れて行く。ゲルダは友を取り戻すまであきらめないと決意し、雪の女王の宮殿をめざして旅立つ。",
+      "classification": "creative",
+      "sourceIds": ["work-snow-queen-1957"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Snow Queen (1957 film)」の記述で確認。"
+    },
+    {
+      "id": "sq57-sq-myth-queen",
+      "text": "雪の女王は少年カイをそりに乗せて連れ去り、氷の宮殿に住まわせた。",
+      "classification": "fact",
+      "sourceIds": ["andersen-snow-queen"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『雪の女王』第2・7話"
+    },
+    {
+      "id": "sq57-sq-myth-mirror",
+      "text": "悪魔が作った鏡は、よいものや美しいものを小さく醜く映すものだった。鏡が砕けて世界中に散らばると、そのかけらが目に入った者はものごとの悪い面ばかりを見るようになり、心臓に刺さった者は心が氷のように冷たくなった。",
+      "classification": "fact",
+      "sourceIds": ["andersen-snow-queen"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アンデルセン『雪の女王』第1話"
+    },
+    {
+      "id": "sq57-sq-cmp-1",
+      "text": "原作で人の心を冷たくする鏡を作ったのは悪魔で、雪の女王とは別の存在である。本作では雪の女王自身が鏡を砕いてカイに魔法をかけ、物語の悪役がひとつにまとめられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-snow-queen-1957", "andersen-snow-queen"],
+  "articleIds": []
+}

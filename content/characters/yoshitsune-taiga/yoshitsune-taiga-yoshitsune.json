@@ -1,0 +1,93 @@
+{
+  "id": "yoshitsune-taiga-yoshitsune",
+  "slug": "yoshitsune-taiga-yoshitsune",
+  "name": "源義経",
+  "reading": "みなもとのよしつね",
+  "alternativeNames": ["牛若", "遮那王"],
+  "workId": "yoshitsune-taiga",
+  "description": {
+    "text": "本作の主人公。幼名は牛若、のちに遮那王。平清盛と親子のようなつながりをもちながら、源氏の武将として平家と戦う。武家政権を打ち立てようとする兄・頼朝との葛藤に苦しむ。",
+    "claimIds": ["ygt-ys-work"]
+  },
+  "nameOrigin": {
+    "text": "源平の争乱で活躍した武将・源義経そのもの。",
+    "claimIds": ["ygt-ys-work", "ygt-ys-myth-kurama"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "minamoto-no-yoshitsune",
+      "label": "鞍馬の牛若",
+      "inWork": {
+        "text": "義経は、牛若から遮那王を経て源義経へと名を変えながら成長していく。家臣たちとは、疑似家族としての主従の絆で結ばれる。",
+        "claimIds": ["ygt-ys-work", "ygt-ys-work-names"]
+      },
+      "inMyth": {
+        "text": "『義経記』によれば、牛若は夜ごと鞍馬の奥の僧正が谷へ通い、草木を平家の一門に見立て、大木を清盛と名づけて太刀で斬りつけ、武芸を磨いた。",
+        "claimIds": ["ygt-ys-myth-kurama"]
+      }
+    },
+    {
+      "aspect": "plot",
+      "figureId": "minamoto-no-yoshitsune",
+      "label": "兄・頼朝との対立",
+      "inWork": {
+        "text": "本作は、武家政権を樹立するために弟を切らなければならない頼朝の、「政治家」と「兄」としての葛藤と苦悩を描く。",
+        "claimIds": ["ygt-ys-work"]
+      },
+      "inMyth": {
+        "text": "『義経記』によれば、奥州の藤原泰衡に裏切られ、義経のいる衣川の館に大軍が押し寄せた。",
+        "claimIds": ["ygt-ys-myth-koromo"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『義経記』の牛若は、大木を清盛に見立てて斬りつけ、平家への敵意を燃やして武芸を磨く。本作の義経は、幼いころ清盛を父のように慕った人物として描かれ、平家との戦いが複雑な思いをともなうものになっている。",
+      "claimIds": ["ygt-ys-myth-kurama", "ygt-ys-work", "ygt-ys-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ygt-ys-work",
+      "text": "源義経を主人公として、家族の絆・親子の絆をコンセプトに、疑似家族としての主従の絆、貿易立国の建設を目指す平清盛との親子的なつながり、武家政権を樹立するために弟を切らねばならない源頼朝の「政治家」そして「兄」としての葛藤と苦悩などを、新しい解釈も取り入れて描いた。",
+      "classification": "creative",
+      "sourceIds": ["work-yoshitsune-taiga"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「義経 (NHK大河ドラマ)」の記述で確認。"
+    },
+    {
+      "id": "ygt-ys-work-names",
+      "text": "主人公は、牛若から遮那王を経て源義経へと名を変えながら描かれ、成人後の義経を滝沢秀明が演じた。武蔵坊弁慶は松平健が演じた。",
+      "classification": "creative",
+      "sourceIds": ["work-yoshitsune-taiga"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「義経 (NHK大河ドラマ)」の記述で確認。"
+    },
+    {
+      "id": "ygt-ys-myth-kurama",
+      "text": "牛若は夜ごと鞍馬の奥の僧正が谷へ通い、草木を平家の一門に見立て、大木を清盛と名づけて太刀で斬りつけ、武芸を磨いた。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第一「牛若貴船詣の事」"
+    },
+    {
+      "id": "ygt-ys-myth-koromo",
+      "text": "奥州の藤原泰衡に裏切られ、義経のいる衣川の館に大軍が押し寄せた。",
+      "classification": "fact",
+      "sourceIds": ["gikeiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『義経記』巻第八「衣河合戦の事」"
+    },
+    {
+      "id": "ygt-ys-cmp-1",
+      "text": "『義経記』の牛若は、大木を清盛に見立てて斬りつけ、平家への敵意を燃やして武芸を磨く。本作の義経は、幼いころ清盛を父のように慕った人物として描かれ、平家との戦いが複雑な思いをともなうものになっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-yoshitsune-taiga", "gikeiki"],
+  "articleIds": []
+}

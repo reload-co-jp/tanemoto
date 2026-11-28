@@ -1,0 +1,119 @@
+{
+  "id": "yamato-takeru-1994-ousu",
+  "slug": "yamato-takeru-1994-ousu",
+  "name": "オウス",
+  "reading": "おうす",
+  "alternativeNames": ["ヤマトタケル"],
+  "workId": "yamato-takeru-1994",
+  "description": {
+    "text": "大王ケイコウの双子の王子の弟。不吉として捨てられたが、ヤマトヒメに育てられる。母と兄殺しの罪を着せられてクマソ討伐に向かい、のちに月の神ツクヨミが変身したヤマタノオロチと戦う。",
+    "claimIds": ["ym94-os-work", "ym94-os-work-orochi"]
+  },
+  "nameOrigin": {
+    "text": "『古事記』で倭建命の幼名とされる小碓命（おうすのみこと）から。",
+    "claimIds": ["ym94-os-work", "ym94-os-myth-kumaso"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "yamato-takeru",
+      "label": "女装してクマソを討つ",
+      "inWork": {
+        "text": "オウスは、クマソタケルに囚われた巫女オトタチバナを救うため、舞姫に化けて近づき、激戦の末にクマソを討ち取る。",
+        "claimIds": ["ym94-os-work"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、小碓命は熊曾建の兄弟を討つため、叔母ヤマトヒメから授かった衣装で少女の姿に装って新築祝いの宴にまぎれこみ、二人を討った。",
+        "claimIds": ["ym94-os-myth-kumaso"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "yamato-takeru",
+      "label": "叔母ヤマトヒメ",
+      "inWork": {
+        "text": "捨てられたオウスは、父である大王ケイコウの妹ヤマトヒメの手によって伊勢の杜で育てられる。クマソ討伐から戻ったオウスは、ヤマトヒメにアマノムラクモノツルギの封印を命じられる。",
+        "claimIds": ["ym94-os-work", "ym94-os-work-orochi"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、ヤマトタケルは東征に向かう前に、叔母ヤマトヒメから草那芸剣と袋を授かった。",
+        "claimIds": ["ym94-os-myth-sword"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "yamata-no-orochi",
+      "label": "ヤマタノオロチとの戦い",
+      "inWork": {
+        "text": "月に宮殿を築いて世界の覇権をねらうツクヨミは、追いつめられるとヤマタノオロチに変身する。オウスは宇宙戦神ウツノイクサガミに変身してオロチを打ち破る。",
+        "claimIds": ["ym94-os-work-orochi"]
+      },
+      "inMyth": {
+        "text": "『古事記』では、ヤマタノオロチを退治したのは須佐之男命で、八塩折の酒で大蛇を酔わせ、十拳剣で斬り散らした。",
+        "claimIds": ["ym94-os-myth-orochi"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『古事記』でヤマタノオロチと戦うのは須佐之男命で、ヤマトタケルはその尾から出た草那芸剣を受け継ぐ立場にある。本作では、ヤマトタケル自身がオロチと戦う英雄になっている。",
+      "claimIds": [
+        "ym94-os-myth-orochi",
+        "ym94-os-myth-sword",
+        "ym94-os-work-orochi",
+        "ym94-os-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ym94-os-work",
+      "text": "ヤマトの国に双子の王子オオウスとオウスが生まれるが、呪術師ツキノワが双子は不吉だと告げたため、弟のオウスは捨てられる。アマノシラトリに救われたオウスは、大王ケイコウの妹ヤマトヒメによって伊勢の杜で育てられる。成人したオウスは、母イナヒヒメと兄オオウスを殺した罪を着せられてクマソ討伐を命じられ、クマソタケルに囚われた巫女オトタチバナを救うため、舞姫に化けて激戦の末にクマソを討ち取る。",
+      "classification": "creative",
+      "sourceIds": ["work-yamato-takeru-1994"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヤマトタケル (映画)」の記述で確認。"
+    },
+    {
+      "id": "ym94-os-work-orochi",
+      "text": "クマソ討伐から帰還したオウスは、ヤマトヒメにアマノムラクモノツルギの封印を命じられる。月に宮殿を築いて世界の覇権をねらうツクヨミは、オウスとオトタチバナとの戦いで追いつめられるとヤマタノオロチに変身する。オウスはウツノイクサガミ（宇宙戦神）に変身してオロチを打ち破り、勾玉にツクヨミを封印する。",
+      "classification": "creative",
+      "sourceIds": ["work-yamato-takeru-1994"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヤマトタケル (映画)」の記述で確認。"
+    },
+    {
+      "id": "ym94-os-myth-kumaso",
+      "text": "小碓命は、熊曾建の兄弟を討つため、叔母ヤマトヒメから授かった衣装で少女の姿に装って新築祝いの宴にまぎれこみ、二人を討った。このとき熊曾建から「倭建」の名を献じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の西征）"
+    },
+    {
+      "id": "ym94-os-myth-sword",
+      "text": "ヤマトタケルは叔母ヤマトヒメから草那芸剣と袋を授かった。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』中巻（倭建命の東征）"
+    },
+    {
+      "id": "ym94-os-myth-orochi",
+      "text": "須佐之男命は八塩折の酒でヤマタノオロチを酔わせ、腰に帯びた十拳剣で斬り散らした。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（八俣の大蛇）"
+    },
+    {
+      "id": "ym94-os-cmp-1",
+      "text": "『古事記』でヤマタノオロチと戦うのは須佐之男命で、ヤマトタケルはその尾から出た草那芸剣を受け継ぐ立場にある。本作では、ヤマトタケル自身がオロチと戦う英雄になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-yamato-takeru-1994", "kojiki"],
+  "articleIds": []
+}
