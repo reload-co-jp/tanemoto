@@ -7,11 +7,91 @@
   "romanized": "Kratos",
   "alternativeNames": [],
   "type": "personification",
-  "roles": ["力"],
-  "mythologyIds": ["greek"],
-  "description": "「力」を擬人化した神。ヘシオドス『神統記』によれば、オケアノスの娘ステュクスとパラスの子で、ゼロス（競争心）、ニケ（勝利）、ビア（暴力）と兄弟。いつもゼウスのそばにいて、ゼウスの行くところにしか道をもたない。",
-  "relatedFigureIds": ["zeus"],
+  "roles": [
+    "力"
+  ],
+  "mythologyIds": [
+    "greek"
+  ],
+  "description": "「力」を擬人化した神。ヘシオドス『神統記』によれば、オケアノスの娘ステュクスとパラスの子で、ゼロス（競争心）、ニケ（勝利）、ビア（暴力）と兄弟。いつもゼウスのそばにいて、ゼウスの行くところにしか道をもたない。アイスキュロスの悲劇では、ビアとともにプロメテウスを岩に縛りつける役を担う。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ステュクスの子"
+    },
+    {
+      "type": "paragraph",
+      "text": "ヘシオドスの『神統記』によれば、オケアノスの娘ステュクスはパラスと交わって、ゼロス（競争心）、ニケ（勝利）、そしてクラトス（力）とビア（暴力）を生みました。この子らはゼウスから離れた家をもたず、ゼウスが導く道のほかには道をもたず、いつもゼウスのそばにいるといいます。",
+      "claimIds": [
+        "fg-kratos-1"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "味方した理由"
+    },
+    {
+      "type": "paragraph",
+      "text": "ティタノマキアのとき、ステュクスは子どもたちを連れて真っ先にオリュンポスへ来たので、ゼウスは彼女を神々の誓いの証人とし、子どもたちを永遠に自分のもとに住まわせました。",
+      "claimIds": [
+        "fg-kratos-2"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "プロメテウスを縛る"
+    },
+    {
+      "type": "paragraph",
+      "text": "アイスキュロスの悲劇『縛られたプロメテウス』では、クラトスはビアとともにゼウスの命令の執行者として登場し、ためらうヘパイストスをせき立てて、プロメテウスをカウカソスの岩に鎖で縛りつけさせます。",
+      "claimIds": [
+        "fg-kratos-3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-kratos-1",
+      "text": "ステュクスはパラスとの間にゼロス、ニケ、クラトス、ビアを生んだ。彼らはゼウスから離れた家も道ももたず、いつもゼウスのそばにいる。",
+      "classification": "fact",
+      "sourceIds": [
+        "hesiod-theogony"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』383–388行"
+    },
+    {
+      "id": "fg-kratos-2",
+      "text": "ステュクスは子らを連れて最初にゼウスのもとへ来たので、ゼウスは彼女を神々の大いなる誓いとし、子らを永遠に自分のもとに住まわせた。",
+      "classification": "fact",
+      "sourceIds": [
+        "hesiod-theogony"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』389–403行"
+    },
+    {
+      "id": "fg-kratos-3",
+      "text": "『縛られたプロメテウス』の冒頭で、クラトスはビアとともにプロメテウスを連れてきて、ためらうヘパイストスをせき立て、彼を岩に縛りつけさせる。",
+      "classification": "fact",
+      "sourceIds": [
+        "aeschylus-prometheus"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "アイスキュロス『縛られたプロメテウス』1–87行"
+    }
+  ],
+  "relatedFigureIds": [
+    "zeus"
+  ],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["hesiod-theogony"]
+  "sourceIds": [
+    "hesiod-theogony",
+    "aeschylus-prometheus"
+  ],
+  "imageId": "figure-kratos"
 }

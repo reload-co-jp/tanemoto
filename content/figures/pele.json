@@ -9,7 +9,65 @@
   "type": "god",
   "roles": ["火山の女神", "火の女神"],
   "mythologyIds": ["polynesian"],
-  "description": "ハワイの火山の女神。海の女神である姉ナマカオカハイと争って故郷を追われ、魔法の掘り棒パオアで火口を掘りながら島から島へと渡り、最後にハワイ島のキラウエアに住まいを定めたと語られる。",
+  "description": "ハワイの火山の女神。海の女神である姉ナマカオカハイと争って故郷を追われ、魔法の掘り棒パオアで火口を掘りながら島から島へと渡り、最後にハワイ島のキラウエアに住まいを定めたと語られる。激しい気性で知られ、妹ヒイアカに迎えに行かせた恋人ロヒアウも、怒りにまかせて溶岩で石に変えた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "卵の妹と旅立ち"
+    },
+    {
+      "type": "paragraph",
+      "text": "ウェスターヴェルトの再話では、ペレは家族から卵を託されて腰布に包んで温め、それが末の妹ヒイアカになりました。兄である鮫の神カモホアリイが用意した大きなカヌーで海を渡り、ペレはまずハワイ諸島の北西のニイハウ島に着きました。",
+      "claimIds": ["fg-pele-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "掘り棒パオア"
+    },
+    {
+      "type": "paragraph",
+      "text": "ペレは、地面に突き立てると火口ができる魔法の掘り棒パオアをもっていました。カウアイ島から島々を渡って火口を掘りましたが、どれも海に近すぎて水に火を消され、蒸気と砂を噴き上げて絶えてしまいます。ついにハワイ島でキラウエアを見つけ、そこに火の宮殿を築きました。",
+      "claimIds": ["fg-pele-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ロヒアウをめぐって"
+    },
+    {
+      "type": "paragraph",
+      "text": "長い眠りのうちに魂だけでカウアイ島へ渡ったペレは、首長ロヒアウと結ばれます。目覚めた彼女はヒイアカにロヒアウを迎えに行かせますが、その帰りが遅いことに怒り、ヒイアカの森と友ホポエを溶岩で焼き、やがてロヒアウも溶岩で石に変えてしまいました。",
+      "claimIds": ["fg-pele-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-pele-1",
+      "text": "ペレは卵を腰布に包んで温め、それがヒイアカになった。鮫の神である兄カモホアリイのカヌーで海を渡り、ペレはニイハウ島に着いた。",
+      "classification": "fact",
+      "sourceIds": ["westervelt-volcanoes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ウェスターヴェルト『ハワイの火山の伝説』「ペレはいかにしてハワイに来たか」の章"
+    },
+    {
+      "id": "fg-pele-2",
+      "text": "ペレは突き立てると火口ができる魔法の掘り棒パオアで島々に火口を掘ったが、どれも海に近く水に消され、最後にハワイ島のキラウエアに住まいを築いた。",
+      "classification": "fact",
+      "sourceIds": ["westervelt-volcanoes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ウェスターヴェルト『ハワイの火山の伝説』「ペレはいかにしてハワイに来たか」の章"
+    },
+    {
+      "id": "fg-pele-3",
+      "text": "ペレはヒイアカにロヒアウを迎えに行かせたが、帰りが遅いことに怒ってヒイアカの森と友ホポエを溶岩で焼き、ロヒアウも溶岩で石にした。",
+      "classification": "fact",
+      "sourceIds": ["westervelt-volcanoes"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ウェスターヴェルト『ハワイの火山の伝説』「踊る石ホポエ」「ロヒアウ」の章"
+    }
+  ],
   "relatedFigureIds": ["hiiaka"],
   "relatedStoryIds": ["pele-comes-to-hawaii"],
   "articleIds": [],

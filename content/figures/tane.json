@@ -9,7 +9,65 @@
   "type": "god",
   "roles": ["森の神", "鳥と虫の父"],
   "mythologyIds": ["polynesian"],
-  "description": "天ランギと地パパの子で、森と鳥と虫の父とされる神。兄弟たちが誰も父母を引き離せなかったとき、頭を母の大地につけ、足で父の天を押し上げて、天と地を引き離した。",
+  "description": "天ランギと地パパの子で、森と鳥と虫の父とされるマオリの神。兄弟たちが誰も父母を引き離せなかったとき、頭を母の大地につけ、足で父の天を押し上げて、天と地を引き離した。これに反対した風の神タウィリ・マテアは、怒ってタネの森をなぎ倒したと語られる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "闇の中の相談"
+    },
+    {
+      "type": "paragraph",
+      "text": "グレイが記録したマオリの伝承では、天ランギと地パパはぴったりと抱き合っており、その間に生まれた子どもたちは光のない闇の中で暮らしていました。子らが父母を殺すか引き離すかを相談したとき、タネ・マフタは、天を遠くに立たせ、地を養い親として足もとに残すために、引き離すほうがよいと答えました。",
+      "claimIds": ["fg-tane-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "天と地を押し離す"
+    },
+    {
+      "type": "paragraph",
+      "text": "ロンゴ、タンガロア、ハウミア、トゥが次々に試みて失敗したあと、タネはゆっくりと立ち上がりました。手と腕では離せなかったため、頭を母の大地にしっかりとつけ、足を父の天にかけ、背と手足に力をこめて、ついにランギとパパを引き離しました。",
+      "claimIds": ["fg-tane-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "森と鳥と虫の父"
+    },
+    {
+      "type": "paragraph",
+      "text": "グレイの伝承はタネ・マフタを森と、森に住むものの父と呼びます。引き離しに反対した風と嵐の父タウィリ・マテアは、のちに怒って兄弟たちに戦いを挑み、まずタネの森をなぎ倒しました。",
+      "claimIds": ["fg-tane-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-tane-1",
+      "text": "ランギとパパの子らが父母を殺すか引き離すか相談したとき、タネ・マフタは、天を遠くに、地を足もとに置くために引き離すべきだと言った。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』（1855年）pp. 2–3"
+    },
+    {
+      "id": "fg-tane-2",
+      "text": "兄弟たちが失敗したあと、タネは頭を母なる大地につけ、足で父なる天を押し上げて、ランギとパパを引き離した。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』（1855年）pp. 3–4"
+    },
+    {
+      "id": "fg-tane-3",
+      "text": "タネ・マフタは森と森に住むものの父とされ、引き離しに反対したタウィリ・マテアはのちにまずタネの森を襲った。",
+      "classification": "fact",
+      "sourceIds": ["grey-polynesian-mythology"],
+      "verificationStatus": "verified",
+      "sourceLocation": "グレイ『ポリネシア神話』（1855年）pp. 2–6"
+    }
+  ],
   "relatedFigureIds": ["rangi", "papa"],
   "relatedStoryIds": ["separation-of-rangi-and-papa"],
   "articleIds": [],

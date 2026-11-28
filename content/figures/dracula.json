@@ -5,10 +5,16 @@
   "reading": "どらきゅらはくしゃく",
   "originalName": "Count Dracula",
   "romanized": "Count Dracula",
-  "alternativeNames": ["ドラキュラ"],
+  "alternativeNames": [
+    "ドラキュラ"
+  ],
   "type": "fictional",
-  "roles": ["吸血鬼"],
-  "mythologyIds": ["dracula"],
+  "roles": [
+    "吸血鬼"
+  ],
+  "mythologyIds": [
+    "dracula"
+  ],
   "description": "ブラム・ストーカーの小説『吸血鬼ドラキュラ』に登場する、トランシルヴァニアの古城に住む吸血鬼。鏡に姿が映らず、人の血を吸って若返る。作中のヴァン・ヘルシング教授は、彼をかつてトルコ人と戦ったワラキアの君主の一族と推測する。最後はジョナサン・ハーカーとクインシー・モリスの刃を受けて塵となって消える。",
   "body": [
     {
@@ -19,7 +25,9 @@
     {
       "type": "paragraph",
       "text": "ブラム・ストーカーの小説『吸血鬼ドラキュラ』は、弁護士ジョナサン・ハーカーがトランシルヴァニアの伯爵の城を訪ねるところから始まります。ハーカーがひげを剃っていると背後に伯爵が現れましたが、鏡には部屋全体が映っているのに、伯爵の姿は映っていませんでした。",
-      "claimIds": ["fg-dracula-1"]
+      "claimIds": [
+        "fg-dracula-1"
+      ]
     },
     {
       "type": "heading",
@@ -29,7 +37,9 @@
     {
       "type": "paragraph",
       "text": "吸血鬼ハンターのヴァン・ヘルシングは、ドラキュラをかつて大河を越えて何度もトルコの地に軍を進め、打ち負かされても再び戻ってきた武将だと語ります。作中のドラキュラは、ただの怪物ではなく、歴史をもつ戦士として描かれているのです。",
-      "claimIds": ["fg-dracula-2"]
+      "claimIds": [
+        "fg-dracula-2"
+      ]
     },
     {
       "type": "heading",
@@ -39,7 +49,9 @@
     {
       "type": "paragraph",
       "text": "イギリスから逃げ帰るドラキュラを、ヴァン・ヘルシングたちは城の手前で追い詰めます。日没の直前、ジョナサンのナイフが伯爵の喉を切り裂き、同時にクインシー・モリスのボウイナイフが心臓に突き立てられると、伯爵の体は見る間に塵となって崩れ落ちました。",
-      "claimIds": ["fg-dracula-3"]
+      "claimIds": [
+        "fg-dracula-3"
+      ]
     }
   ],
   "claims": [
@@ -47,7 +59,9 @@
       "id": "fg-dracula-1",
       "text": "ハーカーがひげを剃っていると背後に伯爵が現れたが、鏡には部屋全体が映っているのに伯爵の姿は映っていなかった。",
       "classification": "fact",
-      "sourceIds": ["stoker-dracula"],
+      "sourceIds": [
+        "stoker-dracula"
+      ],
       "verificationStatus": "verified",
       "sourceLocation": "『吸血鬼ドラキュラ』第2章"
     },
@@ -55,7 +69,9 @@
       "id": "fg-dracula-2",
       "text": "ヴァン・ヘルシングは、ドラキュラをかつて大河を越えて何度もトルコの地に軍を進め、打ち負かされても再び戻ってきた武将だと語る。",
       "classification": "fact",
-      "sourceIds": ["stoker-dracula"],
+      "sourceIds": [
+        "stoker-dracula"
+      ],
       "verificationStatus": "verified",
       "sourceLocation": "『吸血鬼ドラキュラ』第25章"
     },
@@ -63,13 +79,21 @@
       "id": "fg-dracula-3",
       "text": "日没の直前、ジョナサンのナイフが伯爵の喉を切り裂き、同時にクインシー・モリスのボウイナイフが心臓に突き立てられた。伯爵の体は塵となって崩れ落ちた。",
       "classification": "fact",
-      "sourceIds": ["stoker-dracula"],
+      "sourceIds": [
+        "stoker-dracula"
+      ],
       "verificationStatus": "verified",
       "sourceLocation": "『吸血鬼ドラキュラ』第27章"
     }
   ],
   "relatedFigureIds": [],
-  "relatedStoryIds": ["no-reflection", "death-of-dracula"],
+  "relatedStoryIds": [
+    "no-reflection",
+    "death-of-dracula"
+  ],
   "articleIds": [],
-  "sourceIds": ["stoker-dracula"]
+  "sourceIds": [
+    "stoker-dracula"
+  ],
+  "imageId": "figure-dracula"
 }

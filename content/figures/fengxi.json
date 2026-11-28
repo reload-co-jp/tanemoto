@@ -10,6 +10,46 @@
   "roles": ["大猪"],
   "mythologyIds": ["chinese"],
   "description": "中国神話に登場する巨大な猪の怪物。『淮南子』本経訓によれば、堯の時代に十の太陽が同時に昇ったとき、猰貐・鑿歯・九嬰・大風・修蛇とともに民を苦しめた怪物の一つで、羿によって桑林で生け捕りにされた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "堯の時代の六つの害"
+    },
+    {
+      "type": "paragraph",
+      "text": "『淮南子』本経訓は、堯の時代に十の太陽が並んで昇って穀物や草木を焼き、民が食べるものを失ったと語ります。そのとき猰貐（あつゆ）・鑿歯（さくし）・九嬰（きゅうえい）・大風・封豨・修蛇（しゅうだ）が、そろって民の害となっていました。",
+      "claimIds": ["fg-fengxi-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "桑林で捕らえられる"
+    },
+    {
+      "type": "paragraph",
+      "text": "堯は羿に命じてこれらを退治させ、羿は封豨を桑林（そうりん）で生け捕りにしました。万民は喜び、堯を天子に戴いたと本経訓は結んでいます。「封」は大きいこと、「豨」は猪を意味し、名前そのものが「大きな猪」を表します。",
+      "claimIds": ["fg-fengxi-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-fengxi-1",
+      "text": "堯の時代に十の太陽が並んで昇り、猰貐・鑿歯・九嬰・大風・封豨・修蛇がみな民の害となった。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』本経訓"
+    },
+    {
+      "id": "fg-fengxi-2",
+      "text": "羿は封豨を桑林で生け捕りにし、万民は喜んで堯を天子とした。",
+      "classification": "fact",
+      "sourceIds": ["huainanzi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『淮南子』本経訓"
+    }
+  ],
   "relatedFigureIds": ["hou-yi"],
   "relatedStoryIds": [],
   "articleIds": [],

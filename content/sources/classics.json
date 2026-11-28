@@ -11,6 +11,17 @@
     "notes": "世界と神々の誕生、神々の系譜を語る叙事詩。行番号は原典の行数。邦訳に廣川洋一訳（岩波文庫）がある。"
   },
   {
+    "id": "aeschylus-prometheus",
+    "title": "縛られたプロメテウス",
+    "originalTitle": "Prometheus Desmotes（Προμηθεὺς Δεσμώτης）",
+    "author": "アイスキュロス（伝）",
+    "type": "primary",
+    "publishedPeriod": "紀元前5世紀",
+    "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0010",
+    "urlLabel": "Perseus Digital Library（H. W. Smyth 英訳, 1926）",
+    "notes": "人間に火を与えたプロメテウスが、ゼウスの命でカウカソスの岩に縛りつけられる悲劇。冒頭でクラトス（力）とビア（暴力）が刑の執行者として登場する。アイスキュロスの作とされてきたが、真作かどうかには異論がある。行番号は原典の行数。邦訳に呉茂一訳（岩波文庫）がある。"
+  },
+  {
     "id": "homer-iliad",
     "title": "イリアス",
     "originalTitle": "Ilias（Ἰλιάς）",

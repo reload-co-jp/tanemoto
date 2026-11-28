@@ -7,11 +7,93 @@
   "romanized": "Lemminkainen",
   "alternativeNames": [],
   "type": "hero",
-  "roles": ["冒険者", "色男"],
-  "mythologyIds": ["finnish"],
+  "roles": [
+    "冒険者",
+    "色男"
+  ],
+  "mythologyIds": [
+    "finnish"
+  ],
   "description": "向こう見ずで女好きの若き英雄。ポホヨラの娘に求婚して課された難題に挑み、死者の国トゥオネラの川で白鳥を狩ろうとして殺され、体を切り刻まれて川に流された。母が銅の熊手で体を集めてつなぎ合わせ、よみがえらせた。",
-  "relatedFigureIds": ["louhi"],
-  "relatedStoryIds": ["lemminkainen-in-tuonela"],
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "向こう見ずな求婚者"
+    },
+    {
+      "type": "paragraph",
+      "text": "『カレワラ』のレンミンカイネンは、島の娘キュッリッキをさらって妻にしますが、彼女が約束を破って村の踊りに出かけたことを口実に家を飛び出し、ポホヨラの娘に求婚しに向かいます。",
+      "claimIds": [
+        "fg-lemminkainen-1"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "トゥオネラの白鳥"
+    },
+    {
+      "type": "paragraph",
+      "text": "ロウヒは娘を与える条件として、ヒーシの大鹿を捕らえ、ヒーシの火の馬に轡をかけ、最後にトゥオネラの川の白鳥を射ることを課しました。川に近づいたレンミンカイネンは、かつて侮った盲目の牛飼いに水蛇で刺されて死に、体は切り刻まれて川に投げ込まれました。",
+      "claimIds": [
+        "fg-lemminkainen-2"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "母の熊手"
+    },
+    {
+      "type": "paragraph",
+      "text": "家の櫛から血が流れ出たのを見て息子の死を知った母は、鍛冶師イルマリネンに銅の熊手を作らせ、トゥオネラの川をさらって体の欠片を集めました。母はそれをつなぎ合わせ、蜜蜂が天から運んだ軟膏を塗って、息子をよみがえらせました。",
+      "claimIds": [
+        "fg-lemminkainen-3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-lemminkainen-1",
+      "text": "レンミンカイネンはキュッリッキをさらって妻としたが、彼女が誓いを破ったことを機に、ポホヨラへ求婚に出かけた。",
+      "classification": "fact",
+      "sourceIds": [
+        "kalevala"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第11章〜第12章"
+    },
+    {
+      "id": "fg-lemminkainen-2",
+      "text": "ロウヒはヒーシの大鹿、ヒーシの馬、トゥオネラの白鳥を求め、白鳥を狙ったレンミンカイネンは牛飼いに水蛇で殺され、体を切り刻まれてトゥオネラの川に投げ込まれた。",
+      "classification": "fact",
+      "sourceIds": [
+        "kalevala"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第13章〜第14章"
+    },
+    {
+      "id": "fg-lemminkainen-3",
+      "text": "母は櫛から血が流れたことで息子の死を知り、銅の熊手でトゥオネラの川から体を集めてつなぎ合わせ、蜜蜂が運んだ軟膏で息子をよみがえらせた。",
+      "classification": "fact",
+      "sourceIds": [
+        "kalevala"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カレワラ』第15章"
+    }
+  ],
+  "relatedFigureIds": [
+    "louhi"
+  ],
+  "relatedStoryIds": [
+    "lemminkainen-in-tuonela"
+  ],
   "articleIds": [],
-  "sourceIds": ["kalevala"]
+  "sourceIds": [
+    "kalevala"
+  ],
+  "imageId": "figure-lemminkainen"
 }

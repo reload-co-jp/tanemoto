@@ -5,13 +5,95 @@
   "reading": "かすとる",
   "originalName": "Κάστωρ",
   "romanized": "Kastor",
-  "alternativeNames": ["カストール"],
+  "alternativeNames": [
+    "カストール"
+  ],
   "type": "hero",
-  "roles": ["ディオスクロイ", "戦いの名手"],
-  "mythologyIds": ["greek"],
-  "description": "レダの息子で、ポリュデウケスと並んで「ディオスクロイ（ゼウスの息子たち）」と呼ばれる双子の一人。戦いの技に長けていた。イダスとリュンケウスとの争いでイダスに殺された。",
-  "relatedFigureIds": ["polydeuces"],
+  "roles": [
+    "ディオスクロイ",
+    "戦いの名手"
+  ],
+  "mythologyIds": [
+    "greek"
+  ],
+  "description": "レダの息子で、ポリュデウケスと並んで「ディオスクロイ（ゼウスの息子たち）」と呼ばれる双子の一人。ゼウスの子ポリュデウケスと違い、人間テュンダレオスを父とする死すべき者で、戦いの技に長けていた。イダスに殺されたのち、兄弟の願いによって二人で一日おきに天と地を行き来することになった。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "双子の父"
+    },
+    {
+      "type": "paragraph",
+      "text": "アポロドロスの『ビブリオテーケー』によれば、レダはゼウスとも夫テュンダレオスとも交わり、ゼウスの子としてポリュデウケスとヘレネを、テュンダレオスの子としてカストルとクリュタイムネストラを生みました。双子でありながら、カストルは人間の父をもつ死すべき者でした。",
+      "claimIds": [
+        "fg-castor-1"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "戦いの名手"
+    },
+    {
+      "type": "paragraph",
+      "text": "兄弟のうちカストルは戦いの技を、ポリュデウケスは拳闘を得意とし、その勇ましさから二人そろってディオスクロイと呼ばれました。",
+      "claimIds": [
+        "fg-castor-2"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "一日おきの不死"
+    },
+    {
+      "type": "paragraph",
+      "text": "双子はアパレウスの子イダスとリュンケウスと牛を奪い合い、待ち伏せの最中にリュンケウスに見つけられたカストルはイダスに殺されました。ゼウスはポリュデウケスを天に上げようとしましたが、兄弟が死んでいるのに不死を受けることを彼が拒んだため、二人が一日おきに神々のもとと人間のもとで過ごすことを許しました。",
+      "claimIds": [
+        "fg-castor-3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-castor-1",
+      "text": "レダはゼウスによってポリュデウケスとヘレネを、テュンダレオスによってカストルとクリュタイムネストラを生んだ。",
+      "classification": "fact",
+      "sourceIds": [
+        "apollodorus-library"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "アポロドロス『ビブリオテーケー』3.10.7"
+    },
+    {
+      "id": "fg-castor-2",
+      "text": "レダの息子たちのうち、カストルは戦いの技を、ポリュデウケスは拳闘を修め、その勇ましさから二人ともディオスクロイと呼ばれた。",
+      "classification": "fact",
+      "sourceIds": [
+        "apollodorus-library"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "アポロドロス『ビブリオテーケー』3.11.2"
+    },
+    {
+      "id": "fg-castor-3",
+      "text": "カストルはイダスに殺された。ポリュデウケスは兄弟が死んでいるのに不死を受けることを拒み、ゼウスは二人が一日おきに神々のもとと人間のもとで過ごすことを許した。",
+      "classification": "fact",
+      "sourceIds": [
+        "apollodorus-library"
+      ],
+      "verificationStatus": "verified",
+      "sourceLocation": "アポロドロス『ビブリオテーケー』3.11.2"
+    }
+  ],
+  "relatedFigureIds": [
+    "polydeuces"
+  ],
   "relatedStoryIds": [],
   "articleIds": [],
-  "sourceIds": ["apollodorus-library"]
+  "sourceIds": [
+    "apollodorus-library"
+  ],
+  "imageId": "figure-castor"
 }

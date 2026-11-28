@@ -9,7 +9,65 @@
   "type": "fictional",
   "roles": ["ジョバンニの友人"],
   "mythologyIds": ["night-on-the-galactic-railroad"],
-  "description": "『銀河鉄道の夜』で、ジョバンニとともに銀河鉄道に乗る親友。旅の途中で姿を消し、目覚めたジョバンニは、カムパネルラが川に落ちた級友ザネリを助けて行方不明になったことを知る。",
+  "description": "『銀河鉄道の夜』で、ジョバンニとともに銀河鉄道に乗る親友。ジョバンニが答えられなかった授業の問いに、答えを知りながら黙っていた心優しい少年。旅の途中で姿を消し、目覚めたジョバンニは、カムパネルラが川に落ちた級友ザネリを助けて行方不明になったことを知る。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "黙っていた答え"
+    },
+    {
+      "type": "paragraph",
+      "text": "午後の授業で先生に天の川のことを問われたとき、カムパネルラも答えを知っていながら黙っていました。ジョバンニは、それが自分をかわいそうに思ったからだと感じます。",
+      "claimIds": ["fg-campanella-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "おっかさんはゆるしてくださるだろうか"
+    },
+    {
+      "type": "paragraph",
+      "text": "銀河鉄道に乗ったカムパネルラは、旅の早い段階で、おっかさんは自分をゆるしてくださるだろうかと口にします。その言葉の意味は、物語の終わりになってようやく明らかになります。",
+      "claimIds": ["fg-campanella-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "川に消えた友"
+    },
+    {
+      "type": "paragraph",
+      "text": "石炭袋と呼ばれる空の穴のそばで、カムパネルラは野原を指して、あそこにお母さんがいると言い、そのまま姿を消します。目を覚ましたジョバンニが川辺で聞いたのは、カムパネルラが川に落ちたザネリを助けて、自分は沈んでしまったという知らせでした。",
+      "claimIds": ["fg-campanella-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-campanella-1",
+      "text": "授業で天の川について問われたカムパネルラは答えを知っていながら答えず、ジョバンニはそれを自分への気遣いだと感じた。",
+      "classification": "fact",
+      "sourceIds": ["miyazawa-galactic-railroad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『銀河鉄道の夜』一、午后の授業"
+    },
+    {
+      "id": "fg-campanella-2",
+      "text": "カムパネルラは列車の中で、おっかさんは自分をゆるしてくださるだろうかと言う。",
+      "classification": "fact",
+      "sourceIds": ["miyazawa-galactic-railroad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『銀河鉄道の夜』七、北十字とプリオシン海岸"
+    },
+    {
+      "id": "fg-campanella-3",
+      "text": "カムパネルラは石炭袋のそばで姿を消し、現実では川に落ちたザネリを助けたあと行方不明になっていた。",
+      "classification": "fact",
+      "sourceIds": ["miyazawa-galactic-railroad"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『銀河鉄道の夜』九、ジョバンニの切符"
+    }
+  ],
   "relatedFigureIds": ["giovanni"],
   "relatedStoryIds": ["galactic-railroad-journey"],
   "articleIds": [],

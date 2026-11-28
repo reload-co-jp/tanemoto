@@ -10,6 +10,64 @@
   "roles": ["大洪水の生き残り", "不死"],
   "mythologyIds": ["mesopotamian"],
   "description": "神々が起こした大洪水を、エア神の知らせで方舟を造って生き延びた人物。神々から永遠の命を与えられ、はるか遠くに住む。不死を求めて訪ねてきたギルガメシュに洪水の物語を語り、海の底の若返りの草のありかを教えた。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "葦の壁へのささやき"
+    },
+    {
+      "type": "paragraph",
+      "text": "『ギルガメシュ叙事詩』第11書板で、ウトナピシュティムはギルガメシュに洪水の物語を語ります。神々が洪水を起こすと決めたとき、エア神は誓いを破らないよう、彼の住まいの葦の壁に向かって語りかけ、家を壊して舟を造り、あらゆる生き物の種を乗せるよう告げました。",
+      "claimIds": ["fg-utnapishtim-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "七日の嵐と三羽の鳥"
+    },
+    {
+      "type": "paragraph",
+      "text": "嵐は六日七晩吹き荒れ、七日目に静まりました。舟がニムシュ山に止まると、ウトナピシュティムは鳩、燕、そして烏を放ち、烏が戻らなかったことで水が引いたことを知りました。",
+      "claimIds": ["fg-utnapishtim-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "不死の授与と若返りの草"
+    },
+    {
+      "type": "paragraph",
+      "text": "エンリルはウトナピシュティムとその妻を神々のようにし、遠い河口に住まわせました。不死を求めるギルガメシュには六日七晩眠らずにいるよう試しましたが、ギルガメシュは眠りこんでしまいます。帰り際、ウトナピシュティムは海の底に生える若返りの草のことを明かしましたが、その草は帰り道で蛇に奪われました。",
+      "claimIds": ["fg-utnapishtim-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-utnapishtim-1",
+      "text": "神々が洪水を決めたとき、エアは葦の壁に語りかける形でウトナピシュティムに知らせ、家を壊して舟を造り、生き物の種を乗せるよう命じた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    },
+    {
+      "id": "fg-utnapishtim-2",
+      "text": "嵐ののち舟はニムシュ山に止まり、ウトナピシュティムは鳩、燕、烏を放った。烏は戻らなかった。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    },
+    {
+      "id": "fg-utnapishtim-3",
+      "text": "エンリルはウトナピシュティム夫妻を神々のようにした。ウトナピシュティムはギルガメシュに眠らずにいる試練を課したが彼は眠りこみ、帰り際に教えられた若返りの草は蛇に奪われた。",
+      "classification": "fact",
+      "sourceIds": ["gilgamesh-epic"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ギルガメシュ叙事詩』第11粘土板"
+    }
+  ],
   "relatedFigureIds": ["gilgamesh"],
   "relatedStoryIds": ["plant-of-youth"],
   "articleIds": [],

@@ -8,6 +8,64 @@
   "roles": ["月", "夜"],
   "mythologyIds": ["japanese"],
   "description": "イザナギが禊で右の目を洗ったときに生まれた神で、夜の世界を治めるよう命じられた。『古事記』にはほとんど物語がないが、『日本書紀』の一書では保食神を斬ったことで天照大神の怒りを買い、日と月が離れて住むようになった由来が語られる。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "夜の食国を治める神"
+    },
+    {
+      "type": "paragraph",
+      "text": "『古事記』によれば、黄泉の国から戻ったイザナギが禊をし、左の目を洗うと天照大御神が、右の目を洗うと月読命が、鼻を洗うと建速須佐之男命が生まれました。イザナギは月読命に「夜の食国（よるのおすくに）」を治めるよう命じます。",
+      "claimIds": ["fg-tsukuyomi-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "日に次ぐ光"
+    },
+    {
+      "type": "paragraph",
+      "text": "『日本書紀』本文では、イザナギとイザナミが日の神に続いて月の神を生み、その光の美しさは日に次ぐので、日と並べて天を治めさせたと記されます。",
+      "claimIds": ["fg-tsukuyomi-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "保食神を斬る"
+    },
+    {
+      "type": "paragraph",
+      "text": "一書第十一では、天照大神の命で葦原中国の保食神（うけもちのかみ）を訪ねた月夜見尊が、口から吐き出した食べ物でもてなされたことを汚らわしいと怒り、剣で斬り殺してしまいます。天照大神は「お前は悪い神だ、もう会わない」と言い、日と月は一昼一夜を隔てて離れて住むようになりました。",
+      "claimIds": ["fg-tsukuyomi-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-tsukuyomi-1",
+      "text": "イザナギが禊で右の目を洗うと月読命が生まれ、夜の食国を治めるよう命じられた。",
+      "classification": "fact",
+      "sourceIds": ["kojiki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事記』上巻（三貴子の分治）"
+    },
+    {
+      "id": "fg-tsukuyomi-2",
+      "text": "『日本書紀』本文で、月の神はその光が日に次ぐため、日の神と並べて天を治めさせられた。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』神代上 第五段 本文"
+    },
+    {
+      "id": "fg-tsukuyomi-3",
+      "text": "月夜見尊は口から出した食べ物でもてなした保食神を斬り殺し、怒った天照大神は二度と会わないと言って、日と月は一日一夜を隔てて住むようになった。",
+      "classification": "fact",
+      "sourceIds": ["nihon-shoki"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『日本書紀』神代上 第五段 一書第十一"
+    }
+  ],
   "relatedFigureIds": ["izanagi", "amaterasu", "susanoo"],
   "relatedStoryIds": ["birth-of-three-noble-children"],
   "articleIds": [],

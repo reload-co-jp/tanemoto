@@ -10,6 +10,64 @@
   "roles": ["家畜の神"],
   "mythologyIds": ["slavic"],
   "description": "『原初年代記』では「家畜の神」と呼ばれ、ビザンツ帝国との条約の際にペルーンと並んで誓いの対象となった神。ウラジーミル1世がキエフの丘に立てた神像の一覧には名がない。後世の研究ではペルーンと対立する地下や水の神と考える説もあるが、原典の記述はごく短い。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "家畜の神への誓い"
+    },
+    {
+      "type": "paragraph",
+      "text": "『原初年代記』によれば、907年にオレグがビザンツ帝国と和約を結んだとき、ルーシの人々は自分たちの武器と、自分たちの神ペルーン、そして家畜の神ヴォロスにかけて誓いました。",
+      "claimIds": ["fg-veles-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "二度目の誓い"
+    },
+    {
+      "type": "paragraph",
+      "text": "971年にスヴャトスラフがビザンツ皇帝と結んだ和約でも、誓いを破った者はペルーンとヴォロスの呪いを受けるとされ、ヴォロスはふたたび家畜の神として名を挙げられています。",
+      "claimIds": ["fg-veles-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "神像の一覧にない神"
+    },
+    {
+      "type": "paragraph",
+      "text": "一方、980年にウラジーミル1世がキエフの丘に立てた神像は、ペルーン、ホルス、ダジボーグ、ストリボーグ、シマルグル、モコシで、ヴォロスの名は見えません。ヴォロスがペルーンと対立する地下や水の神だとする見方は、のちの研究による再構成です。",
+      "claimIds": ["fg-veles-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-veles-1",
+      "text": "907年の和約で、オレグの人々は武器と、神ペルーン、家畜の神ヴォロスにかけて誓った。",
+      "classification": "fact",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6415年（907年）条"
+    },
+    {
+      "id": "fg-veles-2",
+      "text": "971年のスヴャトスラフの和約でも、誓いを破る者は神ペルーンと家畜の神ヴォロスの呪いを受けるとされた。",
+      "classification": "fact",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6479年（971年）条"
+    },
+    {
+      "id": "fg-veles-3",
+      "text": "980年にウラジーミル1世がキエフの丘に立てた神像はペルーン、ホルス、ダジボーグ、ストリボーグ、シマルグル、モコシで、ヴォロスは含まれない。",
+      "classification": "fact",
+      "sourceIds": ["primary-chronicle"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『原初年代記』6488年（980年）条"
+    }
+  ],
   "relatedFigureIds": ["perun"],
   "relatedStoryIds": ["oath-of-perun-and-volos"],
   "articleIds": [],

@@ -10,6 +10,64 @@
   "roles": ["覆面の剣士"],
   "mythologyIds": ["zorro"],
   "description": "ジョンストン・マッカレーの小説『カピストラーノの呪い』（『怪傑ゾロ』）の主人公。スペイン統治下のカリフォルニアで、黒い覆面とマントに身を包み、圧政に苦しむ人々のために剣を振るう義賊。「ゾロ」はスペイン語で「キツネ」の意味。その正体は、ふだん気だるげで剣にも恋にも興味がないふりをしている貴族の青年ドン・ディエゴ・ベガである。",
+  "body": [
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "嵐の夜の酒場"
+    },
+    {
+      "type": "paragraph",
+      "text": "マッカレーの『カピストラーノの呪い』は、雨の夜のレイナ・デ・ロス・アンヘレスの酒場で、軍曹ペドロ・ゴンサレスが、出会えばゾロを打ち負かしてみせると大言壮語する場面から始まります。そこへ当のゾロが現れ、軍曹を剣でやりこめて去っていきます。",
+      "claimIds": ["fg-zorro-1"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "気だるい青年ドン・ディエゴ"
+    },
+    {
+      "type": "paragraph",
+      "text": "裕福な家の跡取りドン・ディエゴ・ベガは、乗馬も剣も退屈そうにふるまい、落ちぶれた貴族の娘ロリータ・プリードに求婚しても、気のない態度で彼女をがっかりさせます。ところがロリータは、彼女の前に現れた覆面の男ゾロに心を引かれていきます。",
+      "claimIds": ["fg-zorro-2"]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "最後の正体明かし"
+    },
+    {
+      "type": "paragraph",
+      "text": "ゾロは、総督の圧政に怒る若い貴族たちを率いて戦い、捕らえられたロリータとその両親を救い出します。物語の最後、追い詰められたゾロが覆面を取ると、その下にあったのはドン・ディエゴの顔でした。",
+      "claimIds": ["fg-zorro-3"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fg-zorro-1",
+      "text": "物語は酒場でゴンサレス軍曹がゾロを倒すと豪語する場面から始まり、そこに現れたゾロは軍曹を剣で打ち負かす。",
+      "classification": "fact",
+      "sourceIds": ["mcculley-capistrano"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カピストラーノの呪い』第1章〜第2章"
+    },
+    {
+      "id": "fg-zorro-2",
+      "text": "ドン・ディエゴはロリータ・プリードに気のない求婚をし、ロリータはむしろ覆面のゾロに心を引かれる。",
+      "classification": "fact",
+      "sourceIds": ["mcculley-capistrano"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カピストラーノの呪い』第3章〜第8章"
+    },
+    {
+      "id": "fg-zorro-3",
+      "text": "物語の最後にゾロは覆面を取り、その正体がドン・ディエゴであったことが明かされる。",
+      "classification": "fact",
+      "sourceIds": ["mcculley-capistrano"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『カピストラーノの呪い』最終章"
+    }
+  ],
   "relatedFigureIds": [],
   "relatedStoryIds": ["zorro-unmasked"],
   "articleIds": [],
