@@ -1,0 +1,133 @@
+{
+  "id": "valkyrie-profile-odin",
+  "slug": "valkyrie-profile-odin",
+  "name": "オーディン",
+  "reading": "おーでぃん",
+  "alternativeNames": [],
+  "workId": "valkyrie-profile",
+  "description": {
+    "text": "アース神族の王。未来を語る「ユーミルの首」から神々の黄昏が近いことを聞かされ、ヴァン神族との最終戦争に備えて、戦乙女レナスに英雄の魂を集めさせる。",
+    "claimIds": ["vp-od-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話の主神オーディンから。",
+    "claimIds": ["vp-od-work", "vp-od-myth-chief"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "odin",
+      "label": "アース神族の王",
+      "inWork": {
+        "text": "オーディンはアース神族の王として神界を治め、敵対するヴァン神族との最終戦争に備えている。",
+        "claimIds": ["vp-od-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+        "claimIds": ["vp-od-myth-chief"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "mimir",
+      "label": "首に耳を傾ける",
+      "inWork": {
+        "text": "オーディンは、未来を語るという「ユーミルの首」から、神々の黄昏（ラグナロク）が近いことを聞かされる。",
+        "claimIds": ["vp-od-work"]
+      },
+      "inMyth": {
+        "text": "『古エッダ』「巫女の予言」では、世界樹ユグドラシルが揺れ、巨人が解き放たれるとき、オーディンはミームの首に耳を傾ける。",
+        "claimIds": ["vp-od-myth-head"]
+      }
+    },
+    {
+      "aspect": "role",
+      "figureId": "odin",
+      "label": "エインフェリア（戦死者の軍勢）",
+      "inWork": {
+        "text": "レナスはオーディンの命令に従い、死に瀕した英雄たちの死に様を見届けて、その魂を神界の戦士エインフェリアとして集めていく。",
+        "claimIds": ["vp-od-work-lenneth"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、病や老いで死んだ者はヘルのもとへ行くが、戦いで倒れた者たちはエインヘリャルとしてヴァルハラでオーディンのもとに集う。",
+        "claimIds": ["vp-od-myth-einherjar"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話でオーディンが耳を傾けるのは賢者ミーミル（ミーム）の首だが、本作では原初の巨人の名を冠した「ユーミルの首」が予言を告げる。",
+      "claimIds": ["vp-od-myth-head", "vp-od-work", "vp-od-cmp-1"]
+    },
+    {
+      "text": "神話のラグナロクは、ムスペルの子らや巨人、ロキとの戦いとして語られる。本作では、それがアース神族とヴァン神族の最終戦争に置き換えられている。",
+      "claimIds": ["vp-od-work", "vp-od-myth-ragnarok", "vp-od-cmp-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "vp-od-work",
+      "text": "アース神族の王オーディンは、未来を語るという「ユーミルの首」から「神々の黄昏（ラグナロク）」が近いことを聞かされる。この予言は、敵対関係にあるヴァン神族との最終戦争を指していた。",
+      "classification": "creative",
+      "sourceIds": ["work-valkyrie-profile"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヴァルキリープロファイル」の記述で確認。"
+    },
+    {
+      "id": "vp-od-work-lenneth",
+      "text": "レナスはオーディンの命令に従い、死に瀕した英雄たちのもとに現れては彼らの死に様を見届け、その魂を集めていく。死後に霊的な存在となった英雄の魂はエインフェリアと呼ばれる。",
+      "classification": "creative",
+      "sourceIds": ["work-valkyrie-profile"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ヴァルキリープロファイル」の記述で確認。"
+    },
+    {
+      "id": "vp-od-myth-chief",
+      "text": "オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章"
+    },
+    {
+      "id": "vp-od-myth-head",
+      "text": "ユグドラシルが揺れ、巨人が解き放たれるとき、オーディンはミームの首に耳を傾ける。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「巫女の予言」47節（ベロウズ訳の節番号。一般的な節番号では46節）"
+    },
+    {
+      "id": "vp-od-myth-einherjar",
+      "text": "オーディンはヘルに、病や老いで死んだ者たちに住まいを割り当てる九つの世界の支配を任せた。戦いで倒れた者たちはエインヘリャルとしてヴァルハラでオーディンのもとに集う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章・34章"
+    },
+    {
+      "id": "vp-od-myth-ragnarok",
+      "text": "天が裂けてムスペルの子らが現れ、スルトが先頭を進む。フェンリル狼、ミズガルズの大蛇、ロキと霜の巨人たちがヴィーグリーズの野に集う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 51章"
+    },
+    {
+      "id": "vp-od-cmp-1",
+      "text": "神話でオーディンが耳を傾けるのは賢者ミーミル（ミーム）の首だが、本作では原初の巨人の名を冠した「ユーミルの首」が予言を告げる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "vp-od-cmp-2",
+      "text": "神話のラグナロクは、ムスペルの子らや巨人、ロキとの戦いとして語られる。本作では、それがアース神族とヴァン神族の最終戦争に置き換えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-valkyrie-profile", "snorri-edda", "poetic-edda"],
+  "articleIds": []
+}

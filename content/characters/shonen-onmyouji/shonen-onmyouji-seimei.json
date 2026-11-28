@@ -1,0 +1,101 @@
+{
+  "id": "shonen-onmyouji-seimei",
+  "slug": "shonen-onmyouji-seimei",
+  "name": "安倍晴明",
+  "reading": "あべのせいめい",
+  "alternativeNames": [],
+  "workId": "shonen-onmyouji",
+  "description": {
+    "text": "稀代の大陰陽師で、主人公・昌浩の祖父。80歳近いがとても元気で、天狐・葛の葉を母にもち、稀に見る霊力の強さを誇る。配下の十二神将を朋友と呼ぶ。",
+    "claimIds": ["sho-sm-work"]
+  },
+  "nameOrigin": {
+    "text": "平安時代の陰陽師・安倍晴明そのもの。",
+    "claimIds": ["sho-sm-work", "sho-sm-myth-kazan"]
+  },
+  "motifs": [
+    {
+      "aspect": "ability",
+      "figureId": "abe-no-seimei",
+      "label": "式神を使う陰陽師",
+      "inWork": {
+        "text": "晴明は配下の十二神将を式神として下しており、彼らを朋友と呼ぶ。離魂術で、霊力が最も高かったころの若い姿をとることもできる。",
+        "claimIds": ["sho-sm-work", "sho-sm-work-rikon"]
+      },
+      "inMyth": {
+        "text": "『大鏡』によれば、花山天皇がひそかに出家に向かう途中で晴明の家の前を通ると、晴明は帝の退位を示す天変があったと言い、式神一人に内裏へ参るよう命じた。目に見えない者が戸を開けて出てきた。",
+        "claimIds": ["sho-sm-myth-kazan"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "abe-no-seimei",
+      "label": "道摩法師との対決",
+      "inWork": {
+        "text": "晴明は、藤原道長の一の姫である彰子を預かるなど、道長の家とも深く関わっている。",
+        "claimIds": ["sho-sm-work-shoshi"]
+      },
+      "inMyth": {
+        "text": "『古事談』によれば、藤原道長の白犬が吠えて道長を引き止めたため、晴明が呪物を見つけ出し、懐紙で鳥の形を作って投げると白鷺となって飛び、その降りた所で術者の道摩法師が捕らえられた。",
+        "claimIds": ["sho-sm-myth-doma"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "説話集の晴明は、式神を使って天変や呪いを見抜く陰陽師として語られる。本作の晴明もその力を受け継ぎつつ、孫をからかう好々爺としての一面が強調されている。",
+      "claimIds": ["sho-sm-myth-kazan", "sho-sm-work-rikon", "sho-sm-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sho-sm-work",
+      "text": "安倍晴明は稀代の大陰陽師で昌浩の祖父。齢80間近だが、とても元気である。神に通ずる天狐・葛の葉（晶霞）を母にもち、稀に見る霊力の強さを誇る。配下の十二神将を朋友と呼ぶ。",
+      "classification": "creative",
+      "sourceIds": ["work-shonen-onmyouji"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「少年陰陽師」の記述で確認。"
+    },
+    {
+      "id": "sho-sm-work-rikon",
+      "text": "晴明は末孫の昌浩を大事に思っていて、可愛がりながらもおちょくりすぎて「古だぬき」「たぬき爺」と呼ばれたりする。離魂術で一番霊力が高かったころの姿をとることが可能だが、大量の霊力を消耗する。",
+      "classification": "creative",
+      "sourceIds": ["work-shonen-onmyouji"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「少年陰陽師」の記述で確認。"
+    },
+    {
+      "id": "sho-sm-work-shoshi",
+      "text": "ヒロインの彰子は藤原道長の一の姫で、当代一の見鬼の才をもつ。妖怪・窮奇に狙われて一生消えない呪詛を負い、入内せずに安倍家に半永久的に滞在することになった。",
+      "classification": "creative",
+      "sourceIds": ["work-shonen-onmyouji"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「少年陰陽師」の記述で確認。"
+    },
+    {
+      "id": "sho-sm-myth-kazan",
+      "text": "寛和二年六月、花山天皇がひそかに出家に向かう途中で安倍晴明の家の前を通ると、晴明は帝の退位を示す天変があったと言い、式神一人に内裏へ参るよう命じた。目に見えない者が戸を開けて出てきて、帝がちょうど通り過ぎていくと答えた。",
+      "classification": "fact",
+      "sourceIds": ["okagami"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『大鏡』花山院"
+    },
+    {
+      "id": "sho-sm-myth-doma",
+      "text": "藤原道長の白犬が吠えて道長を引き止めたため、晴明が呪物を見つけ出し、懐紙で鳥の形を作って投げると白鷺となって飛び、その降りた所で術者の道摩法師が捕らえられた。",
+      "classification": "fact",
+      "sourceIds": ["kojidan"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古事談』第六"
+    },
+    {
+      "id": "sho-sm-cmp-1",
+      "text": "説話集の晴明は、式神を使って天変や呪いを見抜く陰陽師として語られる。本作の晴明もその力を受け継ぎつつ、孫をからかう好々爺としての一面が強調されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-shonen-onmyouji", "okagami", "kojidan"],
+  "articleIds": []
+}

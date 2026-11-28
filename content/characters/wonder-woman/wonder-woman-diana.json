@@ -1,0 +1,89 @@
+{
+  "id": "wonder-woman-diana",
+  "slug": "wonder-woman-diana",
+  "name": "ダイアナ",
+  "reading": "だいあな",
+  "alternativeNames": ["ワンダーウーマン", "ダイアナ・プリンス"],
+  "workId": "wonder-woman",
+  "description": {
+    "text": "アマゾン族の女王ヒッポリタの娘で、隠された島セミッシラで育った王女。外の世界の大戦の陰に戦争の神アレスがいると信じ、「神殺し」の剣とヘスティアの縄を携えて島を出る。",
+    "claimIds": ["ww-di-work", "ww-di-work-ares"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "hippolyta",
+      "label": "アマゾン族と女王ヒッポリタ",
+      "inWork": {
+        "text": "ダイアナは女王ヒッポリタの幼い娘として、オリュンポスの神々が人類を守るために生み出した女戦士の一族アマゾン族の暮らす島セミッシラで育つ。",
+        "claimIds": ["ww-di-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘラクレスの第九の功業はアマゾンの女王ヒッポリュテの帯を持ち帰ることだった。アマゾンはテルモドン川のほとりに住む、戦に秀でた女たちの民である。",
+        "claimIds": ["ww-di-myth-amazon"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "zeus",
+      "label": "ゼウスと神々",
+      "inWork": {
+        "text": "ヒッポリタの語る伝承では、アレスが人間に嫉妬して神々を殺したとき、生き残ったゼウスが最後の力でアレスを退け、その再来に備えて「神殺し」の武器をアマゾン族に残した。",
+        "claimIds": ["ww-di-work-ares"]
+      },
+      "inMyth": {
+        "text": "ヘシオドス『神統記』によれば、レアはクロノスとの間にヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。ヘシオドスはゼウスを「神々と人間の父」と呼ぶ。",
+        "claimIds": ["ww-di-myth-zeus"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話のアマゾンは、黒海沿岸のテルモドン川のほとりに住む女戦士の民で、ヘラクレスの難業の相手として登場する。本作のアマゾン族は、神々が人類を守るために生み出した守護者という独自の設定になっている。",
+      "claimIds": ["ww-di-myth-amazon", "ww-di-work", "ww-di-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ww-di-work",
+      "text": "ダイアナは女王ヒッポリタの幼い娘として、外界から隠された島セミッシラで育つ。セミッシラは、人類を守るためにオリュンポスの神々が生み出した女戦士アマゾン族の故郷である。ヒッポリタは娘を守るため、ダイアナの本当の出自を隠している。",
+      "classification": "creative",
+      "sourceIds": ["work-wonder-woman"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Wonder Woman (2017 film)」の記述で確認。"
+    },
+    {
+      "id": "ww-di-work-ares",
+      "text": "ヒッポリタはダイアナに、アレスが人間に嫉妬して滅ぼそうとし、止めようとした神々をゼウス以外みな殺したこと、ゼウスが最後の力でアレスを傷つけて退かせ、死ぬ前にアレスの再来に備えて「神殺し」の武器をアマゾン族に残したことを語る。ダイアナは戦争の陰にアレスがいると信じ、「神殺し」の剣と縄、鎧を身につけて島を出る。",
+      "classification": "creative",
+      "sourceIds": ["work-wonder-woman"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Wonder Woman (2017 film)」の記述で確認。"
+    },
+    {
+      "id": "ww-di-myth-amazon",
+      "text": "アポロドロスによれば、ヘラクレスの第九の功業はアマゾンの女王ヒッポリュテの帯を持ち帰ることだった。アマゾンはテルモドン川のほとりに住む戦にすぐれた一族で、投げ槍の妨げにならないよう右の乳房を切り取っていた。ヒッポリュテはほかの誰よりも優れているしるしとしてアレスの帯を持ち、エウリュステウスの娘アドメテがそれを欲しがった。ヒッポリュテはテミスキュラの港を訪れたヘラクレスに帯を与えると約束したが、ヘラがアマゾンに化けて「よそ者が女王をさらおうとしている」と言いふらし、アマゾンたちは武装して馬で船に押し寄せた。裏切りを疑ったヘラクレスはヒッポリュテを殺して帯を奪った。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.9"
+    },
+    {
+      "id": "ww-di-myth-zeus",
+      "text": "レアはクロノスとの間に、ヘスティア、デメテル、ヘラ、ハデス、ポセイドン、ゼウスを産んだ。ヘシオドスはゼウスを「神々と人間の父」と呼ぶ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』453–458行"
+    },
+    {
+      "id": "ww-di-cmp-1",
+      "text": "神話のアマゾンは、黒海沿岸のテルモドン川のほとりに住む女戦士の民で、ヘラクレスの難業の相手として登場する。本作のアマゾン族は、神々が人類を守るために生み出した守護者という独自の設定になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-wonder-woman", "apollodorus-library", "hesiod-theogony"],
+  "articleIds": []
+}

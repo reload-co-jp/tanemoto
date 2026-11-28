@@ -1,0 +1,93 @@
+{
+  "id": "soten-koro-cao-cao",
+  "slug": "soten-koro-cao-cao",
+  "name": "曹操",
+  "reading": "そうそう",
+  "alternativeNames": ["曹孟徳", "阿瞞"],
+  "workId": "soten-koro",
+  "description": {
+    "text": "本作の主人公。既存の概念にとらわれない破格の発想と才覚をもつ英傑で、虐殺も粛清もいとわぬ覇業から「乱世の奸雄」と評される。才能があれば出自や経歴に関係なく人を用いる。",
+    "claimIds": ["stk-cc-work", "stk-cc-work-talent"]
+  },
+  "nameOrigin": {
+    "text": "後漢末の武将・政治家で、魏の基礎を築いた曹操（字は孟徳）そのもの。",
+    "claimIds": ["stk-cc-work", "stk-cc-myth-talent"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "cao-cao",
+      "label": "乱世の奸雄",
+      "inWork": {
+        "text": "曹操は、虐殺も粛清もいとわぬ覇業から「乱世の奸雄」と評される。最高権力を握ったのちも、自らが皇帝になることは拒み続けた。",
+        "claimIds": ["stk-cc-work"]
+      },
+      "inMyth": {
+        "text": "『三国志演義』第1回では、人物評で知られた許劭が若き曹操を「治世の能臣、乱世の奸雄」と評した。",
+        "claimIds": ["stk-cc-myth-kanyu"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "cao-cao",
+      "label": "唯才是挙（才能による登用）",
+      "inWork": {
+        "text": "本作の曹操は、国の要は人だと考えて貪欲に人材を求め、「唯才」の思想のもと、才能があれば出自や経歴に関係なく任用・抜擢する。",
+        "claimIds": ["stk-cc-work-talent"]
+      },
+      "inMyth": {
+        "text": "正史『三国志』武帝紀によれば、曹操は建安15年（210年）に布告を出し、「ただ才のみを挙げよ。わたしはその者を用いる」と、才能ある者を推挙するよう命じた。",
+        "claimIds": ["stk-cc-myth-talent"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「乱世の奸雄」という評は、演義では曹操の野心を示す言葉として置かれている。本作はこの評を引き受けつつ、人材を愛し新しい価値観を切り開く英雄として、曹操の像を描き直している。",
+      "claimIds": ["stk-cc-myth-kanyu", "stk-cc-work", "stk-cc-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "stk-cc-work",
+      "text": "曹操（字・孟徳、幼名・阿瞞）は本作の主人公。既存の概念にとらわれない破格の発想と才覚をもつ英傑で、虐殺も粛清もいとわぬ覇業から「乱世の奸雄」と評される。最高権力を握る立場に至ったのちも、自らが皇帝になることは拒み続けた。",
+      "classification": "creative",
+      "sourceIds": ["work-soten-koro"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「蒼天航路」の記述で確認。"
+    },
+    {
+      "id": "stk-cc-work-talent",
+      "text": "曹操は「最も人に興味を示した英雄」として描かれ、国の要はあくまで人と考えて貪婪なまでに人材を求める。「唯才」の思想のもと、才能があれば出自や経歴に関係なく任用・抜擢する。",
+      "classification": "creative",
+      "sourceIds": ["work-soten-koro"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「蒼天航路」の記述で確認。"
+    },
+    {
+      "id": "stk-cc-myth-kanyu",
+      "text": "『三国志演義』第1回では、汝南の許劭が若き曹操を「子は治世の能臣、乱世の奸雄なり」と評し、曹操はこれを聞いて大いに喜んだ。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第1回"
+    },
+    {
+      "id": "stk-cc-myth-talent",
+      "text": "正史『三国志』武帝紀によれば、曹操は建安15年（210年）の令で「唯だ才のみ是れ挙げよ、吾れ得て之を用いん」と述べ、才能ある者の推挙を求めた。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』魏書 武帝紀（建安15年）"
+    },
+    {
+      "id": "stk-cc-cmp-1",
+      "text": "「乱世の奸雄」という評は、演義では曹操の野心を示す言葉として置かれている。本作はこの評を引き受けつつ、人材を愛し新しい価値観を切り開く英雄として、曹操の像を描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-soten-koro", "sanguo-yanyi", "sanguozhi"],
+  "articleIds": []
+}

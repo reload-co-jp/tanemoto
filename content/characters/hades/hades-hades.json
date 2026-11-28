@@ -1,0 +1,97 @@
+{
+  "id": "hades-hades",
+  "slug": "hades-hades",
+  "name": "ハデス",
+  "reading": "はです",
+  "alternativeNames": [],
+  "workId": "hades",
+  "description": {
+    "text": "冥界の王で、主人公ザグレウスの父。地上への脱出は不可能だと言い放ち、冥界の怪物たちを差し向けて息子の脱出を阻む。館ではペルセポネの名を口にすることを禁じている。",
+    "claimIds": ["hds-ha-work", "hds-ha-work-persephone"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話の冥界の王ハデスから。",
+    "claimIds": ["hds-ha-work", "hds-ha-myth-lot"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hades",
+      "label": "冥界の王",
+      "inWork": {
+        "text": "ハデスは冥界の王として、館で死者の魂を裁く務めを果たしている。脱出は不可能だと言い、冥界の怪物を放ってザグレウスを妨げる。",
+        "claimIds": ["hds-ha-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ティタンに勝ったのち神々はくじを引き、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界の支配を割り当てられた。",
+        "claimIds": ["hds-ha-myth-lot"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "persephone",
+      "label": "ペルセポネとザクロ",
+      "inWork": {
+        "text": "物語が進むと、ゼウスが冥界を治める褒美としてペルセポネをハデスに「与えた」ことが明かされる。終盤では、ペルセポネが冥界のザクロの種を食べたため、一年のうち数か月しか冥界を離れられないという説明が神々に示される。",
+        "claimIds": ["hds-ha-work-persephone"]
+      },
+      "inMyth": {
+        "text": "『デメテル讃歌』によれば、ハデスはペルセポネを冥界に連れ去り、地上へ帰す前にひそかにザクロの種を食べさせた。そのためペルセポネは、一年の三分の一を冥界で過ごさなければならなくなった。",
+        "claimIds": ["hds-ha-myth-pomegranate"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話では、ハデスはゼウスの了承のもとでペルセポネを連れ去る。本作では、ゼウスがペルセポネをハデスに「与えた」という筋が、冥界と神々の確執の発端として描き直されている。",
+      "claimIds": [
+        "hds-ha-myth-pomegranate",
+        "hds-ha-work-persephone",
+        "hds-ha-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hds-ha-work",
+      "text": "ハデスの長男ザグレウスは、父の領域である冥界からの脱出をめざす。ハデスは脱出は不可能だと言い張り、冥界の怪物たちを放ってザグレウスを妨げる。ザグレウスは倒れるたびに、冥界の神々が住むハデスの館でよみがえる。",
+      "classification": "creative",
+      "sourceIds": ["work-hades"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades (video game)」の記述で確認。"
+    },
+    {
+      "id": "hds-ha-work-persephone",
+      "text": "ザグレウスの目的は、生みの母ペルセポネを探すことである。ハデスは館でペルセポネの名を口にすることを禁じている。ゼウスが冥界を治める褒美としてペルセポネをハデスに「与えた」ことが明かされ、エピローグでは、ペルセポネが冥界のザクロの種を食べたため一年のうち数か月しか冥界を離れられないという説明が、オリュンポスの神々に示される。",
+      "classification": "creative",
+      "sourceIds": ["work-hades"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hades (video game)」の記述で確認。"
+    },
+    {
+      "id": "hds-ha-myth-lot",
+      "text": "ティタンに勝ったのち、神々はくじを引き、ゼウスは天空、ポセイドンは海、プルトン（ハデス）は冥界の支配を割り当てられた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』1.2.1"
+    },
+    {
+      "id": "hds-ha-myth-pomegranate",
+      "text": "『デメテル讃歌』によれば、ハデスはペルセポネを地上へ帰す前に、ひそかにザクロの甘い種を食べさせた。そのためペルセポネは、一年の三分の一を冥界で、残りを母デメテルと神々のもとで過ごすことになった。",
+      "classification": "fact",
+      "sourceIds": ["homeric-hymn-demeter"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『デメテル讃歌』371–374行・398–400行"
+    },
+    {
+      "id": "hds-ha-cmp-1",
+      "text": "神話では、ハデスはゼウスの了承のもとでペルセポネを連れ去る。本作では、ゼウスがペルセポネをハデスに「与えた」という筋が、冥界と神々の確執の発端として描き直されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hades", "apollodorus-library", "homeric-hymn-demeter"],
+  "articleIds": []
+}

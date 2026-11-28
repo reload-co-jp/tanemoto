@@ -1,0 +1,114 @@
+{
+  "id": "immortals-fenyx-rising-prometheus",
+  "slug": "immortals-fenyx-rising-prometheus",
+  "name": "プロメテウス",
+  "reading": "ぷろめてうす",
+  "alternativeNames": [],
+  "workId": "immortals-fenyx-rising",
+  "description": {
+    "text": "物語の語り手。ゼウスによって岩に縛られているティタン。テュポンに敗れて助けを求めに来たゼウスと賭けをし、予知の力でフィニクスの物語を語る。",
+    "claimIds": ["ifr-pr-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話のティタン、プロメテウスから。",
+    "claimIds": ["ifr-pr-work", "ifr-pr-myth-chain"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "prometheus",
+      "label": "ゼウスによる罰",
+      "inWork": {
+        "text": "プロメテウスはゼウスによって囚われている。人間がテュポンを倒せたら自分を解放するよう、ゼウスと賭けをする。",
+        "claimIds": ["ifr-pr-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドス『神統記』によれば、ゼウスはプロメテウスを解けない鎖で縛り、柱を胴に通して、翼の長い鷲に不死の肝臓を食わせた。",
+        "claimIds": ["ifr-pr-myth-chain"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "prometheus",
+      "label": "先見の力",
+      "inWork": {
+        "text": "プロメテウスは予知の力を使って、フィニクスの物語をゼウスに語る。",
+        "claimIds": ["ifr-pr-work"]
+      },
+      "inMyth": {
+        "text": "ヘシオドス『神統記』によれば、プロメテウスはメコネで知恵でゼウスと張り合い、骨を脂で包んで差し出して欺こうとした。ゼウスが人間に火を与えずにいると、プロメテウスは火を盗んで人間に与えた。",
+        "claimIds": ["ifr-pr-myth-mecone"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "typhon",
+      "label": "テュポンの封印",
+      "inWork": {
+        "text": "テュポンは永い時をゼウスによって山の下に封じられていたが、そこから逃れて神々を襲い、その本質を引き裂いて力を奪う。",
+        "claimIds": ["ifr-pr-work-typhon"]
+      },
+      "inMyth": {
+        "text": "ヘシオドス『神統記』によれば、ゼウスは雷と稲妻を手にオリュンポスから飛びかかって怪物の頭をすべて焼き、打ち倒した。ゼウスは怒りのうちにテュポンを広いタルタロスへ投げ込んだ。",
+        "claimIds": ["ifr-pr-myth-typhon"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話のプロメテウスは、人間に火を与えたためにゼウスに罰せられた。本作でもゼウスとの対立は受け継がれ、人間の英雄の物語を語ることで、プロメテウスが再び人間の側に立つ構図になっている。",
+      "claimIds": ["ifr-pr-myth-mecone", "ifr-pr-work", "ifr-pr-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ifr-pr-work",
+      "text": "テュポンに力を奪われたゼウスは逃げ延びてプロメテウスのもとを訪れ、テュポンとの戦いへの助力を求める。プロメテウスは代わりにゼウスと賭けをし、テュポンが人間に倒されたら囚われの身から解放されることを約束させる。プロメテウスは予知の力を使って、フィニクスの物語を語る。",
+      "classification": "creative",
+      "sourceIds": ["work-immortals-fenyx-rising"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Immortals Fenyx Rising」の記述で確認。"
+    },
+    {
+      "id": "ifr-pr-work-typhon",
+      "text": "永い時をゼウスによって山の下に封じられていたテュポンが脱出し、人間の世界とタルタロスの境を壊して世界を作り変えようとする。テュポンはオリュンポスの神々を襲い、その神性の本質を引き裂いて力を奪う。",
+      "classification": "creative",
+      "sourceIds": ["work-immortals-fenyx-rising"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Immortals Fenyx Rising」の記述で確認。"
+    },
+    {
+      "id": "ifr-pr-myth-chain",
+      "text": "ヘシオドス『神統記』によれば、ゼウスはプロメテウスを解けない鎖で縛り、柱を胴に通して、翼の長い鷲に不死の肝臓を食わせた。肝臓は夜のあいだに、鷲が昼に食べた分だけ元に戻った。のちにヘラクレスが、ゼウスの意に反することなくこの鷲を殺して解放し、ゼウスもかつての怒りを収めた。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』521–534行"
+    },
+    {
+      "id": "ifr-pr-myth-mecone",
+      "text": "ヘシオドス『神統記』によれば、ゼウスの怒りは、プロメテウスが知恵でゼウスと張り合ったためだった。メコネで神々と人間が争ったとき、プロメテウスは大きな牛を切り分け、肉と脂の多い内臓を皮の上に置いて胃袋で覆い、ゼウスには白い骨を巧みに輝く脂で包んで差し出した。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』533–541行"
+    },
+    {
+      "id": "ifr-pr-myth-typhon",
+      "text": "ヘシオドス『神統記』によれば、ゼウスは雷と稲妻を手にオリュンポスから飛びかかって怪物の頭をすべて焼き、打ち倒した。ゼウスは怒りのうちにテュポエウスを広大なタルタロスへ投げこんだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "ヘシオドス『神統記』853–868行"
+    },
+    {
+      "id": "ifr-pr-cmp-1",
+      "text": "神話のプロメテウスは、人間に火を与えたためにゼウスに罰せられた。本作でもゼウスとの対立は受け継がれ、人間の英雄の物語を語ることで、プロメテウスが再び人間の側に立つ構図になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-immortals-fenyx-rising", "hesiod-theogony"],
+  "articleIds": []
+}

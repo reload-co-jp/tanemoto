@@ -1,0 +1,104 @@
+{
+  "id": "nurarihyon-no-mago-seimei",
+  "slug": "nurarihyon-no-mago-seimei",
+  "name": "安倍晴明（鵺）",
+  "reading": "あべのせいめい（ぬえ）",
+  "alternativeNames": ["鵺"],
+  "workId": "nurarihyon-no-mago",
+  "description": {
+    "text": "千年前の平安時代に、自らの理想とする世をつくるため反抗する妖怪の大半を滅ぼした存在で、「鵺」と呼ばれる。母は京妖怪を率いる羽衣狐で、子孫の陰陽師一族・御門院家が、晴明の復活と妖怪の粛清「清浄」をもくろむ。",
+    "claimIds": ["nrh-sm-work", "nrh-sm-work-mikado"]
+  },
+  "nameOrigin": {
+    "text": "平安時代の陰陽師・安倍晴明と、源頼政に退治されたと伝わる怪物・鵺を組み合わせている。",
+    "claimIds": ["nrh-sm-work", "nrh-sm-myth-seimei", "nrh-sm-myth-nue"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "abe-no-seimei",
+      "label": "陰陽師・安倍晴明",
+      "inWork": {
+        "text": "安倍晴明の子孫である陰陽師の一族・御門院家は、古くから時の権力者のもとで日本の中枢を守ってきた。晴明の生み出した術によって不老の体を手に入れ、晴明の復活を待ち続けている。",
+        "claimIds": ["nrh-sm-work-mikado"]
+      },
+      "inMyth": {
+        "text": "『大鏡』によれば、花山天皇がひそかに出家に向かう途中、安倍晴明は帝の退位を示す天変があったと言い、式神に内裏へ参るよう命じた。",
+        "claimIds": ["nrh-sm-myth-seimei"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "nue",
+      "label": "怪物・鵺",
+      "inWork": {
+        "text": "千年前の平安期、鵺は自らが理想とする世の中をつくるため妖怪の粛清を行い、反抗する妖怪の大半を滅ぼした。羽衣狐は京都の鵺ヶ池で最初に鵺を産んだ。",
+        "claimIds": ["nrh-sm-work"]
+      },
+      "inMyth": {
+        "text": "『平家物語』では、近衛天皇の御所に夜ごと現れて天皇を悩ませた怪物を源頼政が射落とした。その姿は頭は猿、体は狸、尾は蛇、手足は虎で、鳴く声は鵺に似ていた。",
+        "claimIds": ["nrh-sm-myth-nue"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "伝承の安倍晴明は、式神を使って帝の退位を知らせるなど、朝廷に仕える陰陽師として語られる。本作の晴明はその陰陽師の祖でありながら、妖怪を粛清する「鵺」として、人と妖怪の双方に君臨しようとする存在になっている。",
+      "claimIds": ["nrh-sm-myth-seimei", "nrh-sm-work", "nrh-sm-cmp-1"]
+    },
+    {
+      "text": "『平家物語』の鵺は、頼政に射落とされる正体不明の怪物である。本作は、その名を晴明の異名とし、京妖怪の「母」羽衣狐から生まれる存在とした。",
+      "claimIds": ["nrh-sm-myth-nue", "nrh-sm-work", "nrh-sm-cmp-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nrh-sm-work",
+      "text": "千年前の平安期、鵺は自らが理想とする世の中をつくるため妖怪の粛清を行い、反抗する妖怪の大半を滅ぼした。京妖怪は千年前から安倍晴明に付き従う妖怪たちを中心として、晴明の母・羽衣狐を主君に置き、晴明を復活させて闇の世界をつくることを宿願とする。弐條城地下の鵺ヶ池は、羽衣狐が最初に鵺を産んだ場所とされる。",
+      "classification": "creative",
+      "sourceIds": ["work-nurarihyon-no-mago"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ぬらりひょんの孫」の記述で確認。"
+    },
+    {
+      "id": "nrh-sm-work-mikado",
+      "text": "安倍晴明の子孫である陰陽師の一族・御門院家は、古くから時の権力者のもとで日本の中枢を守り、陰で暗躍してきた。晴明の生み出した術により不老の体を手に入れており、晴明の復活を前に、妖怪を粛清する「清浄」を行おうとする。",
+      "classification": "creative",
+      "sourceIds": ["work-nurarihyon-no-mago"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ぬらりひょんの孫」の記述で確認。"
+    },
+    {
+      "id": "nrh-sm-myth-seimei",
+      "text": "『大鏡』によれば、寛和二年六月、花山天皇がひそかに出家に向かう途中で安倍晴明の家の前を通ると、晴明は帝の退位を示す天変があったと言い、式神一人に内裏へ参るよう命じた。目に見えない者が戸を開けて出てきて、帝がちょうど通り過ぎていくと答えた。",
+      "classification": "fact",
+      "sourceIds": ["okagami"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『大鏡』花山院"
+    },
+    {
+      "id": "nrh-sm-myth-nue",
+      "text": "近衛天皇の御所に夜ごと黒雲が現れて天皇を悩ませたため、源頼政が召されて射落とし、家来の猪早太がとどめを刺した。その姿は頭は猿、むくろは狸、尾は蛇、手足は虎で、鳴く声は鵼に似ていた。",
+      "classification": "fact",
+      "sourceIds": ["heike-monogatari"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『平家物語』巻第四「鵼」"
+    },
+    {
+      "id": "nrh-sm-cmp-1",
+      "text": "伝承の安倍晴明は、式神を使って帝の退位を知らせるなど、朝廷に仕える陰陽師として語られる。本作の晴明はその陰陽師の祖でありながら、妖怪を粛清する「鵺」として、人と妖怪の双方に君臨しようとする存在になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "nrh-sm-cmp-2",
+      "text": "『平家物語』の鵺は、頼政に射落とされる正体不明の怪物である。本作は、その名を晴明の異名とし、京妖怪の「母」羽衣狐から生まれる存在とした。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-nurarihyon-no-mago", "okagami", "heike-monogatari"],
+  "articleIds": []
+}

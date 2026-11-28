@@ -1,0 +1,93 @@
+{
+  "id": "hozuki-no-reitetsu-daji",
+  "slug": "hozuki-no-reitetsu-daji",
+  "name": "妲己",
+  "reading": "だっき",
+  "alternativeNames": ["玉藻の前"],
+  "workId": "hozuki-no-reitetsu",
+  "description": {
+    "text": "衆合地獄の花街でぼったくり妓楼「花割烹狐御前」を営む絶世の美女。その正体は、古代インドや中国で王を誘惑して国を傾け、日本で玉藻の前と名を変えた九尾の狐。",
+    "claimIds": ["hzk-dj-work"]
+  },
+  "nameOrigin": {
+    "text": "殷の紂王を惑わしたとされる妃・妲己から。本作でも「紂王ほどの男性はいない」と語る。",
+    "claimIds": ["hzk-dj-work-zhou", "hzk-dj-myth-fox"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "daji",
+      "label": "殷の紂王の妃・妲己",
+      "inWork": {
+        "text": "妲己は「（都合の）いい男」を常に探しているが、紂王ほどの男性はいないと言っている。",
+        "claimIds": ["hzk-dj-work-zhou"]
+      },
+      "inMyth": {
+        "text": "『封神演義』では、紂王に献じられる途中の妲己は千年狐狸精に魂を吸われて死に、狐がその体を借りて紂王の妃となった。",
+        "claimIds": ["hzk-dj-myth-fox"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "nine-tailed-fox",
+      "label": "九尾の狐",
+      "inWork": {
+        "text": "妲己の正体は九尾の狐で、中国から日本へ渡って玉藻の前と名を変え、鳥羽上皇を誘惑したが、陰陽師に正体を見破られて殺生石となった。",
+        "claimIds": ["hzk-dj-work"]
+      },
+      "inMyth": {
+        "text": "『山海経』は、青丘の山に、狐のような姿で九本の尾をもち、赤子のような声で鳴いて人を食う獣がいると記す。",
+        "claimIds": ["hzk-dj-myth-nine"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『封神演義』の妲己は、本物の妲己の体を借りた千年狐狸精である。本作はこれを、日本の玉藻前伝説まで一つにつないだ「各地で国を傾けた九尾の狐」として描いている。",
+      "claimIds": ["hzk-dj-myth-fox", "hzk-dj-work", "hzk-dj-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hzk-dj-work",
+      "text": "妲己は衆合花街でボッタクリ妓楼「花割烹狐御前」を営む絶世の美女。その正体は、古代インド・中国で王を誘惑し国を傾けた九尾の狐で、中国から日本へ渡り玉藻の前と名を変えて鳥羽上皇を誘惑したが、陰陽師に正体を見破られ、調伏されて殺生石となった。",
+      "classification": "creative",
+      "sourceIds": ["work-hozuki-no-reitetsu"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「鬼灯の冷徹」の記述で確認。"
+    },
+    {
+      "id": "hzk-dj-work-zhou",
+      "text": "妲己はレディ・リリスと親友で、「世界悪女の会」という女子会のツートップの一角を担う。「（都合の）いい男」を常に探しているが、紂王ほどの男性はいないと言っている。",
+      "classification": "creative",
+      "sourceIds": ["work-hozuki-no-reitetsu"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「鬼灯の冷徹」の記述で確認。"
+    },
+    {
+      "id": "hzk-dj-myth-fox",
+      "text": "紂王に献じられる途中の妲己は千年狐狸精に魂を吸われて死に、狐がその体を借りて紂王の妃となった。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第4回"
+    },
+    {
+      "id": "hzk-dj-myth-nine",
+      "text": "青丘の山に、狐のような姿で九本の尾をもち、赤子のような声で鳴き人を食う獣がいる。",
+      "classification": "fact",
+      "sourceIds": ["shanhaijing"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『山海経』南山経（青丘之山）"
+    },
+    {
+      "id": "hzk-dj-cmp-1",
+      "text": "『封神演義』の妲己は、本物の妲己の体を借りた千年狐狸精である。本作はこれを、日本の玉藻前伝説まで一つにつないだ「各地で国を傾けた九尾の狐」として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hozuki-no-reitetsu", "fengshen-yanyi", "shanhaijing"],
+  "articleIds": []
+}

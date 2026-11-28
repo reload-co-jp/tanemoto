@@ -1,0 +1,112 @@
+{
+  "id": "nanatsu-no-taizai-merlin",
+  "slug": "nanatsu-no-taizai-merlin",
+  "name": "マーリン",
+  "reading": "まーりん",
+  "alternativeNames": ["暴食の罪のマーリン"],
+  "workId": "nanatsu-no-taizai",
+  "description": {
+    "text": "〈七つの大罪〉の一員〈暴食の罪（ボア・シン）〉。印となる獣は豚。強大な魔力「無限」をもつ魔術師で、〈七つの大罪〉解散後はキャメロットに身を寄せ、アーサー王の側近として仕えている。",
+    "claimIds": ["nnt-mr-work", "nnt-mr-work-arthur"]
+  },
+  "nameOrigin": {
+    "text": "アーサー王伝説の魔術師マーリンから。作中では「マーリン」は本名ではなく、本当の名は人間には発音できないとされる。",
+    "claimIds": ["nnt-mr-work", "nnt-mr-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "merlin",
+      "label": "アーサー王の師",
+      "inWork": {
+        "text": "マーリンはキャメロットに身を寄せ、アーサー王の側近として傍らに控えている。アーサーからは「友であり、師でもある」として信頼されている。",
+        "claimIds": ["nnt-mr-work-arthur"]
+      },
+      "inMyth": {
+        "text": "マロリー『アーサー王の死』では、マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子アーサーを自分に引き渡させた。",
+        "claimIds": ["nnt-mr-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "arthur",
+      "label": "石に刺さった剣",
+      "inWork": {
+        "text": "新興国キャメロットの王アーサーは、突如出現した大岩に刺さっていた自分よりも大きな剣「エクスカリバー」を引き抜いたことから王座に就いた。",
+        "claimIds": ["nnt-mr-work-sword"]
+      },
+      "inMyth": {
+        "text": "マロリー『アーサー王の死』では、ユーサー王の死後、マーリンの助言でロンドンの教会に諸侯が集められ、アーサーが石と鉄床に刺さった剣を抜いた。",
+        "claimIds": ["nnt-mr-myth-sword"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "伝説のマーリンは、アーサーの誕生から即位までを導く魔術師である。本作でもアーサーの師という立場は受け継がれているが、その正体は賢者の都で生まれた天才児という独自の設定になっている。",
+      "claimIds": ["nnt-mr-myth-birth", "nnt-mr-work-arthur", "nnt-mr-cmp-1"]
+    },
+    {
+      "text": "マロリーでは、石に刺さっていた剣と、のちに湖の乙女から授かるエクスカリバーは別の剣である。本作では、岩から抜いた剣そのものをエクスカリバーとしている。",
+      "claimIds": ["nnt-mr-myth-sword", "nnt-mr-work-sword", "nnt-mr-cmp-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nnt-mr-work",
+      "text": "マーリンは〈七つの大罪〉の一員で、通称「〈暴食の罪（ボア・シン）〉のマーリン」。印となる獣は豚。「マーリン」は本名ではなく、本人によると本当の名は人間には発音できないという。魔力は「無限（インフィニティ）」、神器は球状の「明星アルダン」。",
+      "classification": "creative",
+      "sourceIds": ["work-nanatsu-no-taizai"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「七つの大罪 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "nnt-mr-work-arthur",
+      "text": "マーリンは10年前の事件ののち、キャメロットに身を寄せ、アーサー王の側近として傍に控えていた。アーサーからは「友であり、師でもある」として信頼されている。その正体は賢者たちの都ベリアルインで実験体となった子どものひとりで、極めて強く特異な魔力をもって生まれた天才児だった。",
+      "classification": "creative",
+      "sourceIds": ["work-nanatsu-no-taizai"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「七つの大罪 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "nnt-mr-work-sword",
+      "text": "アーサー・ペンドラゴンは、新興国キャメロットにおいて、突如出現した大岩に刺さっていた自分よりも大きな剣「エクスカリバー」を引き抜いたことから王座に就いた新王。",
+      "classification": "creative",
+      "sourceIds": ["work-nanatsu-no-taizai"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「七つの大罪 (漫画)」の記述で確認。"
+    },
+    {
+      "id": "nnt-mr-myth-birth",
+      "text": "マーリンはユーサー王をコーンウォール公の姿に変えてティンタジェル城に送り、生まれた子を自分に引き渡させた。アーサーはマーリンの手で騎士エクターに預けられた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第1〜3章"
+    },
+    {
+      "id": "nnt-mr-myth-sword",
+      "text": "ユーサー王の死後、マーリンの助言でロンドンの教会に諸侯が集められ、アーサーが石と鉄床に刺さった剣を抜いた。",
+      "classification": "fact",
+      "sourceIds": ["malory-morte-darthur"],
+      "verificationStatus": "verified",
+      "sourceLocation": "マロリー『アーサー王の死』第1巻第5章"
+    },
+    {
+      "id": "nnt-mr-cmp-1",
+      "text": "伝説のマーリンは、アーサーの誕生から即位までを導く魔術師である。本作でもアーサーの師という立場は受け継がれているが、その正体は賢者の都で生まれた天才児という独自の設定になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "nnt-mr-cmp-2",
+      "text": "マロリーでは、石に刺さっていた剣と、のちに湖の乙女から授かるエクスカリバーは別の剣である。本作では、岩から抜いた剣そのものをエクスカリバーとしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-nanatsu-no-taizai", "malory-morte-darthur"],
+  "articleIds": []
+}

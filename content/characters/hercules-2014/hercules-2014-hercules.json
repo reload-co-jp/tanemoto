@@ -1,0 +1,126 @@
+{
+  "id": "hercules-2014-hercules",
+  "slug": "hercules-2014-hercules",
+  "name": "ヘラクレス",
+  "reading": "へらくれす",
+  "alternativeNames": [],
+  "workId": "hercules-2014",
+  "description": {
+    "text": "傭兵団を率いる英雄。ゼウスの子で、ヘラに狂わされて妻子を殺したのち十二の難業を成し遂げたと伝えられるが、本当にゼウスの子なのかは疑われている。並外れた怪力をもち、妻子を失った夜の記憶とケルベロスの幻に苦しんでいる。",
+    "claimIds": ["hc14-he-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話最大の英雄ヘラクレスから。",
+    "claimIds": ["hc14-he-work", "hc14-he-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "heracles",
+      "label": "狂気と妻子殺し",
+      "inWork": {
+        "text": "ヘラクレスは、ヘラに裏切られて狂気に陥り、エウリュステウス王を訪ねていたときに妻と子どもたちを殺したと伝えられている。",
+        "claimIds": ["hc14-he-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ヘラクレスはヘラの嫉妬によって狂気に陥り、自分の子どもたちを火に投げ込んだ。その後デルポイで神託を受けた。",
+        "claimIds": ["hc14-he-myth-madness"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "heracles",
+      "label": "十二の難業",
+      "inWork": {
+        "text": "ヘラクレスは十二の難業を成し遂げた英雄として名高いが、その伝説の多くを疑う者もいる。",
+        "claimIds": ["hc14-he-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、デルポイの巫女は、エウリュステウスに十二年仕えて十の難業を果たせば不死となるとヘラクレスに告げた。のちにエウリュステウスが二つの功業を認めなかったため、難業はさらに増やされた。",
+        "claimIds": ["hc14-he-myth-labors", "hc14-he-myth-twelve"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "cerberus",
+      "label": "ケルベロスの幻",
+      "inWork": {
+        "text": "ヘラクレスは、愛する者たちを失った記憶とともに、冥界の番犬ケルベロスの幻にたびたび悩まされている。",
+        "claimIds": ["hc14-he-work"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話でヘラクレスを狂わせたのは女神ヘラである。映画は、この神話の筋をいったん伝説として語らせたうえで、英雄の過去を人間どうしの陰謀として描き直している。",
+      "claimIds": ["hc14-he-myth-madness", "hc14-he-work", "hc14-he-cmp-1"]
+    },
+    {
+      "text": "神話では、もともと十の難業が課され、エウリュステウスが二つを認めなかったために十二となった。映画の「十二の難業」は、すでに完成された英雄伝説として語られている。",
+      "claimIds": [
+        "hc14-he-myth-labors",
+        "hc14-he-myth-twelve",
+        "hc14-he-work",
+        "hc14-he-cmp-2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hc14-he-work",
+      "text": "ヘラクレスはゼウスの半神の息子で、ヘラに裏切られて狂気に陥り、エウリュステウス王を訪ねていたときに妻と子どもたちを殺したのち、伝説の十二の難業を成し遂げたと言われている。しかし本当にゼウスの子なのかははっきりせず、その主張や難業の話を疑う者も多い。人並み外れた怪力をもち、愛する者たちの死の記憶やケルベロスの幻にたびたび苦しめられている。",
+      "classification": "creative",
+      "sourceIds": ["work-hercules-2014"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hercules (2014 film)」の記述で確認。"
+    },
+    {
+      "id": "hc14-he-myth-birth",
+      "text": "アルクメネはゼウスと交わり、強きヘラクレスを産んだ。",
+      "classification": "fact",
+      "sourceIds": ["hesiod-theogony"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『神統記』943–944行"
+    },
+    {
+      "id": "hc14-he-myth-madness",
+      "text": "ヘラクレスはヘラの嫉妬によって狂気に陥り、自分の子どもたちを火に投げ込んだ。その後デルポイで神託を受けた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "hc14-he-myth-labors",
+      "text": "デルポイの巫女は、エウリュステウスに十二年仕えて十の難業を果たせば不死となるとヘラクレスに告げた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.12"
+    },
+    {
+      "id": "hc14-he-myth-twelve",
+      "text": "エウリュステウスはアウゲイアスの牛舎とヒュドラの二つの功業を認めず、さらに難業を課した。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.5.11"
+    },
+    {
+      "id": "hc14-he-cmp-1",
+      "text": "神話でヘラクレスを狂わせたのは女神ヘラである。映画は、この神話の筋をいったん伝説として語らせたうえで、英雄の過去を人間どうしの陰謀として描き直している。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "hc14-he-cmp-2",
+      "text": "神話では、もともと十の難業が課され、エウリュステウスが二つを認めなかったために十二となった。映画の「十二の難業」は、すでに完成された英雄伝説として語られている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hercules-2014", "hesiod-theogony", "apollodorus-library"],
+  "articleIds": []
+}

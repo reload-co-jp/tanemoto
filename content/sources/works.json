@@ -587,5 +587,131 @@
     "publishedPeriod": "2020年〜",
     "publisher": "miHoYo / HoYoverse",
     "notes": "作品内の設定について述べる際の出典。設定の記述は Wikipedia 日本語版「原神」、英語版「Genshin Impact」で確認している。"
+  },
+  {
+    "id": "work-hozuki-no-reitetsu",
+    "title": "鬼灯の冷徹",
+    "author": "江口夏実",
+    "type": "work",
+    "publishedPeriod": "2011〜2020年（『モーニング』連載）",
+    "publisher": "講談社",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-nurarihyon-no-mago",
+    "title": "ぬらりひょんの孫",
+    "author": "椎橋寛",
+    "type": "work",
+    "publishedPeriod": "2008〜2012年（『週刊少年ジャンプ』連載）",
+    "publisher": "集英社",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-soten-koro",
+    "title": "蒼天航路",
+    "author": "李學仁（原作・原案）・王欣太（作画）",
+    "type": "work",
+    "publishedPeriod": "1994〜2005年（『モーニング』連載）",
+    "publisher": "講談社",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-yokoyama-sangokushi",
+    "title": "三国志",
+    "author": "横山光輝",
+    "type": "work",
+    "publishedPeriod": "1971〜1987年（『希望の友』『少年ワールド』『コミックトム』連載）",
+    "publisher": "潮出版社",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-valkyrie-profile",
+    "title": "ヴァルキリープロファイル",
+    "author": "トライエース（開発）・エニックス（発売）",
+    "type": "work",
+    "publishedPeriod": "1999年（PlayStation）",
+    "publisher": "エニックス",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-drifters",
+    "title": "ドリフターズ",
+    "author": "平野耕太",
+    "type": "work",
+    "publishedPeriod": "2009年〜（『ヤングキングアワーズ』連載）",
+    "publisher": "少年画報社",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-nanatsu-no-taizai",
+    "title": "七つの大罪",
+    "author": "鈴木央",
+    "type": "work",
+    "publishedPeriod": "2012〜2020年（『週刊少年マガジン』連載）",
+    "publisher": "講談社",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-shonen-onmyouji",
+    "title": "少年陰陽師",
+    "author": "結城光流",
+    "type": "work",
+    "publishedPeriod": "2001年〜（角川ビーンズ文庫）",
+    "publisher": "角川書店（のちKADOKAWA）",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-wonder-woman",
+    "title": "ワンダーウーマン",
+    "author": "パティ・ジェンキンス（監督）・DCコミックス（原作）",
+    "type": "work",
+    "publishedPeriod": "2017年（米国公開）",
+    "publisher": "ワーナー・ブラザース",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-clash-of-the-titans",
+    "title": "タイタンの戦い",
+    "author": "ルイ・レテリエ（監督）",
+    "type": "work",
+    "publishedPeriod": "2010年（米国公開）",
+    "publisher": "ワーナー・ブラザース",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-hercules-2014",
+    "title": "ヘラクレス",
+    "author": "ブレット・ラトナー（監督）",
+    "type": "work",
+    "publishedPeriod": "2014年（米国公開）",
+    "publisher": "パラマウント・ピクチャーズ",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-gods-of-egypt",
+    "title": "キング・オブ・エジプト",
+    "author": "アレックス・プロヤス（監督）",
+    "type": "work",
+    "publishedPeriod": "2016年（米国公開）",
+    "publisher": "ライオンズゲート",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-hades",
+    "title": "Hades",
+    "author": "Supergiant Games",
+    "type": "work",
+    "publishedPeriod": "2020年（Nintendo Switch・PC）",
+    "publisher": "Supergiant Games",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-immortals-fenyx-rising",
+    "title": "イモータルズ フィニクス ライジング",
+    "author": "ユービーアイソフト・ケベック（開発）",
+    "type": "work",
+    "publishedPeriod": "2020年",
+    "publisher": "ユービーアイソフト",
+    "notes": "作品内の設定について述べる際の出典。"
   }
 ]

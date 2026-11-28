@@ -1,0 +1,97 @@
+{
+  "id": "drifters-jeanne",
+  "slug": "drifters-jeanne",
+  "name": "ジャンヌ・ダルク",
+  "reading": "じゃんぬ・だるく",
+  "alternativeNames": [],
+  "workId": "drifters",
+  "description": {
+    "text": "百年戦争でフランスに勝利をもたらした「聖女」。廃棄物として黒王軍に加わっている。魔女として貶められ、火刑による苦痛に満ちた最期を遂げたことから、狂気と憎悪をにじませ、炎を操る。",
+    "claimIds": ["dft-ja-work", "dft-ja-work-fire"]
+  },
+  "nameOrigin": {
+    "text": "百年戦争でオルレアンの包囲を解き、のちに火刑に処されたジャンヌ・ダルクそのもの。",
+    "claimIds": ["dft-ja-work", "dft-ja-myth-death"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "jeanne-d-arc",
+      "label": "火刑による最期",
+      "inWork": {
+        "text": "ジャンヌは異世界に来る前、魔女として貶められ、恥辱と嘲りの中で火刑による苦痛に満ちた最期を遂げており、「この世の全てが燃えて落ちればいい」と兵士を虐殺するなど、言動に狂気と憎悪をにじませる。",
+        "claimIds": ["dft-ja-work"]
+      },
+      "inMyth": {
+        "text": "ジャンヌは戻り異端とされ、1431年5月30日にルーアンの旧市場広場で火刑に処された。",
+        "claimIds": ["dft-ja-myth-death"]
+      }
+    },
+    {
+      "aspect": "ability",
+      "figureId": "jeanne-d-arc",
+      "label": "炎の能力",
+      "inWork": {
+        "text": "ジャンヌは炎を発生させる能力をもち、自身から炎を放つほか、投げたナイフが刺さった地点からも発火させることができる。",
+        "claimIds": ["dft-ja-work-fire"]
+      },
+      "inMyth": {
+        "text": "裁判でジャンヌは、剣より旗のほうがずっと好きだと答え、敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べた。",
+        "claimIds": ["dft-ja-myth-banner"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "史実のジャンヌは、裁判で一人も殺したことはないと述べている。本作のジャンヌは、火刑の記憶を炎の能力と憎しみに変え、兵士を虐殺する側に回っている。",
+      "claimIds": ["dft-ja-myth-banner", "dft-ja-work", "dft-ja-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "dft-ja-work",
+      "text": "ジャンヌ・ダルクは百年戦争でフランスに勝利をもたらした「聖女」で、廃棄物となり黒王軍に加わっている。異世界に来る前に魔女として貶められ、恥辱と嘲りの中で火刑による苦痛に充ちた最期を遂げており、「この世の全てが燃えて落ちればいい」と兵士を虐殺するなど、言動に狂気と憎悪をにじませる。",
+      "classification": "creative",
+      "sourceIds": ["work-drifters"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ドリフターズ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "dft-ja-work-fire",
+      "text": "ジャンヌは炎を発生させる能力をもち、自身から炎を放つほか、投げたナイフが刺さった地点からも発炎が可能。ジル・ド・レとともに騎兵部隊を率いて豊久たちを強襲し、彼らの拠点である廃城を焼き払う。",
+      "classification": "creative",
+      "sourceIds": ["work-drifters"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「ドリフターズ (漫画)」の記述で確認。"
+    },
+    {
+      "id": "dft-ja-myth-death",
+      "text": "ジャンヌは戻り異端とされ、1431年5月30日にルーアンの旧市場広場で火刑に処された。",
+      "classification": "fact",
+      "sourceIds": ["pernoud-joan-of-arc"],
+      "verificationStatus": "verified",
+      "sourceLocation": "Pernoud & Clin, Joan of Arc: Her Story, 第8章"
+    },
+    {
+      "id": "dft-ja-myth-banner",
+      "text": "ジャンヌは剣より旗のほうがずっと好きだと答え、敵を攻めるときは誰も殺さないように自ら旗を掲げ、一人も殺したことはないと述べた。",
+      "classification": "fact",
+      "sourceIds": ["joan-condemnation-trial"],
+      "verificationStatus": "verified",
+      "sourceLocation": "処刑裁判記録 1431年2月27日の尋問"
+    },
+    {
+      "id": "dft-ja-cmp-1",
+      "text": "史実のジャンヌは、裁判で一人も殺したことはないと述べている。本作のジャンヌは、火刑の記憶を炎の能力と憎しみに変え、兵士を虐殺する側に回っている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-drifters",
+    "pernoud-joan-of-arc",
+    "joan-condemnation-trial"
+  ],
+  "articleIds": []
+}

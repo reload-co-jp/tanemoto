@@ -1,0 +1,127 @@
+{
+  "id": "yokoyama-sangokushi-zhuge-liang",
+  "slug": "yokoyama-sangokushi-zhuge-liang",
+  "name": "諸葛亮",
+  "reading": "しょかつりょう",
+  "alternativeNames": ["孔明", "諸葛孔明", "臥龍"],
+  "workId": "yokoyama-sangokushi",
+  "description": {
+    "text": "蜀の丞相で、劉備の死後は物語後半の主人公。荊州の草庵に隠れ住んでいたが、劉備に三顧の礼で迎えられて「天下三分の計」を説き、のちに北伐を繰り返して五丈原で没する。",
+    "claimIds": ["yks-zl-work"]
+  },
+  "nameOrigin": {
+    "text": "三国時代の蜀の丞相・諸葛亮（字は孔明）そのもの。作中では主に字の「孔明」で呼ばれる。",
+    "claimIds": ["yks-zl-work-fukuryu", "yks-zl-myth-name"]
+  },
+  "motifs": [
+    {
+      "aspect": "title",
+      "figureId": "zhuge-liang",
+      "label": "伏竜（臥龍）",
+      "inWork": {
+        "text": "孔明は水鏡先生から「伏竜（臥龍）」と称された逸材だが、荊州の草蘆に隠棲し、その才能を知る者は限られていた。",
+        "claimIds": ["yks-zl-work-fukuryu"]
+      },
+      "inMyth": {
+        "text": "正史『三国志』諸葛亮伝によれば、徐庶は劉備に「諸葛孔明は臥龍です」と推薦した。",
+        "claimIds": ["yks-zl-myth-name"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "zhuge-liang",
+      "label": "三顧の礼",
+      "inWork": {
+        "text": "孔明は劉備に三顧の礼によって迎えられ、「天下三分の計」を提案する。幕下に迎えられてのちは「水魚の交わり」と例えられる親密な主従関係を結ぶ。",
+        "claimIds": ["yks-zl-work"]
+      },
+      "inMyth": {
+        "text": "正史『三国志』諸葛亮伝は、劉備が諸葛亮のもとへ「凡そ三たび往きて、乃ち見る」と記す。",
+        "claimIds": ["yks-zl-myth-visits"]
+      }
+    },
+    {
+      "aspect": "appearance",
+      "figureId": "zhuge-liang",
+      "label": "羽扇と四輪車",
+      "inWork": {
+        "text": "孔明は重要な会話を盗み聞きされないよう羽扇を常に携え、四輪車で行動するのが特徴。木牛流馬や連弩などを発明した発明家の一面ももつ。",
+        "claimIds": ["yks-zl-work-fan"]
+      },
+      "inMyth": {
+        "text": "『三国志演義』第38回では、劉備が見た孔明は身の丈八尺、綸巾をかぶり鶴氅をまとい、仙人のような風格があった。",
+        "claimIds": ["yks-zl-myth-look"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "本作の孔明像は、三顧の礼や臥龍の評といった正史の記事に、羽扇や仙人のような風貌といった『三国志演義』のイメージを重ねたものになっている。",
+      "claimIds": [
+        "yks-zl-myth-visits",
+        "yks-zl-myth-look",
+        "yks-zl-work-fan",
+        "yks-zl-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "yks-zl-work",
+      "text": "諸葛亮は蜀の丞相で、劉備の死後は物語後半の主人公。劉備に三顧の礼で迎えられて「天下三分の計」を提案し、「水魚の交わり」と比喩される主従関係を結ぶ。劉備の遺志を継いで出師の表を劉禅に提出し、北伐を繰り返すが、病に倒れて五丈原で没する。",
+      "classification": "creative",
+      "sourceIds": ["work-yokoyama-sangokushi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「三国志 (横山光輝の漫画)」の記述で確認。"
+    },
+    {
+      "id": "yks-zl-work-fukuryu",
+      "text": "諸葛亮の字は孔明で、作中では主に字で呼ばれる。水鏡先生から「伏竜（臥龍）」と称された逸材だが、荊州の草蘆に隠棲し、その才能を知る者は限られていた。",
+      "classification": "creative",
+      "sourceIds": ["work-yokoyama-sangokushi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「三国志 (横山光輝の漫画)」の記述で確認。"
+    },
+    {
+      "id": "yks-zl-work-fan",
+      "text": "孔明は発明家の一面も併せもち、木牛流馬や木獣、連弩などを発明した。重要な会話を盗み聞きされないよう羽扇を常に携え、四輪車で行動するのが特徴。",
+      "classification": "creative",
+      "sourceIds": ["work-yokoyama-sangokushi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「三国志 (横山光輝の漫画)」の記述で確認。"
+    },
+    {
+      "id": "yks-zl-myth-name",
+      "text": "正史『三国志』諸葛亮伝によれば、諸葛亮は字を孔明といい、徐庶は劉備に「諸葛孔明は臥龍です」と推薦した。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "yks-zl-myth-visits",
+      "text": "正史『三国志』諸葛亮伝は、劉備が諸葛亮のもとへ「凡そ三たび往きて、乃ち見る」と記す。",
+      "classification": "fact",
+      "sourceIds": ["sanguozhi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "正史『三国志』蜀書 諸葛亮伝"
+    },
+    {
+      "id": "yks-zl-myth-look",
+      "text": "『三国志演義』第38回では、劉備が見た孔明は身の丈八尺、顔は冠の玉のようで、綸巾をかぶり鶴氅をまとい、仙人のような風格があった。",
+      "classification": "fact",
+      "sourceIds": ["sanguo-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三国志演義』第38回"
+    },
+    {
+      "id": "yks-zl-cmp-1",
+      "text": "本作の孔明像は、三顧の礼や臥龍の評といった正史の記事に、羽扇や仙人のような風貌といった『三国志演義』のイメージを重ねたものになっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-yokoyama-sangokushi", "sanguozhi", "sanguo-yanyi"],
+  "articleIds": []
+}

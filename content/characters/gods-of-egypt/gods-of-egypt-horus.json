@@ -1,0 +1,105 @@
+{
+  "id": "gods-of-egypt-horus",
+  "slug": "gods-of-egypt-horus",
+  "name": "ホルス",
+  "reading": "ほるす",
+  "alternativeNames": [],
+  "workId": "gods-of-egypt",
+  "description": {
+    "text": "オシリスとイシスの息子で、天空の神。戴冠式の日に叔父セトに父を殺され、自身も両目を奪われて王位を追われる。人間の盗賊ベックの助けを借り、セトから王位を取り戻すために戦う。",
+    "claimIds": ["goe-ho-work"]
+  },
+  "nameOrigin": {
+    "text": "エジプト神話の天空神ホルスから。",
+    "claimIds": ["goe-ho-work", "goe-ho-myth-win"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "horus",
+      "label": "セトに目を奪われる",
+      "inWork": {
+        "text": "オシリスを殺したセトはホルスを打ち負かし、その両目を奪い取る。ホルスは視力と力を失い、追放の身となる。",
+        "claimIds": ["goe-ho-work"]
+      },
+      "inMyth": {
+        "text": "「ホルスとセトの争い」では、王位を争う中でセトがホルスの目を奪い、女神ハトホルがガゼルの乳でそれを癒やす。",
+        "claimIds": ["goe-ho-myth-eye"]
+      }
+    },
+    {
+      "aspect": "plot",
+      "figureId": "osiris",
+      "label": "父オシリスの仇討ち",
+      "inWork": {
+        "text": "セトはオシリスの戴冠式に現れて兄オシリスを殺し、自ら王を名乗る。ホルスは父の仇を討つことが自分の使命だと考える。",
+        "claimIds": ["goe-ho-work", "goe-ho-work-ra"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、オシリスは冥界からホルスのもとに来て、戦いに備えて鍛えた。ホルスは長い戦いの末にテュポン（セト）に勝利した。",
+        "claimIds": ["goe-ho-myth-train", "goe-ho-myth-win"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "「ホルスとセトの争い」では、奪われたホルスの目を女神ハトホルが癒やす。映画でもハトホルはホルスの味方として登場するが、目を取り戻す役目は人間の盗賊ベックが担っている。",
+      "claimIds": ["goe-ho-myth-eye", "goe-ho-work", "goe-ho-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "goe-ho-work",
+      "text": "盗賊ベックと恋人ザヤは、オシリス王とイシスの息子ホルスの戴冠式に立ち会う。しかしオシリスは嫉妬した弟セトに殺され、セトはホルスを打ち負かしてその両目を奪う。セトは自ら新しい王を名乗り、人間たちに死後の世界へ行くための財宝を納めるよう命じる。",
+      "classification": "creative",
+      "sourceIds": ["work-gods-of-egypt"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Gods of Egypt (film)」の記述で確認。"
+    },
+    {
+      "id": "goe-ho-work-ra",
+      "text": "ホルスとベックは、中立を保ちながら影の怪物アポピスと戦い続けている祖父ラーの太陽の船を訪れる。ラーはホルスの力を戻さず、ホルスが力を失ったのは運命を果たしていないからだと告げる。ホルスはそれを、両親の仇を討つことだと考える。",
+      "classification": "creative",
+      "sourceIds": ["work-gods-of-egypt"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Gods of Egypt (film)」の記述で確認。"
+    },
+    {
+      "id": "goe-ho-myth-eye",
+      "text": "「ホルスとセトの争い」では、王位を争う中でセトがホルスの目を奪い、女神ハトホルがガゼルの乳でそれを癒やす。",
+      "classification": "fact",
+      "sourceIds": ["contendings-horus-seth"],
+      "verificationStatus": "verified",
+      "sourceLocation": "チェスター・ビーティー・パピルス第1「ホルスとセトの争い」"
+    },
+    {
+      "id": "goe-ho-myth-train",
+      "text": "オシリスは冥界からホルスのもとに来て、戦いに備えて鍛えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』19章"
+    },
+    {
+      "id": "goe-ho-myth-win",
+      "text": "ホルスは長い戦いの末にテュポン（セト）に勝利した。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-isis-osiris"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『イシスとオシリスについて』19章"
+    },
+    {
+      "id": "goe-ho-cmp-1",
+      "text": "「ホルスとセトの争い」では、奪われたホルスの目を女神ハトホルが癒やす。映画でもハトホルはホルスの味方として登場するが、目を取り戻す役目は人間の盗賊ベックが担っている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": [
+    "work-gods-of-egypt",
+    "contendings-horus-seth",
+    "plutarch-isis-osiris"
+  ],
+  "articleIds": []
+}

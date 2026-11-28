@@ -1,0 +1,133 @@
+{
+  "id": "clash-of-the-titans-perseus",
+  "slug": "clash-of-the-titans-perseus",
+  "name": "ペルセウス",
+  "reading": "ぺるせうす",
+  "alternativeNames": [],
+  "workId": "clash-of-the-titans",
+  "description": {
+    "text": "ゼウスとアルゴス王アクリシオスの妃ダナエのあいだに生まれた半神。海に流されたのち漁師に拾われて育ち、育ての家族をハデスに奪われる。クラーケンからアンドロメダとアルゴスを救うため、メデューサの首を求めて旅をする。",
+    "claimIds": ["cot-pe-work-birth", "cot-pe-work"]
+  },
+  "nameOrigin": {
+    "text": "ギリシャ神話の英雄ペルセウスから。",
+    "claimIds": ["cot-pe-work-birth", "cot-pe-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "perseus",
+      "label": "箱に入れて海へ流される",
+      "inWork": {
+        "text": "アクリシオス王は、妻ダナエがゼウスの子ペルセウスを身ごもったことを知って激怒し、ダナエと生まれた赤子を箱に閉じこめて海に投げ込んだ。",
+        "claimIds": ["cot-pe-work-birth"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、アルゴス王アクリシオスは娘ダナエを青銅の地下室に閉じこめたが、ゼウスが黄金の流れに姿を変えて屋根から注ぎ、ダナエはペルセウスを産んだ。アクリシオスは母子を箱に入れて海に投げ込んだ。",
+        "claimIds": ["cot-pe-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "medusa",
+      "label": "メデューサ退治",
+      "inWork": {
+        "text": "ペルセウスは冥界にあるメデューサの神殿に乗り込み、盾の裏面に映る姿を見ながら、背を向けたままメデューサの首を切り落とす。",
+        "claimIds": ["cot-pe-work"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、ペルセウスは盾に映った姿を見ながらメデューサの首を切り、首からはペガソスとクリュサオルが生まれた。",
+        "claimIds": ["cot-pe-myth-medusa"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "andromeda",
+      "label": "アンドロメダの救出",
+      "inWork": {
+        "text": "ペルセウスは天馬ペガサスに乗ってアルゴスに戻り、生贄にされかけたアンドロメダの前でクラーケンにメデューサの首を向け、石に変えて砕く。",
+        "claimIds": ["cot-pe-work-kraken"]
+      },
+      "inMyth": {
+        "text": "アポロドロスによれば、メデューサ退治の帰りのペルセウスが怪物を倒してアンドロメダを救い、彼女を妻とした。",
+        "claimIds": ["cot-pe-myth-andromeda"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話でアンドロメダを生贄に求めたのは、母カシオペイアの高慢に怒った海神ポセイドンである。映画ではそれが冥界の王ハデスに置き換えられ、ハデスが物語全体の黒幕になっている。",
+      "claimIds": ["cot-pe-myth-andromeda", "cot-pe-work", "cot-pe-cmp-1"]
+    },
+    {
+      "text": "神話でダナエを箱に入れて流したのはダナエの父アクリシオスだが、映画のアクリシオスはダナエの夫で、ゼウスに逆らった王として描かれる。",
+      "claimIds": ["cot-pe-myth-birth", "cot-pe-work-birth", "cot-pe-cmp-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "cot-pe-work-birth",
+      "text": "人間の王アクリシオスがオリュンポスに攻め込むと、ゼウスはその妻ダナエと交わり、半神の息子ペルセウスが生まれる。激怒したアクリシオスは妃と赤子を箱に閉じこめて海に投げ込み、ゼウスは雷で王を打って醜い姿に変えた。ペルセウスは漁師スピロスに拾われて育てられる。",
+      "classification": "creative",
+      "sourceIds": ["work-clash-of-the-titans"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Clash of the Titans (2010 film)」の記述で確認。"
+    },
+    {
+      "id": "cot-pe-work",
+      "text": "ハデスは、十日後に王女アンドロメダをクラーケンの生贄に差し出さなければアルゴスを滅ぼすと脅し、ペルセウスが神の血を引くことを明かす。ペルセウスは冥界にあるメデューサの神殿に乗り込み、盾の裏面に映る姿を見ながら、背を向けたまま首を切り落とす。",
+      "classification": "creative",
+      "sourceIds": ["work-clash-of-the-titans"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Clash of the Titans (2010 film)」の記述で確認。"
+    },
+    {
+      "id": "cot-pe-work-kraken",
+      "text": "天馬ペガサスがペルセウスをアルゴスへ運び、ペルセウスは生贄にされかけたアンドロメダの前でクラーケンにメデューサの首を向け、怪物を石に変えて崩れ落ちさせる。",
+      "classification": "creative",
+      "sourceIds": ["work-clash-of-the-titans"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Clash of the Titans (2010 film)」の記述で確認。"
+    },
+    {
+      "id": "cot-pe-myth-birth",
+      "text": "アルゴス王アクリシオスは娘ダナエを青銅の地下室に閉じこめたが、ゼウスが黄金の流れに姿を変えて屋根から注ぎ、ダナエはペルセウスを産んだ。アクリシオスは母子を箱に入れて海に流し、箱はセリポス島に流れ着いてディクテュスに拾われた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.1"
+    },
+    {
+      "id": "cot-pe-myth-medusa",
+      "text": "ペルセウスは盾に映った姿を見ながらメデューサの首を切り、首からはペガソスとクリュサオルが生まれた。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.2"
+    },
+    {
+      "id": "cot-pe-myth-andromeda",
+      "text": "メデューサ退治の帰りのペルセウスが怪物を倒してアンドロメダを救い、彼女を妻とした。",
+      "classification": "fact",
+      "sourceIds": ["apollodorus-library"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ビブリオテーケー』2.4.3"
+    },
+    {
+      "id": "cot-pe-cmp-1",
+      "text": "神話でアンドロメダを生贄に求めたのは、母カシオペイアの高慢に怒った海神ポセイドンである。映画ではそれが冥界の王ハデスに置き換えられ、ハデスが物語全体の黒幕になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "cot-pe-cmp-2",
+      "text": "神話でダナエを箱に入れて流したのはダナエの父アクリシオスだが、映画のアクリシオスはダナエの夫で、ゼウスに逆らった王として描かれる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-clash-of-the-titans", "apollodorus-library"],
+  "articleIds": []
+}
