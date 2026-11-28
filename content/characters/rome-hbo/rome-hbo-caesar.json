@@ -1,0 +1,97 @@
+{
+  "id": "rome-hbo-caesar",
+  "slug": "rome-hbo-caesar",
+  "name": "ユリウス・カエサル",
+  "reading": "ゆりうす・かえさる",
+  "alternativeNames": [],
+  "workId": "rome-hbo",
+  "description": {
+    "text": "ガリアを平定したローマの将軍。元老院の保守派と対立して内戦を起こし、独裁官の地位に上りつめる。野心家だが真意は見えにくく、敗れた敵には寛大にふるまう。",
+    "claimIds": ["rome-cs-work", "rome-cs-work-character"]
+  },
+  "nameOrigin": {
+    "text": "共和政ローマの将軍・政治家ガイウス・ユリウス・カエサルそのもの。",
+    "claimIds": ["rome-cs-work", "rome-cs-myth-rubicon"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "julius-caesar",
+      "label": "内戦の始まり",
+      "inWork": {
+        "text": "第1シーズンは、紀元前49年に始まる、元老院の保守派に対するカエサルの内戦と、独裁官への上昇、そして紀元前44年3月15日の暗殺による失墜を描く。",
+        "claimIds": ["rome-cs-work"]
+      },
+      "inMyth": {
+        "text": "スエトニウスによれば、カエサルはルビコン川のほとりで、「進もう、神々の示すところ、敵の不正の呼ぶところへ。賽は投げられた」と言って軍を渡らせた。",
+        "claimIds": ["rome-cs-myth-rubicon"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "julius-caesar",
+      "label": "敵への寛容",
+      "inWork": {
+        "text": "カエサルは、自らは貴族でありながら平民の側に立つ改革者を名乗る。敗れた敵には寛大で、彼らの死を心から悲しみ、和平に応じることを喜ぶ。",
+        "claimIds": ["rome-cs-work-character"]
+      },
+      "inMyth": {
+        "text": "スエトニウスによれば、カエサルは政務においても、内戦に勝利したのちにも、驚くべき節度と寛容を示した。",
+        "claimIds": ["rome-cs-myth-clemency"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "スエトニウスが伝えるカエサルの寛容は、内戦の勝者としての政治的なふるまいでもあった。本作は、その寛容を、真意の見えない野心と並べて描くことで、周囲の人物の忠誠を試す人物像にしている。",
+      "claimIds": [
+        "rome-cs-myth-clemency",
+        "rome-cs-work-character",
+        "rome-cs-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "rome-cs-work",
+      "text": "第1シーズンは、紀元前49年にカエサルが元老院の伝統的な保守派（オプティマテス）に対して起こした内戦、ローマの独裁官への上昇、そして失墜を描き、ガリア戦争の終わり（紀元前52年）から紀元前44年3月15日の暗殺までの時期を扱う。",
+      "classification": "creative",
+      "sourceIds": ["work-rome-hbo"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Rome (TV series)」の記述で確認。"
+    },
+    {
+      "id": "rome-cs-work-character",
+      "text": "ユリウス・カエサルは野心家だが、その目的や動機はしばしばあいまいにされ、周囲の人物の忠誠を試す。自らは貴族でありながら、平民の側に立つ改革者を名乗る。敗れた敵には寛大で、彼らの死を心から悲しみ、復讐心の強い者なら殺していたであろう相手が和平に応じることを喜ぶ。",
+      "classification": "creative",
+      "sourceIds": ["work-rome-hbo"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Rome (TV series)」の記述で確認。"
+    },
+    {
+      "id": "rome-cs-myth-rubicon",
+      "text": "スエトニウスによれば、ルビコン川のほとりでためらったカエサルは、「進もう、神々の示すところ、敵の不正の呼ぶところへ。賽は投げられた」と言って川を渡った。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-julius"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『神君カエサル伝』31–33章"
+    },
+    {
+      "id": "rome-cs-myth-clemency",
+      "text": "スエトニウスによれば、カエサルは政務においても内戦の勝利においても、驚くべき節度と寛容を示した。",
+      "classification": "fact",
+      "sourceIds": ["suetonius-julius"],
+      "verificationStatus": "verified",
+      "sourceLocation": "スエトニウス『神君カエサル伝』75章"
+    },
+    {
+      "id": "rome-cs-cmp-1",
+      "text": "スエトニウスが伝えるカエサルの寛容は、内戦の勝者としての政治的なふるまいでもあった。本作は、その寛容を、真意の見えない野心と並べて描くことで、周囲の人物の忠誠を試す人物像にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-rome-hbo", "suetonius-julius"],
+  "articleIds": []
+}

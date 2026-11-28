@@ -1,0 +1,81 @@
+{
+  "id": "sinbad-legend-of-the-seven-seas-sinbad",
+  "slug": "sinbad-legend-of-the-seven-seas-sinbad",
+  "name": "シンドバッド",
+  "reading": "しんどばっど",
+  "alternativeNames": [],
+  "workId": "sinbad-legend-of-the-seven-seas",
+  "description": {
+    "text": "手下を率いる海賊。幼なじみの王子プロテウスが守る「平和の書」を盗もうとするが、女神エリスに罪を着せられ、身代わりの人質となったプロテウスのため、書を取り戻す航海に出る。",
+    "claimIds": ["sb03-sb-work", "sb03-sb-work-eris"]
+  },
+  "nameOrigin": {
+    "text": "『千夜一夜物語』の船乗りシンドバッドから。",
+    "claimIds": ["sb03-sb-work", "sb03-sb-myth-voyage"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "sinbad",
+      "label": "七つの海を旅する船乗り",
+      "inWork": {
+        "text": "シンドバッドは海賊の一団を率い、平和の書を盗んで身代金を得たのち、引退してフィジーで暮らそうとしている。",
+        "claimIds": ["sb03-sb-work"]
+      },
+      "inMyth": {
+        "text": "『千夜一夜物語』のバグダードの商人シンドバッドは、七度の航海でロック鳥や「海の老人」などの危険を乗り越えて富を得た物語を語る。",
+        "claimIds": ["sb03-sb-myth-voyage"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "sinbad",
+      "label": "海の怪物との戦い",
+      "inWork": {
+        "text": "平和の書を盗もうとしたシンドバッドは、怪物ケートスの襲撃を受け、プロテウスと力を合わせて撃退するが、海に引きずり込まれる。シンドバッドを救った女神エリスは、平和の書と引き換えに望みをかなえると持ちかける。",
+        "claimIds": ["sb03-sb-work-eris"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『千夜一夜物語』のシンドバッドは、航海のたびに難破しながら富を得るバグダードの商人である。本作のシンドバッドは海賊で、ギリシャ神話の神々や怪物を相手に、友情と自らの誠実さを試される人物になっている。",
+      "claimIds": ["sb03-sb-myth-voyage", "sb03-sb-work-eris", "sb03-sb-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sb03-sb-work",
+      "text": "シンドバッドと海賊の一味は、シチリアのシラクサへ運ばれる魔法の「平和の書」を盗み出し、引退してフィジーで暮らす前の最後の仕事として身代金を取ろうとする。シンドバッドは、書を守っているのが幼なじみの親友であるシラクサの王子プロテウスであることに驚く。",
+      "classification": "creative",
+      "sourceIds": ["work-sinbad-legend-of-the-seven-seas"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Sinbad: Legend of the Seven Seas」の記述で確認。"
+    },
+    {
+      "id": "sb03-sb-work-eris",
+      "text": "書を盗もうとしたシンドバッドは、怪物ケートスの襲撃を受け、プロテウスと協力して撃退するが、船から海に引きずり込まれる。シンドバッドを救った不和の女神エリスは、平和の書と引き換えにどんな望みもかなえると申し出る。エリスはシンドバッドに化けて書を盗み、シンドバッドは死刑を宣告されるが、プロテウスが自らを人質として、シンドバッドに書を取り戻しに行かせる。",
+      "classification": "creative",
+      "sourceIds": ["work-sinbad-legend-of-the-seven-seas"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Sinbad: Legend of the Seven Seas」の記述で確認。"
+    },
+    {
+      "id": "sb03-sb-myth-voyage",
+      "text": "バグダードの商人シンドバッドは、七度の航海でロック鳥や「海の老人」などの危険を乗り越えて富を得た物語を語った。",
+      "classification": "fact",
+      "sourceIds": ["arabian-nights"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『千夜一夜物語』「船乗りシンドバッドの物語」"
+    },
+    {
+      "id": "sb03-sb-cmp-1",
+      "text": "『千夜一夜物語』のシンドバッドは、航海のたびに難破しながら富を得るバグダードの商人である。本作のシンドバッドは海賊で、ギリシャ神話の神々や怪物を相手に、友情と自らの誠実さを試される人物になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-sinbad-legend-of-the-seven-seas", "arabian-nights"],
+  "articleIds": []
+}

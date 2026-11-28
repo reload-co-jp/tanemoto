@@ -1,0 +1,93 @@
+{
+  "id": "spartacus-starz-spartacus",
+  "slug": "spartacus-starz-spartacus",
+  "name": "スパルタクス",
+  "reading": "すぱるたくす",
+  "alternativeNames": [],
+  "workId": "spartacus-starz",
+  "description": {
+    "text": "ローマの補助軍に加わっていたトラキア人。指揮官グラベルへの反乱の罪で捕らえられ、カプアの剣闘士養成所の主バティアトゥスのもとで剣闘士となり、「スパルタクス」の名を与えられる。のちにバティアトゥスの家に反旗を翻す。",
+    "claimIds": ["spz-sp-work", "spz-sp-work-name"]
+  },
+  "nameOrigin": {
+    "text": "紀元前73年に奴隷反乱を率いたトラキア人の剣闘士スパルタクスから。作中では、本当の名を知らないバティアトゥスがこの名をつける。",
+    "claimIds": ["spz-sp-work-name", "spz-sp-myth-revolt"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "spartacus",
+      "label": "ローマ軍の兵士から剣闘士へ",
+      "inWork": {
+        "text": "トラキア人は、レガトゥスのグラベルが率いるローマ補助軍に加わってゲタイ族と戦っていたが、グラベルへの反乱を起こし、捕らえられて闘技場での死刑を宣告される。",
+        "claimIds": ["spz-sp-work"]
+      },
+      "inMyth": {
+        "text": "アッピアノスによれば、トラキア生まれのスパルタクスは、かつてローマ人とともに兵士として仕えたが、その後捕虜となって剣闘士として売られた。",
+        "claimIds": ["spz-sp-myth-soldier"]
+      }
+    },
+    {
+      "aspect": "place",
+      "figureId": "spartacus",
+      "label": "カプアのバティアトゥスの養成所",
+      "inWork": {
+        "text": "カプアの剣闘士養成所の主クィントゥス・レントゥルス・バティアトゥスは、本当の名がわからない彼に「スパルタクス」という名を与える。",
+        "claimIds": ["spz-sp-work-name"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、カプアのレントゥルス・バティアトゥスの養成所で不当に閉じ込められていた剣闘士のうち78人が、調理場の包丁や串を奪って脱走した。指導者の一人がトラキア人のスパルタクスだった。",
+        "claimIds": ["spz-sp-myth-revolt"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "史料が伝えるスパルタクスの経歴は、ローマ軍に仕えたのち捕虜となって剣闘士に売られたという短い記述しかない。本作は、指揮官グラベルとの因縁や妻スーラの運命を加え、その空白を個人的な復讐の物語として描いている。",
+      "claimIds": ["spz-sp-myth-soldier", "spz-sp-work", "spz-sp-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "spz-sp-work",
+      "text": "のちにスパルタクスと呼ばれる名もなきトラキア人は、レガトゥスのクラウディウス・グラベルの指揮のもと、ドナウ川下流でゲタイ族と戦うローマ補助軍に加わっていた。グラベルがゲタイ族への攻撃を打ち切って小アジアのミトリダテス軍と対決しようとすると、裏切られたと感じたトラキア人は反乱を起こす。翌日、彼と妻スーラはグラベルに捕らえられ、彼は闘技場での死刑を宣告される。",
+      "classification": "creative",
+      "sourceIds": ["work-spartacus-starz"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Spartacus (TV series)」の記述で確認。"
+    },
+    {
+      "id": "spz-sp-work-name",
+      "text": "カプアに送られたトラキア人は、処刑役の剣闘士四人を倒して群衆の喝采を浴び、刑は死刑から奴隷へと減じられる。本当の名がわからないため、カプアの剣闘士養成所の主クィントゥス・レントゥルス・バティアトゥスが彼を「スパルタクス」と名づける。",
+      "classification": "creative",
+      "sourceIds": ["work-spartacus-starz"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Spartacus (TV series)」の記述で確認。"
+    },
+    {
+      "id": "spz-sp-myth-soldier",
+      "text": "アッピアノスによれば、トラキア生まれのスパルタクスは、かつてローマ人とともに兵士として仕えたが、その後捕虜となり、剣闘士として売られた。",
+      "classification": "fact",
+      "sourceIds": ["appian-civil-wars"],
+      "verificationStatus": "verified",
+      "sourceLocation": "アッピアノス『内乱記』1.116"
+    },
+    {
+      "id": "spz-sp-myth-revolt",
+      "text": "カプアのレントゥルス・バティアトゥスの養成所で不当に閉じ込められていた剣闘士のうち78人が、調理場の包丁や串を奪って脱走した。途中で剣闘士の武器を積んだ荷車に出会い、それを奪って武装した。指導者の一人がトラキア人スパルタクスだった。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』クラッスス伝 8–9"
+    },
+    {
+      "id": "spz-sp-cmp-1",
+      "text": "史料が伝えるスパルタクスの経歴は、ローマ軍に仕えたのち捕虜となって剣闘士に売られたという短い記述しかない。本作は、指揮官グラベルとの因縁や妻スーラの運命を加え、その空白を個人的な復讐の物語として描いている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-spartacus-starz", "appian-civil-wars", "plutarch-lives"],
+  "articleIds": []
+}

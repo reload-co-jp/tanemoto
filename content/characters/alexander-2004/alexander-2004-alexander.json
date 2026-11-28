@@ -1,0 +1,97 @@
+{
+  "id": "alexander-2004-alexander",
+  "slug": "alexander-2004-alexander",
+  "name": "アレクサンドロス",
+  "reading": "あれくさんどろす",
+  "alternativeNames": ["アレキサンダー", "アレクサンドロス大王"],
+  "workId": "alexander-2004",
+  "description": {
+    "text": "マケドニアの王。父フィリッポス2世の暗殺後に王位を継ぎ、ペルシア帝国への遠征でダレイオス3世を破り、インドまで進軍する。ホメロスの英雄アキレウスに自らを重ね、親友ヘファイスティオンをパトロクロスになぞらえる。",
+    "claimIds": ["ax04-ax-work", "ax04-ax-work-achilles"]
+  },
+  "nameOrigin": {
+    "text": "マケドニアの王アレクサンドロス3世（大王）そのもの。",
+    "claimIds": ["ax04-ax-work", "ax04-ax-myth-achilles"]
+  },
+  "motifs": [
+    {
+      "aspect": "personality",
+      "figureId": "alexander",
+      "label": "アキレウスへのあこがれ",
+      "inWork": {
+        "text": "ヘファイスティオンがアレクサンドロスをアキレウスにたとえると、アレクサンドロスは、ならばヘファイスティオンは自分のパトロクロスだと答える。",
+        "claimIds": ["ax04-ax-work-achilles"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、アレクサンドロスはトロイアでアキレウスの墓石に香油を注ぎ、生前には忠実な友を、死後には名声を伝える詩人をもったアキレウスを幸いだと言った。",
+        "claimIds": ["ax04-ax-myth-achilles"]
+      }
+    },
+    {
+      "aspect": "title",
+      "figureId": "alexander",
+      "label": "ゼウスの子",
+      "inWork": {
+        "text": "プトレマイオスは、シーワ・オアシスのアモンの神託によってアレクサンドロスがゼウスの子と宣言されたことに触れる。",
+        "claimIds": ["ax04-ax-work"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、アモン神殿を訪れたアレクサンドロスを、神官は神からのあいさつとして「神の子よ」と呼びかけて迎えた。",
+        "claimIds": ["ax04-ax-myth-amun"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "プルタルコスは、アキレウスの墓を訪れたアレクサンドロスの言葉を伝えている。映画はこれを、親友ヘファイスティオンとの関係をアキレウスとパトロクロスに重ねる場面として、より個人的な物語にしている。",
+      "claimIds": [
+        "ax04-ax-myth-achilles",
+        "ax04-ax-work-achilles",
+        "ax04-ax-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ax04-ax-work",
+      "text": "紀元前285年ごろ、エジプトの王プトレマイオス1世がアレクサンドロスの生涯を語る。フィリッポスの暗殺後にマケドニア王となったアレクサンドロスについて、プトレマイオスはテーバイの破壊やペルセポリスの炎上、シーワ・オアシスのアモンの神託によるゼウスの子としての宣言、ペルシア王ダレイオス3世とのガウガメラの戦い、そしてアジアを横断する8年の遠征を語る。",
+      "classification": "creative",
+      "sourceIds": ["work-alexander-2004"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Alexander (2004 film)」の記述で確認。"
+    },
+    {
+      "id": "ax04-ax-work-achilles",
+      "text": "ヘファイスティオンがアレクサンドロスをアキレウスにたとえると、アレクサンドロスは、ならばヘファイスティオンは自分のパトロクロスでなければならないと答える。パトロクロスが先に死んだことをヘファイスティオンが口にすると、アレクサンドロスは、もしヘファイスティオンが先に死んだら、アキレウスがパトロクロスにしたように後を追うと誓う。",
+      "classification": "creative",
+      "sourceIds": ["work-alexander-2004"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Alexander (2004 film)」の記述で確認。"
+    },
+    {
+      "id": "ax04-ax-myth-achilles",
+      "text": "アレクサンドロスはトロイアでアキレウスの墓石に香油を注ぎ、生前には忠実な友を、死後には名声を伝える偉大な詩人を得たアキレウスを幸いだとたたえた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 15"
+    },
+    {
+      "id": "ax04-ax-myth-amun",
+      "text": "プルタルコスによれば、アモン神殿を訪れたアレクサンドロスを、神官は神からのあいさつとして「神の子よ」と呼びかけて迎えた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アレクサンドロス伝 27章"
+    },
+    {
+      "id": "ax04-ax-cmp-1",
+      "text": "プルタルコスは、アキレウスの墓を訪れたアレクサンドロスの言葉を伝えている。映画はこれを、親友ヘファイスティオンとの関係をアキレウスとパトロクロスに重ねる場面として、より個人的な物語にしている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-alexander-2004", "plutarch-lives"],
+  "articleIds": []
+}

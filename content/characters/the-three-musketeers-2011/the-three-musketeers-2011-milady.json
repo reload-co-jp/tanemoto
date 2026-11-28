@@ -1,0 +1,93 @@
+{
+  "id": "the-three-musketeers-2011-milady",
+  "slug": "the-three-musketeers-2011-milady",
+  "name": "ミレディ・ド・ウィンター",
+  "reading": "みれでぃ・ど・うぃんたー",
+  "alternativeNames": ["ミレディ"],
+  "workId": "the-three-musketeers-2011",
+  "description": {
+    "text": "三銃士とともにダ・ヴィンチの設計図を盗み出したのち、彼らを裏切ってバッキンガム公に売り渡した女スパイ。のちにリシュリュー枢機卿の手先となり、王妃アンヌを陥れる陰謀に加わる。",
+    "claimIds": ["tm11-ml-work", "tm11-ml-work-richelieu"]
+  },
+  "nameOrigin": {
+    "text": "アレクサンドル・デュマ『三銃士』の悪女ミレディから。",
+    "claimIds": ["tm11-ml-work", "tm11-ml-myth-brand"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "milady",
+      "label": "三銃士を裏切る悪女",
+      "inWork": {
+        "text": "ヴェネツィアで、三銃士はミレディの助けを借りてダ・ヴィンチの飛行船の設計図を盗み出すが、ミレディは彼らを裏切って動けなくし、設計図をバッキンガム公に売り渡す。",
+        "claimIds": ["tm11-ml-work"]
+      },
+      "inMyth": {
+        "text": "デュマ『三銃士』では、アトスが、肩に烙印のある妻を木に吊るした伯爵の話をし、その妻がミレディであったことが明かされる。",
+        "claimIds": ["tm11-ml-myth-athos"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "milady",
+      "label": "リシュリューの手先",
+      "inWork": {
+        "text": "リシュリュー枢機卿は、共犯者となったミレディに、王妃アンヌの持ち物に偽の恋文を忍ばせ、王妃のダイヤモンドの首飾りを盗んでロンドン塔へ運ぶよう命じる。王妃とバッキンガム公の不倫を偽装し、ルイ王にイングランドとの戦争を宣言させるためである。",
+        "claimIds": ["tm11-ml-work-richelieu"]
+      },
+      "inMyth": {
+        "text": "デュマ『三銃士』では、ダルタニャンはミレディの肩に百合の花の烙印を見つけ、秘密を知られたミレディは彼を殺そうとする。",
+        "claimIds": ["tm11-ml-myth-brand"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作のミレディは、過去の罪を示す烙印を隠し、策略と毒で人を陥れる悪女である。本作のミレディは、三銃士とかつて組んでいたスパイとして、自ら剣をふるうアクションの担い手にもなっている。",
+      "claimIds": ["tm11-ml-myth-brand", "tm11-ml-work", "tm11-ml-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "tm11-ml-work",
+      "text": "ヴェネツィアで、銃士アトス、ポルトス、アラミスはミレディ・ド・ウィンターの助けを借りて、レオナルド・ダ・ヴィンチの飛行船の設計図を盗み出す。しかしミレディは彼らを裏切って動けなくし、設計図をバッキンガム公に売り渡す。",
+      "classification": "creative",
+      "sourceIds": ["work-the-three-musketeers-2011"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Three Musketeers (2011 film)」の記述で確認。"
+    },
+    {
+      "id": "tm11-ml-work-richelieu",
+      "text": "リシュリュー枢機卿は、自らの共犯者となったミレディに、王妃アンヌの持ち物に偽の恋文を忍ばせ、王妃のダイヤモンドの首飾りを盗んでロンドン塔へ運ぶよう命じる。王妃がバッキンガム公と不倫しているように見せかけ、ルイ王に王妃を処刑させてイングランドに宣戦布告させるためである。",
+      "classification": "creative",
+      "sourceIds": ["work-the-three-musketeers-2011"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Three Musketeers (2011 film)」の記述で確認。"
+    },
+    {
+      "id": "tm11-ml-myth-athos",
+      "text": "アトスは、肩に烙印のある妻を木に吊るした伯爵の話をし、その妻がミレディであったことが明かされる。",
+      "classification": "fact",
+      "sourceIds": ["dumas-three-musketeers"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三銃士』第27章"
+    },
+    {
+      "id": "tm11-ml-myth-brand",
+      "text": "ダルタニャンはミレディの肩に百合の花の烙印を見つけ、秘密を知られたミレディは彼を殺そうとする。",
+      "classification": "fact",
+      "sourceIds": ["dumas-three-musketeers"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『三銃士』第37章"
+    },
+    {
+      "id": "tm11-ml-cmp-1",
+      "text": "原作のミレディは、過去の罪を示す烙印を隠し、策略と毒で人を陥れる悪女である。本作のミレディは、三銃士とかつて組んでいたスパイとして、自ら剣をふるうアクションの担い手にもなっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-the-three-musketeers-2011", "dumas-three-musketeers"],
+  "articleIds": []
+}

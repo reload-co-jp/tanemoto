@@ -836,5 +836,58 @@
     "publishedPeriod": "2020〜2023年（Netflix、全3シーズン）",
     "publisher": "Netflix",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-spartacus-starz",
+    "title": "スパルタカス",
+    "author": "スティーヴン・S・デナイト（企画）",
+    "type": "work",
+    "publishedPeriod": "2010〜2013年（Starz）",
+    "publisher": "Starz",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-rome-hbo",
+    "title": "ROME",
+    "author": "ジョン・ミリアス、ウィリアム・J・マクドナルド、ブルーノ・ヘラー（企画）",
+    "type": "work",
+    "publishedPeriod": "2005〜2007年（HBO・BBC Two、全2シーズン）",
+    "publisher": "HBO・BBC",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-cleopatra-1963",
+    "title": "クレオパトラ",
+    "author": "ジョーゼフ・L・マンキーウィッツ（監督）",
+    "type": "work",
+    "publishedPeriod": "1963年（米国公開）",
+    "publisher": "20世紀フォックス",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-alexander-2004",
+    "title": "アレキサンダー",
+    "author": "オリバー・ストーン（監督）",
+    "type": "work",
+    "publishedPeriod": "2004年（米国公開）",
+    "publisher": "ワーナー・ブラザース",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-sinbad-legend-of-the-seven-seas",
+    "title": "シンドバッド 7つの海の伝説",
+    "author": "ティム・ジョンソン、パトリック・ギルモア（監督）",
+    "type": "work",
+    "publishedPeriod": "2003年（米国公開）",
+    "publisher": "ドリームワークス",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-the-three-musketeers-2011",
+    "title": "三銃士／王妃の首飾りとダ・ヴィンチの飛行船",
+    "author": "ポール・W・S・アンダーソン（監督）",
+    "type": "work",
+    "publishedPeriod": "2011年",
+    "notes": "作品内の設定について述べる際の出典。"
   }
 ]

@@ -1,0 +1,93 @@
+{
+  "id": "cleopatra-1963-cleopatra",
+  "slug": "cleopatra-1963-cleopatra",
+  "name": "クレオパトラ",
+  "reading": "くれおぱとら",
+  "alternativeNames": ["クレオパトラ7世"],
+  "workId": "cleopatra-1963",
+  "description": {
+    "text": "プトレマイオス朝エジプトの女王。弟プトレマイオス13世との王位争いで都を追われていたが、カエサルを説得して王位を取り戻す。カエサルの死後はアントニウスと結ばれ、ローマのオクタウィアヌスと対立する。",
+    "claimIds": ["cl63-cl-work", "cl63-cl-work-antony"]
+  },
+  "nameOrigin": {
+    "text": "プトレマイオス朝最後の女王クレオパトラ7世そのもの。",
+    "claimIds": ["cl63-cl-work", "cl63-cl-myth-carpet"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "cleopatra",
+      "label": "カエサルとの出会い",
+      "inWork": {
+        "text": "クレオパトラは、王位を弟プトレマイオスから取り戻すようカエサルを説得する。カエサルはクレオパトラの暗殺を企てたポティノスを処刑し、クレオパトラはエジプトの女王として即位する。",
+        "claimIds": ["cl63-cl-work"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、クレオパトラは寝具袋の中に身を横たえ、シチリア人アポロドロスがそれを紐で縛って、宮殿のカエサルのもとへ運び込んだ。カエサルはこの大胆さに心を奪われたという。",
+        "claimIds": ["cl63-cl-myth-carpet"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "cleopatra",
+      "label": "タルソスの御座船",
+      "inWork": {
+        "text": "エジプトを離れることを拒み続けたクレオパトラは、やがて折れ、タルソスで自らの王の御座船の上でアントニウスと会い、二人は恋に落ちる。",
+        "claimIds": ["cl63-cl-work-antony"]
+      },
+      "inMyth": {
+        "text": "プルタルコスによれば、クレオパトラは金色の船尾に紫の帆を張り、銀の櫂で漕ぐ船でキュドノス川をさかのぼり、アフロディテのように装って金の天蓋の下に横たわっていた。",
+        "claimIds": ["cl63-cl-myth-barge"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "プルタルコスでは、クレオパトラは寝具袋に隠れて宮殿に入るが、映画では絨毯にくるまれて現れる。この「絨毯」のイメージは、映画を通じて広く知られるようになった。",
+      "claimIds": ["cl63-cl-myth-carpet", "cl63-cl-work", "cl63-cl-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "cl63-cl-work",
+      "text": "紀元前48年のファルサロスの戦いの後、ユリウス・カエサルはエジプトへ赴く。若いファラオのプトレマイオス13世と姉で共同統治者のクレオパトラは内戦のさなかにあり、クレオパトラはアレクサンドリアから追われていた。クレオパトラはカエサルを説得して王位を取り戻させ、カエサルはクレオパトラの暗殺未遂を企てたポティノスに死刑を言い渡す。クレオパトラはエジプトの女王として戴冠する。",
+      "classification": "creative",
+      "sourceIds": ["work-cleopatra-1963"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Cleopatra (1963 film)」の記述で確認。"
+    },
+    {
+      "id": "cl63-cl-work-antony",
+      "text": "パルティア遠征を計画するアントニウスは、エジプトだけが提供できる資金と物資を必要とする。エジプトを離れることを何度も拒んだクレオパトラは、ついに応じ、タルソスで王の御座船の上でアントニウスと会い、二人は恋に落ちる。",
+      "classification": "creative",
+      "sourceIds": ["work-cleopatra-1963"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Cleopatra (1963 film)」の記述で確認。"
+    },
+    {
+      "id": "cl63-cl-myth-carpet",
+      "text": "プルタルコスによれば、クレオパトラは寝具袋の中に身を長く横たえ、シチリア人アポロドロスがそれを紐で縛って、戸口からカエサルのもとへ運び込んだ。カエサルはこの策略に、まず心を奪われたという。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』カエサル伝 49章"
+    },
+    {
+      "id": "cl63-cl-myth-barge",
+      "text": "プルタルコスによれば、クレオパトラは金色の船尾に紫の帆を張り、銀の櫂で漕がせた船でキュドノス川をさかのぼった。女王自身はアフロディテのように装い、金の刺繍をほどこした天蓋の下に横たわっていた。",
+      "classification": "fact",
+      "sourceIds": ["plutarch-lives"],
+      "verificationStatus": "verified",
+      "sourceLocation": "プルタルコス『英雄伝』アントニウス伝 26章"
+    },
+    {
+      "id": "cl63-cl-cmp-1",
+      "text": "プルタルコスでは、クレオパトラは寝具袋に隠れて宮殿に入るが、映画では絨毯にくるまれて現れる。この「絨毯」のイメージは、映画を通じて広く知られるようになった。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-cleopatra-1963", "plutarch-lives"],
+  "articleIds": []
+}
