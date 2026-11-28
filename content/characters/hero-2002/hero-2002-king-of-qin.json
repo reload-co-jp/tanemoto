@@ -1,0 +1,97 @@
+{
+  "id": "hero-2002-king-of-qin",
+  "slug": "hero-2002-king-of-qin",
+  "name": "秦王",
+  "reading": "しんおう",
+  "alternativeNames": ["秦王政", "始皇帝"],
+  "workId": "hero-2002",
+  "description": {
+    "text": "のちの始皇帝。天下統一を目前にした秦の王で、多くの刺客に命を狙われており、誰も百歩以内に近づけない。刺客を倒したと名乗る無名を十歩の距離まで招き入れ、そのいきさつを語らせる。",
+    "claimIds": ["hero-qn-work"]
+  },
+  "nameOrigin": {
+    "text": "戦国時代の秦の王・政、のちに中国を統一して始皇帝と称した人物から。",
+    "claimIds": ["hero-qn-work", "hero-qn-myth-title"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "qin-shi-huang",
+      "label": "刺客に狙われる秦王",
+      "inWork": {
+        "text": "秦王は、長空・飛雪・残剣による度重なる暗殺の企てを生き延びてきた。警戒を固め、誰も百歩以内に近づけないが、刺客を倒したという無名には、十歩の距離まで近づくことを許す。",
+        "claimIds": ["hero-qn-work"]
+      },
+      "inMyth": {
+        "text": "『史記』刺客列伝によれば、燕の太子丹の命を受けた荊軻は、樊於期の首と督亢の地図を献じると称して秦王に近づき、地図の中に隠した匕首で秦王を刺そうとしたが果たせず、斬られた。",
+        "claimIds": ["hero-qn-myth-jingke"]
+      }
+    },
+    {
+      "aspect": "title",
+      "figureId": "qin-shi-huang",
+      "label": "天下統一と「皇帝」",
+      "inWork": {
+        "text": "残剣は、天下を統一して平和をもたらせるのは秦王だけだと考え、砂に「天下」と書いて、無名に暗殺を思いとどまるよう促す。",
+        "claimIds": ["hero-qn-work-tianxia"]
+      },
+      "inMyth": {
+        "text": "『史記』秦始皇本紀によれば、天下を統一した秦王政は、三皇の「皇」と五帝の「帝」の位号をあわせて「皇帝」と号し、自らを始皇帝とした。",
+        "claimIds": ["hero-qn-myth-title"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『史記』の荊軻は、献上品を差し出すふりをして秦王に近づいたが失敗した。本作の無名も、刺客の武器を差し出すことで秦王に近づくが、物語は暗殺の成否よりも「天下」をめぐる問いへと向かっていく。",
+      "claimIds": [
+        "hero-qn-myth-jingke",
+        "hero-qn-work-tianxia",
+        "hero-qn-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hero-qn-work",
+      "text": "戦国時代、秦の地方官吏である無名が秦の都を訪れ、長空・飛雪・残剣による数々の暗殺の企てを生き延びてきた秦王に謁見する。秦王は警戒を固めて誰も百歩以内に近づけないが、刺客たちを倒したと主張して彼らの武器を示した無名に感心し、十歩の距離まで近づいて話をすることを許す。",
+      "classification": "creative",
+      "sourceIds": ["work-hero-2002"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hero (2002 film)」の記述で確認。"
+    },
+    {
+      "id": "hero-qn-work-tianxia",
+      "text": "残剣は、天下を一つにして平和をもたらせるのは秦王の統治だけだと考えて秦王を殺さなかった。残剣は砂に「天下」と書き、無名に暗殺を考え直すよう促す。",
+      "classification": "creative",
+      "sourceIds": ["work-hero-2002"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hero (2002 film)」の記述で確認。"
+    },
+    {
+      "id": "hero-qn-myth-jingke",
+      "text": "『史記』刺客列伝によれば、燕の太子丹の依頼を受けた荊軻は、樊於期の首と督亢の地図を献じると称して秦王に謁見し、地図を開ききると現れた匕首で秦王を刺そうとしたが、袖を断ち切っただけで果たせず、斬られた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻86 刺客列伝（荊軻）"
+    },
+    {
+      "id": "hero-qn-myth-title",
+      "text": "天下を統一した秦王政は、三皇の「皇」と五帝の「帝」の位号をあわせて「皇帝」と号し、自らを始皇帝とした。天子の自称を「朕」とすることもこのとき定められた。",
+      "classification": "fact",
+      "sourceIds": ["shiji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『史記』巻6 秦始皇本紀（始皇26年条）"
+    },
+    {
+      "id": "hero-qn-cmp-1",
+      "text": "『史記』の荊軻は、献上品を差し出すふりをして秦王に近づいたが失敗した。本作の無名も、刺客の武器を差し出すことで秦王に近づくが、物語は暗殺の成否よりも「天下」をめぐる問いへと向かっていく。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hero-2002", "shiji"],
+  "articleIds": []
+}

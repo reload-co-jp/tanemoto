@@ -1,0 +1,93 @@
+{
+  "id": "hellblade-hela",
+  "slug": "hellblade-hela",
+  "name": "ヘラ",
+  "reading": "へら",
+  "alternativeNames": [],
+  "workId": "hellblade",
+  "description": {
+    "text": "死者の国ヘルヘイムを支配する女神。セヌアは、恋人ディリオンの魂をヘラから取り戻すためにヘルヘイムへ向かう。",
+    "claimIds": ["hb-he-work"]
+  },
+  "nameOrigin": {
+    "text": "北欧神話で死者の国を治める女神ヘルから。",
+    "claimIds": ["hb-he-work", "hb-he-myth-rule"]
+  },
+  "motifs": [
+    {
+      "aspect": "role",
+      "figureId": "hel",
+      "label": "死者の国の支配者",
+      "inWork": {
+        "text": "ヘラは死者の国ヘルヘイムを支配し、死んだディリオンの魂を握っている。最後の対決では、不死の戦士の軍勢を呼び出してセヌアを迎え撃つ。",
+        "claimIds": ["hb-he-work", "hb-he-work-end"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、オーディンはヘルに、病や老いで死んだ者たちに住まいを割り当てる九つの世界の支配を任せた。戦いで倒れた者たちはエインヘリャルとしてヴァルハラでオーディンのもとに集う。",
+        "claimIds": ["hb-he-myth-rule"]
+      }
+    },
+    {
+      "aspect": "setting",
+      "figureId": "hel",
+      "label": "ロキの娘",
+      "inWork": {
+        "text": "セヌアはヘルヘイムの門で獣ガルムを倒し、ヘラのもとにたどり着く。",
+        "claimIds": ["hb-he-work-end"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、ロキは巨人の女アングルボザとのあいだにフェンリル狼、ミズガルズの大蛇、ヘルの三人の子をもうけた。神々はこの一族から災いが来ると予言で知った。",
+        "claimIds": ["hb-he-myth-family"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話のヘルの国に迎えられるのは、病や老いで死んだ者たちである。本作でヘラが握っているのは、ヴァイキングに殺された戦士ディリオンの魂で、本来ならヴァルハラに向かうはずの死者ともいえる。",
+      "claimIds": ["hb-he-myth-rule", "hb-he-work", "hb-he-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "hb-he-work",
+      "text": "8世紀末、オークニー出身のピクト人の戦士セヌアは、死んだ恋人ディリオンの魂を女神ヘラから救い出すため、ヘルヘイムへの秘密の入り口にたどり着く。セヌアは頭の中に「フューリー」と呼ばれる精霊の声が聞こえる呪いに苦しんでいると信じており、ディリオンの魂の器とするため、彼の切り落とされた首を携えている。",
+      "classification": "creative",
+      "sourceIds": ["work-hellblade"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hellblade: Senua's Sacrifice」の記述で確認。"
+    },
+    {
+      "id": "hb-he-work-end",
+      "text": "セヌアは「死体の海」を生き延び、ヘルヘイムの門で獣ガルムを倒す。ヘラと対峙したセヌアに、ヘラは不死の戦士の軍勢を差し向ける。",
+      "classification": "creative",
+      "sourceIds": ["work-hellblade"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Hellblade: Senua's Sacrifice」の記述で確認。"
+    },
+    {
+      "id": "hb-he-myth-rule",
+      "text": "オーディンはヘルに、病や老いで死んだ者たちに住まいを割り当てる九つの世界の支配を任せた。戦いで倒れた者たちはエインヘリャルとしてヴァルハラでオーディンのもとに集う。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章・34章"
+    },
+    {
+      "id": "hb-he-myth-family",
+      "text": "ロキは巨人の女アングルボザとのあいだにフェンリル狼、ミズガルズの大蛇、ヘルの三人の子をもうけた。神々はこの一族から災いが来ると予言で知り、オーディンはヘルをニヴルヘイムに投げ込んだ。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 34章"
+    },
+    {
+      "id": "hb-he-cmp-1",
+      "text": "神話のヘルの国に迎えられるのは、病や老いで死んだ者たちである。本作でヘラが握っているのは、ヴァイキングに殺された戦士ディリオンの魂で、本来ならヴァルハラに向かうはずの死者ともいえる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-hellblade", "snorri-edda"],
+  "articleIds": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "the-lion-king-simba",
+  "slug": "the-lion-king-simba",
+  "name": "シンバ",
+  "reading": "しんば",
+  "alternativeNames": [],
+  "workId": "the-lion-king",
+  "description": {
+    "text": "プライド・ランドの王ムファサの息子。叔父スカーの罠で父を失い、その死を自分のせいだと思い込まされて王国を去る。成長したのち、父の霊に導かれて故郷に戻り、スカーと対決する。",
+    "claimIds": ["tlk-si-work", "tlk-si-work-ghost"]
+  },
+  "motifs": [
+    {
+      "aspect": "plot",
+      "figureId": "hamlet",
+      "label": "叔父に父王を殺された王子",
+      "inWork": {
+        "text": "王の弟スカーは王位を狙い、ヌーの暴走からシンバを救おうとしたムファサを暴走の中へ突き落として殺す。スカーはシンバに父の死の責任を負わせて王国から追い出し、自ら新しい王となる。",
+        "claimIds": ["tlk-si-work"]
+      },
+      "inMyth": {
+        "text": "シェイクスピア『ハムレット』では、父王の亡霊がハムレットに、庭で眠っていたところを弟クローディアスに耳から毒を注がれて殺され、命も王冠も妃も奪われたと語る。",
+        "claimIds": ["tlk-si-myth-ghost"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "hamlet",
+      "label": "父の霊との対話",
+      "inWork": {
+        "text": "故郷に戻ることを拒んでいた成長したシンバの前に、ラフィキが現れ、ムファサの魂はシンバの中に生き続けていると告げる。シンバは父の霊に導かれて、プライド・ランドへ戻ることを決意する。",
+        "claimIds": ["tlk-si-work-ghost"]
+      },
+      "inMyth": {
+        "text": "シェイクスピア『ハムレット』では、父王の亡霊がハムレットの前に現れ、殺された真相を語って復讐を命じる。",
+        "claimIds": ["tlk-si-myth-ghost"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ハムレットは叔父への復讐をためらい続け、最後には自らも命を落とす。シンバは父の死を自分のせいだと思い込んで逃げるが、最後には王国に戻って王位を継ぎ、物語は新しい命の誕生で終わる。",
+      "claimIds": ["tlk-si-myth-end", "tlk-si-work-ghost", "tlk-si-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "tlk-si-work",
+      "text": "プライド・ランドの王ムファサの弟スカーは、王位を狙ってムファサとシンバの殺害を企てる。スカーは峡谷でヌーの大群を暴走させてシンバを危険にさらし、助けに来たムファサを裏切って暴走の中へ突き落として殺す。スカーはシンバに父の死は彼のせいだと思い込ませて王国から去らせ、自ら新しい王の座に就く。",
+      "classification": "creative",
+      "sourceIds": ["work-the-lion-king"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Lion King」の記述で確認。"
+    },
+    {
+      "id": "tlk-si-work-ghost",
+      "text": "ナラに故郷へ戻るよう説得されても、父の死の罪悪感からシンバは拒む。しかしラフィキに、ムファサの魂はシンバの中に生き続けていると告げられ、プライド・ランドへ戻ってスカーと対決する。スカーとハイエナがいなくなった後、シンバは王の座に就き、ナラとのあいだに生まれた子がラフィキによって動物たちに披露される。",
+      "classification": "creative",
+      "sourceIds": ["work-the-lion-king"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Lion King」の記述で確認。"
+    },
+    {
+      "id": "tlk-si-myth-ghost",
+      "text": "父王の亡霊はハムレットに、庭で眠っていたところを弟クローディアスに耳から毒を注がれて殺され、命も王冠も妃も奪われたと語り、復讐を命じた。",
+      "classification": "fact",
+      "sourceIds": ["shakespeare-hamlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ハムレット』第1幕第5場"
+    },
+    {
+      "id": "tlk-si-myth-end",
+      "text": "ハムレットはレアティーズの毒を塗った剣で傷を負い、その剣でクローディアスを刺し、毒の杯を飲ませたのち息絶えた。",
+      "classification": "fact",
+      "sourceIds": ["shakespeare-hamlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ハムレット』第5幕第2場"
+    },
+    {
+      "id": "tlk-si-cmp-1",
+      "text": "ハムレットは叔父への復讐をためらい続け、最後には自らも命を落とす。シンバは父の死を自分のせいだと思い込んで逃げるが、最後には王国に戻って王位を継ぎ、物語は新しい命の誕生で終わる。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-the-lion-king", "shakespeare-hamlet"],
+  "articleIds": []
+}

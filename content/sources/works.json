@@ -713,5 +713,83 @@
     "publishedPeriod": "2020年",
     "publisher": "ユービーアイソフト",
     "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-final-fantasy-xvi",
+    "title": "ファイナルファンタジーXVI",
+    "author": "スクウェア・エニックス",
+    "type": "work",
+    "publishedPeriod": "2023年（PlayStation 5）",
+    "publisher": "スクウェア・エニックス",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-hellblade",
+    "title": "Hellblade: Senua's Sacrifice",
+    "author": "Ninja Theory",
+    "type": "work",
+    "publishedPeriod": "2017年（PlayStation 4・PC）",
+    "publisher": "Ninja Theory",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-american-gods",
+    "title": "アメリカン・ゴッズ",
+    "author": "ニール・ゲイマン",
+    "type": "work",
+    "publishedPeriod": "2001年",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-the-northman",
+    "title": "ノースマン 導かれし復讐者",
+    "author": "ロバート・エガース（監督）",
+    "type": "work",
+    "publishedPeriod": "2022年（米国公開）",
+    "publisher": "フォーカス・フィーチャーズ",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-the-lion-king",
+    "title": "ライオン・キング",
+    "author": "ロジャー・アレーズ、ロブ・ミンコフ（監督）",
+    "type": "work",
+    "publishedPeriod": "1994年（米国公開）",
+    "publisher": "ウォルト・ディズニー・ピクチャーズ",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-ne-zha",
+    "title": "ナタ 魔童降臨",
+    "author": "餃子（監督・脚本）",
+    "type": "work",
+    "publishedPeriod": "2019年（中国公開）",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-saiyuki-1978",
+    "title": "西遊記（日本テレビ）",
+    "author": "日本テレビ・国際放映（制作）",
+    "type": "work",
+    "publishedPeriod": "1978〜1980年（日本テレビ系、全2シリーズ）",
+    "publisher": "日本テレビ",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-hero-2002",
+    "title": "HERO",
+    "author": "チャン・イーモウ（監督）",
+    "type": "work",
+    "publishedPeriod": "2002年（中国公開）",
+    "notes": "作品内の設定について述べる際の出典。"
+  },
+  {
+    "id": "work-frankenstein-1931",
+    "title": "フランケンシュタイン",
+    "author": "ジェイムズ・ホエール（監督）",
+    "type": "work",
+    "publishedPeriod": "1931年（米国公開）",
+    "publisher": "ユニバーサル・ピクチャーズ",
+    "notes": "作品内の設定について述べる際の出典。"
   }
 ]

@@ -1,0 +1,93 @@
+{
+  "id": "american-gods-wednesday",
+  "slug": "american-gods-wednesday",
+  "name": "ミスター・ウェンズデイ",
+  "reading": "みすたー・うぇんずでい",
+  "alternativeNames": ["オーディン"],
+  "workId": "american-gods",
+  "description": {
+    "text": "シャドウを用心棒として雇う謎めいた詐欺師。その正体は、移民とともにアメリカへ渡り力を失った北欧神話の主神オーディンで、各地の古い神々を集めて新しい神々との戦いに備えようとしている。",
+    "claimIds": ["amg-wd-work", "amg-wd-work-tree"]
+  },
+  "nameOrigin": {
+    "text": "英語の Wednesday（水曜日）は「ウォドン（オーディン）の日」に由来し、名前そのものが正体を示している。",
+    "claimIds": ["amg-wd-work", "amg-wd-myth-chief"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "odin",
+      "label": "北欧神話の主神オーディン",
+      "inWork": {
+        "text": "ウェンズデイは、各地に散らばった古い神々を訪ね歩いて結集させ、新しい神々との戦いに備える。",
+        "claimIds": ["amg-wd-work"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+        "claimIds": ["amg-wd-myth-chief"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "odin",
+      "label": "世界樹に吊るされる",
+      "inWork": {
+        "text": "ウェンズデイの死後、シャドウは契約に従って彼の通夜を務め、オーディンがかつて槍で刺されて「世界樹」に九日間吊るされた出来事を再現する。",
+        "claimIds": ["amg-wd-work-tree"]
+      },
+      "inMyth": {
+        "text": "『古エッダ』「高き者の言葉」では、オーディンが、風の吹く木に九夜のあいだ吊るされ、槍で傷つけられ、自らを自らに捧げたと語る。",
+        "claimIds": ["amg-wd-myth-hang"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "神話のオーディンが木に吊るされたのは、自らを捧げて知恵を得るためだった。本作では、その儀式を人間のシャドウが代わって再現し、古い神の物語が現代の人間の体験として語り直されている。",
+      "claimIds": ["amg-wd-myth-hang", "amg-wd-work-tree", "amg-wd-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "amg-wd-work",
+      "text": "出所したシャドウ・ムーンは、謎めいた詐欺師ミスター・ウェンズデイの用心棒として雇われ、彼とともにアメリカ各地を旅する。ウェンズデイは古い神々を集め、新しい神々との戦いに備えている。",
+      "classification": "creative",
+      "sourceIds": ["work-american-gods"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「American Gods」の記述で確認。"
+    },
+    {
+      "id": "amg-wd-work-tree",
+      "text": "新しい神々はウェンズデイとの話し合いの場で彼を殺害する。シャドウはウェンズデイとの契約に縛られて通夜を務めることになり、オーディンがかつて槍で刺されて「世界樹」に九日間吊るされた出来事を再現する。",
+      "classification": "creative",
+      "sourceIds": ["work-american-gods"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「American Gods」の記述で確認。"
+    },
+    {
+      "id": "amg-wd-myth-chief",
+      "text": "オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章"
+    },
+    {
+      "id": "amg-wd-myth-hang",
+      "text": "『古エッダ』「高き者の言葉」で、オーディンは、風の吹く木に九夜のあいだ吊るされ、槍で傷つけられ、オーディンに、すなわち自らを自らに捧げたと語る。",
+      "classification": "fact",
+      "sourceIds": ["poetic-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『古エッダ』「高き者の言葉（ハーヴァマール）」138節"
+    },
+    {
+      "id": "amg-wd-cmp-1",
+      "text": "神話のオーディンが木に吊るされたのは、自らを捧げて知恵を得るためだった。本作では、その儀式を人間のシャドウが代わって再現し、古い神の物語が現代の人間の体験として語り直されている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-american-gods", "snorri-edda", "poetic-edda"],
+  "articleIds": []
+}

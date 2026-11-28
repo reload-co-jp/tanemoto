@@ -1,0 +1,101 @@
+{
+  "id": "the-northman-amleth",
+  "slug": "the-northman-amleth",
+  "name": "アムレート",
+  "reading": "あむれーと",
+  "alternativeNames": [],
+  "workId": "the-northman",
+  "description": {
+    "text": "北海の島の王国の王子。父王アウルヴァンディルを叔父フィョルニルに殺され、母を奪われて国を逃れる。成長してヴァイキングの狂戦士となり、奴隷に身をやつしてアイスランドの仇のもとへ潜り込む。",
+    "claimIds": ["nm-am-work", "nm-am-work-iceland"]
+  },
+  "nameOrigin": {
+    "text": "サクソ・グラマティクス『デンマーク人の事績』のアムレートの伝説から。この伝説はシェイクスピア『ハムレット』の源流とされる。",
+    "claimIds": ["nm-am-work", "nm-am-myth-ghost"]
+  },
+  "motifs": [
+    {
+      "aspect": "plot",
+      "figureId": "hamlet",
+      "label": "叔父による父王殺し",
+      "inWork": {
+        "text": "王の異母弟フィョルニルは反乱を起こして王アウルヴァンディルの首をはね、王妃グートルンを連れ去る。逃げ延びたアムレートは、父の仇を討ち、母を救い、フィョルニルを殺すと誓う。",
+        "claimIds": ["nm-am-work"]
+      },
+      "inMyth": {
+        "text": "シェイクスピア『ハムレット』では、父王の亡霊がハムレットに、庭で眠っていたところを弟クローディアスに耳から毒を注がれて殺され、命も王冠も妃も奪われたと語る。",
+        "claimIds": ["nm-am-myth-ghost"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "odin",
+      "label": "オーディンのワタリガラス",
+      "inWork": {
+        "text": "フィョルニルに捕らえられて拷問されたアムレートは、オーディンが遣わしたワタリガラスの群れによって縛めを解かれる。",
+        "claimIds": ["nm-am-work-ravens"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、ワタリガラスのフギンとムニンはオーディンの肩にとまり、毎朝世界中を飛び回って見聞きした知らせを耳打ちする。",
+        "claimIds": ["nm-am-myth-ravens"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "『ハムレット』の王子は、亡霊の告げた真相を確かめようと思い悩む。本作のアムレートは、少年の日に父の死を目撃し、復讐の誓いそのものを生きる目的として行動する。",
+      "claimIds": ["nm-am-myth-ghost", "nm-am-work", "nm-am-cmp-1"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nm-am-work",
+      "text": "895年、王アウルヴァンディルはフラフンセイ島に戻り、王妃グートルンと世継ぎの王子アムレートと再会する。翌朝、アムレートの叔父フィョルニルが宮廷で反乱を起こし、アウルヴァンディルの首をはね、グートルンを連れ去る。アムレートはフィョルニルの刺客から辛くも逃れ、彼を殺すと誓う。",
+      "classification": "creative",
+      "sourceIds": ["work-the-northman"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Northman」の記述で確認。"
+    },
+    {
+      "id": "nm-am-work-iceland",
+      "text": "数年後、成長したアムレートはヴァイキングの一団の狂戦士となっている。フィョルニルがノルウェー王ハーラルに王位を奪われてアイスランドで羊飼いとして暮らしていると知ったアムレートは、自らに奴隷の焼き印を押し、アイスランド行きの船に忍び込む。",
+      "classification": "creative",
+      "sourceIds": ["work-the-northman"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Northman」の記述で確認。"
+    },
+    {
+      "id": "nm-am-work-ravens",
+      "text": "アムレートは捕らえられて拷問されるが、オーディンが送ったワタリガラスの群れによって縛めを解かれる。",
+      "classification": "creative",
+      "sourceIds": ["work-the-northman"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「The Northman」の記述で確認。"
+    },
+    {
+      "id": "nm-am-myth-ghost",
+      "text": "父王の亡霊はハムレットに、庭で眠っていたところを弟クローディアスに耳から毒を注がれて殺され、命も王冠も妃も奪われたと語り、復讐を命じた。",
+      "classification": "fact",
+      "sourceIds": ["shakespeare-hamlet"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『ハムレット』第1幕第5場"
+    },
+    {
+      "id": "nm-am-myth-ravens",
+      "text": "ワタリガラスのフギンとムニンはオーディンの肩にとまり、毎朝世界中を飛び回って見聞きした知らせを耳打ちする。名はそれぞれ「思考」「記憶」を意味する。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 38章（名の意味は Brodeur 訳注）"
+    },
+    {
+      "id": "nm-am-cmp-1",
+      "text": "『ハムレット』の王子は、亡霊の告げた真相を確かめようと思い悩む。本作のアムレートは、少年の日に父の死を目撃し、復讐の誓いそのものを生きる目的として行動する。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-the-northman", "shakespeare-hamlet", "snorri-edda"],
+  "articleIds": []
+}

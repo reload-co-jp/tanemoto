@@ -1,0 +1,113 @@
+{
+  "id": "final-fantasy-xvi-eikons",
+  "slug": "final-fantasy-xvi-eikons",
+  "kind": "setting",
+  "name": "召喚獣（シヴァとオーディン）",
+  "reading": "しょうかんじゅう",
+  "alternativeNames": ["顕現"],
+  "workId": "final-fantasy-xvi",
+  "description": {
+    "text": "ヴァリスゼアに存在する、属性をつかさどる強大な魔法の存在。炎のフェニックス、氷のシヴァ、雷のラムウ、水のリヴァイアサン、土のタイタン、風のガルーダ、闇のオーディン、光のバハムートの8体がいて、ドミナントと呼ばれる人間に宿る。",
+    "claimIds": ["ff16-ek-work"]
+  },
+  "motifs": [
+    {
+      "aspect": "name",
+      "figureId": "shiva",
+      "label": "ヒンドゥー教の神シヴァ",
+      "inWork": {
+        "text": "シヴァは氷をつかさどる召喚獣。クライヴの幼なじみで、長く政治的な人質として過ごしてきたジル・ワーリックが、そのドミナントとなる。",
+        "claimIds": ["ff16-ek-work", "ff16-ek-work-jill"]
+      },
+      "inMyth": {
+        "text": "『マハーバーラタ』では、三つの目をもつ永遠のマハーデーヴァ（シヴァ）が、ルドラたちの主とされた。",
+        "claimIds": ["ff16-ek-myth-shiva"]
+      }
+    },
+    {
+      "aspect": "name",
+      "figureId": "odin",
+      "label": "北欧神話の主神オーディン",
+      "inWork": {
+        "text": "オーディンは闇をつかさどる召喚獣で、アッシュ大陸を支配するウォールード王国の王バルナバス・サルマが、そのドミナントである。",
+        "claimIds": ["ff16-ek-work", "ff16-ek-work-barnabas"]
+      },
+      "inMyth": {
+        "text": "『散文エッダ』によれば、オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+        "claimIds": ["ff16-ek-myth-odin"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "ヒンドゥー教のシヴァは三つの目をもつ男神で、氷との結びつきはない。本作のシヴァは名前だけを借りた氷の召喚獣で、女性のジルが宿す力になっている。",
+      "claimIds": ["ff16-ek-myth-shiva", "ff16-ek-work-jill", "ff16-ek-cmp-1"]
+    },
+    {
+      "text": "北欧神話のオーディンは神々の王である。本作でオーディンの力を宿すのが、大国ウォールードの王バルナバスとされているのは、主神としての地位を「王」に重ねた設定と読める。",
+      "claimIds": [
+        "ff16-ek-myth-odin",
+        "ff16-ek-work-barnabas",
+        "ff16-ek-cmp-2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ff16-ek-work",
+      "text": "ヴァリスゼアの政治の鍵となるのは、ドミナントと呼ばれる宿主が扱う強大な魔法の存在、召喚獣である。召喚獣は属性ごとに一体ずつ、フェニックス（炎）、シヴァ（氷）、ラムウ（雷）、リヴァイアサン（水）、タイタン（土）、ガルーダ（風）、オーディン（闇）、バハムート（光）の8体がいる。",
+      "classification": "creative",
+      "sourceIds": ["work-final-fantasy-xvi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Final Fantasy XVI」の記述で確認。"
+    },
+    {
+      "id": "ff16-ek-work-jill",
+      "text": "クライヴの幼なじみジル・ワーリックは、のちにシヴァのドミナントとなり、人生の多くを政治的な人質として過ごす。",
+      "classification": "creative",
+      "sourceIds": ["work-final-fantasy-xvi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Final Fantasy XVI」の記述で確認。"
+    },
+    {
+      "id": "ff16-ek-work-barnabas",
+      "text": "ウォールード王国の王バルナバス・サルマは、オーディンのドミナントである。",
+      "classification": "creative",
+      "sourceIds": ["work-final-fantasy-xvi"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Final Fantasy XVI」の記述で確認。"
+    },
+    {
+      "id": "ff16-ek-myth-shiva",
+      "text": "三つの目をもつ永遠のマハーデーヴァが、ルドラたちの主とされた。",
+      "classification": "fact",
+      "sourceIds": ["mahabharata"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『マハーバーラタ』平和の巻 122節（Ganguli 英訳）"
+    },
+    {
+      "id": "ff16-ek-myth-odin",
+      "text": "オーディンはアース神族で最も高く最も古い神で、ほかの神々は子が父に従うように彼に仕える。",
+      "classification": "fact",
+      "sourceIds": ["snorri-edda"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『散文エッダ』ギュルヴィたぶらかし 20章"
+    },
+    {
+      "id": "ff16-ek-cmp-1",
+      "text": "ヒンドゥー教のシヴァは三つの目をもつ男神で、氷との結びつきはない。本作のシヴァは名前だけを借りた氷の召喚獣で、女性のジルが宿す力になっている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ff16-ek-cmp-2",
+      "text": "北欧神話のオーディンは神々の王である。本作でオーディンの力を宿すのが、大国ウォールードの王バルナバスとされているのは、主神としての地位を「王」に重ねた設定と読める。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-final-fantasy-xvi", "mahabharata", "snorri-edda"],
+  "articleIds": []
+}

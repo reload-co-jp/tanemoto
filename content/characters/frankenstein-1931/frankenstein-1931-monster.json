@@ -1,0 +1,100 @@
+{
+  "id": "frankenstein-1931-monster",
+  "slug": "frankenstein-1931-monster",
+  "name": "怪物",
+  "reading": "かいぶつ",
+  "alternativeNames": ["フランケンシュタインの怪物"],
+  "workId": "frankenstein-1931",
+  "description": {
+    "text": "ヘンリー・フランケンシュタインが死体をつなぎ合わせ、雷の力で命を吹き込んだ人造の生命。誤って犯罪者の脳を与えられている。醜い姿だが、生まれたばかりの怪物は無垢で子どものような存在として描かれる。",
+    "claimIds": ["fk31-mo-work", "fk31-mo-work-life"]
+  },
+  "motifs": [
+    {
+      "aspect": "episode",
+      "figureId": "frankensteins-creature",
+      "label": "命を吹き込まれる",
+      "inWork": {
+        "text": "嵐の夜、ヘンリーとフリッツは手術台を塔の天井の開口部へと引き上げる。雷を浴びた装置によって力を与えられ、怪物は命を得る。",
+        "claimIds": ["fk31-mo-work-life"]
+      },
+      "inMyth": {
+        "text": "『フランケンシュタイン』（1831年版）第5章では、11月のわびしい夜、ヴィクターが生命の器具を集めて、足もとの生命のない物体に存在の火花を吹き込もうとすると、怪物の鈍い黄色の目が開いた。",
+        "claimIds": ["fk31-mo-myth-birth"]
+      }
+    },
+    {
+      "aspect": "personality",
+      "figureId": "frankensteins-creature",
+      "label": "知性と言葉",
+      "inWork": {
+        "text": "フリッツは、恩師ヴァルトマン博士の教室から正常な脳を盗み出そうとして誤って傷つけてしまい、代わりに犯罪者の脳をヘンリーのもとへ持ち帰る。生まれた怪物は醜い姿ながら、無垢で子どものような存在に見える。",
+        "claimIds": ["fk31-mo-work", "fk31-mo-work-life"]
+      },
+      "inMyth": {
+        "text": "『フランケンシュタイン』（1831年版）では、怪物は隠れ住んだ小屋の壁の隙間からド・ラセー一家の暮らしを見守り、その会話を聞いて言葉を覚え、のちには書物を読むまでになった。",
+        "claimIds": ["fk31-mo-myth-language"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の怪物は、独学で言葉と文字を身につけ、創造主ヴィクターに自らの孤独を雄弁に訴える。映画の怪物は犯罪者の脳を与えられ、ほとんど言葉を話さない存在に変えられている。",
+      "claimIds": ["fk31-mo-myth-language", "fk31-mo-work", "fk31-mo-cmp-1"]
+    },
+    {
+      "text": "原作では、生命を与える方法は意図的に伏せられている。映画は、嵐の夜に雷の電気で命を吹き込む場面を描き、のちの多くの作品に受け継がれる定番のイメージをつくった。",
+      "claimIds": ["fk31-mo-myth-birth", "fk31-mo-work-life", "fk31-mo-cmp-2"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "fk31-mo-work",
+      "text": "科学者ヘンリー・フランケンシュタインと助手フリッツは人間の体をつなぎ合わせ、電気装置によって命を与えようとする。脳が必要なため、ヘンリーはフリッツに、恩師ヴァルトマン博士の教室から正常な脳を盗ませる。フリッツは誤ってそれを傷つけてしまい、犯罪者の脳を持ち帰る。",
+      "classification": "creative",
+      "sourceIds": ["work-frankenstein-1931"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Frankenstein (1931 film)」の記述で確認。"
+    },
+    {
+      "id": "fk31-mo-work-life",
+      "text": "嵐の夜、ヘンリーとフリッツは手術台を塔の頂の開口部へ引き上げ、怪物とヘンリーの装置が雷にさらされて力を得ることで、怪物に命が宿る。怪物はグロテスクな姿にもかかわらず、無垢で子どものような被造物に見える。",
+      "classification": "creative",
+      "sourceIds": ["work-frankenstein-1931"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Frankenstein (1931 film)」の記述で確認。"
+    },
+    {
+      "id": "fk31-mo-myth-birth",
+      "text": "11月のわびしい夜、ヴィクターは生命の器具を身のまわりに集め、足もとに横たわる生命のない物体に存在の火花を吹き込もうとした。やがて、その生き物の鈍い黄色の目が開いた。",
+      "classification": "fact",
+      "sourceIds": ["shelley-frankenstein"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『フランケンシュタイン』（1831年版）第5章"
+    },
+    {
+      "id": "fk31-mo-myth-language",
+      "text": "怪物は、隠れ住んだ小屋の壁の隙間からド・ラセー一家の暮らしを見守り、彼らの会話を聞いて言葉を覚え、のちには文字を学んで書物を読むまでになった。",
+      "classification": "fact",
+      "sourceIds": ["shelley-frankenstein"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『フランケンシュタイン』（1831年版）第12–13章"
+    },
+    {
+      "id": "fk31-mo-cmp-1",
+      "text": "原作の怪物は、独学で言葉と文字を身につけ、創造主ヴィクターに自らの孤独を雄弁に訴える。映画の怪物は犯罪者の脳を与えられ、ほとんど言葉を話さない存在に変えられている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "fk31-mo-cmp-2",
+      "text": "原作では、生命を与える方法は意図的に伏せられている。映画は、嵐の夜に雷の電気で命を吹き込む場面を描き、のちの多くの作品に受け継がれる定番のイメージをつくった。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-frankenstein-1931", "shelley-frankenstein"],
+  "articleIds": []
+}

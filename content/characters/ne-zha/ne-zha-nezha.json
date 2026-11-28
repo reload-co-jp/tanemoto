@@ -1,0 +1,98 @@
+{
+  "id": "ne-zha-nezha",
+  "slug": "ne-zha-nezha",
+  "name": "哪吒",
+  "reading": "なた",
+  "alternativeNames": [],
+  "workId": "ne-zha",
+  "description": {
+    "text": "陳塘関の将軍・李靖と殷夫人の息子。霊珠の生まれ変わりとなるはずが、申公豹の策略で魔丸の化身として生まれ、三年後に天雷で滅ぼされる運命を背負う。太乙真人のもとで修行し、竜王の息子・敖丙と友情を結ぶ。",
+    "claimIds": ["nz19-nz-work", "nz19-nz-work-aobing"]
+  },
+  "nameOrigin": {
+    "text": "『封神演義』などに登場する少年神・哪吒から。",
+    "claimIds": ["nz19-nz-work", "nz19-nz-myth-birth"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "nezha",
+      "label": "霊珠子の化身",
+      "inWork": {
+        "text": "元始天尊は混元珠を霊珠と魔丸に分け、霊珠を李靖の三男として転生させるよう太乙真人に命じる。しかし申公豹が霊珠を盗み、殷夫人は魔丸の化身として哪吒を産む。",
+        "claimIds": ["nz19-nz-work"]
+      },
+      "inMyth": {
+        "text": "『封神演義』によれば、陳塘関の総兵李靖と殷夫人の三男として生まれた哪吒は霊珠子の化身で、右手に金の腕輪（乾坤圏）、腹に赤い綾（混天綾）を巻いていた。",
+        "claimIds": ["nz19-nz-myth-birth"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "ao-bing",
+      "label": "東海竜王の三太子・敖丙",
+      "inWork": {
+        "text": "盗まれた霊珠は東海竜王によって卵に宿され、竜王の三男・敖丙として生まれる。竜族は、霊珠から生まれた敖丙によって天界に認められ、海の底から出られることを願っている。",
+        "claimIds": ["nz19-nz-work-aobing"]
+      },
+      "inMyth": {
+        "text": "『封神演義』によれば、東海竜王敖光の三太子敖丙は、逼水獣に乗り画戟を持って哪吒に挑んだが、混天綾で包まれて引きずり下ろされ、乾坤圏で打たれて竜の本性を現し、筋を抜き取られた。",
+        "claimIds": ["nz19-nz-myth-aobing"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原典で霊珠子の化身なのは哪吒自身だが、本作では霊珠は敖丙に、魔丸は哪吒に宿る。原典で哪吒に殺される敖丙が、本作では哪吒の鏡写しのような友として描かれている。",
+      "claimIds": [
+        "nz19-nz-myth-birth",
+        "nz19-nz-myth-aobing",
+        "nz19-nz-work-aobing",
+        "nz19-nz-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "nz19-nz-work",
+      "text": "天地の精気から生まれた混元珠を、元始天尊は七色宝蓮によって霊珠と魔丸に分け、魔丸には三年後に天雷で滅ぼされる呪いをかけた。太乙真人は霊珠を陳塘関の李靖の三男として転生させるよう命じられるが、嫉妬した申公豹が霊珠を盗み、李靖の妻・殷夫人は魔丸の化身として哪吒を産む。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Ne Zha (2019 film)」の記述で確認。"
+    },
+    {
+      "id": "nz19-nz-work-aobing",
+      "text": "申公豹は盗んだ霊珠を東海竜王のもとへ運び、竜王は霊珠を卵に宿して三男の敖丙を誕生させる。天界によって海の底に閉じこめられている竜族は、霊珠から生まれた敖丙によって海から出ることを許されるよう願っている。哪吒は太乙真人のもとで修行を積み、やがて敖丙と出会う。",
+      "classification": "creative",
+      "sourceIds": ["work-ne-zha"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia英語版「Ne Zha (2019 film)」の記述で確認。"
+    },
+    {
+      "id": "nz19-nz-myth-birth",
+      "text": "陳塘関の総兵李靖と殷夫人の三男として生まれた哪吒は霊珠子の化身で、右手に金の腕輪、腹に赤い綾を巻いていた。金の腕輪は乾坤圏、赤い綾は混天綾である。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "nz19-nz-myth-aobing",
+      "text": "東海竜王敖光の三太子敖丙は、逼水獣に乗り画戟を持って哪吒に挑んだが、混天綾で包まれて引きずり下ろされ、乾坤圏で打たれて竜の本性を現し、筋を抜き取られた。",
+      "classification": "fact",
+      "sourceIds": ["fengshen-yanyi"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『封神演義』第12回"
+    },
+    {
+      "id": "nz19-nz-cmp-1",
+      "text": "原典で霊珠子の化身なのは哪吒自身だが、本作では霊珠は敖丙に、魔丸は哪吒に宿る。原典で哪吒に殺される敖丙が、本作では哪吒の鏡写しのような友として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-ne-zha", "fengshen-yanyi"],
+  "articleIds": []
+}

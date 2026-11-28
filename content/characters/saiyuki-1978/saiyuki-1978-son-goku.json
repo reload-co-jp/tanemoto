@@ -1,0 +1,97 @@
+{
+  "id": "saiyuki-1978-son-goku",
+  "slug": "saiyuki-1978-son-goku",
+  "name": "孫悟空",
+  "reading": "そんごくう",
+  "alternativeNames": ["斉天大聖"],
+  "workId": "saiyuki-1978",
+  "description": {
+    "text": "石から生まれた猿で、斉天大聖を名乗る。天界から追放されて500年後に三蔵法師の弟子となり、天竺への取経の旅に加わる。短気だが明るく人情味あふれる性格。",
+    "claimIds": ["sy78-sg-work"]
+  },
+  "nameOrigin": {
+    "text": "『西遊記』の主人公・孫悟空から。",
+    "claimIds": ["sy78-sg-work", "sy78-sg-myth-stone"]
+  },
+  "motifs": [
+    {
+      "aspect": "setting",
+      "figureId": "sun-wukong",
+      "label": "石から生まれた猿",
+      "inWork": {
+        "text": "ドラマは、石から生まれた猿・斉天大聖孫悟空の生い立ちから始まる。",
+        "claimIds": ["sy78-sg-work"]
+      },
+      "inMyth": {
+        "text": "『西遊記』第1回によれば、花果山の頂の仙石が天地の精気と日月の光を受けて裂け、石の卵を産んだ。卵は風に当たって石猿となり、のちに須菩提祖師は彼に「孫悟空」の法名を与えた。",
+        "claimIds": ["sy78-sg-myth-stone"]
+      }
+    },
+    {
+      "aspect": "episode",
+      "figureId": "sun-wukong",
+      "label": "500年の封印と三蔵との出会い",
+      "inWork": {
+        "text": "悟空は天界から追放されて500年後、三蔵法師と出会い、沙悟浄・猪八戒とともに天竺への取経の旅に出る。",
+        "claimIds": ["sy78-sg-work"]
+      },
+      "inMyth": {
+        "text": "『西遊記』によれば、如来は掌から出られなかった悟空を五行山の下に押さえこんだ。五百年後、取経の旅に出た三蔵が両界山で悟空を救い出した。",
+        "claimIds": ["sy78-sg-myth-mountain"]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "text": "原作の三蔵法師は男性の僧だが、本作では女優の夏目雅子が演じた。悟空と三蔵の師弟関係も、原作の緊箍児で縛る関係より、情でつながった家族のような一行として描かれている。",
+      "claimIds": [
+        "sy78-sg-myth-mountain",
+        "sy78-sg-work-sanzo",
+        "sy78-sg-cmp-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "sy78-sg-work",
+      "text": "石から生まれた猿・斉天大聖孫悟空の生い立ちに始まり、天界から追放されて500年後、三蔵法師、捲簾大将沙悟浄、天蓬元帥猪八戒との出会いを経て、天竺への取経の旅中に遭遇するさまざまな厄難と、三蔵一行の絆や成長を描く。悟空は短気だが明るく人情味あふれる人物として描かれた。",
+      "classification": "creative",
+      "sourceIds": ["work-saiyuki-1978"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「西遊記 (1978年のテレビドラマ)」の記述で確認。"
+    },
+    {
+      "id": "sy78-sg-work-sanzo",
+      "text": "本作では、本来男性である三蔵法師を女性の夏目雅子が演じることで、高貴で中性的な三蔵法師像を演出した。以後リメイクされた『西遊記』のドラマでは、三蔵法師役を女優が演じるというパターンが踏襲されている。",
+      "classification": "creative",
+      "sourceIds": ["work-saiyuki-1978"],
+      "verificationStatus": "verified",
+      "note": "Wikipedia日本語版「西遊記 (1978年のテレビドラマ)」の記述で確認。"
+    },
+    {
+      "id": "sy78-sg-myth-stone",
+      "text": "花果山の頂の仙石が天地の精気と日月の光を受けて裂け、石の卵を産んだ。卵は風に当たって石猿となった。のちに須菩提祖師は彼に「孫悟空」の法名を与えた。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第1回"
+    },
+    {
+      "id": "sy78-sg-myth-mountain",
+      "text": "如来は掌から出られなかった悟空を五行山の下に押さえこんだ。五百年後、取経の旅に出た三蔵が両界山で悟空を救い出した。",
+      "classification": "fact",
+      "sourceIds": ["xiyouji"],
+      "verificationStatus": "verified",
+      "sourceLocation": "『西遊記』第7回・第14回"
+    },
+    {
+      "id": "sy78-sg-cmp-1",
+      "text": "原作の三蔵法師は男性の僧だが、本作では女優の夏目雅子が演じた。悟空と三蔵の師弟関係も、原作の緊箍児で縛る関係より、情でつながった家族のような一行として描かれている。",
+      "classification": "editorial",
+      "sourceIds": [],
+      "verificationStatus": "verified"
+    }
+  ],
+  "sourceIds": ["work-saiyuki-1978", "xiyouji"],
+  "articleIds": []
+}
