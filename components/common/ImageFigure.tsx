@@ -5,8 +5,12 @@ import { color } from "@/lib/styles/theme"
 
 const styles = css`
   .t-figure img {
-    width: 100%;
+    display: block;
+    width: auto;
+    max-width: 100%;
     height: auto;
+    max-height: min(70vh, 640px);
+    margin-inline: auto;
     border: 2.5px solid ${color.line};
     border-radius: 14px;
   }
