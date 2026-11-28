@@ -5,17 +5,10 @@
   "reading": "げい",
   "originalName": "羿",
   "romanized": "Yi",
-  "alternativeNames": [
-    "后羿"
-  ],
+  "alternativeNames": ["后羿"],
   "type": "hero",
-  "roles": [
-    "弓の名手",
-    "太陽を射る者"
-  ],
-  "mythologyIds": [
-    "chinese"
-  ],
+  "roles": ["弓の名手", "太陽を射る者"],
+  "mythologyIds": ["chinese"],
   "description": "弓の名手。『淮南子』本経訓によれば、堯の時代に十の太陽が同時に昇って作物を焼いたとき、天に向かって十の太陽を射落とし、さらに地上の怪物たちを退治して民を救った。西王母から不死の薬を得たが、妻の姮娥（嫦娥）に盗まれた。",
   "body": [
     {
@@ -26,9 +19,7 @@
     {
       "type": "paragraph",
       "text": "『淮南子』本経訓によれば、堯の時代に十の太陽が並んで昇り、穀物を焦がし草木を枯らして、民は食べるものを失いました。堯の命を受けた羿は、上は十の太陽を射ました。",
-      "claimIds": [
-        "fg-hou-yi-1"
-      ]
+      "claimIds": ["fg-hou-yi-1"]
     },
     {
       "type": "heading",
@@ -38,9 +29,7 @@
     {
       "type": "paragraph",
       "text": "羿は地上でも、疇華（ちゅうか）の野で鑿歯を誅し、凶水のほとりで九嬰を殺し、青丘の沢で大風を射とめ、猰貐を殺し、洞庭で修蛇を断ち、桑林で封豨を捕らえました。民はこれを喜び、堯を天子に戴いたといいます。",
-      "claimIds": [
-        "fg-hou-yi-2"
-      ]
+      "claimIds": ["fg-hou-yi-2"]
     },
     {
       "type": "heading",
@@ -50,9 +39,7 @@
     {
       "type": "paragraph",
       "text": "同じ『淮南子』の覧冥訓には、羿が西王母に不死の薬を請い求めたところ、妻の姮娥（嫦娥）がそれを盗んで月へ逃げたという一節があります。",
-      "claimIds": [
-        "fg-hou-yi-3"
-      ]
+      "claimIds": ["fg-hou-yi-3"]
     }
   ],
   "claims": [
@@ -60,9 +47,7 @@
       "id": "fg-hou-yi-1",
       "text": "堯の時代に十の太陽が並んで昇って穀物や草木を焼いたため、堯は羿に命じ、羿は上は十の太陽を射た。",
       "classification": "fact",
-      "sourceIds": [
-        "huainanzi"
-      ],
+      "sourceIds": ["huainanzi"],
       "verificationStatus": "verified",
       "sourceLocation": "『淮南子』本経訓"
     },
@@ -70,9 +55,7 @@
       "id": "fg-hou-yi-2",
       "text": "羿は疇華の野で鑿歯を、凶水で九嬰を、青丘の沢で大風を、さらに猰貐・洞庭の修蛇・桑林の封豨を退治し、万民は喜んで堯を天子とした。",
       "classification": "fact",
-      "sourceIds": [
-        "huainanzi"
-      ],
+      "sourceIds": ["huainanzi"],
       "verificationStatus": "verified",
       "sourceLocation": "『淮南子』本経訓"
     },
@@ -80,24 +63,14 @@
       "id": "fg-hou-yi-3",
       "text": "羿は西王母に不死の薬を請うたが、姮娥がそれを盗んで月へ逃れた。",
       "classification": "fact",
-      "sourceIds": [
-        "huainanzi"
-      ],
+      "sourceIds": ["huainanzi"],
       "verificationStatus": "verified",
       "sourceLocation": "『淮南子』覧冥訓"
     }
   ],
-  "relatedFigureIds": [
-    "change",
-    "xiwangmu"
-  ],
-  "relatedStoryIds": [
-    "yi-shoots-the-suns",
-    "change-flees-to-the-moon"
-  ],
+  "relatedFigureIds": ["change", "xiwangmu"],
+  "relatedStoryIds": ["yi-shoots-the-suns", "change-flees-to-the-moon"],
   "articleIds": [],
-  "sourceIds": [
-    "huainanzi"
-  ],
+  "sourceIds": ["huainanzi"],
   "imageId": "figure-hou-yi"
 }

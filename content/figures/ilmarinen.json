@@ -7,12 +7,8 @@
   "romanized": "Ilmarinen",
   "alternativeNames": [],
   "type": "hero",
-  "roles": [
-    "鍛冶師"
-  ],
-  "mythologyIds": [
-    "finnish"
-  ],
+  "roles": ["鍛冶師"],
+  "mythologyIds": ["finnish"],
   "description": "天の蓋を鍛えたとされる不世出の鍛冶師。ポホヨラの娘を妻に迎える条件として、北の女主人ロウヒのために、穀物と塩と金を挽き出す魔法の臼サンポを鍛えた。のちに毒蛇の畑を耕すなどの難題を果たして娘を妻としたが、妻を失うと金と銀で花嫁の像を鍛えた。",
   "body": [
     {
@@ -23,9 +19,7 @@
     {
       "type": "paragraph",
       "text": "『カレワラ』のイルマリネンは、並ぶ者のない鍛冶師として語られます。ヴァイナモイネンは北の女主人ロウヒに、イルマリネンこそ天の蓋を鍛えた者であり、サンポを造れるのは彼だけだと請け合いました。",
-      "claimIds": [
-        "fg-ilmarinen-1"
-      ]
+      "claimIds": ["fg-ilmarinen-1"]
     },
     {
       "type": "heading",
@@ -35,9 +29,7 @@
     {
       "type": "paragraph",
       "text": "ポホヨラへ渡ったイルマリネンは、白鳥の羽根の先、乳の滴、大麦の一粒、羊の毛を炉に入れて鍛え、弓や舟など出来損ないが現れては壊すことを繰り返した末に、穀物と塩と金を挽き出す臼サンポを造りました。しかしロウヒはすぐには娘を与えず、イルマリネンはひとりで帰ることになります。",
-      "claimIds": [
-        "fg-ilmarinen-2"
-      ]
+      "claimIds": ["fg-ilmarinen-2"]
     },
     {
       "type": "heading",
@@ -47,9 +39,7 @@
     {
       "type": "paragraph",
       "text": "のちにイルマリネンは、毒蛇の畑を耕し、トゥオニの熊と狼に轡をかけ、トゥオネラの川の大カマスを捕らえるという難題を果たして、ポホヨラの娘を妻に迎えます。けれども妻はクッレルヴォの復讐で命を落とし、悲しみにくれた彼は金と銀で花嫁を鍛えましたが、その像は冷たいままでした。",
-      "claimIds": [
-        "fg-ilmarinen-3"
-      ]
+      "claimIds": ["fg-ilmarinen-3"]
     }
   ],
   "claims": [
@@ -57,9 +47,7 @@
       "id": "fg-ilmarinen-1",
       "text": "ヴァイナモイネンはロウヒに、天の蓋を鍛えたイルマリネンならサンポを鍛えられると告げた。",
       "classification": "fact",
-      "sourceIds": [
-        "kalevala"
-      ],
+      "sourceIds": ["kalevala"],
       "verificationStatus": "verified",
       "sourceLocation": "『カレワラ』第7章・第10章"
     },
@@ -67,9 +55,7 @@
       "id": "fg-ilmarinen-2",
       "text": "イルマリネンは白鳥の羽根の先、乳の滴、大麦の粒、羊の毛を材料にサンポを鍛えたが、ロウヒの娘はすぐには彼に嫁がなかった。",
       "classification": "fact",
-      "sourceIds": [
-        "kalevala"
-      ],
+      "sourceIds": ["kalevala"],
       "verificationStatus": "verified",
       "sourceLocation": "『カレワラ』第10章"
     },
@@ -77,23 +63,14 @@
       "id": "fg-ilmarinen-3",
       "text": "イルマリネンは毒蛇の畑を耕すなどの難題を果たしてポホヨラの娘を妻としたが、妻がクッレルヴォの仕返しで死ぬと、金と銀で花嫁の像を鍛えた。像は冷たく、彼を温めることはなかった。",
       "classification": "fact",
-      "sourceIds": [
-        "kalevala"
-      ],
+      "sourceIds": ["kalevala"],
       "verificationStatus": "verified",
       "sourceLocation": "『カレワラ』第19章・第33章・第37章"
     }
   ],
-  "relatedFigureIds": [
-    "vainamoinen",
-    "louhi"
-  ],
-  "relatedStoryIds": [
-    "forging-of-the-sampo"
-  ],
+  "relatedFigureIds": ["vainamoinen", "louhi"],
+  "relatedStoryIds": ["forging-of-the-sampo"],
   "articleIds": [],
-  "sourceIds": [
-    "kalevala"
-  ],
+  "sourceIds": ["kalevala"],
   "imageId": "figure-ilmarinen"
 }

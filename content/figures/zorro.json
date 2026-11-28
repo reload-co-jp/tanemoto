@@ -71,5 +71,6 @@
   "relatedFigureIds": [],
   "relatedStoryIds": ["zorro-unmasked"],
   "articleIds": [],
-  "sourceIds": ["mcculley-capistrano"]
+  "sourceIds": ["mcculley-capistrano"],
+  "imageId": "figure-zorro"
 }

@@ -71,5 +71,6 @@
   "relatedFigureIds": ["perun"],
   "relatedStoryIds": ["oath-of-perun-and-volos"],
   "articleIds": [],
-  "sourceIds": ["primary-chronicle"]
+  "sourceIds": ["primary-chronicle"],
+  "imageId": "figure-veles"
 }

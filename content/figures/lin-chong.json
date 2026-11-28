@@ -4,16 +4,10 @@
   "name": "林冲",
   "reading": "りんちゅう",
   "originalName": "林沖",
-  "alternativeNames": [
-    "豹子頭"
-  ],
+  "alternativeNames": ["豹子頭"],
   "type": "hero",
-  "roles": [
-    "八十万禁軍の槍棒師範"
-  ],
-  "mythologyIds": [
-    "water-margin"
-  ],
+  "roles": ["八十万禁軍の槍棒師範"],
+  "mythologyIds": ["water-margin"],
   "description": "あだ名は「豹子頭」。天雄星の生まれ変わり。都の八十万禁軍で槍と棒を教える師範だったが、上官の高俅（高太尉）の養子が妻に横恋慕したことから罠にはめられ、流罪になる。流刑先でも命を狙われ、雪の夜に仇を討って梁山泊へ身を投じた。",
   "body": [
     {
@@ -24,9 +18,7 @@
     {
       "type": "paragraph",
       "text": "『水滸伝』で、林冲の妻に高太尉（高俅）の養子・高衙内が横恋慕したことから、林冲は陥れられます。名刀を買った林冲は、刀を見たいという高太尉の呼び出しに応じて軍の機密を扱う白虎堂へ入ってしまい、刀を帯びて押し入った罪で捕らえられました。",
-      "claimIds": [
-        "fg-lin-chong-1"
-      ]
+      "claimIds": ["fg-lin-chong-1"]
     },
     {
       "type": "heading",
@@ -36,9 +28,7 @@
     {
       "type": "paragraph",
       "text": "滄州への流刑の途中、護送役人の董超と薛覇は高太尉側に買収されており、野猪林で林冲を殺そうとします。そこへひそかに後を追っていた義兄弟の魯智深が現れ、林冲を救いました。",
-      "claimIds": [
-        "fg-lin-chong-2"
-      ]
+      "claimIds": ["fg-lin-chong-2"]
     },
     {
       "type": "heading",
@@ -48,9 +38,7 @@
     {
       "type": "paragraph",
       "text": "滄州で秣（まぐさ）置き場の番人を命じられた林冲は、雪の夜に小屋がつぶれて山神廟に泊まり、そのあいだに追っ手の陸謙らが秣置き場に火を放ったことを知ります。廟の外で企みのすべてを聞いた林冲は彼らを討ち、雪の中を梁山泊へ向かいました。",
-      "claimIds": [
-        "fg-lin-chong-3"
-      ]
+      "claimIds": ["fg-lin-chong-3"]
     },
     {
       "type": "heading",
@@ -60,9 +48,7 @@
     {
       "type": "paragraph",
       "text": "梁山泊の首領・王倫は度量が狭く、林冲を疎んじ、のちに晁蓋たちの受け入れも渋りました。林冲は王倫を斬り、晁蓋を首領に推して、梁山泊が大きくなる道を開きました。",
-      "claimIds": [
-        "fg-lin-chong-4"
-      ]
+      "claimIds": ["fg-lin-chong-4"]
     }
   ],
   "claims": [
@@ -70,9 +56,7 @@
       "id": "fg-lin-chong-1",
       "text": "高衙内が林冲の妻に横恋慕し、林冲は刀を見せに来るよう呼び出されて白虎堂に入り、刀を持って押し入った罪で捕らえられた。",
       "classification": "fact",
-      "sourceIds": [
-        "shuihu-zhuan"
-      ],
+      "sourceIds": ["shuihu-zhuan"],
       "verificationStatus": "verified",
       "sourceLocation": "『水滸伝』第7回"
     },
@@ -80,9 +64,7 @@
       "id": "fg-lin-chong-2",
       "text": "流刑の護送役人は野猪林で林冲を殺そうとしたが、後をつけていた魯智深が林冲を救った。",
       "classification": "fact",
-      "sourceIds": [
-        "shuihu-zhuan"
-      ],
+      "sourceIds": ["shuihu-zhuan"],
       "verificationStatus": "verified",
       "sourceLocation": "『水滸伝』第8回"
     },
@@ -90,9 +72,7 @@
       "id": "fg-lin-chong-3",
       "text": "雪の夜、林冲は山神廟で陸謙らが秣置き場に火を放った企みを聞き、彼らを殺した。",
       "classification": "fact",
-      "sourceIds": [
-        "shuihu-zhuan"
-      ],
+      "sourceIds": ["shuihu-zhuan"],
       "verificationStatus": "verified",
       "sourceLocation": "『水滸伝』第10回"
     },
@@ -100,24 +80,18 @@
       "id": "fg-lin-chong-4",
       "text": "林冲は晁蓋らを受け入れようとしない王倫を斬り、晁蓋を首領に推した。",
       "classification": "fact",
-      "sourceIds": [
-        "shuihu-zhuan"
-      ],
+      "sourceIds": ["shuihu-zhuan"],
       "verificationStatus": "verified",
       "sourceLocation": "『水滸伝』第19回"
     }
   ],
-  "relatedFigureIds": [
-    "lu-zhishen"
-  ],
+  "relatedFigureIds": ["lu-zhishen"],
   "relatedStoryIds": [
     "lin-chong-and-the-white-tiger-hall",
     "snow-at-the-mountain-god-temple",
     "stone-tablet-of-the-108-stars"
   ],
   "articleIds": [],
-  "sourceIds": [
-    "shuihu-zhuan"
-  ],
+  "sourceIds": ["shuihu-zhuan"],
   "imageId": "figure-lin-chong"
 }

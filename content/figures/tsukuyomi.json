@@ -69,5 +69,6 @@
   "relatedFigureIds": ["izanagi", "amaterasu", "susanoo"],
   "relatedStoryIds": ["birth-of-three-noble-children"],
   "articleIds": [],
-  "sourceIds": ["kojiki", "nihon-shoki"]
+  "sourceIds": ["kojiki", "nihon-shoki"],
+  "imageId": "figure-tsukuyomi"
 }

@@ -7,12 +7,8 @@
   "romanized": "Morgiana",
   "alternativeNames": [],
   "type": "fictional",
-  "roles": [
-    "女奴隷"
-  ],
-  "mythologyIds": [
-    "arabian-nights"
-  ],
+  "roles": ["女奴隷"],
+  "mythologyIds": ["arabian-nights"],
   "description": "「アリババと40人の盗賊」で、アリババの家に仕える賢く勇敢な女奴隷。油の壺に隠れた盗賊たちに煮えた油を注いで退治し、さらに盗賊の首領を踊りの最中に短剣で倒して主人の命を救った。アリババは彼女を自由の身にし、自分の甥（息子とする版もある）と結婚させた。",
   "body": [
     {
@@ -23,9 +19,7 @@
     {
       "type": "paragraph",
       "text": "盗賊の一人がアリババの家を突き止め、門に白墨で印をつけていきました。それに気づいたモルジアナは、近所の家々の門にも同じ印をつけ、盗賊たちにどの家かわからなくさせました。",
-      "claimIds": [
-        "fg-morgiana-1"
-      ]
+      "claimIds": ["fg-morgiana-1"]
     },
     {
       "type": "heading",
@@ -35,9 +29,7 @@
     {
       "type": "paragraph",
       "text": "やがて首領が油商人に化け、手下を壺に隠してアリババの家に泊まります。油を取りに行ったモルジアナは壺の中の男の声で企みを知り、本物の油を煮立てて一つずつ壺に注ぎ、盗賊たちを倒しました。",
-      "claimIds": [
-        "fg-morgiana-2"
-      ]
+      "claimIds": ["fg-morgiana-2"]
     },
     {
       "type": "heading",
@@ -47,9 +39,7 @@
     {
       "type": "paragraph",
       "text": "首領はさらに商人に姿を変えて客として招かれますが、塩を入れた料理を食べようとしないことからモルジアナは正体を見抜きます。彼女は踊り子として客の前で舞い、その最中に短剣で首領を刺しました。",
-      "claimIds": [
-        "fg-morgiana-3"
-      ]
+      "claimIds": ["fg-morgiana-3"]
     }
   ],
   "claims": [
@@ -57,9 +47,7 @@
       "id": "fg-morgiana-1",
       "text": "盗賊がアリババの家の門に白墨で印をつけると、モルジアナは近所の門にも同じ印をつけて見分けられなくした。",
       "classification": "fact",
-      "sourceIds": [
-        "arabian-nights"
-      ],
+      "sourceIds": ["arabian-nights"],
       "verificationStatus": "verified",
       "sourceLocation": "『千夜一夜物語』「アリババと40人の盗賊」"
     },
@@ -67,9 +55,7 @@
       "id": "fg-morgiana-2",
       "text": "首領が油商人に化けて手下を壺に隠すと、モルジアナは煮立てた油を壺に注いで盗賊たちを殺した。",
       "classification": "fact",
-      "sourceIds": [
-        "arabian-nights"
-      ],
+      "sourceIds": ["arabian-nights"],
       "verificationStatus": "verified",
       "sourceLocation": "『千夜一夜物語』「アリババと40人の盗賊」"
     },
@@ -77,22 +63,14 @@
       "id": "fg-morgiana-3",
       "text": "客として招かれた首領が塩の入った料理を避けたことからモルジアナは正体に気づき、踊りの最中に短剣で首領を刺した。",
       "classification": "fact",
-      "sourceIds": [
-        "arabian-nights"
-      ],
+      "sourceIds": ["arabian-nights"],
       "verificationStatus": "verified",
       "sourceLocation": "『千夜一夜物語』「アリババと40人の盗賊」"
     }
   ],
-  "relatedFigureIds": [
-    "ali-baba"
-  ],
-  "relatedStoryIds": [
-    "open-sesame"
-  ],
+  "relatedFigureIds": ["ali-baba"],
+  "relatedStoryIds": ["open-sesame"],
   "articleIds": [],
-  "sourceIds": [
-    "arabian-nights"
-  ],
+  "sourceIds": ["arabian-nights"],
   "imageId": "figure-morgiana"
 }

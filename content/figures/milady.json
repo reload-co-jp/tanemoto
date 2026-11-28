@@ -5,16 +5,10 @@
   "reading": "みれでぃ",
   "originalName": "Milady de Winter",
   "romanized": "Milady de Winter",
-  "alternativeNames": [
-    "ミレディ・ド・ウィンター"
-  ],
+  "alternativeNames": ["ミレディ・ド・ウィンター"],
   "type": "fictional",
-  "roles": [
-    "枢機卿の密偵"
-  ],
-  "mythologyIds": [
-    "three-musketeers"
-  ],
+  "roles": ["枢機卿の密偵"],
+  "mythologyIds": ["three-musketeers"],
   "description": "アレクサンドル・デュマの『三銃士』に登場する美貌の女密偵。リシュリュー枢機卿の命を受けて暗躍し、ダルタニャンたち銃士と敵対する。肩には罪人の印である百合の花の焼き印があり、かつて銃士アトスの妻だった過去をもつ。ダルタニャンの恋人コンスタンスを毒殺したため、最後は銃士たちに裁かれ、処刑される。",
   "body": [
     {
@@ -25,9 +19,7 @@
     {
       "type": "paragraph",
       "text": "ダルタニャンはミレディの侍女の手引きで彼女の寝室に入り込み、もみ合ううちに、むき出しになった肩に罪人の印である百合の花の烙印を見てしまいます。秘密を知られたミレディは、以後ダルタニャンを執拗に狙うようになりました。",
-      "claimIds": [
-        "fg-milady-1"
-      ]
+      "claimIds": ["fg-milady-1"]
     },
     {
       "type": "heading",
@@ -37,9 +29,7 @@
     {
       "type": "paragraph",
       "text": "アトスはかつて、ある伯爵が若く美しい娘を妻にしたところ、狩りの最中に彼女の肩に烙印を見つけ、木に吊るしたという話を打ち明けます。その伯爵こそアトス自身であり、生き延びた妻がミレディでした。",
-      "claimIds": [
-        "fg-milady-2"
-      ]
+      "claimIds": ["fg-milady-2"]
     },
     {
       "type": "heading",
@@ -49,9 +39,7 @@
     {
       "type": "paragraph",
       "text": "ミレディはイギリスで見張り役の青年フェルトンを誘惑してバッキンガム公の暗殺に向かわせ、フランスに戻ると修道院にかくまわれていたコンスタンスを毒殺しました。追いついた銃士たちと義兄ウィンター卿は彼女の罪を一つずつ告発し、リールの処刑人が首を落としました。",
-      "claimIds": [
-        "fg-milady-3"
-      ]
+      "claimIds": ["fg-milady-3"]
     }
   ],
   "claims": [
@@ -59,9 +47,7 @@
       "id": "fg-milady-1",
       "text": "ダルタニャンはミレディの肩に百合の花の烙印を見つけ、秘密を知られたミレディは彼を殺そうとする。",
       "classification": "fact",
-      "sourceIds": [
-        "dumas-three-musketeers"
-      ],
+      "sourceIds": ["dumas-three-musketeers"],
       "verificationStatus": "verified",
       "sourceLocation": "『三銃士』第37章"
     },
@@ -69,9 +55,7 @@
       "id": "fg-milady-2",
       "text": "アトスは、肩に烙印のある妻を木に吊るした伯爵の話をし、その妻がミレディであったことが明かされる。",
       "classification": "fact",
-      "sourceIds": [
-        "dumas-three-musketeers"
-      ],
+      "sourceIds": ["dumas-three-musketeers"],
       "verificationStatus": "verified",
       "sourceLocation": "『三銃士』第27章"
     },
@@ -79,20 +63,14 @@
       "id": "fg-milady-3",
       "text": "ミレディはフェルトンにバッキンガム公を暗殺させ、コンスタンスを毒殺した。銃士たちとウィンター卿は彼女の罪を告発し、リールの処刑人が首を斬った。",
       "classification": "fact",
-      "sourceIds": [
-        "dumas-three-musketeers"
-      ],
+      "sourceIds": ["dumas-three-musketeers"],
       "verificationStatus": "verified",
       "sourceLocation": "『三銃士』第59章・第63章・第65章〜第66章"
     }
   ],
   "relatedFigureIds": [],
-  "relatedStoryIds": [
-    "milady-judged"
-  ],
+  "relatedStoryIds": ["milady-judged"],
   "articleIds": [],
-  "sourceIds": [
-    "dumas-three-musketeers"
-  ],
+  "sourceIds": ["dumas-three-musketeers"],
   "imageId": "figure-milady"
 }

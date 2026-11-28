@@ -5,17 +5,10 @@
   "reading": "ばろーる",
   "originalName": "Balor",
   "romanized": "Balor",
-  "alternativeNames": [
-    "邪眼のバロール"
-  ],
+  "alternativeNames": ["邪眼のバロール"],
   "type": "giant",
-  "roles": [
-    "邪眼",
-    "フォウォレの王"
-  ],
-  "mythologyIds": [
-    "celtic"
-  ],
+  "roles": ["邪眼", "フォウォレの王"],
+  "mythologyIds": ["celtic"],
   "description": "アイルランドを支配した魔族フォウォレの王。見た軍勢を無力にする邪眼をもち、そのまぶたは四人がかりで柄を使って持ち上げた。第二のマグ・トゥレドの戦いで、孫にあたるルーの投石に眼を射抜かれて倒れた。",
   "body": [
     {
@@ -26,9 +19,7 @@
     {
       "type": "paragraph",
       "text": "『マグ・トゥレドの戦い』によれば、バロールの邪眼は戦場でしか開かれず、四人の男がまぶたに通した磨かれた柄を使ってそれを持ち上げました。その眼を向けられた軍勢は、たとえ数千人いても、わずかな戦士にさえ抵抗できなくなったといいます。",
-      "claimIds": [
-        "fg-balor-1"
-      ]
+      "claimIds": ["fg-balor-1"]
     },
     {
       "type": "heading",
@@ -38,9 +29,7 @@
     {
       "type": "paragraph",
       "text": "眼がそのような力をもったのは、父の魔術師たちが呪いの薬を煮ていたとき、それをのぞき込んだバロールの眼に煮汁の湯気が入ったからだと語られます。",
-      "claimIds": [
-        "fg-balor-2"
-      ]
+      "claimIds": ["fg-balor-2"]
     },
     {
       "type": "heading",
@@ -50,9 +39,7 @@
     {
       "type": "paragraph",
       "text": "戦いのさなか、まぶたが持ち上げられたところへ、ルーが投石器で石を放ちました。石は眼を頭の後ろへ突き抜けさせ、邪眼はフォウォレ自身の軍勢のほうを向いて、多くの味方を倒したとされます。",
-      "claimIds": [
-        "fg-balor-3"
-      ]
+      "claimIds": ["fg-balor-3"]
     }
   ],
   "claims": [
@@ -60,9 +47,7 @@
       "id": "fg-balor-1",
       "text": "バロールの邪眼は戦場でしか開かれず、四人の男がまぶたに通した柄でそれを持ち上げた。その眼を見た軍勢は、数千人いてもわずかな戦士に抵抗できなかった。",
       "classification": "fact",
-      "sourceIds": [
-        "cath-maige-tuired"
-      ],
+      "sourceIds": ["cath-maige-tuired"],
       "verificationStatus": "verified",
       "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101頁"
     },
@@ -70,9 +55,7 @@
       "id": "fg-balor-2",
       "text": "バロールの眼が毒の力をもったのは、父の魔術師たちが呪いの薬を煮ていたところをのぞき、その湯気が眼に入ったためである。",
       "classification": "fact",
-      "sourceIds": [
-        "cath-maige-tuired"
-      ],
+      "sourceIds": ["cath-maige-tuired"],
       "verificationStatus": "verified",
       "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101頁"
     },
@@ -80,23 +63,14 @@
       "id": "fg-balor-3",
       "text": "ルーが投石器で放った石はバロールの眼を頭の後ろへ突き抜けさせ、その眼はフォウォレ自身の軍勢を見ることになり、多くの者が倒れた。",
       "classification": "fact",
-      "sourceIds": [
-        "cath-maige-tuired"
-      ],
+      "sourceIds": ["cath-maige-tuired"],
       "verificationStatus": "verified",
       "sourceLocation": "『マグ・トゥレドの戦い』Stokes 英訳 Revue Celtique 12, 101頁"
     }
   ],
-  "relatedFigureIds": [
-    "lugh",
-    "nuada"
-  ],
-  "relatedStoryIds": [
-    "second-battle-of-mag-tuired"
-  ],
+  "relatedFigureIds": ["lugh", "nuada"],
+  "relatedStoryIds": ["second-battle-of-mag-tuired"],
   "articleIds": [],
-  "sourceIds": [
-    "cath-maige-tuired"
-  ],
+  "sourceIds": ["cath-maige-tuired"],
   "imageId": "figure-balor"
 }
