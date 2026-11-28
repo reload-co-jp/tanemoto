@@ -20,6 +20,7 @@ import {
   getArticlesForFigure,
   getArticlesForMythology,
   getArticlesForTopic,
+  getCharactersForWork,
   getFeaturedArticles,
   getFigures,
   getMythologies,
@@ -36,7 +37,18 @@ import { bp, color, font } from "@/lib/styles/theme"
 
 export const metadata = buildMetadata({ path: "/" })
 
+/** トップページに掲載する作品・人物の数 */
+const HOME_WORKS = 12
+const HOME_FIGURES = 24
+
 const styles = css`
+  /* スマートフォンではタイル・記事の表示数を減らし、ページが縦に長くなりすぎないようにする */
+  @media (max-width: 799px) {
+    .t-home-compact .t-tiles > li:nth-child(n + 5),
+    .t-home-compact .t-rows > li:nth-child(n + 5) {
+      display: none;
+    }
+  }
   .t-home-grid {
     margin-top: 48px;
     display: grid;
@@ -138,8 +150,19 @@ const Page = () => {
     .filter((a) => !featured.includes(a))
     .slice(0, 6)
   const popular = getPopularArticles(5)
-  const figures = getFigures().filter((f) => getArticlesForFigure(f).length > 0)
-  const works = getWorks()
+  // 記事の多い人物・キャラクターの多い作品から順に、一部だけを掲載する（全件は一覧ページへ）
+  const allFigures = getFigures()
+    .map((f) => ({ f, count: getArticlesForFigure(f).length }))
+    .filter(({ count }) => count > 0)
+    .sort((a, b) => b.count - a.count)
+    .map(({ f }) => f)
+  const figures = allFigures.slice(0, HOME_FIGURES)
+  const allWorks = getWorks()
+  const works = allWorks
+    .map((w) => ({ w, count: getCharactersForWork(w).length }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, HOME_WORKS)
+    .map(({ w }) => w)
   const characters = getCharacters()
   const mythologies = getMythologies().filter((m) => !m.comingSoon)
   const sourceGroups = (
@@ -168,7 +191,9 @@ const Page = () => {
         }}
       >
         {characters.length > 0 ? (
-          <TileList items={characters.slice(0, 8).map(characterTile)} />
+          <div className="t-home-compact">
+            <TileList items={characters.slice(0, 8).map(characterTile)} />
+          </div>
         ) : (
           <p className="t-empty">キャラクターの元ネタ解説は準備中です。</p>
         )}
@@ -176,7 +201,10 @@ const Page = () => {
           <div style={{ marginTop: 20 }}>
             <p className="t-meta" style={{ marginBottom: 8 }}>
               作品から探す ／{" "}
-              <Link href={paths.origins()}>神話から逆引きする →</Link>
+              <Link href={paths.works()}>
+                すべての作品（{allWorks.length}件）→
+              </Link>{" "}
+              ／ <Link href={paths.origins()}>神話から逆引きする →</Link>
             </p>
             <ChipList
               items={works.map((w) => ({
@@ -205,10 +233,14 @@ const Page = () => {
             id="latest"
             more={{ href: paths.articles(), label: "記事一覧へ" }}
           >
-            <ArticleList
-              articles={latest.length > 0 ? latest : getArticles().slice(0, 6)}
-              layout="row"
-            />
+            <div className="t-home-compact">
+              <ArticleList
+                articles={
+                  latest.length > 0 ? latest : getArticles().slice(0, 6)
+                }
+                layout="row"
+              />
+            </div>
           </Section>
         </div>
         <div>
@@ -252,7 +284,10 @@ const Page = () => {
         mascot="mouse"
         en="Figures"
         id="figures"
-        more={{ href: paths.figures(), label: "すべての人物・怪物" }}
+        more={{
+          href: paths.figures(),
+          label: `すべての人物・怪物（${allFigures.length}件）`,
+        }}
       >
         <ChipList
           items={figures.map((f) => ({
@@ -270,14 +305,16 @@ const Page = () => {
         id="topics"
         more={{ href: paths.topics(), label: "すべてのテーマ" }}
       >
-        <TileList
-          items={getTopics().map((t) => ({
-            href: paths.topic(t.slug),
-            title: t.name,
-            description: t.description,
-            meta: `記事 ${getArticlesForTopic(t).length}件`,
-          }))}
-        />
+        <div className="t-home-compact">
+          <TileList
+            items={getTopics().map((t) => ({
+              href: paths.topic(t.slug),
+              title: t.name,
+              description: t.description,
+              meta: `記事 ${getArticlesForTopic(t).length}件`,
+            }))}
+          />
+        </div>
       </Section>
 
       <section
